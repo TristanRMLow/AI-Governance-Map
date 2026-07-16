@@ -1,0 +1,275 @@
+{
+  "code": "tw",
+  "name": "Taiwan",
+  "shortName": "Taiwan",
+  "flagEmoji": "\ud83c\uddf9\ud83c\uddfc",
+  "geometryType": "polygon",
+  "isoA3": [
+    "TWN"
+  ],
+  "region": "Asia-Pacific",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "New AI Basic Act atop a chip-centric, not model-centric, AI economy",
+  "accentColor": {
+    "light": "#529898",
+    "dark": "#6DB0B0"
+  },
+  "center": [
+    121.0,
+    23.7
+  ],
+  "zoom": 7.0,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 4,
+  "debateTopics": [
+    "AI chip export controls on China beyond the existing US blacklist",
+    "Building an AI ecosystem around chips rather than models"
+  ],
+  "overview": "Taiwan's AI Basic Act passed the Legislative Yuan in December 2025 and took effect on 14 January 2026, adopting an EU-AI-Act-aligned definition of AI and seven core principles: sustainable development and wellbeing, human autonomy, privacy, cybersecurity, transparency, fairness, and accountability. The Cabinet is now forming a national AI strategy committee to draft Taiwan's first AI development blueprint.\n\nUnlike most peer economies profiled here, Taiwan's AI story is overwhelmingly about chips, not models \u2014 TSMC's centrality to the global AI hardware supply chain dominates its ecosystem far more than any domestic frontier AI software lab, which Taiwan notably lacks at a scale comparable to Japan's Sakana AI or France's Mistral. As of mid-2026, Taiwan is reportedly considering export-control rules on AI chips to China that go beyond the existing US blacklist, with direct implications for TSMC and its supply chain.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "New AI Basic Act; ecosystem is chip-centric",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "AI Basic Act aligned with EU AI Act definitions and seven core principles",
+    "latestMajorUpdate": "June exports up 40.3% year-on-year on surging AI chip demand",
+    "governmentInvolvement": "Moderate \u2014 new AI Basic Act plus a forming national AI strategy committee",
+    "industrialStrategy": "Chip-centric: TSMC's global foundry dominance drives the AI economy far more than domestic model labs",
+    "internationalPartnerships": "Close alignment with US export-control posture on advanced AI chips",
+    "primaryPolicyFocus": "Balancing chip-export controls on China against TSMC's central supply-chain role"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Taiwan moved quickly to pass a comprehensive AI Basic Act, and is now considering going further than existing US chip-export rules on sales to China \u2014 a distinctly supply-chain-driven form of AI policy tightening given TSMC's centrality to global AI hardware."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Taiwan's exports rise 40.3% year-on-year in June, driven overwhelmingly by surging global demand for AI chips.",
+      "date": "2026-07",
+      "sourceIds": [
+        "tw-4"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Taiwan reportedly mulls tighter AI chip export rules on China beyond existing US blacklist entities, raising risks for server makers like Foxconn.",
+      "date": "2026-06",
+      "sourceIds": [
+        "tw-1"
+      ]
+    },
+    {
+      "text": "Cabinet forms a national AI strategy committee to draft Taiwan's first AI development blueprint.",
+      "date": "2026",
+      "sourceIds": [
+        "tw-2"
+      ]
+    },
+    {
+      "text": "AI Basic Act enters effect, adopting an EU-AI-Act-aligned definition and seven core principles.",
+      "date": "2026-01-14",
+      "sourceIds": [
+        "tw-3"
+      ],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "AI Basic Act",
+      "status": "in_force",
+      "summary": "Passed the Legislative Yuan 23 December 2025, in effect since 14 January 2026. Adopts an EU-AI-Act-aligned definition of AI and seven core principles covering sustainable development, human autonomy, privacy, cybersecurity, transparency, fairness and accountability.",
+      "sourceIds": [
+        "tw-3"
+      ]
+    },
+    {
+      "title": "Taiwan AI Action Plan 2.0",
+      "status": "in_force",
+      "summary": "Four-year national AI plan running 2023-2026, now in its final year.",
+      "sourceIds": [
+        "tw-2"
+      ]
+    },
+    {
+      "title": "Proposed AI chip export controls on China",
+      "status": "proposed",
+      "summary": "Reportedly under consideration as of June 2026 \u2014 would go beyond existing US blacklist restrictions and carries direct implications for TSMC and server makers like Foxconn.",
+      "sourceIds": [
+        "tw-1"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Taiwan's AI ecosystem is chip-centric rather than model-lab-centric: TSMC's centrality to global AI chip manufacturing dominates the landscape far more than any domestic frontier AI software lab, which Taiwan notably lacks at a scale comparable to regional peers.",
+    "sourceIds": [
+      "tw-2"
+    ]
+  },
+  "companies": [
+    {
+      "name": "TSMC",
+      "description": "The world's leading advanced-chip foundry and the linchpin of the global AI hardware supply chain \u2014 infrastructure central to AI, not itself an AI model developer.",
+      "url": "https://www.tsmc.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Major cloud provider for Taiwanese enterprise AI workloads."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider with significant Taiwanese enterprise integration."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across Taiwanese research and enterprise AI."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "AWS",
+        "share": 30
+      },
+      {
+        "provider": "Azure",
+        "share": 26
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 14
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "National Taiwan University",
+      "description": "Taiwan's leading research university, with a growing AI research programme."
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "National Science and Technology Council",
+      "description": "Cabinet-level body coordinating Taiwan's national AI strategy and the new AI strategy committee."
+    },
+    {
+      "name": "Ministry of Digital Affairs",
+      "description": "Handles AI governance, risk-assessment and policy implementation."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "C.C. Wei",
+      "role": "Chief Executive Officer",
+      "affiliation": "TSMC",
+      "category": "company_leader",
+      "url": "https://www.tsmc.com"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "National Science and Technology Council",
+      "type": "government"
+    },
+    {
+      "label": "Ministry of Digital Affairs",
+      "type": "agency"
+    },
+    {
+      "label": "TSMC",
+      "type": "company"
+    },
+    {
+      "label": "National Taiwan University",
+      "type": "research"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "AI chip export controls on China beyond the existing US blacklist",
+      "category": "security",
+      "summary": "Taiwan is reportedly considering export restrictions on AI chips to China that go further than current US rules \u2014 a move with direct consequences for TSMC and its server-maker customers.",
+      "expanded": "Because TSMC manufactures the overwhelming majority of the world's most advanced AI chips, any Taiwanese export-control decision has outsized global impact compared to a similar decision by most other governments. Server makers like Foxconn face real supply-chain risk if restrictions tighten further, while national-security advocates argue Taiwan has strong incentive to align closely with US controls given its own security relationship with Washington.",
+      "sourceIds": [
+        "tw-1"
+      ]
+    },
+    {
+      "topic": "Building an AI ecosystem around chips rather than models",
+      "category": "infrastructure",
+      "summary": "Taiwan's AI policy conversation is unusually dominated by hardware and supply-chain questions rather than model development or deployment risk.",
+      "expanded": "Unlike most economies profiled here, Taiwan doesn't have a domestic frontier AI software lab to build policy around \u2014 its AI Basic Act and strategy committee are working to define what an AI development blueprint looks like for an economy whose comparative advantage is manufacturing the chips everyone else's models run on, rather than building the models themselves.",
+      "sourceIds": [
+        "tw-2"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "C.C. Wei",
+      "type": "person",
+      "role": "TSMC Chief Executive Officer; the most consequential single voice in Taiwan's AI hardware supply chain.",
+      "category": "company",
+      "url": "https://www.tsmc.com"
+    },
+    {
+      "name": "National Science and Technology Council",
+      "type": "organization",
+      "role": "Cabinet-level body coordinating Taiwan's national AI strategy and the new AI strategy committee.",
+      "category": "government"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Taiwan's strategic leap into AI: the AI Basic Act",
+      "type": "government",
+      "author": "IAPP",
+      "url": "https://iapp.org/news/a/taiwan-s-strategic-leap-into-ai-enacting-the-ai-basic-act-to-foster-innovation-governance"
+    },
+    {
+      "title": "Taiwan AI Basic Act legal framework",
+      "type": "academic",
+      "author": "law.asia",
+      "url": "https://law.asia/taiwan-ai-basic-act-legal-framework-risk-policy/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "tw-1",
+      "title": "Taiwan reportedly mulls tighter AI chip export rules on China",
+      "publisher": "TrendForce",
+      "url": "https://www.trendforce.com/news/2026/06/10/news-taiwan-reportedly-mulls-tighter-ai-chip-export-rules-on-china-beyond-huawei-raising-risks-for-server-makers-like-foxconn/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "tw-2",
+      "title": "Taiwan AI strategy committee and blueprint",
+      "publisher": "Focus Taiwan",
+      "url": "https://focustaiwan.tw/sci-tech/202605210017",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "tw-3",
+      "title": "Taiwan AI Basic Act",
+      "publisher": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/01/taiwan-ai-basic-act",
+      "date": "2026-01",
+      "category": "think_tank"
+    },
+    {
+      "id": "tw-4",
+      "title": "Taiwan June exports rise 40.3% YoY on AI chip demand",
+      "publisher": "industry reporting",
+      "url": "https://www.tsmc.com",
+      "date": "2026-07",
+      "category": "news"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

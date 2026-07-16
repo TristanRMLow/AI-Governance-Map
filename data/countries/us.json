@@ -1,0 +1,570 @@
+{
+  "code": "us",
+  "name": "United States",
+  "shortName": "US",
+  "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+  "geometryType": "polygon",
+  "isoA3": [
+    "USA"
+  ],
+  "region": "Americas",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Sectoral and executive-led, with significant state-level activity",
+  "accentColor": {
+    "light": "#3E5979",
+    "dark": "#51749E"
+  },
+  "center": [
+    -98.5,
+    39.8
+  ],
+  "zoom": 3.2,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "Who leads AI policy after the AI czar role went vacant",
+    "Federal preemption vs. state AI laws",
+    "Copyright and AI training data",
+    "Export controls on AI chips",
+    "CAISI's expanding pre-deployment testing mandate"
+  ],
+  "overview": "The United States regulates AI through existing sectoral agencies and executive action rather than a single federal law. Since January 2025 the direction has been firmly deregulatory: the prior administration's safety-testing executive order was repealed, and the current administration's America's AI Action Plan prioritises infrastructure and export of the US AI stack over precautionary rules.\n\nIn the absence of federal legislation, states remain the most active source of binding AI rules, while NIST's Center for AI Standards and Innovation (CAISI) has become the most consistently active federal AI body, expanding its model-testing relationships with frontier labs through 2026.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Deregulatory, infrastructure-first",
+      "sentiment": "green"
+    },
+    "regulatoryApproach": "Sectoral, executive-led \u2014 no binding federal frontier-model law",
+    "latestMajorUpdate": "CAISI signs pre-deployment testing agreements with Google DeepMind, Microsoft and xAI",
+    "governmentInvolvement": "Low-to-moderate \u2014 light federal touch, no binding frontier-model law",
+    "industrialStrategy": "Infrastructure- and export-led; the 'Stargate' initiative and America's AI Action Plan prioritise compute build-out",
+    "internationalPartnerships": "Chip export-control coordination with allies; no formal multilateral AI safety treaty",
+    "primaryPolicyFocus": "Frontier model competitiveness and compute infrastructure over precautionary regulation"
+  },
+  "currentDirection": {
+    "trend": "loosening",
+    "summary": "Federal AI policy leadership has thinned rather than tightened through 2026 \u2014 the White House AI czar role sits vacant after David Sacks stepped down in March, leaving CAISI's technical standards and testing work as the most active and consistent thread of federal AI policy."
+  },
+  "recentDevelopments": [
+    {
+      "text": "FTC opens public comment on an AI-accuracy and manipulation policy statement; a bipartisan 'Great American AI Act' (GAAIA) discussion draft circulates in Congress; the House Science Committee advances ten AI bills.",
+      "date": "2026-07",
+      "sourceIds": [
+        "us-16"
+      ]
+    },
+    {
+      "text": "CAISI signs pre-deployment testing agreements with Google DeepMind, Microsoft and xAI, extending arrangements it already held with OpenAI and Anthropic.",
+      "date": "2026-05",
+      "sourceIds": [
+        "us-1"
+      ]
+    },
+    {
+      "text": "CAISI publishes a technical evaluation of DeepSeek's V4 Pro model.",
+      "date": "2026-04",
+      "sourceIds": [
+        "us-1"
+      ]
+    },
+    {
+      "text": "David Sacks steps down as White House AI & Crypto Czar after reaching the 130-day limit for special government employees; moves to co-chair the President's Council of Advisors on Science and Technology instead. No successor has been named.",
+      "date": "2026-03",
+      "sourceIds": [
+        "us-2"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "CAISI signs an MOU with the General Services Administration on federal AI procurement standards.",
+      "date": "2026-03",
+      "sourceIds": [
+        "us-1"
+      ]
+    },
+    {
+      "text": "CAISI launches an AI Agent Standards Initiative to develop evaluation benchmarks for autonomous AI agents.",
+      "date": "2026-02",
+      "sourceIds": [
+        "us-1"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Colorado AI Act (SB 24-205)",
+      "status": "in_force",
+      "summary": "Requires developers and deployers of high-risk AI systems used in consequential decisions (employment, credit, housing, healthcare) to conduct impact assessments and disclose algorithmic decision-making to consumers.",
+      "officialUrl": "https://leg.colorado.gov/bills/sb24-205",
+      "sourceIds": [
+        "us-5"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "California AB 2013 \u2014 Training Data Transparency",
+      "status": "in_force",
+      "summary": "Requires developers of generative AI systems made available to Californians to publicly document a high-level summary of the datasets used to train the system.",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2013",
+      "sourceIds": [
+        "us-4"
+      ]
+    },
+    {
+      "title": "TAKE IT DOWN Act",
+      "status": "in_force",
+      "summary": "Federal law criminalising the publication of non-consensual intimate imagery, including AI-generated deepfakes, and requiring platforms to remove reported content within 48 hours.",
+      "officialUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
+      "sourceIds": [
+        "us-6"
+      ]
+    },
+    {
+      "title": "Great American AI Act (GAAIA) \u2014 discussion draft",
+      "status": "proposed",
+      "summary": "A bipartisan federal discussion draft aimed at establishing a national AI standard, circulated alongside continued industry-backed preemption proposals; not yet introduced as a formal bill.",
+      "sourceIds": [
+        "us-16"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "US AI research remains the world's deepest, anchored by Stanford HAI, MIT CSAIL, and a dense private-lab research ecosystem that increasingly outpaces university output at the frontier. Federal programmes like the National AI Research Resource pilot aim to broaden compute access for academic researchers who can't match private labs' training-scale infrastructure.",
+    "sourceIds": [
+      "us-9",
+      "us-10"
+    ]
+  },
+  "companies": [
+    {
+      "name": "OpenAI",
+      "description": "Developer of the GPT model family and ChatGPT; central to US frontier AI policy discussions.",
+      "url": "https://openai.com"
+    },
+    {
+      "name": "Anthropic",
+      "description": "Developer of the Claude model family, with a public focus on AI safety research.",
+      "url": "https://anthropic.com"
+    },
+    {
+      "name": "Google DeepMind",
+      "description": "Google's AI research lab, responsible for the Gemini model family.",
+      "url": "https://deepmind.google"
+    },
+    {
+      "name": "Meta AI",
+      "description": "Meta's AI division, notable for releasing open-weight Llama models.",
+      "url": "https://ai.meta.com"
+    },
+    {
+      "name": "xAI",
+      "description": "Elon Musk-founded AI company developing the Grok model family; now under a CAISI pre-deployment testing agreement.",
+      "url": "https://x.ai"
+    },
+    {
+      "name": "NVIDIA",
+      "description": "Dominant supplier of AI training and inference chips, central to export-control debates.",
+      "url": "https://nvidia.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Leading US cloud provider and major AI compute host."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider and OpenAI's primary infrastructure partner."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider hosting Google DeepMind's models and third-party AI workloads."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "AWS",
+        "share": 32
+      },
+      {
+        "provider": "Azure",
+        "share": 25
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 12
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "Stanford Institute for Human-Centered AI (HAI)",
+      "description": "Publishes the widely-cited annual AI Index Report.",
+      "url": "https://hai.stanford.edu"
+    },
+    {
+      "name": "MIT CSAIL",
+      "description": "MIT's Computer Science and Artificial Intelligence Laboratory, a major academic AI research centre.",
+      "url": "https://csail.mit.edu"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "RAND Corporation",
+      "description": "Policy research organisation with a dedicated technology and security policy program covering AI.",
+      "url": "https://www.rand.org"
+    },
+    {
+      "name": "Center for Security and Emerging Technology (CSET)",
+      "description": "Georgetown-based think tank focused on AI and national security policy, influential on export-control debates.",
+      "url": "https://cset.georgetown.edu"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Center for AI Standards and Innovation (CAISI)",
+      "description": "NIST body developing evaluation methods and pre-deployment testing agreements with frontier labs; formerly the US AI Safety Institute.",
+      "url": "https://www.nist.gov/caisi",
+      "aliases": [
+        "AI Safety Institute",
+        "US AI Safety Institute"
+      ]
+    },
+    {
+      "name": "White House Office of Science and Technology Policy (OSTP)",
+      "description": "Coordinates federal AI policy and authored America's AI Action Plan.",
+      "url": "https://www.whitehouse.gov/ostp/"
+    },
+    {
+      "name": "Federal Trade Commission (FTC)",
+      "description": "Applies consumer-protection and competition law to AI products and marketing claims.",
+      "url": "https://www.ftc.gov/"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Michael Kratsios",
+      "role": "Director, Office of Science and Technology Policy",
+      "affiliation": "The White House",
+      "category": "government",
+      "url": "https://www.whitehouse.gov/ostp/"
+    },
+    {
+      "name": "David Sacks",
+      "role": "Co-Chair, President's Council of Advisors on Science and Technology (PCAST)",
+      "affiliation": "The White House",
+      "category": "advisor"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "Chief Executive Officer",
+      "affiliation": "OpenAI",
+      "category": "company_leader",
+      "url": "https://openai.com"
+    },
+    {
+      "name": "Dario Amodei",
+      "role": "Chief Executive Officer",
+      "affiliation": "Anthropic",
+      "category": "company_leader",
+      "url": "https://anthropic.com"
+    },
+    {
+      "name": "Jack Clark",
+      "role": "Co-founder & Head of Policy",
+      "affiliation": "Anthropic",
+      "category": "advisor"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Jack Clark",
+      "type": "person",
+      "role": "Anthropic co-founder; writes Import AI, a leading weekly US and global AI policy newsletter.",
+      "category": "newsletter",
+      "url": "https://importai.substack.com"
+    },
+    {
+      "name": "Zvi Mowshowitz",
+      "type": "person",
+      "role": "Writes Don't Worry About the Vase, a deeply detailed AI policy and safety newsletter.",
+      "category": "newsletter",
+      "url": "https://thezvi.substack.com"
+    },
+    {
+      "name": "Hard Fork",
+      "type": "organization",
+      "role": "New York Times technology podcast covering US AI policy and industry weekly.",
+      "category": "podcast",
+      "url": "https://www.nytimes.com/column/hard-fork"
+    },
+    {
+      "name": "CSET Georgetown",
+      "type": "organization",
+      "role": "Leading US think tank on AI and national security policy.",
+      "category": "think_tank",
+      "url": "https://cset.georgetown.edu"
+    },
+    {
+      "name": "Michael Kratsios",
+      "type": "person",
+      "role": "OSTP Director; central voice on federal AI policy direction.",
+      "category": "government",
+      "url": "https://www.whitehouse.gov/ostp/"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "White House OSTP",
+      "type": "government"
+    },
+    {
+      "label": "CAISI",
+      "type": "agency"
+    },
+    {
+      "label": "OpenAI",
+      "type": "company"
+    },
+    {
+      "label": "Anthropic",
+      "type": "company"
+    },
+    {
+      "label": "RAND Corporation",
+      "type": "think_tank"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Who leads AI policy after the AI czar role went vacant",
+      "category": "government",
+      "summary": "David Sacks's move from White House AI & Crypto Czar to a PCAST co-chair role in March 2026 left the position without a direct successor, raising questions about who actually coordinates federal AI policy now.",
+      "expanded": "Sacks reached the 130-day cap on his special-government-employee status and shifted to advising through PCAST rather than the White House directly. No replacement AI czar has been named. In practice, OSTP Director Michael Kratsios and CAISI have absorbed much of the coordinating role, but the absence of a dedicated czar has drawn commentary about whether AI policy now lacks a single accountable owner inside the administration.",
+      "sourceIds": [
+        "us-2"
+      ]
+    },
+    {
+      "topic": "Federal preemption vs. state AI laws",
+      "category": "government",
+      "summary": "Industry and parts of the federal government want a single national standard to override the growing patchwork of state AI laws; states are resisting losing their own rules.",
+      "expanded": "Colorado and California have moved fastest on binding state AI rules, and other states are drafting their own. Industry groups argue a fragmented 50-state patchwork raises compliance costs and slows deployment, and have lobbied for federal preemption. The new bipartisan GAAIA discussion draft is the most concrete sign yet of a federal alternative taking shape, though it remains a draft, not a bill. States' rights advocates and consumer groups counter that preemption without a real federal replacement would leave a regulatory vacuum.",
+      "sourceIds": [
+        "us-5",
+        "us-7",
+        "us-16"
+      ]
+    },
+    {
+      "topic": "Copyright and AI training data",
+      "category": "industry",
+      "summary": "Multiple lawsuits against OpenAI, Meta, and Stability AI over training on copyrighted material are testing the boundaries of fair use.",
+      "expanded": "Authors, news publishers, and visual artists have brought a wave of suits arguing that training foundation models on their copyrighted work without licence is infringement; AI developers argue it falls under fair use as transformative. Early rulings have been mixed, and the issue is expected to reach appellate courts before a clear precedent is set.",
+      "sourceIds": [
+        "us-11"
+      ]
+    },
+    {
+      "topic": "Export controls on AI chips",
+      "category": "security",
+      "summary": "Ongoing dispute over how tightly to restrict advanced AI chip exports, particularly to China, without ceding global AI infrastructure market share.",
+      "expanded": "Successive rounds of export controls have restricted sales of NVIDIA's and AMD's most advanced chips to China, aiming to slow rival AI capability growth. Critics argue restrictions push Chinese buyers toward domestic alternatives (accelerating China's own chip industry) and cede market share; national security officials argue the controls meaningfully slow adversary progress.",
+      "sourceIds": [
+        "us-12"
+      ]
+    },
+    {
+      "topic": "CAISI's expanding pre-deployment testing mandate",
+      "category": "government",
+      "summary": "CAISI has quietly become the most substantive check on frontier models in the US, now holding pre-deployment testing agreements with five major labs.",
+      "expanded": "With OpenAI, Anthropic, Google DeepMind, Microsoft and xAI all now under some form of CAISI pre-deployment testing arrangement, the agency has become the closest thing the US has to a binding frontier-model check \u2014 even though the arrangements are voluntary agreements rather than statutory requirements, and could in principle be unwound without legislative action.",
+      "sourceIds": [
+        "us-1"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "America's AI Action Plan",
+      "type": "government",
+      "url": "https://www.whitehouse.gov/ai/"
+    },
+    {
+      "title": "CAISI technical evaluations and standards",
+      "type": "government",
+      "url": "https://www.nist.gov/caisi"
+    },
+    {
+      "title": "AI Index Report",
+      "type": "academic",
+      "author": "Stanford HAI",
+      "url": "https://aiindex.stanford.edu/report/"
+    },
+    {
+      "title": "Export control research on AI chips",
+      "type": "think_tank",
+      "author": "CSET, Georgetown",
+      "url": "https://cset.georgetown.edu"
+    },
+    {
+      "title": "Genesis: Artificial Intelligence, Hope, and the Human Spirit",
+      "type": "book",
+      "author": "Henry Kissinger, Eric Schmidt & Craig Mundie"
+    },
+    {
+      "title": "AI Incident Database",
+      "type": "dataset",
+      "note": "Public, ongoing catalogue of real-world AI harms and incidents."
+    },
+    {
+      "title": "Import AI",
+      "type": "substack",
+      "author": "Jack Clark",
+      "url": "https://importai.substack.com"
+    },
+    {
+      "title": "Don't Worry About the Vase",
+      "type": "substack",
+      "author": "Zvi Mowshowitz",
+      "url": "https://thezvi.substack.com"
+    },
+    {
+      "title": "Hard Fork",
+      "type": "podcast",
+      "author": "Kevin Roose & Casey Newton, The New York Times",
+      "url": "https://www.nytimes.com/column/hard-fork"
+    },
+    {
+      "title": "Sam Altman's Senate Judiciary testimony on AI oversight",
+      "type": "speech",
+      "note": "May 2023 hearing on rules for AI, still widely cited in US policy debate."
+    }
+  ],
+  "sources": [
+    {
+      "id": "us-1",
+      "title": "NIST Center for AI Standards and Innovation",
+      "publisher": "NIST",
+      "url": "https://www.nist.gov/caisi",
+      "date": "2026-05",
+      "category": "government"
+    },
+    {
+      "id": "us-2",
+      "title": "David Sacks steps back from AI czar role",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html",
+      "date": "2026-03",
+      "category": "news"
+    },
+    {
+      "id": "us-3",
+      "title": "David Sacks' influence after the AI czar role",
+      "publisher": "Axios",
+      "url": "https://www.axios.com/2026/03/26/trump-white-house-david-sacks-ai-czar-policy-influence",
+      "date": "2026-03",
+      "category": "news"
+    },
+    {
+      "id": "us-4",
+      "title": "California Legislative Information",
+      "publisher": "California State Legislature",
+      "url": "https://leginfo.legislature.ca.gov/",
+      "date": "2024-09",
+      "category": "government"
+    },
+    {
+      "id": "us-5",
+      "title": "Colorado SB 24-205",
+      "publisher": "Colorado General Assembly",
+      "url": "https://leg.colorado.gov/bills/sb24-205",
+      "date": "2024-05",
+      "category": "government"
+    },
+    {
+      "id": "us-6",
+      "title": "TAKE IT DOWN Act",
+      "publisher": "US Congress",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
+      "date": "2025-05",
+      "category": "government"
+    },
+    {
+      "id": "us-7",
+      "title": "State AI legislation and preemption tracker",
+      "publisher": "RAND Corporation",
+      "url": "https://www.rand.org",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "us-9",
+      "title": "AI Index Report",
+      "publisher": "Stanford HAI",
+      "url": "https://aiindex.stanford.edu/report/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "us-10",
+      "title": "National AI Research Resource Pilot",
+      "publisher": "National Science Foundation",
+      "url": "https://nairrpilot.org/",
+      "date": "2024",
+      "category": "research"
+    },
+    {
+      "id": "us-11",
+      "title": "AI copyright litigation tracker",
+      "publisher": "Stanford HAI",
+      "url": "https://hai.stanford.edu",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "us-12",
+      "title": "AI chip export control analysis",
+      "publisher": "CSET, Georgetown",
+      "url": "https://cset.georgetown.edu",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "us-13",
+      "title": "Import AI newsletter",
+      "publisher": "Jack Clark",
+      "url": "https://importai.substack.com",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "us-14",
+      "title": "OpenAI policy blog",
+      "publisher": "OpenAI",
+      "url": "https://openai.com",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "us-15",
+      "title": "Bloomberg AI policy coverage",
+      "publisher": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "us-16",
+      "title": "AI Washington Report \u2014 July 2026",
+      "publisher": "Mintz",
+      "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
+      "date": "2026-07",
+      "category": "think_tank"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

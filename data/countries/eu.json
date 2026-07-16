@@ -1,0 +1,470 @@
+{
+  "code": "eu",
+  "name": "European Union",
+  "shortName": "EU",
+  "flagEmoji": "\ud83c\uddea\ud83c\uddfa",
+  "geometryType": "marker",
+  "isoA3": [],
+  "region": "Europe",
+  "jurisdictionType": "supranational",
+  "governanceModel": "Comprehensive, risk-based hard law binding all member states",
+  "accentColor": {
+    "light": "#314572",
+    "dark": "#405A96"
+  },
+  "center": [
+    4.35,
+    50.85
+  ],
+  "zoom": 4,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "Digital Omnibus \u2014 simplification or weakening of the AI Act?",
+    "Cloud and AI Development Act and compute sovereignty",
+    "Copyright and text-and-data-mining under the AI Act",
+    "AI Act enforcement readiness across member states"
+  ],
+  "overview": "The European Union has the world's most comprehensive binding AI law \u2014 but in June 2026 it amended that law for the first time since 2024 adoption. The 'Digital Omnibus' simplification package, finalised by the Council on 29 June 2026, pushed back several major compliance deadlines in response to industry competitiveness concerns, while adding a new prohibition on AI-generated non-consensual intimate imagery and CSAM.\n\nThe Commission is simultaneously pursuing compute sovereignty through a newly proposed Cloud and AI Development Act, aiming to reduce the EU's dependence on US hyperscalers for AI infrastructure.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Comprehensive law, timelines now loosening",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Risk-tiered hard law, binding across all member states",
+    "latestMajorUpdate": "New Action Plan on Cybersecurity and AI launched alongside CADA's Official Journal publication",
+    "governmentInvolvement": "Very high \u2014 binding supranational law enforced across all 27 member states",
+    "industrialStrategy": "Compute sovereignty via CADA and 'AI Gigafactories'; simplification to aid competitiveness",
+    "internationalPartnerships": "G7 Hiroshima Process; convenes global AI Act-style regulatory dialogue",
+    "primaryPolicyFocus": "Balancing AI Act enforcement with industrial competitiveness and compute sovereignty"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "The AI Act's core structure is unchanged, but June 2026's Digital Omnibus postponed several major compliance deadlines in response to competitiveness pressure \u2014 a real softening of pace even as the Commission simultaneously pushes forward on compute sovereignty via the proposed Cloud and AI Development Act."
+  },
+  "recentDevelopments": [
+    {
+      "text": "European Commission launches a new Action Plan on Cybersecurity and AI, addressing risks and opportunities at the intersection of the two; the Cloud and AI Development Act is due in the Official Journal on 15 July.",
+      "date": "2026-07-07",
+      "sourceIds": [
+        "eu-11"
+      ]
+    },
+    {
+      "text": "Council gives final approval to the Digital Omnibus, postponing high-risk AI system compliance deadlines to 2 December 2027 (standalone systems) and 2 August 2028 (embedded systems).",
+      "date": "2026-06-29",
+      "sourceIds": [
+        "eu-1"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Digital Omnibus adds a new prohibition on AI-generated non-consensual intimate imagery and CSAM, effective 2 December 2026.",
+      "date": "2026-06-29",
+      "sourceIds": [
+        "eu-1"
+      ]
+    },
+    {
+      "text": "Cloud and AI Development Act (CADA) proposed, setting four-tier cloud/AI sovereignty assurance levels and a procurement preference for EU providers, aiming to triple EU data-centre capacity by 2035.",
+      "date": "2026-06-03",
+      "sourceIds": [
+        "eu-2"
+      ]
+    },
+    {
+      "text": "Synthetic-content labelling duty postponed from August 2026 to December 2026 as part of the Digital Omnibus.",
+      "date": "2026-06-29",
+      "sourceIds": [
+        "eu-1"
+      ]
+    },
+    {
+      "text": "National regulatory sandbox mandate postponed to August 2027.",
+      "date": "2026-06-29",
+      "sourceIds": [
+        "eu-1"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "AI Act (Regulation (EU) 2024/1689), as amended by the Digital Omnibus",
+      "status": "in_force",
+      "summary": "In force since August 2024; June 2026's Digital Omnibus is the first amendment, postponing most high-risk system obligations to December 2027 / August 2028 while adding a new prohibition on AI-generated intimate imagery and CSAM (effective December 2026).",
+      "officialUrl": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "sourceIds": [
+        "eu-1"
+      ]
+    },
+    {
+      "title": "Cloud and AI Development Act (CADA)",
+      "status": "proposed",
+      "summary": "Proposed June 2026. Establishes four-tier cloud/AI sovereignty assurance levels and procurement preferences for EU providers, aiming to triple EU data-centre capacity by 2035.",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act",
+      "sourceIds": [
+        "eu-2"
+      ]
+    },
+    {
+      "title": "AI Liability Directive (proposed)",
+      "status": "proposed",
+      "summary": "A proposed directive intended to make it easier for individuals harmed by AI systems to bring civil-liability claims; negotiations have progressed slower than the AI Act itself.",
+      "sourceIds": [
+        "eu-3"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "EU AI research is coordinated through pan-European networks like ELLIS rather than a single national champion, reflecting the bloc's fragmented-but-collaborative research base. The Joint Research Centre's AI Watch continues as the Commission's own monitoring effort, tracking uptake and capability trends across all 27 member states.",
+    "sourceIds": [
+      "eu-4"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Mistral AI",
+      "description": "French frontier AI lab and the EU's flagship large-language-model developer.",
+      "url": "https://mistral.ai"
+    },
+    {
+      "name": "Aleph Alpha",
+      "description": "German AI company focused on sovereign, enterprise-grade language models.",
+      "url": "https://aleph-alpha.com"
+    },
+    {
+      "name": "DeepL",
+      "description": "German AI company known for high-quality machine translation.",
+      "url": "https://www.deepl.com"
+    },
+    {
+      "name": "Helsing",
+      "description": "German defence-AI company building AI systems for European militaries.",
+      "url": "https://helsing.ai"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Leading cloud provider for EU enterprise AI workloads, now subject to CADA's proposed sovereignty tiers."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Major cloud provider, closely tied to OpenAI's EU deployment."
+      },
+      {
+        "name": "OVHcloud",
+        "description": "French cloud provider positioned as a 'digital sovereignty' alternative to US hyperscalers."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "AWS",
+        "share": 30
+      },
+      {
+        "provider": "Azure",
+        "share": 27
+      },
+      {
+        "provider": "OVHcloud",
+        "share": 6
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "ELLIS (European Laboratory for Learning and Intelligent Systems)",
+      "description": "Pan-European network of AI research institutes aiming to retain top AI talent in Europe.",
+      "url": "https://ellis.eu"
+    },
+    {
+      "name": "Max Planck Institute for Intelligent Systems",
+      "description": "Leading German research institute for machine learning and robotics.",
+      "url": "https://is.mpg.de"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "CEPS",
+      "description": "Centre for European Policy Studies; produces detailed AI Act implementation analysis.",
+      "url": "https://www.ceps.eu"
+    },
+    {
+      "name": "Bruegel",
+      "description": "Brussels-based economic think tank covering AI's industrial and competitiveness implications.",
+      "url": "https://www.bruegel.org"
+    },
+    {
+      "name": "AlgorithmWatch",
+      "description": "NGO focused on algorithmic accountability and AI Act enforcement in practice.",
+      "url": "https://algorithmwatch.org"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "European Commission",
+      "description": "Proposes and enforces EU-wide digital and AI regulation, including the AI Act and the newly proposed Cloud and AI Development Act.",
+      "url": "https://commission.europa.eu"
+    },
+    {
+      "name": "European AI Office",
+      "description": "Oversees general-purpose AI model compliance and coordinates AI Act enforcement across the Union.",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+    },
+    {
+      "name": "Council of the European Union",
+      "description": "Represents member states in adopting EU digital legislation; gave final approval to the Digital Omnibus on 29 June 2026.",
+      "url": "https://www.consilium.europa.eu"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Henna Virkkunen",
+      "role": "Executive Vice-President for Tech Sovereignty, Security and Democracy",
+      "affiliation": "European Commission",
+      "category": "government",
+      "url": "https://commission.europa.eu/about/organisation/college-commissioners/henna-virkkunen_en"
+    },
+    {
+      "name": "Arthur Mensch",
+      "role": "Chief Executive Officer",
+      "affiliation": "Mistral AI",
+      "category": "company_leader",
+      "url": "https://mistral.ai"
+    },
+    {
+      "name": "Holger Hoos",
+      "role": "Co-founder, CLAIRE; AI research policy advocate",
+      "affiliation": "CLAIRE / Leiden University",
+      "category": "researcher"
+    },
+    {
+      "name": "Kai Zenner",
+      "role": "Digital policy advisor, European Parliament",
+      "affiliation": "European Parliament",
+      "category": "advisor"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "European Commission",
+      "type": "government"
+    },
+    {
+      "label": "European AI Office",
+      "type": "agency"
+    },
+    {
+      "label": "Mistral AI",
+      "type": "company"
+    },
+    {
+      "label": "ELLIS",
+      "type": "research"
+    },
+    {
+      "label": "CEPS",
+      "type": "think_tank"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Digital Omnibus \u2014 simplification or weakening of the AI Act?",
+      "category": "government",
+      "summary": "The first amendment to the AI Act since 2024 postpones major compliance deadlines by up to two years \u2014 industry calls it necessary relief, civil society calls it the start of erosion.",
+      "expanded": "Facing competitiveness pressure, the Commission proposed a simplification package that pushed high-risk system obligations back to December 2027 (standalone) and August 2028 (embedded), and delayed the sandbox mandate and synthetic-content labelling duty. Industry groups argued the AI Act's compliance burden, stacked alongside GDPR and the Digital Services Act, was slowing EU AI deployment relative to the US and China. Digital-rights groups see the Omnibus as a precedent for further softening, even though it also added a new prohibition on AI-generated intimate imagery and CSAM.",
+      "sourceIds": [
+        "eu-1"
+      ]
+    },
+    {
+      "topic": "Cloud and AI Development Act and compute sovereignty",
+      "category": "infrastructure",
+      "summary": "The EU's newly proposed CADA sets sovereignty tiers for cloud and AI infrastructure and aims to triple EU data-centre capacity by 2035.",
+      "expanded": "Proposed 3 June 2026, CADA would classify cloud and AI infrastructure providers into four sovereignty assurance tiers and give procurement preference to EU-based providers for sensitive public-sector workloads. Critics note the chips themselves (largely NVIDIA) and much of the underlying software stack remain non-European regardless of where the data centres sit or who owns them.",
+      "sourceIds": [
+        "eu-2"
+      ]
+    },
+    {
+      "topic": "Copyright and text-and-data-mining under the AI Act",
+      "category": "industry",
+      "summary": "GPAI transparency duties require disclosure of training content, colliding with unresolved EU copyright and text-and-data-mining rules.",
+      "expanded": "The AI Act requires general-purpose AI providers to publish a sufficiently detailed summary of training content and to respect rights holders' opt-outs under the DSM Copyright Directive's TDM exception. Rights holders argue enforcement has been weak in practice; AI developers argue the transparency bar is workable but resource-intensive, especially for smaller EU labs competing with better-resourced US rivals.",
+      "sourceIds": [
+        "eu-5"
+      ]
+    },
+    {
+      "topic": "AI Act enforcement readiness across member states",
+      "category": "government",
+      "summary": "With deadlines now pushed to 2027-2028, questions remain about whether national competent authorities across all 27 member states will actually be ready to enforce by then.",
+      "expanded": "Even before the Digital Omnibus delay, several member states had been slow to designate and resource the national authorities responsible for AI Act enforcement. The extended timeline buys more preparation time, but also raises the question of whether the delay reflects genuine implementation need or is itself a symptom of enforcement capacity concerns.",
+      "sourceIds": [
+        "eu-6"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Henna Virkkunen",
+      "type": "person",
+      "role": "Executive Vice-President for Tech Sovereignty, Security and Democracy; central voice on EU AI strategy.",
+      "category": "government",
+      "url": "https://commission.europa.eu/about/organisation/college-commissioners/henna-virkkunen_en"
+    },
+    {
+      "name": "Kai Zenner",
+      "type": "person",
+      "role": "European Parliament digital policy advisor, closely followed for AI Act implementation detail.",
+      "category": "government"
+    },
+    {
+      "name": "CEPS",
+      "type": "organization",
+      "role": "Centre for European Policy Studies; produces detailed AI Act implementation analysis.",
+      "category": "think_tank",
+      "url": "https://www.ceps.eu"
+    },
+    {
+      "name": "Euractiv Digital Brief",
+      "type": "organization",
+      "role": "Daily EU tech and digital policy newsletter.",
+      "category": "newsletter"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "AI Act (Regulation (EU) 2024/1689) \u2014 full text, as amended",
+      "type": "government",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Digital Omnibus \u2014 Council press release",
+      "type": "government",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
+    },
+    {
+      "title": "AI Watch",
+      "type": "academic",
+      "author": "Joint Research Centre",
+      "url": "https://ai-watch.ec.europa.eu"
+    },
+    {
+      "title": "AI Act implementation analysis",
+      "type": "think_tank",
+      "author": "CEPS",
+      "url": "https://www.ceps.eu"
+    },
+    {
+      "title": "Digital Brief",
+      "type": "substack",
+      "author": "Euractiv",
+      "note": "Daily EU tech and digital policy newsletter."
+    },
+    {
+      "title": "Politico Tech",
+      "type": "podcast",
+      "author": "Politico Europe"
+    },
+    {
+      "title": "Arthur Mensch on European AI sovereignty",
+      "type": "interview"
+    }
+  ],
+  "sources": [
+    {
+      "id": "eu-1",
+      "title": "Council gives final green light to simplify AI rules",
+      "publisher": "Council of the EU",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/",
+      "date": "2026-06-29",
+      "category": "government"
+    },
+    {
+      "id": "eu-2",
+      "title": "Cloud and AI Development Act",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act",
+      "date": "2026-06-03",
+      "category": "government"
+    },
+    {
+      "id": "eu-3",
+      "title": "AI Liability Directive proposal",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/",
+      "date": "2022-09",
+      "category": "government"
+    },
+    {
+      "id": "eu-4",
+      "title": "AI Watch",
+      "publisher": "Joint Research Centre",
+      "url": "https://ai-watch.ec.europa.eu/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "eu-5",
+      "title": "EU agrees Digital Omnibus deal to simplify AI rules",
+      "publisher": "White & Case",
+      "url": "https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules",
+      "date": "2026-06",
+      "category": "think_tank"
+    },
+    {
+      "id": "eu-6",
+      "title": "AI Act enforcement readiness analysis",
+      "publisher": "CEPS",
+      "url": "https://www.ceps.eu",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "eu-7",
+      "title": "ELLIS network research briefings",
+      "publisher": "ELLIS",
+      "url": "https://ellis.eu",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "eu-8",
+      "title": "Mistral AI policy blog",
+      "publisher": "Mistral AI",
+      "url": "https://mistral.ai",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "eu-9",
+      "title": "Reuters coverage of EU AI Act implementation",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "eu-10",
+      "title": "Kai Zenner policy commentary",
+      "publisher": "Kai Zenner",
+      "url": "https://www.linkedin.com/in/kaizenner",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "eu-11",
+      "title": "New EU plan to address risks and opportunities of advanced AI and cybersecurity",
+      "publisher": "European Commission",
+      "url": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
+      "date": "2026-07-07",
+      "category": "government"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

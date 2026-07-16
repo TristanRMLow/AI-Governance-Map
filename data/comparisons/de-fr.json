@@ -1,0 +1,84 @@
+{
+  "slug": "de-fr",
+  "countries": ["fr", "de"],
+  "title": "France vs Germany",
+  "tagline": "Two EU states, one law — and opposite theories of what sovereignty requires.",
+  "curated": true,
+  "executiveSummary": [
+    "France and Germany are the EU's two largest AI economies, but they have chosen almost opposite instruments to pursue the same goal: reducing dependence on US and Chinese AI infrastructure. France is betting on industrial policy — sovereign compute, a national champion in Mistral AI, and a targeted move away from NVIDIA dependence — while treating the EU AI Act as a compliance floor rather than a national project.",
+    "Germany has gone the other way. Rather than build new industrial capacity of its own, it has just passed one of the most stringent enforcement statutes in the EU — the KI-MIG, complete with personal executive liability — even as its own most credible national champion, Aleph Alpha, was sold to a Canadian competitor in the same window. The result is close to a natural experiment: can a country regulate its way to AI credibility if it can't build its way there industrially, and can a country build its way to credibility while treating its own new law as a compliance-only exercise?"
+  ],
+  "dimensions": [
+    {
+      "key": "regulatory-model",
+      "title": "Regulatory Model",
+      "category": "government",
+      "points": {
+        "fr": "No new national AI statute — sovereignty pursued through infrastructure (Mistral Compute, Jean Zay) and certification (SecNumCloud), not legislation.",
+        "de": "KI-MIG (AI Act Implementing Act), passed June 2026 — names the Bundesnetzagentur as market-surveillance authority and imposes personal liability on executives for AI security failures from August 2026, with fines up to €35M or 7% of global turnover."
+      },
+      "analysis": "Both operate under the same EU AI Act baseline, but Germany chose to gold-plate it with a genuinely punitive enforcement layer, while France added nothing on top of the EU floor — its energy went entirely into industrial capacity instead. Germany's approach puts more pressure on compliance teams and general counsel; France's puts more pressure on whether Mistral and French compute infrastructure can compete on capability alone."
+    },
+    {
+      "key": "industrial-strategy",
+      "title": "Industrial Strategy & Sovereign Champions",
+      "category": "investment",
+      "points": {
+        "fr": "Mistral AI is now a self-sufficient frontier lab running its own 'Mistral Compute' (18,000 NVIDIA Grace Blackwell chips), backed by a roughly €109B national infrastructure package and a three-year defense-AI contract with the Ministry of the Armed Forces.",
+        "de": "Aleph Alpha, Germany's equivalent sovereign champion, agreed in April 2026 to be acquired by Canada's Cohere — meaning Germany's flagship AI company is no longer German-owned, even as the government signs a new 'Sovereign Technology Alliance' with Canada."
+      },
+      "analysis": "This is the sharpest divergence between the two. France's national-champion strategy is, so far, working — Mistral has scaled into a genuine frontier lab with its own compute and a state defense contract. Germany's has just failed in the most visible way possible: its champion was bought by a foreign company in the same window it signed a bilateral 'sovereignty' pact with that company's home country. DFKI and the Max Planck Institute remain strong research institutions, but strong research hasn't yet translated into a surviving commercial sovereign lab the way it has in France."
+    },
+    {
+      "key": "silicon-independence",
+      "title": "Silicon & Compute Independence",
+      "category": "infrastructure",
+      "points": {
+        "fr": "Deliberately diversifying away from NVIDIA for national infrastructure — the Jean Zay supercomputer now runs AMD Instinct chips paired with European SiPearl CPUs, even though Mistral's own compute still runs on NVIDIA.",
+        "de": "No equivalent public silicon-diversification programme; German cloud and AI infrastructure remains dominated by Microsoft Azure, AWS and Google Cloud, with no domestic hyperscale alternative comparable to OVHcloud's role in France."
+      },
+      "analysis": "France is the only one of the two pursuing chip-level sovereignty, even if partially — Mistral itself still depends on NVIDIA. Germany hasn't fought that battle at all, treating cloud dependence on US hyperscalers as an acceptable cost of doing business, and directing its sovereignty anxiety toward law instead of hardware."
+    },
+    {
+      "key": "international-posture",
+      "title": "International Posture",
+      "category": "security",
+      "points": {
+        "fr": "ASML — Europe's chip-equipment giant — is Mistral's lead strategic investor with an 11% stake: an intra-European industrial alliance rather than a transatlantic one.",
+        "de": "The new Germany-Canada Sovereign Technology Alliance, launched at the Munich Security Conference, aims to reduce both countries' strategic technology dependency — announced in the same window Canada's Cohere acquired Aleph Alpha."
+      },
+      "analysis": "France's key international tie is intra-European; Germany's is transatlantic-adjacent and security-flavoured, but complicated by the fact that the same country's company just absorbed Germany's own AI champion — raising the question of whether the 'alliance' framing is doing real work or covering for a loss."
+    },
+    {
+      "key": "policy-focus",
+      "title": "Primary Policy Focus",
+      "category": "research",
+      "points": {
+        "fr": "Sovereign compute and frontier-lab competitiveness over new domestic regulation.",
+        "de": "AI Act enforcement mechanics and executive liability over new substantive rules."
+      },
+      "analysis": "Read together, these are almost a perfect mirror: France's stated focus is explicitly not regulation; Germany's is explicitly enforcement mechanics. Two EU member states under the same supranational law have picked opposite places to put their national energy."
+    }
+  ],
+  "policyOverlap": {
+    "shared": [
+      "Both are managing what 'sovereign AI' means in practice under real pressure — France by proving it through Mistral's rise, Germany by losing it through Aleph Alpha's sale — and both are responding with state-level alliances rather than retreating from the goal.",
+      "Both operate under the identical EU AI Act text, so any divergence between them from this point forward is a national-implementation choice, not a difference in underlying law."
+    ],
+    "perCountry": {
+      "fr": [
+        "No new domestic AI statute — regulation is entirely the EU AI Act, unmodified",
+        "SecNumCloud sovereignty certification for sensitive workloads, administered by ANSSI"
+      ],
+      "de": [
+        "KI-MIG adds a national enforcement and liability layer on top of the EU AI Act",
+        "Bundesnetzagentur named as the EU AI Act market-surveillance authority"
+      ]
+    }
+  },
+  "strategicTradeoffs": [
+    "France is betting that industrial capability is the more durable form of sovereignty — if Mistral keeps winning, the absence of a national AI law won't matter much. The risk is that this is substantially a single-company bet: French AI policy credibility currently rests on Mistral's continued success.",
+    "Germany is betting that legal teeth matter even without a national champion — KI-MIG's executive liability provisions give it real enforcement power over any AI deployer in its market, champion or not. The risk is that a country can regulate very effectively and still end up dependent on foreign-owned AI infrastructure, which is precisely what just happened with Aleph Alpha."
+  ],
+  "relatedSlugs": ["de-nl", "fr-it", "kr-sg"]
+}

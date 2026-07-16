@@ -1,0 +1,234 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root {
+  /* Dark app shell — map + homepage. Deep charcoal-navy rather than near-black. */
+  --color-bg: #12151b;
+  --color-bg-elevated: #1a1e26;
+  --color-bg-elevated-hover: #232833;
+  --color-border: #2a2f3a;
+  --color-border-strong: #3a4150;
+  --color-text: #eef0f3;
+  --color-text-muted: #9aa3b0;
+  --color-text-faint: #6b7280;
+
+  --color-accent: #4fd6cc;
+  --color-accent-strong: #8ce8e0;
+  --color-accent-soft: #4fd6cc1f;
+  --color-accent-glow: #4fd6cc4d;
+
+  --color-warm: #e0ac68;
+  --color-warm-soft: #e0ac681f;
+
+  /* Light country-page surface — warm, soft neutrals; never pure white/black */
+  --page-bg: #f2efe9;
+  --page-card: #fbfaf7;
+  --page-card-hover: #f6f4ef;
+  --page-border: #e2ddd2;
+  --page-border-strong: #cfc8b8;
+  --page-text: #22201a;
+  --page-text-secondary: #5c584e;
+  --page-text-muted: #8a8578;
+
+  /* Fixed status scale — reserved meaning, never themed */
+  --status-good: #3a8f4a;
+  --status-good-soft: #3a8f4a16;
+  --status-warning: #b9832a;
+  --status-warning-soft: #b9832a20;
+  --status-serious: #c47a56;
+  --status-serious-soft: #c47a561a;
+  --status-critical: #b8514f;
+  --status-critical-soft: #b8514f18;
+  --status-blue: #3d72ad;
+  --status-blue-soft: #3d72ad18;
+
+  /* Semantic category system — consistent across the whole app, independent
+     of any single country's accent colour. */
+  --cat-government: #3d6ea3;
+  --cat-government-soft: #3d6ea31a;
+  --cat-industry: #8266ab;
+  --cat-industry-soft: #8266ab1a;
+  --cat-research: #4f8c68;
+  --cat-research-soft: #4f8c681a;
+  --cat-investment: #bd8a3e;
+  --cat-investment-soft: #bd8a3e1a;
+  --cat-security: #b25b5b;
+  --cat-security-soft: #b25b5b1a;
+  --cat-infrastructure: #3f92a0;
+  --cat-infrastructure-soft: #3f92a01a;
+  --cat-sources: #7c7869;
+  --cat-sources-soft: #7c78691a;
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-bg-elevated: var(--color-bg-elevated);
+  --color-bg-elevated-hover: var(--color-bg-elevated-hover);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-text-faint: var(--color-text-faint);
+  --color-accent: var(--color-accent);
+  --color-accent-strong: var(--color-accent-strong);
+  --color-accent-soft: var(--color-accent-soft);
+  --color-accent-glow: var(--color-accent-glow);
+  --color-warm: var(--color-warm);
+  --color-warm-soft: var(--color-warm-soft);
+
+  --color-page-bg: var(--page-bg);
+  --color-page-card: var(--page-card);
+  --color-page-card-hover: var(--page-card-hover);
+  --color-page-border: var(--page-border);
+  --color-page-border-strong: var(--page-border-strong);
+  --color-page-text: var(--page-text);
+  --color-page-text-secondary: var(--page-text-secondary);
+  --color-page-text-muted: var(--page-text-muted);
+
+  --color-status-good: var(--status-good);
+  --color-status-good-soft: var(--status-good-soft);
+  --color-status-warning: var(--status-warning);
+  --color-status-warning-soft: var(--status-warning-soft);
+  --color-status-serious: var(--status-serious);
+  --color-status-serious-soft: var(--status-serious-soft);
+  --color-status-critical: var(--status-critical);
+  --color-status-critical-soft: var(--status-critical-soft);
+  --color-status-blue: var(--status-blue);
+  --color-status-blue-soft: var(--status-blue-soft);
+
+  --color-cat-government: var(--cat-government);
+  --color-cat-government-soft: var(--cat-government-soft);
+  --color-cat-industry: var(--cat-industry);
+  --color-cat-industry-soft: var(--cat-industry-soft);
+  --color-cat-research: var(--cat-research);
+  --color-cat-research-soft: var(--cat-research-soft);
+  --color-cat-investment: var(--cat-investment);
+  --color-cat-investment-soft: var(--cat-investment-soft);
+  --color-cat-security: var(--cat-security);
+  --color-cat-security-soft: var(--cat-security-soft);
+  --color-cat-infrastructure: var(--cat-infrastructure);
+  --color-cat-infrastructure-soft: var(--cat-infrastructure-soft);
+  --color-cat-sources: var(--cat-sources);
+  --color-cat-sources-soft: var(--cat-sources-soft);
+
+  /* Per-country accent, set inline on each country page's root element */
+  --color-country: var(--country-accent, var(--status-blue));
+  --color-country-soft: var(--country-accent-soft, var(--status-blue-soft));
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans), -apple-system, "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+  color: var(--color-accent-strong);
+}
+
+* {
+  scrollbar-color: var(--color-border-strong) transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.page-surface :focus-visible {
+  outline-color: var(--color-country);
+}
+
+.maplibregl-ctrl-attrib {
+  background: rgba(18, 21, 27, 0.72) !important;
+  color: var(--color-text-faint) !important;
+}
+.maplibregl-ctrl-attrib a {
+  color: var(--color-text-muted) !important;
+}
+.maplibregl-ctrl-bottom-right,
+.maplibregl-ctrl-bottom-left {
+  z-index: 5;
+}
+.maplibregl-popup-content {
+  background: var(--color-bg-elevated) !important;
+  color: var(--color-text) !important;
+  border: 1px solid var(--color-border-strong);
+  box-shadow: 0 8px 28px rgba(8, 10, 14, 0.45);
+}
+.maplibregl-popup-tip {
+  border-top-color: var(--color-bg-elevated) !important;
+  border-bottom-color: var(--color-bg-elevated) !important;
+}
+
+.eu-marker {
+  width: 26px;
+  height: 26px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #314572, #405a96);
+  border: 2px solid #e0b854;
+  box-shadow: 0 0 0 4px rgba(64, 90, 150, 0.2), 0 2px 10px rgba(8, 10, 14, 0.4);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: #f0d68a;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.eu-marker:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 0 7px rgba(64, 90, 150, 0.26), 0 2px 14px rgba(8, 10, 14, 0.45);
+}
+
+@keyframes enter-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.enter-up {
+  animation: enter-up 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-wash {
+  background-image:
+    radial-gradient(circle at 12% -20%, color-mix(in srgb, var(--color-country) 14%, transparent) 0%, transparent 48%),
+    radial-gradient(circle at 96% 0%, color-mix(in srgb, var(--color-country) 10%, transparent) 0%, transparent 42%);
+  background-color: var(--page-card);
+}
+
+.card-lift {
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.card-lift:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-country);
+  box-shadow: 0 18px 36px -20px rgba(34, 32, 26, 0.22), 0 2px 8px -2px rgba(34, 32, 26, 0.07);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.42s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}

@@ -1,0 +1,272 @@
+{
+  "code": "ae",
+  "name": "United Arab Emirates",
+  "shortName": "UAE",
+  "flagEmoji": "\ud83c\udde6\ud83c\uddea",
+  "geometryType": "polygon",
+  "isoA3": [
+    "ARE"
+  ],
+  "region": "Middle East",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "State-directed strategy consolidated under a single new AI Authority",
+  "accentColor": {
+    "light": "#3D7B64",
+    "dark": "#4D9D80"
+  },
+  "center": [
+    54.3,
+    24.0
+  ],
+  "zoom": 6.5,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 5,
+  "debateTopics": [
+    "Consolidating AI governance under a single new Authority",
+    "Chip access \u2014 compute diplomacy vs. continued export friction"
+  ],
+  "overview": "The UAE consolidated its AI governance in June 2026, approving a new Artificial Intelligence and Data Authority that merges the former Office of AI/Digital Economy/Remote Work Applications, the UAE Data Office, and the TDRA's digital-government portfolio into one body. Omar Sultan Al Olama, the UAE's Minister of State for AI, was confirmed as its chair \u2014 extending his existing mandate into a single, more powerful institution.\n\nOn the industry side, Abu Dhabi's G42 (roughly $20B) and the Technology Innovation Institute jointly produce the Falcon model family, including 2026 releases Falcon Perception (efficient multimodal) and Falcon-H1 Arabic, described as the world's leading Arabic-language LLM. Chip access remains a live and only partly resolved question: the US authorized G42 to purchase up to 35,000 NVIDIA Blackwell chips in November 2025, though some 2026 reporting suggests the UAE still faces friction in fully unrestricted access.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "State-directed, consolidating under one Authority",
+      "sentiment": "green"
+    },
+    "regulatoryApproach": "State-directed strategy via a unified AI Authority; no binding AI-specific statute",
+    "latestMajorUpdate": "New Artificial Intelligence and Data Authority established, merging federal AI bodies",
+    "governmentInvolvement": "Very high \u2014 centralised under one federal Authority chaired by the AI minister",
+    "industrialStrategy": "State-backed G42/TII Falcon model family; heavy sovereign compute investment",
+    "internationalPartnerships": "US chip-access diplomacy (G42 Blackwell approval); Microsoft strategic investment",
+    "primaryPolicyFocus": "Consolidating institutional control while securing unrestricted advanced-chip access"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "The UAE is consolidating institutional control over AI policy under a single new Authority chaired by its long-standing AI minister \u2014 a centralising move even though no binding AI-specific law has followed, paired with continued heavy state investment in sovereign compute and Arabic-language frontier models."
+  },
+  "recentDevelopments": [
+    {
+      "text": "UAE approves a new Artificial Intelligence and Data Authority, merging the Office of AI/Digital Economy/Remote Work Applications, the UAE Data Office, and the TDRA's digital-government portfolio.",
+      "date": "2026-06",
+      "sourceIds": [
+        "ae-1"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Omar Sultan Al Olama confirmed as chair of the new AI and Data Authority.",
+      "date": "2026-06",
+      "sourceIds": [
+        "ae-1"
+      ]
+    },
+    {
+      "text": "TII launches Falcon Perception, an efficient multimodal model with roughly 600 million parameters.",
+      "date": "2026",
+      "sourceIds": [
+        "ae-2"
+      ]
+    },
+    {
+      "text": "TII launches Falcon-H1 Arabic, described as the world's leading Arabic-language LLM using a hybrid Mamba-Transformer architecture.",
+      "date": "2026",
+      "sourceIds": [
+        "ae-3"
+      ]
+    },
+    {
+      "text": "US Commerce Department authorizes G42 to purchase up to 35,000 NVIDIA Blackwell (GB300) chips.",
+      "date": "2025-11-19",
+      "sourceIds": [
+        "ae-4"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Artificial Intelligence and Data Authority",
+      "status": "in_force",
+      "summary": "New federal authority (June 2026) unifying AI, digital economy, and data governance functions under Minister of State for AI Omar Sultan Al Olama.",
+      "sourceIds": [
+        "ae-1"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "UAE AI research and development runs primarily through the Technology Innovation Institute (TII), the applied-research arm of the Advanced Technology Research Council, and MBZUAI, the world's first dedicated AI research university, based in Abu Dhabi.",
+    "sourceIds": [
+      "ae-2"
+    ]
+  },
+  "companies": [
+    {
+      "name": "G42",
+      "description": "Abu Dhabi-based sovereign AI powerhouse valued at roughly $20B, co-producer of the Falcon model family.",
+      "url": "https://www.g42.ai"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "G42 Cloud",
+        "description": "UAE sovereign cloud and AI infrastructure provider."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider with a strategic partnership and investment relationship with G42."
+      },
+      {
+        "name": "AWS",
+        "description": "Major cloud provider for UAE enterprise and government AI workloads."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "G42 Cloud",
+        "share": 28
+      },
+      {
+        "provider": "Azure",
+        "share": 25
+      },
+      {
+        "provider": "AWS",
+        "share": 22
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "Technology Innovation Institute (TII)",
+      "description": "Applied research arm of the Advanced Technology Research Council; co-produces the open-weight Falcon model family.",
+      "url": "https://www.tii.ae"
+    },
+    {
+      "name": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+      "description": "The world's first dedicated AI research university, based in Abu Dhabi.",
+      "url": "https://mbzuai.ac.ae"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Artificial Intelligence and Data Authority",
+      "description": "Federal authority unifying the UAE's AI, digital economy and data governance functions."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Omar Sultan Al Olama",
+      "role": "Minister of State for Artificial Intelligence; Chair, AI and Data Authority",
+      "category": "government"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "AI and Data Authority",
+      "type": "government"
+    },
+    {
+      "label": "TII",
+      "type": "research"
+    },
+    {
+      "label": "G42",
+      "type": "company"
+    },
+    {
+      "label": "MBZUAI",
+      "type": "research"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Consolidating AI governance under a single new Authority",
+      "category": "government",
+      "summary": "Merging three previously separate federal bodies into one Authority centralises AI policy \u2014 a significant institutional bet on unified control.",
+      "expanded": "Combining the AI office, Data Office, and TDRA's digital-government functions gives the new Authority broad reach across data governance, AI development, and remote-work policy. Supporters see this as removing coordination friction between previously siloed bodies; the concentration of power in one authority under one minister is itself a notable governance choice worth watching as it beds in.",
+      "sourceIds": [
+        "ae-1"
+      ]
+    },
+    {
+      "topic": "Chip access \u2014 compute diplomacy vs. continued export friction",
+      "category": "security",
+      "summary": "The US approved a major chip sale to G42 in late 2025, but 2026 reporting suggests the UAE still faces some friction in achieving fully unrestricted access to advanced AI hardware.",
+      "expanded": "The November 2025 approval for G42 to purchase up to 35,000 NVIDIA Blackwell chips was a major reversal of prior US reluctance, tied to Gulf 'compute diplomacy' and multibillion-dollar investment pledges. But subsequent 2026 analysis suggests US export rules still keep the UAE in what one report called an 'AI technology slow lane' in some respects \u2014 the picture is a live tension, not a fully resolved one.",
+      "sourceIds": [
+        "ae-4"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Omar Sultan Al Olama",
+      "type": "person",
+      "role": "Minister of State for Artificial Intelligence; chair of the new AI and Data Authority.",
+      "category": "government"
+    },
+    {
+      "name": "Technology Innovation Institute",
+      "type": "organization",
+      "role": "Applied research arm co-producing the open-weight Falcon model family.",
+      "category": "university",
+      "url": "https://www.tii.ae"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "UAE creates dedicated Artificial Intelligence and Data Authority",
+      "type": "government",
+      "url": "https://www.globalgovernmentforum.com/uae-creates-dedicated-artificial-intelligence-and-data-authority-to-build-government-of-the-future/"
+    },
+    {
+      "title": "UAE unveils Falcon Perception in push for AI independence",
+      "type": "academic",
+      "author": "Computer Weekly",
+      "url": "https://www.computerweekly.com/news/366641182/UAE-unveils-Falcon-Perception-in-push-for-AI-independence"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ae-1",
+      "title": "UAE establishes federal authority for AI and data",
+      "publisher": "ITP.net",
+      "url": "https://www.itp.net/ai-automation/uae-establishes-federal-authority-for-ai-and-data-to-unify-national-ai-strategy",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "ae-2",
+      "title": "UAE unveils Falcon Perception",
+      "publisher": "Computer Weekly",
+      "url": "https://www.computerweekly.com/news/366641182/UAE-unveils-Falcon-Perception-in-push-for-AI-independence",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ae-3",
+      "title": "TII launches Falcon-H1 Arabic",
+      "publisher": "Technology Innovation Institute",
+      "url": "https://www.tii.ae/news/abu-dhabis-tii-launches-falcon-h1-arabic-establishing-worlds-leading-arabic-ai-model",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ae-4",
+      "title": "US approves AI chip exports to Gulf after Saudi crown prince visit",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2025/11/20/us-approves-ai-chip-exports-to-gulf-after-saudi-crown-prince-visit.html",
+      "date": "2025-11",
+      "category": "news"
+    },
+    {
+      "id": "ae-5",
+      "title": "US export rules keep the UAE in an AI technology slow lane",
+      "publisher": "AGBI",
+      "url": "https://www.agbi.com/analysis/trade/2026/07/us-export-rules-keep-uae-in-ai-technology-slow-lane/",
+      "date": "2026-07",
+      "category": "news"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

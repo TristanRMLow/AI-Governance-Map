@@ -1,0 +1,269 @@
+{
+  "code": "nl",
+  "name": "Netherlands",
+  "shortName": "Netherlands",
+  "flagEmoji": "\ud83c\uddf3\ud83c\uddf1",
+  "geometryType": "polygon",
+  "isoA3": [
+    "NLD"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Diplomatic AI leadership paired with new domestic AI Act implementation",
+  "accentColor": {
+    "light": "#508B9B",
+    "dark": "#6BA3B3"
+  },
+  "center": [
+    5.3,
+    52.1
+  ],
+  "zoom": 6.3,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 3,
+  "debateTopics": [
+    "Diplomatic leadership without a domestic AI champion",
+    "Dutch AI Implementation Act consultation"
+  ],
+  "overview": "The Netherlands has become one of Europe's more active diplomatic voices on AI even without a flagship national AI lab of its own. In July 2026 it submitted an International AI Strategy to parliament \u2014 built on diplomatic effort, new coalitions, and strengthening European AI capacity \u2014 led by State Secretary for Digital Economy and Sovereignty Willemijn Aerdts alongside the Ministers of Foreign Affairs and Foreign Trade.\n\nDomestically, Aerdts also submitted a Dutch AI Implementation Act for public consultation in April 2026 \u2014 the legislation that will translate the EU AI Act into Dutch national law. The country's real AI-adjacent strength remains ASML, whose lithography machines are essential to the global AI chip supply chain, even though ASML itself isn't an AI company.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Diplomatic leadership, thin domestic industry",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act member state; national Implementation Act in public consultation",
+    "latestMajorUpdate": "International AI Strategy submitted to parliament",
+    "governmentInvolvement": "Active diplomatic leadership paired with a new domestic transposition law",
+    "industrialStrategy": "No flagship national AI champion; strength concentrated in ASML's chip-supply-chain role",
+    "internationalPartnerships": "Leads coalition-building on European AI capacity; International AI Strategy diplomacy",
+    "primaryPolicyFocus": "Transposing the EU AI Act into Dutch law via the AI Implementation Act"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "The Netherlands is moving from diplomatic AI strategy toward concrete domestic implementation \u2014 its AI Implementation Act would formally transpose EU AI Act obligations into Dutch law, adding a national compliance layer that didn't exist before."
+  },
+  "recentDevelopments": [
+    {
+      "text": "International AI Strategy submitted to parliament, led by State Secretary Willemijn Aerdts alongside the Ministers of Foreign Affairs and Foreign Trade.",
+      "date": "2026-07-03",
+      "sourceIds": [
+        "nl-1"
+      ]
+    },
+    {
+      "text": "Dutch AI Implementation Act submitted for public consultation \u2014 the national legislation implementing the EU AI Act.",
+      "date": "2026-04-20",
+      "sourceIds": [
+        "nl-1"
+      ]
+    },
+    {
+      "text": "Dutch AI startup ecosystem reaches 840+ startups and 23 scale-ups (four unicorns), with \u20ac1.8B in VC funding into Dutch AI startups in 2025 \u2014 up 52% versus 2023.",
+      "date": "2025",
+      "sourceIds": [
+        "nl-2"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Dutch AI Implementation Act",
+      "status": "proposed",
+      "summary": "Submitted for public consultation in April 2026, this is the legislation that would formally implement EU AI Act obligations into Dutch national law.",
+      "sourceIds": [
+        "nl-1"
+      ]
+    },
+    {
+      "title": "International AI Strategy",
+      "status": "in_force",
+      "summary": "A three-pillar strategy \u2014 diplomatic effort, new coalitions and partnerships, and strengthening European AI capacity \u2014 submitted to parliament in July 2026.",
+      "officialUrl": "https://www.government.nl/latest/news/2026/07/03/international-strategy-for-safe-and-responsible-ai-transition",
+      "sourceIds": [
+        "nl-1"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Dutch AI research centres on the University of Amsterdam \u2014 host to ELLIS Unit Amsterdam and the Institute for Logic, Language and Computation \u2014 alongside TU Delft and Eindhoven University of Technology, feeding a startup ecosystem concentrated in Amsterdam (380+ startups), Eindhoven (120+) and Delft (85+).",
+    "sourceIds": [
+      "nl-2"
+    ]
+  },
+  "companies": [
+    {
+      "name": "ASML",
+      "description": "Dutch maker of the extreme ultraviolet lithography machines essential to producing the world's most advanced AI chips \u2014 critical infrastructure rather than an AI company itself.",
+      "url": "https://www.asml.com"
+    },
+    {
+      "name": "Sentient Machine",
+      "description": "Dutch industrial computer-vision AI company."
+    },
+    {
+      "name": "Xomnia",
+      "description": "Dutch AI and data consultancy."
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Leading cloud provider for Dutch enterprise AI workloads."
+      },
+      {
+        "name": "AWS",
+        "description": "Major cloud provider with significant Dutch data-centre presence."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across Dutch research and enterprise AI."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "Azure",
+        "share": 29
+      },
+      {
+        "provider": "AWS",
+        "share": 28
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 14
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "University of Amsterdam",
+      "description": "The Netherlands' leading AI research university, host to ELLIS Unit Amsterdam.",
+      "url": "https://www.uva.nl"
+    },
+    {
+      "name": "TU Delft",
+      "description": "Major Dutch technical university with significant AI research output.",
+      "url": "https://www.tudelft.nl"
+    },
+    {
+      "name": "Eindhoven University of Technology",
+      "description": "Technical university anchoring the Eindhoven AI startup cluster.",
+      "url": "https://www.tue.nl"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Economic Affairs \u2014 Digital Economy and Sovereignty",
+      "description": "Leads Dutch domestic AI policy and the AI Implementation Act, under State Secretary Willemijn Aerdts."
+    },
+    {
+      "name": "Ministry of Foreign Affairs",
+      "description": "Co-leads the International AI Strategy's diplomatic pillar."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Willemijn Aerdts",
+      "role": "State Secretary for Digital Economy and Sovereignty",
+      "category": "government",
+      "url": "https://www.government.nl"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "State Secretary for Digital Economy and Sovereignty",
+      "type": "government"
+    },
+    {
+      "label": "University of Amsterdam",
+      "type": "research"
+    },
+    {
+      "label": "ASML",
+      "type": "company"
+    },
+    {
+      "label": "TU Delft",
+      "type": "research"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Diplomatic leadership without a domestic AI champion",
+      "category": "government",
+      "summary": "The Netherlands punches above its weight in AI diplomacy but has no flagship frontier lab comparable to Mistral or Google DeepMind.",
+      "expanded": "The International AI Strategy positions the Netherlands as a coalition-builder and European AI capacity advocate, a role that doesn't require a domestic frontier lab. But it does raise the question of whether diplomatic leadership without commensurate domestic industrial capability is sustainable long-term, especially as neighbouring countries invest heavily in sovereign compute and national champions.",
+      "sourceIds": [
+        "nl-1"
+      ]
+    },
+    {
+      "topic": "Dutch AI Implementation Act consultation",
+      "category": "government",
+      "summary": "The consultation on national AI Act implementation legislation will determine what Dutch-specific obligations sit atop the EU-wide baseline.",
+      "expanded": "Like other member states, the Netherlands must designate national competent authorities and decide on enforcement mechanics for the AI Act. The Implementation Act consultation is where Dutch-specific choices \u2014 sanctions levels, sandbox design, sector-specific carve-outs \u2014 will be made.",
+      "sourceIds": [
+        "nl-1"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Willemijn Aerdts",
+      "type": "person",
+      "role": "State Secretary for Digital Economy and Sovereignty; leads both the International AI Strategy and the Implementation Act.",
+      "category": "government",
+      "url": "https://www.government.nl"
+    },
+    {
+      "name": "University of Amsterdam AI research",
+      "type": "organization",
+      "role": "Home of ELLIS Unit Amsterdam and the Institute for Logic, Language and Computation.",
+      "category": "university",
+      "url": "https://www.uva.nl"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "International Strategy for Safe and Responsible AI Transition",
+      "type": "government",
+      "url": "https://www.government.nl/latest/news/2026/07/03/international-strategy-for-safe-and-responsible-ai-transition"
+    },
+    {
+      "title": "University of Amsterdam AI research",
+      "type": "academic",
+      "url": "https://www.uva.nl"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nl-1",
+      "title": "International strategy for safe and responsible AI transition",
+      "publisher": "Government of the Netherlands",
+      "url": "https://www.government.nl/latest/news/2026/07/03/international-strategy-for-safe-and-responsible-ai-transition",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "nl-2",
+      "title": "Dutch AI startup ecosystem overview",
+      "publisher": "industry reporting",
+      "url": "https://www.uva.nl",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "nl-3",
+      "title": "ASML company overview",
+      "publisher": "ASML",
+      "url": "https://www.asml.com",
+      "date": "2026",
+      "category": "industry"
+    }
+  ],
+  "hasMajorUpdate": false,
+  "notableGaps": []
+}

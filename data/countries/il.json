@@ -1,0 +1,279 @@
+{
+  "code": "il",
+  "name": "Israel",
+  "shortName": "Israel",
+  "flagEmoji": "\ud83c\uddee\ud83c\uddf1",
+  "geometryType": "polygon",
+  "isoA3": [
+    "ISR"
+  ],
+  "region": "Middle East",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Sectoral, risk-based guidance without a binding AI-specific law",
+  "accentColor": {
+    "light": "#697B96",
+    "dark": "#8493A9"
+  },
+  "center": [
+    34.9,
+    31.0
+  ],
+  "zoom": 6.8,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 4,
+  "debateTopics": [
+    "AI21 Labs' decline and what it signals about the Israeli AI startup boom",
+    "Israel's principle-based approach without a binding AI law as models scale"
+  ],
+  "overview": "Israel has no single AI Act. The Ministry of Innovation, Science and Technology (MIST) leads policy through its December 2023 'Responsible Innovation' policy \u2014 a risk-based, sectoral approach built on human oversight, transparency and accountability, developed jointly with the Ministry of Justice. In May 2026, MIST, the Ministry of Justice and the Israel National Digital Agency published version 1.0 of a 'Guide for Responsible AI Use in the Public Sector.'\n\nIsrael's National AI Program is entering its final authorised year in 2026, with a new multi-year strategy anticipated \u2014 likely focused on generative AI and LLM security. The startup picture is genuinely mixed: while Wiz's roughly $12B exit remains the era's standout Israeli tech story, AI21 Labs \u2014 once a $1.4B unicorn \u2014 has shrunk dramatically, laying off around 110 of its 180 staff and shutting down most product lines.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Risk-based sectoral guidance, no binding AI law",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "'Responsible Innovation' policy \u2014 sectoral, risk-based, non-binding",
+    "latestMajorUpdate": "'Guide for Responsible AI Use in the Public Sector' (v1.0) published",
+    "governmentInvolvement": "Light-touch \u2014 sectoral guidance rather than a binding statute, via MIST",
+    "industrialStrategy": "Israel Innovation Authority funding; National AI Program entering its final authorised year",
+    "internationalPartnerships": "Weizmann Institute AI cooperation deal with a UAE university",
+    "primaryPolicyFocus": "Drafting a new multi-year strategy focused on generative AI and LLM security"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Israel continues its non-binding, sectoral approach to AI governance as its National AI Program enters its final authorised year \u2014 a new multi-year strategy, likely focused on generative AI and LLM security, is anticipated but not yet formalised."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Israel National Digital Agency, Ministry of Justice and MIST publish version 1.0 of a 'Guide for Responsible AI Use in the Public Sector.'",
+      "date": "2026-05-19",
+      "sourceIds": [
+        "il-1"
+      ]
+    },
+    {
+      "text": "National AI Program enters its final authorised year, with a new multi-year strategy anticipated, likely focused on generative AI and LLM security.",
+      "date": "2026",
+      "sourceIds": [
+        "il-1"
+      ]
+    },
+    {
+      "text": "AI21 Labs shrinks dramatically, laying off roughly 110 of its 180 staff and shutting down most product lines.",
+      "date": "2026",
+      "sourceIds": [
+        "il-2"
+      ]
+    },
+    {
+      "text": "Weizmann Institute signs a cooperation deal with a UAE university on AI research.",
+      "date": "2026",
+      "sourceIds": [
+        "il-3"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "'Responsible Innovation' AI policy",
+      "status": "in_force",
+      "summary": "December 2023 policy from MIST and the Ministry of Justice setting risk-based, sectoral guidance on human oversight, transparency and accountability \u2014 non-binding.",
+      "sourceIds": [
+        "il-1"
+      ]
+    },
+    {
+      "title": "Guide for Responsible AI Use in the Public Sector (v1.0)",
+      "status": "in_force",
+      "summary": "Published May 2026 by the Israel National Digital Agency, Ministry of Justice and MIST, guiding public-sector AI adoption.",
+      "sourceIds": [
+        "il-1"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Israeli AI research runs through Technion, Tel Aviv University, Hebrew University of Jerusalem and the Weizmann Institute's dedicated Institute for Artificial Intelligence \u2014 Technion and Tel Aviv University rank among the world's top ten universities for startup founders produced, with roughly $23B and $30B respectively raised by their alumni.",
+    "sourceIds": [
+      "il-4"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Wiz",
+      "description": "Cybersecurity company valued at roughly $12B, the standout Israeli tech exit of the period."
+    },
+    {
+      "name": "AI21 Labs",
+      "description": "Once a $1.4B unicorn, now significantly downsized after laying off roughly 110 of 180 staff and shutting down most product lines."
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Major cloud provider for Israeli enterprise and startup AI workloads."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider with significant Israeli enterprise integration."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across Israeli research and enterprise AI."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "AWS",
+        "share": 33
+      },
+      {
+        "provider": "Azure",
+        "share": 26
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 15
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "Technion",
+      "description": "Israel Institute of Technology \u2014 ranks among the world's top ten universities for startup founders produced.",
+      "url": "https://www.technion.ac.il"
+    },
+    {
+      "name": "Tel Aviv University",
+      "description": "Ranks among the world's top ten universities for startup founders produced.",
+      "url": "https://english.tau.ac.il"
+    },
+    {
+      "name": "Weizmann Institute of Science",
+      "description": "Hosts a dedicated Institute for Artificial Intelligence / Center for Core AI Research.",
+      "url": "https://www.weizmann.ac.il"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Innovation, Science and Technology (MIST)",
+      "description": "Lead ministry for Israel's national AI policy and the Responsible Innovation framework."
+    },
+    {
+      "name": "Israel Innovation Authority (IIA)",
+      "description": "Main ecosystem funder for Israeli AI and technology startups.",
+      "url": "https://innovationisrael.org.il"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Assaf Rappaport",
+      "role": "Co-founder and Chief Executive Officer",
+      "affiliation": "Wiz",
+      "category": "company_leader"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "MIST",
+      "type": "government"
+    },
+    {
+      "label": "Israel Innovation Authority",
+      "type": "agency"
+    },
+    {
+      "label": "Wiz",
+      "type": "company"
+    },
+    {
+      "label": "Technion",
+      "type": "research"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "AI21 Labs' decline and what it signals about the Israeli AI startup boom",
+      "category": "industry",
+      "summary": "AI21 Labs' collapse from a $1.4B unicorn to roughly 70 employees is a sharp counterpoint to Israel's broader AI-startup success narrative.",
+      "expanded": "While Wiz's exit and strong university-founder metrics point to a thriving ecosystem, AI21 Labs shows that even well-funded Israeli frontier-model ambitions can lose out to better-resourced US and Chinese labs. The lesson many draw is that Israel's strength lies more in applied AI and cybersecurity than in frontier foundation-model competition.",
+      "sourceIds": [
+        "il-2"
+      ]
+    },
+    {
+      "topic": "Israel's principle-based approach without a binding AI law as models scale",
+      "category": "government",
+      "summary": "As generative AI and agentic systems grow more capable, Israel's non-binding Responsible Innovation framework faces the same test other soft-law jurisdictions do.",
+      "expanded": "MIST's approach has so far relied on sectoral guidance rather than binding rules, betting that flexibility outweighs enforceability. The anticipated new multi-year strategy, expected to focus on generative AI and LLM security, will be the next real test of whether Israel moves toward firmer rules as frontier capabilities scale.",
+      "sourceIds": [
+        "il-1"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Assaf Rappaport",
+      "type": "person",
+      "role": "Wiz co-founder and CEO; the standout Israeli tech exit of the era.",
+      "category": "company"
+    },
+    {
+      "name": "Israel Innovation Authority",
+      "type": "organization",
+      "role": "Main ecosystem funder for Israeli AI and technology startups.",
+      "category": "government",
+      "url": "https://innovationisrael.org.il"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Israel's approach to AI regulation",
+      "type": "government",
+      "author": "IAPP",
+      "url": "https://iapp.org/news/a/proactive-caution-israels-approach-to-ai-regulation"
+    },
+    {
+      "title": "Israel's AI 2026 strategy",
+      "type": "academic",
+      "author": "VC Cafe",
+      "url": "https://www.vccafe.com/2026/05/07/israels-ai-2026-strategy/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "il-1",
+      "title": "Israel's AI 2026 strategy",
+      "publisher": "VC Cafe",
+      "url": "https://www.vccafe.com/2026/05/07/israels-ai-2026-strategy/",
+      "date": "2026-05",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "il-2",
+      "title": "AI21 Labs downsizing coverage",
+      "publisher": "Calcalist",
+      "url": "https://www.calcalistech.com/ctechnews/article/by34n00tjfl",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "il-3",
+      "title": "Weizmann Institute inks cooperation deal with UAE university",
+      "publisher": "Times of Israel",
+      "url": "https://www.timesofisrael.com/weizmann-institute-inks-cooperation-deal-with-uae-university-on-ai-research/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "il-4",
+      "title": "Israeli university startup founder rankings",
+      "publisher": "Ynetnews",
+      "url": "https://www.ynetnews.com/tech-and-digital/article/bysvxtsc11g",
+      "date": "2026",
+      "category": "research"
+    }
+  ],
+  "hasMajorUpdate": false,
+  "notableGaps": []
+}

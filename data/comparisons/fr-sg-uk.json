@@ -1,0 +1,94 @@
+{
+  "slug": "fr-sg-uk",
+  "countries": ["uk", "fr", "sg"],
+  "title": "UK vs France vs Singapore",
+  "tagline": "Three governments, none of them passing a comprehensive AI law — and three different reasons why.",
+  "curated": true,
+  "executiveSummary": [
+    "The UK, France and Singapore have all explicitly chosen not to pass a comprehensive binding AI law — but they've arrived at that same non-decision from three different starting points and for three different reasons, making them a useful test of whether 'no new AI law' is really one strategy or three.",
+    "The UK backed away from a promised Frontier AI Bill in favour of a regulatory sandbox and existing sector regulators. France never proposed new national legislation at all, choosing instead to compete on sovereign compute and industrial capability under the EU AI Act's floor. Singapore has spent seven years deliberately building the most mature voluntary-framework infrastructure in the world, positioning that maturity itself as a form of leadership. Read together, they show that 'light-touch' is not one governance model — it's a spectrum from reluctant retreat (UK) to industrial substitution (France) to confident institution-building (Singapore)."
+    ],
+  "dimensions": [
+    {
+      "key": "why-no-law",
+      "title": "Why No Binding Law?",
+      "category": "government",
+      "points": {
+        "uk": "A promised Frontier AI Bill was never introduced; DSIT's Secretary of State signalled in May 2026 the government is 'unlikely to bring forward new regulation beyond extending the online safety regime' — read by critics as quietly shelving a commitment.",
+        "fr": "No comparable bill was ever promised at the national level — France's AI governance is simply the EU AI Act as applied to a member state, with sovereignty pursued through infrastructure and certification instead.",
+        "sg": "No binding AI law has ever been the plan — voluntary, testable frameworks have been the deliberate strategy since 2019, iterated repeatedly rather than converted into statute."
+      },
+      "analysis": "The UK's light-touch looks like a retreat from an earlier commitment; France's looks like a choice that was never really in tension with anything, since sovereignty was always going to be pursued industrially; Singapore's looks like conviction repeatedly validated by its own iteration speed. Only the UK carries real reputational cost for this choice, precisely because it once promised something different."
+    },
+    {
+      "key": "what-instead",
+      "title": "What They Built Instead",
+      "category": "investment",
+      "points": {
+        "uk": "An AI Growth Lab regulatory sandbox, formally launched with the legal-services sector in 2026, plus continued reliance on existing regulators — the ICO, FCA and Bank of England — applying their existing powers to AI-specific risk.",
+        "fr": "A roughly €109B national AI infrastructure package, Mistral AI's own compute stack, and a 'silicon sovereignty' programme diversifying away from NVIDIA via AMD and European SiPearl chips.",
+        "sg": "A Model AI Governance Framework for Agentic AI, updated to v1.5 within four months of launch, plus real testing infrastructure — the AI Verify toolkit and a forthcoming AI Tester Accreditation Programme, the first of its kind in Asia."
+      },
+      "analysis": "France substituted industrial capability for regulation; Singapore substituted testing infrastructure and standards leadership; the UK substituted a sandbox — arguably the thinnest of the three, since a sandbox is explicitly temporary and experimental rather than a competing strategic asset in its own right."
+    },
+    {
+      "key": "domestic-industry",
+      "title": "Domestic AI Industry",
+      "category": "industry",
+      "points": {
+        "uk": "Google DeepMind's London lab (of AlphaFold and Nobel Prize fame) is the country's single most important AI asset, alongside Synthesia, Stability AI and Wayve — strong, but anchored by one foreign-owned lab's UK presence rather than a homegrown frontier champion.",
+        "fr": "Mistral AI is a genuinely homegrown, French-owned frontier lab now running its own compute and holding a defense-AI contract — the clearest sovereign-champion success story among all three.",
+        "sg": "No frontier-model ambitions at comparable scale; Sea AI Lab and ByteDance's Singapore lab are real but secondary to the government's own bet on becoming a testing-and-governance hub rather than a model-building one."
+      },
+      "analysis": "Of the three, only France has a genuine sovereign frontier-model champion it can point to. The UK's flagship AI asset is foreign-owned (Google); Singapore has deliberately not tried to compete on this axis at all, judging correctly that its land and power constraints make frontier-scale training infeasible domestically."
+    },
+    {
+      "key": "international-posture",
+      "title": "International Posture",
+      "category": "infrastructure",
+      "points": {
+        "uk": "Convenor of the original Bletchley Park AI Safety Summit process and a member of the International Network of AI Safety Institutes — strong on convening diplomacy, less strong on domestic follow-through.",
+        "fr": "EU AI Act member state pursuing sovereignty partly through European industrial alliances — ASML's stake in Mistral — rather than global diplomacy.",
+        "sg": "A genuine regional soft-law standard-setter — its frameworks feed into ASEAN and APEC cross-border data-flow norms, and its AI Verify methodology is referenced well beyond Southeast Asia."
+      },
+      "analysis": "The UK's international strength is in convening — it started the Bletchley process; Singapore's is in exporting standards that other countries actually adopt; France's is the most inward-looking of the three, focused on European industrial alliances rather than global governance diplomacy."
+    },
+    {
+      "key": "policy-focus",
+      "title": "Primary Policy Focus",
+      "category": "research",
+      "points": {
+        "uk": "Financial-sector and frontier cyber risk oversight — the Bank of England/FCA joint statement — over comprehensive legislation.",
+        "fr": "Sovereign compute and frontier-lab competitiveness over new domestic regulation.",
+        "sg": "Agentic AI governance and third-party testing accreditation."
+      },
+      "analysis": "All three have picked a specific area to lead on rather than trying to cover everything: the UK on financial-sector risk, France on industrial capability, Singapore on agentic-AI governance and testing standards. None is trying to be comprehensive, which is arguably the real shared strategy underneath the surface-level differences."
+    }
+  ],
+  "policyOverlap": {
+    "shared": [
+      "None of the three has passed, or plans to pass, a single comprehensive binding AI statute — all three rely on a mix of existing law, sector regulators, and, for the UK and Singapore specifically, frameworks that stop short of binding force.",
+      "All three participate in the International Network of AI Safety Institutes or an equivalent safety-testing effort, showing convergence on technical evaluation even where legislative approaches diverge sharply."
+    ],
+    "perCountry": {
+      "uk": [
+        "Blueprint for AI regulation (Oct 2025) — sandbox plus existing regulators, not new primary legislation",
+        "Frontier AI Bill effectively shelved as of May 2026"
+      ],
+      "fr": [
+        "No new domestic AI statute — regulation is entirely the EU AI Act, unmodified",
+        "SecNumCloud sovereignty certification for sensitive workloads administered by ANSSI"
+      ],
+      "sg": [
+        "Model AI Governance Framework and its Agentic AI counterpart — both voluntary, no penalties for non-compliance",
+        "AI Tester Accreditation Programme (AI TAP) launching Q3 2026"
+      ]
+    }
+  },
+  "strategicTradeoffs": [
+    "The UK's approach carries the most political risk of the three, because it involves visibly walking back a prior commitment — critics can credibly say the UK promised binding oversight of frontier models and quietly dropped it.",
+    "France's approach carries commercial risk concentrated in a single company: French AI credibility currently depends heavily on Mistral continuing to execute.",
+    "Singapore's approach carries the least visible political risk but the largest unanswered question: voluntary frameworks, however fast-iterating, have never yet been tested by a genuinely serious AI-caused harm in a jurisdiction with no binding law to fall back on."
+  ],
+  "relatedSlugs": ["de-fr", "kr-sg", "cn-us"]
+}

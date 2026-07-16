@@ -1,0 +1,84 @@
+{
+  "slug": "cn-us",
+  "countries": ["us", "cn"],
+  "title": "US vs China",
+  "tagline": "Two frontier-AI superpowers, two mirror-image governance systems.",
+  "curated": true,
+  "executiveSummary": [
+    "The United States and China are the world's two frontier-AI superpowers, and they have built almost mirror-image governance systems to compete with each other. The US, especially since January 2025, has stripped back precautionary federal rules in favour of a deregulatory, export-and-infrastructure-led strategy; the only consistently active federal AI body is NIST's CAISI, whose entire toolkit is voluntary testing agreements with the same labs it's meant to be checking.",
+    "China has done the opposite: no single comprehensive law, but a fast-moving stack of binding, enforcement-backed rules that keeps expanding into new categories — agentic AI in July 2026, AI companion apps in April 2026 — under the Cyberspace Administration of China. Each side treats the other's chip and compute posture as the real battlefield: export controls on one side, chip self-sufficiency and open-weighting on the other."
+  ],
+  "dimensions": [
+    {
+      "key": "regulatory-model",
+      "title": "Regulatory Model",
+      "category": "government",
+      "points": {
+        "us": "Sectoral and executive-led — no binding federal frontier-model law. The prior administration's safety-testing executive order was repealed; the current administration's America's AI Action Plan prioritises infrastructure and export over precautionary rules. States (Colorado, California) remain the most active source of binding AI rules.",
+        "cn": "Targeted, stacked binding rules with no single comprehensive statute, but enforcement teeth throughout — the CAC-led approach just added its first dedicated framework for AI agents (July 2026) and interim rules for AI companion apps (April 2026)."
+      },
+      "analysis": "Both avoid a single comprehensive AI law, but for opposite reasons and with opposite practical effect. The US avoids one because the current administration treats precautionary regulation as a competitive liability; China avoids one because a single static law would be too slow to extend to new product categories — its 'no comprehensive law' looks more like 'many fast, binding laws' than genuine light-touch governance."
+    },
+    {
+      "key": "state-involvement",
+      "title": "State Involvement & Industrial Strategy",
+      "category": "investment",
+      "points": {
+        "us": "Low-to-moderate direct government involvement in AI development itself; industrial strategy runs through infrastructure and export policy (the 'Stargate' initiative, America's AI Action Plan) rather than state-directed model-building. The frontier labs — OpenAI, Anthropic, Google DeepMind, Meta, xAI — are all private and US-headquartered.",
+        "cn": "Very high state involvement — the AI+ Initiative directs AI integration across manufacturing and public services, and DeepSeek's open-weighting of frontier-competitive models is widely read as a deliberate soft-power strategy, not just a technical choice."
+      },
+      "analysis": "The US leads on private-sector frontier capability and lets companies compete largely on their own terms; China leads on rapid state-directed diffusion into the economy and treats open-weighting as strategic statecraft. DeepSeek's releases are a direct challenge to the US assumption that export controls would meaningfully slow Chinese frontier capability — that a Chinese lab could release something frontier-competitive despite chip restrictions has reshaped the export-control debate inside the US itself."
+    },
+    {
+      "key": "compute-chips",
+      "title": "Compute & Chips",
+      "category": "infrastructure",
+      "points": {
+        "us": "NVIDIA's near-monopoly on frontier AI chips is a central US strategic asset; export controls restrict advanced NVIDIA and AMD chip sales to China specifically to slow Chinese frontier capability.",
+        "cn": "US export controls have accelerated a state-backed push for domestic semiconductor self-sufficiency, led by SMIC's foundry capacity and Huawei's Ascend AI chips — real progress, but still lagging the leading edge by multiple process-node generations."
+      },
+      "analysis": "This is the one dimension where the two countries are in direct, explicit conflict rather than parallel divergence: US chip policy is designed specifically to constrain China's compute, and China's chip policy is a direct response to that constraint. Whether the controls have 'worked' is genuinely contested — DeepSeek's frontier-competitive open-weight models are the strongest evidence for the sceptics' case that controls only accelerated Chinese self-sufficiency without preventing capability gains."
+    },
+    {
+      "key": "institutional-structure",
+      "title": "Institutional Structure",
+      "category": "government",
+      "points": {
+        "us": "No dedicated AI ministry; the White House AI & Crypto Czar role has sat vacant since March 2026, leaving CAISI (a NIST body) and OSTP as the most consistently active federal AI institutions — CAISI's power is entirely voluntary testing agreements, not statutory authority.",
+        "cn": "The Cyberspace Administration of China is a genuine lead regulator with real enforcement power, co-issuing binding rules jointly with NDRC, MIIT, the Ministry of Public Security and SAMR depending on the AI category."
+      },
+      "analysis": "China's institutional structure is built to issue and enforce binding rules quickly across agencies; the US's is built around voluntary cooperation with the very labs it monitors, and currently lacks even a single accountable political owner for AI policy inside the White House."
+    },
+    {
+      "key": "policy-focus",
+      "title": "Primary Policy Focus",
+      "category": "research",
+      "points": {
+        "us": "Frontier model competitiveness and compute infrastructure over precautionary regulation.",
+        "cn": "Content and platform-safety control extending into agentic and companion AI."
+      },
+      "analysis": "The US's stated focus is external — winning the capability and infrastructure race; China's is substantially internal — controlling what AI-mediated content and interaction looks like for its own population, even as it also competes on frontier capability via DeepSeek and others."
+    }
+  ],
+  "policyOverlap": {
+    "shared": [
+      "Both are actively regulating AI agents as a distinct emerging category in 2026 — China's Implementation Opinions on Intelligent Agents (July 2026) and the US's CAISI AI Agent Standards Initiative (February 2026) — via completely different mechanisms: China through binding joint-agency rules, the US through voluntary NIST benchmarking.",
+      "Both treat chip access as inseparable from AI policy, even though they sit on opposite sides of the same export-control regime."
+    ],
+    "perCountry": {
+      "us": [
+        "No binding federal frontier-model law; CAISI's pre-deployment testing agreements with five major labs are voluntary, not statutory",
+        "Colorado and California are the most active binding-rule jurisdictions in the absence of federal law"
+      ],
+      "cn": [
+        "CAC-led stacked binding rules extending into AI companion apps and AI agents within the same year",
+        "AI+ Initiative directs state-led AI integration across manufacturing and public services"
+      ]
+    }
+  },
+  "strategicTradeoffs": [
+    "The US is betting that private-sector dynamism and a light federal touch produce the most capable frontier models, and that export controls alone can preserve a compute advantage over China — a bet complicated by CAISI's growing reliance on voluntary agreements that could be unwound without any legislative action, and by DeepSeek's demonstration that chip constraints don't fully block capability progress.",
+    "China is betting that fast, binding, stacked regulation lets it control domestic AI-mediated risk — companion apps, agentic systems — without slowing frontier progress, using open-weighting as a soft-power tool to offset compute disadvantages. That bet depends on continued success stories like DeepSeek and on its domestic chip industry eventually closing the process-node gap."
+  ],
+  "relatedSlugs": ["de-fr", "kr-sg", "us-in"]
+}

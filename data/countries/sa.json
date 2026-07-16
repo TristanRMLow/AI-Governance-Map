@@ -1,0 +1,256 @@
+{
+  "code": "sa",
+  "name": "Saudi Arabia",
+  "shortName": "Saudi Arabia",
+  "flagEmoji": "\ud83c\uddf8\ud83c\udde6",
+  "geometryType": "polygon",
+  "isoA3": [
+    "SAU"
+  ],
+  "region": "Middle East",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "State-directed AI strategy now shifting from planning to execution",
+  "accentColor": {
+    "light": "#AE976F",
+    "dark": "#BDAA89"
+  },
+  "center": [
+    45.1,
+    24.0
+  ],
+  "zoom": 4.8,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 4,
+  "debateTopics": [
+    "Shift from AI strategy to execution \u2014 can HUMAIN build in one year what took 20?",
+    "Chip access as part of Gulf compute diplomacy"
+  ],
+  "overview": "Saudi Arabia's Cabinet designated 2026 the 'Year of Artificial Intelligence,' marking a deliberate shift from strategy to execution of the National Strategy for Data and AI (NSDAI), led by SDAIA (the Saudi Data and AI Authority) since 2019 across six pillars: ambition, competencies, policies, investment, innovation and ecosystem.\n\nHUMAIN, established by royal directive in May 2024 as the Public Investment Fund's principal sovereign AI infrastructure vehicle, consolidated Aramco and Aramco Digital's AI assets and was approved alongside UAE's G42 in November 2025 to purchase up to 35,000 NVIDIA Blackwell chips. Recent infrastructure milestones include the Shaheen III supercomputer and the Hexagon data centre \u2014 at 480MW, described as the world's largest government data facility.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "2026 declared 'Year of AI'; execution over strategy",
+      "sentiment": "green"
+    },
+    "regulatoryApproach": "SDAIA-led National Strategy for Data and AI; no binding AI-specific statute",
+    "latestMajorUpdate": "Cabinet designates 2026 the 'Year of Artificial Intelligence'",
+    "governmentInvolvement": "Very high \u2014 state-directed strategy executed via SDAIA and PIF-backed HUMAIN",
+    "industrialStrategy": "HUMAIN sovereign AI infrastructure vehicle; Shaheen III supercomputer; 480MW Hexagon data centre",
+    "internationalPartnerships": "Gulf compute diplomacy with the US; DISAI programme with Qualcomm",
+    "primaryPolicyFocus": "Executing at speed on existing strategy rather than passing new binding rules"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Saudi Arabia is not introducing new binding AI rules \u2014 it's executing on an existing strategy at unprecedented speed and scale, with HUMAIN's CEO stating a goal of building in one year what took two decades previously."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Cabinet designates 2026 the 'Year of Artificial Intelligence', marking a shift from strategy to execution of the National Strategy for Data and AI.",
+      "date": "2026",
+      "sourceIds": [
+        "sa-1"
+      ]
+    },
+    {
+      "text": "HUMAIN and G42 jointly approved to purchase up to 35,000 NVIDIA Blackwell (GB300) chips.",
+      "date": "2025-11",
+      "sourceIds": [
+        "sa-2"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Shaheen III supercomputer and the 480MW Hexagon data centre \u2014 described as the world's largest government data facility \u2014 mark major infrastructure milestones.",
+      "date": "2026",
+      "sourceIds": [
+        "sa-1"
+      ]
+    },
+    {
+      "text": "DISAI 2026 programme (Qualcomm, Aramco, RDIA and HUMAIN) supports deep-tech AI and IoT startups, drawing more than 124 applicants.",
+      "date": "2026",
+      "sourceIds": [
+        "sa-3"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Strategy for Data and AI (NSDAI)",
+      "status": "in_force",
+      "summary": "SDAIA-led national strategy since 2019 across six pillars: ambition, competencies, policies, investment, innovation and ecosystem.",
+      "sourceIds": [
+        "sa-1"
+      ]
+    },
+    {
+      "title": "2026 'Year of Artificial Intelligence'",
+      "status": "in_force",
+      "summary": "Cabinet designation marking a deliberate national shift from AI strategy formulation to execution.",
+      "sourceIds": [
+        "sa-1"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Saudi AI infrastructure investment \u2014 the Shaheen III supercomputer and the Hexagon data centre \u2014 has outpaced distinct academic AI research institute-building, though KAUST (King Abdullah University of Science and Technology) remains the country's leading research university with a growing AI programme.",
+    "sourceIds": [
+      "sa-1"
+    ]
+  },
+  "companies": [
+    {
+      "name": "HUMAIN",
+      "description": "Public Investment Fund's principal sovereign AI infrastructure vehicle, established by royal directive in May 2024, consolidating Aramco and Aramco Digital's AI assets.",
+      "url": "https://vision2030.ai/analysis/humain/"
+    },
+    {
+      "name": "Aramco Digital",
+      "description": "Digital and AI arm of Saudi Aramco."
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "HUMAIN Cloud",
+        "description": "Saudi sovereign AI cloud and compute infrastructure."
+      },
+      {
+        "name": "AWS",
+        "description": "Major cloud provider for Saudi enterprise AI workloads."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider with significant Saudi government and enterprise integration."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "HUMAIN Cloud",
+        "share": 26
+      },
+      {
+        "provider": "AWS",
+        "share": 24
+      },
+      {
+        "provider": "Azure",
+        "share": 22
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "KAUST",
+      "description": "King Abdullah University of Science and Technology \u2014 Saudi Arabia's leading research university, with a growing AI research programme.",
+      "url": "https://www.kaust.edu.sa"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Saudi Data and AI Authority (SDAIA)",
+      "description": "Leads the National Strategy for Data and AI since 2019.",
+      "url": "https://sdaia.gov.sa"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Abdullah Alghamdi",
+      "role": "President",
+      "affiliation": "SDAIA",
+      "category": "government"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "SDAIA",
+      "type": "government"
+    },
+    {
+      "label": "HUMAIN",
+      "type": "company"
+    },
+    {
+      "label": "KAUST",
+      "type": "research"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Shift from AI strategy to execution \u2014 can HUMAIN build in one year what took 20?",
+      "category": "investment",
+      "summary": "HUMAIN's leadership has publicly set a goal of building in a single year what previously took two decades \u2014 an extremely aggressive execution timeline.",
+      "expanded": "Consolidating Aramco's AI assets under HUMAIN and pairing that with major compute purchases and record-scale data-centre construction represents a genuine bet that state-directed speed can compress normal AI infrastructure build-out timelines. Whether the ambition matches deliverable capability \u2014 rather than just headline infrastructure statistics \u2014 is the open question.",
+      "sourceIds": [
+        "sa-2"
+      ]
+    },
+    {
+      "topic": "Chip access as part of Gulf compute diplomacy",
+      "category": "security",
+      "summary": "Saudi Arabia's chip access, like the UAE's, depends on ongoing US diplomatic approval rather than settled trade policy.",
+      "expanded": "The November 2025 approval for HUMAIN (alongside G42) to purchase advanced NVIDIA chips followed direct diplomatic engagement, including a Saudi Crown Prince visit. This makes Saudi Arabia's compute access a function of bilateral relations as much as commercial terms \u2014 a dependency that could shift with US political change.",
+      "sourceIds": [
+        "sa-2"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Abdullah Alghamdi",
+      "type": "person",
+      "role": "SDAIA President; leads the National Strategy for Data and AI.",
+      "category": "government",
+      "affiliation": "SDAIA"
+    },
+    {
+      "name": "HUMAIN",
+      "type": "organization",
+      "role": "PIF's principal sovereign AI infrastructure vehicle, consolidating Aramco's AI assets.",
+      "category": "company",
+      "url": "https://vision2030.ai/analysis/humain/"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "SDAIA president on Saudi Arabia's integrated national AI ecosystem",
+      "type": "government",
+      "author": "Asharq Al-Awsat",
+      "url": "https://english.aawsat.com/technology/5242804-sdaia-president-saudi-arabia-building-integrated-national-ai-ecosystem-line"
+    },
+    {
+      "title": "HUMAIN analysis",
+      "type": "academic",
+      "author": "Vision 2030",
+      "url": "https://vision2030.ai/analysis/humain/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sa-1",
+      "title": "Saudi Arabia's Year of Artificial Intelligence",
+      "publisher": "Arab News",
+      "url": "https://www.arabnews.com/node/2636061/amp",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "sa-2",
+      "title": "US approves AI chip exports to Gulf after Saudi crown prince visit",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2025/11/20/us-approves-ai-chip-exports-to-gulf-after-saudi-crown-prince-visit.html",
+      "date": "2025-11",
+      "category": "news"
+    },
+    {
+      "id": "sa-3",
+      "title": "DISAI 2026 programme",
+      "publisher": "Saudi Press Agency",
+      "url": "https://www.spa.gov.sa/en/N2546742",
+      "date": "2026",
+      "category": "government"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

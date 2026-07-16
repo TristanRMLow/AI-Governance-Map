@@ -1,0 +1,299 @@
+{
+  "code": "it",
+  "name": "Italy",
+  "shortName": "Italy",
+  "flagEmoji": "\ud83c\uddee\ud83c\uddf9",
+  "geometryType": "polygon",
+  "isoA3": [
+    "ITA"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "First EU member state with its own comprehensive national AI law",
+  "accentColor": {
+    "light": "#A2678E",
+    "dark": "#B587A6"
+  },
+  "center": [
+    12.5,
+    42.5
+  ],
+  "zoom": 5.0,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 4,
+  "debateTopics": [
+    "TDM copyright restriction scope contested by industry vs. rightsholders",
+    "First-mover national AI law vs. EU harmonisation"
+  ],
+  "overview": "Italy became the first EU member state to pass its own comprehensive national AI law, Law No. 132/2025, which entered into force in October 2025 and layers sector-specific rules \u2014 for healthcare, employment, justice and the professions \u2014 plus new AI copyright provisions on top of the EU AI Act baseline. Implementing decrees are due by October 2026; two received preliminary government approval in June 2026.\n\nUndersecretary Alessio Butti frames the law as a 'digital sovereignty' matter, citing a \u20ac1 billion national investment. The law's copyright provisions are notably strict: AI-assisted works are protected only with genuine human creative contribution, and text-and-data-mining is permitted only for research or non-commercial use unless rights holders opt in \u2014 a tighter stance than most of the EU.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "First-mover national law, layered atop EU baseline",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "National AI Law (132/2025) plus sector rules, layered atop the EU AI Act",
+    "latestMajorUpdate": "Implementing decrees for Italy's national AI law given preliminary government approval",
+    "governmentInvolvement": "High \u2014 first EU state with its own comprehensive AI statute, framed as digital sovereignty",
+    "industrialStrategy": "\u20ac1B national AI investment; AI4I industrial AI institute in Turin",
+    "internationalPartnerships": "New UNU AI and big-data institute in Bologna for global collaboration",
+    "primaryPolicyFocus": "Sector-specific rules (healthcare, employment, justice) plus stricter AI copyright provisions"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Italy moved first among EU states to legislate its own comprehensive national AI law rather than rely on the EU AI Act alone, and is now finalising implementing decrees \u2014 due by October 2026 \u2014 that will determine how strictly its stricter national copyright and sector rules are enforced."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Two implementing decrees for Italy's national AI law given preliminary government approval, aligning national rules with the EU AI Act.",
+      "date": "2026-06-10",
+      "sourceIds": [
+        "it-1"
+      ]
+    },
+    {
+      "text": "Undersecretary Alessio Butti cites a \u20ac1B national AI investment, framing it as a digital sovereignty issue.",
+      "date": "2026",
+      "sourceIds": [
+        "it-2"
+      ]
+    },
+    {
+      "text": "UNU establishes a new AI and big-data institute in Bologna to drive global collaboration.",
+      "date": "2026",
+      "sourceIds": [
+        "it-3"
+      ]
+    },
+    {
+      "text": "Italy becomes the first EU member state to enact its own comprehensive national AI law (Law No. 132/2025).",
+      "date": "2025-10-10",
+      "sourceIds": [
+        "it-4"
+      ],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National AI Law (Law No. 132/2025)",
+      "status": "in_force",
+      "summary": "First comprehensive national AI law among EU member states, adding sector-specific rules for healthcare, employment, justice and the professions, plus stricter AI copyright provisions than the EU baseline.",
+      "sourceIds": [
+        "it-4"
+      ]
+    },
+    {
+      "title": "Implementing decrees for Law 132/2025",
+      "status": "proposed",
+      "summary": "Due by 10 October 2026; two given preliminary government approval in June 2026, aligning national rules with the EU AI Act.",
+      "sourceIds": [
+        "it-1"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Italian AI research runs through the Italian Institute of Technology (IIT), the National Research Council (CNR/ICAR), and AI4I \u2014 a government-established industrial AI institute in Turin \u2014 backed by the CINI AIIS lab network.",
+    "sourceIds": [
+      "it-5"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Generative Bionics",
+      "description": "IIT-spinout humanoid robotics company, having raised \u20ac70M."
+    },
+    {
+      "name": "Axyon AI",
+      "description": "Italian fintech AI company."
+    },
+    {
+      "name": "Lexroom.ai",
+      "description": "Italian legal-tech AI company."
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Leading cloud provider for Italian enterprise AI workloads."
+      },
+      {
+        "name": "AWS",
+        "description": "Major cloud provider with significant Italian data-centre presence."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across Italian research and enterprise AI."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "Azure",
+        "share": 29
+      },
+      {
+        "provider": "AWS",
+        "share": 27
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 13
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "Italian Institute of Technology (IIT)",
+      "description": "Leading Italian research institute, incubator of Generative Bionics and other AI/robotics spinouts.",
+      "url": "https://www.iit.it"
+    },
+    {
+      "name": "AI4I",
+      "description": "Government-established industrial AI institute based in Turin.",
+      "url": "https://ai4i.it"
+    },
+    {
+      "name": "CNR (National Research Council)",
+      "description": "Italy's national research council, including the ICAR AI research institute."
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "The European House \u2013 Ambrosetti",
+      "description": "Italian policy and strategy think tank covering AI and digital competitiveness.",
+      "url": "https://www.ambrosetti.eu"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Agency for Digital Italy (AgID)",
+      "description": "Notifying authority for Italy's national AI law."
+    },
+    {
+      "name": "National Cybersecurity Agency (ACN)",
+      "description": "Market surveillance authority and EU contact point for AI Act enforcement."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Alessio Butti",
+      "role": "Undersecretary to the Presidency of the Council of Ministers for Technological Innovation",
+      "category": "government",
+      "url": "https://www.governo.it"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Undersecretary for Technological Innovation",
+      "type": "government"
+    },
+    {
+      "label": "AgID",
+      "type": "agency"
+    },
+    {
+      "label": "Generative Bionics",
+      "type": "company"
+    },
+    {
+      "label": "IIT",
+      "type": "research"
+    },
+    {
+      "label": "The European House \u2013 Ambrosetti",
+      "type": "think_tank"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "TDM copyright restriction scope contested by industry vs. rightsholders",
+      "category": "government",
+      "summary": "Italy's national law permits text-and-data-mining for AI training only for research or non-commercial use unless rights holders opt in \u2014 stricter than the EU baseline and contested by industry.",
+      "expanded": "AI developers argue the research/non-commercial-only default makes Italy a harder jurisdiction to train commercial models in compared to peers relying solely on the EU AI Act's copyright framework. Rightsholders and creative-industry groups support the stricter default, arguing it better protects Italian creative and publishing industries.",
+      "sourceIds": [
+        "it-4"
+      ]
+    },
+    {
+      "topic": "First-mover national AI law vs. EU harmonisation",
+      "category": "government",
+      "summary": "As the first EU state with its own comprehensive AI law, Italy tests whether national add-ons atop the AI Act help or fragment the single market.",
+      "expanded": "The European Commission has generally pushed for harmonised AI Act implementation across member states; Italy's decision to legislate additional sector-specific and copyright rules raises the question of whether other states will follow suit (creating a patchwork within the EU itself) or whether Brussels will push back on national divergence.",
+      "sourceIds": [
+        "it-1"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Alessio Butti",
+      "type": "person",
+      "role": "Undersecretary for Technological Innovation; the chief architect and public face of Italy's AI sovereignty push.",
+      "category": "government",
+      "url": "https://www.governo.it"
+    },
+    {
+      "name": "The European House \u2013 Ambrosetti",
+      "type": "organization",
+      "role": "Leading Italian policy and strategy think tank covering AI and digital competitiveness.",
+      "category": "think_tank",
+      "url": "https://www.ambrosetti.eu"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Italy AI Law guide",
+      "type": "government",
+      "url": "https://securiti.ai/italy-ai-law-guide/"
+    },
+    {
+      "title": "The European House \u2013 Ambrosetti AI and digital competitiveness reports",
+      "type": "think_tank",
+      "url": "https://www.ambrosetti.eu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "it-1",
+      "title": "Italy approves draft AI decrees aligning national rules with the EU AI Act",
+      "publisher": "DLA Piper",
+      "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/-italy-approves-draft-ai-decrees-aligning-national-rules-with-the-eu-ai-act",
+      "date": "2026-06",
+      "category": "think_tank"
+    },
+    {
+      "id": "it-2",
+      "title": "Butti on Italy's AI sovereignty investment",
+      "publisher": "World Technology Congress",
+      "url": "https://www.worldtechnologycongress.org/news/italys-undersecretary-for-technological-innovation-sen-alessio-butti-to-contribute-to-high-level-european-dialogue-on-physical-ai",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "it-3",
+      "title": "New UNU institute in Italy will drive global collaboration on AI and big data",
+      "publisher": "United Nations University",
+      "url": "https://unu.edu/press-release/new-unu-institute-italy-will-drive-global-collaboration-big-data-and-artificial",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "it-4",
+      "title": "Italy becomes the first in Europe to set national AI rules",
+      "publisher": "McDermott Will & Emery",
+      "url": "https://www.mcdermottlaw.com/insights/italy-becomes-the-first-in-europe-to-set-national-ai-rules/",
+      "date": "2025-10",
+      "category": "think_tank"
+    },
+    {
+      "id": "it-5",
+      "title": "Italy AI strategy report",
+      "publisher": "AI Watch, Joint Research Centre",
+      "url": "https://ai-watch.ec.europa.eu/countries/italy/italy-ai-strategy-report_en",
+      "date": "2026",
+      "category": "research"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

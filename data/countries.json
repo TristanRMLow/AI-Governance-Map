@@ -1,0 +1,596 @@
+[
+  {
+    "code": "us",
+    "name": "United States",
+    "shortName": "US",
+    "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+    "geometryType": "polygon",
+    "isoA3": [
+      "USA"
+    ],
+    "region": "Americas",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Sectoral and executive-led, with significant state-level activity",
+    "accentColor": {
+      "light": "#3E5979",
+      "dark": "#51749E"
+    },
+    "center": [
+      -98.5,
+      39.8
+    ],
+    "zoom": 3.2,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Who leads AI policy after the AI czar role went vacant",
+      "Federal preemption vs. state AI laws",
+      "Copyright and AI training data",
+      "Export controls on AI chips",
+      "CAISI's expanding pre-deployment testing mandate"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "uk",
+    "name": "United Kingdom",
+    "shortName": "UK",
+    "flagEmoji": "\ud83c\uddec\ud83c\udde7",
+    "geometryType": "polygon",
+    "isoA3": [
+      "GBR"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Regulator-led via a 2025 Blueprint, without primary AI legislation",
+    "accentColor": {
+      "light": "#673C4B",
+      "dark": "#8D5366"
+    },
+    "center": [
+      -2.5,
+      54.5
+    ],
+    "zoom": 4.6,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Blueprint vs. binding law \u2014 has the UK shelved the Frontier AI Bill?",
+      "AI Growth Lab regulatory sandbox design",
+      "Frontier AI cyber risk oversight by the Bank of England and FCA",
+      "Copyright vs. AI training data"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "eu",
+    "name": "European Union",
+    "shortName": "EU",
+    "flagEmoji": "\ud83c\uddea\ud83c\uddfa",
+    "geometryType": "marker",
+    "isoA3": [],
+    "region": "Europe",
+    "jurisdictionType": "supranational",
+    "governanceModel": "Comprehensive, risk-based hard law binding all member states",
+    "accentColor": {
+      "light": "#314572",
+      "dark": "#405A96"
+    },
+    "center": [
+      4.35,
+      50.85
+    ],
+    "zoom": 4,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Digital Omnibus \u2014 simplification or weakening of the AI Act?",
+      "Cloud and AI Development Act and compute sovereignty",
+      "Copyright and text-and-data-mining under the AI Act",
+      "AI Act enforcement readiness across member states"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "sg",
+    "name": "Singapore",
+    "shortName": "Singapore",
+    "flagEmoji": "\ud83c\uddf8\ud83c\uddec",
+    "geometryType": "polygon",
+    "isoA3": [
+      "SGP"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Voluntary frameworks with outsized regional influence across ASEAN",
+    "accentColor": {
+      "light": "#B76679",
+      "dark": "#C48292"
+    },
+    "center": [
+      103.82,
+      1.35
+    ],
+    "zoom": 9,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 5,
+    "debateTopics": [
+      "Voluntary governance for agentic AI",
+      "AI Tester Accreditation and third-party red-teaming",
+      "Sovereign compute constraints",
+      "Cross-border AI data flows vs. localisation"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "jp",
+    "name": "Japan",
+    "shortName": "Japan",
+    "flagEmoji": "\ud83c\uddef\ud83c\uddf5",
+    "geometryType": "polygon",
+    "isoA3": [
+      "JPN"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Soft-law guidelines with G7 Hiroshima AI Process leadership",
+    "accentColor": {
+      "light": "#B8474B",
+      "dark": "#C4686C"
+    },
+    "center": [
+      138.25,
+      36.5
+    ],
+    "zoom": 4.3,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "AI Basic Plan implementation and the AI investment gap",
+      "AI copyright compensation and voice-imitation rules",
+      "Domestic foundation-model strategy and the \u00a51 trillion public-private push",
+      "Enforcement gap in the AI Promotion Act"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "cn",
+    "name": "China",
+    "shortName": "China",
+    "flagEmoji": "\ud83c\udde8\ud83c\uddf3",
+    "geometryType": "polygon",
+    "isoA3": [
+      "CHN"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "State-driven, fast-moving binding rules with algorithm registries",
+    "accentColor": {
+      "light": "#84453E",
+      "dark": "#A6574E"
+    },
+    "center": [
+      104.2,
+      35.9
+    ],
+    "zoom": 3.2,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Regulating agentic AI under the new Intelligent Agents framework",
+      "AI companion apps and anthropomorphic interaction rules",
+      "Chip self-sufficiency vs. export controls",
+      "Open-weighting frontier models as strategy"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "ca",
+    "name": "Canada",
+    "shortName": "Canada",
+    "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+    "geometryType": "polygon",
+    "isoA3": [
+      "CAN"
+    ],
+    "region": "Americas",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Ambitious state investment without a comprehensive AI statute",
+    "accentColor": {
+      "light": "#A6634E",
+      "dark": "#B97C6A"
+    },
+    "center": [
+      -106.3,
+      56.1
+    ],
+    "zoom": 3.0,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 5,
+    "debateTopics": [
+      "Legislative vacuum after AIDA's death",
+      "Germany-Canada Sovereign Technology Alliance and cross-border AI sovereignty",
+      "Scaling 'AI for All's' ambitious 2034 adoption targets"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "de",
+    "name": "Germany",
+    "shortName": "Germany",
+    "flagEmoji": "\ud83c\udde9\ud83c\uddea",
+    "geometryType": "polygon",
+    "isoA3": [
+      "DEU"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "EU AI Act member state, no distinct national AI statute",
+    "accentColor": {
+      "light": "#A89457",
+      "dark": "#BAA978"
+    },
+    "center": [
+      10.45,
+      51.16
+    ],
+    "zoom": 5.2,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Germany's sovereign AI champion changes hands",
+      "EU AI Act compliance without a national AI law",
+      "Germany-Canada Sovereign Technology Alliance"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "fr",
+    "name": "France",
+    "shortName": "France",
+    "flagEmoji": "\ud83c\uddeb\ud83c\uddf7",
+    "geometryType": "polygon",
+    "isoA3": [
+      "FRA"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "EU AI Act member state pursuing sovereignty through infrastructure, not new law",
+    "accentColor": {
+      "light": "#6089A9",
+      "dark": "#7EA0B9"
+    },
+    "center": [
+      2.35,
+      46.6
+    ],
+    "zoom": 5.0,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Mistral's defense-AI partnership and dual military/commercial strategy",
+      "Silicon sovereignty \u2014 AMD/SiPearl vs. NVIDIA dependence",
+      "SecNumCloud sovereignty vs. US hyperscaler participation"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "nl",
+    "name": "Netherlands",
+    "shortName": "Netherlands",
+    "flagEmoji": "\ud83c\uddf3\ud83c\uddf1",
+    "geometryType": "polygon",
+    "isoA3": [
+      "NLD"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Diplomatic AI leadership paired with new domestic AI Act implementation",
+    "accentColor": {
+      "light": "#508B9B",
+      "dark": "#6BA3B3"
+    },
+    "center": [
+      5.3,
+      52.1
+    ],
+    "zoom": 6.3,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 3,
+    "debateTopics": [
+      "Diplomatic leadership without a domestic AI champion",
+      "Dutch AI Implementation Act consultation"
+    ],
+    "hasMajorUpdate": false
+  },
+  {
+    "code": "it",
+    "name": "Italy",
+    "shortName": "Italy",
+    "flagEmoji": "\ud83c\uddee\ud83c\uddf9",
+    "geometryType": "polygon",
+    "isoA3": [
+      "ITA"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "First EU member state with its own comprehensive national AI law",
+    "accentColor": {
+      "light": "#A2678E",
+      "dark": "#B587A6"
+    },
+    "center": [
+      12.5,
+      42.5
+    ],
+    "zoom": 5.0,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 4,
+    "debateTopics": [
+      "TDM copyright restriction scope contested by industry vs. rightsholders",
+      "First-mover national AI law vs. EU harmonisation"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "es",
+    "name": "Spain",
+    "shortName": "Spain",
+    "flagEmoji": "\ud83c\uddea\ud83c\uddf8",
+    "geometryType": "polygon",
+    "isoA3": [
+      "ESP"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "First EU member with a dedicated national AI supervisory agency",
+    "accentColor": {
+      "light": "#9C753A",
+      "dark": "#BD904C"
+    },
+    "center": [
+      -3.7,
+      40.3
+    ],
+    "zoom": 5.2,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 3,
+    "debateTopics": [
+      "AESIA's sandbox and enforcement posture",
+      "Organic Law's sanctions regime passing the Cortes intact"
+    ],
+    "hasMajorUpdate": false
+  },
+  {
+    "code": "kr",
+    "name": "South Korea",
+    "shortName": "South Korea",
+    "flagEmoji": "\ud83c\uddf0\ud83c\uddf7",
+    "geometryType": "polygon",
+    "isoA3": [
+      "KOR"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "First comprehensive cross-sector AI law, paired with a state-backed sovereign model push",
+    "accentColor": {
+      "light": "#5963A6",
+      "dark": "#7A83B8"
+    },
+    "center": [
+      127.8,
+      36.5
+    ],
+    "zoom": 6.2,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 4,
+    "debateTopics": [
+      "AI Basic Act enforcement decree's narrow high-risk definition",
+      "Sovereign foundation-model push vs. matching frontier performance"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "in",
+    "name": "India",
+    "shortName": "India",
+    "flagEmoji": "\ud83c\uddee\ud83c\uddf3",
+    "geometryType": "polygon",
+    "isoA3": [
+      "IND"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Non-binding national guidelines, with binding rules only for synthetic content",
+    "accentColor": {
+      "light": "#B57C4A",
+      "dark": "#C2946B"
+    },
+    "center": [
+      79.0,
+      22.0
+    ],
+    "zoom": 4.0,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 5,
+    "debateTopics": [
+      "IT Rules 2026 takedown triggers criticised as overbroad by digital-rights groups",
+      "Whether India needs a dedicated standalone AI law given deepfake and cyber risk"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "tw",
+    "name": "Taiwan",
+    "shortName": "Taiwan",
+    "flagEmoji": "\ud83c\uddf9\ud83c\uddfc",
+    "geometryType": "polygon",
+    "isoA3": [
+      "TWN"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "New AI Basic Act atop a chip-centric, not model-centric, AI economy",
+    "accentColor": {
+      "light": "#529898",
+      "dark": "#6DB0B0"
+    },
+    "center": [
+      121.0,
+      23.7
+    ],
+    "zoom": 7.0,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 4,
+    "debateTopics": [
+      "AI chip export controls on China beyond the existing US blacklist",
+      "Building an AI ecosystem around chips rather than models"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "au",
+    "name": "Australia",
+    "shortName": "Australia",
+    "flagEmoji": "\ud83c\udde6\ud83c\uddfa",
+    "geometryType": "polygon",
+    "isoA3": [
+      "AUS"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Technology-neutral regulation after abandoning mandatory AI guardrails",
+    "accentColor": {
+      "light": "#879B50",
+      "dark": "#9DB168"
+    },
+    "center": [
+      133.8,
+      -25.3
+    ],
+    "zoom": 3.5,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 4,
+    "debateTopics": [
+      "Reversal from mandatory guardrails to technology-neutral regulation",
+      "AI Safety Institute's role without binding law behind it"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "ae",
+    "name": "United Arab Emirates",
+    "shortName": "UAE",
+    "flagEmoji": "\ud83c\udde6\ud83c\uddea",
+    "geometryType": "polygon",
+    "isoA3": [
+      "ARE"
+    ],
+    "region": "Middle East",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "State-directed strategy consolidated under a single new AI Authority",
+    "accentColor": {
+      "light": "#3D7B64",
+      "dark": "#4D9D80"
+    },
+    "center": [
+      54.3,
+      24.0
+    ],
+    "zoom": 6.5,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 5,
+    "debateTopics": [
+      "Consolidating AI governance under a single new Authority",
+      "Chip access \u2014 compute diplomacy vs. continued export friction"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "sa",
+    "name": "Saudi Arabia",
+    "shortName": "Saudi Arabia",
+    "flagEmoji": "\ud83c\uddf8\ud83c\udde6",
+    "geometryType": "polygon",
+    "isoA3": [
+      "SAU"
+    ],
+    "region": "Middle East",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "State-directed AI strategy now shifting from planning to execution",
+    "accentColor": {
+      "light": "#AE976F",
+      "dark": "#BDAA89"
+    },
+    "center": [
+      45.1,
+      24.0
+    ],
+    "zoom": 4.8,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 4,
+    "debateTopics": [
+      "Shift from AI strategy to execution \u2014 can HUMAIN build in one year what took 20?",
+      "Chip access as part of Gulf compute diplomacy"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "br",
+    "name": "Brazil",
+    "shortName": "Brazil",
+    "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+    "geometryType": "polygon",
+    "isoA3": [
+      "BRA"
+    ],
+    "region": "Americas",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Comprehensive risk-based AI bill pending final passage",
+    "accentColor": {
+      "light": "#729051",
+      "dark": "#89A966"
+    },
+    "center": [
+      -51.9,
+      -10.8
+    ],
+    "zoom": 3.5,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 3,
+    "debateTopics": [
+      "Biometric surveillance carve-outs in PL 2338",
+      "Whether PL 2338 passes before the August 2026 recess"
+    ],
+    "hasMajorUpdate": false
+  },
+  {
+    "code": "il",
+    "name": "Israel",
+    "shortName": "Israel",
+    "flagEmoji": "\ud83c\uddee\ud83c\uddf1",
+    "geometryType": "polygon",
+    "isoA3": [
+      "ISR"
+    ],
+    "region": "Middle East",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Sectoral, risk-based guidance without a binding AI-specific law",
+    "accentColor": {
+      "light": "#697B96",
+      "dark": "#8493A9"
+    },
+    "center": [
+      34.9,
+      31.0
+    ],
+    "zoom": 6.8,
+    "lastUpdated": "2026-07-13",
+    "newDevelopmentsCount": 4,
+    "debateTopics": [
+      "AI21 Labs' decline and what it signals about the Israeli AI startup boom",
+      "Israel's principle-based approach without a binding AI law as models scale"
+    ],
+    "hasMajorUpdate": false
+  }
+]

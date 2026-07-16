@@ -1,0 +1,356 @@
+{
+  "code": "de",
+  "name": "Germany",
+  "shortName": "Germany",
+  "flagEmoji": "\ud83c\udde9\ud83c\uddea",
+  "geometryType": "polygon",
+  "isoA3": [
+    "DEU"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "EU AI Act implemented nationally via the new KI-MIG enforcement law",
+  "accentColor": {
+    "light": "#A89457",
+    "dark": "#BAA978"
+  },
+  "center": [
+    10.45,
+    51.16
+  ],
+  "zoom": 5.2,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "CEO personal liability under the KI-MIG enforcement law",
+    "Germany's sovereign AI champion changes hands",
+    "Germany-Canada Sovereign Technology Alliance"
+  ],
+  "overview": "Germany passed its own AI Act enforcement legislation in mid-2026 \u2014 the KI-MIG (AI Act Implementing Act), approved by the Bundestag on 11 June, naming the Bundesnetzagentur as market-surveillance authority and introducing personal liability for company executives over AI security failures from 2 August 2026, with fines of up to \u20ac35 million or 7% of global turnover. Dr. Karsten Wildberger has led the restructured Federal Ministry for Digital Transformation and Government Modernisation (BMDS) as Germany's first-ever Digital Minister since May 2025.\n\n2026's other defining German AI story was industrial rather than regulatory: Aleph Alpha, long framed as the country's sovereign answer to OpenAI and Mistral, agreed to be acquired by Canada's Cohere \u2014 a striking juxtaposition alongside the new Germany-Canada Sovereign Technology Alliance.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "EU-aligned, now with binding national enforcement",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "KI-MIG implements and enforces the EU AI Act nationally, with real penalties",
+    "latestMajorUpdate": "Bundestag passes the KI-MIG AI Act Implementing Act, with CEO liability from August 2026",
+    "governmentInvolvement": "Rising \u2014 new enforcement law and a dedicated Digital Ministry since 2025",
+    "industrialStrategy": "Balancing enforcement with competitiveness amid a national champion's sale abroad",
+    "internationalPartnerships": "Germany-Canada Sovereign Technology Alliance; full EU AI Act participation",
+    "primaryPolicyFocus": "AI Act enforcement mechanics and executive liability over new substantive rules"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Germany moved from having no national AI-specific statute to passing real enforcement legislation within months \u2014 the KI-MIG names a market-surveillance authority and introduces personal liability for executives, a substantive tightening even though it implements the EU AI Act rather than creating new substantive rules."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Bundestag passes the KI-MIG (AI Act Implementing Act) on 11 June, naming the Bundesnetzagentur as market-surveillance authority; CEOs face personal liability for AI security failures from 2 August 2026, with fines up to \u20ac35M or 7% of global turnover.",
+      "date": "2026-06-11",
+      "sourceIds": [
+        "de-6"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Cohere announces acquisition of Aleph Alpha, ending its run as Germany's independent sovereign AI champion.",
+      "date": "2026-04-24",
+      "sourceIds": [
+        "de-1"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Germany\u2013Canada Sovereign Technology Alliance launched at the Munich Security Conference to reduce strategic technology dependency.",
+      "date": "2026",
+      "sourceIds": [
+        "de-2"
+      ]
+    },
+    {
+      "text": "Federal Employment Agency and Aleph Alpha deploy a \u20ac19M AI helpdesk handling up to 90% of routine IT/HR inquiries.",
+      "date": "2026",
+      "sourceIds": [
+        "de-1"
+      ]
+    },
+    {
+      "text": "German AI startups attract \u20ac1.7B in Q1 2026 funding alone; Germany ranks 4th globally for AI startup count after Silicon Valley, Paris and London.",
+      "date": "2026",
+      "sourceIds": [
+        "de-3"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Dr. Karsten Wildberger confirmed as Germany's first-ever Digital Minister, leading the restructured BMDS since May 2025.",
+      "date": "2025-05",
+      "sourceIds": [
+        "de-7"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "KI-MIG (AI Act Implementing Act)",
+      "status": "in_force",
+      "summary": "Passed by the Bundestag 11 June 2026, names the Bundesnetzagentur as Germany's AI Act market-surveillance authority and introduces personal executive liability for AI security failures from 2 August 2026, with fines up to \u20ac35M or 7% of global turnover.",
+      "sourceIds": [
+        "de-6"
+      ]
+    },
+    {
+      "title": "EU AI Act (as applied in Germany)",
+      "status": "in_force",
+      "summary": "The substantive rules Germany enforces are the EU AI Act's; KI-MIG is Germany's national implementation and enforcement layer rather than a separate substantive AI statute.",
+      "sourceIds": [
+        "de-4"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "German AI research runs through DFKI (German Research Center for AI, roughly 800 scientists across multiple sites, founded 1988) and the Max Planck Institute for Intelligent Systems, anchoring a startup ecosystem that ranks fourth globally by AI startup count after Silicon Valley, Paris and London.",
+    "sourceIds": [
+      "de-3"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Aleph Alpha",
+      "description": "German AI company focused on sovereign, enterprise-grade language models; agreed in 2026 to be acquired by Canada's Cohere.",
+      "url": "https://aleph-alpha.com"
+    },
+    {
+      "name": "DeepL",
+      "description": "Cologne-based AI company known for high-quality machine translation.",
+      "url": "https://www.deepl.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Leading cloud provider for German enterprise and public-sector AI workloads."
+      },
+      {
+        "name": "AWS",
+        "description": "Major cloud provider with significant German data-centre presence."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across German research and enterprise AI deployments."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "Azure",
+        "share": 31
+      },
+      {
+        "provider": "AWS",
+        "share": 27
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 13
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "DFKI",
+      "description": "German Research Center for Artificial Intelligence \u2014 roughly 800 scientists across multiple German sites, founded 1988.",
+      "url": "https://www.dfki.de"
+    },
+    {
+      "name": "Max Planck Institute for Intelligent Systems",
+      "description": "Leading research institute for machine learning and robotics, based in Stuttgart and T\u00fcbingen.",
+      "url": "https://is.mpg.de"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Stiftung Neue Verantwortung",
+      "description": "Berlin-based technology policy think tank covering digital and AI governance issues.",
+      "url": "https://www.stiftung-nv.de"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Federal Ministry for Digital Transformation and Government Modernisation (BMDS)",
+      "description": "Germany's first dedicated digital ministry, restructured in 2025, led by Dr. Karsten Wildberger.",
+      "url": "https://www.bundesregierung.de/breg-en/federal-government/ministries/ministry-for-digitalisation-and-state-modernisation"
+    },
+    {
+      "name": "Bundesnetzagentur",
+      "description": "Named as Germany's market-surveillance authority for AI Act enforcement under the new KI-MIG law."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Karsten Wildberger",
+      "role": "Federal Minister for Digital Transformation and Government Modernisation",
+      "affiliation": "BMDS",
+      "category": "government",
+      "url": "https://www.bundesregierung.de/breg-en/federal-government/ministries/ministry-for-digitalisation-and-state-modernisation"
+    },
+    {
+      "name": "Jonas Andrulis",
+      "role": "Founder and Chief Executive Officer",
+      "affiliation": "Aleph Alpha",
+      "category": "company_leader",
+      "url": "https://aleph-alpha.com"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Karsten Wildberger",
+      "type": "person",
+      "role": "Germany's first Digital Minister; central voice on the country's AI enforcement and digitalisation strategy.",
+      "category": "government"
+    },
+    {
+      "name": "Stiftung Neue Verantwortung",
+      "type": "organization",
+      "role": "Berlin think tank covering German and EU digital and AI governance issues in depth.",
+      "category": "think_tank",
+      "url": "https://www.stiftung-nv.de"
+    },
+    {
+      "name": "DFKI",
+      "type": "organization",
+      "role": "Germany's national AI research centre, closely watched for applied AI research direction.",
+      "category": "university",
+      "url": "https://www.dfki.de"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "BMDS",
+      "type": "government"
+    },
+    {
+      "label": "Bundesnetzagentur",
+      "type": "agency"
+    },
+    {
+      "label": "Aleph Alpha",
+      "type": "company"
+    },
+    {
+      "label": "DFKI",
+      "type": "research"
+    },
+    {
+      "label": "Stiftung Neue Verantwortung",
+      "type": "think_tank"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "CEO personal liability under the KI-MIG enforcement law",
+      "category": "government",
+      "summary": "Germany's new AI Act implementing law introduces personal liability for executives over AI security failures \u2014 a sharper enforcement edge than most peer EU states have adopted nationally.",
+      "expanded": "From 2 August 2026, company executives can be held personally liable for AI security failures under KI-MIG, alongside fines of up to \u20ac35M or 7% of global turnover. Industry groups warn this could push some AI deployment decisions toward excessive caution or offshore structuring; the government frames it as necessary teeth for a law that would otherwise be difficult to enforce against large multinational deployers.",
+      "sourceIds": [
+        "de-6"
+      ]
+    },
+    {
+      "topic": "Germany's sovereign AI champion changes hands",
+      "category": "industry",
+      "summary": "Aleph Alpha's acquisition by Canada's Cohere raises the question of what 'sovereign AI' means when a national champion is sold to a foreign lab.",
+      "expanded": "Aleph Alpha had been positioned for years as Germany's answer to dependence on US and French AI labs. Its 2026 acquisition by Cohere \u2014 itself the subject of a new Germany-Canada tech alliance \u2014 complicates the sovereignty narrative: German enterprise and public-sector AI (like the Federal Employment Agency's helpdesk) now runs on technology owned by a foreign company, even if a friendly one.",
+      "sourceIds": [
+        "de-1"
+      ]
+    },
+    {
+      "topic": "Germany-Canada Sovereign Technology Alliance",
+      "category": "investment",
+      "summary": "A new alliance with Canada aims to reduce both countries' strategic technology dependency \u2014 launched in the same period as Canada's Cohere acquired Germany's own flagship AI lab.",
+      "expanded": "The alliance's stated aim is deepening cooperation on sovereign technology capability between the two countries. Its practical meaning is still being worked out, particularly given the Aleph Alpha acquisition running in parallel.",
+      "sourceIds": [
+        "de-2"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "KI-MIG (AI Act Implementing Act) overview",
+      "type": "government",
+      "url": "https://www.technologyslegaledge.com/2026/03/germanys-ai-implementation-act/"
+    },
+    {
+      "title": "DFKI research programme",
+      "type": "academic",
+      "url": "https://www.dfki.de"
+    },
+    {
+      "title": "German and EU AI policy commentary",
+      "type": "think_tank",
+      "author": "Stiftung Neue Verantwortung",
+      "url": "https://www.stiftung-nv.de"
+    }
+  ],
+  "sources": [
+    {
+      "id": "de-1",
+      "title": "Cohere to acquire Aleph Alpha",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "de-2",
+      "title": "Germany's sovereign AI hope changes hands",
+      "publisher": "CIO",
+      "url": "https://www.cio.com/article/4163327/germanys-sovereign-ai-hope-changes-hands.html",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "de-3",
+      "title": "German AI startup funding and ecosystem ranking",
+      "publisher": "DFKI",
+      "url": "https://www.dfki.de",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "de-4",
+      "title": "AI Act (Regulation (EU) 2024/1689)",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "date": "2024-08",
+      "category": "government"
+    },
+    {
+      "id": "de-5",
+      "title": "German and EU AI policy commentary",
+      "publisher": "Stiftung Neue Verantwortung",
+      "url": "https://www.stiftung-nv.de",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "de-6",
+      "title": "Germany's AI Implementation Act (KI-MIG)",
+      "publisher": "technologyslegaledge / ad-hoc-news",
+      "url": "https://www.technologyslegaledge.com/2026/03/germanys-ai-implementation-act/",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "de-7",
+      "title": "Federal Ministry for Digital Transformation and Government Modernisation",
+      "publisher": "Bundesregierung",
+      "url": "https://www.bundesregierung.de/breg-en/federal-government/ministries/ministry-for-digitalisation-and-state-modernisation",
+      "date": "2025-05",
+      "category": "government"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

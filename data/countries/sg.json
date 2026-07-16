@@ -1,0 +1,460 @@
+{
+  "code": "sg",
+  "name": "Singapore",
+  "shortName": "Singapore",
+  "flagEmoji": "\ud83c\uddf8\ud83c\uddec",
+  "geometryType": "polygon",
+  "isoA3": [
+    "SGP"
+  ],
+  "region": "Asia-Pacific",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Voluntary frameworks with outsized regional influence across ASEAN",
+  "accentColor": {
+    "light": "#B76679",
+    "dark": "#C48292"
+  },
+  "center": [
+    103.82,
+    1.35
+  ],
+  "zoom": 9,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 5,
+  "debateTopics": [
+    "Voluntary governance for agentic AI",
+    "AI Tester Accreditation and third-party red-teaming",
+    "Sovereign compute constraints",
+    "Cross-border AI data flows vs. localisation"
+  ],
+  "overview": "Singapore continues to bet on voluntary, testable frameworks over binding law \u2014 and continues to move first. In January 2026 it launched what it describes as the world's first Model AI Governance Framework for Agentic AI, updating it to version 1.5 within months after feedback from over 60 organisations. A National AI Council chaired by the Prime Minister now sits above the ministry-level work led by Josephine Teo.\n\nSingapore backs this guidance with real tooling \u2014 AI Verify's testing toolkit, and from Q3 2026, a new AI Tester Accreditation Programme intended to be the first of its kind in Asia for accrediting third-party AI red-teamers.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Voluntary, first-mover on agentic AI",
+      "sentiment": "green"
+    },
+    "regulatoryApproach": "Voluntary, testable frameworks \u2014 no binding AI-specific law",
+    "latestMajorUpdate": "Model AI Governance Framework for Agentic AI updated to v1.5",
+    "governmentInvolvement": "High coordination, low compulsion \u2014 PM-chaired council, but voluntary compliance",
+    "industrialStrategy": "Testing-and-standards hub strategy rather than frontier-scale domestic training",
+    "internationalPartnerships": "ASEAN and APEC cross-border data-flow frameworks; regional soft-law standard-setter",
+    "primaryPolicyFocus": "Agentic AI governance and third-party testing accreditation"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Singapore keeps extending its voluntary-framework model to new frontiers \u2014 agentic AI governance and third-party testing accreditation \u2014 rather than shifting toward binding law, reinforcing its role as a soft-law standard-setter for the region."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Model AI Governance Framework for Agentic AI updated to version 1.5 after feedback from more than 60 organisations, adding multi-agent systemic risk guidance.",
+      "date": "2026-05-20",
+      "sourceIds": [
+        "sg-1"
+      ]
+    },
+    {
+      "text": "AI Tester Accreditation Programme (AI TAP) announced, set to launch in Q3 2026 as Asia's first accreditation scheme for third-party AI red-teamers.",
+      "date": "2026",
+      "sourceIds": [
+        "sg-2"
+      ]
+    },
+    {
+      "text": "Josephine Teo cites 70 AI Centres of Excellence now operating under Singapore's national AI programme.",
+      "date": "2026",
+      "sourceIds": [
+        "sg-3"
+      ]
+    },
+    {
+      "text": "Model AI Governance Framework for Agentic AI launches \u2014 described as a world-first dedicated framework for agentic AI systems.",
+      "date": "2026-01",
+      "sourceIds": [
+        "sg-1"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "National AI Council, chaired by the Prime Minister, confirmed as the top-level body steering Singapore's AI strategy.",
+      "date": "2026",
+      "sourceIds": [
+        "sg-3"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Model AI Governance Framework for Agentic AI (v1.5)",
+      "status": "in_force",
+      "summary": "A voluntary framework specifically addressing agentic AI systems \u2014 autonomous, multi-step AI agents \u2014 including multi-agent systemic risk guidance added in the v1.5 update.",
+      "officialUrl": "https://www.imda.gov.sg",
+      "sourceIds": [
+        "sg-1"
+      ]
+    },
+    {
+      "title": "AI Tester Accreditation Programme (AI TAP)",
+      "status": "proposed",
+      "summary": "A forthcoming accreditation scheme for third-party AI red-teamers and testers, positioned as the first of its kind in Asia, launching Q3 2026.",
+      "sourceIds": [
+        "sg-2"
+      ]
+    },
+    {
+      "title": "Model AI Governance Framework",
+      "status": "in_force",
+      "summary": "A voluntary \u2014 not legally binding \u2014 framework guiding organisations on internal governance, risk management, and stakeholder communication for AI deployment. First issued 2019, updated 2020.",
+      "officialUrl": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
+      "sourceIds": [
+        "sg-4"
+      ]
+    },
+    {
+      "title": "Personal Data Protection Act (PDPA)",
+      "status": "in_force",
+      "summary": "Singapore's general data-protection law, which applies to personal data used to train or operate AI systems, enforced by the PDPC.",
+      "officialUrl": "https://sso.agc.gov.sg/Act/PDPA2012",
+      "sourceIds": [
+        "sg-5"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Singapore's research base is concentrated in A*STAR, NUS and NTU, with the AI Verify Foundation acting as an unusually applied research-to-standards pipeline \u2014 its testing methodology work sits closer to industry practice than most academic AI safety research. The Digital Trust Centre adds a dedicated hub for trust and verification research specifically.",
+    "sourceIds": [
+      "sg-6"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Sea AI Lab",
+      "description": "AI research arm of Sea Limited (Garena, Shopee), publishing open research on efficient training and reasoning models.",
+      "url": "https://sail.sea.com"
+    },
+    {
+      "name": "ByteDance AI Lab (Singapore)",
+      "description": "Regional AI research and engineering hub supporting ByteDance's recommendation and generative AI systems."
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Operates one of its largest APAC regions out of Singapore."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Major APAC cloud hub with a large Singapore data-centre presence."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider with significant Singapore government and enterprise adoption."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "AWS",
+        "share": 35
+      },
+      {
+        "provider": "Azure",
+        "share": 25
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 15
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "A*STAR",
+      "description": "Agency for Science, Technology and Research; Singapore's lead public AI and science research agency.",
+      "url": "https://www.a-star.edu.sg"
+    },
+    {
+      "name": "National University of Singapore (NUS)",
+      "description": "Hosts leading AI research groups and AI governance and law scholarship.",
+      "url": "https://www.nus.edu.sg"
+    },
+    {
+      "name": "Nanyang Technological University (NTU)",
+      "description": "Major AI research university, including the Digital Trust Centre.",
+      "url": "https://www.ntu.edu.sg"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "AI Verify Foundation",
+      "description": "Maintains the open-source AI Verify testing toolkit and convenes international industry members on AI testing standards.",
+      "url": "https://aiverifyfoundation.sg"
+    },
+    {
+      "name": "Centre for AI and Data Governance",
+      "description": "Singapore Management University research centre focused on AI regulation and data governance law.",
+      "url": "https://cagg.smu.edu.sg"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Infocomm Media Development Authority (IMDA)",
+      "description": "Leads Singapore's AI governance policy and co-publishes the Model AI Governance Frameworks.",
+      "url": "https://www.imda.gov.sg"
+    },
+    {
+      "name": "Personal Data Protection Commission (PDPC)",
+      "description": "Enforces the Personal Data Protection Act as it applies to AI systems.",
+      "url": "https://www.pdpc.gov.sg"
+    },
+    {
+      "name": "National AI Council",
+      "description": "Top-level body chaired by the Prime Minister, steering national AI strategy across ministries."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Josephine Teo",
+      "role": "Minister for Digital Development and Information",
+      "affiliation": "Ministry of Digital Development and Information",
+      "category": "government",
+      "url": "https://www.mddi.gov.sg"
+    },
+    {
+      "name": "Simon Chesterman",
+      "role": "Professor of Law; author on AI governance",
+      "affiliation": "National University of Singapore",
+      "category": "researcher"
+    },
+    {
+      "name": "Forrest Li",
+      "role": "Group Chairman and CEO",
+      "affiliation": "Sea Limited",
+      "category": "company_leader"
+    },
+    {
+      "name": "Denise Wong",
+      "role": "Assistant Chief Executive, Data Innovation and Protection Group",
+      "affiliation": "IMDA / AI Verify",
+      "category": "advisor"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "National AI Council",
+      "type": "government"
+    },
+    {
+      "label": "IMDA",
+      "type": "agency"
+    },
+    {
+      "label": "AI Verify Foundation",
+      "type": "agency"
+    },
+    {
+      "label": "Sea AI Lab",
+      "type": "company"
+    },
+    {
+      "label": "A*STAR",
+      "type": "research"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Voluntary governance for agentic AI",
+      "category": "government",
+      "summary": "Singapore's Model AI Governance Framework for Agentic AI is voluntary, not binding \u2014 a stress test of whether soft law can keep up with autonomous, multi-step AI systems.",
+      "expanded": "The framework, and its rapid v1.5 update, shows Singapore moving fast to address agentic AI's distinct risks (systemic effects when multiple agents interact, harder-to-predict multi-step behaviour). But like all Singaporean AI guidance to date, compliance is voluntary. As agentic systems take on more consequential real-world actions, the question of whether voluntary guidance remains sufficient is becoming sharper.",
+      "sourceIds": [
+        "sg-1"
+      ]
+    },
+    {
+      "topic": "AI Tester Accreditation and third-party red-teaming",
+      "category": "government",
+      "summary": "The upcoming AI TAP would formalise third-party AI testing as a credentialed profession in Singapore \u2014 a first for the region.",
+      "expanded": "AI TAP aims to give organisations and regulators a way to trust third-party AI testers' findings by accrediting them against a common standard, addressing a real gap: as more organisations rely on external red-teamers to evaluate AI systems, there's been no consistent way to verify a tester's competence. Design details on accreditation criteria and reciprocity with other jurisdictions' schemes are still emerging.",
+      "sourceIds": [
+        "sg-2"
+      ]
+    },
+    {
+      "topic": "Sovereign compute constraints",
+      "category": "infrastructure",
+      "summary": "Singapore's land and power constraints limit how much AI compute capacity it can host domestically, shaping its cloud and data-centre strategy.",
+      "expanded": "Singapore paused new data-centre approvals for several years in the late 2010s over power and land constraints before easing restrictions with new efficiency and green-energy requirements. This structurally limits Singapore's ability to host frontier-scale training compute domestically compared to larger neighbours, pushing it toward a strategy of high-value AI governance, testing, and deployment rather than training at the largest scale.",
+      "sourceIds": [
+        "sg-7"
+      ]
+    },
+    {
+      "topic": "Cross-border AI data flows vs. localisation",
+      "category": "government",
+      "summary": "Singapore champions cross-border data-flow frameworks even as some regional governments push toward data localisation requirements.",
+      "expanded": "As a small, trade-dependent economy, Singapore has long promoted interoperable cross-border data transfer mechanisms (including through APEC and ASEAN frameworks) that let AI models trained and deployed across borders operate smoothly. Some neighbouring jurisdictions favour stricter data localisation on sovereignty or security grounds, creating friction for regionally-deployed AI products.",
+      "sourceIds": [
+        "sg-8"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Josephine Teo",
+      "type": "person",
+      "role": "Minister for Digital Development and Information; central voice on Singapore's AI governance approach.",
+      "category": "government",
+      "url": "https://www.mddi.gov.sg"
+    },
+    {
+      "name": "Simon Chesterman",
+      "type": "person",
+      "role": "NUS law professor and author on AI governance, widely cited in Singapore and regional AI policy debate.",
+      "category": "researcher"
+    },
+    {
+      "name": "AI Verify Foundation",
+      "type": "organization",
+      "role": "Maintains the open-source AI Verify toolkit and convenes international AI testing standards work.",
+      "category": "think_tank",
+      "url": "https://aiverifyfoundation.sg"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Model AI Governance Framework for Agentic AI",
+      "type": "government",
+      "url": "https://www.imda.gov.sg"
+    },
+    {
+      "title": "We, the Robots? Regulating Artificial Intelligence and the Limits of the Law",
+      "type": "academic",
+      "author": "Simon Chesterman"
+    },
+    {
+      "title": "AI Verify testing methodology papers",
+      "type": "think_tank",
+      "author": "AI Verify Foundation",
+      "url": "https://aiverifyfoundation.sg"
+    },
+    {
+      "title": "AI and tech coverage",
+      "type": "substack",
+      "author": "Tech in Asia",
+      "note": "Newsletter-format coverage of Southeast Asian tech and AI."
+    },
+    {
+      "title": "Josephine Teo's opening address at ATxSummit 2026",
+      "type": "speech",
+      "url": "https://www.mddi.gov.sg/newsroom/opening-address-by-minister-josephine-teo-at-atxsummit-2026/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sg-1",
+      "title": "New Model AI Governance Framework for Agentic AI",
+      "publisher": "IMDA",
+      "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/new-model-ai-governance-framework-for-agentic-ai",
+      "date": "2026-05",
+      "category": "government"
+    },
+    {
+      "id": "sg-2",
+      "title": "AI Tester Accreditation Programme",
+      "publisher": "IMDA",
+      "url": "https://www.imda.gov.sg",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "sg-3",
+      "title": "Opening address by Minister Josephine Teo at ATxSummit 2026",
+      "publisher": "MDDI",
+      "url": "https://www.mddi.gov.sg/newsroom/opening-address-by-minister-josephine-teo-at-atxsummit-2026/",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "sg-4",
+      "title": "Model AI Governance Framework",
+      "publisher": "PDPC / IMDA",
+      "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
+      "date": "2020-01",
+      "category": "government"
+    },
+    {
+      "id": "sg-5",
+      "title": "Personal Data Protection Act 2012",
+      "publisher": "Singapore Statutes Online",
+      "url": "https://sso.agc.gov.sg/Act/PDPA2012",
+      "date": "2012",
+      "category": "government"
+    },
+    {
+      "id": "sg-6",
+      "title": "NUS AI governance research",
+      "publisher": "National University of Singapore",
+      "url": "https://www.nus.edu.sg",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "sg-7",
+      "title": "Data centre policy and energy coverage",
+      "publisher": "Tech in Asia",
+      "url": "https://www.techinasia.com",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "sg-8",
+      "title": "Cross-border data flow frameworks",
+      "publisher": "IMDA",
+      "url": "https://www.imda.gov.sg",
+      "date": "2024",
+      "category": "government"
+    },
+    {
+      "id": "sg-9",
+      "title": "Sea AI Lab open research publications",
+      "publisher": "Sea AI Lab",
+      "url": "https://sail.sea.com",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "sg-10",
+      "title": "Centre for AI and Data Governance commentary",
+      "publisher": "Simon Chesterman",
+      "url": "https://cagg.smu.edu.sg",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "sg-11",
+      "title": "AI Verify Foundation testing standards",
+      "publisher": "AI Verify Foundation",
+      "url": "https://aiverifyfoundation.sg",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "sg-12",
+      "title": "A*STAR AI research briefings",
+      "publisher": "A*STAR",
+      "url": "https://www.a-star.edu.sg",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "sg-13",
+      "title": "ByteDance AI Lab Singapore research notes",
+      "publisher": "ByteDance",
+      "url": "https://www.bytedance.com",
+      "date": "2026",
+      "category": "industry"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

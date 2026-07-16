@@ -1,0 +1,366 @@
+{
+  "code": "ca",
+  "name": "Canada",
+  "shortName": "Canada",
+  "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+  "geometryType": "polygon",
+  "isoA3": [
+    "CAN"
+  ],
+  "region": "Americas",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Ambitious state investment without a comprehensive AI statute",
+  "accentColor": {
+    "light": "#A6634E",
+    "dark": "#B97C6A"
+  },
+  "center": [
+    -106.3,
+    56.1
+  ],
+  "zoom": 3.0,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 5,
+  "debateTopics": [
+    "Legislative vacuum after AIDA's death",
+    "Germany-Canada Sovereign Technology Alliance and cross-border AI sovereignty",
+    "Scaling 'AI for All's' ambitious 2034 adoption targets"
+  ],
+  "overview": "Canada enters 2026 with enormous AI ambition but no comprehensive AI law. Its proposed statute, the Artificial Intelligence and Data Act (AIDA), died on the order paper at the January 2025 prorogation and was never revived. In its place, Prime Minister Mark Carney's June 2026 'AI for All' strategy commits roughly $2 billion over five years to sovereign compute, a national public supercomputer, and adoption targets that would take usage from about 12% to 60% of the economy by 2034.\n\nGovernance in the meantime runs through existing privacy, human-rights and competition law, a voluntary Code of Conduct for Generative AI, and a Directive on Automated Decision-Making that binds only federal institutions.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Ambitious investment, no binding AI law",
+      "sentiment": "green"
+    },
+    "regulatoryApproach": "No comprehensive statute since AIDA died in 2025; governs via existing law plus voluntary codes",
+    "latestMajorUpdate": "'AI for All' national strategy launched \u2014 ~$2B over five years, sovereign compute build-out",
+    "governmentInvolvement": "High investment, low binding regulation \u2014 a cabinet-level AI ministry but no statute",
+    "industrialStrategy": "Sovereign compute and a national public supercomputer under 'AI for All'",
+    "internationalPartnerships": "Germany-Canada Sovereign Technology Alliance",
+    "primaryPolicyFocus": "Driving adoption from ~12% to 60% of the economy by 2034"
+  },
+  "currentDirection": {
+    "trend": "loosening",
+    "summary": "AIDA's death left Canada without a comprehensive AI statute, and 'AI for All' pairs enormous state investment with only a signal \u2014 not yet firm legislative text \u2014 toward future safety-evaluation, red-teaming and liability rules."
+  },
+  "recentDevelopments": [
+    {
+      "text": "PM Mark Carney launches 'AI for All', a five-year, roughly $2B national AI strategy targeting a national public supercomputer and sovereign compute capacity.",
+      "date": "2026-06-04",
+      "sourceIds": [
+        "ca-1"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Germany\u2013Canada Sovereign Technology Alliance launched at the Munich Security Conference to reduce strategic technology dependency.",
+      "date": "2026-02",
+      "sourceIds": [
+        "ca-2"
+      ]
+    },
+    {
+      "text": "Federal consultation summary signals future legislation on AI safety evaluation, red-teaming, oversight, traceability and liability.",
+      "date": "2026-02",
+      "sourceIds": [
+        "ca-3"
+      ]
+    },
+    {
+      "text": "Evan Solomon confirmed as Canada's Minister of Artificial Intelligence and Digital Innovation.",
+      "date": "2025",
+      "sourceIds": [
+        "ca-1"
+      ]
+    },
+    {
+      "text": "AIDA (Bill C-27) confirmed dead, having died on the order paper at the January 2025 prorogation and not revived after the April 2025 election.",
+      "date": "2025-04",
+      "sourceIds": [
+        "ca-3"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "AI for All national strategy",
+      "status": "in_force",
+      "summary": "Five-year, ~$2B strategy across six pillars: protect, empower, drive adoption, build sovereign AI foundations, scale Canadian champions, and strengthen global partnerships.",
+      "officialUrl": "https://www.pm.gc.ca/en/news/news-releases/2026/06/04/prime-minister-carney-launches-ai-all-canadas-new-national-artificial",
+      "sourceIds": [
+        "ca-1"
+      ]
+    },
+    {
+      "title": "Directive on Automated Decision-Making",
+      "status": "in_force",
+      "summary": "Binding rules governing how federal institutions use automated decision systems; does not extend to the private sector.",
+      "sourceIds": [
+        "ca-3"
+      ]
+    },
+    {
+      "title": "Voluntary Code of Conduct for Generative AI",
+      "status": "in_force",
+      "summary": "Non-binding commitments for generative AI developers and deployers, filling part of the gap left by AIDA's failure.",
+      "sourceIds": [
+        "ca-3"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence and Data Act (AIDA / Bill C-27)",
+      "status": "repealed",
+      "summary": "Canada's proposed comprehensive AI statute died on the order paper at the January 2025 prorogation and was not revived after the 2025 election.",
+      "sourceIds": [
+        "ca-3"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Canada's AI research strength runs through three CIFAR-backed national institutes \u2014 Amii (Edmonton), Mila (Montreal, 1,200+ researchers) and the Vector Institute (Toronto) \u2014 under the Pan-Canadian AI Strategy, giving it one of the deepest academic AI research bases per capita of any country.",
+    "sourceIds": [
+      "ca-4"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Cohere",
+      "description": "Toronto-based frontier AI lab and Canada's flagship large-language-model developer; announced its acquisition of Germany's Aleph Alpha in 2026.",
+      "url": "https://cohere.com"
+    },
+    {
+      "name": "Waabi",
+      "description": "Toronto-based autonomous trucking AI company founded by Raquel Urtasun."
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Major cloud provider for Canadian enterprise and public-sector AI workloads."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider with deep Canadian government and enterprise integration."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across Canadian research and enterprise AI deployments."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "AWS",
+        "share": 31
+      },
+      {
+        "provider": "Azure",
+        "share": 29
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 13
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "Mila \u2013 Quebec AI Institute",
+      "description": "Montreal-based AI research institute with over 1,200 researchers, part of the Pan-Canadian AI Strategy.",
+      "url": "https://mila.quebec"
+    },
+    {
+      "name": "Vector Institute",
+      "description": "Toronto-based AI research institute under the Pan-Canadian AI Strategy.",
+      "url": "https://vectorinstitute.ai"
+    },
+    {
+      "name": "Amii",
+      "description": "Edmonton-based AI research institute under the Pan-Canadian AI Strategy.",
+      "url": "https://www.amii.ca"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "CIGI",
+      "description": "Centre for International Governance Innovation; runs a Global AI Risks Initiative on international AI governance.",
+      "url": "https://www.cigionline.org"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Artificial Intelligence and Digital Innovation",
+      "description": "Cabinet-level ministry leading Canada's national AI strategy."
+    },
+    {
+      "name": "Innovation, Science and Economic Development Canada (ISED)",
+      "description": "Parent department coordinating federal AI and digital innovation policy.",
+      "url": "https://ised-isde.canada.ca"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Evan Solomon",
+      "role": "Minister of Artificial Intelligence and Digital Innovation",
+      "category": "government"
+    },
+    {
+      "name": "Aidan Gomez",
+      "role": "Co-founder and Chief Executive Officer",
+      "affiliation": "Cohere",
+      "category": "company_leader",
+      "url": "https://cohere.com"
+    },
+    {
+      "name": "Duncan Cass-Beggs",
+      "role": "Executive Director, Global AI Risks Initiative",
+      "affiliation": "CIGI",
+      "category": "think_tank_leader",
+      "url": "https://www.cigionline.org"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Ministry of AI and Digital Innovation",
+      "type": "government"
+    },
+    {
+      "label": "ISED",
+      "type": "agency"
+    },
+    {
+      "label": "Cohere",
+      "type": "company"
+    },
+    {
+      "label": "Mila",
+      "type": "research"
+    },
+    {
+      "label": "CIGI",
+      "type": "think_tank"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Legislative vacuum after AIDA's death",
+      "category": "government",
+      "summary": "Canada has no comprehensive AI statute after AIDA's collapse \u2014 'AI for All' invests heavily but hasn't yet been paired with binding legislation.",
+      "expanded": "AIDA would have been Canada's first comprehensive AI law, but it died on the order paper when Parliament was prorogued in January 2025 and was never revived. The February 2026 consultation summary signals the government is considering new legislation on safety evaluation, red-teaming, oversight, traceability and liability \u2014 but as of mid-2026 none of that exists in force, leaving a real gap between Canada's investment ambitions and its regulatory maturity.",
+      "sourceIds": [
+        "ca-3"
+      ]
+    },
+    {
+      "topic": "Germany-Canada Sovereign Technology Alliance and cross-border AI sovereignty",
+      "category": "investment",
+      "summary": "A new alliance with Germany, launched at the Munich Security Conference, signals Canada is pursuing AI sovereignty through international partnership rather than going it alone.",
+      "expanded": "The alliance aims to reduce both countries' strategic technology dependency, notably as Canada's own Cohere moved to acquire Germany's Aleph Alpha in the same period \u2014 raising questions about what 'sovereign' AI capability means when flagship national champions are consolidating across borders.",
+      "sourceIds": [
+        "ca-2"
+      ]
+    },
+    {
+      "topic": "Scaling 'AI for All's' ambitious 2034 adoption targets",
+      "category": "investment",
+      "summary": "The strategy targets adoption growth from roughly 12% to 60% of the economy by 2034 \u2014 an extremely steep curve that will require sustained investment well beyond the initial five-year window.",
+      "expanded": "Independent of the legislative question, delivering on targets of this scale requires sustained compute investment, talent development, and enterprise adoption support far beyond what a single five-year, ~$2B strategy typically sustains \u2014 making the plan's multi-decade follow-through a live open question.",
+      "sourceIds": [
+        "ca-1"
+      ]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Evan Solomon",
+      "type": "person",
+      "role": "Minister of Artificial Intelligence and Digital Innovation; leads 'AI for All' implementation.",
+      "category": "government"
+    },
+    {
+      "name": "Aidan Gomez",
+      "type": "person",
+      "role": "Cohere co-founder and CEO; Canada's most prominent frontier AI voice.",
+      "category": "company",
+      "url": "https://cohere.com"
+    },
+    {
+      "name": "CIGI",
+      "type": "organization",
+      "role": "Centre for International Governance Innovation; runs the Global AI Risks Initiative.",
+      "category": "think_tank",
+      "url": "https://www.cigionline.org"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "AI for All strategy announcement",
+      "type": "government",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/06/04/prime-minister-carney-launches-ai-all-canadas-new-national-artificial"
+    },
+    {
+      "title": "The death of Canada's Artificial Intelligence and Data Act",
+      "type": "academic",
+      "author": "Montreal AI Ethics Institute",
+      "url": "https://montrealethics.ai/the-death-of-canadas-artificial-intelligence-and-data-act-what-happened-and-whats-next-for-ai-regulation-in-canada/"
+    },
+    {
+      "title": "Global AI Risks Initiative",
+      "type": "think_tank",
+      "author": "CIGI",
+      "url": "https://www.cigionline.org/articles/a-welcome-voice-for-canada-on-the-future-of-ai/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ca-1",
+      "title": "Prime Minister Carney launches AI for All",
+      "publisher": "Prime Minister of Canada",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/06/04/prime-minister-carney-launches-ai-all-canadas-new-national-artificial",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "ca-2",
+      "title": "Germany's sovereign AI hope changes hands",
+      "publisher": "CIO",
+      "url": "https://www.cio.com/article/4163327/germanys-sovereign-ai-hope-changes-hands.html",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ca-3",
+      "title": "What's next for AIDA",
+      "publisher": "Schwartz Reisman Institute",
+      "url": "https://srinstitute.utoronto.ca/news/whats-next-for-aida",
+      "date": "2025",
+      "category": "research"
+    },
+    {
+      "id": "ca-4",
+      "title": "Pan-Canadian AI Strategy",
+      "publisher": "CIFAR",
+      "url": "https://cifar.ca",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ca-5",
+      "title": "Global AI Risks Initiative",
+      "publisher": "CIGI",
+      "url": "https://www.cigionline.org/articles/a-welcome-voice-for-canada-on-the-future-of-ai/",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "ca-6",
+      "title": "Cohere company updates",
+      "publisher": "Cohere",
+      "url": "https://cohere.com",
+      "date": "2026",
+      "category": "industry"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

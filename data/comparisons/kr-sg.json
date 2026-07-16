@@ -1,0 +1,84 @@
+{
+  "slug": "kr-sg",
+  "countries": ["sg", "kr"],
+  "title": "Singapore vs South Korea",
+  "tagline": "Binding law versus voluntary code — two theories of what 'moving first' means.",
+  "curated": true,
+  "executiveSummary": [
+    "Singapore and South Korea sit at opposite ends of the 'how binding should AI law be' spectrum, despite being two of Asia's most AI-engaged governments. South Korea moved first among major economies to pass a comprehensive, binding, cross-sector AI statute — the AI Basic Act, in force since January 2026. Singapore has spent seven years deliberately not doing that, iterating instead through voluntary, testable frameworks that it updates faster than most countries update binding law.",
+    "Both claim to be regional leaders. They are testing two different theories of what leadership actually means in AI governance: one built on statutory enforceability, the other on iteration speed and exportable standards."
+  ],
+  "dimensions": [
+    {
+      "key": "regulatory-model",
+      "title": "Regulatory Model",
+      "category": "government",
+      "points": {
+        "kr": "AI Basic Act — the world's first comprehensive, cross-sector, binding AI law, in force since 22 January 2026, enforced by MSIT with a roughly one-year grace period on fines.",
+        "sg": "No binding AI-specific law at all. Governance runs through voluntary frameworks — the Model AI Governance Framework and, since January 2026, a dedicated Model AI Governance Framework for Agentic AI, both non-binding."
+      },
+      "analysis": "This is close to a controlled experiment: two well-resourced, technically sophisticated Asian governments choosing opposite instruments at almost the same moment in AI's development. Korea gets enforceability and a clear statutory hook for future crises; Singapore gets speed — it updated its agentic-AI framework to v1.5 within four months of launch, incorporating feedback from 60+ organisations, an iteration speed no binding statute could match."
+    },
+    {
+      "key": "institutional-structure",
+      "title": "Institutional Structure",
+      "category": "government",
+      "points": {
+        "kr": "MSIT (Ministry of Science and ICT) enforces the AI Basic Act; a 40+ expert Task Force has been refining implementation since March 2026.",
+        "sg": "A National AI Council chaired by the Prime Minister sits above ministry-level work led by Josephine Teo; IMDA runs day-to-day framework publication."
+      },
+      "analysis": "Korea's structure is built for statutory enforcement — a named ministry with clear legal powers. Singapore's is built for strategic coordination — a PM-chaired council signals top-level political priority without creating new binding legal machinery beneath it."
+    },
+    {
+      "key": "industrial-strategy",
+      "title": "Industrial Strategy",
+      "category": "investment",
+      "points": {
+        "kr": "MSIT selected five teams — Naver Cloud, Upstage, SK Telecom, NC AI and LG AI Research — to build state-subsidised sovereign foundation models, reassessed every six months against a target of matching 95%+ of frontier-model performance.",
+        "sg": "No frontier-model ambitions of comparable scale; strategy centres on becoming a testing-and-standards hub, backed by the AI Verify toolkit and, from Q3 2026, Asia's first AI Tester Accreditation Programme for third-party red-teamers."
+      },
+      "analysis": "Korea is trying to compete on model capability itself, with a concrete numeric target and a hard review cycle. Singapore has essentially conceded that race — its land and power constraints structurally limit frontier-scale training compute — and is instead trying to own the layer above model-building: testing, accreditation, and governance tooling that other countries' models will eventually need to pass through."
+    },
+    {
+      "key": "international-posture",
+      "title": "International Posture",
+      "category": "infrastructure",
+      "points": {
+        "kr": "International Network of AI Safety Institutes member; still primarily focused on building domestic sovereign capability rather than exporting a regulatory model.",
+        "sg": "Positions itself as a regional soft-law standard-setter — its frameworks feed into ASEAN and APEC cross-border data-flow norms, and other jurisdictions look to AI Verify's testing methodology as a reference."
+      },
+      "analysis": "Singapore is playing an explicitly exportable-standards game; Korea, despite being further along on binding law, hasn't positioned the AI Basic Act itself as a model for other countries — its international engagement is more about capability parity than regulatory diplomacy."
+    },
+    {
+      "key": "policy-focus",
+      "title": "Primary Policy Focus",
+      "category": "research",
+      "points": {
+        "kr": "Matching frontier-model performance domestically while enforcing the AI Basic Act.",
+        "sg": "Agentic AI governance and third-party testing accreditation."
+      },
+      "analysis": "Korea's attention is on catching up in capability under a law it already has; Singapore's is on getting ahead of the next category of risk — autonomous agents — under a law it has deliberately chosen not to have."
+    }
+  ],
+  "policyOverlap": {
+    "shared": [
+      "Both moved first in their category — Korea the first comprehensive binding cross-sector AI law among major economies, Singapore the first dedicated agentic-AI governance framework anywhere — showing 'first-mover' can mean either binding law or voluntary code depending on the government's underlying theory of what works.",
+      "Both are grappling with the same underlying problem — governing systems that act autonomously and interact with each other — even though Korea does it through statute and enforcement decrees and Singapore through voluntary frameworks and accreditation schemes."
+    ],
+    "perCountry": {
+      "kr": [
+        "AI Basic Act enforcement decree criticised by civil-society groups for a narrow 'high-risk' definition",
+        "₩8.6 trillion R&D plan and a ₩763.2B Science & Technology Innovation Fund back the sovereign-model push"
+      ],
+      "sg": [
+        "Voluntary compliance only — no penalties for ignoring the Model AI Governance Frameworks",
+        "AI Tester Accreditation Programme (AI TAP) launching Q3 2026, a first for the region"
+      ]
+    }
+  },
+  "strategicTradeoffs": [
+    "Korea's binding-law approach gives it a clear enforcement mechanism the moment something goes wrong, but civil-society critics already argue its enforcement decree's high-risk definition is too narrow to catch real harms like AI-enabled fraud — binding law is only as strong as its definitions.",
+    "Singapore's voluntary approach can iterate faster than any legislature but carries no penalty for non-compliance at all — it is betting that being first and most credible on standards makes compliance a competitive necessity rather than a legal one. Neither country has yet been tested by a serious AI-caused harm that its own framework was supposed to prevent."
+  ],
+  "relatedSlugs": ["cn-us", "de-fr", "jp-sg"]
+}

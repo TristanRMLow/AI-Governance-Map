@@ -1,0 +1,329 @@
+{
+  "code": "in",
+  "name": "India",
+  "shortName": "India",
+  "flagEmoji": "\ud83c\uddee\ud83c\uddf3",
+  "geometryType": "polygon",
+  "isoA3": [
+    "IND"
+  ],
+  "region": "Asia-Pacific",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Shifting from non-binding guidelines toward a binding, risk-based AI law",
+  "accentColor": {
+    "light": "#B57C4A",
+    "dark": "#C2946B"
+  },
+  "center": [
+    79.0,
+    22.0
+  ],
+  "zoom": 4.0,
+  "lastUpdated": "2026-07-13",
+  "newDevelopmentsCount": 5,
+  "debateTopics": [
+    "India reverses course toward binding AI legislation",
+    "IT Rules 2026 takedown triggers criticised as overbroad by digital-rights groups",
+    "Emergency shutdown powers for high-risk AI systems"
+  ],
+  "overview": "India has reversed course. As recently as November 2025, MeitY's India AI Governance Guidelines were explicitly non-binding and light-touch. On 6 July 2026, an official confirmed MeitY is now drafting a binding, risk-based AI law that would designate banking, finance, health and critical infrastructure as a high-risk tier \u2014 and is weighing emergency shutdown powers for AI systems in that tier, a notably assertive tool few other jurisdictions have proposed.\n\nWhat was already binding is narrower: the IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules 2026, in force since February 2026, mandate labelling and provenance metadata for synthetic content and a 3-hour takedown window for unlawful AI content (2 hours for non-consensual intimate imagery) \u2014 down sharply from a prior 36-hour window. Digital-rights group IFF has criticised those rules as opaque with overbroad takedown triggers.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Reversing toward binding, risk-based legislation",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Drafting a binding risk-based AI law; IT Rules already binding for synthetic content",
+    "latestMajorUpdate": "MeitY confirmed drafting a binding AI law with a high-risk tier and possible emergency shutdown powers",
+    "governmentInvolvement": "Rising sharply \u2014 from voluntary guidelines to a binding law proposal within months",
+    "industrialStrategy": "IndiaAI Mission subsidised compute (38,000+ GPUs) supporting 'frugal AI' startups",
+    "internationalPartnerships": "AI Impact Summit host; engages G20 and UN AI governance processes",
+    "primaryPolicyFocus": "High-risk-sector AI safety (banking, finance, health, critical infrastructure)"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "India has moved from 'no separate AI law needed' to actively drafting one within eight months \u2014 a genuine reversal driven by deepfake and cyber-risk concerns, now considering emergency shutdown powers for high-risk AI systems, a notably assertive tool most peer jurisdictions haven't proposed."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Official confirms MeitY is drafting a binding, risk-based AI law with banking/finance/health/critical-infrastructure as a high-risk tier, and is weighing emergency shutdown powers \u2014 a reversal from its November 2025 non-binding stance.",
+      "date": "2026-07-06",
+      "sourceIds": [
+        "in-6"
+      ]
+    },
+    {
+      "text": "IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules 2026 take effect, mandating labelling and provenance metadata for synthetic content and a 3-hour takedown window for unlawful AI content.",
+      "date": "2026-02-20",
+      "sourceIds": [
+        "in-1"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "MeitY unveils India AI Governance Guidelines under the IndiaAI Mission \u2014 non-binding, proposing an AI Governance Group, Technology & Policy Expert Committee, and an IndiaAI Safety Institute.",
+      "date": "2025-11",
+      "sourceIds": [
+        "in-2"
+      ]
+    },
+    {
+      "text": "IT Secretary S. Krishnan says government is actively considering a dedicated standalone AI law given deepfake and cyber-risk growth.",
+      "date": "2026",
+      "sourceIds": [
+        "in-3"
+      ]
+    },
+    {
+      "text": "Digital-rights group IFF criticises the IT Rules amendment as opaque with overbroad takedown triggers.",
+      "date": "2026",
+      "sourceIds": [
+        "in-3"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Binding risk-based AI law (in drafting)",
+      "status": "proposed",
+      "summary": "Confirmed 6 July 2026: MeitY is drafting a binding AI law designating banking, finance, health and critical infrastructure as a high-risk tier, and is weighing emergency shutdown powers for AI systems in that tier.",
+      "sourceIds": [
+        "in-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules 2026",
+      "status": "in_force",
+      "summary": "Mandatory labelling and provenance metadata for synthetic content; 3-hour takedown window for unlawful AI content on government or court order (2 hours for non-consensual intimate imagery), down from 36 hours previously.",
+      "sourceIds": [
+        "in-1"
+      ]
+    },
+    {
+      "title": "India AI Governance Guidelines",
+      "status": "in_force",
+      "summary": "Non-binding, light-touch, principle-based guidelines proposing an AI Governance Group, Technology & Policy Expert Committee, and an IndiaAI Safety Institute \u2014 being superseded in practice by the binding law now in drafting.",
+      "sourceIds": [
+        "in-2"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "India's applied AI research runs through AI4Bharat (an IIT Madras initiative building Indian-language AI tooling since 2020) and the IndiaAI Mission's subsidised compute portal, which has onboarded more than 38,000 GPUs for startups and researchers under a \u20b910,372 crore (~$1.25B) programme.",
+    "sourceIds": [
+      "in-4"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Krutrim",
+      "description": "India's first AI unicorn, founded by Ola founder Bhavish Aggarwal."
+    },
+    {
+      "name": "Sarvam AI",
+      "description": "Bengaluru-based AI company founded by ex-IIT Madras researchers, developer of the Sarvam-105B model for Indian languages."
+    },
+    {
+      "name": "Neysa",
+      "description": "Indian AI infrastructure company."
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Major cloud provider for Indian enterprise AI workloads."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider with significant Indian enterprise and government integration."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across Indian research and enterprise AI."
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "AWS",
+        "share": 30
+      },
+      {
+        "provider": "Azure",
+        "share": 27
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 15
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "AI4Bharat (IIT Madras)",
+      "description": "IIT Madras initiative building open Indian-language AI tooling since 2020.",
+      "url": "https://ai4bharat.org"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Electronics and Information Technology (MeitY)",
+      "description": "Lead ministry for India's AI policy, the IT Rules, the IndiaAI Mission, and the new binding AI law in drafting."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Ashwini Vaishnaw",
+      "role": "Minister of Electronics and Information Technology",
+      "category": "government"
+    },
+    {
+      "name": "S. Krishnan",
+      "role": "IT Secretary",
+      "affiliation": "MeitY",
+      "category": "government"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "S. Krishnan",
+      "type": "person",
+      "role": "IT Secretary; the clearest official voice on India's shift toward binding AI legislation.",
+      "category": "government",
+      "affiliation": "MeitY"
+    },
+    {
+      "name": "Internet Freedom Foundation",
+      "type": "organization",
+      "role": "Leading Indian digital-rights group scrutinising IT Rules enforcement.",
+      "category": "think_tank"
+    },
+    {
+      "name": "AI4Bharat",
+      "type": "organization",
+      "role": "IIT Madras initiative building open Indian-language AI tooling.",
+      "category": "university",
+      "url": "https://ai4bharat.org"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "MeitY",
+      "type": "government"
+    },
+    {
+      "label": "IndiaAI Mission",
+      "type": "agency"
+    },
+    {
+      "label": "Krutrim",
+      "type": "company"
+    },
+    {
+      "label": "AI4Bharat",
+      "type": "research"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "India reverses course toward binding AI legislation",
+      "category": "government",
+      "summary": "Within eight months, India went from 'no separate AI law needed' to actively drafting binding legislation with a high-risk sector tier.",
+      "expanded": "MeitY's November 2025 guidelines were explicitly non-binding. The 6 July 2026 confirmation of a binding, risk-based AI law \u2014 covering banking, finance, health and critical infrastructure as high-risk \u2014 marks a genuine reversal, likely driven by mounting deepfake incidents and cyber-risk concerns rather than a change in underlying philosophy about innovation-friendliness.",
+      "sourceIds": [
+        "in-6"
+      ]
+    },
+    {
+      "topic": "IT Rules 2026 takedown triggers criticised as overbroad by digital-rights groups",
+      "category": "security",
+      "summary": "The sharply shortened takedown windows for AI-generated content have drawn criticism for opaque, overbroad triggers that could sweep in lawful content.",
+      "expanded": "The Internet Freedom Foundation and other digital-rights groups argue the rules' takedown triggers lack clear definitions and due-process safeguards, risking over-removal of legitimate content. Government defends the shortened windows (down from 36 hours to 2-3 hours) as necessary given the speed at which deepfakes and non-consensual imagery spread.",
+      "sourceIds": [
+        "in-3"
+      ]
+    },
+    {
+      "topic": "Emergency shutdown powers for high-risk AI systems",
+      "category": "security",
+      "summary": "India is reportedly weighing emergency shutdown powers over AI systems in high-risk sectors \u2014 a notably assertive regulatory tool few other jurisdictions have proposed.",
+      "expanded": "If adopted, emergency shutdown powers would let authorities forcibly halt AI systems operating in banking, finance, health or critical infrastructure in the event of serious malfunction or harm. This goes further than most peer jurisdictions' AI laws, which generally rely on fines and compliance orders rather than direct operational shutdown authority.",
+      "sourceIds": [
+        "in-6"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "India signals shift on AI regulation",
+      "type": "government",
+      "author": "IAPP",
+      "url": "https://iapp.org/news/a/notes-from-the-asia-pacific-region-india-signals-shift-on-ai-regulation"
+    },
+    {
+      "title": "MeitY unveils India AI Governance Guidelines",
+      "type": "government",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186639"
+    },
+    {
+      "title": "IT Rules 2026: deepfake regulation, three-hour takedowns and AI labelling obligations",
+      "type": "government",
+      "author": "Mondaq",
+      "url": "https://www.mondaq.com/india/new-technology/1760554/it-rules-2026-deepfake-regulation-three-hour-takedowns-and-ai-labelling-obligations"
+    }
+  ],
+  "sources": [
+    {
+      "id": "in-1",
+      "title": "IT Rules 2026: deepfake regulation and AI labelling obligations",
+      "publisher": "Mondaq",
+      "url": "https://www.mondaq.com/india/new-technology/1760554/it-rules-2026-deepfake-regulation-three-hour-takedowns-and-ai-labelling-obligations",
+      "date": "2026-02",
+      "category": "government"
+    },
+    {
+      "id": "in-2",
+      "title": "MeitY unveils India AI Governance Guidelines",
+      "publisher": "Press Information Bureau",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186639",
+      "date": "2025-11",
+      "category": "government"
+    },
+    {
+      "id": "in-3",
+      "title": "IT Secretary on a dedicated AI law",
+      "publisher": "The420.in",
+      "url": "https://the420.in/india-dedicated-ai-law-deepfakes-vpn-meta-it-secretary/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "in-4",
+      "title": "IndiaAI Mission overview",
+      "publisher": "obcrights.org",
+      "url": "https://obcrights.org/blog/central-government-scheme/india-ai-mission-objectives-startups-research-centers-government-strategy-explained/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "in-5",
+      "title": "India's frugal AI approach \u2014 Sarvam and Krutrim",
+      "publisher": "Rest of World",
+      "url": "https://restofworld.org/2026/india-frugal-ai-sarvam-krutrim-sovereign/",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "in-6",
+      "title": "India signals shift on AI regulation",
+      "publisher": "IAPP",
+      "url": "https://iapp.org/news/a/notes-from-the-asia-pacific-region-india-signals-shift-on-ai-regulation",
+      "date": "2026-07-06",
+      "category": "news"
+    }
+  ],
+  "hasMajorUpdate": true,
+  "notableGaps": []
+}

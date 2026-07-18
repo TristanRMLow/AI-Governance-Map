@@ -2,14 +2,14 @@
   "code": "fr",
   "name": "France",
   "shortName": "France",
-  "flagEmoji": "\ud83c\uddeb\ud83c\uddf7",
+  "flagEmoji": "🇫🇷",
   "geometryType": "polygon",
   "isoA3": [
     "FRA"
   ],
   "region": "Europe",
   "jurisdictionType": "nation_state",
-  "governanceModel": "EU AI Act member state pursuing sovereignty through infrastructure, not new law",
+  "governanceModel": "EU AI Act member state; AI sovereignty pursued mainly through infrastructure investment and certification rather than new national legislation",
   "accentColor": {
     "light": "#6089A9",
     "dark": "#7EA0B9"
@@ -19,33 +19,33 @@
     46.6
   ],
   "zoom": 5.0,
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-16",
   "newDevelopmentsCount": 6,
   "debateTopics": [
     "Mistral's defense-AI partnership and dual military/commercial strategy",
-    "Silicon sovereignty \u2014 AMD/SiPearl vs. NVIDIA dependence",
+    "Silicon sovereignty — AMD/SiPearl vs. NVIDIA dependence",
     "SecNumCloud sovereignty vs. US hyperscaler participation"
   ],
-  "overview": "France governs AI through the EU AI Act as a member state, but its real national AI strategy is industrial: an approximately \u20ac109 billion national AI infrastructure package announced at the February 2025 AI Action Summit, anchored by Mistral AI's rapid rise into a genuine frontier lab. Mistral now runs 'Mistral Compute' \u2014 18,000 NVIDIA Grace Blackwell Superchips in a 40MW data centre \u2014 and has been selected by the Ministry of the Armed Forces under a three-year defense-AI framework deal.\n\nFrance is also pursuing 'silicon sovereignty' distinct from NVIDIA dependence, extending the Jean Zay supercomputer with AMD and European SiPearl chips, and enforcing data-sovereignty through ANSSI's SecNumCloud certification for sensitive workloads.",
+  "overview": "France governs AI primarily through the EU AI Act as an EU member state. Alongside this, the government has pursued an industrial strategy centred on compute infrastructure: an approximately €109 billion national AI infrastructure package was announced at the February 2025 AI Action Summit, and Mistral AI — France's flagship AI company — has grown rapidly into one of Europe's most closely watched AI labs. Mistral now operates 'Mistral Compute,' reported at roughly 18,000 NVIDIA Grace Blackwell (GB200) units across a main site in Bruyères-le-Châtel (Essonne, ~44MW) plus a smaller inference site in Les Ulis, and was selected by the Ministry of the Armed Forces under a three-year defense-AI framework deal.\n\nFrance has also been pursuing what officials describe as 'silicon sovereignty' — extending the Jean Zay supercomputer with AMD and European SiPearl chips as a hedge against NVIDIA dependence — and enforces data-sovereignty requirements through ANSSI's SecNumCloud certification for sensitive workloads. This framework does not categorically exclude US hyperscalers that meet its requirements, and sits alongside a broader 'cloud de confiance' landscape that includes homegrown and joint-venture providers such as Scaleway, OVHcloud, 3DS Outscale, S3NS and Bleu.",
   "atAGlance": {
     "policyDirection": {
-      "label": "Aggressive state-backed compute build-out",
+      "label": "Large-scale, state-backed compute build-out",
       "sentiment": "green"
     },
-    "regulatoryApproach": "EU AI Act member state; sovereignty pursued through infrastructure and certification, not new national law",
+    "regulatoryApproach": "EU AI Act member state; sovereignty pursued mainly through infrastructure investment and certification rather than new national legislation",
     "latestMajorUpdate": "Mistral enters early access on a new open-weight MoE model as EU AI Act enforcement powers activate",
-    "governmentInvolvement": "High \u2014 large state-backed infrastructure spend and a defense-AI contract with Mistral",
-    "industrialStrategy": "Compute sovereignty via Mistral Compute, Jean Zay, and a further \u20ac4B French/Swedish data-centre build-out",
+    "governmentInvolvement": "High — large state-backed infrastructure spend and a defense-AI contract with Mistral",
+    "industrialStrategy": "Significant state investment in compute sovereignty via Mistral Compute, Jean Zay, and a further ~€4B French/Swedish data-centre build-out",
     "internationalPartnerships": "EU AI Act participation; ASML as Mistral's lead strategic investor",
-    "primaryPolicyFocus": "Sovereign compute and frontier-lab competitiveness over new domestic regulation"
+    "primaryPolicyFocus": "Apparent priority on sovereign compute and frontier-lab competitiveness, with limited new domestic AI-specific regulation beyond the EU AI Act"
   },
   "currentDirection": {
     "trend": "stable",
-    "summary": "France's AI Act obligations are unchanged as an EU member state; the real momentum is industrial policy \u2014 a roughly \u20ac109B infrastructure package, Mistral's compute build-out, and a push toward European silicon to reduce NVIDIA dependence."
+    "summary": "France's AI Act obligations remain unchanged as an EU member state; much of the visible policy momentum has instead been industrial — a roughly €109B infrastructure package, Mistral's compute build-out, and efforts toward European silicon aimed at reducing NVIDIA dependence."
   },
   "recentDevelopments": [
     {
-      "text": "Mistral opens early access to a new open-weight mixture-of-experts model; EU AI Act enforcement powers (information requests, model access, recall) activate 2 August 2026; a further \u20ac4B French/Swedish data-centre build-out is announced.",
+      "text": "Mistral opens early access to a new open-weight mixture-of-experts model; EU AI Act enforcement powers (information requests, model access, recall) activate 2 August 2026; a further €4B French/Swedish data-centre build-out is announced.",
       "date": "2026-07-04",
       "sourceIds": [
         "fr-9"
@@ -53,36 +53,36 @@
       "severity": "major"
     },
     {
-      "text": "Mistral AI selected by the Ministry of the Armed Forces under a three-year defense-AI framework deal.",
+      "text": "Mistral AI selected by the Ministry of the Armed Forces under a three-year defense-AI framework deal, notified 16 December 2025 and steered by AMIAD (Agence ministérielle pour l'intelligence artificielle de défense); some outlets report its value at roughly $14B.",
       "date": "2026",
       "sourceIds": [
         "fr-1"
       ]
     },
     {
-      "text": "Mistral Compute launches with 18,000 NVIDIA Grace Blackwell Superchips in a 40MW Essonne data centre.",
+      "text": "Mistral Compute launches on NVIDIA Grace Blackwell (GB200) hardware — reportedly around 18,000 units at a roughly 44MW site in Bruyères-le-Châtel (Essonne), plus a smaller inference site in Les Ulis.",
       "date": "2026",
       "sourceIds": [
-        "fr-1"
+        "fr-1",
+        "fr-10"
       ]
     },
     {
-      "text": "Jean Zay supercomputer extended with AMD Instinct MI430X GPUs and SiPearl European CPUs, an explicit 'silicon sovereignty' move distinct from NVIDIA dependence.",
+      "text": "Jean Zay supercomputer extended with AMD Instinct MI430X GPUs and SiPearl European CPUs, an explicit 'silicon sovereignty' move distinct from NVIDIA dependence; a related new exascale system, 'Alice Recoque,' has also been announced.",
       "date": "2026",
       "sourceIds": [
         "fr-2"
       ]
     },
     {
-      "text": "SoftBank reportedly plans up to 5GW of French AI data-centre capacity, with an initial \u20ac45B phase covering 3.1GW by 2031.",
-      "date": "2026",
+      "text": "SoftBank plans up to 5GW / up to €75B of French AI data-centre capacity, with an initial €45B phase covering 3.1GW by 2031 across sites in Hauts-de-France (Dunkirk/Loon-Plage, Bosquel, Bouchain), announced around the May 2026 Choose France summit.",
+      "date": "2026-05",
       "sourceIds": [
         "fr-3"
-      ],
-      "needsVerification": true
+      ]
     },
     {
-      "text": "Mistral AI closes a \u20ac1.7B Series C at an \u20ac11.7B valuation, with ASML as lead investor taking an 11% stake.",
+      "text": "Mistral AI closes a €1.7B Series C at an €11.7B valuation, with ASML as lead investor taking an 11% stake.",
       "date": "2025-09",
       "sourceIds": [
         "fr-4"
@@ -93,7 +93,7 @@
     {
       "title": "National AI infrastructure package",
       "status": "in_force",
-      "summary": "Roughly \u20ac109B package announced at the February 2025 AI Action Summit combining sovereign, private and EU funding for data centres, GPU capacity, and research grants via Inria and Universit\u00e9 PSL.",
+      "summary": "Roughly €109B package announced at the February 2025 AI Action Summit combining sovereign, private and EU funding for data centres, GPU capacity, and research grants via Inria and Université PSL.",
       "sourceIds": [
         "fr-5"
       ]
@@ -101,7 +101,7 @@
     {
       "title": "SecNumCloud certification",
       "status": "in_force",
-      "summary": "ANSSI-run sovereignty certification requiring physical hosting on French soil; doesn't exclude US hyperscalers if they comply, but signals a distinct national data-sovereignty posture.",
+      "summary": "ANSSI-run sovereignty certification requiring physical hosting on French soil; doesn't exclude US hyperscalers if they comply, but signals a distinct national data-sovereignty posture. Several sovereign and joint-venture providers (Scaleway, OVHcloud, 3DS Outscale, S3NS, Bleu) hold or are pursuing this certification alongside US hyperscalers.",
       "sourceIds": [
         "fr-6"
       ]
@@ -116,7 +116,7 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "Inria coordinates France's national AI research strategy through the PEPR AI programme (CNRS, CEA and Inria, \u20ac73M over six years) and nine university AI clusters (\u20ac360M under France 2030), building on the original 2018 AI for Humanity strategy.",
+    "summary": "Inria coordinates a major share of France's public AI research funding through the PEPR AI programme (with CNRS and CEA as co-coordinators, €73M over six years) and nine university AI clusters (€360M under France 2030), building on the original 2018 AI for Humanity strategy.",
     "sourceIds": [
       "fr-5"
     ]
@@ -126,13 +126,69 @@
       "name": "Mistral AI",
       "description": "France's flagship frontier AI lab; now runs its own 'Mistral Compute' infrastructure and holds a defense-AI framework deal with the Ministry of the Armed Forces.",
       "url": "https://mistral.ai"
+    },
+    {
+      "name": "Hugging Face",
+      "description": "Open-source AI platform and model-hosting hub co-founded by French entrepreneurs; reported at roughly a $4.5B valuation in 2026.",
+      "url": "https://huggingface.co"
+    },
+    {
+      "name": "Kyutai",
+      "description": "Nonprofit, open-science AI research lab founded by Xavier Niel, Eric Schmidt and Rodolphe Saadi, focused on publishing open models and research.",
+      "url": "https://kyutai.org"
+    },
+    {
+      "name": "H Company",
+      "description": "Paris-based startup building agentic AI for enterprise tasks; reported to have raised roughly $220M in seed funding, led by CEO Gautier Cloix.",
+      "url": "https://hcompany.ai"
+    },
+    {
+      "name": "LightOn",
+      "description": "Listed on Euronext Growth; provides sovereign, on-premises large language model deployment for enterprise and public-sector customers.",
+      "url": "https://www.lighton.ai"
+    },
+    {
+      "name": "Poolside",
+      "description": "Paris-headquartered AI lab building code-generation foundation models.",
+      "url": "https://poolside.ai"
+    },
+    {
+      "name": "Owkin",
+      "description": "Federated-learning healthcare AI company; reported to have reached unicorn status as of March 2026.",
+      "url": "https://owkin.com"
+    },
+    {
+      "name": "PhotoRoom",
+      "description": "AI-powered photo editing and product-image company.",
+      "url": "https://www.photoroom.com"
+    },
+    {
+      "name": "Doctrine",
+      "description": "Legal-AI company providing case-law search and analysis tools.",
+      "url": "https://www.doctrine.fr"
+    },
+    {
+      "name": "Dust",
+      "description": "Enterprise AI-agent platform; reported at a valuation of roughly €500M.",
+      "url": "https://dust.tt"
+    },
+    {
+      "name": "SiPearl",
+      "description": "European chip designer developing the Rhea1 Arm-based CPU for HPC/AI workloads; Rhea1 entered hardware validation/bring-up in May 2026, with general availability targeted for late 2026.",
+      "url": "https://sipearl.com"
+    },
+    {
+      "name": "STMicroelectronics",
+      "description": "Franco-Italian semiconductor manufacturer; its Crolles, France 300mm fab is expanding capacity, including silicon photonics for AI data centres, alongside a multi-year AWS partnership.",
+      "url": "https://www.st.com"
     }
   ],
   "cloudInfrastructure": {
     "providers": [
       {
         "name": "OVHcloud",
-        "description": "French cloud provider positioned as a SecNumCloud-certified sovereignty option."
+        "description": "French cloud provider positioned as a SecNumCloud-certified sovereignty option; France is reportedly its largest market at roughly 48% of group revenue.",
+        "url": "https://www.ovhcloud.com"
       },
       {
         "name": "AWS",
@@ -141,22 +197,37 @@
       {
         "name": "Microsoft Azure",
         "description": "Cloud provider with significant French enterprise integration."
+      },
+      {
+        "name": "Scaleway",
+        "description": "Iliad-owned, SecNumCloud-certified French cloud provider; a winner in the EU's sovereign-cloud framework.",
+        "url": "https://www.scaleway.com"
+      },
+      {
+        "name": "3DS Outscale",
+        "description": "SecNumCloud-certified cloud provider and subsidiary of Dassault Systèmes.",
+        "url": "https://www.outscale.com"
+      },
+      {
+        "name": "S3NS",
+        "description": "Joint venture between Thales (95%) and Google Cloud (5%) offering a 'trusted cloud' service; reported to have reached SecNumCloud 3.2 qualification in late 2025/2026.",
+        "url": "https://www.s3ns.io/en"
+      },
+      {
+        "name": "Bleu",
+        "description": "Joint venture between Orange and Capgemini running Microsoft Azure and Microsoft 365 under France's 'cloud de confiance' framework; targeting SecNumCloud 3.2 certification.",
+        "url": "https://www.bleu.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Building its first self-owned data-centre campus in France, announced June 2025."
+      },
+      {
+        "name": "Oracle Cloud",
+        "description": "Operates two cloud regions in France (Paris 'eu-paris-1' and Marseille 'eu-marseille-1')."
       }
     ],
-    "dominance": [
-      {
-        "provider": "AWS",
-        "share": 28
-      },
-      {
-        "provider": "Azure",
-        "share": 26
-      },
-      {
-        "provider": "OVHcloud",
-        "share": 9
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
@@ -165,8 +236,45 @@
       "url": "https://www.inria.fr"
     },
     {
-      "name": "Universit\u00e9 PSL",
-      "description": "Paris Sciences et Lettres University, a major recipient of France 2030 AI cluster funding."
+      "name": "Université PSL",
+      "description": "Paris Sciences et Lettres, an alliance of institutions including CNRS, Inria, Institut Pasteur and Université Paris Cité; its PR[AI]RIE-PSAI cluster (€75M) is the single highest-funded of the nine France 2030 AI clusters.",
+      "url": "https://psl.eu"
+    },
+    {
+      "name": "CNRS",
+      "description": "France's National Centre for Scientific Research; co-coordinates the PEPR AI research programme alongside CEA and Inria."
+    },
+    {
+      "name": "CEA",
+      "description": "French Alternative Energies and Atomic Energy Commission; co-coordinates the PEPR AI research programme alongside CNRS and Inria."
+    },
+    {
+      "name": "Université Grenoble Alpes",
+      "description": "Hosts the MIAI Grenoble Alpes AI cluster, funded at €70M under France 2030.",
+      "url": "https://miai.univ-grenoble-alpes.fr"
+    },
+    {
+      "name": "Institut Polytechnique de Paris / Hi! PARIS",
+      "description": "Joint AI centre with HEC Paris and seven engineering schools; its Hi! PARIS cluster received €70M under France 2030.",
+      "url": "https://www.hi-paris.fr"
+    },
+    {
+      "name": "Sorbonne Université",
+      "description": "Hosts the PostGenAI@Paris / SCAI AI cluster, funded at €35M under France 2030.",
+      "url": "https://scai.sorbonne-universite.fr"
+    },
+    {
+      "name": "Université Paris-Saclay",
+      "description": "Hosts the DATAIA AI cluster, funded at €20M under France 2030.",
+      "url": "https://www.dataia.eu"
+    },
+    {
+      "name": "Université de Lorraine",
+      "description": "Hosts the ENACT AI cluster, funded at €30M under France 2030."
+    },
+    {
+      "name": "Université de Rennes",
+      "description": "Hosts the SequoIA AI cluster under France 2030."
     }
   ],
   "thinkTanks": [
@@ -185,6 +293,10 @@
     {
       "name": "Ministry of the Armed Forces",
       "description": "Holds a three-year defense-AI framework deal with Mistral AI."
+    },
+    {
+      "name": "AMIAD",
+      "description": "Agence ministérielle pour l'intelligence artificielle de défense; the Ministry of the Armed Forces agency steering France's defense-AI programmes, including the framework deal with Mistral AI."
     }
   ],
   "keyPeople": [
@@ -194,6 +306,20 @@
       "affiliation": "Mistral AI",
       "category": "company_leader",
       "url": "https://mistral.ai"
+    },
+    {
+      "name": "Clara Chappaz",
+      "role": "Ambassador for Digital Affairs and Artificial Intelligence (since December 2025); previously Minister Delegate for AI and Digital Technologies (Dec 2024–Oct 2025)",
+      "affiliation": "Ministry of Foreign Affairs",
+      "category": "government",
+      "url": "https://www.actuia.com/en/actors/clara-chappaz/"
+    },
+    {
+      "name": "Anne Bouverot",
+      "role": "Co-Chair, France's AI & Digital Council; Special Envoy for AI to the French President",
+      "affiliation": "Office of the French President",
+      "category": "advisor",
+      "url": "https://www.elysee.fr"
     }
   ],
   "influenceMap": [
@@ -218,21 +344,31 @@
       "type": "think_tank"
     }
   ],
+  "notableGaps": [
+    {
+      "area": "Frontier model developers",
+      "note": "Mistral AI is currently the only France-headquartered lab training frontier-scale foundation models; French frontier AI capability is highly concentrated in a single company, unlike jurisdictions with several competing labs."
+    },
+    {
+      "area": "Advanced semiconductor fabrication",
+      "note": "Despite sovereignty efforts (SiPearl's Rhea CPU line, STMicroelectronics' Crolles fab), France does not currently manufacture cutting-edge AI accelerators domestically; frontier AI training hardware (e.g. NVIDIA Grace Blackwell) is still sourced through foreign, largely TSMC-based supply chains."
+    }
+  ],
   "debates": [
     {
       "topic": "Mistral's defense-AI partnership and dual military/commercial strategy",
       "category": "security",
       "summary": "Mistral's three-year framework deal with the Ministry of the Armed Forces raises questions about how a commercial frontier lab balances defense work with its consumer and enterprise business.",
-      "expanded": "As Mistral becomes both France's commercial AI champion and a defense contractor, questions arise about data separation between military and civilian use cases, and whether defense revenue changes the incentives of a lab that also positions itself as Europe's open, sovereign alternative to US and Chinese labs.",
+      "expanded": "As Mistral becomes both a leading French commercial AI company and a defense contractor — with the deal steered by AMIAD and its value reported by some outlets at roughly $14B — questions arise about data separation between military and civilian use cases, and whether defense revenue changes the incentives of a lab that also positions itself as a European, relatively open alternative to US and Chinese labs.",
       "sourceIds": [
         "fr-1"
       ]
     },
     {
-      "topic": "Silicon sovereignty \u2014 AMD/SiPearl vs. NVIDIA dependence",
+      "topic": "Silicon sovereignty — AMD/SiPearl vs. NVIDIA dependence",
       "category": "infrastructure",
-      "summary": "France is deliberately diversifying away from NVIDIA for some national compute infrastructure, pairing AMD GPUs with European SiPearl CPUs.",
-      "expanded": "The Jean Zay supercomputer's extension with AMD Instinct MI430X GPUs and SiPearl European CPUs is a direct, practical hedge against NVIDIA's near-monopoly on AI training hardware \u2014 though Mistral's own Mistral Compute infrastructure still runs on NVIDIA Grace Blackwell chips, showing the sovereignty push is partial rather than total.",
+      "summary": "France is diversifying part of its national compute infrastructure away from NVIDIA, pairing AMD GPUs with European SiPearl CPUs for some public systems.",
+      "expanded": "The Jean Zay supercomputer's extension with AMD Instinct MI430X GPUs and SiPearl European CPUs — alongside the newly announced 'Alice Recoque' exascale system — is a practical hedge against NVIDIA's dominant position in AI training hardware. Mistral's own Mistral Compute infrastructure, however, still runs on NVIDIA Grace Blackwell chips, suggesting the sovereignty push is partial rather than a wholesale shift away from NVIDIA.",
       "sourceIds": [
         "fr-2"
       ]
@@ -241,7 +377,7 @@
       "topic": "SecNumCloud sovereignty vs. US hyperscaler participation",
       "category": "infrastructure",
       "summary": "France's cloud sovereignty framework requires French-soil hosting but doesn't exclude US hyperscalers outright, a middle path between full sovereignty and full dependence.",
-      "expanded": "SecNumCloud certification lets AWS, Microsoft and Google potentially qualify if they meet French hosting and operational requirements, which critics say dilutes the sovereignty goal, while supporters argue it's the only realistic way to get sovereignty-grade infrastructure at hyperscale speed.",
+      "expanded": "SecNumCloud certification lets AWS, Microsoft and Google potentially qualify if they meet French hosting and operational requirements. Some critics argue this dilutes the sovereignty goal, while supporters argue it's the only realistic way to get sovereignty-grade infrastructure at hyperscale speed. The landscape is further complicated by homegrown and joint-venture 'cloud de confiance' entrants — Scaleway, OVHcloud, 3DS Outscale, S3NS (Thales/Google Cloud) and Bleu (Orange/Capgemini running Microsoft technology) — each pursuing or holding SecNumCloud certification alongside the US hyperscalers.",
       "sourceIds": [
         "fr-6"
       ]
@@ -254,6 +390,20 @@
       "role": "Mistral AI CEO; the most closely watched voice on European frontier AI strategy.",
       "category": "company",
       "url": "https://mistral.ai"
+    },
+    {
+      "name": "Clara Chappaz",
+      "type": "person",
+      "role": "Ambassador for Digital Affairs and Artificial Intelligence; former Minister Delegate for AI and Digital Technologies.",
+      "category": "government",
+      "url": "https://www.actuia.com/en/actors/clara-chappaz/"
+    },
+    {
+      "name": "Anne Bouverot",
+      "type": "person",
+      "role": "Co-Chair of France's AI & Digital Council; Special Envoy for AI to the French President.",
+      "category": "government",
+      "url": "https://www.elysee.fr"
     },
     {
       "name": "Institut Montaigne",
@@ -307,10 +457,10 @@
     },
     {
       "id": "fr-3",
-      "title": "SoftBank French AI data-centre plans",
-      "publisher": "industry reporting",
-      "url": "https://www.reuters.com",
-      "date": "2026",
+      "title": "SoftBank plans up to 5GW / €75B AI data-centre investment in France",
+      "publisher": "CNBC / SoftBank Group",
+      "url": "https://www.cnbc.com",
+      "date": "2026-05",
       "category": "news"
     },
     {
@@ -360,8 +510,15 @@
       "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
       "date": "2026-07-04",
       "category": "news"
+    },
+    {
+      "id": "fr-10",
+      "title": "Mistral Compute infrastructure build-out (Bruyères-le-Châtel and Les Ulis)",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com",
+      "date": "2026",
+      "category": "news"
     }
   ],
-  "hasMajorUpdate": true,
-  "notableGaps": []
+  "hasMajorUpdate": true
 }

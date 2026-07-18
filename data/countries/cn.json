@@ -27,7 +27,7 @@
     "Chip self-sufficiency vs. export controls",
     "Open-weighting frontier models as strategy"
   ],
-  "overview": "China continues to regulate AI through targeted, stacked rules rather than a single comprehensive statute, with the Cyberspace Administration of China (CAC) as lead authority. Two new binding rules in 2026 extend this approach into fresh territory: interim measures on AI 'anthropomorphic interaction' services (April 2026, covering AI companion apps and emotionally-responsive chatbots) and China's first dedicated regulatory framework for AI agents (effective 15 July 2026).\n\nDeepSeek's continued open-weight releases remain a defining feature of China's AI story \u2014 demonstrating frontier-competitive capability despite continued US chip export controls, and widely read as a deliberate soft-power strategy as much as a technical choice.",
+  "overview": "China continues to regulate AI through targeted, stacked rules rather than a single comprehensive statute, with the Cyberspace Administration of China (CAC) as lead authority. Two new binding rules in 2026 extend this approach into fresh territory: interim measures on AI 'anthropomorphic interaction' services (April 2026, covering AI companion apps and emotionally-responsive chatbots) and China's first dedicated regulatory framework for AI agents (effective 15 July 2026).\n\nDeepSeek's continued open-weight releases remain a widely discussed feature of China's AI story \u2014 cited by many analysts as evidence of frontier-competitive capability despite continued US chip export controls, and often read as a deliberate soft-power strategy as much as a technical choice.",
   "atAGlance": {
     "policyDirection": {
       "label": "State-directed, expanding into new AI categories",
@@ -36,7 +36,7 @@
     "regulatoryApproach": "Targeted, stacked binding rules \u2014 no single comprehensive AI law",
     "latestMajorUpdate": "TC260 Ethics-Safety Guidelines and the Intelligent Agents framework both take effect within two weeks",
     "governmentInvolvement": "Very high \u2014 CAC-led, enforcement-backed, extending into new AI categories rapidly",
-    "industrialStrategy": "AI+ Initiative integration across manufacturing and public services; open-weight models as soft power",
+    "industrialStrategy": "AI+ Initiative integration across manufacturing and public services; open-weight models widely seen as a soft-power tool",
     "internationalPartnerships": "Global AI Governance Initiative; proposes alternative multilateral AI cooperation mechanisms",
     "primaryPolicyFocus": "Content and platform-safety control extending into agentic and companion AI"
   },
@@ -93,7 +93,7 @@
     {
       "title": "Implementation Opinions on Intelligent Agents",
       "status": "in_force",
-      "summary": "China's first dedicated regulatory framework for AI agents, issued jointly by CAC, NDRC and MIIT, effective 15 July 2026.",
+      "summary": "Described as China's first dedicated regulatory framework for AI agents, issued jointly by CAC, NDRC and MIIT, effective 15 July 2026.",
       "sourceIds": [
         "cn-1"
       ]
@@ -126,7 +126,7 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "China's AI research runs through a mix of state academies (Chinese Academy of Sciences), elite universities (Tsinghua, which incubated Zhipu AI), and standards bodies (TC260) that feed directly into binding regulation \u2014 an unusually tight loop between research output and regulatory text compared to most jurisdictions.",
+    "summary": "China's AI research runs through a mix of state academies (Chinese Academy of Sciences), elite universities (Tsinghua, which incubated Zhipu AI), and standards bodies (TC260) that feed directly into binding regulation \u2014 a relationship some observers describe as an unusually tight loop between research output and regulatory text compared to many other jurisdictions.",
     "sourceIds": [
       "cn-8"
     ]
@@ -187,11 +187,11 @@
   "universities": [
     {
       "name": "Chinese Academy of Sciences (CAS)",
-      "description": "China's foremost state research academy, with extensive AI research institutes."
+      "description": "One of China's foremost state research academies, with extensive AI research institutes."
     },
     {
       "name": "Tsinghua University",
-      "description": "Leading AI research university; incubated Zhipu AI and other prominent AI ventures."
+      "description": "A leading AI research university; incubated Zhipu AI and other prominent AI ventures."
     },
     {
       "name": "Beijing Academy of Artificial Intelligence (BAAI)",
@@ -207,7 +207,7 @@
     },
     {
       "name": "China Academy of Information and Communications Technology (CAICT)",
-      "description": "MIIT-affiliated research body publishing influential AI governance and industry reports.",
+      "description": "MIIT-affiliated research body publishing widely cited AI governance and industry reports.",
       "url": "http://www.caict.ac.cn"
     }
   ],
@@ -274,7 +274,7 @@
     {
       "topic": "Regulating agentic AI under the new Intelligent Agents framework",
       "category": "government",
-      "summary": "China's first dedicated AI-agent regulation, effective July 2026, extends its stacked-rules approach to autonomous systems that take multi-step actions.",
+      "summary": "Described as China's first dedicated AI-agent regulation, effective July 2026, it extends China's stacked-rules approach to autonomous systems that take multi-step actions.",
       "expanded": "The Implementation Opinions on the Standardized Application and Innovative Development of Intelligent Agents represent China moving early \u2014 relative to most jurisdictions \u2014 to regulate AI agents specifically, rather than treating them under generic generative-AI rules. How aggressively this framework is enforced against domestic agent products, versus used to shape 'innovative development' as its title suggests, is still being watched closely.",
       "sourceIds": [
         "cn-1"
@@ -283,7 +283,7 @@
     {
       "topic": "AI companion apps and anthropomorphic interaction rules",
       "category": "security",
-      "summary": "New interim measures specifically target AI companion apps and emotionally-responsive chatbots \u2014 a category regulators worldwide are only beginning to grapple with.",
+      "summary": "New interim measures specifically target AI companion apps and emotionally-responsive chatbots \u2014 a category regulators in many jurisdictions are only beginning to grapple with.",
       "expanded": "Issued jointly by five agencies (CAC, NDRC, MIIT, Ministry of Public Security, SAMR), the measures address concerns specific to AI systems designed to simulate emotional relationships \u2014 including risks to minors and psychologically vulnerable users. The joint-agency structure signals this is being treated as a public-safety issue as much as a content-regulation one.",
       "sourceIds": [
         "cn-2"
@@ -301,7 +301,7 @@
     {
       "topic": "Open-weighting frontier models as strategy",
       "category": "industry",
-      "summary": "DeepSeek's open-weight releases have become a geopolitical talking point, demonstrating competitive Chinese frontier capability despite chip export controls.",
+      "summary": "DeepSeek's open-weight releases have become a geopolitical talking point, widely cited as evidence of competitive Chinese frontier capability despite chip export controls.",
       "expanded": "DeepSeek's decision to open-weight highly capable reasoning models surprised international observers and raised questions about whether export controls on advanced chips have meaningfully slowed Chinese frontier AI progress. The releases are widely read as a deliberate soft-power and talent-attraction strategy as much as a technical choice, and have accelerated debate in other jurisdictions over open-weight model risk.",
       "sourceIds": [
         "cn-5"
@@ -312,7 +312,7 @@
     {
       "name": "Liang Wenfeng",
       "type": "person",
-      "role": "DeepSeek founder and CEO; the most closely watched figure in Chinese frontier AI.",
+      "role": "DeepSeek founder and CEO; one of the most closely watched figures in Chinese frontier AI.",
       "category": "company"
     },
     {
@@ -325,7 +325,7 @@
     {
       "name": "CAICT",
       "type": "organization",
-      "role": "MIIT-affiliated research body publishing influential Chinese AI governance reports.",
+      "role": "MIIT-affiliated research body publishing widely cited Chinese AI governance reports.",
       "category": "think_tank",
       "url": "http://www.caict.ac.cn"
     }

@@ -2,7 +2,7 @@
   "code": "us",
   "name": "United States",
   "shortName": "US",
-  "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+  "flagEmoji": "🇺🇸",
   "geometryType": "polygon",
   "isoA3": [
     "USA"
@@ -19,8 +19,8 @@
     39.8
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-07-16",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "Who leads AI policy after the AI czar role went vacant",
     "Federal preemption vs. state AI laws",
@@ -28,29 +28,30 @@
     "Export controls on AI chips",
     "CAISI's expanding pre-deployment testing mandate"
   ],
-  "overview": "The United States regulates AI through existing sectoral agencies and executive action rather than a single federal law. Since January 2025 the direction has been firmly deregulatory: the prior administration's safety-testing executive order was repealed, and the current administration's America's AI Action Plan prioritises infrastructure and export of the US AI stack over precautionary rules.\n\nIn the absence of federal legislation, states remain the most active source of binding AI rules, while NIST's Center for AI Standards and Innovation (CAISI) has become the most consistently active federal AI body, expanding its model-testing relationships with frontier labs through 2026.",
+  "overview": "The United States regulates AI mainly through existing sectoral agencies and executive action rather than a single federal law. Since January 2025, federal policy has moved in a broadly deregulatory direction: the prior administration's safety-testing executive order was repealed, and the current administration's America's AI Action Plan (released July 2025) emphasises infrastructure build-out and export of the US AI stack over precautionary rules.\n\nIn the absence of comprehensive federal legislation, states remain a major source of binding AI rules, though even flagship state laws are in flux — Colorado's original AI Act was repealed and replaced with a narrower version in May 2026 before it ever took effect. At the federal level, NIST's Center for AI Standards and Innovation (CAISI) has been one of the most active federal AI bodies, expanding its voluntary model-testing relationships with frontier labs through 2026.",
   "atAGlance": {
     "policyDirection": {
       "label": "Deregulatory, infrastructure-first",
       "sentiment": "green"
     },
-    "regulatoryApproach": "Sectoral, executive-led \u2014 no binding federal frontier-model law",
-    "latestMajorUpdate": "CAISI signs pre-deployment testing agreements with Google DeepMind, Microsoft and xAI",
-    "governmentInvolvement": "Low-to-moderate \u2014 light federal touch, no binding frontier-model law",
+    "regulatoryApproach": "Sectoral, executive-led — no binding federal frontier-model law",
+    "latestMajorUpdate": "FTC opens public comment on an AI-accuracy policy statement; a bipartisan 'Great American AI Act' discussion draft circulates in Congress, alongside a House Science Committee markup of ten AI bills",
+    "governmentInvolvement": "Low-to-moderate — light federal touch, no binding frontier-model law",
     "industrialStrategy": "Infrastructure- and export-led; the 'Stargate' initiative and America's AI Action Plan prioritise compute build-out",
     "internationalPartnerships": "Chip export-control coordination with allies; no formal multilateral AI safety treaty",
-    "primaryPolicyFocus": "Frontier model competitiveness and compute infrastructure over precautionary regulation"
+    "primaryPolicyFocus": "Frontier-model competitiveness and compute infrastructure appear to be higher near-term federal priorities than precautionary regulation, though states continue to pursue their own rules"
   },
   "currentDirection": {
     "trend": "loosening",
-    "summary": "Federal AI policy leadership has thinned rather than tightened through 2026 \u2014 the White House AI czar role sits vacant after David Sacks stepped down in March, leaving CAISI's technical standards and testing work as the most active and consistent thread of federal AI policy."
+    "summary": "Federal AI policy leadership arguably thinned rather than tightened through 2026 — the White House AI & Crypto Czar role has sat vacant since David Sacks stepped down in March, leaving CAISI's technical standards and testing work as one of the most active and consistent threads of federal AI policy activity."
   },
   "recentDevelopments": [
     {
-      "text": "FTC opens public comment on an AI-accuracy and manipulation policy statement; a bipartisan 'Great American AI Act' (GAAIA) discussion draft circulates in Congress; the House Science Committee advances ten AI bills.",
+      "text": "FTC opens public comment on an AI-accuracy and manipulation policy statement, issued pursuant to Executive Order 14365; a bipartisan 'Great American AI Act' (GAAIA) discussion draft circulates in Congress; the House Science Committee advances ten AI bills, including one that would statutorily codify CAISI.",
       "date": "2026-07",
       "sourceIds": [
-        "us-16"
+        "us-16",
+        "us-17"
       ]
     },
     {
@@ -61,25 +62,43 @@
       ]
     },
     {
-      "text": "CAISI publishes a technical evaluation of DeepSeek's V4 Pro model.",
-      "date": "2026-04",
+      "text": "CAISI publishes a technical evaluation of DeepSeek's V4 Pro model, finding it lags top US frontier models by roughly eight months in aggregate capability while remaining the most capable PRC model evaluated to date.",
+      "date": "2026-05",
       "sourceIds": [
-        "us-1"
+        "us-18"
       ]
     },
     {
-      "text": "David Sacks steps down as White House AI & Crypto Czar after reaching the 130-day limit for special government employees; moves to co-chair the President's Council of Advisors on Science and Technology instead. No successor has been named.",
-      "date": "2026-03",
+      "text": "Colorado Governor Jared Polis signs SB 26-189, repealing and replacing the Colorado AI Act (SB 24-205) with a narrower disclosure/transparency framework for automated decision-making; the duty of care, mandatory risk-management programs, impact-assessment requirements and AG-reporting obligations of the original law are dropped, and the new effective date is pushed to January 1, 2027.",
+      "date": "2026-05",
       "sourceIds": [
-        "us-2"
+        "us-20"
       ],
       "severity": "major"
+    },
+    {
+      "text": "David Sacks steps down as White House AI & Crypto Czar after reaching the 130-day limit for special government employees; moves to co-chair the President's Council of Advisors on Science and Technology instead. No successor had been named as of mid-2026.",
+      "date": "2026-03",
+      "sourceIds": [
+        "us-2",
+        "us-3"
+      ],
+      "severity": "major",
+      "needsVerification": true
     },
     {
       "text": "CAISI signs an MOU with the General Services Administration on federal AI procurement standards.",
       "date": "2026-03",
       "sourceIds": [
-        "us-1"
+        "us-1",
+        "us-19"
+      ]
+    },
+    {
+      "text": "Anthropic launches the Anthropic Institute; Jack Clark moves from Head of Policy to Head of Public Benefit to lead it, while Sarah Heck becomes Head of Public Policy.",
+      "date": "2026-03",
+      "sourceIds": [
+        "us-22"
       ]
     },
     {
@@ -92,45 +111,48 @@
   ],
   "policyAndRegulation": [
     {
-      "title": "Colorado AI Act (SB 24-205)",
-      "status": "in_force",
-      "summary": "Requires developers and deployers of high-risk AI systems used in consequential decisions (employment, credit, housing, healthcare) to conduct impact assessments and disclose algorithmic decision-making to consumers.",
-      "officialUrl": "https://leg.colorado.gov/bills/sb24-205",
+      "title": "Colorado AI Act (SB 24-205 → SB 26-189)",
+      "status": "passed",
+      "summary": "Colorado's original SB 24-205 established a duty of care, mandatory risk-management programs, and impact-assessment requirements for high-risk AI used in consequential decisions (employment, credit, housing, healthcare). That law was repealed and replaced by SB 26-189, signed by Governor Jared Polis on May 14, 2026, which drops the duty of care, risk-management-program, impact-assessment and attorney-general-reporting requirements in favour of a narrower disclosure/transparency framework for automated decision-making. SB 26-189 takes effect January 1, 2027.",
+      "officialUrl": "https://leg.colorado.gov/bills/sb26-189",
       "sourceIds": [
-        "us-5"
+        "us-5",
+        "us-20"
       ],
       "needsVerification": true
     },
     {
-      "title": "California AB 2013 \u2014 Training Data Transparency",
+      "title": "California AB 2013 — Training Data Transparency",
       "status": "in_force",
-      "summary": "Requires developers of generative AI systems made available to Californians to publicly document a high-level summary of the datasets used to train the system.",
+      "summary": "Requires developers of generative AI systems made available to Californians to publicly disclose a high-level summary of the datasets used to train the system; took effect January 1, 2026. OpenAI, Anthropic and Google have published disclosures. xAI (now SpaceXAI) sued California Attorney General Rob Bonta in December 2025 challenging the law's constitutionality; a district court denied a preliminary-injunction motion in March 2026, and the case remained under Ninth Circuit review as of mid-2026.",
       "officialUrl": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2013",
       "sourceIds": [
-        "us-4"
+        "us-4",
+        "us-16"
       ]
     },
     {
       "title": "TAKE IT DOWN Act",
       "status": "in_force",
-      "summary": "Federal law criminalising the publication of non-consensual intimate imagery, including AI-generated deepfakes, and requiring platforms to remove reported content within 48 hours.",
+      "summary": "Federal law criminalising the publication of non-consensual intimate imagery, including AI-generated deepfakes, and requiring platforms to remove reported content within 48 hours of a valid notice. Signed into law May 19, 2025; the notice-and-removal requirement took effect one year later, on May 19, 2026, with FTC enforcement authority.",
       "officialUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
       "sourceIds": [
         "us-6"
       ]
     },
     {
-      "title": "Great American AI Act (GAAIA) \u2014 discussion draft",
+      "title": "Great American AI Act (GAAIA) — discussion draft",
       "status": "proposed",
-      "summary": "A bipartisan federal discussion draft aimed at establishing a national AI standard, circulated alongside continued industry-backed preemption proposals; not yet introduced as a formal bill.",
+      "summary": "A bipartisan 269-page discussion draft released June 4, 2026 by Reps. Jay Obernolte (R-CA) and Lori Trahan (D-MA), proposing frontier-model disclosure and third-party-audit requirements alongside a three-year federal preemption of state laws that regulate AI model 'development' (though not deployment); not yet introduced as a formal bill.",
+      "officialUrl": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-release-discussion-draft-great-american-ai-act",
       "sourceIds": [
-        "us-16"
-      ],
-      "needsVerification": true
+        "us-16",
+        "us-21"
+      ]
     }
   ],
   "researchEcosystem": {
-    "summary": "US AI research remains the world's deepest, anchored by Stanford HAI, MIT CSAIL, and a dense private-lab research ecosystem that increasingly outpaces university output at the frontier. Federal programmes like the National AI Research Resource pilot aim to broaden compute access for academic researchers who can't match private labs' training-scale infrastructure.",
+    "summary": "US AI research remains among the world's largest and most influential, anchored by Stanford HAI, MIT CSAIL, and a dense private-lab research ecosystem; many observers argue private labs increasingly outpace university output at the frontier. Federal programmes like the National AI Research Resource pilot aim to broaden compute access for academic researchers who can't match private labs' training-scale infrastructure.",
     "sourceIds": [
       "us-9",
       "us-10"
@@ -154,12 +176,12 @@
     },
     {
       "name": "Meta AI",
-      "description": "Meta's AI division, notable for releasing open-weight Llama models.",
+      "description": "Meta's AI division, reorganised into Meta Superintelligence Labs in 2025; known for the open-weight Llama model family, though Meta has signalled a shift toward a more closed or mixed release strategy for its most advanced ('superintelligence-capable') models going forward.",
       "url": "https://ai.meta.com"
     },
     {
-      "name": "xAI",
-      "description": "Elon Musk-founded AI company developing the Grok model family; now under a CAISI pre-deployment testing agreement.",
+      "name": "SpaceXAI (formerly xAI)",
+      "description": "Developer of the Grok model family. SpaceX acquired xAI in an all-stock deal announced February 2026, and by July 2026 the entity had formally rebranded as SpaceXAI, a SpaceX subsidiary. It signed its CAISI pre-deployment testing agreement in May 2026 under the xAI name.",
       "url": "https://x.ai"
     },
     {
@@ -172,29 +194,37 @@
     "providers": [
       {
         "name": "AWS",
-        "description": "Leading US cloud provider and major AI compute host."
+        "description": "Leading US cloud provider and major AI compute host; estimated at roughly 28% of global cloud infrastructure spend in Q1 2026 per Synergy Research Group.",
+        "url": "https://aws.amazon.com"
       },
       {
         "name": "Microsoft Azure",
-        "description": "Cloud provider and OpenAI's primary infrastructure partner."
+        "description": "Cloud provider and OpenAI's primary infrastructure partner; estimated at roughly 21% of global cloud infrastructure spend in Q1 2026 per Synergy Research Group.",
+        "url": "https://azure.microsoft.com"
       },
       {
         "name": "Google Cloud",
-        "description": "Cloud provider hosting Google DeepMind's models and third-party AI workloads."
+        "description": "Cloud provider hosting Google DeepMind's models and third-party AI workloads; estimated at roughly 14% of global cloud infrastructure spend in Q1 2026 per Synergy Research Group.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "Oracle Cloud Infrastructure",
+        "description": "Smaller overall cloud market share, but a fast-growing role in frontier AI compute, including large committed capacity under OpenAI's Stargate build-out.",
+        "url": "https://www.oracle.com/cloud/"
       }
     ],
     "dominance": [
       {
         "provider": "AWS",
-        "share": 32
+        "share": 28
       },
       {
         "provider": "Azure",
-        "share": 25
+        "share": 21
       },
       {
         "provider": "Google Cloud",
-        "share": 12
+        "share": 14
       }
     ]
   },
@@ -225,7 +255,7 @@
   "governmentInstitutions": [
     {
       "name": "Center for AI Standards and Innovation (CAISI)",
-      "description": "NIST body developing evaluation methods and pre-deployment testing agreements with frontier labs; formerly the US AI Safety Institute.",
+      "description": "NIST body developing evaluation methods and pre-deployment testing agreements with frontier labs; formerly the US AI Safety Institute, renamed June 2025 with a mission shifted toward national-security testing, standards, and commercial AI evaluation.",
       "url": "https://www.nist.gov/caisi",
       "aliases": [
         "AI Safety Institute",
@@ -273,7 +303,14 @@
     },
     {
       "name": "Jack Clark",
-      "role": "Co-founder & Head of Policy",
+      "role": "Head of Public Benefit; leads the Anthropic Institute",
+      "affiliation": "Anthropic",
+      "category": "advisor",
+      "url": "https://importai.substack.com"
+    },
+    {
+      "name": "Sarah Heck",
+      "role": "Head of Public Policy",
       "affiliation": "Anthropic",
       "category": "advisor"
     }
@@ -282,7 +319,7 @@
     {
       "name": "Jack Clark",
       "type": "person",
-      "role": "Anthropic co-founder; writes Import AI, a leading weekly US and global AI policy newsletter.",
+      "role": "Anthropic co-founder and Head of Public Benefit; writes Import AI, a leading weekly US and global AI policy newsletter.",
       "category": "newsletter",
       "url": "https://importai.substack.com"
     },
@@ -341,21 +378,24 @@
     {
       "topic": "Who leads AI policy after the AI czar role went vacant",
       "category": "government",
-      "summary": "David Sacks's move from White House AI & Crypto Czar to a PCAST co-chair role in March 2026 left the position without a direct successor, raising questions about who actually coordinates federal AI policy now.",
-      "expanded": "Sacks reached the 130-day cap on his special-government-employee status and shifted to advising through PCAST rather than the White House directly. No replacement AI czar has been named. In practice, OSTP Director Michael Kratsios and CAISI have absorbed much of the coordinating role, but the absence of a dedicated czar has drawn commentary about whether AI policy now lacks a single accountable owner inside the administration.",
+      "summary": "David Sacks's move from White House AI & Crypto Czar to a PCAST co-chair role in March 2026 left the position without a direct successor, raising questions about who actually coordinates federal AI policy.",
+      "expanded": "Sacks reached the 130-day cap on his special-government-employee status and shifted to advising through PCAST rather than the White House directly. No replacement AI czar had been named as of mid-2026. In practice, OSTP Director Michael Kratsios and CAISI appear to have absorbed part of the coordinating role, but the absence of a dedicated czar has drawn commentary about whether AI policy now lacks a single accountable owner inside the administration.",
       "sourceIds": [
-        "us-2"
+        "us-2",
+        "us-3"
       ]
     },
     {
       "topic": "Federal preemption vs. state AI laws",
       "category": "government",
-      "summary": "Industry and parts of the federal government want a single national standard to override the growing patchwork of state AI laws; states are resisting losing their own rules.",
-      "expanded": "Colorado and California have moved fastest on binding state AI rules, and other states are drafting their own. Industry groups argue a fragmented 50-state patchwork raises compliance costs and slows deployment, and have lobbied for federal preemption. The new bipartisan GAAIA discussion draft is the most concrete sign yet of a federal alternative taking shape, though it remains a draft, not a bill. States' rights advocates and consumer groups counter that preemption without a real federal replacement would leave a regulatory vacuum.",
+      "summary": "Industry and parts of the federal government are pushing for a single national standard to override the growing patchwork of state AI laws; states have so far resisted ceding their own rules, even as some flagship state laws are themselves being narrowed or challenged in court.",
+      "expanded": "Colorado and California have moved fastest on binding state AI rules, though Colorado's original SB 24-205 duty-of-care framework was repealed and replaced by the narrower SB 26-189 in May 2026 (effective January 1, 2027) before it ever took effect. California's AB 2013 training-data disclosure law is being challenged by xAI (now SpaceXAI), which sued Attorney General Rob Bonta in December 2025 arguing the law is unconstitutional; a district court denied a preliminary injunction in March 2026, and the case remains under Ninth Circuit review. Industry groups argue a fragmented state-by-state patchwork raises compliance costs and slows deployment, and have lobbied for federal preemption; the bipartisan GAAIA discussion draft proposes a three-year federal preemption of state laws that regulate AI model development (though not deployment), and in July 2026 the FTC's proposed AI-accuracy policy statement — issued under Executive Order 14365 — specifically flagged Colorado's AI Act as a law that could be preempted. States'-rights advocates and consumer groups counter that preemption without a substantive federal replacement would leave a regulatory vacuum.",
       "sourceIds": [
-        "us-5",
+        "us-20",
+        "us-4",
         "us-7",
-        "us-16"
+        "us-16",
+        "us-17"
       ]
     },
     {
@@ -379,8 +419,8 @@
     {
       "topic": "CAISI's expanding pre-deployment testing mandate",
       "category": "government",
-      "summary": "CAISI has quietly become the most substantive check on frontier models in the US, now holding pre-deployment testing agreements with five major labs.",
-      "expanded": "With OpenAI, Anthropic, Google DeepMind, Microsoft and xAI all now under some form of CAISI pre-deployment testing arrangement, the agency has become the closest thing the US has to a binding frontier-model check \u2014 even though the arrangements are voluntary agreements rather than statutory requirements, and could in principle be unwound without legislative action.",
+      "summary": "CAISI has become one of the most substantive checks on frontier AI models in the US, now holding pre-deployment testing agreements with five major labs.",
+      "expanded": "With OpenAI, Anthropic, Google DeepMind, Microsoft and xAI (which announced its agreement under that name before its July 2026 rebrand to SpaceXAI) all now under some form of CAISI pre-deployment testing arrangement, the agency is often described as the closest thing the US currently has to a binding frontier-model check — even though the arrangements are voluntary agreements rather than statutory requirements, and could in principle be unwound without legislative action.",
       "sourceIds": [
         "us-1"
       ]
@@ -558,13 +598,86 @@
     },
     {
       "id": "us-16",
-      "title": "AI Washington Report \u2014 July 2026",
+      "title": "AI Washington Report — July 2026",
       "publisher": "Mintz",
       "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
       "date": "2026-07",
       "category": "think_tank"
+    },
+    {
+      "id": "us-17",
+      "title": "Policy Statement Concerning the Suppression of Accuracy in Artificial Intelligence Systems",
+      "publisher": "Federal Trade Commission / Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "us-18",
+      "title": "CAISI Evaluation of DeepSeek V4 Pro",
+      "publisher": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
+      "date": "2026-05",
+      "category": "government"
+    },
+    {
+      "id": "us-19",
+      "title": "GSA and NIST partner to boost AI evaluation science in federal procurement",
+      "publisher": "General Services Administration",
+      "url": "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-and-nist-partner-to-boost-ai-evaluation-science-in-federal-procurement-03182026",
+      "date": "2026-03",
+      "category": "government"
+    },
+    {
+      "id": "us-20",
+      "title": "Colorado SB 26-189 (repeal and replace of SB 24-205)",
+      "publisher": "Colorado General Assembly",
+      "url": "https://leg.colorado.gov/bills/sb26-189",
+      "date": "2026-05",
+      "category": "government"
+    },
+    {
+      "id": "us-21",
+      "title": "Obernolte, Trahan release discussion draft of the Great American AI Act",
+      "publisher": "US House of Representatives (Rep. Jay Obernolte)",
+      "url": "https://obernolte.house.gov/media/press-releases/obernolte-trahan-release-discussion-draft-great-american-ai-act",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "us-22",
+      "title": "The Anthropic Institute",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/news/the-anthropic-institute",
+      "date": "2026-03",
+      "category": "industry"
+    },
+    {
+      "id": "us-23",
+      "title": "Q1 2026 global cloud infrastructure market-share estimates",
+      "publisher": "Synergy Research Group",
+      "url": "https://www.srgresearch.com/",
+      "date": "2026-05",
+      "category": "research"
     }
   ],
   "hasMajorUpdate": true,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "Federal AI safety statute",
+      "note": "No binding federal AI safety or frontier-model law exists as of mid-2026; CAISI's pre-deployment testing agreements remain voluntary MOUs rather than statutory requirements, though a bill to statutorily codify CAISI was among ten AI bills the House Science Committee advanced in June 2026."
+    },
+    {
+      "area": "Frontier model developers",
+      "note": "Microsoft is a CAISI pre-deployment testing partner and has begun releasing in-house 'MAI' frontier models (e.g., MAI-Thinking-1) under AI CEO Mustafa Suleyman, but is not yet listed among this file's frontier-model developers alongside OpenAI, Anthropic and Google DeepMind."
+    },
+    {
+      "area": "Semiconductor fabrication",
+      "note": "No chip-fabrication company (e.g., TSMC's Arizona facilities, Intel Foundry) is listed despite their centrality to the AI-chip export-control debate and to US frontier-AI compute capacity."
+    },
+    {
+      "area": "Key individuals",
+      "note": "Prominent figures such as Elon Musk (SpaceXAI/Grok), Jensen Huang (NVIDIA) and Mustafa Suleyman (Microsoft AI) are not listed among this file's key people, despite their companies' prominence elsewhere in the file and their roles on bodies such as PCAST."
+    }
+  ]
 }

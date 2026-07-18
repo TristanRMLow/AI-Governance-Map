@@ -2,14 +2,14 @@
   "code": "uk",
   "name": "United Kingdom",
   "shortName": "UK",
-  "flagEmoji": "\ud83c\uddec\ud83c\udde7",
+  "flagEmoji": "🇬🇧",
   "geometryType": "polygon",
   "isoA3": [
     "GBR"
   ],
   "region": "Europe",
   "jurisdictionType": "nation_state",
-  "governanceModel": "Regulator-led via a 2025 Blueprint, without primary AI legislation",
+  "governanceModel": "Regulator-led via a 2025 Blueprint and an advisory AI Growth Lab pilot, without primary AI legislation",
   "accentColor": {
     "light": "#673C4B",
     "dark": "#8D5366"
@@ -19,41 +19,55 @@
     54.5
   ],
   "zoom": 4.6,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-07-16",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
-    "Blueprint vs. binding law \u2014 has the UK shelved the Frontier AI Bill?",
-    "AI Growth Lab regulatory sandbox design",
+    "Blueprint vs. binding law — has the UK shelved the Frontier AI Bill?",
+    "AI Growth Lab: advisory pilot vs. rule-relaxing sandbox",
     "Frontier AI cyber risk oversight by the Bank of England and FCA",
     "Copyright vs. AI training data"
   ],
-  "overview": "The UK has confirmed what its 2023 white paper implied it might do all along: rely on existing regulators and voluntary frameworks rather than pass a dedicated AI law. A promised Frontier AI Bill has not been introduced, and as of mid-2026 the government has signalled it's unlikely to bring one forward, favouring its October 2025 'Blueprint for AI regulation' \u2014 built around a regulatory sandbox and joint statements from existing regulators \u2014 instead.\n\nA September 2025 cabinet reshuffle brought in Liz Kendall as Secretary of State for Science, Innovation and Technology, alongside a newly created Minister for AI and Online Safety role. The AI Security Institute continues its technical evaluation work, though its own leadership is currently in an interim state.",
+  "overview": "The UK has largely followed through on what its 2023 white paper implied it might do all along: rely on existing regulators and voluntary frameworks rather than pass a dedicated AI law. A promised Frontier AI Bill has not been introduced, and as of mid-2026 the government has signalled it's unlikely to bring one forward, favouring its October 2025 'Blueprint for AI regulation' — which proposed a rule-relaxing regulatory sandbox but has so far produced only an advisory AI Growth Lab pilot in legal services, alongside joint statements from existing regulators — instead.\n\nA September 2025 cabinet reshuffle brought in Liz Kendall as Secretary of State for Science, Innovation and Technology, alongside a newly created Minister for AI and Online Safety role held by Kanishka Narayan MP. The AI Security Institute continues its technical evaluation work, though its own leadership is currently in an interim state.",
   "atAGlance": {
     "policyDirection": {
-      "label": "Regulator-led, sandbox over statute",
+      "label": "Regulator-led, advisory pilot over statute",
       "sentiment": "amber"
     },
-    "regulatoryApproach": "Existing regulators plus a voluntary AI Growth Lab sandbox",
-    "latestMajorUpdate": "AI Growth Lab formally launches, starting with legal services",
-    "governmentInvolvement": "Moderate \u2014 regulator-led rather than statute-led, no dedicated AI ministry",
-    "industrialStrategy": "Growth-first; AI Growth Lab sandbox and Google DeepMind's London base anchor the industrial case",
+    "regulatoryApproach": "Existing regulators plus an advisory AI Growth Lab pilot (legal services first, not yet a rule-relaxing sandbox)",
+    "latestMajorUpdate": "Advisory AI Growth Lab launches, starting with legal services",
+    "governmentInvolvement": "Moderate — regulator-led rather than statute-led, no dedicated AI ministry",
+    "industrialStrategy": "Growth-focused; the AI Growth Lab pilot and Google DeepMind's London base are frequently cited as anchors of the UK's industrial case, alongside growing UK investment from OpenAI, Anthropic and Nscale",
     "internationalPartnerships": "Bletchley Process convenor; International Network of AI Safety Institutes",
     "primaryPolicyFocus": "Financial-sector and frontier cyber risk oversight over comprehensive legislation"
   },
   "currentDirection": {
     "trend": "stable",
-    "summary": "The UK has settled into a holding pattern: no primary AI legislation, continued reliance on sector regulators (ICO, FCA, Bank of England) applying existing powers, and a new AI Growth Lab sandbox rather than the binding frontier-model law that was once promised."
+    "summary": "As of mid-2026, the UK appears to be in a holding pattern: no primary AI legislation, continued reliance on sector regulators (ICO, FCA, Bank of England) applying existing powers, and an advisory AI Growth Lab pilot rather than the binding frontier-model law once promised."
   },
   "recentDevelopments": [
     {
-      "text": "AI Growth Lab formally launches, beginning with the legal-services sector; AI is separately piloted in Crown Court processes, and child-safety/chatbot rules are expected 'later in July' 2026.",
+      "text": "AI Growth Lab formally launches, beginning with the legal-services sector; AI is separately piloted in Crown Court processes. The Crime and Policing Act 2026 has already extended Online Safety Act illegal-content duties to AI chatbots, with a government progress statement on further child-safety regulations due by 29 July 2026.",
       "date": "2026-06-08",
       "sourceIds": [
         "uk-16"
       ]
     },
     {
-      "text": "DSIT Secretary of State Liz Kendall indicates government is 'unlikely to bring forward new regulation beyond extending the online safety regime' \u2014 the clearest signal yet that the Frontier AI Bill has been shelved.",
+      "text": "Bank of England, FCA and HM Treasury issue a joint statement on frontier AI models and cyber resilience in financial services.",
+      "date": "2026-05-15",
+      "sourceIds": [
+        "uk-22"
+      ]
+    },
+    {
+      "text": "Regulations mandating the ICO to prepare a statutory code of practice on AI and automated decision-making (SI 2026/425) come into force; the code itself remains in development with no confirmed publication date and is not expected to take effect before 2027.",
+      "date": "2026-05-12",
+      "sourceIds": [
+        "uk-2"
+      ]
+    },
+    {
+      "text": "DSIT Secretary of State Liz Kendall indicates government is 'unlikely to bring forward new regulation beyond extending the online safety regime' — the clearest signal yet that the Frontier AI Bill has been shelved.",
       "date": "2026-05",
       "sourceIds": [
         "uk-1"
@@ -61,21 +75,15 @@
       "severity": "major"
     },
     {
-      "text": "Bank of England, FCA and HM Treasury issue a joint statement on frontier AI cyber risk in financial services.",
-      "date": "2026",
+      "text": "IPO/DSIT publish a Report on Copyright and Artificial Intelligence, abandoning the previously preferred opt-out text-and-data-mining exception (rejected by most consultation respondents) and adopting a 'wait and see' status-quo approach: the existing narrow non-commercial-research exception remains, no broad new exception is introduced, and industry-led licensing is left to develop with further monitoring before any legislative change.",
+      "date": "2026-03",
       "sourceIds": [
-        "uk-2"
-      ]
+        "uk-17"
+      ],
+      "severity": "major"
     },
     {
-      "text": "ICO advances a statutory code on AI and automated decision-making.",
-      "date": "2026",
-      "sourceIds": [
-        "uk-2"
-      ]
-    },
-    {
-      "text": "'Blueprint for AI regulation' published, centred on an AI Growth Lab regulatory sandbox rather than new primary legislation.",
+      "text": "'Blueprint for AI regulation' published, centred on a proposed AI Growth Lab regulatory sandbox rather than new primary legislation.",
       "date": "2025-10-21",
       "sourceIds": [
         "uk-3"
@@ -102,15 +110,16 @@
     {
       "title": "Blueprint for AI regulation / AI Growth Lab",
       "status": "in_force",
-      "summary": "The government's October 2025 alternative to primary legislation: a regulatory sandbox letting firms trial AI products under supervised, relaxed rules, paired with continued regulator-led oversight rather than a single AI statute.",
+      "summary": "The government's October 2025 Blueprint proposed a regulatory sandbox offering 'time-limited regulatory flexibilities' across sectors including professional services, healthcare, transport and advanced manufacturing. What actually launched on 8 June 2026 — branded the 'Advisory AI Growth Lab' — is narrower and more cautious: starting with legal services only, and the government's own guidance states that participation 'will not amount to regulatory approval, endorsement, or authorisation' and that existing legal and regulatory requirements remain unchanged. No rules have actually been relaxed for participants so far.",
       "sourceIds": [
-        "uk-3"
+        "uk-3",
+        "uk-16"
       ]
     },
     {
       "title": "ICO statutory code on AI and automated decision-making",
-      "status": "proposed",
-      "summary": "A binding code of practice from the Information Commissioner's Office clarifying how data-protection law applies to AI-driven automated decisions.",
+      "status": "in_force",
+      "summary": "Regulations requiring the ICO to prepare a binding statutory code of practice on AI and automated decision-making (SI 2026/425) came into force on 12 May 2026, so the legal mandate itself is now in force. The code clarifying how data-protection law applies to AI-driven automated decisions has not yet been published, has no confirmed deadline, and realistically won't take effect before 2027.",
       "sourceIds": [
         "uk-2"
       ]
@@ -118,17 +127,19 @@
     {
       "title": "Artificial Intelligence (Regulation) Bill [HL]",
       "status": "proposed",
-      "summary": "A Private Member's Bill in the House of Lords proposing a dedicated AI regulator and binding duties on developers \u2014 distinct from, and not endorsed by, the government's own Blueprint approach.",
+      "summary": "A Private Member's Bill in the House of Lords (Bill 3942) proposing a dedicated AI regulator and binding duties on developers — distinct from, and not endorsed by, the government's own Blueprint approach. It received a second reading debate in the Lords on 4 June 2026; the government continues to favour its regulator-led approach over this proposed AI Authority framework.",
       "sourceIds": [
-        "uk-6"
-      ],
-      "needsVerification": true
+        "uk-21",
+        "uk-2"
+      ]
     }
   ],
   "researchEcosystem": {
-    "summary": "The UK's AI research strength is concentrated around the Alan Turing Institute and the Oxford/Cambridge axis, with Google DeepMind's London lab acting as a major magnet for research talent that might otherwise sit purely in academia. Government AI R&D funding continues to lean on the AI Security Institute's technical evaluation capacity as much as traditional university grant funding.",
+    "summary": "The UK's AI research base spans the Alan Turing Institute and the Oxford/Cambridge axis, with Google DeepMind's London lab acting as a major magnet for research talent that might otherwise sit purely in academia. The Turing Institute — often described as the UK's national AI institute — has been in visible institutional turmoil since 2025, however: a UKRI review found its strategic alignment and value for money 'not yet satisfactory,' its project portfolio was cut from roughly 104 to 22 with a pivot toward defence and national-security priorities, around 50 staff faced redundancy, and a new CEO, George Williamson (formerly head of GCHQ's HMGCC), took over in May 2026. That makes 'stable anchor institution' a less settled description of the Turing than it once was.",
     "sourceIds": [
-      "uk-7"
+      "uk-7",
+      "uk-18",
+      "uk-19"
     ]
   },
   "companies": [
@@ -139,54 +150,71 @@
     },
     {
       "name": "Synthesia",
-      "description": "London-based synthetic media company building AI video generation tools for enterprises.",
+      "description": "London-based synthetic media company building AI video generation tools for enterprises; raised a $200M Series E in January 2026 at a $4B valuation.",
       "url": "https://www.synthesia.io"
     },
     {
       "name": "Stability AI",
-      "description": "UK-founded developer of open-weight image and media generation models, including Stable Diffusion.",
+      "description": "UK-founded developer of open-weight image and media generation models, including Stable Diffusion; headquartered in London and reports triple-digit growth under CEO Prem Akkaraju.",
       "url": "https://stability.ai"
     },
     {
       "name": "Wayve",
-      "description": "London-based autonomous driving AI company using end-to-end learned driving models.",
+      "description": "London-based autonomous driving AI company using end-to-end learned driving models; raised a $1.2B Series D in February 2026 at an $8.6B valuation.",
       "url": "https://wayve.ai"
+    },
+    {
+      "name": "Arm Holdings",
+      "description": "Cambridge-headquartered semiconductor and compute-architecture company; launched its first in-house silicon product, the Arm AGI CPU (an AI-datacentre CPU co-designed with Meta on TSMC 3nm) in March 2026, and is a named technology partner for the UK-US 'Stargate UK' AI infrastructure programme.",
+      "url": "https://www.arm.com"
+    },
+    {
+      "name": "Faculty",
+      "description": "London-based AI company with deep UK government ties (DSIT, NHS, Cabinet Office); acquired by Accenture in a deal agreed January 2026, reported at over £600M, reportedly making it the first UK AI company to reach unicorn status; CEO Marc Warner became Accenture's CTO.",
+      "url": "https://faculty.ai/en-gb"
+    },
+    {
+      "name": "OpenAI",
+      "description": "Announced its first permanent London office in April 2026 (Regent Quarter, capacity 500+), intended to become its largest research hub outside the US, after pausing its earlier 'Stargate UK' data-centre project.",
+      "url": "https://openai.com/index/introducing-openai-london/"
+    },
+    {
+      "name": "Anthropic",
+      "description": "Announced an 800-person London office (Knowledge Quarter, Regent's Place) in April 2026, quadrupling its previous London presence.",
+      "url": "https://www.anthropic.com"
     }
   ],
   "cloudInfrastructure": {
     "providers": [
       {
         "name": "Microsoft Azure",
-        "description": "Leading cloud provider for UK enterprise and public-sector AI workloads."
+        "description": "Cloud provider used across UK enterprise and public-sector AI workloads."
       },
       {
         "name": "AWS",
-        "description": "Major cloud provider with significant UK data-centre presence."
+        "description": "Cloud provider with substantial UK data-centre presence; among the major hyperscalers serving UK AI workloads."
       },
       {
         "name": "Google Cloud",
-        "description": "Cloud provider closely tied to Google DeepMind's model deployment."
+        "description": "Cloud provider closely tied to Google DeepMind's model deployment; among the major hyperscalers serving UK AI workloads."
+      },
+      {
+        "name": "Oracle (UK Sovereign Cloud)",
+        "description": "Operates a dedicated, dual-region, PASF-accredited UK Sovereign Cloud for government and defence customers — a distinct sovereign offering alongside the three main hyperscalers.",
+        "url": "https://www.oracle.com/uk/cloud/uk-sovereign-cloud/"
+      },
+      {
+        "name": "Nscale",
+        "description": "London-headquartered 'AI hyperscaler' building UK sovereign AI data-centre capacity in partnership with BT and Nvidia; raised a $2B Series C in March 2026 at a $14.6B valuation.",
+        "url": "https://www.nscale.com"
       }
     ],
-    "dominance": [
-      {
-        "provider": "Azure",
-        "share": 30
-      },
-      {
-        "provider": "AWS",
-        "share": 28
-      },
-      {
-        "provider": "Google Cloud",
-        "share": 15
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
       "name": "Alan Turing Institute",
-      "description": "The UK's national institute for data science and artificial intelligence.",
+      "description": "The UK's national institute for data science and artificial intelligence — though as of 2026 it is undergoing a significant, government-driven strategic overhaul (new CEO George Williamson from May 2026) following a critical UKRI review of its strategic alignment and value for money.",
       "url": "https://www.turing.ac.uk"
     },
     {
@@ -203,7 +231,7 @@
   "thinkTanks": [
     {
       "name": "Ada Lovelace Institute",
-      "description": "Independent research institute shaping public and policy debate on data and AI governance.",
+      "description": "Independent research institute shaping public and policy debate on data and AI governance, led by Director Gaia Marcus.",
       "url": "https://www.adalovelaceinstitute.org"
     },
     {
@@ -233,7 +261,7 @@
     },
     {
       "name": "Information Commissioner's Office (ICO)",
-      "description": "Enforces data-protection law as applied to AI systems, including a forthcoming statutory code on automated decisions.",
+      "description": "Enforces data-protection law as applied to AI systems; now under a statutory mandate (in force since May 2026) to produce a binding code of practice on automated decision-making, though the code itself is still in development.",
       "url": "https://ico.org.uk/"
     }
   ],
@@ -243,13 +271,14 @@
       "role": "Secretary of State for Science, Innovation and Technology",
       "affiliation": "DSIT",
       "category": "government",
-      "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology"
+      "url": "https://www.gov.uk/government/people/liz-kendall"
     },
     {
       "name": "Kanishka Narayan",
-      "role": "Parliamentary Under-Secretary of State \u2014 Minister for AI and Online Safety",
+      "role": "Parliamentary Under-Secretary of State — Minister for AI and Online Safety",
       "affiliation": "DSIT",
-      "category": "government"
+      "category": "government",
+      "url": "https://www.gov.uk/government/people/kanishka-narayan"
     },
     {
       "name": "Ian Hogarth",
@@ -263,8 +292,7 @@
       "role": "Interim Director",
       "affiliation": "AI Security Institute",
       "category": "government",
-      "url": "https://www.aisi.gov.uk/",
-      "needsVerification": true
+      "url": "https://www.gov.uk/government/people/adam-beaumont"
     },
     {
       "name": "Demis Hassabis",
@@ -298,39 +326,41 @@
   ],
   "debates": [
     {
-      "topic": "Blueprint vs. binding law \u2014 has the UK shelved the Frontier AI Bill?",
+      "topic": "Blueprint vs. binding law — has the UK shelved the Frontier AI Bill?",
       "category": "government",
-      "summary": "The government has effectively signalled it won't bring forward the frontier-model legislation it once promised, favouring a sandbox and existing-regulator approach instead.",
-      "expanded": "DSIT Secretary of State Liz Kendall indicated in May 2026 that government is 'unlikely to bring forward new regulation beyond extending the online safety regime.' This marks a real shift from the 2024 legislative agenda's commitment to 'the appropriate legislation' for frontier developers. A separate Private Member's Bill remains alive in the Lords, but without government backing it's unlikely to become law. Critics argue the UK has quietly abandoned binding oversight of the most powerful models; the government frames the Blueprint's sandbox as a faster, more adaptable substitute.",
+      "summary": "The government has effectively signalled it won't bring forward the frontier-model legislation it once promised, favouring an advisory AI Growth Lab pilot and existing-regulator approach instead.",
+      "expanded": "DSIT Secretary of State Liz Kendall indicated in May 2026 that government is 'unlikely to bring forward new regulation beyond extending the online safety regime.' This marks a real shift from the 2024 legislative agenda's commitment to 'the appropriate legislation' for frontier developers. A separate Private Member's Bill remains alive in the Lords, but without government backing it's unlikely to become law. Critics argue the UK has quietly abandoned binding oversight of the most powerful models; the government frames the Blueprint's AI Growth Lab as a faster, more adaptable substitute, though what has launched so far is advisory rather than rule-relaxing.",
       "sourceIds": [
         "uk-1"
       ]
     },
     {
-      "topic": "AI Growth Lab regulatory sandbox design",
+      "topic": "AI Growth Lab: advisory pilot vs. rule-relaxing sandbox",
       "category": "government",
-      "summary": "The government's alternative to legislation is a sandbox letting firms trial AI products under supervised, relaxed rules \u2014 its scope and safeguards are still being worked out.",
-      "expanded": "The AI Growth Lab, part of the October 2025 Blueprint, lets participating firms test AI products with certain regulatory requirements temporarily eased under supervision. Supporters see it as a pragmatic way to learn before legislating; critics worry a sandbox with no fixed end-date risks becoming the permanent regime rather than a stepping stone to binding rules.",
+      "summary": "The government's 2025 Blueprint proposed a sandbox letting firms trial AI products under relaxed rules, but what actually launched in June 2026 is a purely advisory pilot in legal services — whether it will evolve toward genuine rule relaxation remains an open question.",
+      "expanded": "The October 2025 Blueprint proposed an AI Growth Lab sandbox offering 'time-limited regulatory flexibilities' across sectors such as professional services, healthcare, transport and advanced manufacturing. What launched on 8 June 2026 is narrower: an 'Advisory AI Growth Lab' covering legal services only, involving the Council for Licensed Conveyancers, Solicitors Regulation Authority, ICO and Legal Services Board. The government's own guidance states that participation 'will not amount to regulatory approval, endorsement, or authorisation' and that existing legal and regulatory requirements remain unchanged — so no rules have actually been relaxed yet. Supporters see it as a cautious first step; critics note the gap between the original rule-relaxation concept and what has actually been delivered, and worry a pilot with no fixed end-date could become the permanent posture rather than a stepping stone to binding rules.",
       "sourceIds": [
-        "uk-3"
+        "uk-3",
+        "uk-16"
       ]
     },
     {
       "topic": "Frontier AI cyber risk oversight by the Bank of England and FCA",
       "category": "security",
-      "summary": "Financial regulators have moved faster than DSIT on frontier AI risk, issuing a joint statement on AI-related cyber risk in the financial sector.",
-      "expanded": "The Bank of England, FCA and HM Treasury's joint statement addresses how frontier AI capabilities could be misused for financial-sector cyberattacks or market manipulation \u2014 a narrower, sector-specific intervention that arguably has more teeth than anything DSIT itself has produced on frontier models to date.",
+      "summary": "Financial regulators have moved on frontier AI risk with a joint statement on AI-related cyber risk in the financial sector; some observers see this as more concrete than DSIT's own frontier-model measures to date.",
+      "expanded": "The Bank of England, FCA and HM Treasury's joint statement of 15 May 2026 addresses how frontier AI capabilities could be misused for financial-sector cyberattacks or market manipulation — a narrower, sector-specific intervention that some analysts argue has more practical teeth than anything DSIT itself has produced on frontier models to date.",
       "sourceIds": [
-        "uk-2"
+        "uk-22"
       ]
     },
     {
       "topic": "Copyright vs. AI training data",
       "category": "industry",
-      "summary": "A government proposal to broaden the text-and-data-mining copyright exception for AI training triggered a major backlash from musicians, authors, and publishers.",
-      "expanded": "DSIT and the IPO consulted on an opt-out-based exception that would let AI developers train on copyrighted work by default unless rights holders opted out. The creative industries \u2014 backed by high-profile musicians and authors \u2014 argued this reverses the burden unfairly onto rights holders who often can't practically track or opt out of scraping. The consultation closed without a final policy settled.",
+      "summary": "A government proposal to broaden the text-and-data-mining copyright exception for AI training triggered a major backlash from musicians, authors, and publishers; the government abandoned the proposal in March 2026 in favour of a 'wait and see' status quo.",
+      "expanded": "DSIT and the IPO consulted on an opt-out-based exception that would let AI developers train on copyrighted work by default unless rights holders opted out. The creative industries — backed by high-profile musicians and authors — argued this reversed the burden unfairly onto rights holders who often can't practically track or opt out of scraping. In its March 2026 Report on Copyright and Artificial Intelligence, the government abandoned the opt-out proposal (rejected by most consultation respondents), keeping the existing narrow non-commercial-research text-and-data-mining exception in place, ruling out a broad new exception for now, and instead betting on industry-led licensing markets developing organically, with further monitoring before any legislative change. Both creative-industry and AI-developer groups have said this leaves the underlying tension unresolved rather than settling it.",
       "sourceIds": [
-        "uk-8"
+        "uk-8",
+        "uk-17"
       ]
     }
   ],
@@ -353,7 +383,8 @@
       "name": "Michael Wooldridge",
       "type": "person",
       "role": "Oxford AI professor and prominent public commentator on UK AI policy.",
-      "category": "researcher"
+      "category": "researcher",
+      "url": "https://www.cs.ox.ac.uk/people/michael.wooldridge/"
     },
     {
       "name": "The Artificial Human",
@@ -420,9 +451,9 @@
     },
     {
       "id": "uk-3",
-      "title": "Blueprint for AI regulation",
-      "publisher": "DSIT",
-      "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "title": "New blueprint for AI regulation could speed up planning approvals, slash NHS waiting times and drive growth and public trust",
+      "publisher": "DSIT / GOV.UK",
+      "url": "https://www.gov.uk/government/news/new-blueprint-for-ai-regulation-could-speed-up-planning-approvals-slash-nhs-waiting-times-and-drive-growth-and-public-trust",
       "date": "2025-10",
       "category": "government"
     },
@@ -477,10 +508,10 @@
     {
       "id": "uk-10",
       "title": "Anthropic London office",
-      "publisher": "Financial Times",
-      "url": "https://www.ft.com",
-      "date": "2024",
-      "category": "news"
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com",
+      "date": "2026-04",
+      "category": "industry"
     },
     {
       "id": "uk-11",
@@ -524,13 +555,74 @@
     },
     {
       "id": "uk-16",
-      "title": "AI Growth Lab launch",
+      "title": "Advisory AI Growth Lab to support responsible AI adoption in legal services",
       "publisher": "GOV.UK",
-      "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "url": "https://www.gov.uk/government/news/advisory-ai-growth-lab-to-support-responsible-ai-adoption-in-legal-services",
       "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "uk-17",
+      "title": "Report on Copyright and Artificial Intelligence",
+      "publisher": "Intellectual Property Office / DSIT",
+      "url": "https://assets.publishing.service.gov.uk/media/69ba692226909a14239612e4/CP2602959_-_Report_on_Copyright_and_Artificial_Intelligence_web.pdf",
+      "date": "2026-03",
+      "category": "government"
+    },
+    {
+      "id": "uk-18",
+      "title": "Reforming the Alan Turing Institute",
+      "publisher": "British Progress Institute",
+      "url": "https://britishprogress.org/reports/reforming-the-alan-turing-institute",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "uk-19",
+      "title": "Alan Turing Institute: UKRI review finds institute underperforming",
+      "publisher": "ResultSense",
+      "url": "https://resultsense.com/news/2026-04-06-alan-turing-institute-ukri-review-underperforming",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "uk-20",
+      "title": "Introducing OpenAI London",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-openai-london/",
+      "date": "2026-04",
+      "category": "industry"
+    },
+    {
+      "id": "uk-21",
+      "title": "Artificial Intelligence (Regulation) Bill [HL] — Bill 3942",
+      "publisher": "UK Parliament",
+      "url": "https://bills.parliament.uk/bills/3942",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "uk-22",
+      "title": "Joint statement on frontier AI models and cyber resilience",
+      "publisher": "Bank of England / FCA / HM Treasury",
+      "url": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
+      "date": "2026-05-15",
       "category": "government"
     }
   ],
   "hasMajorUpdate": true,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "Binding AI legislation",
+      "note": "The UK has no comprehensive, binding, horizontal AI statute as of mid-2026; the promised Frontier AI Bill has not been introduced, and the government instead relies on a sectoral, regulator-led approach formalised via the October 2025 Blueprint and the advisory AI Growth Lab."
+    },
+    {
+      "area": "Compute infrastructure",
+      "note": "This profile has no dedicated compute-infrastructure section, but the UK's AI Research Resource is anchored by Isambard-AI at the University of Bristol — reported as one of the world's most powerful supercomputers (around 5,448 Nvidia GH200 superchips, roughly 21 exaflops of AI performance) — underpinning a £500M Sovereign AI Fund that grants GPU-hours to portfolio startups."
+    },
+    {
+      "area": "Semiconductor fabrication",
+      "note": "The UK has no domestic chip-fabrication industry; Arm Holdings, the country's flagship semiconductor company, designs chip architectures (including its March 2026 Arm AGI CPU) but does not fabricate them."
+    }
+  ]
 }

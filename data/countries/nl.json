@@ -9,7 +9,7 @@
   ],
   "region": "Europe",
   "jurisdictionType": "nation_state",
-  "governanceModel": "Diplomatic AI leadership paired with new domestic AI Act implementation",
+  "governanceModel": "Active AI diplomacy paired with new domestic AI Act implementation under a decentralized regulator model",
   "accentColor": {
     "light": "#508B9B",
     "dark": "#6BA3B3"
@@ -19,13 +19,13 @@
     52.1
   ],
   "zoom": 6.3,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 3,
+  "lastUpdated": "2026-07-16",
+  "newDevelopmentsCount": 4,
   "debateTopics": [
-    "Diplomatic leadership without a domestic AI champion",
+    "Diplomatic activity without a domestic AI champion",
     "Dutch AI Implementation Act consultation"
   ],
-  "overview": "The Netherlands has become one of Europe's more active diplomatic voices on AI even without a flagship national AI lab of its own. In July 2026 it submitted an International AI Strategy to parliament \u2014 built on diplomatic effort, new coalitions, and strengthening European AI capacity \u2014 led by State Secretary for Digital Economy and Sovereignty Willemijn Aerdts alongside the Ministers of Foreign Affairs and Foreign Trade.\n\nDomestically, Aerdts also submitted a Dutch AI Implementation Act for public consultation in April 2026 \u2014 the legislation that will translate the EU AI Act into Dutch national law. The country's real AI-adjacent strength remains ASML, whose lithography machines are essential to the global AI chip supply chain, even though ASML itself isn't an AI company.",
+  "overview": "Following the formation of the Jetten cabinet (D66, VVD and CDA) on 23 February 2026, the Netherlands has continued to position itself as an active diplomatic voice on AI even without a flagship national AI lab of its own. In July 2026 it submitted an International AI Strategy to parliament \u2014 built on diplomatic effort, new coalitions, and strengthening European AI capacity \u2014 led by State Secretary for Digital Economy and Sovereignty Willemijn Aerdts (Ministry of Economic Affairs and Climate) alongside the Ministers of Foreign Affairs and Foreign Trade.\n\nDomestically, Aerdts also put a Dutch AI Implementation Act out for public consultation in April 2026 \u2014 legislation intended to transpose EU AI Act supervision and enforcement obligations into Dutch national law via a decentralized model of sectoral regulators, rather than a single dedicated AI authority. A significant AI-adjacent industrial asset is ASML, whose lithography machines are essential to the global AI chip supply chain, even though ASML itself isn't an AI company.",
   "atAGlance": {
     "policyDirection": {
       "label": "Diplomatic leadership, thin domestic industry",

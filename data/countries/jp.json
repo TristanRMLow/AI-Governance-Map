@@ -9,7 +9,7 @@
   ],
   "region": "Asia-Pacific",
   "jurisdictionType": "nation_state",
-  "governanceModel": "Soft-law guidelines with G7 Hiroshima AI Process leadership",
+  "governanceModel": "Soft-law guidelines; active participant in the G7 Hiroshima AI Process",
   "accentColor": {
     "light": "#B8474B",
     "dark": "#C4686C"
@@ -38,7 +38,7 @@
     "governmentInvolvement": "High on investment, low on binding rules \u2014 state-directed funding, no penalties",
     "industrialStrategy": "\u00a51 trillion domestic foundation-model push plus the ~$6B 'Noetra' robotics/AI consortium",
     "internationalPartnerships": "G7 Hiroshima AI Process; UN Independent International Scientific Panel on AI",
-    "primaryPolicyFocus": "Closing the AI investment gap through state-backed industrial strategy"
+    "primaryPolicyFocus": "Among current government priorities: closing the AI investment gap through state-backed industrial strategy"
   },
   "currentDirection": {
     "trend": "stable",
@@ -127,7 +127,7 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "Japan's AI research is anchored by RIKEN AIP and the University of Tokyo's Matsuo Lab, but the AI Basic Plan itself concedes the country has under-invested relative to peers \u2014 the \u00a51 trillion public-private push is as much an attempt to build research and engineering capacity domestically as it is an industrial strategy.",
+    "summary": "Prominent institutions in Japan's AI research landscape include RIKEN AIP and the University of Tokyo's Matsuo Lab, though the AI Basic Plan itself concedes the country has under-invested relative to peers \u2014 the \u00a51 trillion public-private push appears aimed at building research and engineering capacity domestically as much as at industrial strategy.",
     "sourceIds": [
       "jp-4"
     ]
@@ -135,7 +135,7 @@
   "companies": [
     {
       "name": "Sakana AI",
-      "description": "Tokyo-based frontier AI lab co-founded by David Ha and Llion Jones, working on nature-inspired model architectures.",
+      "description": "Tokyo-based AI lab co-founded by David Ha and Llion Jones, known for research on nature-inspired model architectures and among Japan's most closely watched AI startups.",
       "url": "https://sakana.ai"
     },
     {
@@ -152,7 +152,7 @@
     "providers": [
       {
         "name": "AWS",
-        "description": "Leading cloud provider for Japanese enterprise AI workloads."
+        "description": "Major cloud provider used for Japanese enterprise AI workloads."
       },
       {
         "name": "Microsoft Azure",
@@ -182,7 +182,7 @@
   "universities": [
     {
       "name": "RIKEN AIP",
-      "description": "RIKEN's Center for Advanced Intelligence Project, Japan's flagship national AI research programme.",
+      "description": "RIKEN's Center for Advanced Intelligence Project, a leading national AI research programme.",
       "url": "https://aip.riken.jp"
     },
     {
@@ -289,7 +289,7 @@
     {
       "topic": "AI copyright compensation and voice-imitation rules",
       "category": "industry",
-      "summary": "The 2026 IP Strategic Program puts binding AI copyright compensation and voice-imitation rules on the legislative track for the first time, a shift from Japan's famously permissive training-data exception.",
+      "summary": "The 2026 IP Strategic Program puts binding AI copyright compensation and voice-imitation rules on the legislative track for the first time, a shift from Japan's widely-noted permissive training-data exception.",
       "expanded": "Japan's Article 30-4 copyright exception has made it one of the most permissive major jurisdictions for AI training on copyrighted works. The 2026 IP Strategic Program signals a partial correction \u2014 introducing compensation mechanisms and rules specifically addressing AI voice imitation, likely responding to concerns from the creative industries (manga, anime, music) that the training-data exception wasn't designed for generative AI's commercial scale.",
       "sourceIds": [
         "jp-1"

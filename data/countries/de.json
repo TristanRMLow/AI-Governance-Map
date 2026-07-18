@@ -26,7 +26,7 @@
     "Germany's sovereign AI champion changes hands",
     "Germany-Canada Sovereign Technology Alliance"
   ],
-  "overview": "Germany passed its own AI Act enforcement legislation in mid-2026 \u2014 the KI-MIG (AI Act Implementing Act), approved by the Bundestag on 11 June, naming the Bundesnetzagentur as market-surveillance authority and introducing personal liability for company executives over AI security failures from 2 August 2026, with fines of up to \u20ac35 million or 7% of global turnover. Dr. Karsten Wildberger has led the restructured Federal Ministry for Digital Transformation and Government Modernisation (BMDS) as Germany's first-ever Digital Minister since May 2025.\n\n2026's other defining German AI story was industrial rather than regulatory: Aleph Alpha, long framed as the country's sovereign answer to OpenAI and Mistral, agreed to be acquired by Canada's Cohere \u2014 a striking juxtaposition alongside the new Germany-Canada Sovereign Technology Alliance.",
+  "overview": "Germany passed its own AI Act enforcement legislation in mid-2026 \u2014 the KI-MIG (AI Act Implementing Act), approved by the Bundestag on 11 June, naming the Bundesnetzagentur as market-surveillance authority and introducing personal liability for company executives over AI security failures from 2 August 2026, with fines of up to \u20ac35 million or 7% of global turnover. Dr. Karsten Wildberger has led the restructured Federal Ministry for Digital Transformation and Government Modernisation (BMDS) as Germany's first-ever Digital Minister since May 2025.\n\nAnother notable German AI story in 2026 was industrial rather than regulatory: Aleph Alpha, often described as Germany's sovereign answer to OpenAI and Mistral, agreed to be acquired by Canada's Cohere \u2014 a development that sits alongside the new Germany-Canada Sovereign Technology Alliance.",
   "atAGlance": {
     "policyDirection": {
       "label": "EU-aligned, now with binding national enforcement",
@@ -53,7 +53,7 @@
       "severity": "major"
     },
     {
-      "text": "Cohere announces acquisition of Aleph Alpha, ending its run as Germany's independent sovereign AI champion.",
+      "text": "Cohere announces acquisition of Aleph Alpha, which had been widely regarded as Germany's independent sovereign AI champion.",
       "date": "2026-04-24",
       "sourceIds": [
         "de-1"
@@ -109,7 +109,7 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "German AI research runs through DFKI (German Research Center for AI, roughly 800 scientists across multiple sites, founded 1988) and the Max Planck Institute for Intelligent Systems, anchoring a startup ecosystem that ranks fourth globally by AI startup count after Silicon Valley, Paris and London.",
+    "summary": "German AI research is anchored by institutions such as DFKI (German Research Center for AI, roughly 800 scientists across multiple sites, founded 1988) and the Max Planck Institute for Intelligent Systems, alongside a startup ecosystem reported to rank fourth globally by AI startup count after Silicon Valley, Paris and London (a claim that has not been independently verified here).",
     "sourceIds": [
       "de-3"
     ]
@@ -130,7 +130,7 @@
     "providers": [
       {
         "name": "Microsoft Azure",
-        "description": "Leading cloud provider for German enterprise and public-sector AI workloads."
+        "description": "One of the leading cloud providers for German enterprise and public-sector AI workloads."
       },
       {
         "name": "AWS",
@@ -250,8 +250,8 @@
     {
       "topic": "CEO personal liability under the KI-MIG enforcement law",
       "category": "government",
-      "summary": "Germany's new AI Act implementing law introduces personal liability for executives over AI security failures \u2014 a sharper enforcement edge than most peer EU states have adopted nationally.",
-      "expanded": "From 2 August 2026, company executives can be held personally liable for AI security failures under KI-MIG, alongside fines of up to \u20ac35M or 7% of global turnover. Industry groups warn this could push some AI deployment decisions toward excessive caution or offshore structuring; the government frames it as necessary teeth for a law that would otherwise be difficult to enforce against large multinational deployers.",
+      "summary": "Germany's new AI Act implementing law introduces personal liability for executives over AI security failures, which appears to go further than several other EU member states' national implementations to date.",
+      "expanded": "From 2 August 2026, company executives can be held personally liable for AI security failures under KI-MIG, alongside fines of up to \u20ac35M or 7% of global turnover. Some industry voices have expressed concern that this could push AI deployment decisions toward excessive caution or offshore structuring, while proponents argue the personal-liability provision is necessary to make the law enforceable against large multinational deployers.",
       "sourceIds": [
         "de-6"
       ]

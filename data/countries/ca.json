@@ -9,7 +9,7 @@
   ],
   "region": "Americas",
   "jurisdictionType": "nation_state",
-  "governanceModel": "Ambitious state investment without a comprehensive AI statute",
+  "governanceModel": "Large-scale state investment without a comprehensive AI statute",
   "accentColor": {
     "light": "#A6634E",
     "dark": "#B97C6A"
@@ -26,7 +26,7 @@
     "Germany-Canada Sovereign Technology Alliance and cross-border AI sovereignty",
     "Scaling 'AI for All's' ambitious 2034 adoption targets"
   ],
-  "overview": "Canada enters 2026 with enormous AI ambition but no comprehensive AI law. Its proposed statute, the Artificial Intelligence and Data Act (AIDA), died on the order paper at the January 2025 prorogation and was never revived. In its place, Prime Minister Mark Carney's June 2026 'AI for All' strategy commits roughly $2 billion over five years to sovereign compute, a national public supercomputer, and adoption targets that would take usage from about 12% to 60% of the economy by 2034.\n\nGovernance in the meantime runs through existing privacy, human-rights and competition law, a voluntary Code of Conduct for Generative AI, and a Directive on Automated Decision-Making that binds only federal institutions.",
+  "overview": "Canada enters 2026 with considerable stated AI ambition but no comprehensive AI law. Its proposed statute, the Artificial Intelligence and Data Act (AIDA), died on the order paper at the January 2025 prorogation and was never revived. In its place, Prime Minister Mark Carney's June 2026 'AI for All' strategy commits roughly $2 billion over five years to sovereign compute, a national public supercomputer, and adoption targets that would take usage from about 12% to 60% of the economy by 2034.\n\nGovernance in the meantime runs through existing privacy, human-rights and competition law, a voluntary Code of Conduct for Generative AI, and a Directive on Automated Decision-Making that binds only federal institutions.",
   "atAGlance": {
     "policyDirection": {
       "label": "Ambitious investment, no binding AI law",
@@ -41,7 +41,7 @@
   },
   "currentDirection": {
     "trend": "loosening",
-    "summary": "AIDA's death left Canada without a comprehensive AI statute, and 'AI for All' pairs enormous state investment with only a signal \u2014 not yet firm legislative text \u2014 toward future safety-evaluation, red-teaming and liability rules."
+    "summary": "AIDA's death left Canada without a comprehensive AI statute, and 'AI for All' pairs substantial state investment with only a signal \u2014 not yet firm legislative text \u2014 toward future safety-evaluation, red-teaming and liability rules."
   },
   "recentDevelopments": [
     {
@@ -117,7 +117,7 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "Canada's AI research strength runs through three CIFAR-backed national institutes \u2014 Amii (Edmonton), Mila (Montreal, 1,200+ researchers) and the Vector Institute (Toronto) \u2014 under the Pan-Canadian AI Strategy, giving it one of the deepest academic AI research bases per capita of any country.",
+    "summary": "Canada's AI research base runs through three CIFAR-backed national institutes \u2014 Amii (Edmonton), Mila (Montreal, 1,200+ researchers) and the Vector Institute (Toronto) \u2014 under the Pan-Canadian AI Strategy, which several observers have cited as a notable concentration of academic AI research capacity relative to the country's population.",
     "sourceIds": [
       "ca-4"
     ]
@@ -125,7 +125,7 @@
   "companies": [
     {
       "name": "Cohere",
-      "description": "Toronto-based frontier AI lab and Canada's flagship large-language-model developer; announced its acquisition of Germany's Aleph Alpha in 2026.",
+      "description": "Toronto-based AI lab widely regarded as one of Canada's leading large-language-model developers; announced its acquisition of Germany's Aleph Alpha in 2026.",
       "url": "https://cohere.com"
     },
     {
@@ -254,7 +254,7 @@
     {
       "topic": "Germany-Canada Sovereign Technology Alliance and cross-border AI sovereignty",
       "category": "investment",
-      "summary": "A new alliance with Germany, launched at the Munich Security Conference, signals Canada is pursuing AI sovereignty through international partnership rather than going it alone.",
+      "summary": "A new alliance with Germany, launched at the Munich Security Conference, suggests Canada is pursuing AI sovereignty partly through international partnership rather than acting alone.",
       "expanded": "The alliance aims to reduce both countries' strategic technology dependency, notably as Canada's own Cohere moved to acquire Germany's Aleph Alpha in the same period \u2014 raising questions about what 'sovereign' AI capability means when flagship national champions are consolidating across borders.",
       "sourceIds": [
         "ca-2"
@@ -280,7 +280,7 @@
     {
       "name": "Aidan Gomez",
       "type": "person",
-      "role": "Cohere co-founder and CEO; Canada's most prominent frontier AI voice.",
+      "role": "Cohere co-founder and CEO; widely regarded as one of Canada's most prominent frontier AI voices.",
       "category": "company",
       "url": "https://cohere.com"
     },

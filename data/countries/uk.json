@@ -196,7 +196,7 @@
     },
     {
       "name": "CuspAI",
-      "description": "Cambridge-headquartered AI-for-materials-discovery startup (customers specify desired material properties, the platform proposes candidates), co-founded by University of Amsterdam professor Max Welling as CTO; raised a $450M (~£335M) Series B in July 2026 at a $2.6bn valuation, with participation from the UK's Sovereign AI Fund, Kleiner Perkins, NEA and Jeff Bezos's family office.",
+      "description": "Cambridge-headquartered AI-for-materials-discovery startup (customers specify desired material properties, the platform proposes candidates), co-founded by Dr Chad Edwards (CEO) and University of Amsterdam professor Max Welling (CTO); raised a $450M (~£335M) Series B in July 2026 at a $2.6bn valuation, with participation from the UK's Sovereign AI Fund, Kleiner Perkins, NEA and Jeff Bezos's family office.",
       "url": "https://cusp.ai"
     }
   ],
@@ -292,10 +292,10 @@
     {
       "name": "Kanishka Narayan",
       "role": "Minister of State for Artificial Intelligence",
-      "affiliation": "Cabinet Office",
+      "affiliation": "Cabinet Office / DBIST",
       "category": "government",
       "url": "https://www.gov.uk/government/people/kanishka-narayan",
-      "needsVerification": true
+      "needsVerification": false
     },
     {
       "name": "Jonathan Reynolds",
@@ -689,7 +689,7 @@
     },
     {
       "area": "July 2026 machinery-of-government change",
-      "note": "DSIT's abolition and the AI brief's move to the Cabinet Office happened within the last 48 hours of this update; secondary reporting is still inconsistent on some specifics (e.g. the exact division of Kanishka Narayan's portfolio between the Cabinet Office and DBIST, and whether any digital-government functions moved to DCMS). Treat details beyond the core facts as provisional pending clearer official confirmation."
+      "note": "DSIT's abolition and the AI brief's move to the Cabinet Office/DBIST happened within days of this update. Kanishka Narayan's joint Cabinet Office/DBIST portfolio is now corroborated by multiple independent sources, but whether any digital-government functions moved to DCMS remains unconfirmed. Treat that detail as provisional pending clearer official confirmation."
     }
   ]
 }

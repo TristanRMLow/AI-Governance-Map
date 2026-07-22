@@ -82,10 +82,10 @@
       "needsVerification": true
     },
     {
-      "text": "AI Factory Groningen, a reported €200m sovereign AI-compute/supercomputer initiative under AIC4NL's investment agenda with a stated European digital-sovereignty-hub designation, is due to begin operating in 2026 and reach full capacity in 2027.",
+      "text": "AI Factory Groningen, a €200m sovereign AI-compute initiative (EuroHPC JU funding plus Dutch ministries and regional programme Nij Begun) under AIC4NL, SURF and TNO, is due to begin operating in 2026; reports vary on when it reaches full capacity, with some citing 2027 and others early 2028.",
       "date": "2026",
       "sourceIds": [
-        "nl-5"
+        "nl-8"
       ],
       "needsVerification": true
     }
@@ -243,7 +243,7 @@
     },
     {
       "name": "AI Coalition 4 NL (AIC4NL)",
-      "description": "The country's main public-private AI partnership, formed by the January 2025 merger of the Netherlands AI Coalition and AiNed; several hundred member organisations, and the umbrella for initiatives including the AI Factory Groningen compute project.",
+      "description": "Among the country's main public-private AI partnerships, formed by the January 2025 merger of the Netherlands AI Coalition and AiNed; several hundred member organisations, and the umbrella for initiatives including the AI Factory Groningen compute project.",
       "url": "https://aic4nl.nl"
     },
     {
@@ -403,6 +403,14 @@
       "url": "https://www.digit.fyi/uk-sovereign-ai-fund-bezos-backs-cuspai-in-335m-series-b-funding/",
       "date": "2026-07-20",
       "category": "news"
+    },
+    {
+      "id": "nl-8",
+      "title": "The AI factory officially launched in Groningen",
+      "publisher": "AI Coalition 4 NL",
+      "url": "https://aic4nl.nl/en/aic4nl/de-ai-fabriek-officieel-gelanceerd-in-groningen/",
+      "date": "2026",
+      "category": "government"
     }
   ],
   "hasMajorUpdate": false,

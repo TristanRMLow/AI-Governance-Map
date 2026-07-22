@@ -26,7 +26,7 @@
     "Silicon sovereignty — AMD/SiPearl vs. NVIDIA dependence",
     "SecNumCloud sovereignty vs. US hyperscaler participation"
   ],
-  "overview": "France governs AI primarily through the EU AI Act as an EU member state. Alongside this, the government has pursued an industrial strategy centred on compute infrastructure: an approximately €109 billion national AI infrastructure package was announced at the February 2025 AI Action Summit, and Mistral AI — France's flagship AI company — has grown rapidly into one of Europe's most closely watched AI labs. Mistral now operates 'Mistral Compute,' reported at roughly 18,000 NVIDIA Grace Blackwell (GB200) units across a main site in Bruyères-le-Châtel (Essonne, ~44MW) plus a smaller inference site in Les Ulis, and was selected by the Ministry of the Armed Forces under a three-year defense-AI framework deal.\n\nFrance has also been pursuing what officials describe as 'silicon sovereignty' — extending the Jean Zay supercomputer with AMD and European SiPearl chips as a hedge against NVIDIA dependence — and enforces data-sovereignty requirements through ANSSI's SecNumCloud certification for sensitive workloads. This framework does not categorically exclude US hyperscalers that meet its requirements, and sits alongside a broader 'cloud de confiance' landscape that includes homegrown and joint-venture providers such as Scaleway, OVHcloud, 3DS Outscale, S3NS and Bleu.",
+  "overview": "France governs AI primarily through the EU AI Act as an EU member state. Alongside this, the government has pursued an industrial strategy centred on compute infrastructure: an approximately €109 billion national AI infrastructure package was announced at the February 2025 AI Action Summit, and Mistral AI — often described as France's flagship AI company — has grown rapidly into one of Europe's most closely watched AI labs. Mistral now operates 'Mistral Compute,' reported at roughly 18,000 NVIDIA Grace Blackwell (GB200) units across a main site in Bruyères-le-Châtel (Essonne, ~44MW) plus a smaller inference site in Les Ulis, and was selected by the Ministry of the Armed Forces under a three-year defense-AI framework deal.\n\nFrance has also been pursuing what officials describe as 'silicon sovereignty' — extending the Jean Zay supercomputer with AMD and European SiPearl chips as a hedge against NVIDIA dependence — and enforces data-sovereignty requirements through ANSSI's SecNumCloud certification for sensitive workloads. This framework does not categorically exclude US hyperscalers that meet its requirements, and sits alongside a broader 'cloud de confiance' landscape that includes homegrown and joint-venture providers such as Scaleway, OVHcloud, 3DS Outscale, S3NS and Bleu.",
   "atAGlance": {
     "policyDirection": {
       "label": "Large-scale, state-backed compute build-out",
@@ -124,7 +124,7 @@
   "companies": [
     {
       "name": "Mistral AI",
-      "description": "France's flagship frontier AI lab; now runs its own 'Mistral Compute' infrastructure and holds a defense-AI framework deal with the Ministry of the Armed Forces.",
+      "description": "Widely regarded as France's flagship frontier AI lab; now runs its own 'Mistral Compute' infrastructure and holds a defense-AI framework deal with the Ministry of the Armed Forces.",
       "url": "https://mistral.ai"
     },
     {
@@ -216,7 +216,7 @@
       {
         "name": "Bleu",
         "description": "Joint venture between Orange and Capgemini running Microsoft Azure and Microsoft 365 under France's 'cloud de confiance' framework; targeting SecNumCloud 3.2 certification.",
-        "url": "https://www.bleu.com"
+        "url": "https://www.bleucloud.fr/"
       },
       {
         "name": "Google Cloud",
@@ -347,7 +347,7 @@
   "notableGaps": [
     {
       "area": "Frontier model developers",
-      "note": "Mistral AI is currently the only France-headquartered lab training frontier-scale foundation models; French frontier AI capability is highly concentrated in a single company, unlike jurisdictions with several competing labs."
+      "note": "As of mid-2026, Mistral AI appears to be the only France-headquartered lab training frontier-scale foundation models; French frontier AI capability seems relatively concentrated in a single company, in contrast to jurisdictions with several competing labs."
     },
     {
       "area": "Advanced semiconductor fabrication",
@@ -387,7 +387,7 @@
     {
       "name": "Arthur Mensch",
       "type": "person",
-      "role": "Mistral AI CEO; the most closely watched voice on European frontier AI strategy.",
+      "role": "Mistral AI CEO; widely regarded as one of the most closely watched voices on European frontier AI strategy.",
       "category": "company",
       "url": "https://mistral.ai"
     },
@@ -459,7 +459,7 @@
       "id": "fr-3",
       "title": "SoftBank plans up to 5GW / €75B AI data-centre investment in France",
       "publisher": "CNBC / SoftBank Group",
-      "url": "https://www.cnbc.com",
+      "url": "https://www.cnbc.com/2026/05/31/softbank-to-build-up-ai-data-centers-in-france-with-major-investment.html",
       "date": "2026-05",
       "category": "news"
     },
@@ -475,7 +475,7 @@
       "id": "fr-5",
       "title": "France 2030 AI infrastructure and research programme",
       "publisher": "Inria",
-      "url": "https://www.inria.fr",
+      "url": "https://www.inria.fr/en/ai-programme-france-2030",
       "date": "2026",
       "category": "research"
     },
@@ -499,7 +499,7 @@
       "id": "fr-8",
       "title": "Institut Montaigne AI policy commentary",
       "publisher": "Institut Montaigne",
-      "url": "https://www.institutmontaigne.org",
+      "url": "https://www.institutmontaigne.org/rencontres/intelligence-artificielle-et-souverainete-quels-enjeux-pour-les-etats-et-les-entreprises",
       "date": "2026",
       "category": "think_tank"
     },

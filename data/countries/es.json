@@ -2,7 +2,7 @@
   "code": "es",
   "name": "Spain",
   "shortName": "Spain",
-  "flagEmoji": "\ud83c\uddea\ud83c\uddf8",
+  "flagEmoji": "🇪🇸",
   "geometryType": "polygon",
   "isoA3": [
     "ESP"
@@ -19,13 +19,13 @@
     40.3
   ],
   "zoom": 5.2,
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 3,
   "debateTopics": [
     "AESIA's sandbox and enforcement posture",
     "Organic Law's sanctions regime passing the Cortes intact"
   ],
-  "overview": "Spain was the first EU member state to stand up a dedicated national AI authority \u2014 AESIA, the Spanish AI Supervisory Agency, headquartered in A Coru\u00f1a and operational since June 2024. In May 2026 the Council of Ministers approved a draft Organic Law on AI governance that would formally adapt the EU AI Act into Spanish national law, establish an AESIA-managed regulatory sandbox, and repeal the prior 2023 sandbox decree \u2014 but as of this writing the law is still before the Cortes, not yet passed.\n\nMinister for Digital Transformation and Public Service \u00d3scar L\u00f3pez has taken a notably measured public tone, cautioning that 'nobody should overreact' against the EU AI Act \u2014 a contrast with some peer states' more assertive national add-on legislation.",
+  "overview": "Spain was the first EU member state to stand up a dedicated national AI authority — AESIA, the Spanish AI Supervisory Agency, headquartered in A Coruña and operational since June 2024. In May 2026 the Council of Ministers approved a draft Organic Law on AI governance that would formally adapt the EU AI Act into Spanish national law and establish an AESIA-managed regulatory sandbox; some analyses indicate it would also repeal the prior 2023 sandbox decree, though that specific detail was not independently confirmed in this review. As of this writing the law remains before the Cortes, not yet passed.\n\nMinister for Digital Transformation and Civil Service Óscar López has taken a notably measured public tone, cautioning that 'nobody should overreact' against the EU AI Act — a contrast with some peer states' more assertive national add-on legislation.",
   "atAGlance": {
     "policyDirection": {
       "label": "First EU national AI authority, measured on new law",
@@ -33,14 +33,14 @@
     },
     "regulatoryApproach": "AESIA-led; Organic Law would formally implement the EU AI Act nationally",
     "latestMajorUpdate": "Draft Organic Law on AI governance approved by the Council of Ministers, sent to the Cortes",
-    "governmentInvolvement": "High \u2014 first EU state with a dedicated national AI supervisory agency",
-    "industrialStrategy": "Direct government funding of applied AI (e.g. \u20ac30M for Universal Diagnostics)",
+    "governmentInvolvement": "High — first EU state with a dedicated national AI supervisory agency",
+    "industrialStrategy": "Direct government funding of applied AI (e.g. €30M for Universal Diagnostics)",
     "internationalPartnerships": "Aligning national implementation closely with the EU AI Act baseline",
     "primaryPolicyFocus": "Passing the Organic Law and standing up AESIA's regulatory sandbox"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "Spain is moving from a sandbox-only regime toward a full Organic Law implementing the EU AI Act nationally \u2014 though the law is still before parliament, and the Digital Transformation Minister's public tone has been notably measured rather than assertive."
+    "summary": "Spain is moving from a sandbox-only regime toward a full Organic Law implementing the EU AI Act nationally — though the law is still before parliament, and the Digital Transformation Minister's public tone has been notably measured rather than assertive."
   },
   "recentDevelopments": [
     {
@@ -51,14 +51,14 @@
       ]
     },
     {
-      "text": "Minister \u00d3scar L\u00f3pez publicly cautions 'nobody should overreact' against the EU AI Act, signalling a measured implementation stance.",
+      "text": "Minister Óscar López publicly cautions 'nobody should overreact' against the EU AI Act, signalling a measured implementation stance.",
       "date": "2026",
       "sourceIds": [
         "es-2"
       ]
     },
     {
-      "text": "Universal Diagnostics, an AI cancer-detection company, receives \u20ac30M from the Spanish government.",
+      "text": "Universal Diagnostics, an AI cancer-detection company, receives €30M from the Spanish government.",
       "date": "2026-01",
       "sourceIds": [
         "es-3"
@@ -69,7 +69,8 @@
     {
       "title": "Draft Organic Law on AI governance",
       "status": "proposed",
-      "summary": "Approved by the Council of Ministers in May 2026; adapts the EU AI Act into Spanish national law, establishes an AESIA-managed sandbox, and repeals the prior 2023 sandbox decree. Not yet passed by the Cortes.",
+      "summary": "Approved by the Council of Ministers in May 2026; adapts the EU AI Act into Spanish national law and establishes an AESIA-managed sandbox. Some analyses report it would also repeal the prior 2023 sandbox decree, though that detail was not independently confirmed. Not yet passed by the Cortes — published in Parliament's Official Journal in June 2026 and referred to committee.",
+      "needsVerification": true,
       "sourceIds": [
         "es-1"
       ]
@@ -77,14 +78,15 @@
     {
       "title": "AESIA (Spanish AI Supervisory Agency)",
       "status": "in_force",
-      "summary": "The first dedicated EU national AI authority, headquartered in A Coru\u00f1a and operational since June 2024.",
+      "summary": "The first dedicated EU national AI authority, headquartered in A Coruña and operational since June 2024.",
       "sourceIds": [
-        "es-4"
+        "es-4",
+        "es-6"
       ]
     }
   ],
   "researchEcosystem": {
-    "summary": "Spanish AI research spans the Technical University of Madrid, Universitat Polit\u00e8cnica de Catalunya, the University of the Basque Country, and CSIC/BIST/ICREA, feeding over 360 VC-backed spinouts with a combined value of roughly $10.5B.",
+    "summary": "Spanish AI research spans the Technical University of Madrid, Universitat Politècnica de Catalunya, the University of the Basque Country, and CSIC/BIST/ICREA. Seedtable, an industry listicle rather than a primary data source, estimates this ecosystem has produced over 360 VC-backed spinouts with a combined value of roughly $10.5B — a figure that has not been independently verified.",
     "sourceIds": [
       "es-5"
     ]
@@ -92,15 +94,17 @@
   "companies": [
     {
       "name": "Sherpa AI",
-      "description": "Spanish AI company specialising in federated, privacy-preserving learning."
+      "description": "Bilbao-based AI company specialising in federated, privacy-preserving learning; raised an $18M funding round in 2026 (Forgepoint Capital, Mundi Ventures and others), with reported clients including Indra, Caja Laboral, Unicaja, and Prosegur.",
+      "url": "https://sherpa.ai/"
     },
     {
       "name": "Universal Diagnostics",
-      "description": "AI cancer-detection company, backed by \u20ac30M in Spanish government funding."
+      "description": "AI cancer-detection company backed by roughly €30M (€29.9M) in Spanish government funding via SETT, drawn from Next Generation EU recovery funds."
     },
     {
       "name": "Xoople",
-      "description": "Spanish geospatial AI company."
+      "description": "Madrid-based Earth-observation and geospatial AI company; raised a $130M Series B in April 2026 (led by Nazca Capital), bringing total funding to $225M.",
+      "url": "https://www.xoople.com/"
     }
   ],
   "cloudInfrastructure": {
@@ -118,20 +122,7 @@
         "description": "Cloud provider used across Spanish research and enterprise AI."
       }
     ],
-    "dominance": [
-      {
-        "provider": "AWS",
-        "share": 29
-      },
-      {
-        "provider": "Azure",
-        "share": 26
-      },
-      {
-        "provider": "Google Cloud",
-        "share": 14
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
@@ -139,7 +130,7 @@
       "description": "Leading Spanish technical university for AI research."
     },
     {
-      "name": "Universitat Polit\u00e8cnica de Catalunya",
+      "name": "Universitat Politècnica de Catalunya",
       "description": "Major Catalan technical university with significant AI research output."
     },
     {
@@ -152,7 +143,7 @@
     {
       "name": "AESIA",
       "description": "Spanish Agency for the Supervision of Artificial Intelligence; the first dedicated EU national AI authority.",
-      "url": "https://www.aesia.gob.es"
+      "url": "https://aesia.digital.gob.es/en/es"
     },
     {
       "name": "Directorate General of AI",
@@ -161,9 +152,16 @@
   ],
   "keyPeople": [
     {
-      "name": "\u00d3scar L\u00f3pez",
-      "role": "Minister for Digital Transformation and Public Service",
+      "name": "Óscar López",
+      "role": "Minister for Digital Transformation and Civil Service",
       "category": "government"
+    },
+    {
+      "name": "Alberto Gago Fernández",
+      "role": "Director General",
+      "affiliation": "AESIA (Spanish AI Supervision Agency)",
+      "category": "government",
+      "needsVerification": true
     }
   ],
   "influenceMap": [
@@ -188,8 +186,8 @@
     {
       "topic": "AESIA's sandbox and enforcement posture",
       "category": "government",
-      "summary": "As the first EU state with a dedicated AI authority, Spain's approach to sandbox design and enforcement is being watched as a model \u2014 or cautionary tale \u2014 for other member states.",
-      "expanded": "AESIA's regulatory sandbox lets companies trial AI systems under supervision before full compliance is required. How strictly AESIA moves from sandbox permissiveness to full enforcement once the Organic Law passes will shape whether Spain's early-mover advantage becomes a template others follow.",
+      "summary": "As the first EU state with a dedicated AI authority, Spain's approach to sandbox design and enforcement is being cited by some analysts as an early reference point — positive or cautionary — for other member states.",
+      "expanded": "AESIA's regulatory sandbox lets companies trial AI systems under supervision before full compliance is required. How strictly AESIA moves from sandbox permissiveness to full enforcement once the Organic Law passes could influence whether other member states come to view Spain's early-mover approach as a template worth following.",
       "sourceIds": [
         "es-4"
       ]
@@ -198,7 +196,7 @@
       "topic": "Organic Law's sanctions regime passing the Cortes intact",
       "category": "government",
       "summary": "The draft Organic Law's sanctions and enforcement provisions still need to survive parliamentary negotiation before becoming binding.",
-      "expanded": "Council of Ministers approval is only the first step \u2014 Spain's minority-coalition politics mean the sanctions regime and sandbox provisions could still be amended before the law passes the Cortes, and Minister L\u00f3pez's measured public tone suggests the government may be open to softening some provisions during negotiation.",
+      "expanded": "Council of Ministers approval is only the first step — Spain's minority-coalition politics mean the sanctions regime and sandbox provisions could still be amended before the law passes the Cortes, and Minister López's measured public tone suggests the government may be open to softening some provisions during negotiation.",
       "sourceIds": [
         "es-1"
       ]
@@ -206,9 +204,9 @@
   ],
   "peopleToFollow": [
     {
-      "name": "\u00d3scar L\u00f3pez",
+      "name": "Óscar López",
       "type": "person",
-      "role": "Minister for Digital Transformation and Public Service; the measured public voice on Spain's AI Act implementation.",
+      "role": "Minister for Digital Transformation and Civil Service; the measured public voice on Spain's AI Act implementation.",
       "category": "government"
     },
     {
@@ -216,7 +214,7 @@
       "type": "organization",
       "role": "Spanish AI Supervisory Agency; the first dedicated national AI authority in the EU.",
       "category": "government",
-      "url": "https://www.aesia.gob.es"
+      "url": "https://aesia.digital.gob.es/en/es"
     }
   ],
   "knowledgeHub": [
@@ -271,8 +269,21 @@
       "url": "https://www.seedtable.com/best-ai-startups-in-spain",
       "date": "2026",
       "category": "industry"
+    },
+    {
+      "id": "es-6",
+      "title": "AESIA official website",
+      "publisher": "AESIA (Agencia Española de Supervisión de Inteligencia Artificial)",
+      "url": "https://aesia.digital.gob.es/en/es",
+      "date": "2026",
+      "category": "government"
     }
   ],
   "hasMajorUpdate": false,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "Think tanks",
+      "note": "No AI-focused think tanks are currently listed for Spain. It is unclear whether this reflects a genuine gap in the country's AI policy ecosystem or simply incomplete research coverage."
+    }
+  ]
 }

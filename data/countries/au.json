@@ -2,14 +2,14 @@
   "code": "au",
   "name": "Australia",
   "shortName": "Australia",
-  "flagEmoji": "\ud83c\udde6\ud83c\uddfa",
+  "flagEmoji": "🇦🇺",
   "geometryType": "polygon",
   "isoA3": [
     "AUS"
   ],
   "region": "Asia-Pacific",
   "jurisdictionType": "nation_state",
-  "governanceModel": "Technology-neutral regulation after abandoning mandatory AI guardrails",
+  "governanceModel": "Technology-neutral regulation after stepping back from proposed mandatory AI guardrails",
   "accentColor": {
     "light": "#879B50",
     "dark": "#9DB168"
@@ -19,35 +19,36 @@
     -25.3
   ],
   "zoom": 3.5,
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 4,
   "debateTopics": [
     "Reversal from mandatory guardrails to technology-neutral regulation",
     "AI Safety Institute's role without binding law behind it"
   ],
-  "overview": "Australia reversed course on AI regulation in 2025. A September 2024 proposals paper had floated ten mandatory guardrails for high-risk AI systems, but industry pushback over productivity and innovation concerns led the government's December 2025 National AI Plan to confirm Australia will not introduce mandatory guardrails or a standalone AI Act \u2014 opting instead for existing law, sector regulators, voluntary guidance, and a new AI Safety Institute.\n\nThat Institute became operational in early 2026 with A$29.9 million in funding, joining the International Network of AI Safety Institutes alongside the UK, US, Canada, Japan and South Korea. The National AI Centre has also convened a 'Responsible AI at Scale Think Tank' roundtable series \u2014 with members including the AIIA, CEDA, CHOICE and The Ethics Centre \u2014 to help craft Australia's first AI standard.",
+  "overview": "Australia shifted its approach to AI regulation in 2025. A September 2024 proposals paper had floated ten mandatory guardrails for high-risk AI systems, but after industry pushback over productivity and innovation concerns, the government's December 2025 National AI Plan confirmed Australia will not introduce mandatory guardrails or a standalone AI Act — opting instead for existing law, sector regulators, voluntary guidance, and a new AI Safety Institute.\n\nThat Institute became operational in early 2026 with A$29.9 million in funding, joining the International Network of AI Safety Institutes, whose broader membership includes the UK, US, Canada, Japan, South Korea, the EU, France, Kenya and Singapore. The National AI Centre has also reportedly convened a 'Responsible AI at Scale Think Tank' roundtable series — said to include the AIIA, CEDA, CHOICE and The Ethics Centre — as part of efforts toward Australia's first AI standard; this roundtable series has not been independently verified beyond the National AI Centre's own materials.",
   "atAGlance": {
     "policyDirection": {
-      "label": "Abandoned mandatory guardrails for a lighter touch",
+      "label": "Stepped back from mandatory guardrails toward a lighter-touch approach",
       "sentiment": "green"
     },
     "regulatoryApproach": "Existing law plus sector regulators, voluntary guidance, and a new AI Safety Institute",
     "latestMajorUpdate": "National AI Plan confirms no standalone AI Act or mandatory guardrails",
-    "governmentInvolvement": "Light-touch \u2014 no binding AI-specific law; guidance and a new Safety Institute instead",
-    "industrialStrategy": "Backing AI-first scaleups (Canva, Atlassian) rather than a state industrial-policy push",
-    "internationalPartnerships": "International Network of AI Safety Institutes (with UK, US, Canada, Japan, South Korea)",
-    "primaryPolicyFocus": "Crafting Australia's first AI standard via the Responsible AI at Scale Think Tank"
+    "governmentInvolvement": "Light-touch — no binding AI-specific law; guidance and a new Safety Institute instead",
+    "industrialStrategy": "No dedicated state industrial-policy push identified; the ecosystem is anchored by AI-first scaleups such as Canva and Atlassian",
+    "internationalPartnerships": "International Network of AI Safety Institutes (members include the UK, US, Canada, Japan, South Korea, EU, France, Kenya and Singapore)",
+    "primaryPolicyFocus": "Reportedly working toward Australia's first AI standard via the National AI Centre's Responsible AI at Scale Think Tank roundtables"
   },
   "currentDirection": {
     "trend": "loosening",
-    "summary": "Australia reversed its own 2024 proposal for ten mandatory AI guardrails after industry pushback, settling instead on a technology-neutral approach built around existing law, voluntary guidance, and a newly operational AI Safety Institute rather than binding legislation."
+    "summary": "Australia stepped back from its own 2024 proposal for ten mandatory AI guardrails after industry pushback, settling instead on a technology-neutral approach built around existing law, voluntary guidance, and a newly operational AI Safety Institute rather than binding legislation."
   },
   "recentDevelopments": [
     {
-      "text": "University of Sydney hosts the AI Safety Forum 2026.",
+      "text": "University of Sydney hosts the Australian AI Safety Forum 2026 (July 7–8, Holme Building).",
       "date": "2026-07-07",
       "sourceIds": [
-        "au-1"
+        "au-1",
+        "au-4"
       ]
     },
     {
@@ -56,6 +57,14 @@
       "sourceIds": [
         "au-2"
       ]
+    },
+    {
+      "text": "Dr Kate Conroy reportedly named the AI Safety Institute's inaugural General Manager.",
+      "date": "2026-05",
+      "sourceIds": [
+        "au-2"
+      ],
+      "needsVerification": true
     },
     {
       "text": "National AI Plan confirms Australia will not introduce mandatory guardrails or a standalone AI Act.",
@@ -85,7 +94,7 @@
     {
       "title": "AI Safety Institute",
       "status": "in_force",
-      "summary": "Operational since early 2026 with A$29.9M in funding; a technical and coordination hub, part of the International Network of AI Safety Institutes.",
+      "summary": "Operational since early 2026 with A$29.9M in funding; a technical and coordination hub, part of the International Network of AI Safety Institutes. Dr Kate Conroy is reportedly its inaugural General Manager, named in May 2026.",
       "officialUrl": "https://www.industry.gov.au/news/australia-establish-new-institute-strengthen-ai-safety",
       "sourceIds": [
         "au-2"
@@ -93,23 +102,27 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "Australian AI policy engagement runs through the National AI Centre's 'Responsible AI at Scale Think Tank' roundtable series and the University of Sydney's AI Safety Forum, alongside the AI Safety Institute's technical evaluation work.",
+    "summary": "Australian AI policy engagement includes the National AI Centre's 'Responsible AI at Scale Think Tank' roundtable series, the University of Sydney's Australian AI Safety Forum, and the AI Safety Institute's technical evaluation work.",
     "sourceIds": [
-      "au-1"
+      "au-1",
+      "au-4"
     ]
   },
   "companies": [
     {
       "name": "Canva",
-      "description": "Design platform valued at roughly US$42B with 265 million monthly users, reinvented as an AI-first product."
+      "description": "Design platform valued at roughly US$42B, reporting approximately 240–260 million monthly users (estimates vary by source) as it continues positioning itself as an AI-first product.",
+      "url": "https://www.canva.com"
     },
     {
       "name": "Atlassian",
-      "description": "Major Australian enterprise software company integrating AI across its collaboration tools."
+      "description": "Major Australian enterprise software company reported to be integrating AI features across its collaboration tools.",
+      "url": "https://www.atlassian.com"
     },
     {
       "name": "Harrison.ai",
-      "description": "Medical AI company that raised AUD 179M in a 2025 Series C."
+      "description": "Medical AI company that raised AUD 179M (approximately US$112M) in a 2025 Series C.",
+      "url": "https://harrison.ai"
     },
     {
       "name": "Relevance AI",
@@ -120,53 +133,41 @@
     "providers": [
       {
         "name": "AWS",
-        "description": "Leading cloud provider for Australian enterprise AI workloads."
+        "description": "One of the major cloud providers used for Australian enterprise AI workloads."
       },
       {
         "name": "Microsoft Azure",
-        "description": "Cloud provider with significant Australian government and enterprise integration."
+        "description": "Cloud provider with reported significant Australian government and enterprise integration."
       },
       {
         "name": "Google Cloud",
         "description": "Cloud provider used across Australian research and enterprise AI."
       }
     ],
-    "dominance": [
-      {
-        "provider": "AWS",
-        "share": 32
-      },
-      {
-        "provider": "Azure",
-        "share": 28
-      },
-      {
-        "provider": "Google Cloud",
-        "share": 14
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
       "name": "University of Sydney",
-      "description": "Host of the AI Safety Forum 2026 and a leading centre for Australian AI policy research."
+      "description": "Host of the Australian AI Safety Forum 2026 (July 7–8, Holme Building) and an active centre for Australian AI policy research."
     }
   ],
   "thinkTanks": [
     {
       "name": "The Ethics Centre",
-      "description": "Participant in the National AI Centre's Responsible AI at Scale Think Tank roundtable series."
+      "description": "Reported participant in the National AI Centre's Responsible AI at Scale Think Tank roundtable series; this participation has not been independently verified.",
+      "needsVerification": true
     }
   ],
   "governmentInstitutions": [
     {
       "name": "National AI Centre (NAIC)",
-      "description": "Convenes industry and civil-society roundtables to craft Australia's first AI standard.",
-      "url": "https://www.industry.gov.au"
+      "description": "Reportedly convenes industry and civil-society roundtables toward Australia's first AI standard; published updated 'Guidance for AI Adoption' (AI6) in October 2025, replacing the 2024 Voluntary AI Safety Standard.",
+      "url": "https://www.ai.gov.au"
     },
     {
       "name": "AI Safety Institute",
-      "description": "Technical and coordination hub for AI safety evaluation, operational since early 2026.",
+      "description": "Technical and coordination hub for AI safety evaluation, operational since early 2026 with A$29.9M in funding.",
       "url": "https://www.industry.gov.au/news/australia-establish-new-institute-strengthen-ai-safety"
     }
   ],
@@ -175,7 +176,29 @@
       "name": "Melanie Perkins",
       "role": "Co-founder and Chief Executive Officer",
       "affiliation": "Canva",
-      "category": "company_leader"
+      "category": "company_leader",
+      "url": "https://www.canva.com"
+    },
+    {
+      "name": "Dr Andrew Charlton MP",
+      "role": "Assistant Minister for Science, Technology and the Digital Economy",
+      "affiliation": "Australian Government",
+      "category": "government",
+      "url": "https://www.minister.industry.gov.au"
+    },
+    {
+      "name": "Senator Tim Ayres",
+      "role": "Minister for Industry and Innovation, overseeing the Department of Industry, Science and Resources (under which the National AI Centre and AI Safety Institute sit)",
+      "affiliation": "Australian Government",
+      "category": "government",
+      "url": "https://www.minister.industry.gov.au"
+    },
+    {
+      "name": "Dr Kate Conroy",
+      "role": "Reportedly inaugural General Manager, AI Safety Institute (named May 2026)",
+      "affiliation": "AI Safety Institute",
+      "category": "government",
+      "needsVerification": true
     }
   ],
   "influenceMap": [
@@ -204,8 +227,8 @@
     {
       "topic": "Reversal from mandatory guardrails to technology-neutral regulation",
       "category": "government",
-      "summary": "Australia walked back its own 2024 proposal for ten mandatory AI guardrails after industry pushback \u2014 a genuine policy reversal, not just a delay.",
-      "expanded": "The September 2024 proposals paper would have imposed binding guardrails on high-risk AI systems. Industry groups argued this risked slowing productivity and innovation gains just as AI adoption was accelerating. The December 2025 National AI Plan confirmed the government sided with that argument, opting for a technology-neutral approach relying on existing law rather than AI-specific binding rules \u2014 a notable reversal that critics argue leaves real gaps in oversight.",
+      "summary": "Australia walked back its own 2024 proposal for ten mandatory AI guardrails after industry pushback — one major, well-corroborated policy reversal rather than a delay.",
+      "expanded": "The September 2024 proposals paper would have imposed binding guardrails on high-risk AI systems. Industry groups argued this risked slowing productivity and innovation gains just as AI adoption was accelerating. The December 2025 National AI Plan confirmed the government sided with that argument, opting for a technology-neutral approach relying on existing law rather than AI-specific binding rules. Some commentators argue this leaves gaps in oversight, though views on the reversal differ and this is an evolving debate rather than a settled one.",
       "sourceIds": [
         "au-3"
       ]
@@ -214,7 +237,7 @@
       "topic": "AI Safety Institute's role without binding law behind it",
       "category": "security",
       "summary": "Australia's AI Safety Institute does technical evaluation work but, unlike some peer institutes, operates without any binding AI law giving its findings regulatory teeth.",
-      "expanded": "Institutes like the UK's AI Security Institute or the US CAISI operate in similarly non-binding postures in some respects, but Australia's Institute is notable for existing in a jurisdiction that has explicitly ruled out mandatory guardrails \u2014 meaning its technical findings inform voluntary guidance and sector-regulator practice rather than any enforceable national standard.",
+      "expanded": "Institutes like the UK's AI Security Institute or the US CAISI operate in similarly non-binding postures in some respects, but Australia's Institute is notable for existing in a jurisdiction that has explicitly ruled out mandatory guardrails — meaning its technical findings inform voluntary guidance and sector-regulator practice rather than any enforceable national standard. The Institute's day-to-day leadership is reportedly held by Dr Kate Conroy, named inaugural General Manager in May 2026, though this appointment has not been independently confirmed beyond available reporting.",
       "sourceIds": [
         "au-2"
       ]
@@ -224,13 +247,27 @@
     {
       "name": "Melanie Perkins",
       "type": "person",
-      "role": "Canva co-founder and CEO; Australia's most prominent AI-first product voice.",
-      "category": "company"
+      "role": "Canva co-founder and CEO; a prominent AI-first product voice in Australia.",
+      "category": "company",
+      "url": "https://www.canva.com"
+    },
+    {
+      "name": "Dr Andrew Charlton MP",
+      "type": "person",
+      "role": "Assistant Minister for Science, Technology and the Digital Economy; a public face of the National AI Plan and AI Safety Institute.",
+      "category": "government",
+      "url": "https://www.minister.industry.gov.au"
+    },
+    {
+      "name": "Dr Kate Conroy",
+      "type": "person",
+      "role": "Reportedly the AI Safety Institute's inaugural General Manager, named May 2026 (unconfirmed beyond available reporting).",
+      "category": "government"
     },
     {
       "name": "The Ethics Centre",
       "type": "organization",
-      "role": "Participant in the National AI Centre's Responsible AI at Scale Think Tank roundtable series.",
+      "role": "Reported participant in the National AI Centre's Responsible AI at Scale Think Tank roundtable series.",
       "category": "think_tank"
     }
   ],
@@ -272,6 +309,30 @@
       "url": "https://www.softwareseni.com/why-australia-abandoned-mandatory-ai-guardrails-for-technology-neutral-regulation-and-what-it-means/",
       "date": "2025-12",
       "category": "think_tank"
+    },
+    {
+      "id": "au-4",
+      "title": "Australian AI Safety Forum",
+      "publisher": "Australian AI Safety Forum / University of Sydney",
+      "url": "https://www.aisafetyforum.au/",
+      "date": "2026-07",
+      "category": "research"
+    },
+    {
+      "id": "au-5",
+      "title": "National AI Centre",
+      "publisher": "National AI Centre / Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "au-6",
+      "title": "Ministers — Department of Industry, Science and Resources",
+      "publisher": "Department of Industry, Science and Resources",
+      "url": "https://www.minister.industry.gov.au",
+      "date": "2026",
+      "category": "government"
     }
   ],
   "hasMajorUpdate": true,

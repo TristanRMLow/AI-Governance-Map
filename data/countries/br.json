@@ -2,7 +2,7 @@
   "code": "br",
   "name": "Brazil",
   "shortName": "Brazil",
-  "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+  "flagEmoji": "🇧🇷",
   "geometryType": "polygon",
   "isoA3": [
     "BRA"
@@ -19,35 +19,36 @@
     -10.8
   ],
   "zoom": 3.5,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 3,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 2,
   "debateTopics": [
-    "Biometric surveillance carve-outs in PL 2338",
-    "Whether PL 2338 passes before the August 2026 recess"
+    "Biometric surveillance carve-outs and other sticking points in PL 2338",
+    "Whether PL 2338 can still pass before the August 2026 recess after its planned May vote was postponed"
   ],
-  "overview": "Brazil's comprehensive AI bill, PL 2338/2023, has been working through Congress since May 2023. The Senate approved a substitute text in December 2024, and as of May 2026 it remains pending in the Chamber of Deputies, with amendments expected \u2014 biometric surveillance carve-outs are a particular sticking point. It's expected to reach a vote before the August 2026 recess, though enforcement provisions likely won't take effect before late 2026 even if passed.\n\nThe bill centres enforcement on ANPD, Brazil's data protection authority, using a risk-based framework similar in spirit to the EU AI Act. Alongside the legislation, the government's Brazilian AI Plan (PBIA) runs across five axes \u2014 infrastructure, training and capacity, public-service improvement, business innovation, and regulation and governance support \u2014 and the IA\u00b2 programme has supported 127 AI startups since 2022.",
+  "overview": "Brazil's comprehensive AI bill, PL 2338/2023, has been working through Congress since May 2023. The Senate approved a substitute text in December 2024, and as of mid-2026 it remains pending in the Chamber of Deputies, with amendments still being negotiated — biometric surveillance carve-outs have been widely reported as one sticking point, alongside broader disagreements over balancing rights protections with innovation. A Chamber of Deputies plenary vote had been scheduled for May 27, 2026, following rapporteur Deputy Aguinaldo Ribeiro's report presented on May 19, 2026, but that vote was postponed after Chamber President Hugo Motta said the text needed to be aligned with the Senate's version first. It remains unclear whether the bill will reach a floor vote before the Chamber's August 2026 recess, and enforcement provisions likely would not take effect before late 2026 even if passed.\n\nThe bill centres enforcement on ANPD, Brazil's data protection authority, using a risk-based framework similar in spirit to the EU AI Act. Alongside the legislation, the government's Brazilian AI Plan (PBIA) runs across five axes — infrastructure, training and capacity, public-service improvement, business innovation, and regulation and governance support — and a related IA² programme supports AI-related startups and research projects, though the exact cumulative scale of that support could not be independently confirmed.",
   "atAGlance": {
     "policyDirection": {
       "label": "Comprehensive AI bill pending final passage",
       "sentiment": "amber"
     },
     "regulatoryApproach": "Risk-based framework (PL 2338), enforcement centred on ANPD; not yet passed",
-    "latestMajorUpdate": "PL 2338 AI Bill expected to reach a vote before the August 2026 recess",
-    "governmentInvolvement": "Rising \u2014 comprehensive risk-based bill nearing passage plus an active national AI plan",
-    "industrialStrategy": "Brazilian AI Plan (PBIA) across five axes; IA\u00b2 programme has backed 127 startups since 2022",
+    "latestMajorUpdate": "PL 2338 AI Bill's planned May 27, 2026 Chamber vote was postponed; passage before the August 2026 recess is now uncertain",
+    "governmentInvolvement": "Rising — comprehensive risk-based bill advancing through Congress plus an active national AI plan",
+    "industrialStrategy": "Brazilian AI Plan (PBIA) across five axes, including an IA² programme supporting AI startups and research projects (exact cumulative scale not independently verified)",
     "internationalPartnerships": "Regulatory approach modelled in spirit on the EU AI Act's risk-based framework",
-    "primaryPolicyFocus": "Passing PL 2338 and resolving its biometric surveillance carve-outs"
+    "primaryPolicyFocus": "Advancing PL 2338 toward passage and resolving outstanding disagreements, including reported biometric surveillance carve-outs"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "Brazil is close to becoming one of the few major economies outside the EU with a comprehensive, binding, risk-based AI law \u2014 PL 2338 has cleared the Senate and is expected to reach a Chamber of Deputies vote before the August 2026 recess."
+    "summary": "Brazil could become one of the few major economies outside the EU with a comprehensive, binding, risk-based AI law if PL 2338 passes — the bill has cleared the Senate, but a Chamber of Deputies vote planned for May 27, 2026 was postponed, and it remains unclear whether the bill will reach a floor vote before the August 2026 recess."
   },
   "recentDevelopments": [
     {
-      "text": "PL 2338 AI Bill pending in the Chamber of Deputies with amendments expected, including biometric surveillance carve-outs; expected to reach a vote before the August 2026 recess.",
-      "date": "2026-05",
+      "text": "A Chamber of Deputies plenary vote on PL 2338 scheduled for May 27, 2026 (following rapporteur Deputy Aguinaldo Ribeiro's report presented May 19, 2026) was postponed; Chamber President Hugo Motta cited the need to align the Chamber's text with the Senate's version first, leaving the bill's path before the August 2026 recess uncertain.",
+      "date": "2026-06",
       "sourceIds": [
-        "br-1"
+        "br-1",
+        "br-4"
       ]
     },
     {
@@ -56,22 +57,16 @@
       "sourceIds": [
         "br-2"
       ]
-    },
-    {
-      "text": "IA\u00b2 MCTI government programme has supported 127 AI startups since 2022.",
-      "date": "2026",
-      "sourceIds": [
-        "br-3"
-      ]
     }
   ],
   "policyAndRegulation": [
     {
       "title": "PL 2338/2023 (AI Bill)",
       "status": "proposed",
-      "summary": "Comprehensive risk-based AI bill introduced May 2023; Senate-approved substitute text December 2024; pending in the Chamber of Deputies as of mid-2026 with biometric surveillance carve-outs still being negotiated. Enforcement would centre on ANPD, Brazil's data protection authority.",
+      "summary": "Comprehensive risk-based AI bill introduced May 2023; Senate-approved substitute text December 2024; pending in the Chamber of Deputies as of mid-2026. A Chamber vote scheduled for May 27, 2026 was postponed to allow the text to be aligned with the Senate's version, and several issues — including biometric surveillance carve-outs — remain under negotiation. Enforcement would centre on ANPD, Brazil's data protection authority. A separate government-submitted bill addressing a constitutional drafting issue in the Senate text, and proposing a broader institutional architecture, was also introduced in December 2025 and adds further procedural complexity to the bill's path.",
       "sourceIds": [
-        "br-1"
+        "br-1",
+        "br-4"
       ]
     },
     {
@@ -81,15 +76,35 @@
       "sourceIds": [
         "br-3"
       ]
+    },
+    {
+      "title": "Companion bill on PL 2338 institutional architecture",
+      "status": "proposed",
+      "summary": "Submitted by the federal government in December 2025 to fix a constitutional drafting flaw ('vício de iniciativa') in the Senate-passed text of PL 2338. Proposes a National AI System (SIA) with ANPD as the primary sectoral-gap regulator, two advisory bodies ('Cria' and 'Cecia'), and a coordinating council ('CBIA').",
+      "sourceIds": [
+        "br-4"
+      ],
+      "needsVerification": true
     }
   ],
   "researchEcosystem": {
-    "summary": "Brazilian AI research centres on C4AI (Center for Artificial Intelligence) at the University of S\u00e3o Paulo, backed by FAPESP and IBM and partnered with ITA, PUC-SP and FEI, alongside the government's IA\u00b2 programme, which has supported 127 AI startups since 2022.",
+    "summary": "Brazilian AI research centres on C4AI (Center for Artificial Intelligence) at the University of São Paulo, backed by FAPESP and IBM and partnered with ITA, PUC-SP and FEI, alongside the government's IA² programme, which supports AI-related startups and research projects — though its cumulative scale (sometimes cited as 127 startups since 2022) could not be independently confirmed.",
     "sourceIds": [
       "br-3"
     ]
   },
-  "companies": [],
+  "companies": [
+    {
+      "name": "Blip",
+      "description": "São Paulo-based conversational AI and customer-engagement platform, widely used by Brazilian enterprises for AI-driven messaging automation.",
+      "url": "https://www.blip.ai"
+    },
+    {
+      "name": "QI Tech",
+      "description": "Brazilian fintech infrastructure company applying AI/ML to credit, banking-as-a-service and risk decisioning; one of Brazil's AI-adjacent unicorns.",
+      "url": "https://qitech.com.br"
+    }
+  ],
   "cloudInfrastructure": {
     "providers": [
       {
@@ -105,49 +120,47 @@
         "description": "Cloud provider used across Brazilian research and enterprise AI."
       }
     ],
-    "dominance": [
-      {
-        "provider": "AWS",
-        "share": 31
-      },
-      {
-        "provider": "Azure",
-        "share": 26
-      },
-      {
-        "provider": "Google Cloud",
-        "share": 15
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
       "name": "C4AI (Center for Artificial Intelligence)",
-      "description": "University of S\u00e3o Paulo research centre backed by FAPESP and IBM, partnered with ITA, PUC-SP and FEI.",
+      "description": "University of São Paulo research centre backed by FAPESP and IBM, partnered with ITA, PUC-SP and FEI.",
       "url": "https://c4ai.inova.usp.br"
     }
   ],
   "thinkTanks": [
     {
       "name": "ABES / IEA-USP AI policy partnership",
-      "description": "Collaboration between the Brazilian software industry association and the University of S\u00e3o Paulo's Institute of Advanced Studies on AI policy discussion."
+      "description": "Collaboration between the Brazilian software industry association and the University of São Paulo's Institute of Advanced Studies on AI policy discussion.",
+      "url": "https://thinktankabes.org.br/"
     }
   ],
   "governmentInstitutions": [
     {
       "name": "ANPD",
-      "description": "Brazil's national data protection authority, positioned to lead enforcement of PL 2338 once passed."
+      "description": "Brazil's national data protection authority, positioned as the (residual) regulator expected to lead enforcement of PL 2338 once passed.",
+      "url": "https://www.gov.br/anpd/pt-br"
     },
     {
       "name": "Ministry of Science, Technology and Innovation (MCTI)",
-      "description": "Runs the IA\u00b2 programme and coordinates the Brazilian AI Plan (PBIA)."
+      "description": "Runs the IA² programme and coordinates the Brazilian AI Plan (PBIA).",
+      "url": "https://www.gov.br/mcti/pt-br"
     }
   ],
   "keyPeople": [
     {
       "name": "Rodrigo Pacheco",
-      "role": "Senator; original sponsor of the PL 2338 AI Bill",
-      "category": "government"
+      "role": "Senator (Minas Gerais); original author and sponsor of the PL 2338 AI Bill",
+      "category": "government",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5732"
+    },
+    {
+      "name": "Aguinaldo Ribeiro",
+      "role": "Chamber of Deputies Rapporteur for PL 2338",
+      "affiliation": "Chamber of Deputies (PP-PB)",
+      "category": "government",
+      "url": "https://www.camara.leg.br/deputados/204446"
     }
   ],
   "influenceMap": [
@@ -170,21 +183,22 @@
   ],
   "debates": [
     {
-      "topic": "Biometric surveillance carve-outs in PL 2338",
+      "topic": "Biometric surveillance carve-outs and other sticking points in PL 2338",
       "category": "security",
-      "summary": "Negotiations over how PL 2338 treats biometric surveillance are a key sticking point holding up the bill's final passage.",
-      "expanded": "Law enforcement and security agencies have pushed for carve-outs allowing continued use of biometric surveillance technologies that the bill's general risk-based framework might otherwise restrict. Civil-liberties groups oppose broad exemptions, arguing they would undermine the bill's core protections just for the use case most associated with rights concerns.",
+      "summary": "Negotiations over how PL 2338 treats biometric surveillance have been widely reported as one sticking point in the bill's path to passage, alongside broader disagreements over balancing rights protections with innovation.",
+      "expanded": "Law enforcement and security agencies have reportedly pushed for carve-outs allowing continued use of biometric surveillance technologies that the bill's general risk-based framework might otherwise restrict, while civil-liberties groups have opposed broad exemptions, arguing they would undermine core protections for the use case most associated with rights concerns. Some Portuguese-language coverage frames the holdup more generally, describing ongoing political disagreements over how to balance rights protection with innovation rather than a single dominant issue — so the relative weight of the biometric surveillance question specifically is not fully established.",
       "sourceIds": [
         "br-1"
       ]
     },
     {
-      "topic": "Whether PL 2338 passes before the August 2026 recess",
+      "topic": "Whether PL 2338 can still pass before the August 2026 recess",
       "category": "government",
-      "summary": "After years of progress, PL 2338's final passage now comes down to whether the Chamber of Deputies can reach a vote before its August 2026 recess.",
-      "expanded": "The bill has already survived a multi-year process including Senate approval of a substitute text in December 2024. Missing the August 2026 recess deadline wouldn't kill the bill outright, but would extend Brazil's current status as one of the few major economies still without comprehensive binding AI legislation.",
+      "summary": "After years of progress, PL 2338's path to passage has become less certain: a Chamber vote scheduled for May 27, 2026 was postponed, leaving open whether the bill can still reach a floor vote before the Chamber's August 2026 recess.",
+      "expanded": "The bill has already survived a multi-year process, including Senate approval of a substitute text in December 2024 and a rapporteur's report presented in May 2026. Chamber President Hugo Motta postponed the planned May 27, 2026 vote, citing the need to align the Chamber's text with the Senate's version first. Missing the August 2026 recess deadline would not kill the bill outright, but would extend Brazil's current status as one of the few major economies still without comprehensive binding AI legislation. A separate government bill addressing a constitutional drafting flaw in the Senate text, submitted in December 2025, adds further procedural complexity to the timeline.",
       "sourceIds": [
-        "br-1"
+        "br-1",
+        "br-4"
       ]
     }
   ],
@@ -192,13 +206,14 @@
     {
       "name": "Rodrigo Pacheco",
       "type": "person",
-      "role": "Senator; original sponsor of the PL 2338 AI Bill.",
-      "category": "government"
+      "role": "Senator (Minas Gerais); original author and sponsor of the PL 2338 AI Bill.",
+      "category": "government",
+      "url": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5732"
     },
     {
       "name": "C4AI",
       "type": "organization",
-      "role": "University of S\u00e3o Paulo AI research centre backed by FAPESP and IBM.",
+      "role": "University of São Paulo AI research centre backed by FAPESP and IBM.",
       "category": "university",
       "url": "https://c4ai.inova.usp.br"
     }
@@ -240,8 +255,33 @@
       "url": "https://pesquisaparainovacao.fapesp.br/center_for_artificial_intelligence_supported_by_fapesp_ibm_and_usp_starts_operating/1615",
       "date": "2026",
       "category": "research"
+    },
+    {
+      "id": "br-4",
+      "title": "PL 2338/2023 official bicameral tracking page",
+      "publisher": "Congresso Nacional",
+      "url": "https://www.congressonacional.leg.br/materias/materias-bicamerais/-/ver/pl-2338-2023",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "br-5",
+      "title": "Startups Brasileiras em 2026: panorama e principais empresas",
+      "publisher": "ABVCAP",
+      "url": "https://abvcap.com.br/en/startups-brasileiras-em-2026-panorama-principais-empresas-e-unicornios/",
+      "date": "2026",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": false,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "Companion legislation on PL 2338's institutional architecture",
+      "note": "In December 2025 the federal government submitted a separate bill to fix a constitutional drafting flaw ('vício de iniciativa') in the Senate-passed text of PL 2338. That companion bill proposes a National AI System (SIA) with ANPD as the primary sectoral-gap regulator, two advisory bodies ('Cria' and 'Cecia'), and a coordinating council ('CBIA') — a procedural complication to PL 2338's path to passage not yet reflected on this page."
+    },
+    {
+      "area": "AI companies and industry ecosystem",
+      "note": "Two Brazilian AI-adjacent companies (Blip, QI Tech) have now been added, but this remains a thinner company list than Brazil's tech/fintech sector size would suggest — worth a deeper research pass rather than treated as complete."
+    }
+  ]
 }

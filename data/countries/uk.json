@@ -19,7 +19,7 @@
     54.5
   ],
   "zoom": 4.6,
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 7,
   "debateTopics": [
     "Blueprint vs. binding law — has the UK shelved the Frontier AI Bill?",
@@ -27,7 +27,7 @@
     "Frontier AI cyber risk oversight by the Bank of England and FCA",
     "Copyright vs. AI training data"
   ],
-  "overview": "The UK has largely followed through on what its 2023 white paper implied it might do all along: rely on existing regulators and voluntary frameworks rather than pass a dedicated AI law. A promised Frontier AI Bill has not been introduced, and as of mid-2026 the government has signalled it's unlikely to bring one forward, favouring its October 2025 'Blueprint for AI regulation' — which proposed a rule-relaxing regulatory sandbox but has so far produced only an advisory AI Growth Lab pilot in legal services, alongside joint statements from existing regulators — instead.\n\nA September 2025 cabinet reshuffle brought in Liz Kendall as Secretary of State for Science, Innovation and Technology, alongside a newly created Minister for AI and Online Safety role held by Kanishka Narayan MP. The AI Security Institute continues its technical evaluation work, though its own leadership is currently in an interim state.",
+  "overview": "The UK has largely followed through on what its 2023 white paper implied it might do all along: rely on existing regulators and voluntary frameworks rather than pass a dedicated AI law. A promised Frontier AI Bill has not been introduced, and as of mid-2026 the government has signalled it's unlikely to bring one forward, favouring its October 2025 'Blueprint for AI regulation' — which proposed a rule-relaxing regulatory sandbox but has so far produced only an advisory AI Growth Lab pilot in legal services, alongside joint statements from existing regulators — instead.\n\nA September 2025 cabinet reshuffle brought in Liz Kendall as Secretary of State for Science, Innovation and Technology, alongside a newly created Minister for AI and Online Safety role held by Kanishka Narayan MP. The AI Security Institute continues its technical evaluation work, though its own leadership is currently in an interim state.\n\nA further, much bigger shake-up followed within weeks: Keir Starmer resigned as Prime Minister on 19 July 2026 and was succeeded by Andy Burnham, whose first machinery-of-government changes (set out in a written statement to the House of Lords on 21 July 2026) abolished DSIT outright. Its business, innovation, science and trade functions were folded into a new Department for Business, Innovation, Science and Trade (DBIST) under Jonathan Reynolds, while AI strategy, public-sector AI adoption and the AI Security Institute moved to the Cabinet Office, with Kanishka Narayan promoted to Minister of State for Artificial Intelligence and given a seat at Cabinet. Some commentators read this as elevating AI policy; others have questioned whether splitting the AI brief away from a single department will weaken coordination. Given how recent this change is, the practical details are still settling and should be treated as provisional.",
   "atAGlance": {
     "policyDirection": {
       "label": "Regulator-led, advisory pilot over statute",
@@ -35,7 +35,7 @@
     },
     "regulatoryApproach": "Existing regulators plus an advisory AI Growth Lab pilot (legal services first, not yet a rule-relaxing sandbox)",
     "latestMajorUpdate": "Advisory AI Growth Lab launches, starting with legal services",
-    "governmentInvolvement": "Moderate — regulator-led rather than statute-led, no dedicated AI ministry",
+    "governmentInvolvement": "Moderate — regulator-led rather than statute-led; AI policy moved to the Cabinet Office in July 2026 with a dedicated Cabinet-attending AI minister, though it's too soon to say whether this changes the substance of the UK's approach",
     "industrialStrategy": "Growth-focused; the AI Growth Lab pilot and Google DeepMind's London base are frequently cited as anchors of the UK's industrial case, alongside growing UK investment from OpenAI, Anthropic and Nscale",
     "internationalPartnerships": "Bletchley Process convenor; International Network of AI Safety Institutes",
     "primaryPolicyFocus": "Financial-sector and frontier cyber risk oversight over comprehensive legislation"
@@ -45,6 +45,17 @@
     "summary": "As of mid-2026, the UK appears to be in a holding pattern: no primary AI legislation, continued reliance on sector regulators (ICO, FCA, Bank of England) applying existing powers, and an advisory AI Growth Lab pilot rather than the binding frontier-model law once promised."
   },
   "recentDevelopments": [
+    {
+      "text": "New Prime Minister Andy Burnham abolishes DSIT in his first machinery-of-government changes: business/innovation/science/trade functions move to a new Department for Business, Innovation, Science and Trade (DBIST) under Jonathan Reynolds, while AI strategy, public-sector AI adoption and the AI Security Institute move to the Cabinet Office under a newly Cabinet-attending AI minister, Kanishka Narayan. Liz Kendall leaves government. Announced via a written statement to the House of Lords two days after Burnham succeeded Keir Starmer as PM.",
+      "date": "2026-07-21",
+      "sourceIds": [
+        "uk-23",
+        "uk-24",
+        "uk-25"
+      ],
+      "severity": "major",
+      "needsVerification": true
+    },
     {
       "text": "AI Growth Lab formally launches, beginning with the legal-services sector; AI is separately piloted in Crown Court processes. The Crime and Policing Act 2026 has already extended Online Safety Act illegal-content duties to AI chatbots, with a government progress statement on further child-safety regulations due by 29 July 2026.",
       "date": "2026-06-08",
@@ -182,6 +193,11 @@
       "name": "Anthropic",
       "description": "Announced an 800-person London office (Knowledge Quarter, Regent's Place) in April 2026, quadrupling its previous London presence.",
       "url": "https://www.anthropic.com"
+    },
+    {
+      "name": "CuspAI",
+      "description": "Cambridge-headquartered AI-for-materials-discovery startup (customers specify desired material properties, the platform proposes candidates), co-founded by University of Amsterdam professor Max Welling as CTO; raised a $450M (~£335M) Series B in July 2026 at a $2.6bn valuation, with participation from the UK's Sovereign AI Fund, Kleiner Perkins, NEA and Jeff Bezos's family office.",
+      "url": "https://cusp.ai"
     }
   ],
   "cloudInfrastructure": {
@@ -247,13 +263,20 @@
   ],
   "governmentInstitutions": [
     {
-      "name": "Department for Science, Innovation and Technology (DSIT)",
-      "description": "Leads UK AI policy and the AI Security Institute.",
-      "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology"
+      "name": "Department for Business, Innovation, Science and Trade (DBIST)",
+      "description": "Formed in July 2026 when DSIT was merged into the Department for Business and Trade following DSIT's abolition; leads business, innovation, science and trade policy under Secretary of State Jonathan Reynolds.",
+      "url": "https://www.gov.uk/government/ministers/secretary-of-state-for-business-innovation-science-and-trade",
+      "needsVerification": true
+    },
+    {
+      "name": "Cabinet Office",
+      "description": "Took over central responsibility for AI strategy, public-sector AI adoption and oversight of the AI Security Institute when DSIT was abolished in July 2026.",
+      "url": "https://www.gov.uk/government/organisations/cabinet-office",
+      "needsVerification": true
     },
     {
       "name": "AI Security Institute",
-      "description": "Evaluates frontier AI models for safety and security risks ahead of and after deployment.",
+      "description": "Evaluates frontier AI models for safety and security risks ahead of and after deployment; moved under the Cabinet Office in July 2026 after DSIT's abolition.",
       "url": "https://www.aisi.gov.uk/",
       "aliases": [
         "AI Safety Institute"
@@ -267,18 +290,19 @@
   ],
   "keyPeople": [
     {
-      "name": "Liz Kendall",
-      "role": "Secretary of State for Science, Innovation and Technology",
-      "affiliation": "DSIT",
+      "name": "Kanishka Narayan",
+      "role": "Minister of State for Artificial Intelligence",
+      "affiliation": "Cabinet Office",
       "category": "government",
-      "url": "https://www.gov.uk/government/people/liz-kendall"
+      "url": "https://www.gov.uk/government/people/kanishka-narayan",
+      "needsVerification": true
     },
     {
-      "name": "Kanishka Narayan",
-      "role": "Parliamentary Under-Secretary of State — Minister for AI and Online Safety",
-      "affiliation": "DSIT",
+      "name": "Jonathan Reynolds",
+      "role": "Secretary of State for Business, Innovation, Science and Trade",
+      "affiliation": "DBIST",
       "category": "government",
-      "url": "https://www.gov.uk/government/people/kanishka-narayan"
+      "url": "https://www.gov.uk/government/ministers/secretary-of-state-for-business-innovation-science-and-trade"
     },
     {
       "name": "Ian Hogarth",
@@ -304,7 +328,7 @@
   ],
   "influenceMap": [
     {
-      "label": "DSIT",
+      "label": "Cabinet Office (AI)",
       "type": "government"
     },
     {
@@ -430,6 +454,13 @@
       "title": "Rishi Sunak's Bletchley Park AI Safety Summit address",
       "type": "speech",
       "note": "November 2023, including his on-stage conversation with Elon Musk."
+    },
+    {
+      "title": "Radical Optionality: Governing Transformative AI Under Uncertainty",
+      "type": "academic",
+      "author": "Christoph Winter & Charlie Bullock, Institute for Law & AI",
+      "url": "https://radical-optionality.ai",
+      "note": "Winter directs LawAI and is Assistant Professor of Law & AI at Cambridge."
     }
   ],
   "sources": [
@@ -476,7 +507,7 @@
     {
       "id": "uk-6",
       "title": "AI Security Institute",
-      "publisher": "Wikipedia / AISI",
+      "publisher": "AI Security Institute",
       "url": "https://www.aisi.gov.uk/about",
       "date": "2026",
       "category": "government"
@@ -572,7 +603,7 @@
     {
       "id": "uk-18",
       "title": "Reforming the Alan Turing Institute",
-      "publisher": "British Progress Institute",
+      "publisher": "Centre for British Progress",
       "url": "https://britishprogress.org/reports/reforming-the-alan-turing-institute",
       "date": "2026",
       "category": "think_tank"
@@ -608,6 +639,38 @@
       "url": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
       "date": "2026-05-15",
       "category": "government"
+    },
+    {
+      "id": "uk-23",
+      "title": "Government abolishes DSIT as AI gains a seat at the Cabinet table",
+      "publisher": "THINK Digital Partners",
+      "url": "https://www.thinkdigitalpartners.com/news/2026/07/21/government-abolishes-dsit-as-ai-gains-a-seat-at-the-cabinet-table/",
+      "date": "2026-07-21",
+      "category": "news"
+    },
+    {
+      "id": "uk-24",
+      "title": "Machinery of Government Changes (HLWS298)",
+      "publisher": "UK Parliament — Written Statements",
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-07-21/hlws298",
+      "date": "2026-07-21",
+      "category": "government"
+    },
+    {
+      "id": "uk-25",
+      "title": "Secretary of State for Business, Innovation, Science and Trade",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/government/ministers/secretary-of-state-for-business-innovation-science-and-trade",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "uk-26",
+      "title": "UK Sovereign AI Fund & Bezos Backs CuspAI in £335M Series B Funding",
+      "publisher": "digit.fyi",
+      "url": "https://www.digit.fyi/uk-sovereign-ai-fund-bezos-backs-cuspai-in-335m-series-b-funding/",
+      "date": "2026-07-20",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,
@@ -623,6 +686,10 @@
     {
       "area": "Semiconductor fabrication",
       "note": "The UK has no domestic chip-fabrication industry; Arm Holdings, the country's flagship semiconductor company, designs chip architectures (including its March 2026 Arm AGI CPU) but does not fabricate them."
+    },
+    {
+      "area": "July 2026 machinery-of-government change",
+      "note": "DSIT's abolition and the AI brief's move to the Cabinet Office happened within the last 48 hours of this update; secondary reporting is still inconsistent on some specifics (e.g. the exact division of Kanishka Narayan's portfolio between the Cabinet Office and DBIST, and whether any digital-government functions moved to DCMS). Treat details beyond the core facts as provisional pending clearer official confirmation."
     }
   ]
 }

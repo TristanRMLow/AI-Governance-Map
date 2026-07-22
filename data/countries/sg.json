@@ -2,7 +2,7 @@
   "code": "sg",
   "name": "Singapore",
   "shortName": "Singapore",
-  "flagEmoji": "\ud83c\uddf8\ud83c\uddec",
+  "flagEmoji": "🇸🇬",
   "geometryType": "polygon",
   "isoA3": [
     "SGP"
@@ -19,7 +19,7 @@
     1.35
   ],
   "zoom": 9,
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 6,
   "debateTopics": [
     "Voluntary governance for agentic AI",
@@ -27,22 +27,22 @@
     "Sovereign compute constraints",
     "Cross-border AI data flows vs. localisation"
   ],
-  "overview": "Singapore continues to bet on voluntary, testable frameworks over binding law. In January 2026 it launched what IMDA and several law-firm trackers describe as the world's first Model AI Governance Framework dedicated to agentic AI, then updated it a few months later after industry feedback to add guidance on multi-agent systems, third-party agents, and automation bias. A National AI Council chaired by Prime Minister Lawrence Wong, established following Budget 2026, now sits above the ministry-level work led by Josephine Teo, overseeing four sector-specific 'National AI Missions' (advanced manufacturing, connectivity, finance, and healthcare).\n\nSingapore backs this guidance with practical tooling \u2014 AI Verify's testing toolkit, and from Q3 2026, a planned AI Tester Accreditation Programme intended to be the first of its kind in Asia for accrediting third-party AI red-teamers.",
+  "overview": "Singapore has largely relied on voluntary, testable frameworks over binding law, a pattern several trackers describe as consistent. In January 2026 it launched what IMDA and several law-firm trackers describe as the world's first Model AI Governance Framework dedicated to agentic AI, then updated it a few months later after industry feedback to add guidance on multi-agent systems, third-party agents, and automation bias. A National AI Council chaired by Prime Minister Lawrence Wong, established following Budget 2026, now sits above the ministry-level work led by Josephine Teo, overseeing four sector-specific 'National AI Missions' (advanced manufacturing, connectivity, finance, and healthcare).\n\nSingapore backs this guidance with practical tooling — AI Verify's testing toolkit, and from Q3 2026, a planned AI Tester Accreditation Programme intended to be the first of its kind in Asia for accrediting third-party AI red-teamers.",
   "atAGlance": {
     "policyDirection": {
       "label": "Voluntary, first-mover on agentic AI",
       "sentiment": "green"
     },
-    "regulatoryApproach": "Voluntary, testable frameworks \u2014 no binding AI-specific law",
+    "regulatoryApproach": "Voluntary, testable frameworks — no binding AI-specific law",
     "latestMajorUpdate": "Model AI Governance Framework for Agentic AI updated (May 2026) with multi-agent systems guidance",
-    "governmentInvolvement": "High coordination, low compulsion \u2014 PM-chaired council, but voluntary compliance",
+    "governmentInvolvement": "High coordination, low compulsion — PM-chaired council, but voluntary compliance",
     "industrialStrategy": "Positioning as a testing-and-standards hub, given constraints on frontier-scale domestic training",
     "internationalPartnerships": "ASEAN and APEC cross-border data-flow frameworks; often cited as an influential regional soft-law standard-setter",
-    "primaryPolicyFocus": "Agentic AI governance and third-party testing accreditation"
+    "primaryPolicyFocus": "Agentic AI governance and third-party testing accreditation appear to be the current near-term priorities, based on recent policy launches, though official statements do not explicitly rank them"
   },
   "currentDirection": {
     "trend": "stable",
-    "summary": "Singapore keeps extending its voluntary-framework model to new frontiers \u2014 agentic AI governance and third-party testing accreditation \u2014 rather than shifting toward binding law, a pattern several analysts see as reinforcing Singapore's role as an influential soft-law standard-setter in the region."
+    "summary": "Singapore keeps extending its voluntary-framework model to new frontiers — agentic AI governance and third-party testing accreditation — rather than shifting toward binding law, a pattern several analysts see as reinforcing Singapore's role as an influential soft-law standard-setter in the region."
   },
   "recentDevelopments": [
     {
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "text": "Model AI Governance Framework for Agentic AI launches \u2014 described by IMDA and several law-firm trackers as a world-first dedicated framework for agentic AI systems.",
+      "text": "Model AI Governance Framework for Agentic AI launches — described by IMDA and several law-firm trackers as a world-first dedicated framework for agentic AI systems.",
       "date": "2026-01",
       "sourceIds": [
         "sg-1"
@@ -89,13 +89,20 @@
       "sourceIds": [
         "sg-14"
       ]
+    },
+    {
+      "text": "Minister Josephine Teo announces an updated National AI Strategy at ATxSummit 2026, formalising four 'National AI Missions' and committing over S$1 billion to public AI research and talent development through 2030.",
+      "date": "2026-05",
+      "sourceIds": [
+        "sg-3"
+      ]
     }
   ],
   "policyAndRegulation": [
     {
       "title": "Model AI Governance Framework for Agentic AI",
       "status": "in_force",
-      "summary": "A voluntary framework specifically addressing agentic AI systems \u2014 autonomous, multi-step AI agents \u2014 updated in May 2026 to add guidance on multi-agent systems, third-party agents, and automation bias. (The exact version label reported by some trackers, and the precise count of organisations consulted, are not independently confirmed.)",
+      "summary": "A voluntary framework specifically addressing agentic AI systems — autonomous, multi-step AI agents — updated in May 2026 to add guidance on multi-agent systems, third-party agents, and automation bias. (The exact version label reported by some trackers, and the precise count of organisations consulted, are not independently confirmed.)",
       "officialUrl": "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf",
       "sourceIds": [
         "sg-1"
@@ -114,7 +121,7 @@
     {
       "title": "Model AI Governance Framework",
       "status": "in_force",
-      "summary": "A voluntary \u2014 not legally binding \u2014 framework guiding organisations on internal governance, risk management, and stakeholder communication for AI deployment. First issued 2019, updated 2020.",
+      "summary": "A voluntary — not legally binding — framework guiding organisations on internal governance, risk management, and stakeholder communication for AI deployment. First issued 2019, updated 2020.",
       "officialUrl": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
       "sourceIds": [
         "sg-4"
@@ -127,6 +134,15 @@
       "officialUrl": "https://sso.agc.gov.sg/Act/PDPA2012",
       "sourceIds": [
         "sg-5"
+      ]
+    },
+    {
+      "title": "Model AI Governance Framework for Generative AI",
+      "status": "in_force",
+      "summary": "Launched May 2024 by IMDA and the AI Verify Foundation, sitting between Singapore's general 2019/2020 governance framework and the later 2026 Agentic AI framework.",
+      "sourceIds": [
+        "sg-4",
+        "sg-11"
       ]
     }
   ],
@@ -161,6 +177,18 @@
       {
         "name": "Microsoft Azure",
         "description": "Cloud provider with significant Singapore government and enterprise adoption."
+      },
+      {
+        "name": "Equinix",
+        "description": "Major data-centre and colocation operator with Singapore presence."
+      },
+      {
+        "name": "Digital Realty",
+        "description": "Major data-centre and colocation operator with Singapore presence."
+      },
+      {
+        "name": "ST Telemedia Global Data Centres",
+        "description": "Singapore-headquartered data-centre and colocation operator."
       }
     ],
     "dominance": []
@@ -180,6 +208,11 @@
       "name": "Nanyang Technological University (NTU)",
       "description": "Major AI research university, including the Digital Trust Centre.",
       "url": "https://www.ntu.edu.sg"
+    },
+    {
+      "name": "NUS AI Institute",
+      "description": "AI governance and policy research unit at the National University of Singapore, where Simon Chesterman holds the title AI Governance and Policy Lead.",
+      "url": "https://ai.nus.edu.sg"
     }
   ],
   "thinkTanks": [
@@ -190,9 +223,8 @@
     },
     {
       "name": "Centre for AI & Data Governance (CAIDG)",
-      "description": "Singapore Management University research centre, housed at the Yong Pung How School of Law, focused on AI regulation and data governance law. The file previously listed a dead domain (cagg.smu.edu.sg); no single canonical centre URL could be confirmed, so the link below points to the parent law school.",
-      "url": "https://law.smu.edu.sg",
-      "needsVerification": true
+      "description": "Singapore Management University research centre, housed at the Yong Pung How School of Law, focused on AI regulation and data governance law.",
+      "url": "https://ink.library.smu.edu.sg/caidg/"
     }
   ],
   "governmentInstitutions": [
@@ -267,7 +299,7 @@
     {
       "topic": "Voluntary governance for agentic AI",
       "category": "government",
-      "summary": "Singapore's Model AI Governance Framework for Agentic AI is voluntary, not binding \u2014 a stress test of whether soft law can keep up with autonomous, multi-step AI systems.",
+      "summary": "Singapore's Model AI Governance Framework for Agentic AI is voluntary, not binding — a stress test of whether soft law can keep up with autonomous, multi-step AI systems.",
       "expanded": "The framework, and its update just a few months later, shows Singapore moving quickly to address agentic AI's distinct risks (systemic effects when multiple agents interact, harder-to-predict multi-step behaviour). But like all Singaporean AI guidance to date, compliance is voluntary. As agentic systems take on more consequential real-world actions, some observers have questioned whether voluntary guidance remains sufficient, though Singapore has given no public indication it plans to move toward binding rules.",
       "sourceIds": [
         "sg-1"
@@ -276,7 +308,7 @@
     {
       "topic": "AI Tester Accreditation and third-party red-teaming",
       "category": "government",
-      "summary": "The upcoming AI TAP would formalise third-party AI testing as a credentialed profession in Singapore \u2014 a first for the region.",
+      "summary": "The upcoming AI TAP would formalise third-party AI testing as a credentialed profession in Singapore — positioned by IMDA and AI Verify Foundation as the first of its kind in Asia.",
       "expanded": "AI TAP aims to give organisations and regulators a way to trust third-party AI testers' findings by accrediting them against a common standard, addressing a real gap: as more organisations rely on external red-teamers to evaluate AI systems, there's been no consistent way to verify a tester's competence. Design details on accreditation criteria and reciprocity with other jurisdictions' schemes are still emerging.",
       "sourceIds": [
         "sg-2"
@@ -285,7 +317,7 @@
     {
       "topic": "Sovereign compute constraints",
       "category": "infrastructure",
-      "summary": "Singapore's land and power constraints limit how much AI compute capacity it can host domestically, shaping its cloud and data-centre strategy.",
+      "summary": "Singapore's land and power constraints are widely seen as limiting how much AI compute capacity it can host domestically, a factor several analysts link to its cloud and data-centre strategy.",
       "expanded": "Singapore paused new data-centre approvals for several years in the late 2010s over power and land constraints before easing restrictions with new efficiency and green-energy requirements. This structurally limits Singapore's ability to host frontier-scale training compute domestically compared to larger neighbours — a constraint several analysts argue reinforces Singapore's comparative emphasis on AI governance, testing, and deployment rather than large-scale domestic training.",
       "sourceIds": [
         "sg-7"
@@ -294,7 +326,7 @@
     {
       "topic": "Cross-border AI data flows vs. localisation",
       "category": "government",
-      "summary": "Singapore champions cross-border data-flow frameworks even as some regional governments push toward data localisation requirements.",
+      "summary": "Singapore has consistently promoted cross-border data-flow frameworks even as some regional governments push toward data localisation requirements.",
       "expanded": "As a small, trade-dependent economy, Singapore has long promoted interoperable cross-border data transfer mechanisms (including through APEC and ASEAN frameworks) that let AI models trained and deployed across borders operate smoothly. Some neighbouring jurisdictions favour stricter data localisation on sovereignty or security grounds, creating friction for regionally-deployed AI products.",
       "sourceIds": [
         "sg-8"
@@ -414,9 +446,9 @@
     },
     {
       "id": "sg-8",
-      "title": "Cross-border data flow frameworks",
+      "title": "ASEAN Working Group on AI Governance",
       "publisher": "IMDA",
-      "url": "https://www.imda.gov.sg",
+      "url": "https://www.imda.gov.sg/about-imda/international-relations/asean-working-group-on-ai-governance",
       "date": "2024",
       "category": "government"
     },
@@ -432,7 +464,7 @@
       "id": "sg-10",
       "title": "Centre for AI & Data Governance (CAIDG), SMU Yong Pung How School of Law",
       "publisher": "Singapore Management University",
-      "url": "https://law.smu.edu.sg",
+      "url": "https://ink.library.smu.edu.sg/caidg/",
       "date": "2026",
       "category": "expert_commentary"
     },
@@ -472,7 +504,7 @@
       "id": "sg-15",
       "title": "Budget 2026: National AI Council established, chaired by PM Lawrence Wong",
       "publisher": "The Edge Singapore / Mothership",
-      "url": "https://www.theedgesingapore.com",
+      "url": "https://www.theedgesingapore.com/news/budget-2026/singapore-establish-new-national-ai-council-chaired-prime-minister-wong",
       "date": "2026-02",
       "category": "news"
     }
@@ -480,28 +512,12 @@
   "hasMajorUpdate": true,
   "notableGaps": [
     {
-      "area": "National AI Strategy documentation",
-      "note": "The file does not reference Singapore's National AI Strategy or its May 2026 update (announced by Josephine Teo at ATxSummit 2026), reportedly setting refreshed priorities, formalising four 'National AI Missions', and committing over S$1 billion to public AI research and talent development through 2030."
-    },
-    {
-      "area": "Generative AI-specific framework",
-      "note": "The Model AI Governance Framework for Generative AI (launched May 2024 by IMDA and the AI Verify Foundation) is not listed in policyAndRegulation, which otherwise jumps from the general 2019/2020 framework straight to the 2026 Agentic AI framework."
-    },
-    {
       "area": "Frontier model developers",
       "note": "No lab headquartered in Singapore currently trains frontier-scale foundation models; Sea AI Lab and ByteDance's Singapore lab are applied/regional research arms rather than frontier-scale developers, consistent with Singapore's positioning as a testing-and-standards hub."
     },
     {
       "area": "Dedicated AI safety institute",
       "note": "Singapore has no standalone national AI safety institute, consistent with its emphasis on voluntary industry frameworks over a dedicated regulatory/safety body."
-    },
-    {
-      "area": "University AI institutes",
-      "note": "The NUS AI Institute — where Simon Chesterman holds the title AI Governance and Policy Lead — is not listed as a distinct entity in the universities section, though NUS is listed generally."
-    },
-    {
-      "area": "Data-centre and colocation operators",
-      "note": "cloudInfrastructure lists only the three hyperscalers (AWS, Google Cloud, Azure); major Singapore colocation operators such as Equinix, Digital Realty, and ST Telemedia Global Data Centres are not included, pending fuller verification of their current standing and role."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "code": "kr",
   "name": "South Korea",
   "shortName": "South Korea",
-  "flagEmoji": "\ud83c\uddf0\ud83c\uddf7",
+  "flagEmoji": "🇰🇷",
   "geometryType": "polygon",
   "isoA3": [
     "KOR"
@@ -19,39 +19,48 @@
     36.5
   ],
   "zoom": 6.2,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 4,
+  "lastUpdated": "2026-07-19",
+  "newDevelopmentsCount": 6,
   "debateTopics": [
     "AI Basic Act enforcement decree's narrow high-risk definition",
     "Sovereign foundation-model push vs. matching frontier performance"
   ],
-  "overview": "South Korea's AI Basic Act took effect on 22 January 2026 \u2014 the world's first comprehensive, cross-sector AI legal framework \u2014 with the Ministry of Science and ICT (MSIT) enforcing a roughly one-year grace period on fines and investigations (with exceptions for serious harm) while substantive compliance duties apply immediately.\n\nAlongside binding regulation, MSIT selected five teams \u2014 Naver Cloud, Upstage, SK Telecom, NC AI and LG AI Research \u2014 to build homegrown sovereign foundation models with state-subsidised compute, targeting at least 95% of frontier-model performance, reassessed every six months through 2027. Civil society groups and human-rights lawyers have criticised the Act's enforcement decree for defining 'high-risk AI' too narrowly, offering weak protection against AI impersonation and fraud.",
+  "overview": "South Korea's AI Basic Act took effect on 22 January 2026 — described by multiple legal commentators as the world's first comprehensive, cross-sector AI legal framework — with the Ministry of Science and ICT (MSIT) enforcing a roughly one-year grace period on fines and investigations (with exceptions for serious harm) while substantive compliance duties apply immediately.\n\nAlongside binding regulation, MSIT launched a sovereign foundation-model programme offering state-subsidised compute, originally selecting five teams — Naver Cloud, Upstage, SK Telecom, NC AI and LG AI Research — with an early reported target of matching at least 95% of frontier-model performance, reassessed roughly every six months through 2027. That roster has since shifted: following a first-round evaluation announced 15 January 2026, MSIT dropped Naver Cloud (reportedly found to be fine-tuning Alibaba's Qwen model rather than developing independently) and NC AI, leaving LG AI Research, SK Telecom and Upstage to advance; a Motif Technologies-led consortium was added via a supplementary call on 20 February 2026 to fill a vacated slot, making the programme's current roster four teams. A second-round evaluation was reportedly planned for early August 2026 to decide which teams advance further. Separately, civil society groups and human-rights lawyers have criticised the Act's enforcement decree for defining 'high-risk AI' too narrowly, arguing it offers weak protection against AI impersonation and fraud.",
   "atAGlance": {
     "policyDirection": {
       "label": "First comprehensive AI law now in force",
       "sentiment": "amber"
     },
     "regulatoryApproach": "Binding cross-sector AI Basic Act, enforced by MSIT",
-    "latestMajorUpdate": "40+ expert Task Force refines AI Basic Act implementation; new science and R&D funds announced",
-    "governmentInvolvement": "Very high \u2014 binding law plus a five-team state-subsidised sovereign model programme",
-    "industrialStrategy": "\u20a98.6 trillion R&D plan and a \u20a9763.2B Science & Technology Innovation Fund back sovereign models",
+    "latestMajorUpdate": "Sovereign foundation-model programme reshuffled (Naver Cloud, NC AI dropped; Motif Technologies added); Task Force continues refining AI Basic Act implementation",
+    "governmentInvolvement": "Very high — binding law plus a state-subsidised sovereign model programme, now four teams after a January–February 2026 reshuffle",
+    "industrialStrategy": "A reported ₩8.6 trillion R&D plan and ₩763.2B Science & Technology Innovation Fund are said to back sovereign models, though the specific figures have not been independently cross-checked beyond a general MSIT source",
     "internationalPartnerships": "International Network of AI Safety Institutes",
-    "primaryPolicyFocus": "Matching frontier-model performance domestically while enforcing the AI Basic Act"
+    "primaryPolicyFocus": "Supporting domestic frontier-model development while enforcing the AI Basic Act"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "South Korea moved fastest among major economies to pass comprehensive, binding, cross-sector AI legislation \u2014 but civil-society critics argue the enforcement decree's narrow 'high-risk' definition undercuts the law's practical bite, even as the state simultaneously pours resources into a sovereign foundation-model push."
+    "summary": "South Korea moved among the fastest of major economies to pass comprehensive, binding, cross-sector AI legislation — though civil-society critics argue the enforcement decree's narrow 'high-risk' definition undercuts the law's practical bite — even as the state pours resources into a sovereign foundation-model push whose roster has already been reshuffled once, with two of the original five teams dropped and a new one added within weeks of the law taking effect."
   },
   "recentDevelopments": [
     {
-      "text": "A 40+ expert Task Force (convened since March) continues refining AI Basic Act implementation; a new \u20a9763.2B Science and Technology Innovation Fund and an \u20a98.6 trillion R&D plan are announced.",
+      "text": "A 40+ expert Task Force (convened since March, reportedly still active) continues refining AI Basic Act implementation; a new ₩763.2B Science and Technology Innovation Fund and an ₩8.6 trillion R&D plan are reported, though these figures come from a general ministry source rather than a specific release.",
       "date": "2026-07",
       "sourceIds": [
         "kr-5"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "MSIT selects a Motif Technologies-led consortium to fill the sovereign foundation-model programme's vacated fourth slot via a supplementary call, after Naver Cloud and NC AI declined to re-enter a revival round; the programme's teams are now LG AI Research, SK Telecom, Upstage and Motif Technologies.",
+      "date": "2026-02-20",
+      "sourceIds": [
+        "kr-8",
+        "kr-9"
       ]
     },
     {
-      "text": "AI Basic Act takes effect \u2014 the world's first comprehensive cross-sector AI legal framework \u2014 with MSIT enforcing a roughly one-year grace period on fines and investigations.",
+      "text": "AI Basic Act takes effect — described as the world's first comprehensive cross-sector AI legal framework — with MSIT enforcing a roughly one-year grace period on fines and investigations.",
       "date": "2026-01-22",
       "sourceIds": [
         "kr-1"
@@ -59,14 +68,23 @@
       "severity": "major"
     },
     {
-      "text": "MSIT selects five teams \u2014 Naver Cloud, Upstage, SK Telecom, NC AI and LG AI Research \u2014 to build homegrown sovereign foundation models with state-subsidised compute, reassessed every six months through 2027.",
-      "date": "2026",
+      "text": "MSIT drops Naver Cloud and NC AI from the sovereign foundation-model programme after a first-round evaluation — Naver Cloud's submission reportedly relied on fine-tuning Alibaba's Qwen model rather than independent development — while LG AI Research, SK Telecom and Upstage advance to the second round.",
+      "date": "2026-01-15",
       "sourceIds": [
-        "kr-2"
+        "kr-6",
+        "kr-7"
       ]
     },
     {
-      "text": "Civil society and human-rights lawyers criticise the AI Basic Act's enforcement decree for a narrow 'high-risk AI' definition offering weak protection against AI impersonation and fraud.",
+      "text": "MSIT originally selects five teams — Naver Cloud, Upstage, SK Telecom, NC AI and LG AI Research — to build homegrown sovereign foundation models with state-subsidised compute, with an early reported target of matching at least 95% of frontier-model performance, reassessed roughly every six months through 2027 (this roster and cadence were later superseded — see subsequent entries).",
+      "date": "2026",
+      "sourceIds": [
+        "kr-2"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Civil society groups and human-rights lawyers criticise the AI Basic Act's enforcement decree for a narrow 'high-risk AI' definition, arguing it offers weak protection against AI impersonation and fraud.",
       "date": "2026",
       "sourceIds": [
         "kr-3"
@@ -77,45 +95,61 @@
     {
       "title": "AI Basic Act",
       "status": "in_force",
-      "summary": "Act on the Development of AI and Establishment of Trust \u2014 the world's first comprehensive cross-sector AI legal framework, in force since 22 January 2026 with a roughly one-year grace period on fines and investigations (exceptions apply for serious harm).",
+      "summary": "Act on the Development of AI and Establishment of Trust — described by multiple legal commentators as the world's first comprehensive cross-sector AI legal framework, in force since 22 January 2026 with a roughly one-year grace period on fines and investigations (exceptions apply for serious harm).",
+      "officialUrl": "https://aibasicact.kr/",
       "sourceIds": [
         "kr-1"
       ]
     }
   ],
   "researchEcosystem": {
-    "summary": "South Korea's AI research and sovereign-model push runs through five state-selected teams \u2014 Naver Cloud, Upstage, SK Telecom, NC AI and LG AI Research \u2014 building homegrown foundation models with subsidised compute, reassessed every six months through 2027 against a target of matching at least 95% of frontier-model performance.",
+    "summary": "South Korea's sovereign-model push runs through a state-backed foundation-model programme — currently LG AI Research, SK Telecom, Upstage and Motif Technologies — building homegrown models with subsidised compute. Two of the programme's original five teams, Naver Cloud and NC AI, were dropped after a January 2026 evaluation and replaced by a Motif Technologies-led consortium in February 2026. Earlier reporting cited a target of matching at least 95% of frontier-model performance, reassessed roughly every six months, though this has not been independently reconfirmed since the reshuffle.",
     "sourceIds": [
-      "kr-2"
+      "kr-2",
+      "kr-6",
+      "kr-8"
     ]
   },
   "companies": [
     {
       "name": "Naver",
-      "description": "Developer of the HyperCLOVA X model family, one of five teams in Korea's sovereign foundation-model programme."
+      "description": "Developer of the HyperCLOVA X model family; participated in Korea's sovereign foundation-model programme until being dropped after the January 2026 first-round evaluation, reportedly because its submission relied on fine-tuning Alibaba's Qwen model rather than independent development.",
+      "url": "https://www.navercorp.com"
     },
     {
       "name": "LG AI Research",
-      "description": "Developer of the 'Expert AI' model family, part of Korea's sovereign foundation-model programme."
+      "description": "Developer of the 'Expert AI' model family; one of the teams that advanced in Korea's sovereign foundation-model programme following the January 2026 evaluation round.",
+      "url": "https://www.lgresearch.ai"
     },
     {
       "name": "Samsung Electronics",
-      "description": "Major memory and AI chip manufacturer central to Korea's compute supply chain."
+      "description": "One of the world's largest memory and AI chip manufacturers, widely regarded as central to Korea's compute supply chain.",
+      "url": "https://www.samsung.com"
     },
     {
       "name": "SK Telecom",
-      "description": "Telecom operator and one of five teams in Korea's sovereign foundation-model programme."
+      "description": "Telecom operator and one of the teams that advanced in Korea's sovereign foundation-model programme following the January 2026 evaluation round.",
+      "url": "https://www.sktelecom.com"
     },
     {
       "name": "Upstage",
-      "description": "AI startup and one of five teams in Korea's sovereign foundation-model programme."
+      "description": "AI startup and one of the teams that advanced in Korea's sovereign foundation-model programme following the January 2026 evaluation round.",
+      "url": "https://www.upstage.ai"
+    },
+    {
+      "name": "NC AI",
+      "description": "Former participant in Korea's sovereign foundation-model programme, dropped after the January 2026 first-round evaluation; reportedly eligible to reapply but did not re-enter the subsequent revival round."
+    },
+    {
+      "name": "Motif Technologies",
+      "description": "AI startup leading a consortium (reported to include KAIST and Trillion Labs, among other partners) that was added to Korea's sovereign foundation-model programme in February 2026 to fill a vacated slot."
     }
   ],
   "cloudInfrastructure": {
     "providers": [
       {
         "name": "Naver Cloud",
-        "description": "Leading domestic Korean cloud provider, central to the sovereign foundation-model programme."
+        "description": "Leading domestic Korean cloud provider, central to the sovereign foundation-model programme (though its namesake affiliate, Naver Cloud, was dropped from the model-development track itself in January 2026)."
       },
       {
         "name": "AWS",
@@ -126,39 +160,29 @@
         "description": "Cloud provider with significant Korean enterprise integration."
       }
     ],
-    "dominance": [
-      {
-        "provider": "Naver Cloud",
-        "share": 24
-      },
-      {
-        "provider": "AWS",
-        "share": 26
-      },
-      {
-        "provider": "Azure",
-        "share": 20
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
       "name": "KAIST",
-      "description": "Korea Advanced Institute of Science and Technology, a leading Korean AI research university."
+      "description": "Korea Advanced Institute of Science and Technology, a leading Korean AI research university.",
+      "url": "https://www.kaist.ac.kr/en/"
     }
   ],
   "thinkTanks": [],
   "governmentInstitutions": [
     {
       "name": "Ministry of Science and ICT (MSIT)",
-      "description": "Lead ministry for AI policy, enforcing the AI Basic Act and coordinating the sovereign foundation-model programme."
+      "description": "Lead ministry for AI policy, enforcing the AI Basic Act and coordinating the sovereign foundation-model programme.",
+      "url": "https://www.msit.go.kr/eng/"
     }
   ],
   "keyPeople": [
     {
       "name": "Bae Kyung-hoon",
       "role": "Minister of Science and ICT",
-      "category": "government"
+      "category": "government",
+      "url": "https://en.wikipedia.org/wiki/Bae_Kyung-hoon"
     }
   ],
   "influenceMap": [
@@ -183,8 +207,8 @@
     {
       "topic": "AI Basic Act enforcement decree's narrow high-risk definition",
       "category": "government",
-      "summary": "Civil-society groups argue the Act's implementing decree defines 'high-risk AI' too narrowly, leaving weak protection against AI impersonation and fraud.",
-      "expanded": "Human-rights lawyers and civil-society groups say the enforcement decree's scope \u2014 relying mainly on watermarking requirements and fines \u2014 is too limited given the scale of AI-enabled fraud and impersonation risks. Industry counters that a stricter definition would undercut Korea's competitiveness just as it's trying to build sovereign frontier capability.",
+      "summary": "Some civil-society groups and human-rights lawyers argue the Act's implementing decree defines 'high-risk AI' too narrowly, leaving what they characterise as weak protection against AI impersonation and fraud.",
+      "expanded": "Human-rights lawyers and civil-society groups say the enforcement decree's scope — relying mainly on watermarking requirements and fines — is too limited given the scale of AI-enabled fraud and impersonation risks. Some industry voices counter that a stricter definition would undercut Korea's competitiveness just as it is trying to build sovereign frontier capability. The precise wording and full scope of the decree's 'high-risk AI' definition were not independently verified against the Korean-language legal text for this summary; the characterisation above relies on secondary legal-commentary and NGO sources.",
       "sourceIds": [
         "kr-3"
       ]
@@ -192,10 +216,12 @@
     {
       "topic": "Sovereign foundation-model push vs. matching frontier performance",
       "category": "investment",
-      "summary": "Korea's five state-backed teams are being held to a concrete, reassessed target of matching 95%+ of frontier-model performance \u2014 a high bar with a hard review cycle.",
-      "expanded": "Unlike open-ended national AI investment elsewhere, Korea's programme has a specific, numeric performance target reassessed every six months through 2027 \u2014 creating real pressure on Naver, Upstage, SK Telecom, NC AI and LG AI Research to show measurable progress against US and Chinese frontier labs rather than simply receiving indefinite state support.",
+      "summary": "Korea's state-backed sovereign-model programme — now four teams after two were dropped and one added in early 2026 — has been reported (though not fully reconfirmed since the reshuffle) to be held to a target of matching a high share of frontier-model performance on a periodic review cycle.",
+      "expanded": "Unlike open-ended national AI investment elsewhere, Korea's programme was reported to carry a specific, numeric performance target — at least 95% of frontier-model performance — reassessed roughly every six months through 2027, creating pressure on participants to show measurable progress against US and Chinese frontier labs rather than simply receiving indefinite state support. That pressure appears to have already had consequences: after a first-round evaluation announced 15 January 2026, MSIT dropped Naver Cloud and NC AI (Naver Cloud's submission reportedly relied on fine-tuning Alibaba's Qwen model rather than independent development), leaving LG AI Research, SK Telecom and Upstage to advance. A Motif Technologies-led consortium was added on 20 February 2026 to fill the vacated slot, and a second-round evaluation was reportedly planned for early August 2026 to decide which teams advance further — underscoring how contested, and unsettled, the sovereign-model bet remains.",
       "sourceIds": [
-        "kr-2"
+        "kr-2",
+        "kr-6",
+        "kr-8"
       ]
     }
   ],
@@ -204,13 +230,15 @@
       "name": "Bae Kyung-hoon",
       "type": "person",
       "role": "Minister of Science and ICT; leads AI Basic Act enforcement and the sovereign model programme.",
-      "category": "government"
+      "category": "government",
+      "url": "https://en.wikipedia.org/wiki/Bae_Kyung-hoon"
     },
     {
       "name": "KAIST",
       "type": "organization",
       "role": "Korea Advanced Institute of Science and Technology; leading Korean AI research university.",
-      "category": "university"
+      "category": "university",
+      "url": "https://www.kaist.ac.kr/en/"
     }
   ],
   "knowledgeHub": [
@@ -267,8 +295,45 @@
       "url": "https://www.msit.go.kr/eng/",
       "date": "2026-07",
       "category": "government"
+    },
+    {
+      "id": "kr-6",
+      "title": "LG, SKT, Upstage advance in Korea's sovereign AI project; Naver, NC dropped in 1st round",
+      "publisher": "The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10656367",
+      "date": "2026-01-15",
+      "category": "news"
+    },
+    {
+      "id": "kr-7",
+      "title": "Naver Cloud, NC AI cut from national AI foundation model race",
+      "publisher": "The Korea Times",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20260115/naver-cloud-nc-ai-cut-from-national-ai-foundation-model-race",
+      "date": "2026-01-15",
+      "category": "news"
+    },
+    {
+      "id": "kr-8",
+      "title": "Motif-led consortium joins national AI foundation model project",
+      "publisher": "The Korea Times",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20260220/motif-led-consortium-joins-national-ai-foundation-model-project",
+      "date": "2026-02-20",
+      "category": "news"
+    },
+    {
+      "id": "kr-9",
+      "title": "South Korea enters second phase of sovereign AI project",
+      "publisher": "LightReading",
+      "url": "https://www.lightreading.com/ai-machine-learning/south-korea-enters-second-phase-of-sovereign-ai-project",
+      "date": "2026-02",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "Cloud infrastructure market data",
+      "note": "Reliable, sourced market-share percentages for Korea's cloud providers could not be confirmed, so dominance figures have been left blank rather than estimated. KT Cloud and Kakao Enterprise are also commonly cited alongside Naver Cloud, AWS and Azure as domestic cloud players, but were not confirmed with enough confidence to add to this list."
+    }
+  ]
 }

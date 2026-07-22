@@ -9,7 +9,7 @@
   ],
   "region": "Middle East",
   "jurisdictionType": "nation_state",
-  "governanceModel": "State-directed strategy consolidated under a single new AI Authority",
+  "governanceModel": "State-directed strategy, recently consolidated under a single new AI Authority",
   "accentColor": {
     "light": "#3D7B64",
     "dark": "#4D9D80"
@@ -19,28 +19,28 @@
     24.0
   ],
   "zoom": 6.5,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-07-19",
+  "newDevelopmentsCount": 6,
   "debateTopics": [
     "Consolidating AI governance under a single new Authority",
-    "Chip access \u2014 compute diplomacy vs. continued export friction"
+    "Chip access diplomacy and the shift toward unrestricted export status"
   ],
-  "overview": "The UAE consolidated its AI governance in June 2026, approving a new Artificial Intelligence and Data Authority that merges the former Office of AI/Digital Economy/Remote Work Applications, the UAE Data Office, and the TDRA's digital-government portfolio into one body. Omar Sultan Al Olama, the UAE's Minister of State for AI, was confirmed as its chair \u2014 extending his existing mandate into a single, more powerful institution.\n\nOn the industry side, Abu Dhabi's G42 (roughly $20B) and the Technology Innovation Institute jointly produce the Falcon model family, including 2026 releases Falcon Perception (efficient multimodal) and Falcon-H1 Arabic, described as the world's leading Arabic-language LLM. Chip access remains a live and only partly resolved question: the US authorized G42 to purchase up to 35,000 NVIDIA Blackwell chips in November 2025, though some 2026 reporting suggests the UAE still faces friction in fully unrestricted access.",
+  "overview": "The UAE consolidated its AI governance in June 2026, approving a new Artificial Intelligence and Data Authority that merges the former Office of AI/Digital Economy/Remote Work Applications, the UAE Data Office, and the TDRA's digital-government portfolio into one body. Omar Sultan Al Olama, the UAE's Minister of State for AI since 2017, was confirmed as its chair \u2014 extending his existing mandate into a single, consolidated institution. (Whether the Authority has completed its formal legal and operational stand-up beyond this June 2026 approval has not been independently confirmed.)\n\nOn the industry side, Abu Dhabi's G42 (valued at roughly $20B in one April 2026 estimate) and the Technology Innovation Institute jointly produce the Falcon model family, including 2026 releases Falcon Perception (efficient multimodal) and Falcon-H1 Arabic, described by TII and several outlets as the world's leading Arabic-language LLM. Chip access, once a genuine point of friction, moved further toward resolution in mid-2026: after the US authorized G42 to purchase up to 35,000 NVIDIA Blackwell chips in November 2025, the US Commerce Department reclassified the UAE into the highest-trust Export Administration Regulations tier (Country Group A:5) on July 10, 2026, removing the requirement for individual export licenses for approved UAE entities \u2014 including G42 \u2014 to receive NVIDIA Blackwell and AMD Instinct chips. Legal analyses of the underlying rule note that this license-free treatment for G42 and its Core42 cloud unit is, per Supplement No. 8 to Part 740, a roughly 270-day pre-approval window rather than a permanent exemption, unless those entities become US-headquartered within that period.",
   "atAGlance": {
     "policyDirection": {
       "label": "State-directed, consolidating under one Authority",
       "sentiment": "green"
     },
     "regulatoryApproach": "State-directed strategy via a unified AI Authority; no binding AI-specific statute",
-    "latestMajorUpdate": "New Artificial Intelligence and Data Authority established, merging federal AI bodies",
+    "latestMajorUpdate": "US reclassifies UAE into top export-control tier (Country Group A:5), easing advanced AI chip access",
     "governmentInvolvement": "Very high \u2014 centralised under one federal Authority chaired by the AI minister",
-    "industrialStrategy": "State-backed G42/TII Falcon model family; heavy sovereign compute investment",
-    "internationalPartnerships": "US chip-access diplomacy (G42 Blackwell approval); Microsoft strategic investment",
-    "primaryPolicyFocus": "Consolidating institutional control while securing unrestricted advanced-chip access"
+    "industrialStrategy": "State-backed G42/TII Falcon model family; substantial sovereign compute investment",
+    "internationalPartnerships": "US chip-access diplomacy (G42 Blackwell approval; July 2026 export-control reclassification); Microsoft strategic investment",
+    "primaryPolicyFocus": "Consolidating institutional control following the July 2026 easing of US advanced-chip export restrictions"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "The UAE is consolidating institutional control over AI policy under a single new Authority chaired by its long-standing AI minister \u2014 a centralising move even though no binding AI-specific law has followed, paired with continued heavy state investment in sovereign compute and Arabic-language frontier models."
+    "summary": "The UAE is consolidating institutional control over AI policy under a single new Authority chaired by Omar Sultan Al Olama, AI minister since 2017 \u2014 a centralising move even though no binding AI-specific law has followed \u2014 alongside continued state investment in sovereign compute and Arabic-language frontier models, and a July 2026 US export-control reclassification that eased the UAE's access to advanced AI chips."
   },
   "recentDevelopments": [
     {
@@ -59,11 +59,12 @@
       ]
     },
     {
-      "text": "TII launches Falcon Perception, an efficient multimodal model with roughly 600 million parameters.",
+      "text": "TII launches Falcon Perception, an efficient multimodal model reported to have roughly 600 million parameters.",
       "date": "2026",
       "sourceIds": [
         "ae-2"
-      ]
+      ],
+      "needsVerification": true
     },
     {
       "text": "TII launches Falcon-H1 Arabic, described as the world's leading Arabic-language LLM using a hybrid Mamba-Transformer architecture.",
@@ -78,20 +79,30 @@
       "sourceIds": [
         "ae-4"
       ]
+    },
+    {
+      "text": "US Commerce Department (BIS) reclassifies the UAE from Export Administration Regulations Country Groups D:3/D:4 into Country Group A:5, the highest trust tier, removing individual export-license requirements for approved UAE entities (including G42) to receive NVIDIA Blackwell and AMD Instinct chips — though for G42 and its Core42 unit, legal analyses describe this as a roughly 270-day pre-approval window rather than a permanent exemption, per Supplement No. 8 to Part 740.",
+      "date": "2026-07-10",
+      "sourceIds": [
+        "ae-6",
+        "ae-7"
+      ],
+      "severity": "major"
     }
   ],
   "policyAndRegulation": [
     {
       "title": "Artificial Intelligence and Data Authority",
       "status": "in_force",
-      "summary": "New federal authority (June 2026) unifying AI, digital economy, and data governance functions under Minister of State for AI Omar Sultan Al Olama.",
+      "summary": "New federal authority (approved June 2026) unifying AI, digital economy, and data governance functions under Minister of State for AI Omar Sultan Al Olama. Its formal legal and operational stand-up beyond this approval has not been independently confirmed.",
       "sourceIds": [
         "ae-1"
-      ]
+      ],
+      "needsVerification": true
     }
   ],
   "researchEcosystem": {
-    "summary": "UAE AI research and development runs primarily through the Technology Innovation Institute (TII), the applied-research arm of the Advanced Technology Research Council, and MBZUAI, the world's first dedicated AI research university, based in Abu Dhabi.",
+    "summary": "UAE AI research and development runs largely through the Technology Innovation Institute (TII), the applied-research arm of the Advanced Technology Research Council, and MBZUAI, an Abu Dhabi-based university that is widely described as the world's first dedicated AI research university.",
     "sourceIds": [
       "ae-2"
     ]
@@ -106,32 +117,27 @@
   "cloudInfrastructure": {
     "providers": [
       {
-        "name": "G42 Cloud",
-        "description": "UAE sovereign cloud and AI infrastructure provider."
+        "name": "Core42",
+        "description": "G42's cloud and AI-infrastructure company (formed February 2024 by merging G42 Cloud, Khazna Data Centers, and Inject AI); UAE sovereign cloud and AI infrastructure provider.",
+        "url": "https://www.core42.ai"
       },
       {
         "name": "Microsoft Azure",
-        "description": "Cloud provider with a strategic partnership and investment relationship with G42."
+        "description": "Cloud provider with a strategic partnership and investment relationship with G42.",
+        "url": "https://azure.microsoft.com"
       },
       {
         "name": "AWS",
-        "description": "Major cloud provider for UAE enterprise and government AI workloads."
+        "description": "Major cloud provider for UAE enterprise and government AI workloads.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Oracle Cloud Infrastructure",
+        "description": "Cloud provider active in the UAE market; general reporting groups it with AWS, Microsoft and G42 among the leading providers by revenue, though no precise per-provider breakdown was found.",
+        "url": "https://www.oracle.com/cloud/"
       }
     ],
-    "dominance": [
-      {
-        "provider": "G42 Cloud",
-        "share": 28
-      },
-      {
-        "provider": "Azure",
-        "share": 25
-      },
-      {
-        "provider": "AWS",
-        "share": 22
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
@@ -141,7 +147,7 @@
     },
     {
       "name": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
-      "description": "The world's first dedicated AI research university, based in Abu Dhabi.",
+      "description": "Abu Dhabi-based university widely described as the world's first dedicated AI research university.",
       "url": "https://mbzuai.ac.ae"
     }
   ],
@@ -181,19 +187,22 @@
     {
       "topic": "Consolidating AI governance under a single new Authority",
       "category": "government",
-      "summary": "Merging three previously separate federal bodies into one Authority centralises AI policy \u2014 a significant institutional bet on unified control.",
-      "expanded": "Combining the AI office, Data Office, and TDRA's digital-government functions gives the new Authority broad reach across data governance, AI development, and remote-work policy. Supporters see this as removing coordination friction between previously siloed bodies; the concentration of power in one authority under one minister is itself a notable governance choice worth watching as it beds in.",
+      "summary": "Merging three previously separate federal bodies into one Authority centralises AI policy, which initial coverage frames as a significant institutional bet on unified control.",
+      "expanded": "Combining the AI office, Data Office, and TDRA's digital-government functions gives the new Authority broad reach across data governance, AI development, and remote-work policy. Supporters see this as removing coordination friction between previously siloed bodies; the concentration of power in one authority under one minister is itself a notable governance choice worth watching as it beds in. Whether the Authority has completed its formal legal and operational stand-up beyond the June 2026 approval has not been independently confirmed.",
       "sourceIds": [
         "ae-1"
       ]
     },
     {
-      "topic": "Chip access \u2014 compute diplomacy vs. continued export friction",
+      "topic": "Chip access diplomacy and the shift toward unrestricted export status",
       "category": "security",
-      "summary": "The US approved a major chip sale to G42 in late 2025, but 2026 reporting suggests the UAE still faces some friction in achieving fully unrestricted access to advanced AI hardware.",
-      "expanded": "The November 2025 approval for G42 to purchase up to 35,000 NVIDIA Blackwell chips was a major reversal of prior US reluctance, tied to Gulf 'compute diplomacy' and multibillion-dollar investment pledges. But subsequent 2026 analysis suggests US export rules still keep the UAE in what one report called an 'AI technology slow lane' in some respects \u2014 the picture is a live tension, not a fully resolved one.",
+      "summary": "The US eased chip-export restrictions on the UAE twice within about eight months \u2014 approving a major Blackwell sale to G42 in late 2025, then reclassifying the UAE into the highest-trust export control tier in July 2026 \u2014 substantially narrowing, though perhaps not eliminating, earlier friction over advanced-hardware access.",
+      "expanded": "The November 2025 approval for G42 to purchase up to 35,000 NVIDIA Blackwell chips was a major reversal of prior US reluctance, tied to Gulf 'compute diplomacy' and multibillion-dollar investment pledges. Earlier 2026 analysis had argued that US export rules still kept the UAE in an 'AI technology slow lane' in some respects. That picture changed materially on July 10, 2026, when the US Commerce Department reclassified the UAE from Export Administration Regulations Country Groups D:3/D:4 into Country Group A:5 \u2014 the highest trust tier \u2014 removing the requirement for individual export licenses for approved UAE entities, including G42, to receive NVIDIA Blackwell and AMD Instinct chips. Law-firm analyses of the final rule (Morgan Lewis, Akin Gump) note an important qualification, however: G42 and its Core42 cloud unit's license-free status under Supplement No. 8 to Part 740 is reported to be a roughly 270-day pre-approval window rather than an open-ended exemption, unless they become US-headquartered entities within that period. How this conditional framework operates in practice, and whether it is extended or made permanent, remains to be seen.",
       "sourceIds": [
-        "ae-4"
+        "ae-4",
+        "ae-5",
+        "ae-6",
+        "ae-7"
       ]
     }
   ],
@@ -265,8 +274,40 @@
       "url": "https://www.agbi.com/analysis/trade/2026/07/us-export-rules-keep-uae-in-ai-technology-slow-lane/",
       "date": "2026-07",
       "category": "news"
+    },
+    {
+      "id": "ae-6",
+      "title": "Department of Commerce Eases Export Controls for UAE",
+      "publisher": "US Bureau of Industry and Security (BIS)",
+      "url": "https://www.bis.gov/press-release/department-commerce-eases-export-controls-uae",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "ae-7",
+      "title": "Enhanced Favorable Treatment for the United Arab Emirates Under the Export Administration Regulations",
+      "publisher": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration",
+      "date": "2026-07-14",
+      "category": "government"
+    },
+    {
+      "id": "ae-8",
+      "title": "Core42 (G42's cloud and AI-infrastructure company)",
+      "publisher": "Core42",
+      "url": "https://www.core42.ai",
+      "category": "industry"
     }
   ],
   "hasMajorUpdate": true,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "AI-specific think tanks",
+      "note": "No dedicated, independent UAE-based AI-policy think tank was identified in this audit. Adjacent bodies exist — Dubai's 'Think AI' initiative (a government-EY convening on AI policy) and an Abu Dhabi 'AI Centre of Excellence' oriented more toward research and commercialization — but neither reads as a traditional policy think tank, so this may reflect a genuine gap or simply incomplete search coverage."
+    },
+    {
+      "area": "Export-control conditionality",
+      "note": "Coverage of the UAE's July 2026 export-control reclassification often describes G42's license-free access to advanced AI chips as settled, but law-firm analyses of the underlying BIS rule (Supplement No. 8 to Part 740) indicate this status for G42 and Core42 is a time-limited pre-approval window (roughly 270 days) rather than a permanent exemption, unless they become US-headquartered within that period."
+    }
+  ]
 }

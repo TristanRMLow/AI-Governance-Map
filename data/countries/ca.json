@@ -2,7 +2,7 @@
   "code": "ca",
   "name": "Canada",
   "shortName": "Canada",
-  "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+  "flagEmoji": "🇨🇦",
   "geometryType": "polygon",
   "isoA3": [
     "CAN"
@@ -19,56 +19,73 @@
     56.1
   ],
   "zoom": 3.0,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "Legislative vacuum after AIDA's death",
     "Germany-Canada Sovereign Technology Alliance and cross-border AI sovereignty",
     "Scaling 'AI for All's' ambitious 2034 adoption targets"
   ],
-  "overview": "Canada enters 2026 with considerable stated AI ambition but no comprehensive AI law. Its proposed statute, the Artificial Intelligence and Data Act (AIDA), died on the order paper at the January 2025 prorogation and was never revived. In its place, Prime Minister Mark Carney's June 2026 'AI for All' strategy commits roughly $2 billion over five years to sovereign compute, a national public supercomputer, and adoption targets that would take usage from about 12% to 60% of the economy by 2034.\n\nGovernance in the meantime runs through existing privacy, human-rights and competition law, a voluntary Code of Conduct for Generative AI, and a Directive on Automated Decision-Making that binds only federal institutions.",
+  "overview": "Canada enters 2026 with considerable stated AI ambition but no comprehensive AI law. Its proposed statute, the Artificial Intelligence and Data Act (AIDA), died on the order paper at the January 2025 prorogation and was never revived. In its place, Prime Minister Mark Carney's June 2026 'AI for All' strategy is reported (per secondary press coverage; the precise aggregate investment figure has not been independently confirmed against the primary strategy document) to commit roughly $2 billion over five years to sovereign compute, a national public supercomputer, and further funding for the federal Canadian Artificial Intelligence Safety Institute (CAISI). Separately, the Prime Minister's Office states the strategy aims to raise AI adoption from about 12% to 60% of the economy by 2034, contribute an estimated $200 billion to economic growth, and support roughly 250,000 jobs — targets that are distinct from, and considerably larger than, the ~$2B investment figure itself.\n\nGovernance in the meantime runs mainly through existing privacy, human-rights and competition law, a voluntary Code of Conduct for Generative AI, and a Directive on Automated Decision-Making that binds only federal institutions — supplemented, as of mid-2026, by two narrower AI-relevant bills: Bill C-16, which criminalizes non-consensual AI-generated deepfake intimate images and took effect July 18, 2026, and the still-pending Bill C-36, which would replace federal private-sector privacy law and touch on AI-driven automated decision-making and algorithmic pricing. Neither amounts to the comprehensive AI statute AIDA would have been.",
   "atAGlance": {
     "policyDirection": {
       "label": "Ambitious investment, no binding AI law",
       "sentiment": "green"
     },
-    "regulatoryApproach": "No comprehensive statute since AIDA died in 2025; governs via existing law plus voluntary codes",
-    "latestMajorUpdate": "'AI for All' national strategy launched \u2014 ~$2B over five years, sovereign compute build-out",
-    "governmentInvolvement": "High investment, low binding regulation \u2014 a cabinet-level AI ministry but no statute",
+    "regulatoryApproach": "No comprehensive AI statute since AIDA died in 2025; governs via existing law, voluntary codes, and narrower targeted bills such as the deepfake-focused Bill C-16 (in force since July 2026) and the still-pending Bill C-36 privacy overhaul",
+    "latestMajorUpdate": "'AI for All' national strategy launched — reported at roughly $2B over five years, sovereign compute build-out",
+    "governmentInvolvement": "High investment, low binding regulation — a dedicated AI ministerial portfolio within ISED, but no statute",
     "industrialStrategy": "Sovereign compute and a national public supercomputer under 'AI for All'",
     "internationalPartnerships": "Germany-Canada Sovereign Technology Alliance",
-    "primaryPolicyFocus": "Driving adoption from ~12% to 60% of the economy by 2034"
+    "primaryPolicyFocus": "Government-stated targets under 'AI for All': raising adoption from ~12% to 60% of the economy by 2034, an estimated $200B contribution to economic growth, and roughly 250,000 jobs"
   },
   "currentDirection": {
     "trend": "loosening",
-    "summary": "AIDA's death left Canada without a comprehensive AI statute, and 'AI for All' pairs substantial state investment with only a signal \u2014 not yet firm legislative text \u2014 toward future safety-evaluation, red-teaming and liability rules."
+    "summary": "AIDA's death left Canada without a comprehensive AI statute, and 'AI for All' pairs substantial state investment with a February 2026 government consultation summary (published by ISED and echoed by several law-firm analyses) that signals — but does not yet enact — future rules on safety evaluation, red-teaming, oversight, traceability and liability. Two narrower bills have since moved: Bill C-16, criminalizing AI-generated deepfake intimate images (in force since July 2026), and the still-pending Bill C-36 privacy overhaul — neither amounts to comprehensive AI legislation."
   },
   "recentDevelopments": [
     {
-      "text": "PM Mark Carney launches 'AI for All', a five-year, roughly $2B national AI strategy targeting a national public supercomputer and sovereign compute capacity.",
+      "text": "PM Mark Carney launches 'AI for All', a five-year national AI strategy reported at roughly $2B, targeting a national public supercomputer, sovereign compute capacity, and further funding for the Canadian Artificial Intelligence Safety Institute (CAISI).",
       "date": "2026-06-04",
       "sourceIds": [
         "ca-1"
       ],
-      "severity": "major"
+      "severity": "major",
+      "needsVerification": true
     },
     {
-      "text": "Germany\u2013Canada Sovereign Technology Alliance launched at the Munich Security Conference to reduce strategic technology dependency.",
-      "date": "2026-02",
+      "text": "Germany–Canada Sovereign Technology Alliance launched at the Munich Security Conference to reduce strategic technology dependency.",
+      "date": "2026-02-14",
       "sourceIds": [
         "ca-2"
       ]
     },
     {
-      "text": "Federal consultation summary signals future legislation on AI safety evaluation, red-teaming, oversight, traceability and liability.",
+      "text": "ISED published 'Engagements on Canada's next AI Strategy: Summary of inputs,' summarizing a 30-day national consultation (11,000+ submissions from a 28-member AI Strategy Task Force process) and signaling possible future legislation on AI safety evaluation, red-teaming, oversight, traceability and liability; the characterization is corroborated by several independent law-firm analyses.",
       "date": "2026-02",
       "sourceIds": [
+        "ca-15",
         "ca-3"
       ]
     },
     {
-      "text": "Evan Solomon confirmed as Canada's Minister of Artificial Intelligence and Digital Innovation.",
-      "date": "2025",
+      "text": "Bill C-16, the 'Protecting Victims Act,' received Royal Assent, amending the Criminal Code to criminalize non-consensual AI-generated/deepfake intimate images among broader victim-protection reforms; most provisions took effect July 18, 2026.",
+      "date": "2026-06-18",
+      "sourceIds": [
+        "ca-12"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Bill C-36, the 'Protecting Privacy and Consumer Data Act,' was tabled, proposing to replace PIPEDA, recognize privacy as a fundamental right, and directly address AI-driven automated decision-making, deepfakes, and algorithmic/surveillance pricing; it remained before Parliament as of mid-2026, with the House not returning until September 21, 2026.",
+      "date": "2026-06-15",
+      "sourceIds": [
+        "ca-13"
+      ]
+    },
+    {
+      "text": "Evan Solomon confirmed as Canada's first-ever Minister of Artificial Intelligence and Digital Innovation.",
+      "date": "2025-05",
       "sourceIds": [
         "ca-1"
       ]
@@ -85,89 +102,159 @@
     {
       "title": "AI for All national strategy",
       "status": "in_force",
-      "summary": "Five-year, ~$2B strategy across six pillars: protect, empower, drive adoption, build sovereign AI foundations, scale Canadian champions, and strengthen global partnerships.",
+      "summary": "Five-year strategy reported by secondary press coverage (IAPP and tech press summing individual funding line items) at approximately $2B, described as spanning six focus areas — protect, empower, drive adoption, build sovereign AI foundations, scale Canadian champions, and strengthen global partnerships — though the exact aggregate investment figure and full framework have not been independently confirmed against the primary strategy document. The Prime Minister's Office separately states the strategy targets raising AI adoption from about 12% to 60% of the economy by 2034, an estimated $200 billion contribution to economic growth, and roughly 250,000 jobs.",
       "officialUrl": "https://www.pm.gc.ca/en/news/news-releases/2026/06/04/prime-minister-carney-launches-ai-all-canadas-new-national-artificial",
       "sourceIds": [
         "ca-1"
-      ]
+      ],
+      "needsVerification": true
     },
     {
       "title": "Directive on Automated Decision-Making",
       "status": "in_force",
-      "summary": "Binding rules governing how federal institutions use automated decision systems; does not extend to the private sector.",
+      "summary": "Binding rules governing how federal institutions use automated decision systems; in effect since April 2019, applying to systems developed or procured after April 2020. Does not extend to the private sector.",
+      "officialUrl": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
       "sourceIds": [
-        "ca-3"
+        "ca-3",
+        "ca-9"
       ]
     },
     {
       "title": "Voluntary Code of Conduct for Generative AI",
       "status": "in_force",
-      "summary": "Non-binding commitments for generative AI developers and deployers, filling part of the gap left by AIDA's failure.",
+      "summary": "Non-binding commitments for advanced generative AI developers and deployers, published by ISED in September 2023; had 30+ signatories as of 2024, reportedly growing to more than 55 by mid-2025, though the exact current signatory count as of 2026 could not be confirmed. Fills part of the gap left by AIDA's failure.",
+      "officialUrl": "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems",
       "sourceIds": [
-        "ca-3"
+        "ca-3",
+        "ca-10"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "Bill C-16 — Protecting Victims Act",
+      "status": "in_force",
+      "summary": "Amends the Criminal Code to criminalize non-consensual distribution of AI-generated/deepfake intimate images (including 'nearly nude' depictions likely to be mistaken for real images), alongside broader victim-protection reforms; received Royal Assent June 18, 2026, with most provisions in force since July 18, 2026.",
+      "officialUrl": "https://www.justice.gc.ca/eng/csj-sjc/pl/c16/index.html",
+      "sourceIds": [
+        "ca-12"
+      ]
+    },
+    {
+      "title": "Bill C-36 — Protecting Privacy and Consumer Data Act",
+      "status": "proposed",
+      "summary": "Would replace PIPEDA with a new federal private-sector privacy framework recognizing privacy as a fundamental right, and would directly address AI-driven automated decision-making, deepfakes, and algorithmic/surveillance pricing. Tabled June 15, 2026 and still before Parliament as of mid-2026, with the House not returning until September 21, 2026.",
+      "officialUrl": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-introduces-legislation-to-protect-canadians-privacy-in-the-digital-age.html",
+      "sourceIds": [
+        "ca-13"
       ]
     },
     {
       "title": "Artificial Intelligence and Data Act (AIDA / Bill C-27)",
       "status": "repealed",
       "summary": "Canada's proposed comprehensive AI statute died on the order paper at the January 2025 prorogation and was not revived after the 2025 election.",
+      "officialUrl": "https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act",
       "sourceIds": [
-        "ca-3"
+        "ca-3",
+        "ca-11"
+      ]
+    },
+    {
+      "title": "Canadian Artificial Intelligence Safety Institute (CAISI)",
+      "status": "in_force",
+      "summary": "Federal AI safety institute launched in November 2024 with an initial ~$50M/5-year budget, delivering research via CIFAR and government-directed work via the National Research Council. It is one of the ten founding members of the International Network of AI Safety Institutes (launched November 2024), alongside Australia, the EU, France, Japan, Kenya, South Korea, Singapore, the UK and the US — note the US institute was renamed the Center for AI Standards and Innovation in mid-2025, and the UK institute the AI Security Institute in early 2025. The June 2026 'AI for All' strategy commits a further $50M to CAISI, per secondary press reporting.",
+      "officialUrl": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+      "sourceIds": [
+        "ca-8",
+        "ca-1",
+        "ca-14"
       ]
     }
   ],
   "researchEcosystem": {
-    "summary": "Canada's AI research base runs through three CIFAR-backed national institutes \u2014 Amii (Edmonton), Mila (Montreal, 1,200+ researchers) and the Vector Institute (Toronto) \u2014 under the Pan-Canadian AI Strategy, which several observers have cited as a notable concentration of academic AI research capacity relative to the country's population.",
+    "summary": "Canada's AI research base runs through three CIFAR-backed national institutes — Amii (Edmonton), Mila (Montreal, whose community Mila itself describes as 1,500+ strong as of mid-2026, with some aggregator sources citing 1,400+) and the Vector Institute (Toronto) — under the Pan-Canadian AI Strategy, which several observers have cited as a notable concentration of academic AI research capacity relative to the country's population.",
     "sourceIds": [
-      "ca-4"
+      "ca-4",
+      "ca-7"
     ]
   },
   "companies": [
     {
       "name": "Cohere",
-      "description": "Toronto-based AI lab widely regarded as one of Canada's leading large-language-model developers; announced its acquisition of Germany's Aleph Alpha in 2026.",
+      "description": "Toronto-based AI lab widely regarded as one of Canada's leading large-language-model developers; announced a merger agreement with Germany's Aleph Alpha on April 24, 2026 that would create a combined entity reported to be valued at roughly $20 billion, backed by a $600M Schwarz Group financing commitment. As of mid-2026 the deal had not yet closed, remaining subject to regulatory clearance from competition authorities in Canada, Germany and the EU, with closing expected in the second half of 2026.",
       "url": "https://cohere.com"
     },
     {
       "name": "Waabi",
-      "description": "Toronto-based autonomous trucking AI company founded by Raquel Urtasun."
+      "description": "Toronto-based autonomous-driving AI company founded by Raquel Urtasun; reported raising roughly $1 billion in January 2026 (a $750M Series C plus further milestone-based capital from Uber) and expanding from trucking into robotaxis, and in July 2026 reportedly demonstrated its AI driver transferring to a Volvo autonomous truck platform without retraining.",
+      "url": "https://waabi.ai"
     }
   ],
   "cloudInfrastructure": {
     "providers": [
       {
         "name": "AWS",
-        "description": "Major cloud provider for Canadian enterprise and public-sector AI workloads."
+        "description": "Major global hyperscaler operating two Canadian regions (Montreal and Calgary), used for Canadian enterprise and public-sector AI workloads and reportedly planning roughly $18B in Canadian investment through 2037; a Canada-specific market-share figure could not be confirmed.",
+        "url": "https://aws.amazon.com"
       },
       {
         "name": "Microsoft Azure",
-        "description": "Cloud provider with deep Canadian government and enterprise integration."
+        "description": "Major global hyperscaler operating Canada Central (Toronto) and Canada East (Quebec City) regions, with deep Canadian government and enterprise integration; a Canada-specific market-share figure could not be confirmed.",
+        "url": "https://azure.microsoft.com"
       },
       {
         "name": "Google Cloud",
-        "description": "Cloud provider used across Canadian research and enterprise AI deployments."
+        "description": "Major global hyperscaler operating two Canadian regions (Montreal, live since 2018, and Toronto, live since 2021), used across Canadian research and enterprise AI deployments; a Canada-specific market-share figure could not be confirmed.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "Oracle Cloud",
+        "description": "Operates two Canadian regions, Toronto (launched 2019) and Montreal (launched 2020); a Canada-specific market-share figure could not be confirmed.",
+        "url": "https://www.oracle.com/cloud"
+      },
+      {
+        "name": "Telus",
+        "description": "Canadian telecom building a network of 'Sovereign AI Factory' data centres under the federal Enabling Large-Scale Sovereign AI Data Centres initiative — including a Rimouski, Quebec site (opened September 2025, reportedly sold out and recognized as Canada's fastest supercomputer on the TOP500 list) and a Kamloops, BC site (reportedly up to 12,500 GPUs / 25MW, expanding through 2026) — with further BC sites planned and total capacity reportedly scaling beyond 150MW by 2032.",
+        "url": "https://www.telus.com"
+      },
+      {
+        "name": "Equinix",
+        "description": "Data-centre/colocation operator with a presence in Canada, mainly Toronto and Montreal, per market reports.",
+        "url": "https://www.equinix.com"
+      },
+      {
+        "name": "Cologix",
+        "description": "Data-centre/colocation operator with a presence in Canada, per market reports.",
+        "url": "https://www.cologix.com"
+      },
+      {
+        "name": "eStruxture Data Centres",
+        "description": "Described in industry coverage as the largest Canadian-owned/operated data-centre provider, with facilities across Montreal, Toronto, Vancouver and Calgary, per market reports.",
+        "url": "https://www.estruxture.com"
+      },
+      {
+        "name": "Digital Realty",
+        "description": "Data-centre/colocation operator with a presence in Canada, per market reports.",
+        "url": "https://www.digitalrealty.com"
+      },
+      {
+        "name": "Urbacon Data Centre Solutions",
+        "description": "Data-centre operator with a presence in Canada, per market reports.",
+        "url": "https://udcsdatacentres.com"
+      },
+      {
+        "name": "OVHcloud",
+        "description": "French cloud provider operating multiple Canadian data centres (reportedly around five, spanning Quebec and Ontario) and reported to be actively expanding its Canadian footprint to capture AI-driven demand, positioning it as a regional alternative to the hyperscalers.",
+        "url": "https://www.ovhcloud.com"
       }
     ],
-    "dominance": [
-      {
-        "provider": "AWS",
-        "share": 31
-      },
-      {
-        "provider": "Azure",
-        "share": 29
-      },
-      {
-        "provider": "Google Cloud",
-        "share": 13
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
-      "name": "Mila \u2013 Quebec AI Institute",
-      "description": "Montreal-based AI research institute with over 1,200 researchers, part of the Pan-Canadian AI Strategy.",
-      "url": "https://mila.quebec"
+      "name": "Mila – Quebec AI Institute",
+      "description": "Montreal-based AI research institute, part of the Pan-Canadian AI Strategy; reportedly numbers in the low-to-mid thousands of community members as of mid-2026, though exact figures vary (Mila materials cite 1,500+, some secondary aggregators cite 1,400+). Founded by Yoshua Bengio, who moved into a Founder and Scientific Advisor role; Hugo Larochelle (former head of Google Brain Montreal) was named Mila's Scientific Director in May 2026, per BetaKit and Mila's own announcements.",
+      "url": "https://mila.quebec",
+      "needsVerification": true
     },
     {
       "name": "Vector Institute",
@@ -190,19 +277,25 @@
   "governmentInstitutions": [
     {
       "name": "Ministry of Artificial Intelligence and Digital Innovation",
-      "description": "Cabinet-level ministry leading Canada's national AI strategy."
+      "description": "Ministerial portfolio created in May 2025 and held by Evan Solomon, Canada's first-ever Minister of Artificial Intelligence and Digital Innovation; operates within the Innovation, Science and Economic Development (ISED) departmental structure rather than as a fully separate standalone department, though it is commonly described in media coverage as Canada's AI ministry. Leads the national AI strategy including 'AI for All'."
     },
     {
       "name": "Innovation, Science and Economic Development Canada (ISED)",
       "description": "Parent department coordinating federal AI and digital innovation policy.",
       "url": "https://ised-isde.canada.ca"
+    },
+    {
+      "name": "Canadian Artificial Intelligence Safety Institute (CAISI)",
+      "description": "Federal AI safety institute launched in November 2024, led by ISED with research delivered via CIFAR and government-directed work via the National Research Council; one of ten founding members of the International Network of AI Safety Institutes (Nov 2024), alongside Australia, the EU, France, Japan, Kenya, South Korea, Singapore, the UK and the US. Received an initial ~$50M/5-year budget, with a further $50M committed under the June 2026 'AI for All' strategy. Dr. Elissa Strome (formerly of CIFAR) was appointed Executive Director in February 2025; CAISI's research program at CIFAR is reportedly co-directed by Catherine Regis (Université de Montréal/Mila) and Nicolas Papernot.",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute"
     }
   ],
   "keyPeople": [
     {
       "name": "Evan Solomon",
       "role": "Minister of Artificial Intelligence and Digital Innovation",
-      "category": "government"
+      "category": "government",
+      "url": "https://www.canada.ca/en/government/ministers/evan-solomon.html"
     },
     {
       "name": "Aidan Gomez",
@@ -216,7 +309,21 @@
       "role": "Executive Director, Global AI Risks Initiative",
       "affiliation": "CIGI",
       "category": "think_tank_leader",
-      "url": "https://www.cigionline.org"
+      "url": "https://www.cigionline.org/people/duncan-cass-beggs/"
+    },
+    {
+      "name": "Elissa Strome",
+      "role": "Executive Director",
+      "affiliation": "Canadian Artificial Intelligence Safety Institute (CAISI)",
+      "category": "government",
+      "needsVerification": true
+    },
+    {
+      "name": "Yoshua Bengio",
+      "role": "Co-President and Scientific Director, LawZero; Founder and Scientific Advisor, Mila",
+      "affiliation": "LawZero / Mila",
+      "category": "researcher",
+      "url": "https://yoshuabengio.org/en"
     }
   ],
   "influenceMap": [
@@ -239,23 +346,30 @@
     {
       "label": "CIGI",
       "type": "think_tank"
+    },
+    {
+      "label": "CAISI",
+      "type": "agency"
     }
   ],
   "debates": [
     {
       "topic": "Legislative vacuum after AIDA's death",
       "category": "government",
-      "summary": "Canada has no comprehensive AI statute after AIDA's collapse \u2014 'AI for All' invests heavily but hasn't yet been paired with binding legislation.",
-      "expanded": "AIDA would have been Canada's first comprehensive AI law, but it died on the order paper when Parliament was prorogued in January 2025 and was never revived. The February 2026 consultation summary signals the government is considering new legislation on safety evaluation, red-teaming, oversight, traceability and liability \u2014 but as of mid-2026 none of that exists in force, leaving a real gap between Canada's investment ambitions and its regulatory maturity.",
+      "summary": "Canada still has no comprehensive AI statute after AIDA's collapse. 'AI for All' invests heavily and a February 2026 government consultation summary signals possible future rules, but only two narrower, non-comprehensive bills have actually moved through Parliament so far.",
+      "expanded": "AIDA would have been Canada's first comprehensive AI law, but it died on the order paper when Parliament was prorogued in January 2025 and was never revived. In February 2026, ISED published a summary of a 30-day national AI-strategy consultation (11,000+ submissions) that several law-firm analyses describe as signaling government interest in future legislation on safety evaluation, red-teaming, oversight, traceability and liability. Since then, two narrower bills have moved: Bill C-16, which criminalizes AI-generated deepfake intimate images and has been in force since July 2026, and the still-pending Bill C-36, which would overhaul federal privacy law and touch AI-driven automated decision-making and algorithmic pricing. Neither is a comprehensive AI statute, so as of mid-2026 a real gap remains between Canada's investment ambitions and its regulatory maturity.",
       "sourceIds": [
-        "ca-3"
+        "ca-3",
+        "ca-15",
+        "ca-12",
+        "ca-13"
       ]
     },
     {
       "topic": "Germany-Canada Sovereign Technology Alliance and cross-border AI sovereignty",
       "category": "investment",
       "summary": "A new alliance with Germany, launched at the Munich Security Conference, suggests Canada is pursuing AI sovereignty partly through international partnership rather than acting alone.",
-      "expanded": "The alliance aims to reduce both countries' strategic technology dependency, notably as Canada's own Cohere moved to acquire Germany's Aleph Alpha in the same period \u2014 raising questions about what 'sovereign' AI capability means when flagship national champions are consolidating across borders.",
+      "expanded": "The alliance aims to reduce both countries' strategic technology dependency, notably as Canada's own Cohere agreed to merge with Germany's Aleph Alpha in the same period (announced April 2026, not yet closed as of mid-2026) — raising questions about what 'sovereign' AI capability means when flagship national champions are consolidating across borders.",
       "sourceIds": [
         "ca-2"
       ]
@@ -263,8 +377,8 @@
     {
       "topic": "Scaling 'AI for All's' ambitious 2034 adoption targets",
       "category": "investment",
-      "summary": "The strategy targets adoption growth from roughly 12% to 60% of the economy by 2034 \u2014 an extremely steep curve that will require sustained investment well beyond the initial five-year window.",
-      "expanded": "Independent of the legislative question, delivering on targets of this scale requires sustained compute investment, talent development, and enterprise adoption support far beyond what a single five-year, ~$2B strategy typically sustains \u2014 making the plan's multi-decade follow-through a live open question.",
+      "summary": "The Prime Minister's Office describes the strategy as targeting adoption growth from roughly 12% to 60% of the economy by 2034, alongside an estimated $200 billion contribution to economic growth and roughly 250,000 jobs — a steep curve, if the targets hold up, that would require sustained investment well beyond the initial five-year window.",
+      "expanded": "Independent of the legislative question, delivering on targets of this scale would require sustained compute investment, talent development, and enterprise adoption support well beyond what a single five-year strategy reported at roughly $2B typically sustains — making the plan's multi-decade follow-through, and the underlying adoption, growth and jobs figures themselves, live open questions worth tracking against primary government data as it becomes available.",
       "sourceIds": [
         "ca-1"
       ]
@@ -275,7 +389,8 @@
       "name": "Evan Solomon",
       "type": "person",
       "role": "Minister of Artificial Intelligence and Digital Innovation; leads 'AI for All' implementation.",
-      "category": "government"
+      "category": "government",
+      "url": "https://www.canada.ca/en/government/ministers/evan-solomon.html"
     },
     {
       "name": "Aidan Gomez",
@@ -359,8 +474,108 @@
       "url": "https://cohere.com",
       "date": "2026",
       "category": "industry"
+    },
+    {
+      "id": "ca-7",
+      "title": "Mila – Quebec AI Institute",
+      "publisher": "Mila",
+      "url": "https://mila.quebec",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ca-8",
+      "title": "Canadian Artificial Intelligence Safety Institute (CAISI)",
+      "publisher": "Innovation, Science and Economic Development Canada (ISED)",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "ca-9",
+      "title": "Directive on Automated Decision-Making",
+      "publisher": "Treasury Board of Canada Secretariat",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "date": "2019-04",
+      "category": "government"
+    },
+    {
+      "id": "ca-10",
+      "title": "Voluntary Code of Conduct on the Responsible Development and Management of Advanced Generative AI Systems",
+      "publisher": "Innovation, Science and Economic Development Canada (ISED)",
+      "url": "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems",
+      "date": "2023-09",
+      "category": "government"
+    },
+    {
+      "id": "ca-11",
+      "title": "Artificial Intelligence and Data Act (AIDA)",
+      "publisher": "Innovation, Science and Economic Development Canada (ISED)",
+      "url": "https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act",
+      "category": "government"
+    },
+    {
+      "id": "ca-12",
+      "title": "Protecting Victims Act (Bill C-16)",
+      "publisher": "Department of Justice Canada",
+      "url": "https://www.justice.gc.ca/eng/csj-sjc/pl/c16/index.html",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "ca-13",
+      "title": "Government of Canada introduces legislation to protect Canadians' privacy in the digital age (Bill C-36)",
+      "publisher": "Innovation, Science and Economic Development Canada (ISED)",
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-introduces-legislation-to-protect-canadians-privacy-in-the-digital-age.html",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "ca-14",
+      "title": "Fact Sheet: U.S. Department of Commerce & U.S. Department of State Launch the International Network of AI Safety Institutes",
+      "publisher": "NIST / U.S. Department of Commerce",
+      "url": "https://www.nist.gov/news-events/news/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+      "date": "2024-11",
+      "category": "government"
+    },
+    {
+      "id": "ca-15",
+      "title": "Engagements on Canada's next AI Strategy: Summary of inputs",
+      "publisher": "Innovation, Science and Economic Development Canada (ISED)",
+      "url": "https://ised-isde.canada.ca/site/ised/en/public-consultations/engagements-canadas-next-ai-strategy-summary-inputs",
+      "date": "2026-02",
+      "category": "government"
+    },
+    {
+      "id": "ca-16",
+      "title": "Yoshua Bengio",
+      "publisher": "Mila",
+      "url": "https://mila.quebec/en/directory/yoshua-bengio",
+      "date": "2026",
+      "category": "research"
     }
   ],
   "hasMajorUpdate": true,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "Comprehensive AI legislation",
+      "note": "Canada has no dedicated, in-force comprehensive AI statute as of mid-2026; the proposed Artificial Intelligence and Data Act (AIDA / Bill C-27) died on the order paper in January 2025 and was not revived. Governance instead relies on existing privacy, human-rights and competition law, a voluntary code of conduct for generative AI, a Directive on Automated Decision-Making that binds only federal institutions, and two narrower bills (C-16, in force; C-36, pending) that address specific AI-adjacent harms without amounting to comprehensive legislation."
+    },
+    {
+      "area": "AI regulatory enforcement",
+      "note": "No standalone federal 'AI regulator' distinct from ISED/CAISI exists; enforcement of AI-adjacent rules is currently spread across the Office of the Privacy Commissioner, human-rights bodies, and competition regulators, with a new Digital Safety and Data Protection Commission proposed but not yet enacted under the pending Bill C-36."
+    },
+    {
+      "area": "Company landscape coverage",
+      "note": "Beyond Cohere and Waabi, other Canadian AI companies described in industry coverage as notable — including Ada (Toronto customer-service AI), Coveo (Quebec enterprise AI search/agentic company), and Sanctuary AI (Vancouver humanoid robotics) — are not currently profiled here."
+    },
+    {
+      "area": "Domestic chip manufacturing",
+      "note": "No domestic semiconductor fabrication industry was identified for Canada; the country's AI compute buildout (e.g., Telus's sovereign AI data centres) appears to rely on imported GPU hardware rather than domestic chip production. Canada does have some AI chip-design activity (e.g., Tenstorrent, founded in Toronto, though now headquartered in Santa Clara, California), but design capability is distinct from — and does not offset the absence of — domestic fabrication."
+    },
+    {
+      "area": "Think tank / policy institute coverage",
+      "note": "Beyond CIGI, other Canadian institutions doing substantial AI governance work were not found profiled here, including the Schwartz Reisman Institute for Technology and Society (University of Toronto) and the Munk School of Global Affairs & Public Policy's AI Competitiveness Project, which published a 2026 report on Canadian AI sovereignty options."
+    }
+  ]
 }

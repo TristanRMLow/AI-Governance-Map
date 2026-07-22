@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Governance Map
 
-## Getting Started
+An interactive world map of AI governance: policy, regulation, key institutions, companies, and
+research ecosystems for 20 jurisdictions, plus a Compare tool for side-by-side analysis.
 
-First, run the development server:
+Each jurisdiction's data lives in `data/countries/{code}.json`, structured per `lib/types.ts`'s
+`CountryData` interface — overview, current policy direction, recent developments, companies,
+government institutions, key people, sources, and explicitly flagged `notableGaps` where the
+picture is genuinely incomplete rather than silently thin. Content is written in deliberately
+hedged, evidence-based language rather than sweeping claims — see the source-weighting note on
+each country page.
+
+## Getting started
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data integrity
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run validate-data
+```
 
-## Learn More
+Runs cheap sanity checks over every file in `data/countries/` — dangling source-ID references,
+malformed URLs, out-of-range `cloudInfrastructure.dominance` shares, missing required fields.
+This doesn't check factual accuracy, only structural integrity; `npm run build`'s TypeScript pass
+catches shape mismatches on top of this.
 
-To learn more about Next.js, take a look at the following resources:
+## Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `app/` — Next.js App Router pages (`/`, `/country/[code]`, `/compare`, `/compare/[slug]`)
+- `data/countries/` — one JSON file per jurisdiction
+- `data/comparisons/` — hand-curated Compare pairs; any other 2-3 country combination falls back
+  to `lib/buildDynamicComparison.ts`, which assembles a comparison from each country's own data
+- `components/country/`, `components/compare/` — page sections
+- `lib/types.ts` — the `CountryData` and `ComparisonData` schemas

@@ -2,14 +2,14 @@
   "code": "sa",
   "name": "Saudi Arabia",
   "shortName": "Saudi Arabia",
-  "flagEmoji": "\ud83c\uddf8\ud83c\udde6",
+  "flagEmoji": "🇸🇦",
   "geometryType": "polygon",
   "isoA3": [
     "SAU"
   ],
   "region": "Middle East",
   "jurisdictionType": "nation_state",
-  "governanceModel": "State-directed AI strategy now shifting from planning to execution",
+  "governanceModel": "State-directed AI strategy; government messaging in 2026 emphasizes execution over planning",
   "accentColor": {
     "light": "#AE976F",
     "dark": "#BDAA89"
@@ -19,28 +19,28 @@
     24.0
   ],
   "zoom": 4.8,
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 4,
   "debateTopics": [
-    "Shift from AI strategy to execution \u2014 can HUMAIN build in one year what took 20?",
+    "Shift from AI strategy to execution — can HUMAIN build in one year what took 20?",
     "Chip access as part of Gulf compute diplomacy"
   ],
-  "overview": "Saudi Arabia's Cabinet designated 2026 the 'Year of Artificial Intelligence,' marking a deliberate shift from strategy to execution of the National Strategy for Data and AI (NSDAI), led by SDAIA (the Saudi Data and AI Authority) since 2019 across six pillars: ambition, competencies, policies, investment, innovation and ecosystem.\n\nHUMAIN, established by royal directive in May 2024 as the Public Investment Fund's principal sovereign AI infrastructure vehicle, consolidated Aramco and Aramco Digital's AI assets and was approved alongside UAE's G42 in November 2025 to purchase up to 35,000 NVIDIA Blackwell chips. Recent infrastructure milestones include the Shaheen III supercomputer and the Hexagon data centre \u2014 at 480MW, described as the world's largest government data facility.",
+  "overview": "Saudi Arabia's Cabinet designated 2026 the 'Year of Artificial Intelligence,' which government statements describe as marking a shift from strategy to execution of the National Strategy for Data and AI (NSDAI), led by SDAIA (the Saudi Data and AI Authority) since 2019 across six pillars: ambition, competencies, policies, investment, innovation and ecosystem.\n\nHUMAIN, launched in May 2025 as the Public Investment Fund's principal sovereign AI infrastructure vehicle, consolidated some of Aramco Digital's AI assets at founding; Saudi Aramco separately agreed in a later, distinct transaction reported in late 2025 to acquire a significant minority stake in HUMAIN, with PIF retaining majority ownership. HUMAIN was approved alongside UAE's G42 in November 2025 to purchase up to 35,000 NVIDIA Blackwell chips. Recent infrastructure milestones include the Shaheen III supercomputer and the Hexagon data centre — at 480MW, described in Saudi state and trade press as among the world's largest government data facilities by capacity.",
   "atAGlance": {
     "policyDirection": {
       "label": "2026 declared 'Year of AI'; execution over strategy",
       "sentiment": "green"
     },
-    "regulatoryApproach": "SDAIA-led National Strategy for Data and AI; no binding AI-specific statute",
+    "regulatoryApproach": "SDAIA-led National Strategy for Data and AI; no binding AI-specific statute, though the binding Personal Data Protection Law (PDPL) — supervised by SDAIA and enforceable since September 2024 — governs data processing relevant to AI systems",
     "latestMajorUpdate": "Cabinet designates 2026 the 'Year of Artificial Intelligence'",
-    "governmentInvolvement": "Very high \u2014 state-directed strategy executed via SDAIA and PIF-backed HUMAIN",
+    "governmentInvolvement": "Very high — state-directed strategy executed via SDAIA and PIF-backed HUMAIN",
     "industrialStrategy": "HUMAIN sovereign AI infrastructure vehicle; Shaheen III supercomputer; 480MW Hexagon data centre",
     "internationalPartnerships": "Gulf compute diplomacy with the US; DISAI programme with Qualcomm",
-    "primaryPolicyFocus": "Executing at speed on existing strategy rather than passing new binding rules"
+    "primaryPolicyFocus": "Government messaging emphasizes executing at speed on existing strategy rather than passing new binding rules"
   },
   "currentDirection": {
     "trend": "stable",
-    "summary": "Saudi Arabia is not introducing new binding AI rules \u2014 it's executing on an existing strategy at unprecedented speed and scale, with HUMAIN's CEO stating a goal of building in one year what took two decades previously."
+    "summary": "Saudi Arabia does not appear to be introducing new binding AI rules; instead, government statements have emphasized rapid execution of its existing strategy, with HUMAIN CEO Tareq Amin stating a goal of building in one year what previously took two decades."
   },
   "recentDevelopments": [
     {
@@ -59,7 +59,7 @@
       "severity": "major"
     },
     {
-      "text": "Shaheen III supercomputer and the 480MW Hexagon data centre \u2014 described as the world's largest government data facility \u2014 mark major infrastructure milestones.",
+      "text": "Shaheen III supercomputer and the 480MW Hexagon data centre — described as the world's largest government data facility — mark major infrastructure milestones.",
       "date": "2026",
       "sourceIds": [
         "sa-1"
@@ -89,10 +89,18 @@
       "sourceIds": [
         "sa-1"
       ]
+    },
+    {
+      "title": "Personal Data Protection Law (PDPL)",
+      "status": "in_force",
+      "summary": "Saudi Arabia's binding legal framework most relevant to AI-related data governance; enacted by Royal Decree M/19 (2021), amended by Royal Decree M/148 (2023), and fully enforceable since 14 September 2024. Supervised by SDAIA, which issued 48 enforcement decisions in its first year.",
+      "sourceIds": [
+        "sa-5"
+      ]
     }
   ],
   "researchEcosystem": {
-    "summary": "Saudi AI infrastructure investment \u2014 the Shaheen III supercomputer and the Hexagon data centre \u2014 has outpaced distinct academic AI research institute-building, though KAUST (King Abdullah University of Science and Technology) remains the country's leading research university with a growing AI programme.",
+    "summary": "Saudi AI infrastructure investment — including the Shaheen III supercomputer and the Hexagon data centre — appears to have outpaced distinct academic AI research institute-building. KAUST (King Abdullah University of Science and Technology) remains the country's leading research university and hosts Shaheen III, though the scope of any dedicated AI research programme there has not been independently verified beyond this.",
     "sourceIds": [
       "sa-1"
     ]
@@ -100,49 +108,47 @@
   "companies": [
     {
       "name": "HUMAIN",
-      "description": "Public Investment Fund's principal sovereign AI infrastructure vehicle, established by royal directive in May 2024, consolidating Aramco and Aramco Digital's AI assets.",
-      "url": "https://vision2030.ai/analysis/humain/"
+      "description": "Public Investment Fund's principal sovereign AI infrastructure vehicle, launched in May 2025 and consolidating some of Saudi Aramco and Aramco Digital's AI assets.",
+      "url": "https://humain.ai"
     },
     {
       "name": "Aramco Digital",
-      "description": "Digital and AI arm of Saudi Aramco."
+      "description": "Digital and AI arm of Saudi Aramco. Some of its AI assets were reportedly consolidated into HUMAIN at HUMAIN's May 2025 founding; whether Aramco Digital continues to operate as a fully distinct entity or has been substantially folded into HUMAIN is unclear from available sources."
     }
   ],
   "cloudInfrastructure": {
     "providers": [
       {
         "name": "HUMAIN Cloud",
-        "description": "Saudi sovereign AI cloud and compute infrastructure."
+        "description": "Newly launched (2025) Saudi sovereign AI cloud and compute venture under HUMAIN; its scale of adoption relative to established providers has not been independently verified.",
+        "url": "https://humain.ai"
       },
       {
-        "name": "AWS",
-        "description": "Major cloud provider for Saudi enterprise AI workloads."
+        "name": "Oracle Cloud Infrastructure",
+        "description": "Live public cloud regions in Jeddah (since 2020) and Riyadh (since October 2024), with a further expansion (reported at over $14B) announced in 2025.",
+        "url": "https://www.oracle.com/sa/cloud/public-cloud-regions/"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Operates a live cloud region from Dammam."
       },
       {
         "name": "Microsoft Azure",
-        "description": "Cloud provider with significant Saudi government and enterprise integration."
+        "description": "Reportedly has significant Saudi government and enterprise integration; a dedicated 'Saudi Arabia East' region has been announced but, per public reporting, was not expected to launch until Q4 2026."
+      },
+      {
+        "name": "AWS",
+        "description": "Reportedly active in Saudi enterprise AI workloads; general availability of a dedicated Saudi region has not been independently confirmed as of mid-2026."
       }
     ],
-    "dominance": [
-      {
-        "provider": "HUMAIN Cloud",
-        "share": 26
-      },
-      {
-        "provider": "AWS",
-        "share": 24
-      },
-      {
-        "provider": "Azure",
-        "share": 22
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
       "name": "KAUST",
-      "description": "King Abdullah University of Science and Technology \u2014 Saudi Arabia's leading research university, with a growing AI research programme.",
-      "url": "https://www.kaust.edu.sa"
+      "description": "King Abdullah University of Science and Technology — Saudi Arabia's leading research university, and home to the Shaheen III supercomputer (confirmed as the Middle East's most powerful, ranked 18th on the Top500 list as of November 2025). The scale and scope of any distinct, dedicated AI research programme has not been independently verified.",
+      "url": "https://www.kaust.edu.sa",
+      "needsVerification": true
     }
   ],
   "thinkTanks": [],
@@ -158,7 +164,14 @@
       "name": "Abdullah Alghamdi",
       "role": "President",
       "affiliation": "SDAIA",
-      "category": "government"
+      "category": "government",
+      "url": "https://sdaia.gov.sa/en/Contact/Pages/ContactPresident.aspx"
+    },
+    {
+      "name": "Tareq Amin",
+      "role": "Chief Executive Officer",
+      "affiliation": "HUMAIN",
+      "category": "company_leader"
     }
   ],
   "influenceMap": [
@@ -177,10 +190,10 @@
   ],
   "debates": [
     {
-      "topic": "Shift from AI strategy to execution \u2014 can HUMAIN build in one year what took 20?",
+      "topic": "Shift from AI strategy to execution — can HUMAIN build in one year what took 20?",
       "category": "investment",
-      "summary": "HUMAIN's leadership has publicly set a goal of building in a single year what previously took two decades \u2014 an extremely aggressive execution timeline.",
-      "expanded": "Consolidating Aramco's AI assets under HUMAIN and pairing that with major compute purchases and record-scale data-centre construction represents a genuine bet that state-directed speed can compress normal AI infrastructure build-out timelines. Whether the ambition matches deliverable capability \u2014 rather than just headline infrastructure statistics \u2014 is the open question.",
+      "summary": "HUMAIN's leadership has publicly set a goal of building in a single year what previously took two decades — a timeline that industry observers have generally characterized as extremely aggressive.",
+      "expanded": "Consolidating some of Aramco's AI assets under HUMAIN, alongside large compute purchases and one of the region's largest data-centre construction projects, reflects a bet that state-directed speed can compress typical AI infrastructure build-out timelines. Whether execution matches the ambition — rather than just headline infrastructure statistics — remains an open question, and independent assessment of progress against the stated one-year goal is not yet available.",
       "sourceIds": [
         "sa-2"
       ]
@@ -188,8 +201,8 @@
     {
       "topic": "Chip access as part of Gulf compute diplomacy",
       "category": "security",
-      "summary": "Saudi Arabia's chip access, like the UAE's, depends on ongoing US diplomatic approval rather than settled trade policy.",
-      "expanded": "The November 2025 approval for HUMAIN (alongside G42) to purchase advanced NVIDIA chips followed direct diplomatic engagement, including a Saudi Crown Prince visit. This makes Saudi Arabia's compute access a function of bilateral relations as much as commercial terms \u2014 a dependency that could shift with US political change.",
+      "summary": "Saudi Arabia's access to advanced AI chips, like the UAE's, appears to depend on case-by-case US diplomatic approval rather than settled, general trade policy.",
+      "expanded": "The November 2025 approval for HUMAIN (alongside G42) to purchase advanced NVIDIA chips followed direct diplomatic engagement, including a Saudi Crown Prince visit. This suggests Saudi Arabia's compute access may be a function of bilateral relations as much as commercial terms — a dependency that could shift with US political change.",
       "sourceIds": [
         "sa-2"
       ]
@@ -201,14 +214,15 @@
       "type": "person",
       "role": "SDAIA President; leads the National Strategy for Data and AI.",
       "category": "government",
-      "affiliation": "SDAIA"
+      "affiliation": "SDAIA",
+      "url": "https://sdaia.gov.sa/en/Contact/Pages/ContactPresident.aspx"
     },
     {
       "name": "HUMAIN",
       "type": "organization",
-      "role": "PIF's principal sovereign AI infrastructure vehicle, consolidating Aramco's AI assets.",
+      "role": "PIF's principal sovereign AI infrastructure vehicle, consolidating some of Aramco's AI assets.",
       "category": "company",
-      "url": "https://vision2030.ai/analysis/humain/"
+      "url": "https://humain.ai"
     }
   ],
   "knowledgeHub": [
@@ -249,6 +263,22 @@
       "url": "https://www.spa.gov.sa/en/N2546742",
       "date": "2026",
       "category": "government"
+    },
+    {
+      "id": "sa-4",
+      "title": "HRH Crown Prince launches HUMAIN as global AI powerhouse",
+      "publisher": "Public Investment Fund (PIF)",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/hrh-crown-prince-launches-humain-as-global-ai-powerhouse",
+      "date": "2025-05",
+      "category": "government"
+    },
+    {
+      "id": "sa-5",
+      "title": "Saudi Arabia's Personal Data Protection Law becomes enforceable",
+      "publisher": "Clyde & Co",
+      "url": "https://www.clydeco.com/en/insights/2024/09/saudi-arabia-s-personal-data-protection-law-become",
+      "date": "2024-09",
+      "category": "expert_commentary"
     }
   ],
   "hasMajorUpdate": true,

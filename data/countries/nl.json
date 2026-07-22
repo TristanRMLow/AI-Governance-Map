@@ -2,14 +2,14 @@
   "code": "nl",
   "name": "Netherlands",
   "shortName": "Netherlands",
-  "flagEmoji": "\ud83c\uddf3\ud83c\uddf1",
+  "flagEmoji": "🇳🇱",
   "geometryType": "polygon",
   "isoA3": [
     "NLD"
   ],
   "region": "Europe",
   "jurisdictionType": "nation_state",
-  "governanceModel": "Active AI diplomacy paired with new domestic AI Act implementation under a decentralized regulator model",
+  "governanceModel": "Active AI diplomacy paired with a proposed domestic AI Act implementation law that would establish a decentralized, multi-regulator model coordinated by the data protection and digital infrastructure authorities",
   "accentColor": {
     "light": "#508B9B",
     "dark": "#6BA3B3"
@@ -19,49 +19,73 @@
     52.1
   ],
   "zoom": 6.3,
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 4,
   "debateTopics": [
     "Diplomatic activity without a domestic AI champion",
     "Dutch AI Implementation Act consultation"
   ],
-  "overview": "Following the formation of the Jetten cabinet (D66, VVD and CDA) on 23 February 2026, the Netherlands has continued to position itself as an active diplomatic voice on AI even without a flagship national AI lab of its own. In July 2026 it submitted an International AI Strategy to parliament \u2014 built on diplomatic effort, new coalitions, and strengthening European AI capacity \u2014 led by State Secretary for Digital Economy and Sovereignty Willemijn Aerdts (Ministry of Economic Affairs and Climate) alongside the Ministers of Foreign Affairs and Foreign Trade.\n\nDomestically, Aerdts also put a Dutch AI Implementation Act out for public consultation in April 2026 \u2014 legislation intended to transpose EU AI Act supervision and enforcement obligations into Dutch national law via a decentralized model of sectoral regulators, rather than a single dedicated AI authority. A significant AI-adjacent industrial asset is ASML, whose lithography machines are essential to the global AI chip supply chain, even though ASML itself isn't an AI company.",
+  "overview": "Following the formation of the Jetten cabinet (D66, VVD and CDA) on 23 February 2026, the Netherlands has continued to position itself as an active voice in AI diplomacy, notwithstanding the absence of a large commercial frontier AI lab of its own -- a gap only partly offset by government-backed efforts such as TNO's GPT-NL sovereign language model project. In July 2026 it submitted an International AI Strategy to parliament — built on diplomatic effort, new coalitions, and strengthening European AI capacity — led by State Secretary for Digital Economy and Sovereignty Willemijn Aerdts (Ministry of Economic Affairs and Climate) alongside the Ministers of Foreign Affairs and of Foreign Trade and Development Cooperation.\n\nDomestically, Aerdts also put a Dutch AI Implementation Act out for public consultation in April 2026 — legislation intended to transpose EU AI Act supervision and enforcement obligations into Dutch national law via a decentralized model of sectoral regulators, rather than a single dedicated AI authority. A notable AI-adjacent industrial asset is ASML, whose lithography machines are widely considered essential to the global AI chip supply chain, even though ASML itself isn't an AI company. The country also has an earlier domestic AI-strategy lineage predating these 2026 measures, including a 2019 national AI action plan later folded into successive digitalisation strategies.",
   "atAGlance": {
     "policyDirection": {
-      "label": "Diplomatic leadership, thin domestic industry",
+      "label": "Active AI diplomacy, limited domestic commercial AI industry",
       "sentiment": "blue"
     },
     "regulatoryApproach": "EU AI Act member state; national Implementation Act in public consultation",
     "latestMajorUpdate": "International AI Strategy submitted to parliament",
-    "governmentInvolvement": "Active diplomatic leadership paired with a new domestic transposition law",
-    "industrialStrategy": "No flagship national AI champion; strength concentrated in ASML's chip-supply-chain role",
-    "internationalPartnerships": "Leads coalition-building on European AI capacity; International AI Strategy diplomacy",
+    "governmentInvolvement": "Active diplomatic engagement paired with a new domestic transposition law",
+    "industrialStrategy": "No large commercial frontier AI lab identified; notable strength in ASML's chip-supply-chain role, alongside emerging state-backed efforts such as GPT-NL",
+    "internationalPartnerships": "Recent government statements emphasize coalition-building on European AI capacity, per its International AI Strategy",
     "primaryPolicyFocus": "Transposing the EU AI Act into Dutch law via the AI Implementation Act"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "The Netherlands is moving from diplomatic AI strategy toward concrete domestic implementation \u2014 its AI Implementation Act would formally transpose EU AI Act obligations into Dutch law, adding a national compliance layer that didn't exist before."
+    "summary": "The Netherlands appears to be moving from diplomatic AI strategy toward more concrete domestic implementation — its proposed AI Implementation Act, still in the consultation stage, would formally transpose EU AI Act obligations into Dutch law, adding a national compliance layer that didn't exist before."
   },
   "recentDevelopments": [
     {
-      "text": "International AI Strategy submitted to parliament, led by State Secretary Willemijn Aerdts alongside the Ministers of Foreign Affairs and Foreign Trade.",
+      "text": "International AI Strategy submitted to parliament, led by State Secretary Willemijn Aerdts alongside the Ministers of Foreign Affairs and of Foreign Trade and Development Cooperation.",
       "date": "2026-07-03",
       "sourceIds": [
         "nl-1"
       ]
     },
     {
-      "text": "Dutch AI Implementation Act submitted for public consultation \u2014 the national legislation implementing the EU AI Act.",
+      "text": "Dutch AI Implementation Act submitted for public consultation — the national legislation implementing the EU AI Act.",
       "date": "2026-04-20",
       "sourceIds": [
-        "nl-1"
+        "nl-1",
+        "nl-6"
       ]
     },
     {
-      "text": "Dutch AI startup ecosystem reaches 840+ startups and 23 scale-ups (four unicorns), with \u20ac1.8B in VC funding into Dutch AI startups in 2025 \u2014 up 52% versus 2023.",
+      "text": "Dutch AI startup ecosystem reaches 840+ startups and 23 scale-ups (four unicorns), with €1.8B in VC funding into Dutch AI startups in 2025 — up 52% versus 2023, per one industry compilation; the startup/scale-up/unicorn counts are broadly consistent with other trackers, though the precise funding figures are not independently corroborated.",
       "date": "2025",
       "sourceIds": [
         "nl-2"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "ASML twice raised its 2026 revenue guidance (now €43–45bn) amid surging AI-driven chip demand, and outlined plans to expand manufacturing capacity by roughly 30% in each of the next two years.",
+      "date": "2026-07",
+      "sourceIds": [
+        "nl-3"
+      ]
+    },
+    {
+      "text": "GPT-NL, a government-backed sovereign Dutch-language model built by TNO, SURF and the Netherlands Forensic Institute (€13.5m Ministry of Economic Affairs investment, administered by RVO), moves into live municipal testing, with broader rollout planned for H2 2026.",
+      "date": "2026-01",
+      "sourceIds": [
+        "nl-4"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "AI Factory Groningen, a reported €200m sovereign AI-compute/supercomputer initiative under AIC4NL's investment agenda with a stated European digital-sovereignty-hub designation, is due to begin operating in 2026 and reach full capacity in 2027.",
+      "date": "2026",
+      "sourceIds": [
+        "nl-5"
       ],
       "needsVerification": true
     }
@@ -70,15 +94,17 @@
     {
       "title": "Dutch AI Implementation Act",
       "status": "proposed",
-      "summary": "Submitted for public consultation in April 2026, this is the legislation that would formally implement EU AI Act obligations into Dutch national law.",
+      "summary": "Put out for public consultation from 20 April to 1 June 2026, this legislation would formally implement EU AI Act supervision and enforcement obligations into Dutch national law via a decentralized model of sectoral regulators, coordinated by the Data Protection Authority (AP) and the Authority for Digital Infrastructure (RDI) -- with RDI also expected to serve as the Single Point of Contact under AI Act Article 70(2). Reporting indicates the model involves several additional sectoral/domain market surveillance authorities alongside AP and RDI, rather than those two bodies acting alone.",
+      "officialUrl": "https://www.nldigitalgovernment.nl/news/consultation-on-dutch-ai-act-implementation-bill-now-open/",
       "sourceIds": [
-        "nl-1"
+        "nl-1",
+        "nl-6"
       ]
     },
     {
       "title": "International AI Strategy",
       "status": "in_force",
-      "summary": "A three-pillar strategy \u2014 diplomatic effort, new coalitions and partnerships, and strengthening European AI capacity \u2014 submitted to parliament in July 2026.",
+      "summary": "A three-pillar strategy — diplomatic effort, new coalitions and partnerships, and strengthening European AI capacity — submitted to parliament in July 2026. As a diplomatic strategy document rather than binding legislation, its formal legal status differs from measures like the AI Implementation Act, and the 'in force' label here should be read loosely.",
       "officialUrl": "https://www.government.nl/latest/news/2026/07/03/international-strategy-for-safe-and-responsible-ai-transition",
       "sourceIds": [
         "nl-1"
@@ -86,7 +112,7 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "Dutch AI research centres on the University of Amsterdam \u2014 host to ELLIS Unit Amsterdam and the Institute for Logic, Language and Computation \u2014 alongside TU Delft and Eindhoven University of Technology, feeding a startup ecosystem concentrated in Amsterdam (380+ startups), Eindhoven (120+) and Delft (85+).",
+    "summary": "Dutch AI research is prominent at the University of Amsterdam — host, jointly with VU Amsterdam and CWI, to ELLIS Unit Amsterdam, and home to the Institute for Logic, Language and Computation — alongside TU Delft and Eindhoven University of Technology, feeding a startup ecosystem that one industry compilation estimates as concentrated in Amsterdam (380+ startups), Eindhoven (120+) and Delft (85+).",
     "sourceIds": [
       "nl-2"
     ]
@@ -94,52 +120,76 @@
   "companies": [
     {
       "name": "ASML",
-      "description": "Dutch maker of the extreme ultraviolet lithography machines essential to producing the world's most advanced AI chips \u2014 critical infrastructure rather than an AI company itself.",
+      "description": "Dutch maker of the extreme ultraviolet lithography machines essential to producing the world's most advanced AI chips — critical infrastructure rather than an AI company itself.",
       "url": "https://www.asml.com"
     },
     {
-      "name": "Sentient Machine",
-      "description": "Dutch industrial computer-vision AI company."
+      "name": "Xomnia",
+      "description": "Dutch AI and data consultancy; appointed a new CEO, Stephan Hartgers, in 2026 with a strategic focus on agentic and 'sovereign AI' offerings.",
+      "url": "https://xomnia.com"
     },
     {
-      "name": "Xomnia",
-      "description": "Dutch AI and data consultancy."
+      "name": "Weaviate",
+      "description": "Amsterdam-headquartered open-source AI-native vector database company; reported to have raised a Series C at roughly a $200m valuation in late 2025, with a new strategic investment from Ricoh announced in March 2026.",
+      "url": "https://weaviate.io"
+    },
+    {
+      "name": "DataSnipper",
+      "description": "Amsterdam-based AI audit-automation company reported to have reached a $1bn valuation via a $100m Series B (2024), with an ongoing Microsoft partnership on AI audit agents launched in 2025 and continuing into 2026 — one of the AI-related unicorns referenced in industry startup counts for the Netherlands.",
+      "url": "https://www.datasnipper.com"
+    },
+    {
+      "name": "Prosus",
+      "description": "Amsterdam-headquartered global technology investor; launched an 'AI House Amsterdam' innovation hub in 2025 and reports over $100M/year in AI investment with 750+ AI specialists globally, though its focus is not exclusively domestic.",
+      "url": "https://www.prosus.com"
     }
   ],
   "cloudInfrastructure": {
     "providers": [
       {
         "name": "Microsoft Azure",
-        "description": "Leading cloud provider for Dutch enterprise AI workloads."
+        "description": "Hyperscaler reported to have made significant Dutch investments, including a Pure DC-leased Amsterdam data centre reported at over €1bn (construction started January 2026) and a campus at Agriport A7/Middenmeer estimated at up to €2bn when complete; widely used for Dutch enterprise AI workloads. These figures were not independently re-verified in this audit pass.",
+        "url": "https://azure.microsoft.com"
       },
       {
         "name": "AWS",
-        "description": "Major cloud provider with significant Dutch data-centre presence."
+        "description": "Major hyperscaler reported to have committed more than $1.6bn to Dutch cloud infrastructure and Amazon's broader Dutch digital-commerce ecosystem over 2025-2027, announced October 2025.",
+        "url": "https://aws.amazon.com"
       },
       {
         "name": "Google Cloud",
-        "description": "Cloud provider used across Dutch research and enterprise AI."
+        "description": "Hyperscaler reported to have invested roughly €3.8bn cumulatively across its Dutch data-centre footprint (Eemshaven, Middenmeer, Winschoten) built up since 2016, plus a further €600m+ Westpoort (Groningen) expansion announced in 2024. These figures were not independently re-verified in this audit pass.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "Equinix",
+        "description": "Colocation operator with a longstanding Dutch presence reported to include facilities in Amsterdam and elsewhere in the country; identified in 2025-2026 market reports among the leading data-centre operators in the Netherlands by capacity.",
+        "url": "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation"
+      },
+      {
+        "name": "Digital Realty",
+        "description": "Colocation/data-centre operator identified in some 2025-2026 market reports alongside Equinix among the leading operators in the Netherlands by capacity, though its Netherlands presence is referenced mainly via third-party market reports rather than a dedicated Digital Realty Netherlands page."
+      },
+      {
+        "name": "EdgeConneX",
+        "description": "Colocation operator identified in 2026 Netherlands data-centre market reports, alongside Equinix and Digital Realty, among leading providers by white-floor area/IT load."
+      },
+      {
+        "name": "NTT DATA",
+        "description": "Colocation/data-centre operator identified in 2026 Netherlands data-centre market reports among leading providers by white-floor area/IT load."
+      },
+      {
+        "name": "Oracle",
+        "description": "Committed roughly $1bn to Dutch AI and cloud capacity (part of a combined $3bn Germany+Netherlands package announced July 2025), per 2026 reporting.",
+        "url": "https://www.oracle.com/news/announcement/oracle-invests-one-billion-dollars-in-ai-and-cloud-infrastructure-2025-07-15/"
       }
     ],
-    "dominance": [
-      {
-        "provider": "Azure",
-        "share": 29
-      },
-      {
-        "provider": "AWS",
-        "share": 28
-      },
-      {
-        "provider": "Google Cloud",
-        "share": 14
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
       "name": "University of Amsterdam",
-      "description": "The Netherlands' leading AI research university, host to ELLIS Unit Amsterdam.",
+      "description": "A leading Dutch AI research university, host jointly with VU Amsterdam and CWI to ELLIS Unit Amsterdam.",
       "url": "https://www.uva.nl"
     },
     {
@@ -153,15 +203,58 @@
       "url": "https://www.tue.nl"
     }
   ],
-  "thinkTanks": [],
+  "thinkTanks": [
+    {
+      "name": "Rathenau Instituut",
+      "description": "Dutch research institute carrying out substantive AI-policy work, including analysis of generative AI risks and AI in healthcare policy.",
+      "url": "https://www.rathenau.nl"
+    },
+    {
+      "name": "Clingendael Institute",
+      "description": "Dutch foreign-affairs think tank publishing on AI diplomacy and 'trusted AI partnerships', directly relevant to the International AI Strategy.",
+      "url": "https://www.clingendael.org"
+    },
+    {
+      "name": "Hague Centre for Strategic Studies (HCSS)",
+      "description": "Strategic-studies think tank serving as secretariat for the Dutch government-launched Global Commission on Responsible AI in the Military Domain (GC REAIM).",
+      "url": "https://hcss.nl"
+    }
+  ],
   "governmentInstitutions": [
     {
-      "name": "Ministry of Economic Affairs \u2014 Digital Economy and Sovereignty",
-      "description": "Leads Dutch domestic AI policy and the AI Implementation Act, under State Secretary Willemijn Aerdts."
+      "name": "Ministry of Economic Affairs and Climate — Digital Economy and Sovereignty",
+      "description": "Leads Dutch domestic AI policy and the AI Implementation Act, under State Secretary Willemijn Aerdts.",
+      "url": "https://www.government.nl/ministries/ministry-of-economic-affairs-and-climate"
     },
     {
       "name": "Ministry of Foreign Affairs",
-      "description": "Co-leads the International AI Strategy's diplomatic pillar."
+      "description": "Co-leads the International AI Strategy's diplomatic pillar, alongside the Minister for Foreign Trade and Development Cooperation and the State Secretary for Digital Economy and Sovereignty.",
+      "url": "https://www.government.nl/ministries/ministry-of-foreign-affairs"
+    },
+    {
+      "name": "Dutch Data Protection Authority (Autoriteit Persoonsgegevens, AP)",
+      "description": "Expected to co-coordinate AI Act supervision and enforcement under the proposed Dutch AI Implementation Act, alongside the Authority for Digital Infrastructure and a number of sectoral market surveillance authorities.",
+      "url": "https://www.autoriteitpersoonsgegevens.nl"
+    },
+    {
+      "name": "Authority for Digital Infrastructure (Rijksinspectie Digitale Infrastructuur, RDI)",
+      "description": "Renamed from Agentschap Telecom in January 2023; expected to serve as the Single Point of Contact under AI Act Article 70(2) and to co-coordinate AI Act supervision under the proposed Implementation Act.",
+      "url": "https://www.rdi.nl"
+    },
+    {
+      "name": "AI Coalition 4 NL (AIC4NL)",
+      "description": "The country's main public-private AI partnership, formed by the January 2025 merger of the Netherlands AI Coalition and AiNed; several hundred member organisations, and the umbrella for initiatives including the AI Factory Groningen compute project.",
+      "url": "https://aic4nl.nl"
+    },
+    {
+      "name": "Netherlands Enterprise Agency (RVO)",
+      "description": "Administers government AI funding on behalf of the Ministry of Economic Affairs and Climate, including GPT-NL's development funding.",
+      "url": "https://www.rvo.nl"
+    },
+    {
+      "name": "Dutch Research Council (NWO)",
+      "description": "Administers the AiNed programme's National Growth Fund allocation (€276m, 2021-2027) supporting Dutch AI research and talent.",
+      "url": "https://www.nwo.nl"
     }
   ],
   "keyPeople": [
@@ -169,7 +262,13 @@
       "name": "Willemijn Aerdts",
       "role": "State Secretary for Digital Economy and Sovereignty",
       "category": "government",
-      "url": "https://www.government.nl"
+      "url": "https://www.government.nl/government/members-of-cabinet/willemijn-aerdts"
+    },
+    {
+      "name": "Max Welling",
+      "role": "University of Amsterdam professor, head of the Amsterdam Machine Learning Lab, ELLIS co-founder and CuspAI co-founder; named the Dutch AI Award's most influential contributor to the Dutch AI ecosystem in March 2026.",
+      "category": "researcher",
+      "url": "https://www.uva.nl/en/profile/w/e/m.welling/m.welling.html"
     }
   ],
   "influenceMap": [
@@ -192,21 +291,24 @@
   ],
   "debates": [
     {
-      "topic": "Diplomatic leadership without a domestic AI champion",
+      "topic": "Diplomatic activity without a domestic AI champion",
       "category": "government",
-      "summary": "The Netherlands punches above its weight in AI diplomacy but has no flagship frontier lab comparable to Mistral or Google DeepMind.",
-      "expanded": "The International AI Strategy positions the Netherlands as a coalition-builder and European AI capacity advocate, a role that doesn't require a domestic frontier lab. But it does raise the question of whether diplomatic leadership without commensurate domestic industrial capability is sustainable long-term, especially as neighbouring countries invest heavily in sovereign compute and national champions.",
+      "summary": "The Netherlands has positioned itself as an active participant in AI diplomacy relative to its size, though it lacks a frontier AI lab comparable to France's Mistral AI or Google DeepMind — a gap only partly offset by state-backed efforts such as TNO's GPT-NL sovereign language model project.",
+      "expanded": "The International AI Strategy positions the Netherlands as a coalition-builder and European AI capacity advocate, a role that doesn't require a domestic frontier lab. Some analysts have raised the question of whether sustained diplomatic activity without commensurate domestic industrial capability is sustainable long-term, especially as neighbouring countries invest heavily in sovereign compute and national champions. The Dutch government has begun addressing this partly through initiatives such as TNO's GPT-NL sovereign language model (which entered live municipal testing in early 2026) and the public-private AI Coalition 4 NL (AIC4NL) partnership, though it remains unclear whether these will meaningfully shift the country's overall industrial position.",
       "sourceIds": [
-        "nl-1"
+        "nl-1",
+        "nl-4",
+        "nl-5"
       ]
     },
     {
       "topic": "Dutch AI Implementation Act consultation",
       "category": "government",
-      "summary": "The consultation on national AI Act implementation legislation will determine what Dutch-specific obligations sit atop the EU-wide baseline.",
-      "expanded": "Like other member states, the Netherlands must designate national competent authorities and decide on enforcement mechanics for the AI Act. The Implementation Act consultation is where Dutch-specific choices \u2014 sanctions levels, sandbox design, sector-specific carve-outs \u2014 will be made.",
+      "summary": "The public consultation on national AI Act implementation legislation is expected to determine what Dutch-specific obligations sit atop the EU-wide baseline.",
+      "expanded": "Like other member states, the Netherlands must designate national competent authorities and decide on enforcement mechanics for the AI Act. The Implementation Act consultation (which ran from 20 April to 1 June 2026) is where Dutch-specific choices — sanctions levels, sandbox design, sector-specific carve-outs — are expected to be settled, ahead of formal adoption.",
       "sourceIds": [
-        "nl-1"
+        "nl-1",
+        "nl-6"
       ]
     }
   ],
@@ -216,12 +318,19 @@
       "type": "person",
       "role": "State Secretary for Digital Economy and Sovereignty; leads both the International AI Strategy and the Implementation Act.",
       "category": "government",
-      "url": "https://www.government.nl"
+      "url": "https://www.government.nl/government/members-of-cabinet/willemijn-aerdts"
+    },
+    {
+      "name": "Max Welling",
+      "type": "person",
+      "role": "University of Amsterdam professor, ELLIS co-founder and CuspAI co-founder; named the Dutch AI Award's most influential contributor to the Dutch AI ecosystem in March 2026.",
+      "category": "researcher",
+      "url": "https://www.uva.nl/en/profile/w/e/m.welling/m.welling.html"
     },
     {
       "name": "University of Amsterdam AI research",
       "type": "organization",
-      "role": "Home of ELLIS Unit Amsterdam and the Institute for Logic, Language and Computation.",
+      "role": "Home, jointly with VU Amsterdam and CWI, of ELLIS Unit Amsterdam, and of the Institute for Logic, Language and Computation.",
       "category": "university",
       "url": "https://www.uva.nl"
     }
@@ -249,11 +358,11 @@
     },
     {
       "id": "nl-2",
-      "title": "Dutch AI startup ecosystem overview",
-      "publisher": "industry reporting",
-      "url": "https://www.uva.nl",
+      "title": "AI in the Netherlands Statistics 2026",
+      "publisher": "Searchlab",
+      "url": "https://www.searchlab.nl",
       "date": "2026",
-      "category": "research"
+      "category": "industry"
     },
     {
       "id": "nl-3",
@@ -262,8 +371,57 @@
       "url": "https://www.asml.com",
       "date": "2026",
       "category": "industry"
+    },
+    {
+      "id": "nl-4",
+      "title": "GPT-NL: Dutch sovereign AI language model",
+      "publisher": "TNO",
+      "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "nl-5",
+      "title": "AI Coalition 4 NL (AIC4NL)",
+      "publisher": "AIC4NL",
+      "url": "https://aic4nl.nl/en/",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "nl-6",
+      "title": "Consultation on Dutch AI Act implementation bill",
+      "publisher": "nldigitalgovernment.nl",
+      "url": "https://www.nldigitalgovernment.nl/news/consultation-on-dutch-ai-act-implementation-bill-now-open/",
+      "date": "2026-04",
+      "category": "government"
+    },
+    {
+      "id": "nl-7",
+      "title": "UK Sovereign AI Fund & Bezos Backs CuspAI in £335M Series B Funding",
+      "publisher": "digit.fyi",
+      "url": "https://www.digit.fyi/uk-sovereign-ai-fund-bezos-backs-cuspai-in-335m-series-b-funding/",
+      "date": "2026-07-20",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": false,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "Pre-2026 domestic AI strategy lineage",
+      "note": "Beyond the 2026 International AI Strategy and AI Implementation Act, the Netherlands has an earlier domestic AI-strategy lineage: a 2019 Strategic Action Plan for Artificial Intelligence, later folded into the 2021 Digitalisation Strategy, 2022 Value-Driven Digitalisation Work Agenda and 2023 Digital Economy Strategy, plus the AiNed programme (€276m from the National Growth Fund, with its funding body NWO describing the programme as spanning 2021-2027). This file's policy sections focus on the 2026 measures and could otherwise leave an incomplete picture of the country's longer AI-policy history."
+    },
+    {
+      "area": "Dedicated AI safety institute",
+      "note": "No dedicated Dutch government AI safety institute comparable to the UK's AI Security Institute currently exists; several civil-society groups (e.g. Safe AI Netherlands) are active but none is a formal government body. Notably, the July 2026 International AI Strategy document itself raises the possibility of establishing such an institute in the future, so this looks like a current absence rather than a settled position."
+    },
+    {
+      "area": "Netherlands-specific cloud/colocation market share",
+      "note": "No reliable, independently-corroborated cloud market-share breakdown for named hyperscale providers could be verified in this audit, so dominance percentages remain unpopulated. One single market report suggests Equinix and Digital Realty together control roughly 25% of Amsterdam's installed colocation capacity (a different metric from hyperscaler cloud-compute share), but this figure was not independently corroborated."
+    },
+    {
+      "area": "AI-adjacent startup with Dutch ties",
+      "note": "CuspAI, an AI-for-materials-discovery startup co-founded by UvA professor Max Welling (CTO) with a significant presence at Amsterdam Science Park, raised a $450m Series B in July 2026 at a $2.6bn valuation. Its investor lineup — including the UK's Sovereign AI Fund, which requires backed companies to keep their primary office in the UK and their founders to be British — reinforces that CuspAI is formally a UK company despite its strong Amsterdam and UvA links; it is now listed under the UK's companies instead of the Netherlands'."
+    }
+  ]
 }

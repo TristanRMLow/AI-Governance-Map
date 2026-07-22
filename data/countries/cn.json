@@ -2,7 +2,7 @@
   "code": "cn",
   "name": "China",
   "shortName": "China",
-  "flagEmoji": "\ud83c\udde8\ud83c\uddf3",
+  "flagEmoji": "🇨🇳",
   "geometryType": "polygon",
   "isoA3": [
     "CHN"
@@ -19,7 +19,7 @@
     35.9
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 6,
   "debateTopics": [
     "Regulating agentic AI under the new Intelligent Agents framework",
@@ -27,33 +27,33 @@
     "Chip self-sufficiency vs. export controls",
     "Open-weighting frontier models as strategy"
   ],
-  "overview": "China continues to regulate AI through targeted, stacked rules rather than a single comprehensive statute, with the Cyberspace Administration of China (CAC) as lead authority. Two new binding rules in 2026 extend this approach into fresh territory: interim measures on AI 'anthropomorphic interaction' services (April 2026, covering AI companion apps and emotionally-responsive chatbots) and China's first dedicated regulatory framework for AI agents (effective 15 July 2026).\n\nDeepSeek's continued open-weight releases remain a widely discussed feature of China's AI story \u2014 cited by many analysts as evidence of frontier-competitive capability despite continued US chip export controls, and often read as a deliberate soft-power strategy as much as a technical choice.",
+  "overview": "China continues to regulate AI primarily through targeted, stacked rules rather than a single comprehensive statute, with the Cyberspace Administration of China (CAC) as lead authority. Two binding rules issued in 2026 extend this approach into fresh territory: interim measures on AI 'anthropomorphic interaction' services (issued 10 April 2026, covering AI companion apps and emotionally-responsive chatbots, but not taking effect until 15 July 2026) and what is described as China's first dedicated regulatory framework for AI agents (also effective 15 July 2026).\n\nDeepSeek's continued open-weight releases remain a widely discussed feature of China's AI story — cited by many analysts as evidence of frontier-competitive capability despite continued US chip export controls. Some observers read the releases as a deliberate soft-power and talent-attraction strategy as much as a technical choice, though this interpretation is not confirmed by DeepSeek or Chinese officials and remains a matter of debate.",
   "atAGlance": {
     "policyDirection": {
       "label": "State-directed, expanding into new AI categories",
       "sentiment": "red"
     },
-    "regulatoryApproach": "Targeted, stacked binding rules \u2014 no single comprehensive AI law",
+    "regulatoryApproach": "Targeted, stacked binding rules — no single comprehensive AI law",
     "latestMajorUpdate": "TC260 Ethics-Safety Guidelines and the Intelligent Agents framework both take effect within two weeks",
-    "governmentInvolvement": "Very high \u2014 CAC-led, enforcement-backed, extending into new AI categories rapidly",
-    "industrialStrategy": "AI+ Initiative integration across manufacturing and public services; open-weight models widely seen as a soft-power tool",
-    "internationalPartnerships": "Global AI Governance Initiative; proposes alternative multilateral AI cooperation mechanisms",
+    "governmentInvolvement": "High — CAC-led, enforcement-backed rulemaking that has expanded into several new AI categories in 2026",
+    "industrialStrategy": "AI+ Initiative-driven integration across manufacturing and public services; some analysts frame China's widely-used open-weight models as a soft-power and talent-attraction tool, though this is not an officially stated government goal",
+    "internationalPartnerships": "Global AI Governance Initiative, advanced institutionally in July 2026 with the launch of the World AI Cooperation Organization (WAICO), a Shanghai-headquartered intergovernmental body with 29 founding member states",
     "primaryPolicyFocus": "Content and platform-safety control extending into agentic and companion AI"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "China keeps extending binding regulation into newly significant categories of AI product \u2014 AI companion apps in April 2026, autonomous AI agents in July 2026 \u2014 rather than consolidating into one law, continuing its pattern of fast, targeted, enforcement-backed rulemaking."
+    "summary": "China keeps extending binding regulation into newly significant categories of AI product — AI companion apps in April 2026, autonomous AI agents in July 2026 — rather than consolidating into one law, continuing its pattern of fast, targeted, enforcement-backed rulemaking."
   },
   "recentDevelopments": [
     {
-      "text": "TC260's Ethics-Safety Guidelines take effect (1 July), just two weeks before the Intelligent Agents framework \u2014 ByteDance and Alibaba have already begun restricting AI-companion features ahead of the deadlines.",
+      "text": "TC260's Ethics-Safety Guidelines take effect (1 July), just two weeks before the Intelligent Agents framework — ByteDance and Alibaba have already begun restricting AI-companion features ahead of the deadlines.",
       "date": "2026-07-01",
       "sourceIds": [
         "cn-13"
       ]
     },
     {
-      "text": "Implementation Opinions on the Standardized Application and Innovative Development of Intelligent Agents take effect \u2014 China's first dedicated regulatory framework for AI agents.",
+      "text": "Implementation Opinions on the Standardized Application and Innovative Development of Intelligent Agents take effect — China's first dedicated regulatory framework for AI agents.",
       "date": "2026-07-15",
       "sourceIds": [
         "cn-1"
@@ -68,18 +68,21 @@
       ]
     },
     {
-      "text": "AI+ Initiative continues accelerating state-directed AI integration across manufacturing and public services.",
+      "text": "Implementation of the AI+ Initiative — a State Council opinion originally issued in August 2025 — continues to expand state-directed AI integration across manufacturing and public services through 2026.",
       "date": "2026",
       "sourceIds": [
         "cn-3"
       ]
     },
     {
-      "text": "China continues pushing its Global AI Governance Initiative, proposing new international AI cooperation mechanisms.",
-      "date": "2026",
+      "text": "China's Global AI Governance Initiative reached a concrete institutional milestone: the launch of the World AI Cooperation Organization (WAICO), a new Shanghai-headquartered intergovernmental body with 29 founding member states, announced by Xi Jinping at WAIC with UN Secretary-General Guterres in attendance.",
+      "date": "2026-07-17",
       "sourceIds": [
-        "cn-4"
-      ]
+        "cn-4",
+        "cn-14"
+      ],
+      "severity": "major",
+      "needsVerification": true
     },
     {
       "text": "DeepSeek's continued open-weight model releases remain a central reference point in international debate over China's frontier AI capability.",
@@ -93,9 +96,11 @@
     {
       "title": "Implementation Opinions on Intelligent Agents",
       "status": "in_force",
-      "summary": "Described as China's first dedicated regulatory framework for AI agents, issued jointly by CAC, NDRC and MIIT, effective 15 July 2026.",
+      "summary": "Described by multiple analysts as China's first dedicated regulatory framework for AI agents, issued jointly by CAC, NDRC and MIIT on 8 May 2026, effective 15 July 2026. The exact official English title has not been independently confirmed from a primary Chinese-government text.",
+      "needsVerification": true,
       "sourceIds": [
-        "cn-1"
+        "cn-1",
+        "cn-15"
       ]
     },
     {
@@ -110,7 +115,6 @@
       "title": "Interim Measures for the Management of Generative AI Services",
       "status": "in_force",
       "summary": "Binding rules for generative AI providers covering security assessment, training-data legality, content labelling, and user complaint mechanisms.",
-      "officialUrl": "http://www.cac.gov.cn/",
       "sourceIds": [
         "cn-6"
       ]
@@ -119,14 +123,13 @@
       "title": "Algorithmic Recommendation Management Provisions",
       "status": "in_force",
       "summary": "Requires algorithm filing with regulators and gives users the right to turn off algorithmic recommendation for the services they use.",
-      "officialUrl": "http://www.cac.gov.cn/",
       "sourceIds": [
         "cn-7"
       ]
     }
   ],
   "researchEcosystem": {
-    "summary": "China's AI research runs through a mix of state academies (Chinese Academy of Sciences), elite universities (Tsinghua, which incubated Zhipu AI), and standards bodies (TC260) that feed directly into binding regulation \u2014 a relationship some observers describe as an unusually tight loop between research output and regulatory text compared to many other jurisdictions.",
+    "summary": "China's AI research runs through a mix of state academies (Chinese Academy of Sciences), elite universities (Tsinghua, which incubated Zhipu AI), and standards bodies (TC260) that feed directly into binding regulation — a relationship some observers describe as an unusually tight loop between research output and regulatory text compared to many other jurisdictions.",
     "sourceIds": [
       "cn-8"
     ]
@@ -139,71 +142,130 @@
     },
     {
       "name": "Alibaba",
-      "description": "Developer of the Qwen open-weight model family and major cloud/AI infrastructure provider."
+      "description": "Developer of the Qwen open-weight model family and major cloud/AI infrastructure provider.",
+      "url": "https://www.alibabacloud.com"
     },
     {
       "name": "Baidu",
-      "description": "Developer of the Ernie model family and one of China's earliest large-scale AI investors."
+      "description": "Developer of the Ernie model family and one of China's earliest large-scale AI investors.",
+      "url": "https://www.baidu.com"
     },
     {
-      "name": "Zhipu AI",
-      "description": "Prominent Chinese AI startup developing large language models, spun out of Tsinghua University research."
+      "name": "Z.ai (formerly Zhipu AI)",
+      "description": "Developer of large language models with roots in Tsinghua University research; rebranded to Z.ai in 2025 and listed on the Hong Kong Stock Exchange in January 2026, so it is no longer a private startup.",
+      "url": "https://z.ai"
     },
     {
       "name": "Tencent",
-      "description": "Developer of the Hunyuan model family, integrated across Tencent's consumer platforms."
+      "description": "Developer of the Hunyuan model family, integrated across Tencent's consumer platforms.",
+      "url": "https://www.tencent.com"
+    },
+    {
+      "name": "Moonshot AI",
+      "description": "Developer of the Kimi model family; its July 2026 Kimi K3 release was described by multiple outlets as a 'second DeepSeek shock' for its capability-to-cost ratio."
+    },
+    {
+      "name": "ByteDance",
+      "description": "Developer of the Doubao consumer AI app, reportedly one of China's most-used, and operator of Volcano Engine, a leading AI-cloud infrastructure provider."
+    },
+    {
+      "name": "MiniMax",
+      "description": "AI model developer listed on the Hong Kong Stock Exchange in January 2026 alongside Z.ai; released MiniMax-M3 in June 2026."
+    },
+    {
+      "name": "SenseTime",
+      "description": "Computer-vision and AI model company, one of China's earlier-generation AI unicorns."
+    },
+    {
+      "name": "iFlytek",
+      "description": "Speech-recognition and AI company, a long-standing player in China's AI industry."
     }
   ],
   "cloudInfrastructure": {
     "providers": [
       {
         "name": "Alibaba Cloud",
-        "description": "China's largest cloud provider and primary host for many domestic AI workloads."
+        "description": "Widely cited as China's largest cloud provider by market share, and a primary host for many domestic AI workloads. Per Omdia H1 2025 data reported by SCMP, it held roughly 35-36% of China's AI-cloud market specifically.",
+        "url": "https://www.alibabacloud.com"
+      },
+      {
+        "name": "Volcano Engine (ByteDance)",
+        "description": "ByteDance's cloud and AI infrastructure arm. Per Omdia H1 2025 data on China's AI-cloud market segment specifically, it ranked second (~14.8%), ahead of Huawei Cloud and Tencent Cloud in that segment — though estimates of the broader, non-AI-specific overall cloud market more often still show Huawei ahead of ByteDance."
       },
       {
         "name": "Huawei Cloud",
-        "description": "Cloud and AI infrastructure provider paired closely with Huawei's Ascend AI chips."
+        "description": "Cloud and AI infrastructure provider paired closely with Huawei's Ascend AI chips; consistently ranked among China's top cloud providers overall, though Omdia's H1 2025 AI-cloud-specific data placed it third (~13.1%) behind Alibaba Cloud and Volcano Engine in that narrower segment."
       },
       {
         "name": "Tencent Cloud",
-        "description": "Major domestic cloud provider serving Tencent's AI and gaming ecosystem."
+        "description": "Major domestic cloud provider serving Tencent's AI and gaming ecosystem; held roughly 7% of China's AI-cloud market segment per Omdia H1 2025 data."
+      },
+      {
+        "name": "Baidu Cloud (Qianfan)",
+        "description": "Baidu's cloud and AI platform arm, hosting the Qianfan generative-AI platform; held roughly 6% of China's AI-cloud market segment per Omdia H1 2025 data, a similar order of magnitude to Tencent Cloud.",
+        "url": "https://intl.cloud.baidu.com/en/product/qianfan.html"
       }
     ],
     "dominance": [
       {
         "provider": "Alibaba Cloud",
-        "share": 35
+        "share": 36
+      },
+      {
+        "provider": "Volcano Engine (ByteDance)",
+        "share": 14.8
       },
       {
         "provider": "Huawei Cloud",
-        "share": 20
+        "share": 13.1
       },
       {
         "provider": "Tencent Cloud",
-        "share": 18
+        "share": 7
+      },
+      {
+        "provider": "Baidu Cloud (Qianfan)",
+        "share": 6.1
       }
     ]
   },
   "universities": [
     {
       "name": "Chinese Academy of Sciences (CAS)",
-      "description": "One of China's foremost state research academies, with extensive AI research institutes."
+      "description": "One of China's foremost state research academies, with extensive AI research institutes.",
+      "url": "https://www.cas.cn"
     },
     {
       "name": "Tsinghua University",
-      "description": "A leading AI research university; incubated Zhipu AI and other prominent AI ventures."
+      "description": "A leading AI research university; incubated Zhipu AI and other prominent AI ventures.",
+      "url": "https://www.tsinghua.edu.cn/en/"
     },
     {
       "name": "Beijing Academy of Artificial Intelligence (BAAI)",
       "description": "State-backed research institute publishing open Chinese-language foundation models and research.",
       "url": "https://www.baai.ac.cn"
+    },
+    {
+      "name": "Shanghai Jiao Tong University",
+      "description": "Ranked in the top tier of 2026 global computer-science rankings alongside Tsinghua; active AI research base."
+    },
+    {
+      "name": "Zhejiang University",
+      "description": "Ranked in the top tier of 2026 global computer-science rankings alongside Tsinghua; active AI research base."
+    },
+    {
+      "name": "Shanghai AI Laboratory",
+      "description": "Prominent state-linked publisher of open AI models and safety/governance research."
     }
   ],
   "thinkTanks": [
     {
       "name": "TC260",
-      "description": "National Information Security Standardization Technical Committee; develops the technical standards underpinning China's binding AI safety rules.",
-      "url": "https://www.tc260.org.cn"
+      "description": "National Cybersecurity Standardization Technical Committee; develops the technical standards underpinning China's binding AI safety rules. Formerly named the National Information Security Standardization Technical Committee, a name it was formally changed from (per its own current site and China's official standards-body registry), not merely an alternate translation.",
+      "url": "https://www.tc260.org.cn",
+      "aliases": [
+        "National Information Security Standardization Technical Committee (former name)"
+      ]
     },
     {
       "name": "China Academy of Information and Communications Technology (CAICT)",
@@ -224,7 +286,8 @@
     },
     {
       "name": "National Development and Reform Commission (NDRC)",
-      "description": "Shapes AI industrial policy and co-issues major AI regulation alongside CAC and MIIT."
+      "description": "Shapes AI industrial policy and co-issues major AI regulation alongside CAC and MIIT.",
+      "url": "https://en.ndrc.gov.cn"
     }
   ],
   "keyPeople": [
@@ -239,13 +302,39 @@
       "name": "Liang Wenfeng",
       "role": "Founder and CEO",
       "affiliation": "DeepSeek",
-      "category": "company_leader"
+      "category": "company_leader",
+      "url": "https://www.deepseek.com",
+      "needsVerification": true
     },
     {
-      "name": "Zhang Hongjiang",
+      "name": "Zheng Shanjie",
+      "role": "Chairman",
+      "affiliation": "National Development and Reform Commission (NDRC)",
+      "category": "government",
+      "url": "https://en.ndrc.gov.cn"
+    },
+    {
+      "name": "Li Lecheng",
+      "role": "Minister",
+      "affiliation": "Ministry of Industry and Information Technology (MIIT)",
+      "category": "government",
+      "url": "https://www.miit.gov.cn"
+    },
+    {
+      "name": "Huang Tiejun",
       "role": "Chairman",
       "affiliation": "Beijing Academy of Artificial Intelligence",
-      "category": "researcher"
+      "category": "researcher",
+      "url": "https://www.baai.ac.cn",
+      "needsVerification": true
+    },
+    {
+      "name": "Wang Zhongyuan",
+      "role": "President",
+      "affiliation": "Beijing Academy of Artificial Intelligence",
+      "category": "researcher",
+      "url": "https://www.baai.ac.cn",
+      "needsVerification": true
     }
   ],
   "influenceMap": [
@@ -275,7 +364,7 @@
       "topic": "Regulating agentic AI under the new Intelligent Agents framework",
       "category": "government",
       "summary": "Described as China's first dedicated AI-agent regulation, effective July 2026, it extends China's stacked-rules approach to autonomous systems that take multi-step actions.",
-      "expanded": "The Implementation Opinions on the Standardized Application and Innovative Development of Intelligent Agents represent China moving early \u2014 relative to most jurisdictions \u2014 to regulate AI agents specifically, rather than treating them under generic generative-AI rules. How aggressively this framework is enforced against domestic agent products, versus used to shape 'innovative development' as its title suggests, is still being watched closely.",
+      "expanded": "The Implementation Opinions on the Standardized Application and Innovative Development of Intelligent Agents represent China moving early — relative to most jurisdictions — to regulate AI agents specifically, rather than treating them under generic generative-AI rules. How aggressively this framework is enforced against domestic agent products, versus used to shape 'innovative development' as its title suggests, is still being watched closely.",
       "sourceIds": [
         "cn-1"
       ]
@@ -283,8 +372,8 @@
     {
       "topic": "AI companion apps and anthropomorphic interaction rules",
       "category": "security",
-      "summary": "New interim measures specifically target AI companion apps and emotionally-responsive chatbots \u2014 a category regulators in many jurisdictions are only beginning to grapple with.",
-      "expanded": "Issued jointly by five agencies (CAC, NDRC, MIIT, Ministry of Public Security, SAMR), the measures address concerns specific to AI systems designed to simulate emotional relationships \u2014 including risks to minors and psychologically vulnerable users. The joint-agency structure signals this is being treated as a public-safety issue as much as a content-regulation one.",
+      "summary": "New interim measures specifically target AI companion apps and emotionally-responsive chatbots — a category regulators in many jurisdictions are only beginning to grapple with.",
+      "expanded": "Issued jointly by five agencies (CAC, NDRC, MIIT, Ministry of Public Security, SAMR), the measures address concerns specific to AI systems designed to simulate emotional relationships — including risks to minors and psychologically vulnerable users. The joint-agency structure signals this is being treated as a public-safety issue as much as a content-regulation one.",
       "sourceIds": [
         "cn-2"
       ]
@@ -292,8 +381,8 @@
     {
       "topic": "Chip self-sufficiency vs. export controls",
       "category": "infrastructure",
-      "summary": "US export controls on advanced AI chips have accelerated China's push for domestic semiconductor self-sufficiency, led by SMIC and Huawei.",
-      "expanded": "Restrictions on advanced NVIDIA and AMD chip exports have pushed significant state investment toward domestic alternatives, led by SMIC's foundry capacity and Huawei's Ascend AI chips. Progress has been real but the domestic industry still lags the leading edge by multiple process-node generations, keeping compute availability a live constraint on frontier training runs.",
+      "summary": "US export controls on advanced AI chips are widely seen as having accelerated China's push for domestic semiconductor self-sufficiency, with SMIC and Huawei as central players.",
+      "expanded": "Restrictions on advanced NVIDIA and AMD chip exports have pushed significant state investment toward domestic alternatives, led by SMIC's foundry capacity and Huawei's Ascend AI chips. Analysts generally describe progress as real but partial: the domestic industry is commonly said to lag the leading edge by multiple process-node generations, and 2026 coverage increasingly points to domestic high-bandwidth memory supply (from CXMT) as a specific bottleneck on Ascend chip output, alongside the broader process-node gap. Compute availability remains a live constraint on frontier training runs.",
       "sourceIds": [
         "cn-9"
       ]
@@ -313,7 +402,8 @@
       "name": "Liang Wenfeng",
       "type": "person",
       "role": "DeepSeek founder and CEO; one of the most closely watched figures in Chinese frontier AI.",
-      "category": "company"
+      "category": "company",
+      "url": "https://www.deepseek.com"
     },
     {
       "name": "ChinaTalk",
@@ -378,10 +468,10 @@
     },
     {
       "id": "cn-3",
-      "title": "AI+ Initiative",
+      "title": "Opinion on Deepening the Implementation of the Artificial Intelligence+ Initiative (State Council Document [2025] No. 11)",
       "publisher": "State Council",
-      "url": "http://www.gov.cn",
-      "date": "2026",
+      "url": "https://english.www.gov.cn/policies/latestreleases/202508/27/content_WS68ae7976c6d0868f4e8f51a0.html",
+      "date": "2025-08",
       "category": "government"
     },
     {
@@ -463,8 +553,85 @@
       "url": "https://www.twobirds.com/en/insights/2026/china/china's-new-regulations-on-ai-anthropomorphic-interactive-services",
       "date": "2026-07",
       "category": "think_tank"
+    },
+    {
+      "id": "cn-14",
+      "title": "China launches World AI Cooperation Organization (WAICO) at WAIC 2026",
+      "publisher": "Caixin Global",
+      "url": "https://www.caixinglobal.com",
+      "date": "2026-07-17",
+      "category": "news"
+    },
+    {
+      "id": "cn-15",
+      "title": "Official coverage of the Intelligent Agents implementation guidelines",
+      "publisher": "gov.cn (English)",
+      "url": "https://english.www.gov.cn/news/202605/08/content_WS69fde8e2c6d00ca5f9a0ad49.html",
+      "date": "2026-05",
+      "category": "government"
+    },
+    {
+      "id": "cn-16",
+      "title": "TC260's renaming from National Information Security Standardization Technical Committee to National Cybersecurity Standardization Technical Committee",
+      "publisher": "TC260",
+      "url": "https://www.tc260.org.cn",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "cn-17",
+      "title": "China AI-cloud market share data (Omdia, H1 2025)",
+      "publisher": "South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3325034",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "cn-18",
+      "title": "DeepSeek's 2026 funding round and reporting on Liang Wenfeng's public absence since February 2025",
+      "publisher": "South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3351700",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "cn-19",
+      "title": "NDRC leadership (Zheng Shanjie, Chairman)",
+      "publisher": "National Development and Reform Commission",
+      "url": "https://en.ndrc.gov.cn",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "cn-20",
+      "title": "MIIT leadership (Li Lecheng, Minister)",
+      "publisher": "Ministry of Industry and Information Technology",
+      "url": "https://www.miit.gov.cn",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "cn-21",
+      "title": "Kimi K3 release coverage",
+      "publisher": "Multiple outlets (aggregated)",
+      "url": "https://moonshot.ai",
+      "date": "2026-07",
+      "category": "industry"
     }
   ],
   "hasMajorUpdate": true,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "National AI safety institute",
+      "note": "China has no government-run AI safety institute comparable to the UK AISI or US CAISI. The closest analogue, the China AI Safety and Development Association (CnAISDA, hub at Tsinghua University), is a coalition-style body; as of mid-2025 reporting it lacked dedicated staff, its own budget, or a Chinese-language website, though some 2026 coverage describes it with named leadership (Xue Lan, Yi Zeng, Andrew Yao) and roughly a dozen member organizations, suggesting it may be more developed than earlier reporting implied. Sources also disagree on its founding date (some cite February 2025, others June 2025), and its current operational status could not be freshly confirmed."
+    },
+    {
+      "area": "Cloud market share",
+      "note": "Cloud provider market-share figures vary meaningfully by source, quarter, and whether 'overall cloud' or 'AI-cloud-specific' revenue is measured. The dominance figures shown here reflect one dataset — Omdia's H1 2025 estimates for China's AI-cloud market segment specifically, as reported by SCMP — and should be read as indicative of relative standing at that point rather than a precise or durable breakdown; broader estimates of the overall, non-AI-specific cloud market more often place Huawei Cloud ahead of Volcano Engine, unlike the AI-cloud-specific figures shown."
+    },
+    {
+      "area": "Foreign hyperscaler presence",
+      "note": "AWS, Microsoft Azure and Google Cloud do not operate normal sovereign cloud regions in mainland China. AWS and Azure are only available there through legally separate, locally-operated entities (Sinnet/NWCD for AWS, 21Vianet for Azure), and Google Cloud has no mainland China region at all — a structural feature of China's data-sovereignty and foreign-ownership restrictions on critical cloud infrastructure."
+    }
+  ]
 }

@@ -53,9 +53,10 @@ export function SourcesWeightingSection({ items }: { items: SourceRef[] }) {
       ) : (
         <>
           <p className="mb-3 max-w-2xl text-[12.5px] text-page-text-secondary">
-            Deliberately sourced beyond government publications — target mix is roughly
-            government&nbsp;30% · research&nbsp;20% · think&nbsp;tanks&nbsp;20% ·
-            industry&nbsp;15% · news&nbsp;10% · expert&nbsp;commentary&nbsp;5%.
+            Deliberately sourced beyond government publications. The bars below show each
+            category&rsquo;s actual share of this page&rsquo;s citations — an internal editorial
+            guideline rather than a rigorously derived target, so treat it as a rough steer, not a
+            precise benchmark.
           </p>
           <div className="mb-2 flex h-2.5 overflow-hidden rounded-full bg-page-border/70">
             {actual
@@ -64,7 +65,7 @@ export function SourcesWeightingSection({ items }: { items: SourceRef[] }) {
                 <div
                   key={a.cat}
                   style={{ width: `${a.pct}%`, background: CATEGORY_BAR[a.cat] }}
-                  title={`${CATEGORY_LABEL[a.cat]} — ${a.pct}% (target ${TARGET_WEIGHT[a.cat]}%)`}
+                  title={`${CATEGORY_LABEL[a.cat]} — ${a.pct}% (guideline ~${TARGET_WEIGHT[a.cat]}%)`}
                 />
               ))}
           </div>

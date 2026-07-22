@@ -2,7 +2,7 @@
   "code": "jp",
   "name": "Japan",
   "shortName": "Japan",
-  "flagEmoji": "\ud83c\uddef\ud83c\uddf5",
+  "flagEmoji": "🇯🇵",
   "geometryType": "polygon",
   "isoA3": [
     "JPN"
@@ -19,48 +19,55 @@
     36.5
   ],
   "zoom": 4.3,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-07-19",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "AI Basic Plan implementation and the AI investment gap",
     "AI copyright compensation and voice-imitation rules",
-    "Domestic foundation-model strategy and the \u00a51 trillion public-private push",
+    "Domestic foundation-model strategy and the ¥1 trillion public-private push",
     "Enforcement gap in the AI Promotion Act"
   ],
-  "overview": "Japan's leadership changed in a way that matters for AI policy: Sanae Takaichi became Prime Minister in October 2025, Japan's first woman to hold the office, and the LDP won a supermajority in a snap election in February 2026. Her government has moved to close a gap the country itself has acknowledged \u2014 the December 2025 AI Basic Plan explicitly recognises Japan has fallen behind on AI investment and talent relative to the US and China.\n\nThe response has been a state-backed push rather than new binding rules: a \u00a51 trillion, five-year public-private package to build a domestic foundation-model company, alongside the June 2026 IP Strategic Program addressing AI copyright compensation and voice-imitation rules.",
+  "overview": "Japan's leadership changed in a way that matters for AI policy: Sanae Takaichi became Prime Minister in October 2025, Japan's first woman to hold the office, and the LDP won a supermajority in a snap election in February 2026. Her government has moved to close a gap the country itself has acknowledged — the December 2025 AI Basic Plan explicitly recognises Japan has fallen behind on AI investment and talent relative to the US and China.\n\nThe government's response has largely been a state-backed investment push rather than new binding rules: a ¥1 trillion, five-year public-private package to build a domestic foundation-model company, alongside the June 2026 IP Strategic Program addressing AI copyright compensation and voice-imitation rules.",
   "atAGlance": {
     "policyDirection": {
       "label": "State-backed investment push, still light-touch",
       "sentiment": "green"
     },
     "regulatoryApproach": "Soft-law guidelines; no penalties under the AI Promotion Act",
-    "latestMajorUpdate": "Government launches a new council to overhaul AI legal frameworks alongside the 'Noetra' sovereign-AI consortium",
-    "governmentInvolvement": "High on investment, low on binding rules \u2014 state-directed funding, no penalties",
-    "industrialStrategy": "\u00a51 trillion domestic foundation-model push plus the ~$6B 'Noetra' robotics/AI consortium",
+    "latestMajorUpdate": "Government decides to launch a new council to overhaul AI legal frameworks (July 2026), alongside the SoftBank/Sony/NEC/Honda-led 'Noetra' sovereign-AI consortium",
+    "governmentInvolvement": "High on investment, low on binding rules — state-directed funding, no penalties",
+    "industrialStrategy": "¥1 trillion domestic foundation-model push plus the ~$6.3B 'Noetra' robotics/AI consortium",
     "internationalPartnerships": "G7 Hiroshima AI Process; UN Independent International Scientific Panel on AI",
     "primaryPolicyFocus": "Among current government priorities: closing the AI investment gap through state-backed industrial strategy"
   },
   "currentDirection": {
     "trend": "stable",
-    "summary": "Japan remains committed to promotion over restriction, but under PM Takaichi that promotion has become far more concrete \u2014 a \u00a51 trillion domestic foundation-model push and a government AI platform scaling to roughly 180,000 civil servants \u2014 even as the underlying AI Promotion Act still carries no penalties for non-compliance."
+    "summary": "Japan's government policy has generally centered on promotion over restriction, but under PM Takaichi that promotion has become far more concrete — a ¥1 trillion domestic foundation-model push and a government AI platform pilot scaling toward roughly 180,000 civil servants — even as the underlying AI Promotion Act still carries no penalties for non-compliance."
   },
   "recentDevelopments": [
     {
-      "text": "Government decides to launch a new council to overhaul AI legal frameworks; a sovereign-AI push named the 'Noetra' consortium (SoftBank, Sony and others, roughly $6B) targets 10 million AI-equipped robots by 2040.",
+      "text": "Sovereign-AI 'Noetra' consortium — led by SoftBank, Sony, NEC and Honda, with roughly 40 companies participating — receives government backing of around ¥387.3 billion in FY2026 and roughly ¥1 trillion (~$6.3B) over five years, targeting 10 million AI-equipped robots deployed across around 18 sectors by 2040.",
       "date": "2026-07-01",
       "sourceIds": [
         "jp-11"
       ]
     },
     {
-      "text": "2026 IP Strategic Program adopted, putting AI copyright compensation and AI voice-imitation rules on the legislative track.",
+      "text": "Government decides to launch a new council to overhaul Japan's AI legal frameworks, as part of 2026 basic policy guidelines adopted by the Digital Administrative and Fiscal Reform Council.",
+      "date": "2026-07-07",
+      "sourceIds": [
+        "jp-12"
+      ]
+    },
+    {
+      "text": "2026 IP Strategic Program adopted, committing to develop AI copyright-compensation frameworks and further discussion of AI voice-imitation protections; legal commentators describe it as a policy-direction signal rather than a binding compliance deadline.",
       "date": "2026-06-12",
       "sourceIds": [
         "jp-1"
       ]
     },
     {
-      "text": "Government AI platform 'GENNAI' scales to an estimated 180,000 civil servants in FY2026.",
+      "text": "Government AI platform 'GENNAI' pilot scales toward a target of roughly 180,000 civil servants across ministries and agencies during FY2026, with full-scale deployment planned for FY2027.",
       "date": "2026",
       "sourceIds": [
         "jp-2"
@@ -74,7 +81,7 @@
       ]
     },
     {
-      "text": "\u00a51 trillion (~$6.34B) five-year public-private support package announced to build a new domestic foundation-model company, from FY2026.",
+      "text": "¥1 trillion (~$6.3B) five-year public-private support package announced to build a new domestic foundation-model company, from FY2026.",
       "date": "2026",
       "sourceIds": [
         "jp-2"
@@ -98,12 +105,13 @@
       "officialUrl": "https://www.cas.go.jp/",
       "sourceIds": [
         "jp-5"
-      ]
+      ],
+      "needsVerification": true
     },
     {
       "title": "AI Basic Plan",
       "status": "in_force",
-      "summary": "Japan's first cabinet-approved AI Basic Plan, acknowledging the country's AI investment and talent gap relative to the US and China and setting the direction for the subsequent \u00a51 trillion public-private push.",
+      "summary": "Japan's first cabinet-approved AI Basic Plan, acknowledging the country's AI investment and talent gap relative to the US and China and setting the direction for the subsequent ¥1 trillion public-private push.",
       "sourceIds": [
         "jp-4"
       ]
@@ -111,7 +119,7 @@
     {
       "title": "2026 IP Strategic Program",
       "status": "passed",
-      "summary": "Adopted June 2026, putting AI training-data copyright compensation and AI voice-imitation rules on the legislative track \u2014 Japan's most concrete move yet on AI copyright since its permissive Article 30-4 exception.",
+      "summary": "Adopted June 2026; commits to developing AI training-data copyright-compensation frameworks and continued discussion of AI voice-imitation protections (including possible unfair-competition-law amendments). Legal commentators describe it as a policy-direction signal rather than a binding compliance deadline, and no implementing legislation has been enacted yet.",
       "sourceIds": [
         "jp-1"
       ]
@@ -127,7 +135,7 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "Prominent institutions in Japan's AI research landscape include RIKEN AIP and the University of Tokyo's Matsuo Lab, though the AI Basic Plan itself concedes the country has under-invested relative to peers \u2014 the \u00a51 trillion public-private push appears aimed at building research and engineering capacity domestically as much as at industrial strategy.",
+    "summary": "Prominent institutions in Japan's AI research landscape include RIKEN AIP and the University of Tokyo's Matsuo Lab, though the AI Basic Plan itself concedes the country has under-invested relative to peers — the ¥1 trillion public-private push appears aimed at building research and engineering capacity domestically as much as at industrial strategy.",
     "sourceIds": [
       "jp-4"
     ]
@@ -135,7 +143,7 @@
   "companies": [
     {
       "name": "Sakana AI",
-      "description": "Tokyo-based AI lab co-founded by David Ha and Llion Jones, known for research on nature-inspired model architectures and among Japan's most closely watched AI startups.",
+      "description": "Tokyo-based AI lab co-founded by David Ha, Llion Jones and Ren Ito, known for research on nature-inspired model architectures and among Japan's most closely watched AI startups.",
       "url": "https://sakana.ai"
     },
     {
@@ -145,7 +153,8 @@
     },
     {
       "name": "SoftBank",
-      "description": "Major Japan-based technology investor with large stakes across the global AI infrastructure and chip ecosystem."
+      "description": "Major Japan-based technology investor with large stakes across the global AI infrastructure ecosystem, including a substantial stake in OpenAI, and a core member of the 'Noetra' sovereign-AI consortium.",
+      "url": "https://www.softbank.jp/en/corp/"
     }
   ],
   "cloudInfrastructure": {
@@ -162,22 +171,24 @@
         "name": "NTT",
         "description": "Japanese telecom group operating its own cloud infrastructure and 'tsuzumi' large language model.",
         "url": "https://www.ntt.co.jp"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider with regions in Tokyo (since 2016) and Osaka (since 2019) and a reported billion-dollar-plus Japan investment, including a data center in Inzai, Chiba.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "Oracle Cloud",
+        "description": "Cloud provider with Tokyo and Osaka OCI regions since 2019-2020 and an $8B+, decade-long Japan investment commitment; partnered with SoftBank in October 2025 to deploy 'Oracle Alloy' sovereign cloud from April 2026.",
+        "url": "https://www.oracle.com/cloud/"
+      },
+      {
+        "name": "Sakura Internet",
+        "description": "Domestic cloud and AI-GPU provider selected in March 2026 as Japan's first Digital Agency 'government cloud' provider; scaling GPU capacity with METI Economic Security Promotion Act subsidies and a multi-year Microsoft partnership for Azure data residency in Japan.",
+        "url": "https://www.sakura.ad.jp"
       }
     ],
-    "dominance": [
-      {
-        "provider": "AWS",
-        "share": 30
-      },
-      {
-        "provider": "Azure",
-        "share": 28
-      },
-      {
-        "provider": "NTT Cloud",
-        "share": 10
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
@@ -204,25 +215,37 @@
     },
     {
       "name": "Center for Rule-making Strategies",
-      "description": "Tama University research centre focused on digital and AI rule-making strategy.",
-      "url": "https://crs.tama.ac.jp"
+      "description": "Tama University research centre working on rule-making strategy across multiple technology and policy domains, including AI; the extent to which AI specifically is a current core focus versus one topic among several is not fully confirmed.",
+      "url": "https://crs-japan.org/en/",
+      "needsVerification": true
     }
   ],
   "governmentInstitutions": [
     {
       "name": "AI Strategy Headquarters",
-      "description": "Established under the 2025 AI Promotion Act to coordinate national AI policy across ministries.",
-      "url": "https://www.cas.go.jp"
+      "description": "Established under the 2025 AI Promotion Act to coordinate national AI policy across ministries; chaired by the Prime Minister with all Cabinet ministers as members.",
+      "url": "https://www.cas.go.jp",
+      "needsVerification": true
     },
     {
       "name": "Ministry of Economy, Trade and Industry (METI)",
-      "description": "Co-authors AI Guidelines for Business and leads industrial AI policy, including the \u00a51 trillion domestic foundation-model push.",
+      "description": "Co-authors AI Guidelines for Business and leads industrial AI policy, including the ¥1 trillion domestic foundation-model push.",
       "url": "https://www.meti.go.jp/english/"
     },
     {
       "name": "Ministry of Internal Affairs and Communications (MIC)",
       "description": "Co-authors AI guidelines and oversees AI's intersection with telecommunications policy.",
       "url": "https://www.soumu.go.jp/english/"
+    },
+    {
+      "name": "Digital Agency",
+      "description": "Digital-government agency that built and operates the GENNAI government AI platform and led the March 2026 selection of Sakura Internet as a domestic government cloud provider.",
+      "url": "https://www.digital.go.jp/en/"
+    },
+    {
+      "name": "Japan AI Safety Institute (J-AISI)",
+      "description": "Japan's national AI safety institute, established February 2024 under the Information-technology Promotion Agency (IPA); publishes national status reports and participates in international AI-safety-institute cooperation, including a June 2026 joint announcement with South Korea's AI Safety Institute.",
+      "url": "https://aisi.go.jp"
     }
   ],
   "keyPeople": [
@@ -237,7 +260,7 @@
       "role": "Chair, AI Strategy Council; member, UN Independent International Scientific Panel on AI",
       "affiliation": "University of Tokyo / Cabinet Office",
       "category": "advisor",
-      "url": "https://www.cas.go.jp"
+      "url": "https://weblab.t.u-tokyo.ac.jp/en/member/yutaka-matsuo/"
     },
     {
       "name": "Llion Jones",
@@ -248,10 +271,17 @@
     },
     {
       "name": "Toru Nishikawa",
-      "role": "Co-founder and CEO",
+      "role": "Co-founder and Chairman",
       "affiliation": "Preferred Networks",
       "category": "company_leader",
-      "url": "https://www.preferred.jp"
+      "url": "https://www.preferred.jp/en/company/cofounders"
+    },
+    {
+      "name": "Daisuke Okanohara",
+      "role": "Co-founder and CEO (appointed November 2025, succeeding Toru Nishikawa)",
+      "affiliation": "Preferred Networks",
+      "category": "company_leader",
+      "url": "https://www.preferred.jp/en/company/cofounders"
     }
   ],
   "influenceMap": [
@@ -260,7 +290,7 @@
       "type": "government"
     },
     {
-      "label": "AI Safety Institute Japan",
+      "label": "Japan AI Safety Institute (J-AISI)",
       "type": "agency"
     },
     {
@@ -280,8 +310,8 @@
     {
       "topic": "AI Basic Plan implementation and the AI investment gap",
       "category": "investment",
-      "summary": "Japan's own AI Basic Plan admits the country has fallen behind the US and China on AI investment and talent \u2014 the \u00a51 trillion push is the response, but whether it's enough is contested.",
-      "expanded": "The December 2025 AI Basic Plan was notable for its candour: an official government document explicitly acknowledging Japan's AI competitiveness gap. The subsequent \u00a51 trillion, five-year public-private package to build a domestic foundation-model company is a serious commitment, but sceptics note it's a fraction of what US labs alone raise in single funding rounds, and question whether state-directed foundation-model efforts can compete at the frontier.",
+      "summary": "Japan's own AI Basic Plan admits the country has fallen behind the US and China on AI investment and talent — the ¥1 trillion push is one response, but whether it's enough is contested.",
+      "expanded": "The December 2025 AI Basic Plan was notable for its candour: an official government document explicitly acknowledging Japan's AI competitiveness gap. The subsequent ¥1 trillion, five-year public-private package to build a domestic foundation-model company is a serious commitment, but some analysts note it's a fraction of what US labs alone raise in single funding rounds, and question whether state-directed foundation-model efforts can compete at the frontier.",
       "sourceIds": [
         "jp-4"
       ]
@@ -289,16 +319,16 @@
     {
       "topic": "AI copyright compensation and voice-imitation rules",
       "category": "industry",
-      "summary": "The 2026 IP Strategic Program puts binding AI copyright compensation and voice-imitation rules on the legislative track for the first time, a shift from Japan's widely-noted permissive training-data exception.",
-      "expanded": "Japan's Article 30-4 copyright exception has made it one of the most permissive major jurisdictions for AI training on copyrighted works. The 2026 IP Strategic Program signals a partial correction \u2014 introducing compensation mechanisms and rules specifically addressing AI voice imitation, likely responding to concerns from the creative industries (manga, anime, music) that the training-data exception wasn't designed for generative AI's commercial scale.",
+      "summary": "The 2026 IP Strategic Program commits Japan to developing AI copyright-compensation frameworks and further discussion of AI voice-imitation rules — described by commentators as a direction signal rather than a binding deadline, but still a shift in tone from Japan's widely-noted permissive training-data exception.",
+      "expanded": "Japan's Article 30-4 copyright exception is widely regarded as making it one of the most permissive major jurisdictions for AI training on copyrighted works. The 2026 IP Strategic Program signals a possible partial correction — committing to develop compensation mechanisms and continue discussion of rules addressing AI voice imitation, though no implementing legislation has been enacted yet. Legal commentators frame it as a direction signal rather than a compliance deadline. It likely responds in part to concerns from the creative industries (manga, anime, music) that the training-data exception wasn't designed for generative AI's commercial scale.",
       "sourceIds": [
         "jp-1"
       ]
     },
     {
-      "topic": "Domestic foundation-model strategy and the \u00a51 trillion public-private push",
+      "topic": "Domestic foundation-model strategy and the ¥1 trillion public-private push",
       "category": "investment",
-      "summary": "Japan is betting a five-year, \u00a51 trillion package on building a domestic foundation-model company rather than relying solely on US labs.",
+      "summary": "Japan is betting a five-year, ¥1 trillion package on building a domestic foundation-model company rather than relying solely on US labs.",
       "expanded": "The strategy pairs public funding with private industry partners to build sovereign foundation-model capability, motivated by both competitiveness concerns and a desire not to be entirely dependent on foreign AI providers for critical government and enterprise applications (reinforced by the GENNAI government AI platform's rapid scale-up).",
       "sourceIds": [
         "jp-2"
@@ -307,7 +337,7 @@
     {
       "topic": "Enforcement gap in the AI Promotion Act",
       "category": "government",
-      "summary": "Japan's first AI law relies entirely on guidance and public disclosure rather than penalties \u2014 critics ask whether that's enough as AI capabilities grow.",
+      "summary": "Japan's first AI law relies entirely on guidance and public disclosure rather than penalties — critics ask whether that's enough as AI capabilities grow.",
       "expanded": "The AI Promotion Act deliberately avoids fines or binding obligations, instead empowering the AI Strategy Headquarters to issue guidance and, in the case of serious non-compliance, publicly name the organisation involved. Supporters call this a pragmatic way to avoid stifling adoption; critics argue Japan still has no real lever if a major AI harm occurs, even as the government pours state money into building bigger domestic AI capability.",
       "sourceIds": [
         "jp-5"
@@ -318,9 +348,9 @@
     {
       "name": "Yutaka Matsuo",
       "type": "person",
-      "role": "Chair of Japan's AI Strategy Council; the most influential academic voice on national AI direction.",
+      "role": "Chair of Japan's AI Strategy Council; a leading academic voice on national AI direction.",
       "category": "government",
-      "url": "https://www.cas.go.jp"
+      "url": "https://weblab.t.u-tokyo.ac.jp/en/member/yutaka-matsuo/"
     },
     {
       "name": "Llion Jones",
@@ -453,8 +483,25 @@
       "url": "https://asiatimes.com/2026/07/japan-rallies-tech-giant-alliance-to-build-sovereign-ai/",
       "date": "2026-07",
       "category": "news"
+    },
+    {
+      "id": "jp-12",
+      "title": "Japan to launch new council to overhaul AI legal frameworks",
+      "publisher": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/07/japan/ai-new-council/",
+      "date": "2026-07",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "Frontier foundation-model developers",
+      "note": "No Japan-headquartered lab currently trains frontier-scale general-purpose foundation models; Sakana AI and Preferred Networks pursue smaller or applied/specialized-model strategies, consistent with the AI Basic Plan's own acknowledgment of an investment and talent gap versus the US and China."
+    },
+    {
+      "area": "Semiconductor and compute infrastructure",
+      "note": "Japan's state-backed chip manufacturing buildout — including Rapidus's 2nm logic-chip programme (pilot line running in Hokkaido since April 2025, with cumulative government support reported around ¥2.35 trillion) and TSMC's JASM fabs in Kumamoto — is a major compute and industrial-policy factor for Japan's AI capacity that isn't otherwise covered here."
+    }
+  ]
 }

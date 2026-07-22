@@ -2,14 +2,14 @@
   "code": "de",
   "name": "Germany",
   "shortName": "Germany",
-  "flagEmoji": "\ud83c\udde9\ud83c\uddea",
+  "flagEmoji": "🇩🇪",
   "geometryType": "polygon",
   "isoA3": [
     "DEU"
   ],
   "region": "Europe",
   "jurisdictionType": "nation_state",
-  "governanceModel": "EU AI Act implemented nationally via the new KI-MIG enforcement law",
+  "governanceModel": "EU AI Act implemented nationally through the KI-MIG enforcement law",
   "accentColor": {
     "light": "#A89457",
     "dark": "#BAA978"
@@ -19,63 +19,107 @@
     51.16
   ],
   "zoom": 5.2,
-  "lastUpdated": "2026-07-13",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 11,
   "debateTopics": [
-    "CEO personal liability under the KI-MIG enforcement law",
-    "Germany's sovereign AI champion changes hands",
+    "Executive liability risk under Germany's AI Act enforcement framework",
+    "Germany's sovereign AI champion merges with a foreign partner",
     "Germany-Canada Sovereign Technology Alliance"
   ],
-  "overview": "Germany passed its own AI Act enforcement legislation in mid-2026 \u2014 the KI-MIG (AI Act Implementing Act), approved by the Bundestag on 11 June, naming the Bundesnetzagentur as market-surveillance authority and introducing personal liability for company executives over AI security failures from 2 August 2026, with fines of up to \u20ac35 million or 7% of global turnover. Dr. Karsten Wildberger has led the restructured Federal Ministry for Digital Transformation and Government Modernisation (BMDS) as Germany's first-ever Digital Minister since May 2025.\n\nAnother notable German AI story in 2026 was industrial rather than regulatory: Aleph Alpha, often described as Germany's sovereign answer to OpenAI and Mistral, agreed to be acquired by Canada's Cohere \u2014 a development that sits alongside the new Germany-Canada Sovereign Technology Alliance.",
+  "overview": "Germany advanced AI Act implementing legislation in mid-2026: the KI-MIG — short for KI-Marktüberwachungs- und Innovationsförderungsgesetz (AI Market Surveillance and Innovation Promotion Act), Article 1 of the broader Act Implementing the AI Regulation (Gesetz zur Durchführung der KI-Verordnung) — passed the Bundestag on 11 June and was approved by the Bundesrat on 10 July, naming the Bundesnetzagentur as lead AI Act market-surveillance authority, with BaFin covering financial-sector AI and BfDI retaining data-protection oversight. As of the most recent research, the law was awaiting formal promulgation (publication in the Bundesgesetzblatt), so its exact in-force date could not be confirmed. Some legal commentary has argued that existing German corporate-law doctrine could expose executives personally if they fail to implement adequate AI Act compliance oversight, though this appears to be a risk interpretation of general corporate law rather than an explicit personal-liability clause written into KI-MIG itself. Enforcement otherwise relies on the EU AI Act's own fine tiers — up to €35M or 7% of global turnover for prohibited practices, and up to €15M or 3% for other high-risk violations — plus supplementary national fines of up to €50,000 under KI-MIG for cooperation and information-obligation breaches (this national-fine figure comes from secondary legal-commentary sources and has not been independently checked against the bill's primary text). Separately, at the EU level, the 'Digital Omnibus on AI' was adopted by the European Parliament and Council in June 2026, postponing most high-risk AI Act obligations from August 2026 to December 2027 (and product-embedded high-risk obligations to August 2028) — a delay that affects when KI-MIG's new enforcement powers will have substantive high-risk obligations to enforce. Dr. Karsten Wildberger has led the restructured Federal Ministry for Digital Transformation and Government Modernisation (BMDS), Germany's first dedicated digital ministry, since May 2025 and remained in the role as of mid-2026; Germany's National Security Council separately announced on 9 June 2026 that it intends to establish an AI safety institute modeled on the UK's AISI, though as of the most recent research no formal institute name, budget or legal basis had been confirmed.\n\nAnother notable German AI story in 2026 was industrial rather than regulatory: Aleph Alpha, sometimes described as Germany's sovereign answer to OpenAI and Mistral, agreed in April 2026 to merge with Canada's Cohere to form a combined transatlantic entity valued at roughly $20B, backed partly by a $600M investment from Germany's Schwarz Group. The deal had not closed as of the most recent research and remained subject to shareholder and regulatory approval — a development that sits alongside a new Germany-Canada Sovereign Technology Alliance launched in February 2026. Separately, SAP moved to acquire German startup Prior Labs in May 2026 (reported as completed around mid-July 2026) to build a frontier tabular-AI lab in Europe, distinct from the earlier, unrelated 'OpenAI for Germany' sovereign public-sector initiative SAP launched with OpenAI and Microsoft back in September 2025.",
   "atAGlance": {
     "policyDirection": {
-      "label": "EU-aligned, now with binding national enforcement",
+      "label": "EU-aligned, with new national enforcement legislation advancing",
       "sentiment": "amber"
     },
-    "regulatoryApproach": "KI-MIG implements and enforces the EU AI Act nationally, with real penalties",
-    "latestMajorUpdate": "Bundestag passes the KI-MIG AI Act Implementing Act, with CEO liability from August 2026",
-    "governmentInvolvement": "Rising \u2014 new enforcement law and a dedicated Digital Ministry since 2025",
-    "industrialStrategy": "Balancing enforcement with competitiveness amid a national champion's sale abroad",
-    "internationalPartnerships": "Germany-Canada Sovereign Technology Alliance; full EU AI Act participation",
-    "primaryPolicyFocus": "AI Act enforcement mechanics and executive liability over new substantive rules"
+    "regulatoryApproach": "KI-MIG implements and enforces the EU AI Act nationally; it has passed both chambers of parliament but its formal entry into force could not be confirmed as of mid-2026",
+    "latestMajorUpdate": "Bundesrat approves the KI-MIG (AI Market Surveillance and Innovation Promotion Act) on 10 July 2026, following Bundestag passage on 11 June",
+    "governmentInvolvement": "Rising — new enforcement law advancing and a dedicated Digital Ministry in place since 2025",
+    "industrialStrategy": "Balancing enforcement with competitiveness amid a national AI champion's merger with a foreign partner",
+    "internationalPartnerships": "Germany-Canada Sovereign Technology Alliance (launched February 2026); full EU AI Act participation",
+    "primaryPolicyFocus": "AI Act enforcement mechanics rather than new substantive rules; executive liability is discussed mainly as a legal-commentary interpretation of existing corporate law"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "Germany moved from having no national AI-specific statute to passing real enforcement legislation within months \u2014 the KI-MIG names a market-surveillance authority and introduces personal liability for executives, a substantive tightening even though it implements the EU AI Act rather than creating new substantive rules."
+    "summary": "Germany moved from having no national AI-specific statute to advancing enforcement legislation within months: the KI-MIG names a market-surveillance authority and adds modest national fines, and some legal commentators argue it heightens executives' exposure under existing German corporate-law doctrine even though the bill's own text does not appear to create a new personal-liability clause. This represents a tightening in enforcement posture even though the underlying substantive rules remain the EU AI Act's rather than a new German AI statute. At the same time, the EU's 2026 'Digital Omnibus on AI' postponed most high-risk AI Act obligations to late 2027/2028, so the near-term practical effect of this tightening on regulated businesses remains limited for now."
   },
   "recentDevelopments": [
     {
-      "text": "Bundestag passes the KI-MIG (AI Act Implementing Act) on 11 June, naming the Bundesnetzagentur as market-surveillance authority; CEOs face personal liability for AI security failures from 2 August 2026, with fines up to \u20ac35M or 7% of global turnover.",
+      "text": "Bundestag passes the KI-MIG (KI-Marktüberwachungs- und Innovationsförderungsgesetz — AI Market Surveillance and Innovation Promotion Act, Article 1 of the broader Act Implementing the AI Regulation) on 11 June 2026, naming the Bundesnetzagentur as lead AI Act market-surveillance authority alongside BaFin (financial-sector AI) and BfDI (data protection); enforcement draws on the EU AI Act's own fines of up to €35M or 7% of global turnover for prohibited practices, up to €15M or 3% for other high-risk violations, plus KI-MIG's own supplementary national fines of up to €50,000 for cooperation-obligation breaches.",
       "date": "2026-06-11",
       "sourceIds": [
-        "de-6"
+        "de-6",
+        "de-10",
+        "de-24"
       ],
       "severity": "major"
     },
     {
-      "text": "Cohere announces acquisition of Aleph Alpha, which had been widely regarded as Germany's independent sovereign AI champion.",
+      "text": "Bundesrat approves the KI-MIG, clearing the way for promulgation; the law is expected to enter force the day after publication in the Bundesgesetzblatt, though a confirmed publication date could not be found.",
+      "date": "2026-07-10",
+      "sourceIds": [
+        "de-8"
+      ],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "Germany's National Security Council announces plans to establish an AI safety institute modeled on the UK's AI Safety Institute (AISI), to analyse frontier-model risks and coordinate with peer institutes internationally; per Digital Minister Wildberger, the body would begin as a 'virtual institution' before a permanent site is chosen and would draw on expertise from the Bundesnetzagentur and the Federal Office for Information Security (BSI). No formal institute name, budget or legal basis had been confirmed as of the most recent research, though some subsequent industry/press commentary has begun informally referring to the planned body as 'DE-AISI' — a shorthand that has not been confirmed as an official government designation.",
+      "date": "2026-06-09",
+      "sourceIds": [
+        "de-21"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Munich-based defense-AI company Helsing raises a $1.8B Series E at an $18B valuation, reportedly making it one of the most highly valued startups in mainland Europe; the company builds the HX-2 strike drone and Altra battlefield-AI software.",
+      "date": "2026-07-13",
+      "sourceIds": [
+        "de-14"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Cohere and Aleph Alpha announce a merger to create a combined transatlantic AI company valued at roughly $20B, backed partly by a $600M investment from Germany's Schwarz Group; the deal was not yet closed and remained subject to shareholder and regulatory approval.",
       "date": "2026-04-24",
       "sourceIds": [
-        "de-1"
+        "de-1",
+        "de-12"
       ],
       "severity": "major"
     },
     {
-      "text": "Germany\u2013Canada Sovereign Technology Alliance launched at the Munich Security Conference to reduce strategic technology dependency.",
-      "date": "2026",
+      "text": "Germany and Canada launch a Sovereign Technology Alliance on the margins of the Munich Security Conference via a Joint Declaration of Intent on AI signed by Digital Minister Karsten Wildberger and Canada's AI/Digital Innovation Minister Evan Solomon, building on a December 2025 Canada-Germany Digital Alliance.",
+      "date": "2026-02-14",
       "sourceIds": [
-        "de-2"
+        "de-11"
       ]
     },
     {
-      "text": "Federal Employment Agency and Aleph Alpha deploy a \u20ac19M AI helpdesk handling up to 90% of routine IT/HR inquiries.",
+      "text": "SAP, OpenAI and Microsoft launch 'OpenAI for Germany,' a sovereign public-sector AI offering running on SAP's Delos Cloud subsidiary atop Azure infrastructure; first announced 24 September 2025, with pilot rollouts (including with the Max Planck Society) planned to begin in Q1 2026.",
+      "date": "2025-09-24",
+      "sourceIds": [
+        "de-16",
+        "de-23"
+      ]
+    },
+    {
+      "text": "SAP announces the acquisition of German AI startup Prior Labs, committing to invest more than €1B over four years to build it into a frontier tabular-AI lab for Europe; Prior Labs continues to operate under its own brand and leadership within SAP, with the deal reported as completed around mid-July 2026.",
+      "date": "2026-05-05",
+      "sourceIds": [
+        "de-15",
+        "de-22"
+      ]
+    },
+    {
+      "text": "Federal Employment Agency (Bundesagentur für Arbeit) signs a roughly €19M framework agreement with Aleph Alpha for an internal AI helpdesk built on Pharia OS, intended to handle up to 90% of routine IT/HR inquiries.",
       "date": "2026",
       "sourceIds": [
         "de-1"
       ]
     },
     {
-      "text": "German AI startups attract \u20ac1.7B in Q1 2026 funding alone; Germany ranks 4th globally for AI startup count after Silicon Valley, Paris and London.",
+      "text": "Crunchbase News' coverage of European AI investment reportedly put German AI startup funding at roughly €1.7B in Q1 2026; the closest independently located figure is Crunchbase's separate report that Germany-based startups overall (not confirmed as AI-specific) raised about $1.9B in Q1 2026, which is roughly consistent in magnitude but does not clearly confirm that the €1.7B figure is AI-specific. Comparative claims about Germany's exact global ranking by AI startup count also could not be independently confirmed.",
       "date": "2026",
       "sourceIds": [
         "de-3"
@@ -83,107 +127,216 @@
       "needsVerification": true
     },
     {
-      "text": "Dr. Karsten Wildberger confirmed as Germany's first-ever Digital Minister, leading the restructured BMDS since May 2025.",
+      "text": "Dr. Karsten Wildberger confirmed as Germany's first-ever Digital Minister, leading the restructured BMDS since May 2025; he remained in the role as of mid-2026.",
       "date": "2025-05",
       "sourceIds": [
-        "de-7"
+        "de-7",
+        "de-17"
       ]
     }
   ],
   "policyAndRegulation": [
     {
-      "title": "KI-MIG (AI Act Implementing Act)",
-      "status": "in_force",
-      "summary": "Passed by the Bundestag 11 June 2026, names the Bundesnetzagentur as Germany's AI Act market-surveillance authority and introduces personal executive liability for AI security failures from 2 August 2026, with fines up to \u20ac35M or 7% of global turnover.",
+      "title": "KI-MIG (AI Market Surveillance and Innovation Promotion Act)",
+      "status": "passed",
+      "summary": "Passed by the Bundestag on 11 June 2026 and approved by the Bundesrat on 10 July 2026. KI-MIG (KI-Marktüberwachungs- und Innovationsförderungsgesetz) is Article 1 of the broader Act Implementing the AI Regulation (Gesetz zur Durchführung der KI-Verordnung); the file's earlier shorthand 'AI Act Implementing Act' described the umbrella law but was not KI-MIG's own name. The law names the Bundesnetzagentur as Germany's AI Act market-surveillance authority (with BaFin for financial-sector AI and BfDI for data protection) and adds supplementary national fines of up to €50,000 for cooperation and information-obligation breaches — a figure drawn from secondary legal commentary rather than independently re-checked against the primary legislative text. Some legal commentary describes a risk of personal liability for executives under existing German corporate-law doctrine, though this does not appear to be an explicit clause in the bill's own text. Formal promulgation and confirmed entry into force could not be verified as of the last update.",
       "sourceIds": [
-        "de-6"
-      ]
+        "de-6",
+        "de-8",
+        "de-9",
+        "de-24"
+      ],
+      "needsVerification": true
     },
     {
       "title": "EU AI Act (as applied in Germany)",
       "status": "in_force",
-      "summary": "The substantive rules Germany enforces are the EU AI Act's; KI-MIG is Germany's national implementation and enforcement layer rather than a separate substantive AI statute.",
+      "summary": "The substantive rules Germany enforces are the EU AI Act's; KI-MIG is Germany's national implementation and enforcement layer rather than a separate substantive AI statute. In 2026 the EU adopted a 'Digital Omnibus on AI' (European Parliament, 16 June 2026; Council, 29 June 2026) that postpones most high-risk AI Act obligations under Annex III from 2 August 2026 to 2 December 2027, and product-embedded (Annex I) high-risk obligations from August 2027 to August 2028 — delaying the point at which KI-MIG's enforcement powers will have substantive high-risk obligations to apply against.",
       "sourceIds": [
-        "de-4"
+        "de-4",
+        "de-27"
+      ]
+    },
+    {
+      "title": "National AI Strategy (Strategie Künstliche Intelligenz der Bundesregierung)",
+      "status": "in_force",
+      "summary": "Adopted 15 November 2018 and updated in December 2020 (raising planned federal AI investment to €5B by 2025), Germany's National AI Strategy was followed by a November 2023 AI Action Plan committing over €1.6B in additional funding through 2024, focused on healthcare, climate, robotics and education. The strategy and the 2023 Action Plan were issued under the ministry's predecessor (then BMBF, since restructured into BMFTR) under a previous minister; BMFTR is now led by Minister Dorothee Bär, in office since May 2025.",
+      "sourceIds": [
+        "de-19"
       ]
     }
   ],
   "researchEcosystem": {
-    "summary": "German AI research is anchored by institutions such as DFKI (German Research Center for AI, roughly 800 scientists across multiple sites, founded 1988) and the Max Planck Institute for Intelligent Systems, alongside a startup ecosystem reported to rank fourth globally by AI startup count after Silicon Valley, Paris and London (a claim that has not been independently verified here).",
+    "summary": "German AI research is anchored by institutions such as DFKI (German Research Center for AI, founded 1988, led by CEO Prof. Dr. Antonio Krüger since 2019, with sites across Kaiserslautern, Saarbrücken, Bremen, Oldenburg, Osnabrück, Berlin, Darmstadt, Lübeck and Trier) and the Max Planck Institute for Intelligent Systems (which uses a distributed leadership structure across several directors rather than a single institute head), alongside university-linked hubs such as the Tübingen AI Center, Cyber Valley and the closely related but distinct ELLIS Institute Tübingen (founded 2023). Reported staff figures for DFKI vary by source and by whether graduate students are included, ranging from roughly 900 researchers to over 1,500 total employees. Some secondary sources describe German AI startups as attracting substantial funding (on the order of €1.7B in Q1 2026 per one Crunchbase-sourced figure, though it remains unclear whether that figure is AI-specific or spans all sectors), and some rank Germany highly by AI startup count, though a specific 'fourth globally' ranking could not be independently verified.",
     "sourceIds": [
-      "de-3"
+      "de-3",
+      "de-18"
     ]
   },
   "companies": [
     {
       "name": "Aleph Alpha",
-      "description": "German AI company focused on sovereign, enterprise-grade language models; agreed in 2026 to be acquired by Canada's Cohere.",
+      "description": "German AI company focused on sovereign, enterprise-grade language models; announced a merger with Canada's Cohere in April 2026 to form a combined ~$20B transatlantic entity, not yet closed as of mid-2026.",
       "url": "https://aleph-alpha.com"
     },
     {
       "name": "DeepL",
-      "description": "Cologne-based AI company known for high-quality machine translation.",
+      "description": "Cologne-based AI company known for high-quality machine translation; most recently valued at roughly $2B (2024) and made a further acquisition (Mixhalo) in June 2026.",
       "url": "https://www.deepl.com"
+    },
+    {
+      "name": "Helsing",
+      "description": "Munich-based defense-AI company building the HX-2 strike drone and Altra battlefield-AI software; raised a $1.8B Series E in July 2026 at an $18B valuation.",
+      "url": "https://helsing.ai"
+    },
+    {
+      "name": "Black Forest Labs",
+      "description": "Freiburg im Breisgau-based generative-AI company founded in 2024 by former Stability AI researchers, maker of the FLUX text-to-image model family; raised a $300M Series B at a $3.25B valuation in late 2025.",
+      "url": "https://blackforestlabs.ai"
+    },
+    {
+      "name": "SAP",
+      "description": "German enterprise-software company; announced the acquisition of German AI startup Prior Labs in May 2026, committing over €1B over four years to build it into a frontier tabular-AI lab for Europe (reported completed around mid-July 2026), and separately partnered with OpenAI and Microsoft on 'OpenAI for Germany' (first announced September 2025), a sovereign public-sector AI offering running on SAP's Delos Cloud.",
+      "url": "https://www.sap.com"
+    },
+    {
+      "name": "Celonis",
+      "description": "Munich-based process-mining and AI-driven business-operations software company, reportedly Germany's most valuable startup, with a private valuation reported in the roughly $11-13B range and a US IPO still anticipated (though not yet completed) as of mid-2026. Frequently cited alongside Aleph Alpha, Helsing, Black Forest Labs and DeepL in 'top German AI company' roundups, though it is sometimes categorized primarily as enterprise software/analytics rather than core AI.",
+      "url": "https://www.celonis.com"
+    },
+    {
+      "name": "Neura Robotics",
+      "description": "Riederich (near Stuttgart)-based humanoid/AI-robotics company, maker of the 4NE1 humanoid robot (developed with Studio F.A. Porsche); raised a Series C reportedly of up to $1.4B in June 2026 — reportedly the largest single financing round raised by a company in Germany — at a valuation of roughly $7B, with backers including Tether, Amazon, Nvidia and Qualcomm, alongside partnerships with Bosch, AWS and TU Munich.",
+      "url": "https://neura-robotics.com"
     }
   ],
   "cloudInfrastructure": {
     "providers": [
       {
         "name": "Microsoft Azure",
-        "description": "One of the leading cloud providers for German enterprise and public-sector AI workloads."
+        "description": "One of the leading cloud providers for German enterprise and public-sector AI workloads.",
+        "url": "https://azure.microsoft.com"
       },
       {
         "name": "AWS",
-        "description": "Major cloud provider with significant German data-centre presence."
+        "description": "Major cloud provider with significant German data-centre presence.",
+        "url": "https://aws.amazon.com"
       },
       {
         "name": "Google Cloud",
-        "description": "Cloud provider used across German research and enterprise AI deployments."
+        "description": "Cloud provider used across German research and enterprise AI deployments.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "Hetzner",
+        "description": "German-owned hosting and cloud provider (Falkenstein, Nuremberg, Helsinki data centres) offering GPU cloud and dedicated servers for AI workloads.",
+        "url": "https://www.hetzner.com"
+      },
+      {
+        "name": "Deutsche Telekom / T-Systems",
+        "description": "Operates an 'Industrial AI Cloud' with NVIDIA at a Munich data centre, reportedly targeting over 1,000 DGX B200 systems and up to 10,000 Blackwell GPUs, alongside a sovereign 'T Cloud Public' platform.",
+        "url": "https://www.telekom.com"
+      },
+      {
+        "name": "IONOS",
+        "description": "German-headquartered cloud provider marketed on EU/German data sovereignty.",
+        "url": "https://www.ionos.de"
+      },
+      {
+        "name": "SAP Delos Cloud",
+        "description": "SAP's sovereign-cloud subsidiary, running atop Azure infrastructure, underpinning the 'OpenAI for Germany' public-sector AI offering.",
+        "url": "https://www.sap.com"
+      },
+      {
+        "name": "STACKIT",
+        "description": "Schwarz Group-owned cloud provider positioning itself as a 'sovereign' European cloud and AI infrastructure option; operates multiple data centres in Germany and Austria and has announced plans to expand AI/GPU capacity, though its self-described ambition to become 'Europe's first hyperscaler' has not been independently verified.",
+        "url": "https://stackit.com/en"
+      },
+      {
+        "name": "Oracle Cloud",
+        "description": "US hyperscaler with a growing German presence, including a Frankfurt commercial region and an EU Sovereign Cloud region, and reported plans for a multi-year, multi-billion-dollar investment in German and Dutch AI/cloud infrastructure.",
+        "url": "https://www.oracle.com"
+      },
+      {
+        "name": "OVHcloud",
+        "description": "French cloud provider with a German availability zone in Berlin and a stated strategic push into sovereign/frontier AI infrastructure as a European alternative to US hyperscalers.",
+        "url": "https://www.ovhcloud.com/en/"
+      },
+      {
+        "name": "Alibaba Cloud",
+        "description": "Chinese hyperscaler with a minor, lower-profile data-centre presence in Germany (a Frankfurt facility, its third German site as of a 2022 expansion); a much smaller player in Germany than the major US and German providers listed above."
       }
     ],
-    "dominance": [
-      {
-        "provider": "Azure",
-        "share": 31
-      },
-      {
-        "provider": "AWS",
-        "share": 27
-      },
-      {
-        "provider": "Google Cloud",
-        "share": 13
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
       "name": "DFKI",
-      "description": "German Research Center for Artificial Intelligence \u2014 roughly 800 scientists across multiple German sites, founded 1988.",
-      "url": "https://www.dfki.de"
+      "description": "German Research Center for Artificial Intelligence, founded 1988, with sites across multiple German cities. Reported staff figures vary by source (roughly 900 researchers to over 1,500 total employees including graduate students).",
+      "url": "https://www.dfki.de",
+      "needsVerification": true
     },
     {
       "name": "Max Planck Institute for Intelligent Systems",
-      "description": "Leading research institute for machine learning and robotics, based in Stuttgart and T\u00fcbingen.",
+      "description": "Leading research institute for machine learning and robotics, based in Stuttgart and Tübingen; led by a distributed group of directors (Michael J. Black, Moritz Hardt, Bernhard Schölkopf, Katherine J. Kuchenbecker) rather than a single institute head.",
       "url": "https://is.mpg.de"
+    },
+    {
+      "name": "Tübingen AI Center / Cyber Valley",
+      "description": "Research consortium closely tied to the University of Tübingen and the Max Planck Institute for Intelligent Systems, described as one of Europe's largest AI research hubs by number of ML research groups and PhD students/postdocs.",
+      "url": "https://tuebingen.ai"
+    },
+    {
+      "name": "ELLIS Institute Tübingen",
+      "description": "European AI research institute founded in 2023, closely linked to the Tübingen AI Center and Cyber Valley ecosystem.",
+      "url": "https://institute-tue.ellis.eu"
     }
   ],
   "thinkTanks": [
     {
-      "name": "Stiftung Neue Verantwortung",
-      "description": "Berlin-based technology policy think tank covering digital and AI governance issues.",
-      "url": "https://www.stiftung-nv.de"
+      "name": "interface",
+      "description": "Berlin-based technology policy think tank covering digital and AI governance issues; rebranded from Stiftung Neue Verantwortung in 2024.",
+      "url": "https://www.interface-eu.org",
+      "aliases": [
+        "Stiftung Neue Verantwortung"
+      ]
+    },
+    {
+      "name": "AlgorithmWatch",
+      "description": "Berlin/Zurich-based NGO focused on algorithmic accountability, AI ethics and AI-policy advocacy across Europe.",
+      "url": "https://algorithmwatch.org/en/"
+    },
+    {
+      "name": "Alexander von Humboldt Institute for Internet and Society (HIIG)",
+      "description": "Berlin-based research institute (founded 2011, backed by Humboldt Universität zu Berlin, Berlin University of the Arts and WZB) working at the intersection of internet/AI research and policy, including projects such as 'Shaping AI' and the Internet Policy Review journal.",
+      "url": "https://www.hiig.de/en/"
     }
   ],
   "governmentInstitutions": [
     {
       "name": "Federal Ministry for Digital Transformation and Government Modernisation (BMDS)",
-      "description": "Germany's first dedicated digital ministry, restructured in 2025, led by Dr. Karsten Wildberger.",
-      "url": "https://www.bundesregierung.de/breg-en/federal-government/ministries/ministry-for-digitalisation-and-state-modernisation"
+      "description": "Germany's first dedicated federal digital ministry, established by the Chancellor's organisational decree of 6 May 2025; led by Dr. Karsten Wildberger since its creation.",
+      "url": "https://bmds.bund.de/en/"
     },
     {
       "name": "Bundesnetzagentur",
-      "description": "Named as Germany's market-surveillance authority for AI Act enforcement under the new KI-MIG law."
+      "description": "Named as Germany's lead market-surveillance authority for AI Act enforcement under the new KI-MIG law, with BaFin covering financial-sector AI and BfDI retaining data-protection oversight. President Klaus Müller has led the agency since March 2022.",
+      "url": "https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/start_ki.html"
+    },
+    {
+      "name": "BaFin (Federal Financial Supervisory Authority)",
+      "description": "Covers AI oversight within Germany's financial sector, working alongside the Bundesnetzagentur under the KI-MIG enforcement framework."
+    },
+    {
+      "name": "BfDI (Federal Commissioner for Data Protection and Freedom of Information)",
+      "description": "Retains data-protection oversight of AI systems under the KI-MIG enforcement framework. Prof. Dr. Moritz Hennemann was elected by the Bundestag as the next Federal Commissioner on 25 June 2026, but as of the most recent research had not yet taken office; incumbent Louisa Specht-Riemenschneider, who is stepping down for health reasons, remains the acting Federal Commissioner through 30 September 2026.",
+      "url": "https://www.bfdi.bund.de/EN/Home/home_node.html",
+      "needsVerification": true
+    },
+    {
+      "name": "Federal Ministry of Research, Technology and Space (BMFTR)",
+      "description": "Ministry responsible for Germany's National AI Strategy and AI Action Plan; led by Minister Dorothee Bär since May 2025.",
+      "url": "https://www.bmftr.bund.de/EN/Research/EmergingTechnologies/ArtificialIntelligence/artificialintelligence_node.html"
     }
   ],
   "keyPeople": [
@@ -192,29 +345,74 @@
       "role": "Federal Minister for Digital Transformation and Government Modernisation",
       "affiliation": "BMDS",
       "category": "government",
-      "url": "https://www.bundesregierung.de/breg-en/federal-government/ministries/ministry-for-digitalisation-and-state-modernisation"
+      "url": "https://bmds.bund.de/en/"
     },
     {
       "name": "Jonas Andrulis",
-      "role": "Founder and Chief Executive Officer",
+      "role": "Founder; stepped down as CEO on 10 October 2025 and became Chairman of the Advisory Board",
+      "affiliation": "Aleph Alpha",
+      "category": "advisor",
+      "url": "https://aleph-alpha.com"
+    },
+    {
+      "name": "Reto Spörri",
+      "role": "Co-Chief Executive Officer — joined as co-CEO alongside founder Jonas Andrulis in July 2025; some later coverage described a February 2026 appointment date, which appears to conflate his appointment with Ilhan Scheer's and is treated here as unconfirmed",
+      "affiliation": "Aleph Alpha",
+      "category": "company_leader",
+      "url": "https://aleph-alpha.com",
+      "needsVerification": true
+    },
+    {
+      "name": "Ilhan Scheer",
+      "role": "Co-Chief Executive Officer, effective 1 February 2026, having previously served as Chief Growth Officer since August 2025",
       "affiliation": "Aleph Alpha",
       "category": "company_leader",
       "url": "https://aleph-alpha.com"
+    },
+    {
+      "name": "Dorothee Bär",
+      "role": "Federal Minister of Research, Technology and Space",
+      "affiliation": "BMFTR",
+      "category": "government",
+      "url": "https://www.bmftr.bund.de/EN/Research/EmergingTechnologies/ArtificialIntelligence/artificialintelligence_node.html"
+    },
+    {
+      "name": "Klaus Müller",
+      "role": "President, Bundesnetzagentur (in office since March 2022)",
+      "affiliation": "Bundesnetzagentur",
+      "category": "government",
+      "url": "https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/start_ki.html"
+    },
+    {
+      "name": "Moritz Hennemann",
+      "role": "Elected Federal Commissioner for Data Protection and Freedom of Information (25 June 2026); had not yet taken office as of the most recent research, with incumbent Louisa Specht-Riemenschneider remaining acting Commissioner through 30 September 2026",
+      "affiliation": "BfDI",
+      "category": "government",
+      "url": "https://www.bfdi.bund.de/EN/Home/home_node.html",
+      "needsVerification": true
+    },
+    {
+      "name": "Antonio Krüger",
+      "role": "CEO (since 2019)",
+      "affiliation": "DFKI",
+      "category": "researcher",
+      "url": "https://www.dfki.de"
     }
   ],
   "peopleToFollow": [
     {
       "name": "Karsten Wildberger",
       "type": "person",
-      "role": "Germany's first Digital Minister; central voice on the country's AI enforcement and digitalisation strategy.",
-      "category": "government"
+      "role": "Germany's first Digital Minister; a central voice on the country's AI enforcement and digitalisation strategy.",
+      "category": "government",
+      "url": "https://bmds.bund.de/en/"
     },
     {
-      "name": "Stiftung Neue Verantwortung",
+      "name": "interface",
       "type": "organization",
-      "role": "Berlin think tank covering German and EU digital and AI governance issues in depth.",
+      "role": "Berlin think tank (formerly Stiftung Neue Verantwortung) covering German and EU digital and AI governance issues in depth.",
       "category": "think_tank",
-      "url": "https://www.stiftung-nv.de"
+      "url": "https://www.interface-eu.org"
     },
     {
       "name": "DFKI",
@@ -222,6 +420,13 @@
       "role": "Germany's national AI research centre, closely watched for applied AI research direction.",
       "category": "university",
       "url": "https://www.dfki.de"
+    },
+    {
+      "name": "AlgorithmWatch",
+      "type": "organization",
+      "role": "NGO tracking algorithmic accountability and AI-policy developments across Germany and the EU.",
+      "category": "think_tank",
+      "url": "https://algorithmwatch.org/en/"
     }
   ],
   "influenceMap": [
@@ -238,48 +443,62 @@
       "type": "company"
     },
     {
+      "label": "Helsing",
+      "type": "company"
+    },
+    {
       "label": "DFKI",
       "type": "research"
     },
     {
-      "label": "Stiftung Neue Verantwortung",
+      "label": "interface",
       "type": "think_tank"
     }
   ],
   "debates": [
     {
-      "topic": "CEO personal liability under the KI-MIG enforcement law",
+      "topic": "Executive liability risk under Germany's AI Act enforcement framework",
       "category": "government",
-      "summary": "Germany's new AI Act implementing law introduces personal liability for executives over AI security failures, which appears to go further than several other EU member states' national implementations to date.",
-      "expanded": "From 2 August 2026, company executives can be held personally liable for AI security failures under KI-MIG, alongside fines of up to \u20ac35M or 7% of global turnover. Some industry voices have expressed concern that this could push AI deployment decisions toward excessive caution or offshore structuring, while proponents argue the personal-liability provision is necessary to make the law enforceable against large multinational deployers.",
+      "summary": "Some commentary describes KI-MIG as creating personal liability for executives over AI security failures, but direct summaries of the bill's own text describe only new enforcement authorities and modest national fines — the liability narrative appears to trace to separate legal analysis of existing German corporate-law doctrine rather than a specific clause in KI-MIG itself.",
+      "expanded": "KI-MIG's own text names Bundesnetzagentur, BaFin and BfDI as enforcement authorities and adds supplementary national fines of up to €50,000 for cooperation and information-obligation breaches; legal-analysis sources reviewed do not describe an explicit personal-liability clause in the bill. Separate commentary (e.g. from February 2026) argues that established doctrines such as Organisationsverschulden and Geschäftsführerhaftung could expose executives' private assets if they fail to implement adequate AI Act compliance oversight — a risk analysis derived from general corporate law meeting new EU AI Act duties, rather than a liability clause introduced by KI-MIG. Some industry voices have nonetheless expressed concern that this combination could push AI deployment decisions toward excessive caution or offshore structuring, while others argue it is a reasonable reading of existing law rather than a new legal risk.",
       "sourceIds": [
-        "de-6"
+        "de-6",
+        "de-9"
       ]
     },
     {
-      "topic": "Germany's sovereign AI champion changes hands",
+      "topic": "Germany's sovereign AI champion merges with a foreign partner",
       "category": "industry",
-      "summary": "Aleph Alpha's acquisition by Canada's Cohere raises the question of what 'sovereign AI' means when a national champion is sold to a foreign lab.",
-      "expanded": "Aleph Alpha had been positioned for years as Germany's answer to dependence on US and French AI labs. Its 2026 acquisition by Cohere \u2014 itself the subject of a new Germany-Canada tech alliance \u2014 complicates the sovereignty narrative: German enterprise and public-sector AI (like the Federal Employment Agency's helpdesk) now runs on technology owned by a foreign company, even if a friendly one.",
+      "summary": "Aleph Alpha's planned merger with Canada's Cohere has prompted debate about what 'sovereign AI' means when a national champion combines with a foreign lab, even though the deal had not closed as of mid-2026.",
+      "expanded": "Aleph Alpha had been positioned for years as Germany's answer to dependence on US and French AI labs. Founder Jonas Andrulis stepped down as CEO on 10 October 2025 and became chairman of the company's advisory board. Reto Spörri had already joined as co-CEO alongside Andrulis in July 2025, and Ilhan Scheer was appointed a second co-CEO effective 1 February 2026, shortly before the Cohere transaction was announced (some later coverage describes both co-CEO appointments as dating to February 2026, which appears to understate Spörri's actual tenure). The April 2026 merger agreement — announced alongside a new Germany-Canada tech alliance — would create a combined ~$20B transatlantic entity anchored in Berlin and Toronto; if it closes, some observers argue German enterprise and public-sector AI deployments (like the Federal Employment Agency's helpdesk, built on Aleph Alpha's Pharia OS) would increasingly run on jointly or foreign-owned technology, even if from a close ally.",
       "sourceIds": [
-        "de-1"
+        "de-1",
+        "de-12",
+        "de-13",
+        "de-25"
       ]
     },
     {
       "topic": "Germany-Canada Sovereign Technology Alliance",
       "category": "investment",
-      "summary": "A new alliance with Canada aims to reduce both countries' strategic technology dependency \u2014 launched in the same period as Canada's Cohere acquired Germany's own flagship AI lab.",
-      "expanded": "The alliance's stated aim is deepening cooperation on sovereign technology capability between the two countries. Its practical meaning is still being worked out, particularly given the Aleph Alpha acquisition running in parallel.",
+      "summary": "A new alliance with Canada aims to deepen cooperation on sovereign technology capability between the two countries — launched in the same period as Canada's Cohere agreed to merge with Aleph Alpha, an AI lab often described as one of Germany's leading sovereign AI ventures.",
+      "expanded": "Launched via a Joint Declaration of Intent on AI signed by Digital Minister Karsten Wildberger and Canada's AI/Digital Innovation Minister Evan Solomon on the margins of the February 2026 Munich Security Conference, building on a December 2025 Canada-Germany Digital Alliance, the alliance's practical meaning is still being worked out — particularly given the Cohere-Aleph Alpha merger running in parallel.",
       "sourceIds": [
-        "de-2"
+        "de-11"
       ]
     }
   ],
   "knowledgeHub": [
     {
-      "title": "KI-MIG (AI Act Implementing Act) overview",
+      "title": "KI-MIG (AI Market Surveillance and Innovation Promotion Act) overview",
       "type": "government",
       "url": "https://www.technologyslegaledge.com/2026/03/germanys-ai-implementation-act/"
+    },
+    {
+      "title": "KI-MIG guide",
+      "type": "government",
+      "author": "activeMind.legal",
+      "url": "https://www.activemind.legal/de/guides/ki-mig/"
     },
     {
       "title": "DFKI research programme",
@@ -289,14 +508,21 @@
     {
       "title": "German and EU AI policy commentary",
       "type": "think_tank",
-      "author": "Stiftung Neue Verantwortung",
-      "url": "https://www.stiftung-nv.de"
+      "author": "interface",
+      "url": "https://www.interface-eu.org"
+    },
+    {
+      "title": "Threading the Needle",
+      "type": "substack",
+      "author": "Anton Leicht",
+      "url": "https://writing.antonleicht.me",
+      "note": "Political economy of AI; Leicht is a Carnegie Endowment Fellow with prior Bundestag policy-advisory experience."
     }
   ],
   "sources": [
     {
       "id": "de-1",
-      "title": "Cohere to acquire Aleph Alpha",
+      "title": "Cohere to merge with Aleph Alpha",
       "publisher": "CNBC",
       "url": "https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html",
       "date": "2026-04",
@@ -312,11 +538,11 @@
     },
     {
       "id": "de-3",
-      "title": "German AI startup funding and ecosystem ranking",
-      "publisher": "DFKI",
-      "url": "https://www.dfki.de",
-      "date": "2026",
-      "category": "research"
+      "title": "AI Drives Europe's Second Straight Quarter Of Funding Gain As Deal Volume Falls Sharply",
+      "publisher": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/funding-picked-up-ai-led-europe-q1-2026/",
+      "date": "2026-04",
+      "category": "news"
     },
     {
       "id": "de-4",
@@ -329,8 +555,8 @@
     {
       "id": "de-5",
       "title": "German and EU AI policy commentary",
-      "publisher": "Stiftung Neue Verantwortung",
-      "url": "https://www.stiftung-nv.de",
+      "publisher": "interface",
+      "url": "https://www.interface-eu.org",
       "date": "2026",
       "category": "think_tank"
     },
@@ -349,8 +575,168 @@
       "url": "https://www.bundesregierung.de/breg-en/federal-government/ministries/ministry-for-digitalisation-and-state-modernisation",
       "date": "2025-05",
       "category": "government"
+    },
+    {
+      "id": "de-8",
+      "title": "Bundesrat approves the KI-MIG",
+      "publisher": "Bundesrat",
+      "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-node.html",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "de-9",
+      "title": "KI-MIG guide",
+      "publisher": "activeMind.legal",
+      "url": "https://www.activemind.legal/de/guides/ki-mig/",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "de-10",
+      "title": "Bundesnetzagentur — AI Act Market Surveillance",
+      "publisher": "Bundesnetzagentur",
+      "url": "https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/14_MarketSurveillance/start.html",
+      "category": "government"
+    },
+    {
+      "id": "de-11",
+      "title": "Canada and Germany sign AI joint declaration and launch Sovereign Technology Alliance",
+      "publisher": "Government of Canada",
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/02/canada-and-germany-sign-ai-joint-declaration-and-launch-sovereign-technology-alliance.html",
+      "date": "2026-02",
+      "category": "government"
+    },
+    {
+      "id": "de-12",
+      "title": "Why Cohere is merging with Aleph Alpha",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "de-13",
+      "title": "Cohere takes over Aleph Alpha shortly after the German startup ousted its original founder",
+      "publisher": "The Decoder",
+      "url": "https://the-decoder.com/cohere-takes-over-aleph-alpha-shortly-after-the-german-startup-ousted-its-original-founder/",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "de-14",
+      "title": "Helsing raises $1.8B at $18B valuation",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/13/helsing-fund-raise-defense-18-billion.html",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "de-15",
+      "title": "SAP bets $1.16B on 18-month-old German AI lab",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+      "date": "2026-05",
+      "category": "news"
+    },
+    {
+      "id": "de-16",
+      "title": "OpenAI for Germany",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/global-affairs/openai-for-germany/",
+      "date": "2025-09",
+      "category": "industry"
+    },
+    {
+      "id": "de-17",
+      "title": "Germany's Digital Minister on Europe's digital competitiveness",
+      "publisher": "Atlantic Council",
+      "url": "https://www.atlanticcouncil.org/event/germanys-digital-minister-on-europes-digital-competitiveness/",
+      "date": "2026-07",
+      "category": "think_tank"
+    },
+    {
+      "id": "de-18",
+      "title": "DFKI supporter profile",
+      "publisher": "DWIH Tokyo",
+      "url": "https://www.dwih-tokyo.org/en/supporter/dfki/",
+      "category": "research"
+    },
+    {
+      "id": "de-19",
+      "title": "Artificial Intelligence — research and strategy",
+      "publisher": "BMFTR (Federal Ministry of Research, Technology and Space)",
+      "url": "https://www.bmftr.bund.de/EN/Research/EmergingTechnologies/ArtificialIntelligence/artificialintelligence_node.html",
+      "category": "government"
+    },
+    {
+      "id": "de-20",
+      "title": "Stiftung Neue Verantwortung is now interface",
+      "publisher": "interface",
+      "url": "https://www.interface-eu.org/stiftung-neue-verantwortung-is-now-interface",
+      "date": "2024",
+      "category": "think_tank"
+    },
+    {
+      "id": "de-21",
+      "title": "Germany to create AI safety agency",
+      "publisher": "AFP / techxplore",
+      "url": "https://techxplore.com/news/2026-06-germany-ai-safety-agency.html",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "de-22",
+      "title": "SAP to Acquire Prior Labs, Establish Frontier AI Lab for Europe",
+      "publisher": "SAP Newsroom",
+      "url": "https://news.sap.com/2026/05/sap-to-acquire-prior-labs-establish-frontier-ai-lab-europe/",
+      "date": "2026-05",
+      "category": "industry"
+    },
+    {
+      "id": "de-23",
+      "title": "SAP, OpenAI Partner to Launch Sovereign 'OpenAI for Germany'",
+      "publisher": "SAP Newsroom",
+      "url": "https://news.sap.com/2025/09/sap-openai-partner-launch-sovereign-openai-germany/",
+      "date": "2025-09",
+      "category": "industry"
+    },
+    {
+      "id": "de-24",
+      "title": "KI-MIG legislative procedure (Gesetz zur Durchführung der KI-Verordnung)",
+      "publisher": "BMDS",
+      "url": "https://bmds.bund.de/service/gesetzgebungsverfahren/gesetz-zur-durchfuehrung-der-ki-verordnung",
+      "category": "government"
+    },
+    {
+      "id": "de-25",
+      "title": "Aleph Alpha Takes Next Step Towards Commercial Scaling with Updated Leadership Team",
+      "publisher": "Aleph Alpha",
+      "url": "https://aleph-alpha.com/aleph-alpha-takes-next-step-towards-commercial-scaling-with-updated-leadership-team/",
+      "date": "2025-07",
+      "category": "industry"
+    },
+    {
+      "id": "de-27",
+      "title": "Artificial Intelligence: Council gives final green light to simplify and streamline rules",
+      "publisher": "Council of the EU (Consilium)",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/",
+      "date": "2026-06",
+      "category": "government"
     }
   ],
   "hasMajorUpdate": true,
-  "notableGaps": []
+  "notableGaps": [
+    {
+      "area": "AI safety institute",
+      "note": "Germany's National Security Council announced on 9 June 2026 that it intends to establish an AI safety institute modeled on the UK's AISI, beginning as a 'virtual institution' before a permanent site is chosen. As of the most recent research, no formal institute name, budget or legal basis had been confirmed — some industry/press commentary has informally used the label 'DE-AISI', but this is not an official designation — so in the interim oversight remains distributed across the Bundesnetzagentur (market surveillance), BaFin (financial-sector AI) and BfDI (data protection)."
+    },
+    {
+      "area": "Domestic AI compute and chip fabrication",
+      "note": "Intel's planned ~€30B Magdeburg 'mega-fab' was cancelled in 2025. The TSMC-led ESMC joint venture (with Bosch, Infineon and NXP) building a fab in Dresden and Infineon's new Dresden 'Smart Power Fab' target mainstream/power-management nodes rather than leading-edge AI compute chips, leaving Germany without domestic leading-edge chip fabrication for frontier AI hardware. Germany does host significant AI-relevant supercomputing capacity, however, including the JUPITER EuroHPC exascale system at Forschungszentrum Jülich (operational since mid-2025 and ranked among the world's most powerful systems), which is used for both scientific and AI workloads."
+    },
+    {
+      "area": "Frontier foundation-model developers",
+      "note": "No lab headquartered in Germany currently trains an independent, general-purpose frontier-scale foundation model comparable to GPT/Gemini/Claude-class systems. Aleph Alpha was the closest domestic contender, but its planned merger with Canada's Cohere — if it closes — would fold its model development into a combined transatlantic entity rather than a purely German one, and no new independent frontier-model contender was identified in recent research."
+    }
+  ]
 }

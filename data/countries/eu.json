@@ -2,7 +2,7 @@
   "code": "eu",
   "name": "European Union",
   "shortName": "EU",
-  "flagEmoji": "\ud83c\uddea\ud83c\uddfa",
+  "flagEmoji": "🇪🇺",
   "geometryType": "marker",
   "isoA3": [],
   "region": "Europe",
@@ -17,15 +17,15 @@
     50.85
   ],
   "zoom": 4,
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 6,
   "debateTopics": [
-    "Digital Omnibus \u2014 simplification or weakening of the AI Act?",
+    "Digital Omnibus — simplification or weakening of the AI Act?",
     "Cloud and AI Development Act and compute sovereignty",
     "Copyright and text-and-data-mining under the AI Act",
     "AI Act enforcement readiness across member states"
   ],
-  "overview": "The European Union is widely regarded as having one of the world's most comprehensive binding AI laws \u2014 and in June 2026 it amended that law for the first time since 2024 adoption. The 'Digital Omnibus' simplification package, finalised by the Council on 29 June 2026, pushed back several major compliance deadlines in response to industry competitiveness concerns, while adding a new prohibition on AI-generated non-consensual intimate imagery and CSAM.\n\nThe Commission is simultaneously pursuing compute sovereignty through the Cloud and AI Development Act, proposed in June 2026 and published in the Official Journal in July 2026, which aims to reduce the EU's dependence on non-EU hyperscalers for AI infrastructure.",
+  "overview": "The European Union is widely regarded as having one of the world's most comprehensive binding AI laws — and in June 2026 it amended that law for the first time since 2024 adoption. The 'Digital Omnibus' simplification package, finalised by the Council on 29 June 2026, pushed back several major compliance deadlines in response to industry competitiveness concerns, while adding a new prohibition on AI-generated non-consensual intimate imagery and CSAM.\n\nThe Commission is simultaneously pursuing compute sovereignty through the Cloud and AI Development Act, proposed in June 2026 and published in the Official Journal in July 2026, which aims to reduce the EU's dependence on non-EU hyperscalers for AI infrastructure.",
   "atAGlance": {
     "policyDirection": {
       "label": "Comprehensive law, timelines now loosening",
@@ -33,14 +33,14 @@
     },
     "regulatoryApproach": "Risk-tiered hard law, binding across all member states",
     "latestMajorUpdate": "New Action Plan on Cybersecurity and AI launched alongside CADA's Official Journal publication",
-    "governmentInvolvement": "Very high \u2014 binding supranational law in force across all 27 member states, though national enforcement readiness reportedly varies",
+    "governmentInvolvement": "Very high — binding supranational law in force across all 27 member states, though national enforcement readiness reportedly varies",
     "industrialStrategy": "Compute sovereignty via CADA and 'AI Gigafactories'; simplification to aid competitiveness",
     "internationalPartnerships": "Participates in the G7 Hiroshima Process; the AI Act is frequently cited internationally as a reference point in AI regulatory debates",
     "primaryPolicyFocus": "Balancing AI Act enforcement with industrial competitiveness and compute sovereignty"
   },
   "currentDirection": {
     "trend": "stable",
-    "summary": "The AI Act's core structure is unchanged, but June 2026's Digital Omnibus postponed several major compliance deadlines in response to competitiveness pressure \u2014 a real softening of pace even as the Commission simultaneously pushes forward on compute sovereignty via the newly enacted Cloud and AI Development Act."
+    "summary": "The AI Act's core structure is unchanged, but June 2026's Digital Omnibus postponed several major compliance deadlines in response to competitiveness pressure — a real softening of pace even as the Commission simultaneously pushes forward on compute sovereignty via the newly enacted Cloud and AI Development Act."
   },
   "recentDevelopments": [
     {
@@ -115,6 +115,15 @@
         "eu-3",
         "eu-12"
       ]
+    },
+    {
+      "title": "AI Liability Directive",
+      "status": "repealed",
+      "summary": "Would have harmonised civil-liability rules for AI-caused harm across the EU; withdrawn by the European Commission in 2025 with no replacement proposal announced as of mid-2026. Liability claims currently fall to fragmented national tort law.",
+      "sourceIds": [
+        "eu-15"
+      ],
+      "needsVerification": false
     }
   ],
   "researchEcosystem": {
@@ -143,6 +152,21 @@
       "name": "Helsing",
       "description": "German defence-AI company building AI systems for European militaries.",
       "url": "https://helsing.ai"
+    },
+    {
+      "name": "ASML",
+      "description": "Dutch lithography-equipment maker; major investor in Mistral AI and a vocal voice on EU chip/compute sovereignty, though not itself a chip designer or AI-accelerator maker.",
+      "url": "https://www.asml.com"
+    },
+    {
+      "name": "Black Forest Labs",
+      "description": "German developer of open-weight image-generation models.",
+      "url": "https://blackforestlabs.ai"
+    },
+    {
+      "name": "Hugging Face",
+      "description": "French-founded, widely used open AI model and infrastructure hub.",
+      "url": "https://huggingface.co"
     }
   ],
   "cloudInfrastructure": {
@@ -192,6 +216,16 @@
       "name": "Max Planck Institute for Intelligent Systems",
       "description": "Leading German research institute for machine learning and robotics.",
       "url": "https://is.mpg.de"
+    },
+    {
+      "name": "DFKI (German Research Center for Artificial Intelligence)",
+      "description": "Germany's national AI research institute; signed a bilateral French-German AI research centre agreement with INRIA in June 2026 framed around digital sovereignty.",
+      "url": "https://www.dfki.de"
+    },
+    {
+      "name": "INRIA",
+      "description": "France's national digital-science institute; signed a bilateral French-German AI research centre agreement with DFKI in June 2026.",
+      "url": "https://www.inria.fr"
     }
   ],
   "thinkTanks": [
@@ -282,9 +316,9 @@
   ],
   "debates": [
     {
-      "topic": "Digital Omnibus \u2014 simplification or weakening of the AI Act?",
+      "topic": "Digital Omnibus — simplification or weakening of the AI Act?",
       "category": "government",
-      "summary": "The first amendment to the AI Act since 2024 postpones major compliance deadlines by up to two years \u2014 industry calls it necessary relief, civil society calls it the start of erosion.",
+      "summary": "The first amendment to the AI Act since 2024 postpones major compliance deadlines by up to two years — industry calls it necessary relief, civil society calls it the start of erosion.",
       "expanded": "Facing competitiveness pressure, the Commission proposed a simplification package that pushed high-risk system obligations back to December 2027 (standalone) and August 2028 (embedded), and delayed the sandbox mandate and synthetic-content labelling duty. Industry groups argued the AI Act's compliance burden, stacked alongside GDPR and the Digital Services Act, was slowing EU AI deployment relative to the US and China. Digital-rights groups see the Omnibus as a precedent for further softening, even though it also added a new prohibition on AI-generated intimate imagery and CSAM.",
       "sourceIds": [
         "eu-1"
@@ -349,12 +383,12 @@
   ],
   "knowledgeHub": [
     {
-      "title": "AI Act (Regulation (EU) 2024/1689) \u2014 full text, as amended",
+      "title": "AI Act (Regulation (EU) 2024/1689) — full text, as amended",
       "type": "government",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     },
     {
-      "title": "Digital Omnibus \u2014 Council press release",
+      "title": "Digital Omnibus — Council press release",
       "type": "government",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
     },
@@ -498,6 +532,14 @@
       "url": "https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15",
       "date": "2026",
       "category": "research"
+    },
+    {
+      "id": "eu-15",
+      "title": "European Commission withdraws AI Liability Directive from consideration",
+      "publisher": "IAPP",
+      "url": "https://iapp.org/news/a/european-commission-withdraws-ai-liability-directive-from-consideration",
+      "date": "2025-10",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,
@@ -507,20 +549,8 @@
       "note": "The EU has no supranational equivalent to the UK's AI Security Institute or the US CAISI. The European AI Office performs a broader regulatory-enforcement role rather than dedicated third-party safety testing of frontier models."
     },
     {
-      "area": "AI-specific civil liability",
-      "note": "The AI Liability Directive, which would have harmonised civil-liability rules for AI-caused harm, was withdrawn by the Commission in 2025 with no replacement proposal announced as of mid-2026 — liability claims currently fall to fragmented national tort law."
-    },
-    {
       "area": "Semiconductor and chip sovereignty",
       "note": "AI accelerator chips used in the EU remain dominated by non-European suppliers (notably NVIDIA). The EU's most significant countervailing asset — ASML's position in EUV lithography — is not a chip designer/fabricator itself and does not offset the bloc's dependence on foreign AI accelerators."
-    },
-    {
-      "area": "Frontier AI company coverage",
-      "note": "Notable EU-linked AI companies not currently tracked here include ASML (a major investor in Mistral AI and a vocal voice on chip/compute sovereignty), Black Forest Labs (German, open-weight image-generation models), and Hugging Face (French-founded, widely used open AI model/infrastructure hub)."
-    },
-    {
-      "area": "Research ecosystem coverage",
-      "note": "DFKI (German Research Center for Artificial Intelligence) and INRIA (France's national digital-science institute) are not currently listed despite being prominent EU AI research institutions; the two signed a bilateral French-German AI research centre agreement in June 2026 framed around digital sovereignty."
     }
   ]
 }

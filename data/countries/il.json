@@ -2,7 +2,7 @@
   "code": "il",
   "name": "Israel",
   "shortName": "Israel",
-  "flagEmoji": "\ud83c\uddee\ud83c\uddf1",
+  "flagEmoji": "🇮🇱",
   "geometryType": "polygon",
   "isoA3": [
     "ISR"
@@ -19,28 +19,28 @@
     31.0
   ],
   "zoom": 6.8,
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 4,
   "debateTopics": [
     "AI21 Labs' decline and what it signals about the Israeli AI startup boom",
     "Israel's principle-based approach without a binding AI law as models scale"
   ],
-  "overview": "Israel has no single AI Act. The Ministry of Innovation, Science and Technology (MIST) leads policy through its December 2023 'Responsible Innovation' policy \u2014 a risk-based, sectoral approach built on human oversight, transparency and accountability, developed jointly with the Ministry of Justice. In May 2026, MIST, the Ministry of Justice and the Israel National Digital Agency published version 1.0 of a 'Guide for Responsible AI Use in the Public Sector.'\n\nIsrael's National AI Program is entering its final authorised year in 2026, with a new multi-year strategy anticipated \u2014 likely focused on generative AI and LLM security. The startup picture is genuinely mixed: while Wiz's roughly $12B exit remains the era's standout Israeli tech story, AI21 Labs \u2014 once a $1.4B unicorn \u2014 has shrunk dramatically, laying off around 110 of its 180 staff and shutting down most product lines.",
+  "overview": "Israel has no single AI Act. The Ministry of Innovation, Science and Technology (MIST) leads sectoral AI policy through its December 2023 'Responsible Innovation' policy — a risk-based approach built on human oversight, transparency and accountability, developed jointly with the Ministry of Justice. In May 2026, MIST, the Ministry of Justice and the Israel National Digital Agency published version 1.0 of a 'Guide for Responsible AI Use in the Public Sector.' On June 16, 2026 the government also approved a new National AI Program for 2027–2032, led by a newly created National AI Directorate in the Prime Minister's Office and reportedly targeting around 100,000 processing units and $20–30B in compute investment — a notable expansion of the state's role alongside MIST's existing framework.\n\nIsrael's private AI and tech sector presents a mixed picture. Google (Alphabet) completed a $32B cash acquisition of the Israeli cybersecurity company Wiz in March 2026 — reportedly the largest acquisition in Google's history and among the highest-profile exits for an Israeli tech company — while AI21 Labs, once a $1.4B unicorn, has shrunk sharply, laying off around 110 of its 180 staff and scaling back most standalone product lines in favour of its Maestro agent-orchestration platform.",
   "atAGlance": {
     "policyDirection": {
       "label": "Risk-based sectoral guidance, no binding AI law",
       "sentiment": "blue"
     },
-    "regulatoryApproach": "'Responsible Innovation' policy \u2014 sectoral, risk-based, non-binding",
-    "latestMajorUpdate": "'Guide for Responsible AI Use in the Public Sector' (v1.0) published",
-    "governmentInvolvement": "Light-touch \u2014 sectoral guidance rather than a binding statute, via MIST",
-    "industrialStrategy": "Israel Innovation Authority funding; National AI Program entering its final authorised year",
-    "internationalPartnerships": "Weizmann Institute AI cooperation deal with a UAE university",
-    "primaryPolicyFocus": "Drafting a new multi-year strategy focused on generative AI and LLM security"
+    "regulatoryApproach": "'Responsible Innovation' policy — sectoral, risk-based, non-binding",
+    "latestMajorUpdate": "National AI Program (2027–2032) approved by government (June 2026); 'Guide for Responsible AI Use in the Public Sector' (v1.0) published (May 2026)",
+    "governmentInvolvement": "Largely light-touch on binding rules via MIST's sectoral guidance, though the newly approved National AI Program signals a larger, more direct state role in compute infrastructure via the Prime Minister's Office",
+    "industrialStrategy": "Israel Innovation Authority funding, alongside a newly approved National AI Program (2027–2032) reportedly targeting around 100,000 processing units and $20–30B in compute investment, led by the new National AI Directorate in the Prime Minister's Office",
+    "internationalPartnerships": "Weizmann Institute's 2020 cooperation agreement with Mohamed bin Zayed University of Artificial Intelligence (UAE) remains a notable example of regional AI research ties",
+    "primaryPolicyFocus": "Implementing the newly approved National AI Program (2027–2032) alongside MIST's existing sectoral AI guidance"
   },
   "currentDirection": {
     "trend": "stable",
-    "summary": "Israel continues its non-binding, sectoral approach to AI governance as its National AI Program enters its final authorised year \u2014 a new multi-year strategy, likely focused on generative AI and LLM security, is anticipated but not yet formalised."
+    "summary": "Israel continues layering non-binding, sectoral AI guidance through MIST with a newly approved national compute strategy: in June 2026 the government approved a National AI Program for 2027–2032, led by a new National AI Directorate in the Prime Minister's Office and reportedly targeting roughly 100,000 processing units and $20–30B in compute investment. How this expanded, infrastructure-focused strategy will interact with MIST's existing 'Responsible Innovation' framework, and whether Israel eventually moves toward binding AI-specific rules, remains to be seen."
   },
   "recentDevelopments": [
     {
@@ -51,32 +51,34 @@
       ]
     },
     {
-      "text": "National AI Program enters its final authorised year, with a new multi-year strategy anticipated, likely focused on generative AI and LLM security.",
-      "date": "2026",
+      "text": "Israeli government approves a new National AI Program for 2027–2032, led by a newly created National AI Directorate in the Prime Minister's Office, reportedly targeting around 100,000 processing units and $20–30B in compute investment.",
+      "date": "2026-06-16",
       "sourceIds": [
-        "il-1"
-      ]
+        "il-5"
+      ],
+      "severity": "major"
     },
     {
-      "text": "AI21 Labs shrinks dramatically, laying off roughly 110 of its 180 staff and shutting down most product lines.",
-      "date": "2026",
+      "text": "AI21 Labs shrinks dramatically, laying off roughly 110 of its 180 staff (about 61% of headcount) and scaling back most standalone product lines in favour of its Maestro agent-orchestration platform.",
+      "date": "2026-05-18",
       "sourceIds": [
         "il-2"
       ]
     },
     {
-      "text": "Weizmann Institute signs a cooperation deal with a UAE university on AI research.",
-      "date": "2026",
+      "text": "Google (Alphabet) completes its $32B cash acquisition of Israeli cybersecurity company Wiz — reportedly the largest acquisition in Google's history.",
+      "date": "2026-03-11",
       "sourceIds": [
-        "il-3"
-      ]
+        "il-6"
+      ],
+      "severity": "major"
     }
   ],
   "policyAndRegulation": [
     {
       "title": "'Responsible Innovation' AI policy",
       "status": "in_force",
-      "summary": "December 2023 policy from MIST and the Ministry of Justice setting risk-based, sectoral guidance on human oversight, transparency and accountability \u2014 non-binding.",
+      "summary": "December 2023 policy from MIST and the Ministry of Justice setting risk-based, sectoral guidance on human oversight, transparency and accountability — non-binding.",
       "sourceIds": [
         "il-1"
       ]
@@ -88,10 +90,19 @@
       "sourceIds": [
         "il-1"
       ]
+    },
+    {
+      "title": "National AI Program (2027–2032)",
+      "status": "passed",
+      "summary": "Approved by the government in June 2026; led by a new National AI Directorate in the Prime Minister's Office. Its relationship to MIST's existing AI policy role has not been fully clarified in available reporting.",
+      "sourceIds": [
+        "il-5"
+      ],
+      "needsVerification": true
     }
   ],
   "researchEcosystem": {
-    "summary": "Israeli AI research runs through Technion, Tel Aviv University, Hebrew University of Jerusalem and the Weizmann Institute's dedicated Institute for Artificial Intelligence \u2014 Technion and Tel Aviv University rank among the world's top ten universities for startup founders produced, with roughly $23B and $30B respectively raised by their alumni.",
+    "summary": "Israeli AI research runs through Technion, Tel Aviv University, Hebrew University of Jerusalem and the Weizmann Institute's dedicated Institute for Artificial Intelligence. According to one industry ranking, Technion and Tel Aviv University place among the world's top ten universities for startup founders produced, with their alumni reportedly having raised roughly $23B and $30B respectively — these figures have not been independently re-verified and should be treated with some caution.",
     "sourceIds": [
       "il-4"
     ]
@@ -99,11 +110,13 @@
   "companies": [
     {
       "name": "Wiz",
-      "description": "Cybersecurity company valued at roughly $12B, the standout Israeli tech exit of the period."
+      "description": "Cybersecurity company acquired by Google (Alphabet) for $32B in cash in a deal that closed in March 2026 — reportedly the largest acquisition in Google's history and one of the highest-profile exits for an Israeli tech company. Wiz now operates as part of Google Cloud.",
+      "url": "https://www.wiz.io"
     },
     {
       "name": "AI21 Labs",
-      "description": "Once a $1.4B unicorn, now significantly downsized after laying off roughly 110 of 180 staff and shutting down most product lines."
+      "description": "Once a $1.4B unicorn, AI21 has downsized significantly, laying off roughly 110 of its 180 staff (about 61% of headcount) in May 2026 and scaling back most standalone product lines in favour of its Maestro agent-orchestration platform. Some 2026 coverage also reports the departure of long-time co-founder and chairman Amnon Shashua amid the restructuring, though this has not been independently confirmed.",
+      "needsVerification": true
     }
   ],
   "cloudInfrastructure": {
@@ -121,35 +134,24 @@
         "description": "Cloud provider used across Israeli research and enterprise AI."
       }
     ],
-    "dominance": [
-      {
-        "provider": "AWS",
-        "share": 33
-      },
-      {
-        "provider": "Azure",
-        "share": 26
-      },
-      {
-        "provider": "Google Cloud",
-        "share": 15
-      }
-    ]
+    "dominance": []
   },
   "universities": [
     {
       "name": "Technion",
-      "description": "Israel Institute of Technology \u2014 ranks among the world's top ten universities for startup founders produced.",
-      "url": "https://www.technion.ac.il"
+      "description": "Israel Institute of Technology — reportedly ranks among the world's top ten universities for startup founders produced.",
+      "url": "https://www.technion.ac.il",
+      "needsVerification": true
     },
     {
       "name": "Tel Aviv University",
-      "description": "Ranks among the world's top ten universities for startup founders produced.",
-      "url": "https://english.tau.ac.il"
+      "description": "Reportedly ranks among the world's top ten universities for startup founders produced.",
+      "url": "https://english.tau.ac.il",
+      "needsVerification": true
     },
     {
       "name": "Weizmann Institute of Science",
-      "description": "Hosts a dedicated Institute for Artificial Intelligence / Center for Core AI Research.",
+      "description": "Hosts a dedicated Institute for Artificial Intelligence / Center for Core AI Research. Signed a cooperation agreement with the UAE's Mohamed bin Zayed University of Artificial Intelligence in September 2020.",
       "url": "https://www.weizmann.ac.il"
     }
   ],
@@ -157,20 +159,27 @@
   "governmentInstitutions": [
     {
       "name": "Ministry of Innovation, Science and Technology (MIST)",
-      "description": "Lead ministry for Israel's national AI policy and the Responsible Innovation framework."
+      "description": "Lead ministry for Israel's sectoral AI policy and the Responsible Innovation framework, jointly with the Ministry of Justice."
+    },
+    {
+      "name": "National AI Directorate (Prime Minister's Office)",
+      "description": "Newly created body leading Israel's National AI Program (2027–2032), approved by the government in June 2026 and reportedly targeting around 100,000 processing units and $20–30B in compute investment. Its role relative to MIST's existing AI policy framework has not been fully clarified in available reporting.",
+      "needsVerification": true
     },
     {
       "name": "Israel Innovation Authority (IIA)",
-      "description": "Main ecosystem funder for Israeli AI and technology startups.",
-      "url": "https://innovationisrael.org.il"
+      "description": "A major funder within Israel's AI and technology startup ecosystem.",
+      "url": "https://innovationisrael.org.il",
+      "needsVerification": true
     }
   ],
   "keyPeople": [
     {
       "name": "Assaf Rappaport",
       "role": "Co-founder and Chief Executive Officer",
-      "affiliation": "Wiz",
-      "category": "company_leader"
+      "affiliation": "Wiz (part of Google/Alphabet since March 2026)",
+      "category": "company_leader",
+      "url": "https://www.wiz.io"
     }
   ],
   "influenceMap": [
@@ -195,19 +204,21 @@
     {
       "topic": "AI21 Labs' decline and what it signals about the Israeli AI startup boom",
       "category": "industry",
-      "summary": "AI21 Labs' collapse from a $1.4B unicorn to roughly 70 employees is a sharp counterpoint to Israel's broader AI-startup success narrative.",
-      "expanded": "While Wiz's exit and strong university-founder metrics point to a thriving ecosystem, AI21 Labs shows that even well-funded Israeli frontier-model ambitions can lose out to better-resourced US and Chinese labs. The lesson many draw is that Israel's strength lies more in applied AI and cybersecurity than in frontier foundation-model competition.",
+      "summary": "AI21 Labs' collapse from a $1.4B unicorn to roughly 70 employees stands as a sharp counterpoint to parts of Israel's broader AI-startup success narrative.",
+      "expanded": "While Wiz's $32B acquisition by Google and strong university-founder metrics point to parts of a thriving ecosystem, AI21 Labs' decline suggests that even well-funded Israeli frontier-model ambitions can struggle against better-resourced US and Chinese labs. Some observers read this as evidence that Israel's comparative strength lies more in applied AI and cybersecurity than in frontier foundation-model competition, though this remains a contested reading given the small number of Israeli frontier-model attempts to draw on.",
       "sourceIds": [
-        "il-2"
+        "il-2",
+        "il-6"
       ]
     },
     {
       "topic": "Israel's principle-based approach without a binding AI law as models scale",
       "category": "government",
-      "summary": "As generative AI and agentic systems grow more capable, Israel's non-binding Responsible Innovation framework faces the same test other soft-law jurisdictions do.",
-      "expanded": "MIST's approach has so far relied on sectoral guidance rather than binding rules, betting that flexibility outweighs enforceability. The anticipated new multi-year strategy, expected to focus on generative AI and LLM security, will be the next real test of whether Israel moves toward firmer rules as frontier capabilities scale.",
+      "summary": "As generative AI and agentic systems grow more capable, some observers argue Israel's non-binding Responsible Innovation framework faces the same test other soft-law jurisdictions do.",
+      "expanded": "MIST's approach has so far relied on sectoral guidance rather than binding rules, on the view that flexibility outweighs enforceability. The government's June 2026 approval of a large-scale National AI Program is focused primarily on compute infrastructure rather than binding legal rules, so it does not by itself resolve this question. Whether Israel eventually moves toward firmer AI-specific rules as frontier capabilities scale remains an open debate among policy observers.",
       "sourceIds": [
-        "il-1"
+        "il-1",
+        "il-5"
       ]
     }
   ],
@@ -215,13 +226,14 @@
     {
       "name": "Assaf Rappaport",
       "type": "person",
-      "role": "Wiz co-founder and CEO; the standout Israeli tech exit of the era.",
-      "category": "company"
+      "role": "Wiz co-founder and CEO; led Wiz through its $32B acquisition by Google (Alphabet), which closed in March 2026 and was reportedly Google's largest acquisition to date.",
+      "category": "company",
+      "url": "https://www.wiz.io"
     },
     {
       "name": "Israel Innovation Authority",
       "type": "organization",
-      "role": "Main ecosystem funder for Israeli AI and technology startups.",
+      "role": "A major funder within Israel's AI and technology startup ecosystem.",
       "category": "government",
       "url": "https://innovationisrael.org.il"
     }
@@ -254,7 +266,7 @@
       "title": "AI21 Labs downsizing coverage",
       "publisher": "Calcalist",
       "url": "https://www.calcalistech.com/ctechnews/article/by34n00tjfl",
-      "date": "2026",
+      "date": "2026-05-18",
       "category": "news"
     },
     {
@@ -262,7 +274,7 @@
       "title": "Weizmann Institute inks cooperation deal with UAE university",
       "publisher": "Times of Israel",
       "url": "https://www.timesofisrael.com/weizmann-institute-inks-cooperation-deal-with-uae-university-on-ai-research/",
-      "date": "2026",
+      "date": "2020-09-13",
       "category": "news"
     },
     {
@@ -272,8 +284,24 @@
       "url": "https://www.ynetnews.com/tech-and-digital/article/bysvxtsc11g",
       "date": "2026",
       "category": "research"
+    },
+    {
+      "id": "il-5",
+      "title": "Israel approves National AI Program",
+      "publisher": "GlobalSecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/06/israel-260616-israel-pm01.htm",
+      "date": "2026-06-16",
+      "category": "news"
+    },
+    {
+      "id": "il-6",
+      "title": "Google completes $32B acquisition of Wiz",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/11/google-completes-32b-acquisition-of-wiz/",
+      "date": "2026-03-11",
+      "category": "news"
     }
   ],
-  "hasMajorUpdate": false,
+  "hasMajorUpdate": true,
   "notableGaps": []
 }

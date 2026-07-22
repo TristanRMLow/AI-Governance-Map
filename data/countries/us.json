@@ -19,7 +19,7 @@
     39.8
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-22",
   "newDevelopmentsCount": 8,
   "debateTopics": [
     "Who leads AI policy after the AI czar role went vacant",
@@ -107,6 +107,14 @@
       "sourceIds": [
         "us-1"
       ]
+    },
+    {
+      "text": "House Science Committee advances ten AI-related bills, including one that would statutorily codify CAISI (currently operating on voluntary MOUs rather than statutory authority).",
+      "date": "2026-06",
+      "sourceIds": [
+        "us-16"
+      ],
+      "needsVerification": true
     }
   ],
   "policyAndRegulation": [
@@ -186,8 +194,18 @@
     },
     {
       "name": "NVIDIA",
-      "description": "Dominant supplier of AI training and inference chips, central to export-control debates.",
+      "description": "Widely regarded as the leading supplier of AI training and inference chips, central to export-control debates.",
       "url": "https://nvidia.com"
+    },
+    {
+      "name": "Microsoft",
+      "description": "CAISI pre-deployment testing partner; has begun releasing in-house 'MAI' frontier models (e.g. MAI-Thinking-1) under AI CEO Mustafa Suleyman, alongside its OpenAI partnership.",
+      "url": "https://www.microsoft.com/ai"
+    },
+    {
+      "name": "TSMC (Arizona)",
+      "description": "Taiwan Semiconductor Manufacturing Company's US fabrication facilities, central to the AI-chip export-control debate and US frontier-AI compute capacity.",
+      "url": "https://www.tsmc.com"
     }
   ],
   "cloudInfrastructure": {
@@ -313,6 +331,27 @@
       "role": "Head of Public Policy",
       "affiliation": "Anthropic",
       "category": "advisor"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "Chief Executive Officer",
+      "affiliation": "SpaceX / SpaceXAI",
+      "category": "company_leader",
+      "needsVerification": false,
+      "url": "https://x.ai"
+    },
+    {
+      "name": "Jensen Huang",
+      "role": "Chief Executive Officer",
+      "affiliation": "NVIDIA",
+      "category": "company_leader",
+      "url": "https://www.nvidia.com"
+    },
+    {
+      "name": "Mustafa Suleyman",
+      "role": "Chief Executive Officer, AI",
+      "affiliation": "Microsoft AI",
+      "category": "company_leader"
     }
   ],
   "peopleToFollow": [
@@ -481,6 +520,20 @@
       "title": "Sam Altman's Senate Judiciary testimony on AI oversight",
       "type": "speech",
       "note": "May 2023 hearing on rules for AI, still widely cited in US policy debate."
+    },
+    {
+      "title": "Cambrian AI Research",
+      "type": "substack",
+      "author": "Karl Freund",
+      "url": "https://karlfreund429026.substack.com",
+      "note": "AI-hardware and semiconductor industry analysis."
+    },
+    {
+      "title": "Epoch AI",
+      "type": "dataset",
+      "author": "Epoch AI",
+      "url": "https://epoch.ai",
+      "note": "Research and data on compute trends, training runs and AI capability growth."
     }
   ],
   "sources": [
@@ -666,18 +719,6 @@
     {
       "area": "Federal AI safety statute",
       "note": "No binding federal AI safety or frontier-model law exists as of mid-2026; CAISI's pre-deployment testing agreements remain voluntary MOUs rather than statutory requirements, though a bill to statutorily codify CAISI was among ten AI bills the House Science Committee advanced in June 2026."
-    },
-    {
-      "area": "Frontier model developers",
-      "note": "Microsoft is a CAISI pre-deployment testing partner and has begun releasing in-house 'MAI' frontier models (e.g., MAI-Thinking-1) under AI CEO Mustafa Suleyman, but is not yet listed among this file's frontier-model developers alongside OpenAI, Anthropic and Google DeepMind."
-    },
-    {
-      "area": "Semiconductor fabrication",
-      "note": "No chip-fabrication company (e.g., TSMC's Arizona facilities, Intel Foundry) is listed despite their centrality to the AI-chip export-control debate and to US frontier-AI compute capacity."
-    },
-    {
-      "area": "Key individuals",
-      "note": "Prominent figures such as Elon Musk (SpaceXAI/Grok), Jensen Huang (NVIDIA) and Mustafa Suleyman (Microsoft AI) are not listed among this file's key people, despite their companies' prominence elsewhere in the file and their roles on bodies such as PCAST."
     }
   ]
 }

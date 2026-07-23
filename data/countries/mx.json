@@ -1,0 +1,396 @@
+{
+  "code": "mx",
+  "name": "Mexico",
+  "shortName": "Mexico",
+  "flagEmoji": "🇲🇽",
+  "geometryType": "polygon",
+  "isoA3": ["MEX"],
+  "region": "Americas",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "No binding AI-specific law yet; voluntary ethics declaration alongside multiple competing AI bills in Congress",
+  "accentColor": { "light": "#494483", "dark": "#6761AE" },
+  "center": [-102.5, 23.6],
+  "zoom": 4.2,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Whether Mexico's new AI-adjacent content rules risk conflicting with USMCA obligations",
+    "Multiple, seemingly overlapping AI bills moving through Congress create uncertainty over which framework will govern AI"
+  ],
+  "overview": "Mexico has no comprehensive, binding AI-specific law in force as of mid-2026, though several pieces are moving simultaneously. On January 29, 2026, the Secretariat of Science, Humanities, Technology and Innovation (Secihti) and the Agency for Digital Transformation and Telecommunications (ATDT) published a voluntary 'Declaration of Ethics and Best Practices for the Use and Development of Artificial Intelligence,' grounded in what officials call the Chapultepec Principles. Separately, at least two AI-specific bills have circulated in the Senate: one introduced by Senator Karina Isabel Ruiz Ruiz (MORENA) on February 11, 2026 proposing a 'National Law to Regulate the Use of Artificial Intelligence,' and a broader draft reportedly developed over 16 months by a specialized Senate committee chaired by Senator Rolando Zapata with input from 72 specialists. Public reporting has not fully clarified whether these are the same underlying initiative described differently by different outlets or genuinely separate efforts, so this should be treated as an open question pending clearer legislative documentation.\n\nThe one AI-related measure that has actually been enacted is narrower: reforms to the Federal Labor Law and Federal Copyright Law addressing the use of performers' voice and image in AI systems, proposed by President Claudia Sheinbaum on February 23, 2026, passed by the Chamber of Deputies on April 7, 2026 by a wide margin (vote tallies vary slightly across reports, with counts of roughly 335 and 368 in favor cited in different outlets — possibly reflecting separate en lo general/en lo particular votes in the same session rather than a single disputed count), and in force since May 15, 2026. The tech industry association AMITI has warned that provisions in this reform could complicate the 2026 USMCA review, arguing that requiring authorization for AI's use of content is difficult to reconcile with the trade agreement's platform-liability protections. Alongside this legislative activity, Mexico's data-center and cloud sector has drawn large hyperscaler investment — AWS announced a roughly $5 billion cloud region in Querétaro, and Google and Microsoft have also expanded there — while Mexican AI-adjacent startups reportedly raised around $600 million in 2024, part of a broader nearshoring-driven tech boom centered on Mexico City, Guadalajara and Monterrey.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "No binding AI law yet; voluntary guidance plus competing bills in Congress",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Voluntary ethics declaration (Secihti/ATDT) alongside at least two distinct AI-specific bills under Senate discussion",
+    "latestMajorUpdate": "Federal Labor Law and Copyright Law reforms addressing AI's use of performers' voice and image took effect May 15, 2026",
+    "governmentInvolvement": "Secihti and ATDT lead voluntary sectoral guidance while separate Senate initiatives pursue a more comprehensive, binding AI framework",
+    "industrialStrategy": "National AI Strategy 2.0 (Secretariat of Economy, 2025) runs alongside billions of dollars in hyperscaler data-center investment concentrated in Querétaro",
+    "internationalPartnerships": "The 2026 USMCA review is a live backdrop to AI-adjacent legislation, with industry groups warning new content-authorization rules could create friction with US trade obligations",
+    "primaryPolicyFocus": "Reconciling multiple, not-fully-coordinated AI bills in Congress with industry concerns about innovation, enforceability and trade impact"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Mexico moved from a purely voluntary posture toward its first enacted AI-adjacent rules in 2026: reforms protecting performers' voice and image against unauthorized AI cloning took effect in May, following the Chamber of Deputies' April 7 vote. Broader, more comprehensive AI legislation remains under Senate discussion via at least two separate initiatives, and it is not yet clear which, if either, will advance to a floor vote, or how they relate to the voluntary Secihti/ATDT ethics declaration published in January 2026."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Secihti and the Agency for Digital Transformation and Telecommunications (ATDT) publish a voluntary 'Declaration of Ethics and Best Practices for the Use and Development of Artificial Intelligence,' grounded in the 'Chapultepec Principles.'",
+      "date": "2026-01-29",
+      "sourceIds": ["mx-2"]
+    },
+    {
+      "text": "Senator Karina Isabel Ruiz Ruiz (MORENA) introduces a bill for a 'National Law to Regulate the Use of Artificial Intelligence' in the Senate; referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring and Evaluation of AI in Mexico.",
+      "date": "2026-02-11",
+      "sourceIds": ["mx-13"]
+    },
+    {
+      "text": "President Claudia Sheinbaum submits a presidential initiative to amend the Federal Labor Law and Federal Copyright Law to address AI's use of performers' voice, image and likeness; referred to the Chamber of Deputies' Committee on Culture and Cinematography.",
+      "date": "2026-02-23",
+      "sourceIds": ["mx-3"]
+    },
+    {
+      "text": "Chamber of Deputies passes the labor/copyright AI reform by a wide margin; vote tallies vary slightly across reports (roughly 335 or 368 in favor), possibly reflecting separate general/particular votes in the same session rather than a genuine discrepancy.",
+      "date": "2026-04-07",
+      "sourceIds": ["mx-3", "mx-4"],
+      "needsVerification": true
+    },
+    {
+      "text": "Mexico News Daily reports that a Senate committee on AI, chaired by Senator Rolando Zapata and drawing on 16 months of work with 72 specialists, is nearing presentation of a broader 'Federal Law Regulating Artificial Intelligence' with a national AI strategy, development fund and federal certification system; its relationship to Senator Ruiz's February bill is not fully clarified in available reporting.",
+      "date": "2026-04-24",
+      "sourceIds": ["mx-1"],
+      "needsVerification": true
+    },
+    {
+      "text": "Federal Labor Law and Copyright Law reforms addressing AI's use of performers' voice and image enter into force (published in the Official Gazette of the Federation on May 14), becoming Mexico's first enacted AI-adjacent legislative change.",
+      "date": "2026-05-15",
+      "sourceIds": ["mx-4"],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Federal Labor Law and Federal Copyright Law reforms (AI use of performers' voice and image)",
+      "status": "in_force",
+      "summary": "In force since May 15, 2026. Requires prior, written and compensated authorization before an AI system may replicate, clone or adjust a performer's voice or image, with an exception for parody, satire or creative imitation that does not mislead the public or replace the performer's services.",
+      "sourceIds": ["mx-3", "mx-4"]
+    },
+    {
+      "title": "National Law to Regulate the Use of Artificial Intelligence (Sen. Karina Ruiz bill)",
+      "status": "proposed",
+      "summary": "Introduced in the Senate on February 11, 2026; referred to joint committees. Would establish a comprehensive legal framework for AI development and use across public and private sectors, if approved.",
+      "sourceIds": ["mx-13"]
+    },
+    {
+      "title": "Federal Law Regulating Artificial Intelligence (Senate AI committee draft)",
+      "status": "proposed",
+      "summary": "Reported as the product of 16 months of work by a Senate committee chaired by Senator Rolando Zapata, addressing deepfakes, AI-enabled harassment and manipulation, and autonomous lethal systems, plus a national AI strategy, development fund and federal certification system, with reported prison sentences for misuse. Whether this is the same initiative as Sen. Ruiz's bill or a distinct one has not been clearly established in available reporting.",
+      "sourceIds": ["mx-1"],
+      "needsVerification": true
+    },
+    {
+      "title": "Declaration of Ethics and Best Practices for the Use and Development of Artificial Intelligence",
+      "status": "in_force",
+      "summary": "Published January 29, 2026 by Secihti and ATDT as a voluntary framework for government institutions, autonomous bodies, private companies and civil society, built on 10 commitments including human accountability and treating data as a public good.",
+      "sourceIds": ["mx-2"]
+    },
+    {
+      "title": "National AI Strategy 2.0",
+      "status": "in_force",
+      "summary": "Non-binding strategy document led by the Secretariat of Economy, launched in 2025, emphasizing trustworthy AI, open data infrastructure and sustainable innovation as a complement to any future binding law.",
+      "sourceIds": ["mx-15"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Mexican AI research and talent development runs substantially through Tecnológico de Monterrey, UNAM, the Instituto Politécnico Nacional (IPN), ITAM and the Universidad de Guadalajara. Tec de Monterrey and the Mexican tech firm Wizeline co-run G.A.I.L. (Generative AI Lab), described as the first dedicated generative-AI lab in Latin America, on the Guadalajara campus, alongside the PASIA program, which reportedly has supported around 24 AI-focused startups in healthcare, finance and social-impact areas. Some industry commentary describes this combination as producing one of the strongest AI talent pipelines in Latin America, though such regional rankings should be treated with some caution given limited independent verification.",
+    "sourceIds": ["mx-12", "mx-9"]
+  },
+  "companies": [
+    {
+      "name": "Wizeline",
+      "description": "Mexican-founded technology services company; co-runs the G.A.I.L. generative AI lab with Tecnológico de Monterrey in Guadalajara, combining an applied-AI facility with scholarships for AI-focused graduate study.",
+      "url": "https://wizeline.com"
+    },
+    {
+      "name": "Yalo (Yalochat)",
+      "description": "Mexico City-based conversational-commerce and AI-driven CRM platform used by large consumer brands over WhatsApp and similar messaging channels; has raised institutional venture funding including a $15M Series B in 2020.",
+      "url": "https://www.yalo.ai"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Announced a roughly $5 billion investment in a new cloud region centered on Querétaro."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Developing a data-center presence in Querétaro as part of its Latin American cloud-region expansion."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Also planning a Mexican cloud region, per industry reporting on the country's data-center build-out."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Tecnológico de Monterrey",
+      "description": "Co-runs G.A.I.L., described as Latin America's first dedicated generative-AI lab, with Wizeline on its Guadalajara campus; also hosts the PASIA AI-startup support program.",
+      "url": "https://tec.mx/en/ai"
+    },
+    {
+      "name": "UNAM (Universidad Nacional Autónoma de México)",
+      "description": "Major public research university and a core contributor to Mexico's AI and computing talent pipeline.",
+      "url": "https://www.unam.mx"
+    },
+    {
+      "name": "Instituto Politécnico Nacional (IPN)",
+      "description": "Public technical university producing significant numbers of engineers in AI-adjacent fields.",
+      "url": "https://www.ipn.mx"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "C Minds",
+      "description": "Women-led Mexican innovation agency and think tank; co-authored Mexico's original 2019 National AI Strategy with the British Embassy and Oxford Insights, and co-founded the IA2030Mx cross-sector coalition in 2018.",
+      "url": "https://www.cminds.co"
+    },
+    {
+      "name": "ANIA (National Alliance on Artificial Intelligence)",
+      "description": "Non-governmental, multi-stakeholder AI governance platform founded by Senator Alejandra Lagunes; has published a 'Proposal for a National AI Agenda in Mexico' and worked with UNESCO on an AI-readiness assessment methodology.",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Secretariat of Science, Humanities, Technology and Innovation (Secihti)",
+      "description": "Federal secretariat, operational since January 1, 2025 under Secretary Rosaura Ruiz Gutiérrez, that co-published the January 2026 AI ethics declaration and has proposed a broader AI regulatory framework touching education, human rights and ethical use.",
+      "url": "https://secihti.mx"
+    },
+    {
+      "name": "Agency for Digital Transformation and Telecommunications (ATDT)",
+      "description": "Federal digital-transformation agency; co-published the January 2026 Declaration of Ethics and Best Practices for AI alongside Secihti."
+    },
+    {
+      "name": "Secretariat of Economy",
+      "description": "Leads Mexico's National AI Strategy 2.0 (launched 2025), which frames AI industrial policy around trustworthy AI and open data infrastructure."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Rosaura Ruiz Gutiérrez",
+      "role": "Secretary",
+      "affiliation": "Secihti",
+      "category": "government",
+      "url": "https://secihti.mx"
+    },
+    {
+      "name": "Rolando Zapata",
+      "role": "Senator; chair of the Senate's specialized AI committee",
+      "affiliation": "Mexican Senate",
+      "category": "government"
+    },
+    {
+      "name": "Karina Isabel Ruiz Ruiz",
+      "role": "Senator (MORENA); introduced the National Law to Regulate the Use of Artificial Intelligence",
+      "affiliation": "Mexican Senate",
+      "category": "government"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Rosaura Ruiz Gutiérrez",
+      "type": "person",
+      "role": "Secretary of Secihti, leading Mexico's voluntary AI ethics framework and proposed regulatory work.",
+      "category": "government",
+      "url": "https://secihti.mx"
+    },
+    {
+      "name": "C Minds",
+      "type": "organization",
+      "role": "Think tank shaping Mexican AI policy discourse since co-authoring the 2019 National AI Strategy.",
+      "category": "think_tank",
+      "url": "https://www.cminds.co"
+    },
+    {
+      "name": "ANIA",
+      "type": "organization",
+      "role": "Non-governmental AI-governance alliance publishing proposals for a National AI Agenda.",
+      "category": "think_tank"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Secihti", "type": "government" },
+    { "label": "ATDT", "type": "agency" },
+    { "label": "Senate AI Committee", "type": "government" },
+    { "label": "C Minds", "type": "think_tank" },
+    { "label": "Tecnológico de Monterrey / Wizeline (G.A.I.L.)", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Regulator", "note": "No dedicated AI regulator or enforcement body exists yet; competing Senate bills propose different institutional structures (e.g. a federal certification system) but none has been enacted." },
+    { "area": "Frontier AI development", "note": "No frontier foundation-model developer is headquartered in Mexico; the domestic ecosystem is concentrated in applied AI, outsourcing/nearshoring services and startups rather than base-model research." },
+    { "area": "Legislative clarity", "note": "Public reporting does not clearly establish how the Ruiz Senate bill (Feb. 2026) and the Zapata committee's draft law relate to each other — whether they are the same initiative described differently or genuinely separate efforts." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether Mexico's new AI-adjacent content rules risk conflicting with USMCA obligations",
+      "category": "government",
+      "summary": "The tech industry association AMITI has warned that the enacted labor/copyright reform, and potential future AI-specific legislation, could complicate the 2026 USMCA review.",
+      "expanded": "AMITI's Director General Sofía Pérez has argued that requiring express authorization for every piece of content an AI system processes is technically unworkable given how generative AI models operate, and that the reform's shortened authorization periods increase compliance costs for smaller firms. AMITI also contends the rules sit in tension with USMCA Article 19.17, which protects digital platforms from liability for third-party content. Proponents of the reform counter that protecting performers against unauthorized AI cloning of their voice and image is a narrowly targeted, rights-based measure rather than a broad AI-liability regime; how Mexican and US officials will reconcile these views during the USMCA review process remains an open question.",
+      "sourceIds": ["mx-5", "mx-4"]
+    },
+    {
+      "topic": "Multiple, seemingly overlapping AI bills moving through Congress create uncertainty over which framework will govern AI",
+      "category": "government",
+      "summary": "At least two distinct Senate initiatives — Senator Ruiz's National Law to Regulate the Use of Artificial Intelligence and a separate committee draft associated with Senator Zapata — appear to be advancing in parallel without clearly documented coordination.",
+      "expanded": "Some legal commentary treats these as the same underlying legislative effort described inconsistently across sources, while other reporting treats them as separate bills referred to different committees. Combined with the voluntary Secihti/ATDT ethics declaration and the Secretariat of Economy's non-binding National AI Strategy 2.0, businesses and civil-society groups face a genuinely unsettled landscape as of mid-2026, with no clear signal about which framework, if any, will reach a floor vote first.",
+      "sourceIds": ["mx-1", "mx-13", "mx-2"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Beyond Central Government: How ANIA is Shaping Mexico's AI Landscape",
+      "type": "think_tank",
+      "author": "Oxford Insights",
+      "url": "https://oxfordinsights.com/insights/beyond-central-government-how-ania-is-shaping-mexicos-ai-landscape/"
+    },
+    {
+      "title": "Mexico AI Strategy",
+      "type": "academic",
+      "author": "GWU Digital Trade and Data Governance Hub",
+      "url": "https://datagovhub.elliott.gwu.edu/mexico-ai-strategy/"
+    },
+    {
+      "title": "National AI Policy Initiatives — Mexico",
+      "type": "government",
+      "author": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/national/mexico"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mx-1",
+      "title": "Mexico gears up to regulate AI, with prison sentences for wrongful uses",
+      "publisher": "Mexico News Daily",
+      "url": "https://mexiconewsdaily.com/news/ai-regulation-in-mexico-senate-bill/",
+      "date": "2026-04-24",
+      "category": "news"
+    },
+    {
+      "id": "mx-2",
+      "title": "Mexico Unveils National Declaration on Ethical AI to Guide Public Policy and Protect Human Rights",
+      "publisher": "BABL AI",
+      "url": "https://babl.ai/mexico-unveils-national-declaration-on-ethical-ai-to-guide-public-policy-and-protect-human-rights/",
+      "date": "2026-01-29",
+      "category": "news"
+    },
+    {
+      "id": "mx-3",
+      "title": "Mexico Advances Landmark Reforms to Federal Labor Law and Federal Copyright Law Addressing AI and Performers' Rights",
+      "publisher": "FisherBroyles",
+      "url": "https://fisherbroyles.com/news/mexico-advances-landmark-reforms-to-federal-labor-law-and-federal-copyright-law-addressing-artificial-intelligence-and-performers-rights/",
+      "date": "2026-04",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "mx-4",
+      "title": "Mexico: Regulates Use of Voice, Image and AI",
+      "publisher": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/05/mexico-regulates-use-of-voice-image-and-ai",
+      "date": "2026-05",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "mx-5",
+      "title": "Mexico's New AI Law Could Hinder USMCA Review, Warns AMITI",
+      "publisher": "Mexico Business News",
+      "url": "https://mexicobusiness.news/tech/news/mexicos-new-ai-law-could-hinder-usmca-review-warns-amiti",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "mx-6",
+      "title": "AWS plans $5bn Mexican cloud region",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/aws-plans-5bn-mexican-cloud-region-for-2025/",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "mx-7",
+      "title": "'AI Factories' to Drive Mexico's Next Data Center Evolution",
+      "publisher": "Mexico Business News",
+      "url": "https://mexicobusiness.news/cloudanddata/news/ai-factories-drive-mexicos-next-data-center-evolution",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "mx-8",
+      "title": "Beyond Central Government: How ANIA is Shaping Mexico's AI Landscape",
+      "publisher": "Oxford Insights",
+      "url": "https://oxfordinsights.com/insights/beyond-central-government-how-ania-is-shaping-mexicos-ai-landscape/",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "mx-9",
+      "title": "Mexico Leads Latin America as One of the First Ten Countries in the World to Launch an AI Strategy",
+      "publisher": "Oxford Insights",
+      "url": "https://oxfordinsights.com/insights/mexico-leads-latin-america-as-one-of-the-first-ten-countries-in-the-world-to-launch-an-artificial-intelligence-strategy/",
+      "date": "2019",
+      "category": "think_tank"
+    },
+    {
+      "id": "mx-10",
+      "title": "Convoca titular de Secihti a seguir impulsando la IA; 'es un motor de productividad'",
+      "publisher": "Jornada BC",
+      "url": "https://jornadabc.com.mx/general/mexico/convoca-titular-de-secihti-a-seguir-impulsando-la-ia-es-un-motor-de-productividad/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "mx-11",
+      "title": "Mexico Launches SECIHTI to Boost Science, Technology, Innovation",
+      "publisher": "Mexico Business News",
+      "url": "https://mexicobusiness.news/tech/news/mexico-launches-secihti-boost-science-technology-innovation",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "mx-12",
+      "title": "Breakdown: Wizeline Helps Pioneer LATAM's First GenAI Lab",
+      "publisher": "Nearshore Americas",
+      "url": "https://nearshoreamericas.com/breakdown-wizeline-helps-pioneer-latams-first-genai-lab/",
+      "date": "2023",
+      "category": "industry"
+    },
+    {
+      "id": "mx-13",
+      "title": "Legislative Alert: Bill to Regulate the Use of Artificial Intelligence",
+      "publisher": "Lexology / BASHAM",
+      "url": "https://www.lexology.com/library/detail.aspx?g=b9f46af1-6081-44af-9a52-ece5ff0ceef5",
+      "date": "2026-02",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "mx-14",
+      "title": "National AI Policy Initiatives — Mexico",
+      "publisher": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/national/mexico",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "mx-15",
+      "title": "Mexico AI Strategy",
+      "publisher": "GWU Digital Trade and Data Governance Hub",
+      "url": "https://datagovhub.elliott.gwu.edu/mexico-ai-strategy/",
+      "date": "2026",
+      "category": "research"
+    }
+  ]
+}

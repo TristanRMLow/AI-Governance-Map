@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { NavBar } from "@/components/layout/NavBar";
+import { GlobalNavLinks } from "@/components/layout/GlobalNavLinks";
 import { ComparisonHeader } from "@/components/compare/ComparisonHeader";
 import { ExecutiveSummarySection } from "@/components/compare/ExecutiveSummarySection";
 import { DimensionsSection } from "@/components/compare/DimensionsSection";
@@ -19,7 +20,11 @@ export function ComparisonView({
 }) {
   return (
     <div className="page-surface min-h-dvh bg-page-bg">
-      <NavBar variant="light" breadcrumb={`Compare · ${comparison.title}`} />
+      <NavBar
+        variant="light"
+        breadcrumb={`Compare · ${comparison.title}`}
+        right={<GlobalNavLinks variant="light" />}
+      />
       <div className="mx-auto max-w-[1240px] px-6 py-8">
         <Link
           href="/compare"

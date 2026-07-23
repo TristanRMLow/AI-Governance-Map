@@ -1,0 +1,268 @@
+{
+  "code": "co",
+  "name": "Colombia",
+  "shortName": "Colombia",
+  "flagEmoji": "🇨🇴",
+  "geometryType": "polygon",
+  "isoA3": ["COL"],
+  "region": "Americas",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "A risk-based AI bill pending in Congress alongside a non-binding national AI policy roadmap (CONPES 4144), with continuity uncertain amid a change of government",
+  "accentColor": { "light": "#6E4483", "dark": "#9461AE" },
+  "center": [-73.0, 4.0],
+  "zoom": 4.9,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Whether the incoming De la Espriella administration will maintain the AI bill and CONPES 4144 roadmap",
+    "Rights-based safeguards versus an innovation-first, sandbox-driven approach to AI regulation"
+  ],
+  "overview": "Colombia does not yet have a binding AI-specific law. Its current framework rests on CONPES 4144, the Política Nacional de Inteligencia Artificial approved by the National Council for Economic and Social Policy on February 14, 2025, which lays out more than 100 non-binding actions through 2030 across research, adoption, and ethical governance. Since May 2025, the Ministry of Science, Technology and Innovation (MinCiencias), working with the Ministry of Information and Communication Technologies (MinTIC), has pushed a companion bill — Proyecto de Ley 043 of 2025 (Senate) / 324 of 2025 (Chamber) — that would create a risk-based regime (prohibited, high, limited, low risk) and a new National AI Supervision Authority. The bill was refiled with a presidential urgency message in July 2025 but, as of a February 2026 report, remained stalled in joint committee awaiting a first-debate vote.\n\nThat legislative process now unfolds against a significant change in government: in the June 21, 2026 runoff, Abelardo De la Espriella defeated Iván Cepeda by a margin of roughly one percentage point to succeed Gustavo Petro, with the new administration taking office on August 7, 2026. De la Espriella has named Alexandra Falla Zerrate as incoming MinTIC minister, but it is not yet clear from available reporting whether the new government will maintain the Petro-era AI bill and CONPES roadmap, revise them, or deprioritize them. Separately, Colombia's data-center and cloud footprint continues to expand — Google is building its first Colombian data center, a 100MW facility in Yumbo, Valle del Cauca — even as reporting suggests the country still lacks clear policy recognizing data centers as critical infrastructure, with permitting and grid-connection processes described as slow.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Risk-based AI bill pending in Congress; no binding law yet",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Non-binding CONPES 4144 national policy roadmap, plus a stalled risk-based AI bill (prohibited/high/limited/low risk categories)",
+    "latestMajorUpdate": "Abelardo De la Espriella wins the presidential runoff (June 21, 2026), succeeding Gustavo Petro on August 7, 2026 — creating uncertainty over the AI bill's and CONPES roadmap's continuity",
+    "governmentInvolvement": "MinCiencias and MinTIC jointly lead AI policy design under the outgoing Petro government, with CONPES 4144 backed by budgeted actions through 2030",
+    "industrialStrategy": "MinCiencias' ColombIA Inteligente 2026 fund (COP 24 billion for AI and quantum projects) and MinTIC's plan to structure 10 sector-specific regulatory sandboxes",
+    "internationalPartnerships": "The pending AI bill is explicitly designed with reference to OECD AI principles, the UNESCO AI ethics recommendation, and the EU AI Act's risk-tier structure",
+    "primaryPolicyFocus": "Getting the risk-based AI bill through its first congressional debate, and implementing CONPES 4144's roadmap, amid the transition to a new government"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Colombia has been moving, in principle, toward its first binding AI law — a risk-based bill that would create a National AI Supervision Authority — but progress has been slow, with the bill reportedly still stalled in joint committee as of February 2026 despite a presidential urgency message. The bigger near-term question is political: the incoming De la Espriella government, taking office August 7, 2026, has not yet indicated whether it will carry forward the outgoing Petro government's AI bill and CONPES 4144 roadmap, adjust them, or pursue a different approach."
+  },
+  "recentDevelopments": [
+    {
+      "text": "MinCiencias refiles the AI regulation bill (Proyecto de Ley 043 de 2025 Senado / 324 de 2025 Cámara) in Congress, with a presidential message of legislative urgency requiring joint Senate-Chamber committee debate.",
+      "date": "2025-07-28",
+      "sourceIds": ["co-3"]
+    },
+    {
+      "text": "Reporting indicates the AI bill remains stalled in committee, having received a positive first-debate report but still awaiting scheduling and a vote.",
+      "date": "2026-02-16",
+      "sourceIds": ["co-5"]
+    },
+    {
+      "text": "MinCiencias opens the 'ColombIA Inteligente 2026' funding call, allocating COP 24 billion (roughly COP 16 billion for AI and COP 8 billion for quantum science projects) to applied research consortia.",
+      "date": "2026-03-17",
+      "sourceIds": ["co-9"]
+    },
+    {
+      "text": "Abelardo De la Espriella wins Colombia's presidential runoff against Iván Cepeda by a roughly one-point margin, ending the Petro government's tenure as of the August 7, 2026 transition.",
+      "date": "2026-06-21",
+      "sourceIds": ["co-7"],
+      "severity": "major"
+    },
+    {
+      "text": "President-elect De la Espriella names Alexandra Falla Zerrate as incoming Minister of Information and Communication Technologies (MinTIC), effective August 7, 2026.",
+      "date": "2026-07-15",
+      "sourceIds": ["co-8"]
+    },
+    {
+      "text": "Google announces construction of its first Colombian data center, a 100MW facility in Yumbo, Valle del Cauca expected to support Google Cloud and consumer services in the country.",
+      "date": "2025-03-31",
+      "sourceIds": ["co-10"],
+      "needsVerification": true
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "CONPES 4144 — Política Nacional de Inteligencia Artificial",
+      "status": "in_force",
+      "summary": "National AI policy document approved February 14, 2025, setting a non-binding roadmap of over 100 actions through 2030 covering research, adoption, digital-divide reduction, and rights protection.",
+      "officialUrl": "https://www.dnp.gov.co/publicaciones/Planeacion/Paginas/conpes-4144-hoja-de-ruta-colombia-inteligencia-artificial-retos-actuales-transformacion-futura.aspx",
+      "sourceIds": ["co-1", "co-2"]
+    },
+    {
+      "title": "Proyecto de Ley 043 de 2025 Senado / 324 de 2025 Cámara (AI regulation bill)",
+      "status": "proposed",
+      "summary": "Would establish a risk-based regime (prohibited, high, limited, low risk), create a National AI Supervision Authority, and mandate regulatory sandboxes; filed May 2025, refiled with urgency message July 2025, stalled in committee as of February 2026.",
+      "officialUrl": "https://www.camara.gov.co/inteligencia-artificial/",
+      "sourceIds": ["co-3", "co-4", "co-5", "co-6"]
+    },
+    {
+      "title": "Regulatory sandboxes (Decreto 1732 de 2021 framework, applied by MinTIC to AI)",
+      "status": "in_force",
+      "summary": "MinTIC plans to structure 10 sector-specific regulatory sandboxes (including AgroTech, HealthTech, FinTech, GovTech) under existing exploratory-regulation authority to let companies test AI-based products under regulatory flexibility.",
+      "sourceIds": ["co-14"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Universidad de los Andes hosts CinfonIA, a cross-faculty AI research and training center launched under the university's vice-rectory for research, directed by mathematician and biomedical engineering professor Pablo Arbeláez, with projects spanning health diagnostics and Amazon rainforest monitoring. Los Andes' School of Government also runs Sistemas de Algoritmos Públicos, a project tracking how Latin American states use AI. Universidad EAFIT in Medellín has partnered with Microsoft on an AI lab, and Universidad Nacional de Colombia hosts a research group on AI in education; a fuller national picture of AI research output has not been independently verified here.",
+    "sourceIds": ["co-12"]
+  },
+  "companies": [
+    {
+      "name": "Rappi",
+      "description": "Colombian delivery and 'super app' platform that has incorporated AI-based logistics and recommendation features; not a frontier AI developer. (Valuation reporting varies widely across sources and outdated figures circulate, so no specific valuation figure is stated here.)",
+      "url": "https://www.rappi.com"
+    },
+    {
+      "name": "Platzi",
+      "description": "Bogotá-based online education platform integrating generative AI into its course offerings, including AI-focused curricula; one of the region's better-known edtech companies.",
+      "url": "https://platzi.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      { "name": "Google Cloud", "description": "Building its first Colombian data center (100MW) in Yumbo, Valle del Cauca, to support Cloud, Gmail, YouTube and Drive services in-country.", "needsVerification": true },
+      { "name": "AWS", "description": "Major cloud provider for Colombian enterprise and startup workloads; supports local accelerator programs for AI startups." },
+      { "name": "Microsoft Azure", "description": "Cloud provider used across Colombian enterprise and public-sector AI deployments." }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Universidad de los Andes",
+      "description": "Hosts CinfonIA (Centro de Investigación y Formación en Inteligencia Artificial), directed by Pablo Arbeláez, and Sistemas de Algoritmos Públicos, a School of Government project tracking state use of algorithms across the region.",
+      "url": "https://www.uniandes.edu.co/es/noticias/ingenieria/lanzamiento-del-centro-de-investigacion-y-formacion-en-inteligencia-artificial"
+    },
+    {
+      "name": "Universidad EAFIT",
+      "description": "Medellín-based university that partnered with Microsoft to establish an AI laboratory aimed at applied research and talent development.",
+      "url": "https://www.eafit.edu.co",
+      "needsVerification": true
+    },
+    {
+      "name": "Universidad Nacional de Colombia",
+      "description": "Hosts a research group focused on artificial intelligence in education, based at its Medellín campus.",
+      "url": "https://minas.medellin.unal.edu.co/gruposdeinvestigacion/aeiou/",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Fundación Karisma",
+      "description": "Bogotá-based digital-rights organization that intervenes in AI policy debates from a human-rights perspective, including public hearings on the AI bill and a report ('Fiscal Watson') on AI use inside the Attorney General's Office.",
+      "url": "https://web.karisma.org.co"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Science, Technology and Innovation (MinCiencias)",
+      "description": "Lead ministry behind CONPES 4144 and the pending AI regulation bill; led by Yesenia Olaya Requene under the outgoing Petro government.",
+      "url": "https://minciencias.gov.co"
+    },
+    {
+      "name": "Ministry of Information and Communication Technologies (MinTIC)",
+      "description": "Co-leads AI policy with MinCiencias and runs the regulatory-sandbox program; Alexandra Falla Zerrate named incoming minister from August 7, 2026.",
+      "url": "https://www.mintic.gov.co"
+    },
+    {
+      "name": "Departamento Nacional de Planeación (DNP)",
+      "description": "National Planning Department that authored and published CONPES 4144, Colombia's national AI policy document.",
+      "url": "https://www.dnp.gov.co"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Yesenia Olaya Requene",
+      "role": "Minister of Science, Technology and Innovation (outgoing, until August 7, 2026)",
+      "affiliation": "MinCiencias",
+      "category": "government",
+      "url": "https://minciencias.gov.co"
+    },
+    {
+      "name": "Alexandra Falla Zerrate",
+      "role": "Incoming Minister of Information and Communication Technologies (from August 7, 2026)",
+      "affiliation": "MinTIC",
+      "category": "government",
+      "needsVerification": true
+    },
+    {
+      "name": "Pablo Arbeláez",
+      "role": "Director, CinfonIA (AI Research and Training Center)",
+      "affiliation": "Universidad de los Andes",
+      "category": "researcher",
+      "url": "https://www.uniandes.edu.co/es/noticias/ingenieria/lanzamiento-del-centro-de-investigacion-y-formacion-en-inteligencia-artificial"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Yesenia Olaya Requene",
+      "type": "person",
+      "role": "Outgoing Minister of Science, Technology and Innovation; led CONPES 4144 and the AI regulation bill under the Petro government.",
+      "category": "government",
+      "url": "https://minciencias.gov.co"
+    },
+    {
+      "name": "Fundación Karisma",
+      "type": "organization",
+      "role": "Digital-rights organization active in Colombian AI policy debates, from legislative hearings to reports on public-sector AI use.",
+      "category": "think_tank",
+      "url": "https://web.karisma.org.co"
+    },
+    {
+      "name": "Pablo Arbeláez",
+      "type": "person",
+      "role": "Director of Universidad de los Andes' CinfonIA AI research center.",
+      "category": "researcher",
+      "url": "https://www.uniandes.edu.co"
+    }
+  ],
+  "influenceMap": [
+    { "label": "MinCiencias", "type": "government" },
+    { "label": "MinTIC", "type": "government" },
+    { "label": "DNP (CONPES 4144)", "type": "agency" },
+    { "label": "Universidad de los Andes / CinfonIA", "type": "research" },
+    { "label": "Fundación Karisma", "type": "think_tank" },
+    { "label": "Rappi", "type": "company" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI law", "note": "No AI-specific law is yet in force; the risk-based bill (PL 043/324 of 2025) remains stalled in congressional committee as of the most recent available reporting." },
+    { "area": "Dedicated AI regulator", "note": "The proposed National AI Supervision Authority does not yet exist — it would only be created if and when the pending bill passes." },
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Colombia; the domestic AI sector is applied/adoption-focused rather than model-building." },
+    { "area": "Policy continuity", "note": "It is not yet clear from available reporting whether the incoming De la Espriella government (from August 7, 2026) will maintain, revise, or deprioritize the outgoing government's AI bill and CONPES 4144 roadmap." },
+    { "area": "Data-center regulation", "note": "Reporting indicates Colombia still lacks specific policy recognizing data centers as critical infrastructure, with slow permitting and grid-connection processes." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether the incoming De la Espriella administration will maintain the AI bill and CONPES 4144 roadmap",
+      "category": "government",
+      "summary": "Colombia's AI policy apparatus was built almost entirely under the outgoing Petro government, and it is not yet clear whether the incoming administration, taking office August 7, 2026 after a razor-thin runoff win, will continue it.",
+      "expanded": "CONPES 4144 and the pending risk-based AI bill were championed by MinCiencias under President Petro, whose government's transition to Abelardo De la Espriella has been contested rhetorically (Petro alleged the election was manipulated, though intelligence reports found no irregularities). With a new MinTIC minister named and a broader cabinet still being finalized, observers have not yet seen clear signals on whether the new government will prioritize passing the stalled AI bill, revise its risk-tier design, or deprioritize it relative to other legislative goals. This is a genuinely open question rather than a settled one.",
+      "sourceIds": ["co-7", "co-8"]
+    },
+    {
+      "topic": "Rights-based safeguards versus an innovation-first, sandbox-driven approach to AI regulation",
+      "category": "government",
+      "summary": "Digital-rights groups such as Fundación Karisma have pushed for stronger human-rights safeguards in AI governance, in some tension with MinTIC's innovation-and-sandbox-oriented framing.",
+      "expanded": "Karisma's interventions — including a report on AI use inside the Attorney General's Office ('Fiscal Watson') and participation in public hearings on the AI bill — emphasize risks to fundamental rights from public-sector AI deployment, particularly in justice and security contexts. MinTIC's parallel push for ten sector-specific regulatory sandboxes reflects a more innovation-first orientation. Both strands are represented within the pending AI bill's risk-tier design, but how they will be balanced in practice, especially amid the political transition, remains unresolved.",
+      "sourceIds": ["co-6", "co-11"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Colombia avanza en la regulación de la inteligencia artificial: claves del proyecto de ley",
+      "type": "think_tank",
+      "author": "Fedetec",
+      "url": "https://fedetec.org/2025/08/26/colombia-egulacion-inteligencia-artificial/"
+    },
+    {
+      "title": "CONPES 4144: La hoja de ruta de Colombia en Inteligencia Artificial",
+      "type": "government",
+      "author": "Departamento Nacional de Planeación",
+      "url": "https://www.dnp.gov.co/publicaciones/Planeacion/Paginas/conpes-4144-hoja-de-ruta-colombia-inteligencia-artificial-retos-actuales-transformacion-futura.aspx"
+    }
+  ],
+  "sources": [
+    { "id": "co-1", "title": "CONPES 4144 — Política Nacional de Inteligencia Artificial (official document)", "publisher": "Departamento Nacional de Planeación (DNP)", "url": "https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4144.pdf", "date": "2025-02-14", "category": "government" },
+    { "id": "co-2", "title": "Con aprobación de Conpes de IA, Colombia cuenta con Política Pública para el desarrollo de la Inteligencia Artificial", "publisher": "MinTIC", "url": "https://www.mintic.gov.co/portal/715/w3-article-399915.html", "date": "2025-02", "category": "government" },
+    { "id": "co-3", "title": "Colombia le vuelve a apostar al uso ético de la inteligencia artificial: MinCiencias radica nuevo proyecto de ley", "publisher": "Minciencias", "url": "https://minciencias.gov.co/sala_de_prensa/colombia-le-vuelve-apostar-al-uso-etico-la-inteligencia-artificial-minciencias-radica", "date": "2025-07-28", "category": "government" },
+    { "id": "co-4", "title": "Inteligencia Artificial — proyecto de ley tracker", "publisher": "Cámara de Representantes de Colombia", "url": "https://www.camara.gov.co/inteligencia-artificial/", "date": "2026", "category": "government" },
+    { "id": "co-5", "title": "Colombia abrió debate para una regulación más estricta en el uso de la inteligencia artificial", "publisher": "Poder Legislativo (Cámara de Representantes)", "url": "https://poderlegislativo.camara.gov.co/2026/02/16/colombia-abrio-debate-para-una-regulacion-mas-estricta-en-el-uso-de-la-inteligencia-artificial/", "date": "2026-02-16", "category": "news" },
+    { "id": "co-6", "title": "Colombia avanza en la regulación de la inteligencia artificial: claves del proyecto de ley que impactará al sector tecnológico", "publisher": "Fedetec", "url": "https://fedetec.org/2025/08/26/colombia-egulacion-inteligencia-artificial/", "date": "2025-08-26", "category": "think_tank" },
+    { "id": "co-7", "title": "Resultados elecciones presidenciales Colombia 2026: De la Espriella, presidente electo", "publisher": "El Tiempo", "url": "https://www.eltiempo.com/politica/elecciones-colombia-2026/resultados-segunda-vuelta-presidencial-2026-siga-el-minuto-a-minuto-del-preconteo-de-la-registraduria-nacional-3565893", "date": "2026-06-21", "category": "news" },
+    { "id": "co-8", "title": "Abelardo De La Espriella nombra a Alexandra Falla Zerrate como ministra TIC", "publisher": "Semana", "url": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-nombra-a-alexandra-falla-zarate-como-ministra-de-tecnologias-de-la-informacion-y-comunicacion-mintic/202641/", "date": "2026-07-15", "category": "news" },
+    { "id": "co-9", "title": "MinCiencias abre convocatoria ColombIA Inteligente 2026", "publisher": "Minciencias", "url": "https://minciencias.gov.co/sala_de_prensa/minciencias-abre-convocatoria-colombia-inteligente-2026-para-financiar-soluciones-con", "date": "2026-03-17", "category": "government" },
+    { "id": "co-10", "title": "Google announces Colombia data center investment", "publisher": "Business Wire", "url": "https://www.businesswire.com/news/home/20250331628010/en", "date": "2025-03-31", "category": "industry" },
+    { "id": "co-11", "title": "Participamos en audiencia pública sobre el proyecto de ley de IA en Colombia", "publisher": "Fundación Karisma", "url": "https://blog.karisma.org.co/participamos-en-audiencia-publica-sobre-el-proyecto-de-ley-de-ia-en-colombia/", "date": "2025", "category": "think_tank" },
+    { "id": "co-12", "title": "Lanzamiento del Centro de Investigación y Formación en Inteligencia Artificial (Cinfonia)", "publisher": "Universidad de los Andes", "url": "https://www.uniandes.edu.co/es/noticias/ingenieria/lanzamiento-del-centro-de-investigacion-y-formacion-en-inteligencia-artificial", "date": "2023", "category": "research" },
+    { "id": "co-13", "title": "Este es el top 10 de las startups más valiosas de Colombia: Rappi, Habi y Addi lideran el ranking", "publisher": "El Colombiano", "url": "https://www.elcolombiano.com/negocios/top-10-startups-mas-valiosas-colombia-rappi-habi-y-addi-ranking-BD30336241", "date": "2025", "category": "news" },
+    { "id": "co-14", "title": "MinTIC estructurará 10 'sandbox' regulatorios para acelerar los ecosistemas de innovación en Colombia", "publisher": "MinTIC", "url": "https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/281130:MinTIC-estructurara-10-sandbox-regulatorios-para-acelerar-los-ecosistemas-de-innovacion-en-Colombia", "date": "2024", "category": "government" }
+  ]
+}

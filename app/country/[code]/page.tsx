@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Scale } from "lucide-react";
 import { getCountryCodes, getCountryData } from "@/lib/getCountryData";
 import { NavBar } from "@/components/layout/NavBar";
+import { GlobalNavLinks } from "@/components/layout/GlobalNavLinks";
 import { CountryHeader } from "@/components/country/CountryHeader";
 import { RecentUpdateBanner } from "@/components/country/RecentUpdateBanner";
 import { CountryToc } from "@/components/country/CountryToc";
@@ -64,13 +65,16 @@ export default async function CountryPage({
         variant="light"
         breadcrumb={`${country.flagEmoji} ${country.name}`}
         right={
-          <Link
-            href={`/compare?with=${country.code}`}
-            className="flex items-center gap-1.5 rounded-lg border border-page-border px-3 py-2 text-[12.5px] text-page-text-muted transition-colors hover:text-page-text"
-          >
-            <Scale size={14} strokeWidth={2.25} />
-            Compare
-          </Link>
+          <>
+            <GlobalNavLinks variant="light" />
+            <Link
+              href={`/compare?with=${country.code}`}
+              className="flex items-center gap-1.5 rounded-lg border border-page-border px-3 py-2 text-[12.5px] text-page-text-muted transition-colors hover:text-page-text"
+            >
+              <Scale size={14} strokeWidth={2.25} />
+              Compare
+            </Link>
+          </>
         }
       />
       <div className="mx-auto max-w-[1240px] px-6 py-8">

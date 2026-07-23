@@ -1,0 +1,340 @@
+{
+  "code": "th",
+  "name": "Thailand",
+  "shortName": "Thailand",
+  "flagEmoji": "🇹🇭",
+  "geometryType": "polygon",
+  "isoA3": ["THA"],
+  "region": "Southeast Asia",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "National AI strategy plus a risk-based draft AI Act, modelled partly on the EU AI Act, still in public consultation",
+  "accentColor": { "light": "#7D4483", "dark": "#A661AE" },
+  "center": [101.0, 15.0],
+  "zoom": 5.0,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Draft AI Act's risk-based rules vs. concerns over investment deterrence",
+    "Thailand's exposure to US chip-transshipment export controls",
+    "Data centre power-grid and water strain in the Eastern Economic Corridor"
+  ],
+  "overview": "Thailand's AI policy runs on two tracks. Since July 2022, the country has operated under a Cabinet-approved National AI Strategy and Action Plan (2022–2027), built around five core strategies (regulatory/ethical readiness, infrastructure, talent development, technology/innovation, and public-private AI adoption), with an associated AI Governance Center (AIGC) under the Electronic Transactions Development Agency (ETDA) responsible for testing frameworks and ethical guidance. That strategy is non-binding.\n\nA more consequential shift is underway with Thailand's draft Artificial Intelligence Act, prepared by ETDA under the Ministry of Digital Economy and Society (MDES). A revised draft was released for public consultation on July 2, 2026, alongside AI Governance Week 2026 (June 29–July 3), hosted by ETDA and its AI Governance Center. The draft borrows a risk-based structure from the EU AI Act but adds features described as distinctly Thai, including strict liability for AI-related harm, mandatory local representatives for foreign AI providers, and labelling duties for AI-generated content; some provisions are reported to take effect immediately on publication, with risk-control and incident-reporting obligations phased in roughly 180 days later. As of this writing the Act remains in draft/consultation form rather than passed law, and some industry voices have reportedly warned the government that a stringent approach could deter investment.\n\nSeparately, Thailand has become one of the fastest-growing AI data-centre investment destinations in Southeast Asia and has been drawn into the US-China AI chip conflict as a suspected transshipment route, prompting scrutiny from both Thai and US authorities.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Risk-based draft AI Act moving toward enactment",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Non-binding National AI Strategy (2022–2027) plus a draft, EU-AI-Act-influenced risk-based AI Act in public consultation as of July 2026",
+    "latestMajorUpdate": "ETDA releases a revised draft AI Act for public consultation on July 2, 2026, alongside AI Governance Week 2026",
+    "governmentInvolvement": "High and centralising around ETDA/MDES, which run both the non-binding AI Governance Center guidance and the drafting of binding AI legislation",
+    "industrialStrategy": "Positioning as a Southeast Asian AI infrastructure and data-centre hub, drawing large-scale hyperscaler investment (AWS, Google, Microsoft, ByteDance), alongside talent-development targets under the National AI Strategy",
+    "internationalPartnerships": "AI Governance Week 2026 convened international partners around AI governance principles and red-teaming; Thailand is also directly affected by US export-control policy toward AI chips",
+    "primaryPolicyFocus": "Finalising the draft AI Act and managing data-centre power/grid capacity appear to be near-term government priorities, based on recent ministerial statements and regulatory actions"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Thailand is moving from voluntary AI governance guidance toward a binding, risk-based AI Act: ETDA's July 2026 consultation draft would introduce strict liability, local-representative requirements for foreign providers, and AI-content labelling duties if enacted as proposed. Digital Economy Minister Chaichanok Chidchob has reportedly pressed ahead with the law despite warnings from some industry voices about a possible chilling effect on investment, while regulators have simultaneously moved to tighten oversight of new data-centre projects' grid impact — suggesting a broader shift toward firmer state involvement across both AI-specific rules and adjacent infrastructure policy."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Thailand's Cabinet approves the National AI Strategy and Action Plan (2022–2027), setting five core strategies and targets including training over 30,000 AI professionals and driving at least 48 billion baht in AI-related economic impact by 2027.",
+      "date": "2022-07-26",
+      "sourceIds": ["th-1"]
+    },
+    {
+      "text": "US and Thai authorities scrutinise suspected Nvidia AI-chip smuggling routes through Thailand, as US officials examine whether Thailand and Malaysia are being used to divert advanced chips to China in violation of export controls.",
+      "date": "2025-07",
+      "sourceIds": ["th-2"]
+    },
+    {
+      "text": "Reports emerge that the US Commerce Department is drafting a rule to require licenses for AI GPU exports specifically to Thailand and Malaysia, citing continued diversion concerns.",
+      "date": "2025-07-04",
+      "sourceIds": ["th-3"],
+      "needsVerification": true
+    },
+    {
+      "text": "Thailand's Energy Regulatory Commission begins requiring, for new data-centre project applications submitted from March 30, 2026 onward, written confirmation that national electricity supply is sufficient to support the facility's proposed load.",
+      "date": "2026-03-30",
+      "sourceIds": ["th-4"]
+    },
+    {
+      "text": "ETDA hosts AI Governance Week 2026 (June 29–July 3) and releases a revised draft AI Act for public consultation on July 2, 2026, positioning Thailand as an aspiring regional AI-governance hub.",
+      "date": "2026-07-02",
+      "sourceIds": ["th-5", "th-6"],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National AI Strategy and Action Plan (2022–2027)",
+      "status": "in_force",
+      "summary": "Cabinet-approved July 2022; non-binding strategy built around five core strategies covering regulatory/ethical readiness, infrastructure, talent development (targeting 30,000+ AI professionals), technology/innovation, and public-private AI adoption (targeting 600+ adopting agencies).",
+      "sourceIds": ["th-1"]
+    },
+    {
+      "title": "AI Governance Center (AIGC), ETDA",
+      "status": "in_force",
+      "summary": "Body under ETDA responsible for AI ethics guidance, testing frameworks, and international AI-governance collaboration, including hosting AI Governance Week 2026.",
+      "sourceIds": ["th-5"]
+    },
+    {
+      "title": "Draft Artificial Intelligence Act",
+      "status": "proposed",
+      "summary": "Risk-based draft law prepared by ETDA under MDES, influenced by the EU AI Act but adding Thailand-specific features (strict liability for AI-related damage, mandatory local representatives for foreign AI providers, AI-generated-content labelling duties). Revised draft released for public consultation July 2, 2026; some core provisions reported to take effect immediately on publication with risk-control/incident-reporting duties phased in around 180 days later. Not yet enacted as of this writing.",
+      "sourceIds": ["th-6", "th-7"]
+    },
+    {
+      "title": "ERC data-centre grid-capacity confirmation requirement",
+      "status": "in_force",
+      "summary": "Effective for applications submitted from March 30, 2026, new data-centre projects must obtain Energy Regulatory Commission confirmation that national electricity supply can support the facility's proposed load.",
+      "sourceIds": ["th-4"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Thailand's AI research and policy capacity is anchored partly in Chulalongkorn University, whose Faculty of Law has contributed directly to AI-governance discussions (including on the draft AI Act), and partly in the Thailand Development Research Institute (TDRI), a long-established (1984) non-profit policy institute with research programs spanning science and technology policy alongside its core economic and social-policy work. Government-funded AI R&D and talent programs under the National AI Strategy reportedly total around 12.9 billion baht, with over 83,000 people trained as AI professionals, though independent verification of these government-reported figures was not found.",
+    "sourceIds": ["th-8", "th-9"]
+  },
+  "companies": [
+    {
+      "name": "Siam AI Corporation",
+      "description": "Thai cloud/AI infrastructure company and Nvidia cloud partner, involved in designing AI-ready data-centre deployments as part of Thailand's data-centre investment boom.",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Amazon Web Services",
+        "description": "Reported to have pledged roughly $5 billion in Thailand data-centre/cloud investment as part of a broader multi-year regional commitment."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Committed to a roughly $1 billion data-centre facility in Chonburi province."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Reported to have selected Thailand as the location for a lead regional data centre as part of its Southeast Asia cloud expansion."
+      },
+      {
+        "name": "ByteDance (TikTok)",
+        "description": "Announced a data-centre investment plan reported at nearly $4 billion across three Thai provinces."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Chulalongkorn University",
+      "description": "Leading Thai university whose Faculty of Law has participated directly in national discussions on AI governance and the draft AI Act.",
+      "url": "https://www.chula.ac.th"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Thailand Development Research Institute (TDRI)",
+      "description": "Non-profit policy research institute founded in 1984, covering economics, science and technology policy, and law, among other areas relevant to Thailand's digital and AI policy debates.",
+      "url": "https://tdri.or.th/en/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digital Economy and Society (MDES)",
+      "description": "Lead ministry overseeing Thailand's AI strategy and the draft AI Act, led by Minister Chaichanok Chidchob.",
+      "url": "https://www.mdes.go.th"
+    },
+    {
+      "name": "Electronic Transactions Development Agency (ETDA)",
+      "description": "Digital-law agency under MDES responsible for drafting the AI Act and operating the AI Governance Center; led by Executive Director Chaichana Mitrpant.",
+      "url": "https://www.etda.or.th"
+    },
+    {
+      "name": "AI Governance Center (AIGC), ETDA",
+      "description": "ETDA unit focused on AI ethics guidance, testing frameworks (including an 'AI EIA Playbook' and AI red-teaming initiatives) and international AI-governance collaboration.",
+      "url": "https://www.etda.or.th"
+    },
+    {
+      "name": "Energy Regulatory Commission (ERC)",
+      "description": "Regulator now requiring grid-capacity confirmation for new data-centre project applications, effective from March 30, 2026.",
+      "url": "https://www.erc.or.th"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Chaichanok Chidchob",
+      "role": "Minister of Digital Economy and Society",
+      "affiliation": "Ministry of Digital Economy and Society (MDES)",
+      "category": "government",
+      "url": "https://www.mdes.go.th"
+    },
+    {
+      "name": "Chaichana Mitrpant",
+      "role": "Executive Director",
+      "affiliation": "Electronic Transactions Development Agency (ETDA)",
+      "category": "government",
+      "url": "https://www.etda.or.th"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Chaichanok Chidchob",
+      "type": "person",
+      "role": "Minister of Digital Economy and Society, driving Thailand's draft AI Act despite industry pushback over potential investment effects.",
+      "category": "government",
+      "url": "https://www.mdes.go.th"
+    },
+    {
+      "name": "ETDA AI Governance Center",
+      "type": "organization",
+      "role": "Central body for Thailand's AI governance guidance, testing frameworks, and draft legislation.",
+      "category": "government",
+      "url": "https://www.etda.or.th"
+    },
+    {
+      "name": "TDRI",
+      "type": "organization",
+      "role": "Independent policy research institute covering technology policy relevant to Thailand's AI regulatory debate.",
+      "category": "think_tank",
+      "url": "https://tdri.or.th/en/"
+    }
+  ],
+  "influenceMap": [
+    { "label": "MDES", "type": "government" },
+    { "label": "ETDA / AI Governance Center", "type": "agency" },
+    { "label": "Energy Regulatory Commission", "type": "agency" },
+    { "label": "Siam AI Corporation", "type": "company" },
+    { "label": "Chulalongkorn University", "type": "research" },
+    { "label": "TDRI", "type": "think_tank" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI-specific law", "note": "As of mid-2026, Thailand's AI Act remains a public-consultation draft rather than enacted legislation; commentary suggests enactment could still be one to two years away." },
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Thailand; the country's AI industrial strategy centres on data-centre hosting and applied/cloud AI services rather than frontier model training." },
+    { "area": "Dedicated AI regulator with enforcement powers", "note": "Oversight currently sits with ETDA's AI Governance Center in an advisory/coordinating capacity; enforcement powers depend on the still-draft AI Act." }
+  ],
+  "debates": [
+    {
+      "topic": "Draft AI Act's risk-based rules vs. concerns over investment deterrence",
+      "category": "government",
+      "summary": "Thailand's draft AI Act, with features like strict liability and mandatory local representatives for foreign providers, has drawn warnings from some industry voices that a stringent approach could discourage investment.",
+      "expanded": "The draft Act's EU-AI-Act-inspired risk tiers are paired with Thailand-specific obligations — including strict liability for AI-related damage and a requirement for foreign AI providers to appoint local representatives — that go beyond what some comparable regional frameworks currently require. Reporting from mid-2026 indicates the Digital Economy Minister has pressed ahead with the legislation despite warnings about a possible adverse investment reaction, reflecting a broader tension between Thailand's ambition to be seen as a serious AI-governance hub and its parallel ambition to keep attracting large hyperscaler and data-centre capital.",
+      "sourceIds": ["th-5", "th-7"]
+    },
+    {
+      "topic": "Thailand's exposure to US chip-transshipment export controls",
+      "category": "government",
+      "summary": "Thailand, alongside Malaysia, has come under direct US scrutiny as a possible route for diverting advanced Nvidia AI chips to China in violation of export controls.",
+      "expanded": "US investigations and reporting in mid-2025 focused on the possibility that Nvidia AI chips were being routed through Thailand to reach Chinese buyers, and by July 2025 the US Commerce Department was reported to be drafting a rule that would specifically require licenses for AI GPU exports to Thailand and Malaysia. The rule had not been finalized as of available reporting, but the episode illustrates a structural risk for Thailand's AI-infrastructure strategy: rapid growth as a regional chip and data-centre hub also increases exposure to great-power export-control disputes largely outside Thailand's own policy control.",
+      "sourceIds": ["th-2", "th-3"]
+    },
+    {
+      "topic": "Data centre power-grid and water strain in the Eastern Economic Corridor",
+      "category": "infrastructure",
+      "summary": "Thailand's rapid data-centre investment boom is colliding with grid-capacity and water-availability constraints, prompting new regulatory requirements.",
+      "expanded": "Board of Investment applications in Thailand's digital sector reportedly surged 823% year-on-year in early 2026, with dozens of data-centre-related projects planned or underway (reported project counts vary across outlets and some figures could not be independently cross-verified), concentrated partly in the Eastern Economic Corridor. Reporting has flagged grid bottlenecks and substation saturation risks, prompting the Energy Regulatory Commission to require grid-capacity confirmation for new data-centre applications from March 2026, while separate reporting has noted individual planned facilities requiring millions of cubic metres of water annually in already water-stressed regions. Thailand's electricity supply remains heavily dependent on gas and coal (reportedly around 85% of generation), raising open questions about the emissions and resource implications of continued AI-driven data-centre growth.",
+      "sourceIds": ["th-4", "th-10", "th-11"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Navigating Thailand's AI Law: Development at a Crossroads",
+      "type": "think_tank",
+      "author": "Tech For Good Institute",
+      "url": "https://techforgoodinstitute.org/blog/country-spotlights/navigating-thailands-ai-law-development-at-a-crossroads/"
+    },
+    {
+      "title": "Thailand's draft AI law: A new era for governance and innovation",
+      "type": "government",
+      "author": "Norton Rose Fulbright",
+      "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/0fec663b/thailands-draft-ai-law-a-new-era-for-governance-and-innovation"
+    }
+  ],
+  "sources": [
+    {
+      "id": "th-1",
+      "title": "Thailand National AI Strategy and Action Plan (2022–2027)",
+      "publisher": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/thailand-national-ai-strategy-and-action-plan-2022-2027-1728",
+      "date": "2022-07-26",
+      "category": "government"
+    },
+    {
+      "id": "th-2",
+      "title": "US probes Nvidia chip-smuggling via Thailand",
+      "publisher": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/thailand/general/3251889/us-probes-nvidia-chipsmuggling-via-thailand",
+      "date": "2025-07",
+      "category": "news"
+    },
+    {
+      "id": "th-3",
+      "title": "US plans to tighten AI chip export rules for Malaysia, Thailand",
+      "publisher": "Asia Times",
+      "url": "https://asiatimes.com/2025/07/us-plans-to-tighten-ai-chip-export-rules-for-malaysia-thailand/",
+      "date": "2025-07-04",
+      "category": "news"
+    },
+    {
+      "id": "th-4",
+      "title": "Powering the Cloud: Navigating Thailand's Data Center Boom and the New Green Energy Mandates",
+      "publisher": "Lexology",
+      "url": "https://www.lexology.com/library/detail.aspx?g=554d9f95-ac89-4c27-bdec-915f20a77315",
+      "date": "2026-03",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "th-5",
+      "title": "MDES-ETDA Opens AIGW 2026, Showcasing Thailand's Readiness to Become a Regional AI Governance Hub",
+      "publisher": "OpenPR",
+      "url": "https://www.openpr.com/news/4571111/mdes-etda-opens-aigw-2026-showcasing-thailand-s-readiness",
+      "date": "2026-06-29",
+      "category": "news"
+    },
+    {
+      "id": "th-6",
+      "title": "Thailand Releases New Draft Artificial Intelligence Act",
+      "publisher": "Mondaq",
+      "url": "https://www.mondaq.com/it-and-internet/1811290/thailand-releases-new-draft-artificial-intelligence-act",
+      "date": "2026-07-02",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "th-7",
+      "title": "Digital Economy minister presses ahead with AI law even with warnings of adverse investment reaction",
+      "publisher": "Thai Examiner",
+      "url": "https://www.thaiexaminer.com/thai-news-foreigners/2026/07/01/digital-economy-minister-presses-ahead-with-ai-law-even-with-warnings-of-adverse-investment-reaction/",
+      "date": "2026-07-01",
+      "category": "news"
+    },
+    {
+      "id": "th-8",
+      "title": "Thailand Development Research Institute — research programs",
+      "publisher": "TDRI",
+      "url": "https://tdri.or.th/en/research-program/",
+      "category": "think_tank"
+    },
+    {
+      "id": "th-9",
+      "title": "Navigating Thailand's AI Law: Development at a Crossroads",
+      "publisher": "Tech For Good Institute / ADB SEADS",
+      "url": "https://seads.adb.org/articles/navigating-thailands-ai-law-development-crossroads",
+      "date": "2025",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "th-10",
+      "title": "Data centre outlay set to skyrocket",
+      "publisher": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/business/investment/3272101/data-centre-outlay-set-to-skyrocket",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "th-11",
+      "title": "AI infrastructure growth threatens water-stressed Thai regions",
+      "publisher": "Mongabay",
+      "url": "https://news.mongabay.com/short-article/2026/04/ai-infrastructure-growth-threatens-water-stressed-thai-regions/",
+      "date": "2026-04",
+      "category": "news"
+    }
+  ]
+}

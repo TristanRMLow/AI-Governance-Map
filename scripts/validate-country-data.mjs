@@ -7,6 +7,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 const DIR = join(import.meta.dirname, "..", "data", "countries");
+const INDEX_PATH = join(import.meta.dirname, "..", "data", "countries.json");
 const REQUIRED_KEYS = [
   "code", "name", "shortName", "flagEmoji", "geometryType", "isoA3", "region",
   "jurisdictionType", "governanceModel", "accentColor", "center", "zoom",
@@ -87,6 +88,40 @@ for (const file of files) {
   }
 
   if (!Array.isArray(data.notableGaps)) fail(file, `notableGaps must be an array (can be empty)`);
+
+  const actualCount = (data.recentDevelopments ?? []).length;
+  if (data.newDevelopmentsCount !== actualCount) {
+    fail(file, `newDevelopmentsCount is ${data.newDevelopmentsCount} but recentDevelopments has ${actualCount} entries`);
+  }
+  const actualMajor = (data.recentDevelopments ?? []).some((d) => d.severity === "major");
+  if (data.hasMajorUpdate !== actualMajor) {
+    fail(file, `hasMajorUpdate is ${data.hasMajorUpdate} but recentDevelopments ${actualMajor ? "does" : "does not"} contain a "major" severity entry`);
+  }
+}
+
+// countries.json is a hand-maintained index that duplicates each country's
+// freshness fields — getAllCountries() no longer trusts this copy (it
+// overlays fresh values from each country's own file at read time), but a
+// stale copy here is still confusing to anyone reading the raw file, so
+// catch drift at validate time too.
+const index = JSON.parse(readFileSync(INDEX_PATH, "utf-8"));
+for (const entry of index) {
+  const filePath = join(DIR, `${entry.code}.json`);
+  let full;
+  try {
+    full = JSON.parse(readFileSync(filePath, "utf-8"));
+  } catch {
+    fail("countries.json", `index entry "${entry.code}" has no matching data/countries/${entry.code}.json`);
+    continue;
+  }
+  for (const key of ["lastUpdated", "newDevelopmentsCount", "hasMajorUpdate"]) {
+    if (JSON.stringify(entry[key]) !== JSON.stringify(full[key])) {
+      fail("countries.json", `entry "${entry.code}" has stale ${key} (index: ${JSON.stringify(entry[key])}, file: ${JSON.stringify(full[key])})`);
+    }
+  }
+  if (JSON.stringify(entry.debateTopics) !== JSON.stringify(full.debateTopics)) {
+    fail("countries.json", `entry "${entry.code}" has stale debateTopics`);
+  }
 }
 
 if (errorCount > 0) {

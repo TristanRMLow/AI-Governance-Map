@@ -1,0 +1,209 @@
+{
+  "code": "jo",
+  "name": "Jordan",
+  "shortName": "Jordan",
+  "flagEmoji": "🇯🇴",
+  "geometryType": "polygon",
+  "isoA3": ["JOR"],
+  "region": "Middle East",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "National AI strategy with phased sectoral rollout, coordinated by a Crown Prince-led future-technology council, alongside a data protection law whose independence has been questioned",
+  "accentColor": { "light": "#448360", "dark": "#61AE83" },
+  "center": [36.2, 31.2],
+  "zoom": 6.5,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": false,
+  "debateTopics": [
+    "Independence concerns over Jordan's planned data protection authority",
+    "Whether AI-driven public-sector modernization can outpace Jordan's ICT brain drain"
+  ],
+  "overview": "Jordan's AI governance runs primarily through the Jordanian Artificial Intelligence Strategy and Implementation Plan (2023-2027), a five-year roadmap built on five pillars — human-capital development, research, an enabling investment environment, a supportive legislative and regulatory environment, and AI-driven public-sector efficiency — comprising 68 named government projects. The Ministry of Digital Economy and Entrepreneurship (MoDEE), currently led by Minister Sami Smeirat, oversees implementation; as of an April 2025 government update, 15 of the strategy's 68 projects were reported complete (about 22%), with 23 more (34%) underway, including the introduction of AI and data-science degree programs across 27 Jordanian universities.\n\nIn early 2025, King Abdullah II directed Prime Minister Jafar Hassan to form and chair a National Council for Future Technology, operating under the supervision of Crown Prince Hussein bin Abdullah, to coordinate AI and broader digital-transformation efforts across government. The Council has been linked to flagship projects including the Siraj AI-powered educational platform (reported to have reached roughly 1.33 million users by May 2026) and a new National Digital Transformation Strategy (2026-2028) aimed at expanding AI use, strengthening digital infrastructure and reaching 100% digitization of eligible government services by the end of 2026. On the legal side, Jordan's Personal Data Protection Law (Law No. 24 of 2023) took effect in March 2024 and provides the main data-related backstop for AI systems, though as of 2026 the law's dedicated regulatory authority had reportedly not yet been fully established, and civil-society groups including Access Now have criticized the law's independence, since its planned oversight body is chaired by the digital-economy minister and includes security-agency representatives.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Active national AI strategy, no dedicated AI law",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Strategy- and project-led implementation through MoDEE and the National Council for Future Technology, with AI-relevant obligations currently addressed mainly through the general Personal Data Protection Law rather than dedicated AI legislation",
+    "latestMajorUpdate": "National Council for Future Technology (established early 2025 under Crown Prince Hussein's supervision) has moved into implementing the 2026-2028 National Digital Transformation Strategy",
+    "governmentInvolvement": "High and centrally coordinated — the Crown Prince-supervised National Council for Future Technology sits above MoDEE and ministries to steer AI and digital-transformation projects",
+    "industrialStrategy": "68-project executive plan under the 2023-2027 AI Strategy spanning healthcare, education, energy and smart cities, alongside efforts to grow Jordan's roughly 2,000-company, 48,000-specialist ICT sector",
+    "internationalPartnerships": "Cooperation with UNIDO on presenting Jordan's AI strategy internationally, and German development cooperation (GIZ, BMZ) and the EU co-funding public-sector AI training programs such as 'AI for Government Leaders'",
+    "primaryPolicyFocus": "Executing the 2023-2027 AI Strategy's remaining projects and the 2026-2028 Digital Transformation Strategy, including expanding AI use across government services"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Jordan continues to implement its existing 2023-2027 AI Strategy and has layered a new National Council for Future Technology and 2026-2028 Digital Transformation Strategy on top of it, but this represents continuity and expansion of an established, strategy-led approach rather than a sharp shift toward either tighter or looser rules. No dedicated AI law or AI-specific regulator has been introduced, and the Personal Data Protection Law's oversight body — the closest thing to an AI-adjacent regulator — remains, per available reporting, not yet fully operational as an independent authority."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Ministry of Digital Economy and Entrepreneurship reports 15 of 68 government projects under the 2023-2027 AI Strategy's executive plan complete (about 22%), with 23 more (34%) underway, including new AI/data-science programs launched across 27 Jordanian universities.",
+      "date": "2025-04-20",
+      "sourceIds": ["jo-1"]
+    },
+    {
+      "text": "Jordan launches the 'AI for Government Leaders' program, a six-month executive training initiative for senior civil servants across finance, digital transformation, cybersecurity, statistics, procurement, healthcare and social-development bodies, co-funded by Germany's BMZ and the EU.",
+      "date": "2026",
+      "sourceIds": ["jo-2"]
+    },
+    {
+      "text": "Government reports the AI-powered Siraj educational platform has reached approximately 1.33 million users.",
+      "date": "2026-05",
+      "sourceIds": ["jo-3"]
+    },
+    {
+      "text": "MoDEE outlines priorities for the 2026-2028 National Digital Transformation Strategy, including expanded AI use, strengthened cybersecurity, and a target of 100% digitization of eligible government services by end-2026.",
+      "date": "2026",
+      "sourceIds": ["jo-3"]
+    },
+    {
+      "text": "King Abdullah II directs Prime Minister Jafar Hassan to form and chair a National Council for Future Technology, under the supervision of Crown Prince Hussein bin Abdullah, to coordinate AI and digital-transformation policy across government.",
+      "date": "2025-02",
+      "sourceIds": ["jo-4", "jo-5"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Jordanian Artificial Intelligence Strategy and Implementation Plan (2023-2027)",
+      "status": "in_force",
+      "summary": "Five-pillar national AI strategy with a 68-project executive plan covering capacity-building, R&D, investment environment, legislative readiness and public-sector AI adoption; roughly one-fifth of projects reported complete as of April 2025.",
+      "officialUrl": "https://www.modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/40435648.pdf",
+      "sourceIds": ["jo-6", "jo-1"]
+    },
+    {
+      "title": "Personal Data Protection Law (Law No. 24 of 2023)",
+      "status": "in_force",
+      "summary": "Jordan's first comprehensive data protection law, in effect since March 2024, providing the main current legal backstop for AI systems processing personal data. Its dedicated regulatory/oversight authority has reportedly not yet been fully established as an independent body, and civil-society groups have criticized its planned governance structure.",
+      "sourceIds": ["jo-7", "jo-8"]
+    },
+    {
+      "title": "National Digital Transformation Strategy (2026-2028)",
+      "status": "in_force",
+      "summary": "Follow-on strategy prioritizing expanded AI use, digital infrastructure, cybersecurity and continued digitization of government services.",
+      "officialUrl": "https://www.modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/jordanian_digital_transformation_strategy_and_the_implementation_plan_2026-2028.pdf",
+      "sourceIds": ["jo-3"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Jordan's AI-relevant research and training runs mainly through public universities now offering AI and data-science degrees (reportedly across 27 institutions since the AI Strategy's rollout) and through Princess Sumaya University for Technology (PSUT), a non-profit university under the Royal Scientific Society that offers a dedicated BSc in Data Science and Artificial Intelligence and runs an 'AI-Ability' outreach initiative for school students. Independent, internationally benchmarked research output specific to Jordanian AI programs is limited in available English-language sources, and should be treated as an emerging rather than established research base.",
+    "sourceIds": ["jo-1", "jo-9"]
+  },
+  "companies": [
+    {
+      "name": "Mawdoo3",
+      "description": "Jordan-based Arabic digital content and AI company; its leadership has publicly credited government support and legislation for enabling Jordanian startups focused on Arabic-language content and AI to scale regionally.",
+      "url": "https://mawdoo3.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Princess Sumaya University for Technology (PSUT)",
+      "description": "Jordan's only private, non-profit university, under the Royal Scientific Society; offers a BSc in Data Science and Artificial Intelligence and runs the 'AI-Ability' initiative training school students in AI and data science.",
+      "url": "https://psut.edu.jo"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digital Economy and Entrepreneurship (MoDEE)",
+      "description": "Lead ministry implementing Jordan's AI Strategy and Digital Transformation Strategy; led by Minister Sami Smeirat.",
+      "url": "https://www.modee.gov.jo"
+    },
+    {
+      "name": "National Council for Future Technology",
+      "description": "Coordinating body formed in early 2025 under Royal direction, chaired by the Prime Minister and supervised by Crown Prince Hussein bin Abdullah, overseeing AI and digital-transformation projects including Siraj and the Digital Signature initiative."
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Sami Smeirat",
+      "role": "Minister of Digital Economy and Entrepreneurship; vice chairman of the National Council for Future Technology",
+      "affiliation": "Government of Jordan",
+      "category": "government",
+      "url": "https://www.modee.gov.jo"
+    },
+    {
+      "name": "Crown Prince Hussein bin Abdullah II",
+      "role": "Supervises the National Council for Future Technology and Jordan's broader technology and AI push",
+      "affiliation": "Hashemite Royal Court",
+      "category": "government",
+      "url": "https://www.alhussein.jo/en"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Ministry of Digital Economy and Entrepreneurship (MoDEE)",
+      "type": "organization",
+      "role": "Primary government source for Jordan's AI strategy implementation updates.",
+      "category": "government",
+      "url": "https://www.modee.gov.jo"
+    },
+    {
+      "name": "Access Now",
+      "type": "organization",
+      "role": "Digital-rights organization that has published detailed critical analysis of Jordan's Personal Data Protection Law and its implications for AI-era data governance.",
+      "category": "think_tank",
+      "url": "https://www.accessnow.org"
+    }
+  ],
+  "influenceMap": [
+    { "label": "National Council for Future Technology", "type": "government" },
+    { "label": "Ministry of Digital Economy and Entrepreneurship", "type": "agency" },
+    { "label": "Princess Sumaya University for Technology", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Dedicated AI regulator", "note": "No AI-specific regulatory authority exists; the Personal Data Protection Law's planned oversight body — the closest analogue — was, per available reporting, not yet fully established as an independent authority as of 2025-2026, and its planned governance structure (chaired by the digital-economy minister, with security-agency representation) has drawn criticism from Access Now over its independence." },
+    { "area": "Frontier AI developer or major AI think tank", "note": "No frontier AI model developer or dedicated AI-focused policy think tank headquartered in Jordan was identified; AI activity is concentrated in government strategy implementation, applied startups (e.g., Mawdoo3) and university programs rather than frontier research." }
+  ],
+  "debates": [
+    {
+      "topic": "Independence concerns over Jordan's planned data protection authority",
+      "category": "government",
+      "summary": "Civil-society organizations, including Access Now, have criticized the governance structure planned for Jordan's data protection oversight body — the main current legal backstop for AI systems handling personal data — arguing it lacks independence from the government bodies it would need to regulate.",
+      "expanded": "Access Now's analysis of the Personal Data Protection Law (enacted 2023, in force since March 2024) notes that the law's planned oversight authority would be chaired by the Minister of Digital Economy and Entrepreneurship and include representatives from security agencies and the telecommunications/ICT industry, and would not be empowered to hold private companies and public entities fully accountable for violations. As AI systems increasingly process personal data across Jordanian government and industry, the practical strength of this oversight body — which was still not reported as fully operational as of the available 2025-2026 reporting — remains a live open question for how effectively AI-related data risks will be supervised.",
+      "sourceIds": ["jo-7", "jo-8"]
+    },
+    {
+      "topic": "Whether AI-driven public-sector modernization can outpace Jordan's ICT brain drain",
+      "category": "government",
+      "summary": "Jordan's AI and digital-transformation strategy depends on a skilled ICT workforce, but Jordan faces a well-documented brain-drain problem as trained professionals move to better-paying jobs in Gulf countries and other markets.",
+      "expanded": "Analysts of Jordan's ICT sector note that the country has one of the region's higher ratios of engineers to population and around 48,000 technology specialists, but that higher salaries abroad continue to draw skilled workers away, even as the government expands AI training programs (including for civil servants, via initiatives like 'AI for Government Leaders') and university AI degree programs. Whether these training investments meaningfully offset outward migration of AI-skilled talent, or whether Jordan's role becomes primarily one of training talent for export, is a recurring question in commentary on the sector's prospects.",
+      "sourceIds": ["jo-9", "jo-1"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Jordan's AI policy journey: Bridging vision and implementation",
+      "type": "think_tank",
+      "author": "Oxford Insights",
+      "url": "https://oxfordinsights.com/insights/spotlight-series-jordan/"
+    },
+    {
+      "title": "Jordan passes flawed data protection law",
+      "type": "think_tank",
+      "author": "Access Now",
+      "url": "https://www.accessnow.org/press-release/jordan-flawed-data-protection-law/"
+    },
+    {
+      "title": "Jordan presents its AI Strategy and Implementation Roadmap",
+      "type": "government",
+      "author": "UNIDO",
+      "url": "https://www.unido.org/news/jordan-presents-its-ai-strategy-and-implementation-roadmap"
+    }
+  ],
+  "sources": [
+    { "id": "jo-1", "title": "15 Government AI Projects Completed", "publisher": "Jordan News", "url": "https://www.jordannews.jo/Section-112/Economy/15-Government-AI-Projects-Completed-41227", "date": "2025-04-20", "category": "news" },
+    { "id": "jo-2", "title": "Jordan launches \"AI for Government Leaders\" program to drive public sector modernization", "publisher": "Petra (Jordan News Agency)", "url": "https://petra.gov.jo/en/news/jordan-launches-ai-for-government-leaders-program-to-drive-public-sector-modernization", "date": "2026", "category": "government" },
+    { "id": "jo-3", "title": "Jordan accelerates digital future under Crown Prince-led tech push", "publisher": "Jordan Times", "url": "https://jordantimes.com/news/local/jordan-accelerates-digital-future-under-crown-prince-led-tech-push", "date": "2026", "category": "news" },
+    { "id": "jo-4", "title": "King tasks PM with forming, chairing National Council for Future Technology, supervised by Crown Prince", "publisher": "Jordan Times", "url": "https://jordantimes.com/news/local/king-tasks-pm-forming-chairing-national-council-future-technology-supervised-crown-prince", "date": "2025-02", "category": "news" },
+    { "id": "jo-5", "title": "Crown Prince chairs first meeting of National Council for Future Technology", "publisher": "Jordan Times", "url": "https://jordantimes.com/news/local/crown-prince-chairs-first-meeting-national-council-future-technology", "date": "2025", "category": "news" },
+    { "id": "jo-6", "title": "Jordanian Artificial Intelligence Strategy and Implementation Plan (2023-2027)", "publisher": "Ministry of Digital Economy and Entrepreneurship (MoDEE)", "url": "https://www.modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/40435648.pdf", "date": "2023", "category": "government" },
+    { "id": "jo-7", "title": "Jordan passes flawed data protection law", "publisher": "Access Now", "url": "https://www.accessnow.org/press-release/jordan-flawed-data-protection-law/", "date": "2023", "category": "expert_commentary" },
+    { "id": "jo-8", "title": "What To Know About Jordan's Personal Data Protection Law of 2023", "publisher": "Securiti", "url": "https://securiti.ai/jordan-personal-data-protection-law-of-2023/", "date": "2024", "category": "expert_commentary" },
+    { "id": "jo-9", "title": "Mideast: Jordan's Uncertain but Promising Future Is Mirrored In Its ICT Sector", "publisher": "Modern Treatise", "url": "https://www.moderntreatise.com/asia-pacific/2026/7/7/mideast-jordans-uncertain-but-promising-future-is-mirrored-in-its-ict-sector", "date": "2026-07-07", "category": "expert_commentary" }
+  ]
+}

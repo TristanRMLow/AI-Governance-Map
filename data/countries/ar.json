@@ -1,0 +1,381 @@
+{
+  "code": "ar",
+  "name": "Argentina",
+  "shortName": "Argentina",
+  "flagEmoji": "🇦🇷",
+  "geometryType": "polygon",
+  "isoA3": ["ARG"],
+  "region": "Americas",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Explicitly deregulatory stance on AI, with only voluntary data-protection-oriented guidance and no binding AI-specific law",
+  "accentColor": { "light": "#584483", "dark": "#7961AE" },
+  "center": [-64.0, -34.0],
+  "zoom": 3.6,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 7,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Whether AI-run 'non-human corporations' can be safely accountable without a human owner",
+    "AI-driven disruption of Argentina's large IT-services workforce and who bears responsibility for retraining"
+  ],
+  "overview": "Argentina has no binding AI-specific law. The main formal governance instruments are voluntary: Provision 2/2023 from the Jefatura de Gabinete de Ministros set out ethical principles (human oversight, accountability, transparency) for AI, and the data-protection authority AAIP followed with Resolution 161/2023 creating a National Program for Transparency and Personal Data Protection in the use of AI, later elaborated in a 2024 guide for public and private entities. An Interministerial Working Group on AI, coordinated through the Secretaría de Asuntos Estratégicos, has sought to coordinate a broader national strategy, and a bill to create an Observatorio Federal sobre Inteligencia Artificial (OFIA) has been proposed but not enacted. Under President Javier Milei, the government's stated posture goes further than most soft-law jurisdictions: Minister of Deregulation and State Transformation Federico Sturzenegger has said his goal is to ensure 'no artificial intelligence law appears,' framing regulatory restraint itself as Argentina's core AI policy.\n\nThe most striking 2026 development is a bill, associated with Sturzenegger's broader corporate-law reform push and publicly championed by Milei, to create 'non-human corporations' — companies that could be operated by AI agents or robots, with human shareholders optional (though a human administrator remains legally required and liable for harm). Milei laid out a three-pillar pitch in a June 2026 Financial Times op-ed: no AI-specific regulation, this new corporate form, and low corporate taxes, aimed at making Buenos Aires a hub for global AI investment. In parallel, presidential chief advisor Demian Reidel has promoted a plan for five to six nuclear-powered AI data centers in Patagonia, intended to position Argentina as a fourth global AI hub after China, the US and Europe, while Congress has advanced 'Super RIGI,' an expanded large-investment incentive regime explicitly targeting AI data centers, semiconductors and related infrastructure. On the industry side, Argentina's globally exported IT-services sector — anchored by Globant, alongside companies like Mercado Libre — is both a source of AI-driven growth and a flashpoint for labor tension, as the AGC tech-workers' union has clashed publicly with employers over AI-linked job disruption.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Explicitly deregulatory; investment-first approach with no binding AI law",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Voluntary, principles-based guidance from the data-protection authority (AAIP) and Jefatura de Gabinete, paired with an explicit government policy of avoiding AI-specific regulation",
+    "latestMajorUpdate": "'Non-human corporation' bill submitted to Congress and 'Super RIGI' AI-investment incentive regime approved by the Chamber of Deputies, both in mid-2026",
+    "governmentInvolvement": "Minimal on binding AI rules; substantial on investment incentives, proposed new corporate forms for AI-operated firms, and a state-led push for AI data-center infrastructure",
+    "industrialStrategy": "Pursuing large-scale, reportedly nuclear-powered AI data-center investment in Patagonia under the expanded 'Super RIGI' regime, which offers reduced corporate tax rates for investments above roughly $1 billion",
+    "internationalPartnerships": "President Milei has used international media (a Financial Times op-ed) and direct outreach to pitch Buenos Aires as a global AI-investment hub",
+    "primaryPolicyFocus": "Attracting AI infrastructure investment and creating new AI-friendly legal/corporate structures rather than regulating AI risk"
+  },
+  "currentDirection": {
+    "trend": "loosening",
+    "summary": "Argentina's 2026 trajectory has moved further toward deregulation rather than toward a binding AI framework. The government advanced a bill to allow AI-operated 'non-human corporations,' pushed the expanded 'Super RIGI' investment regime targeting AI data centers through the Chamber of Deputies, and has repeatedly stated that avoiding AI-specific regulation is itself the policy. The AAIP's existing voluntary, data-protection-oriented guidance from 2023–2024 remains the closest thing to formal AI governance, and there is no indication as of mid-2026 that a binding AI law is being seriously considered."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Presidential chief advisor Demian Reidel publicly argues that Argentina should pursue an AI-hub strategy 'without regulations,' saying new rules would deter investment.",
+      "date": "2025-04-24",
+      "sourceIds": ["ar-7"]
+    },
+    {
+      "text": "Reidel and Secretary of Innovation Darío Genua detail a plan reportedly involving 5–6 nuclear-powered AI data centers in Patagonia intended to make Argentina a 'fourth global AI hub'; specific scale and investor details rest on a single outlet's reporting and have not been independently cross-confirmed.",
+      "date": "2026-07",
+      "sourceIds": ["ar-20"],
+      "needsVerification": true
+    },
+    {
+      "text": "Dispute between Globant and the AGC tech-workers' union sharpens after Globant's CEO acknowledges AI is transforming the sector, while the union argues the company's internal retraining plan is insufficient and calls for industry-wide, collectively bargained commitments.",
+      "date": "2026-04-13",
+      "sourceIds": ["ar-13"]
+    },
+    {
+      "text": "Milei government submits a bill enabling 'non-human corporations' — companies operated by AI agents or robots, with optional human shareholders but a legally required, liable human administrator — rewriting the General Companies Act that has governed Argentine business since 1972.",
+      "date": "2026-05-29",
+      "sourceIds": ["ar-2", "ar-4"],
+      "severity": "major"
+    },
+    {
+      "text": "President Milei publishes a Financial Times op-ed outlining a three-pillar strategy — no AI regulation, the new non-human corporate form, and low corporate taxes — to position Argentina as a global AI-investment destination.",
+      "date": "2026-06-03",
+      "sourceIds": ["ar-1"]
+    },
+    {
+      "text": "Historian Yuval Noah Harari publishes a rebuttal in the Financial Times warning that AI-run corporations without human accountability could enable systemic abuse.",
+      "date": "2026-06-07",
+      "sourceIds": ["ar-1"]
+    },
+    {
+      "text": "Chamber of Deputies approves the expanded 'Super RIGI' large-investment incentive regime, targeting AI data centers, semiconductors and other strategic sectors with a minimum $1 billion investment threshold and a reduced 15% corporate tax rate; bill proceeds to the Senate.",
+      "date": "2026-06-25",
+      "sourceIds": ["ar-5", "ar-6"],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Provision 2/2023 (Jefatura de Gabinete de Ministros) — AI ethical principles",
+      "status": "in_force",
+      "summary": "Non-binding provision setting out ethical principles for AI — human oversight, accountability and transparency across the AI lifecycle.",
+      "officialUrl": "https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-2-2023-384656/texto",
+      "sourceIds": ["ar-18"]
+    },
+    {
+      "title": "AAIP Resolution 161/2023 — National Program for Transparency and Personal Data Protection in AI",
+      "status": "in_force",
+      "summary": "Created by the Agencia de Acceso a la Información Pública (AAIP), Argentina's data-protection authority; elaborated through a 2024 Guide for Public and Private Entities on transparency and data protection for responsible AI.",
+      "sourceIds": ["ar-9", "ar-10"]
+    },
+    {
+      "title": "'Non-human corporation' bill (reform to the General Companies Act)",
+      "status": "proposed",
+      "summary": "Would create a corporate form that can be operated entirely by AI agents or robots, with human shareholders optional; still requires a human administrator who bears legal liability for the company's actions. Submitted to Congress May 29, 2026.",
+      "sourceIds": ["ar-2", "ar-4"]
+    },
+    {
+      "title": "'Super RIGI' (expanded Régimen de Incentivo para Grandes Inversiones)",
+      "status": "passed",
+      "summary": "Approved by the Chamber of Deputies on June 25, 2026 and pending Senate debate; offers reduced corporate tax (15%), accelerated depreciation and zero export duties for projects above roughly $1 billion, explicitly targeting AI data centers, semiconductors and energy infrastructure.",
+      "sourceIds": ["ar-5", "ar-6"]
+    },
+    {
+      "title": "Observatorio Federal sobre Inteligencia Artificial (OFIA) bill",
+      "status": "proposed",
+      "summary": "Proposed body within the Executive Branch to provide public information supporting AI-related public policy design, analyze ethical dimensions and risks, and promote research and inclusive AI development; not yet enacted.",
+      "sourceIds": ["ar-19"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Argentine AI research is concentrated at CONICET-affiliated institutes, notably the Instituto de Investigación en Ciencias de la Computación (ICC), a joint CONICET–Universidad de Buenos Aires institute directed by Sebastián Uchitel, whose Laboratorio de Inteligencia Artificial Aplicada (LIAA) works on applied AI including medical-image analysis and early dementia detection in collaboration with the Fleni institute. Public-policy-facing AI research is led by think tanks such as CIPPEC, which has published guidance for AI use in the public sector and mapped AI adoption across Argentine provinces.",
+    "sourceIds": ["ar-12"]
+  },
+  "companies": [
+    {
+      "name": "Globant",
+      "description": "Argentine-founded, globally listed IT-services and software company (CEO Martín Migoya) positioning itself around AI-driven software delivery; has faced public friction with the AGC tech-workers' union over AI's effect on jobs and retraining.",
+      "url": "https://www.globant.com"
+    },
+    {
+      "name": "Mercado Libre",
+      "description": "Argentina-founded e-commerce and fintech giant, widely cited as part of the broader Argentine tech ecosystem investing in AI-driven personalization, logistics and payments.",
+      "url": "https://www.mercadolibre.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Major cloud provider serving Argentine enterprise and startup AI workloads."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider with a significant presence among Argentine enterprises and government adopters of AI tools."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across Argentine research and startup AI development."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Universidad de Buenos Aires (UBA)",
+      "description": "Hosts, jointly with CONICET, the Instituto de Investigación en Ciencias de la Computación (ICC), a leading center for Argentine AI and computer-science research.",
+      "url": "https://www.uba.ar"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "CIPPEC",
+      "description": "Public-policy think tank (Centro de Implementación de Políticas Públicas para la Equidad y el Crecimiento) that has published guidance on responsible AI use in the public sector and mapped AI adoption across Argentine provincial governments.",
+      "url": "https://www.cippec.org"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Agencia de Acceso a la Información Pública (AAIP)",
+      "description": "Argentina's data-protection authority; issued Resolution 161/2023 and the 2024 guide on transparency and data protection for responsible AI.",
+      "url": "https://www.argentina.gob.ar/aaip"
+    },
+    {
+      "name": "Ministerio de Desregulación y Transformación del Estado",
+      "description": "Led by Federico Sturzenegger; driving the 'non-human corporation' bill and broader corporate-law modernization as part of Argentina's deregulatory AI stance.",
+      "needsVerification": true
+    },
+    {
+      "name": "Mesa Interministerial de Inteligencia Artificial",
+      "description": "Interministerial Working Group on AI, coordinated through the Secretaría de Asuntos Estratégicos, seeking to coordinate national AI strategy across government areas.",
+      "url": "https://www.argentina.gob.ar/noticias/encuentro-de-trabajo-de-la-mesa-interministerial-de-inteligencia-artificial"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Federico Sturzenegger",
+      "role": "Minister of Deregulation and Transformation of the State",
+      "affiliation": "Government of Argentina",
+      "category": "government"
+    },
+    {
+      "name": "Demian Reidel",
+      "role": "Chief advisor to President Milei; leading the push for nuclear-powered AI data centers in Patagonia",
+      "affiliation": "Presidency of Argentina",
+      "category": "advisor"
+    },
+    {
+      "name": "Martín Migoya",
+      "role": "Co-founder and CEO",
+      "affiliation": "Globant",
+      "category": "company_leader",
+      "url": "https://www.globant.com"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Demian Reidel",
+      "type": "person",
+      "role": "Chief presidential advisor driving Argentina's AI-hub and nuclear-powered data-center strategy.",
+      "category": "government"
+    },
+    {
+      "name": "Federico Sturzenegger",
+      "type": "person",
+      "role": "Minister leading Argentina's deregulatory AI stance and the 'non-human corporation' bill.",
+      "category": "government"
+    },
+    {
+      "name": "Martín Migoya",
+      "type": "person",
+      "role": "Globant CEO navigating AI-driven industry transformation and labor tensions.",
+      "category": "company",
+      "url": "https://www.globant.com"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Presidency of Argentina (Milei)", "type": "government" },
+    { "label": "Ministerio de Desregulación y Transformación del Estado", "type": "government" },
+    { "label": "AAIP", "type": "agency" },
+    { "label": "Globant", "type": "company" },
+    { "label": "CONICET / ICC-UBA", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI law", "note": "No AI-specific binding law exists or appears imminent; the government has explicitly framed avoiding such a law as its policy." },
+    { "area": "AI regulator", "note": "No dedicated AI regulator exists; the proposed Observatorio Federal sobre Inteligencia Artificial (OFIA) has not been enacted." },
+    { "area": "Frontier AI development", "note": "No frontier foundation-model developer is headquartered in Argentina; the ecosystem is strongest in applied AI, IT services and fintech." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether AI-run 'non-human corporations' can be safely accountable without a human owner",
+      "category": "government",
+      "summary": "Milei's proposal to let companies be operated by AI agents, with human shareholders optional, has drawn sharp international criticism over accountability.",
+      "expanded": "Historian Yuval Noah Harari and others have warned that removing human ownership from a corporate structure could let AI systems 'hack the game environment' to avoid liability, even though the draft bill retains a human administrator who bears legal responsibility for harm caused. Proponents, including Sturzenegger and Milei, frame this as a natural evolution of corporate law that could attract global AI investment to Buenos Aires; critics, including some domestic commentators, argue it risks turning Argentina into a regulatory-arbitrage destination rather than a genuine AI research hub.",
+      "sourceIds": ["ar-1", "ar-4", "ar-15"]
+    },
+    {
+      "topic": "AI-driven disruption of Argentina's large IT-services workforce and who bears responsibility for retraining",
+      "category": "industry",
+      "summary": "A public dispute between Globant and the AGC tech-workers' union highlights tension between corporate AI-retraining programs and calls for sector-wide, collectively bargained protections.",
+      "expanded": "Globant's CEO Martín Migoya has acknowledged AI's transformative effect on demand for the company's services and pointed to an internal plan to retrain over 10,000 employees into AI-related roles. The AGC union argues this is insufficient given industry-wide layoffs — citing reports of over 73,000 global tech job losses in a four-month period — and is pushing for mandatory retraining commitments embedded in collective bargaining agreements across startups, SMEs and universities, not just at large multinationals. How this tension plays out could be an early indicator of how AI-driven labor disruption is handled in a sector central to Argentina's tech exports.",
+      "sourceIds": ["ar-13", "ar-14"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Guía para el uso de IA en el sector público en Argentina",
+      "type": "think_tank",
+      "author": "CIPPEC",
+      "url": "https://www.cippec.org/publicacion/guia-para-el-uso-de-ia-en-el-sector-publico-en-argentina/"
+    },
+    {
+      "title": "Guía para entidades públicas y privadas en materia de Transparencia y Protección de Datos Personales para una IA responsable",
+      "type": "government",
+      "author": "AAIP",
+      "url": "https://www.argentina.gob.ar/noticias/guia-de-la-aaip-para-usar-la-inteligencia-artificial-de-manera-responsable"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ar-1",
+      "title": "Argentina Wants To Let AI Own Companies. Here's What That Means",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/sites/anishasircar/2026/06/10/ai-owned-companies-argentina/",
+      "date": "2026-06-10",
+      "category": "news"
+    },
+    {
+      "id": "ar-2",
+      "title": "Argentina Drafts Corporate Law That Requires No Human Boss",
+      "publisher": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/argentina-drafts-corporate-law-that-requires-no-human-boss/",
+      "date": "2026-05",
+      "category": "news"
+    },
+    {
+      "id": "ar-4",
+      "title": "Milei's proposal to allow 'non-human corporations' run by AI causes concern in Argentina",
+      "publisher": "Buenos Aires Herald",
+      "url": "https://buenosairesherald.com/business/tech/mileis-proposal-to-allow-non-human-corporations-run-by-ai-causes-concern-in-argentina",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "ar-5",
+      "title": "Mega data centers de IA: qué propone el 'Súper RIGI'",
+      "publisher": "Chequeado",
+      "url": "https://chequeado.com/el-explicador/mega-data-centers-de-ia-que-propone-el-super-rigi-y-como-otros-paises-buscan-atraer-estas-inversiones/",
+      "date": "2026-07",
+      "category": "research"
+    },
+    {
+      "id": "ar-6",
+      "title": "El 'Súper RIGI' de Argentina busca atraer inversiones de 1,000 mdd en IA, Centros de Datos y semiconductores",
+      "publisher": "DPL News",
+      "url": "https://dplnews.com/super-rigi-argentina-busca-atraer-inversiones-1000-mdd-en-ia-centros-de-datos-y-semiconductores/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "ar-7",
+      "title": "Demian Reidel y su deseo de convertir a la Argentina en un polo de IA",
+      "publisher": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/IA/demian-reidel-y-su-deseo-de-convertir-a-la-argentina-en-un-polo-de-ia-no-vamos-a-ser-lideres-si-nid24042025/",
+      "date": "2025-04-24",
+      "category": "news"
+    },
+    {
+      "id": "ar-9",
+      "title": "La Autoridad de Protección de Datos Personales de Argentina publica su Guía para el Uso Responsable de la IA",
+      "publisher": "IAPP",
+      "url": "https://iapp.org/news/a/la-autoridad-de-protecci-n-de-datos-personales-de-argentina-publica-su-gu-a-para-el-uso-responsable-de-la-inteligencia-artificial",
+      "date": "2024-09",
+      "category": "news"
+    },
+    {
+      "id": "ar-10",
+      "title": "Guía de la AAIP para usar la Inteligencia Artificial de manera responsable",
+      "publisher": "Argentina.gob.ar",
+      "url": "https://www.argentina.gob.ar/noticias/guia-de-la-aaip-para-usar-la-inteligencia-artificial-de-manera-responsable",
+      "date": "2024-09",
+      "category": "government"
+    },
+    {
+      "id": "ar-12",
+      "title": "Guía para el uso de IA en el sector público en Argentina",
+      "publisher": "CIPPEC",
+      "url": "https://www.cippec.org/publicacion/guia-para-el-uso-de-ia-en-el-sector-publico-en-argentina/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ar-13",
+      "title": "¿Globant admite que AGC tenía razón sobre la IA?",
+      "publisher": "informaticos.ar",
+      "url": "https://informaticos.ar/ia-globant-migoya-admite-que-sindicato-tenia-razon/",
+      "date": "2026-04-13",
+      "category": "news"
+    },
+    {
+      "id": "ar-14",
+      "title": "Migoya afirma que 'Globant fue construida para este momento' y las acciones se disparan",
+      "publisher": "Bloomberg Línea",
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/migoya-afirma-que-globant-fue-construida-para-este-momento-y-las-acciones-se-disparan/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ar-15",
+      "title": "'Sociedades de inteligencia artificial': la inédita apuesta de Federico Sturzenegger",
+      "publisher": "iProfesional",
+      "url": "https://www.iprofesional.com/economia/453561-sociedades-de-inteligencia-artificial-inedita-apuesta-de-federico-sturzenegger",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ar-18",
+      "title": "Disposición 2/2023 — Jefatura de Gabinete de Ministros",
+      "publisher": "Argentina.gob.ar (Boletín Oficial)",
+      "url": "https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-2-2023-384656/texto",
+      "date": "2023",
+      "category": "government"
+    },
+    {
+      "id": "ar-19",
+      "title": "Argentina — State AI Legislation Summary",
+      "publisher": "Regulations.ai",
+      "url": "https://regulations.ai/regulations/RAI-AR-ST-SUMMARY-2026",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ar-20",
+      "title": "Así es el ambicioso programa de Milei que creará 6 centros de Inteligencia Artificial en Argentina",
+      "publisher": "La Vanguardia (Diario)",
+      "url": "https://www.diariolavanguardia.com/tecnologia/18193-asi-es-el-ambicioso-programa-de-milei-que-creara-6-centros-de-inteligencia-artificial-en-argentina/",
+      "date": "2026-07",
+      "category": "news"
+    }
+  ]
+}

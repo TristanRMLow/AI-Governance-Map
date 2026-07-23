@@ -1,0 +1,441 @@
+{
+  "code": "ph",
+  "name": "Philippines",
+  "shortName": "Philippines",
+  "flagEmoji": "🇵🇭",
+  "geometryType": "polygon",
+  "isoA3": ["PHL"],
+  "region": "Southeast Asia",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "A national AI strategy and sectoral privacy guidance, with binding AI-specific legislation still pending in Congress",
+  "accentColor": { "light": "#548344", "dark": "#74AE61" },
+  "center": [122.0, 12.5],
+  "zoom": 4.3,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "BPO jobs versus AI-driven automation",
+    "Deepfakes and disinformation in Philippine politics",
+    "Enabling versus restricting framing of pending AI legislation"
+  ],
+  "overview": "The Philippines does not yet have a binding AI-specific law, though momentum has built over 2025-2026. President Ferdinand Marcos Jr. approved a National AI Strategy for the Philippines (NAIS-PH) around May 20, 2025, superseding an earlier National AI Strategy Roadmap; reporting on its exact pillar structure is inconsistent (some sources describe three pillars covering workforce, infrastructure and governance, others describe five), but it broadly spans infrastructure, workforce development, innovation, data governance and deployment across sectors including agriculture, education, smart cities and national security. The Department of Science and Technology (DOST) launched the National Artificial Intelligence Center for Research and Innovation (NAICRI) on February 26, 2026, to anchor implementation, consolidating AI research, computing infrastructure and capacity-building under one institution led by DOST Secretary Renato U. Solidum.\n\nSeveral AI-related bills remain pending in the 20th Congress as of mid-2026 without having been enacted, including House Bill 2827 (the \"Artificial Intelligence Development and Regulation Act,\" which reportedly gained stakeholder momentum in July 2026), Senate Bill 25 (the \"Artificial Intelligence Regulation Act,\" which would create a National AI Commission), several competing bills to establish a Philippine Council on AI (PCAI), and separate deepfake-focused bills (Senate Bill 758 and House Bill 10567). In the meantime, the National Privacy Commission issued Advisory No. 2024-04 in December 2024 giving guidance on how the existing Data Privacy Act applies to AI systems that process personal data — currently one of the few concrete regulatory instruments touching AI use in the country.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "National strategy approved, binding legislation still pending",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "A national strategy (NAIS-PH) plus sectoral privacy guidance from the National Privacy Commission; several AI-specific bills remain pending in Congress without enactment",
+    "latestMajorUpdate": "DICT and Google Cloud announce a multi-year AI and cybersecurity partnership including a Gemini Enterprise rollout for public servants (June 2026); NAICRI launched by DOST (February 2026)",
+    "governmentInvolvement": "Active on strategy and infrastructure partnerships (DOST's NAICRI, DICT's Google Cloud partnership), though no binding AI-specific statute has yet passed Congress",
+    "industrialStrategy": "NAIS-PH's five-year (2024-2028) roadmap plus DOST's NAICRI computing-infrastructure buildout, alongside private-sector moves such as ePLDT's \"Pilipinas AI\" sovereign AI stack",
+    "internationalPartnerships": "DICT's multi-year partnership with Google Cloud on AI and cybersecurity (announced June 2026), alongside earlier academic partnerships such as De La Salle University's collaboration with Alibaba Cloud",
+    "primaryPolicyFocus": "Passing binding AI legislation (HB 2827 and related bills) and implementing NAICRI's national AI computing infrastructure appear to be near-term priorities based on recent government activity"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "The Philippines has moved from a strategy-only approach toward active legislative deliberation, with House Bill 2827 reportedly gaining stakeholder momentum in mid-2026 alongside several competing AI-governance bills. However, as of July 2026 no AI-specific statute has been enacted, so the practical regulatory landscape still rests on the National Privacy Commission's 2024 AI-specific privacy guidance and non-binding ethics guidance for government use of AI."
+  },
+  "recentDevelopments": [
+    {
+      "text": "President Marcos Jr. approves the National AI Strategy for the Philippines (NAIS-PH), a five-year (2024-2028) roadmap spanning infrastructure, workforce, governance and sector-specific deployment; reporting on its exact pillar structure varies across sources.",
+      "date": "2025-05-20",
+      "sourceIds": ["ph-1"],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "National Privacy Commission issues Advisory No. 2024-04, \"Guidelines on the Application of the Data Privacy Act to AI Systems Processing Personal Data,\" covering training, testing and deployment phases.",
+      "date": "2024-12-19",
+      "sourceIds": ["ph-2"]
+    },
+    {
+      "text": "ePLDT launches \"Pilipinas AI\" with Dell Technologies and Katonic AI, described as the Philippines' first sovereign AI solutions stack, hosted at a new 50MW AI-ready hyperscale data center in Sta. Rosa, Laguna.",
+      "date": "2025-09-29",
+      "sourceIds": ["ph-3"]
+    },
+    {
+      "text": "DOST formally launches the National Artificial Intelligence Center for Research and Innovation (NAICRI), consolidating national AI computing infrastructure, research capability, governance coordination and regional innovation programs.",
+      "date": "2026-02-26",
+      "sourceIds": ["ph-4"],
+      "severity": "major"
+    },
+    {
+      "text": "DICT and Google Cloud announce a multi-year AI and cybersecurity partnership, including a Gemini Enterprise rollout targeting 200,000 public servants within 18 months and expansion of the Cybershield cyber-defense alliance to roughly 90 government agencies.",
+      "date": "2026-06-21",
+      "sourceIds": ["ph-5"],
+      "severity": "major"
+    },
+    {
+      "text": "House Bill 2827, the \"Artificial Intelligence Development and Regulation Act,\" reportedly gains momentum in Congress, with around 60 stakeholders from government, industry, academia and civil society convening for deliberations.",
+      "date": "2026-07-14",
+      "sourceIds": ["ph-6"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Data Privacy Act of 2012 (Republic Act No. 10173)",
+      "status": "in_force",
+      "summary": "The Philippines' general data protection law, serving as the baseline legal framework referenced for AI systems that process personal data, enforced by the National Privacy Commission.",
+      "sourceIds": ["ph-2"]
+    },
+    {
+      "title": "NPC Advisory No. 2024-04 (AI and the Data Privacy Act)",
+      "status": "in_force",
+      "summary": "Guidance from the National Privacy Commission on applying the Data Privacy Act to AI systems, covering lawful basis for processing, privacy-enhancing technology requirements and data-subject rights across the AI lifecycle.",
+      "officialUrl": "https://privacy.gov.ph/wp-content/uploads/2024/01/Advisory-Opinion-No.-2024-002.pdf",
+      "sourceIds": ["ph-2"]
+    },
+    {
+      "title": "National AI Strategy for the Philippines (NAIS-PH)",
+      "status": "in_force",
+      "summary": "A five-year (2024-2028) national strategy approved by President Marcos Jr. in May 2025, spanning infrastructure, workforce development, innovation, data governance and sector-specific deployment; a non-binding strategic document rather than legislation.",
+      "sourceIds": ["ph-1"],
+      "needsVerification": true
+    },
+    {
+      "title": "Draft Joint Memorandum Circular on Ethical and Trustworthy Use of AI in Government",
+      "status": "proposed",
+      "summary": "A draft circular from DICT and the Civil Service Commission (dated April 2024) encouraging government institutions to adopt non-binding AI ethics principles; not confirmed as finalized.",
+      "sourceIds": ["ph-7"],
+      "needsVerification": true
+    },
+    {
+      "title": "Artificial Intelligence Development and Regulation Act (House Bill 2827)",
+      "status": "proposed",
+      "summary": "A pending bill in the 20th Congress that emphasizes enabling AI adoption (compute-access funding, SME and school adoption support) while reserving stricter rules for high-risk applications such as lending, employment and health decisions; includes a proposed \"AI Bill of Rights.\"",
+      "sourceIds": ["ph-6", "ph-8"]
+    },
+    {
+      "title": "Artificial Intelligence Regulation Act (Senate Bill 25)",
+      "status": "proposed",
+      "summary": "A pending Senate bill (filed July 2025) that would establish a National AI Commission; referred to committee after first reading with no further confirmed progress as of mid-2026.",
+      "sourceIds": ["ph-8"]
+    },
+    {
+      "title": "Philippine Council on AI (PCAI) bills",
+      "status": "proposed",
+      "summary": "Several competing bills (including Senate Bill 852 and multiple House bills) that would establish a DICT-attached advisory body to evaluate AI's economic impact and set a governance framework based on guiding principles.",
+      "sourceIds": ["ph-8"]
+    },
+    {
+      "title": "Deepfake Regulation and Digital Identity Protection Act (Senate Bill 758)",
+      "status": "proposed",
+      "summary": "A bill introduced by Sen. Bam Aquino in August 2025 that would give individuals legal control over use of their image, voice and identity in AI-generated deepfakes.",
+      "sourceIds": ["ph-8"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "AI research capacity is being consolidated nationally through DOST's NAICRI, launched in February 2026 with pillars covering computing infrastructure, talent development, governance coordination, and regional/inclusive innovation. At the university level, Ateneo de Manila's ALIVE machine learning lab opened to industry partners in March 2026 and Ateneo-affiliated students placed among the top three nations at an AI Olympiad in June 2026, while De La Salle University's College of Computer Studies has partnered with Alibaba Cloud on AI and cloud-computing education.",
+    "sourceIds": ["ph-4", "ph-9", "ph-10"]
+  },
+  "companies": [
+    {
+      "name": "ePLDT",
+      "description": "PLDT's ICT subsidiary; launched \"Pilipinas AI\" with Dell Technologies and Katonic AI in September 2025, described as the country's first sovereign AI solutions stack, hosted at a new 50MW hyperscale AI-ready data center in Sta. Rosa, Laguna.",
+      "url": "https://www.epldt.com"
+    },
+    {
+      "name": "PLDT",
+      "description": "Telecommunications group expanding AI use across network operations, customer experience and workforce tools, including GPU-as-a-service offerings through ePLDT.",
+      "url": "https://www.pldt.com"
+    },
+    {
+      "name": "Globe Telecom",
+      "description": "Telecommunications operator expanding data-center joint-venture capacity toward more than 30MW to support AI workloads.",
+      "url": "https://www.globe.com.ph"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Google Cloud",
+        "description": "Partnered with DICT in June 2026 on a multi-year AI and cybersecurity initiative, including a Gemini Enterprise rollout across public-sector agencies."
+      },
+      {
+        "name": "AWS",
+        "description": "Major cloud provider serving Philippine enterprise and BPO-sector workloads."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider active in Philippine enterprise and government workloads."
+      },
+      {
+        "name": "ePLDT / Pilipinas AI",
+        "description": "Domestic sovereign AI infrastructure stack launched with Dell Technologies and Katonic AI, hosted at a new hyperscale data center in Sta. Rosa, Laguna."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Ateneo de Manila University",
+      "description": "Operates the ALIVE machine learning lab, opened to industry partners and collaborators in March 2026; Ateneo-affiliated students placed among the top three nations at an AI Olympiad in June 2026.",
+      "url": "https://www.ateneo.edu"
+    },
+    {
+      "name": "De La Salle University (DLSU)",
+      "description": "College of Computer Studies partnered with Alibaba Cloud to strengthen AI and cloud-computing education.",
+      "url": "https://www.dlsu.edu.ph"
+    },
+    {
+      "name": "University of the Philippines (UP)",
+      "description": "Named in some reporting as part of an advisory board tied to national AI research coordination efforts; this specific role was not independently confirmed against a primary source.",
+      "url": "https://up.edu.ph",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Foundation for Media Alternatives (FMA)",
+      "description": "Digital-rights organization publishing analysis on AI governance and disinformation in the Philippines, including tracking of AI-related bills before the 20th Congress.",
+      "url": "https://fma.ph"
+    },
+    {
+      "name": "Stratbase ADR Institute",
+      "description": "Broader strategic-studies think tank whose policy research occasionally touches on technology and AI issues, alongside its wider foreign-policy and economic focus.",
+      "url": "https://stratbase.ph"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Department of Information and Communications Technology (DICT)",
+      "description": "Lead digital-policy department; led by Secretary Henry Rhoel Aguda, and announced a multi-year AI and cybersecurity partnership with Google Cloud in June 2026.",
+      "url": "https://dict.gov.ph"
+    },
+    {
+      "name": "Department of Science and Technology (DOST)",
+      "description": "Leads the National AI Strategy's implementation and operates the National Artificial Intelligence Center for Research and Innovation (NAICRI), launched February 2026 under Secretary Renato U. Solidum.",
+      "url": "https://www.dost.gov.ph"
+    },
+    {
+      "name": "National Privacy Commission (NPC)",
+      "description": "Data-protection regulator that issued Advisory No. 2024-04 on applying the Data Privacy Act to AI systems processing personal data; chaired by Privacy Commissioner Atty. Johann Carlos S. Barcena.",
+      "url": "https://privacy.gov.ph"
+    },
+    {
+      "name": "Cybercrime Investigation and Coordinating Center (CICC)",
+      "description": "DICT-attached body that warned of a potential surge in AI-generated deepfakes ahead of the 2025 midterm elections.",
+      "url": "https://cicc.gov.ph"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Henry Rhoel Aguda",
+      "role": "Secretary",
+      "affiliation": "Department of Information and Communications Technology (DICT)",
+      "category": "government",
+      "url": "https://dict.gov.ph"
+    },
+    {
+      "name": "Renato U. Solidum",
+      "role": "Secretary",
+      "affiliation": "Department of Science and Technology (DOST)",
+      "category": "government",
+      "url": "https://www.dost.gov.ph"
+    },
+    {
+      "name": "Jack Madrid",
+      "role": "President",
+      "affiliation": "IT and Business Process Association Philippines (IBPAP)",
+      "category": "company_leader",
+      "url": "https://ibpap.org"
+    }
+  ],
+  "influenceMap": [
+    { "label": "DICT", "type": "government" },
+    { "label": "DOST / NAICRI", "type": "agency" },
+    { "label": "ePLDT / PLDT", "type": "company" },
+    { "label": "IBPAP", "type": "think_tank" }
+  ],
+  "notableGaps": [
+    {
+      "area": "Binding AI-specific law",
+      "note": "As of mid-2026, no AI-specific statute has been enacted; House Bill 2827, Senate Bill 25, the various PCAI bills, and the deepfake bills all remain pending in the 20th Congress."
+    },
+    {
+      "area": "Frontier model developers",
+      "note": "No frontier-scale foundation-model developer is headquartered in the Philippines; domestic AI activity is concentrated in applied infrastructure (e.g. ePLDT's Pilipinas AI) and public-sector deployment rather than model development."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "BPO jobs versus AI-driven automation",
+      "category": "industry",
+      "summary": "The Philippines' large business process outsourcing sector faces disruption concerns from generative AI, prompting industry-funded upskilling even as reported headcount and revenue figures for 2026 remain comparatively resilient.",
+      "expanded": "The IT and Business Process Association Philippines (IBPAP) has downgraded its longer-term growth targets — from an original $59B revenue goal for 2028 set in 2022 to a revised $43.3-50.5B range — while committing roughly $25M per year to AI upskilling programs. One study estimated around 53,000 BPO positions at risk from AI, and broader IMF analysis has suggested up to a third of Philippine jobs could be exposed to AI-driven automation, though near-term 2026 industry revenue and employment figures reported by IBPAP have not shown a sharp contraction. Government responses include DICT and TESDA's Project UNLAD (a roughly ₱740M reskilling initiative) and PEZA's AI Tech Academy launched in Cebu in January 2026.",
+      "sourceIds": ["ph-11", "ph-12"]
+    },
+    {
+      "topic": "Deepfakes and disinformation in Philippine politics",
+      "category": "government",
+      "summary": "AI-generated deepfakes have become a recurring concern in Philippine political discourse, including a viral fabricated audio clip purporting to show President Marcos Jr. ordering a military strike.",
+      "expanded": "Ahead of the 2025 midterm elections, the Cybercrime Investigation and Coordinating Center anticipated a significant volume of daily deepfake-related incidents, and Commission on Elections chair George Garcia pushed for restrictions on AI-generated election content. Beyond the fabricated Marcos audio clip, a fake television newscast referencing the 2028 elections also circulated. Multiple bills — including the Deepfake Regulation and Digital Identity Protection Act (Senate Bill 758) and the Deepfake Accountability and Transparency Act (House Bill 10567) — remain pending as legislative responses; some widely cited statistics on deepfake growth rates in the Philippines rely on a single source and should be treated with caution.",
+      "sourceIds": ["ph-13", "ph-14"]
+    },
+    {
+      "topic": "Enabling versus restricting framing of pending AI legislation",
+      "category": "government",
+      "summary": "House Bill 2827 is notable for devoting more provisions to enabling AI adoption than to restricting it, reserving stricter rules for high-risk use cases — a live legislative-design choice as the Philippines decides its regulatory posture.",
+      "expanded": "Unlike some regional peers moving toward more comprehensive binding AI statutes, HB 2827's drafters have emphasized funding for compute access and school/SME adoption support alongside a proposed \"AI Bill of Rights,\" applying stricter obligations mainly to high-risk domains such as lending, employment and health decisions. Whether this enablement-first approach will hold as the bill moves through further committee stages, or whether competing bills favoring a dedicated AI commission gain more traction, remains unresolved as of mid-2026.",
+      "sourceIds": ["ph-6", "ph-8"]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Henry Rhoel Aguda",
+      "type": "person",
+      "role": "DICT Secretary; leading the department's AI and cybersecurity partnerships, including the June 2026 Google Cloud agreement.",
+      "category": "government",
+      "url": "https://dict.gov.ph"
+    },
+    {
+      "name": "Foundation for Media Alternatives (FMA)",
+      "type": "organization",
+      "role": "Publishes ongoing analysis tracking AI-related bills and disinformation risks in the Philippines.",
+      "category": "think_tank",
+      "url": "https://fma.ph"
+    },
+    {
+      "name": "IBPAP",
+      "type": "organization",
+      "role": "Industry association representing the BPO sector's response to AI-driven disruption and upskilling programs.",
+      "category": "company",
+      "url": "https://ibpap.org"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Regulating Risk: The 20th Congress of the Philippines' Response to Artificial Intelligence",
+      "type": "think_tank",
+      "author": "Foundation for Media Alternatives",
+      "url": "https://fma.ph/regulating-risk-the-20th-congress-of-the-philippines-response-to-artificial-intelligence/"
+    },
+    {
+      "title": "The Philippine Council on Artificial Intelligence, explained",
+      "type": "academic",
+      "author": "Rappler",
+      "url": "https://www.rappler.com/technology/features/philippine-council-artificial-intelligence-advisory-body/"
+    },
+    {
+      "title": "Tempering the Philippines' AI disinformation storm",
+      "type": "think_tank",
+      "author": "East Asia Forum",
+      "url": "https://eastasiaforum.org/2024/10/16/tempering-the-philippines-ai-disinformation-storm/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ph-1",
+      "title": "Marcos Jr. approves National AI Strategy to position PH as regional AI leader",
+      "publisher": "Newsbytes.PH",
+      "url": "https://newsbytes.ph/2025/05/23/marcos-jr-approves-national-ai-strategy-to-position-ph-as-regional-ai-leader/",
+      "date": "2025-05-23",
+      "category": "news"
+    },
+    {
+      "id": "ph-2",
+      "title": "Guidelines on the Application of the Data Privacy Act to AI Systems Processing Personal Data (Advisory No. 2024-04)",
+      "publisher": "National Privacy Commission",
+      "url": "https://privacy.gov.ph/wp-content/uploads/2024/01/Advisory-Opinion-No.-2024-002.pdf",
+      "date": "2024-12-19",
+      "category": "government"
+    },
+    {
+      "id": "ph-3",
+      "title": "ePLDT launches Pilipinas AI, first locally hosted AI platform",
+      "publisher": "BusinessWorld",
+      "url": "https://www.bworldonline.com/corporate/2025/09/30/701745/epldt-launches-pilipinas-ai-first-locally-hosted-ai-platform/",
+      "date": "2025-09-30",
+      "category": "news"
+    },
+    {
+      "id": "ph-4",
+      "title": "DOST activates NAICRI to anchor PH National AI Strategy",
+      "publisher": "Newsbytes.PH",
+      "url": "https://newsbytes.ph/2026/02/26/dost-activates-naicri-to-anchor-ph-national-ai-strategy/",
+      "date": "2026-02-26",
+      "category": "government"
+    },
+    {
+      "id": "ph-5",
+      "title": "DICT and Google Cloud partner on multi-year AI and cybersecurity initiatives",
+      "publisher": "Google Cloud Press Corner",
+      "url": "https://www.googlecloudpresscorner.com/2026-06-21-DICT-and-Google-Cloud-Partner-on-Multi-Year-AI-and-Cybersecurity-Initiatives-to-Deliver-Next-Generation-Citizen-Services",
+      "date": "2026-06-21",
+      "category": "industry"
+    },
+    {
+      "id": "ph-6",
+      "title": "Proposed AI bill gains momentum in Congress",
+      "publisher": "Philstar",
+      "url": "https://www.philstar.com/business/technology/2026/07/14/2542095/proposed-ai-bill-gains-momentum-congress",
+      "date": "2026-07-14",
+      "category": "news"
+    },
+    {
+      "id": "ph-7",
+      "title": "Draft Joint Memorandum Circular on the Principles for an Ethical and Trustworthy Use of AI in Government",
+      "publisher": "DICT",
+      "url": "https://ictstatistics.dict.gov.ph/wp-content/uploads/2024/05/DRAFT-COPY_JMC-on-the-Principles-for-an-Ethical-and-Trustworthy-Use-of-Artificial-Intelligence-AI-in-Government.pdf",
+      "date": "2024-04-18",
+      "category": "government"
+    },
+    {
+      "id": "ph-8",
+      "title": "Artificial intelligence bills before the 20th Congress",
+      "publisher": "Rappler",
+      "url": "https://www.rappler.com/technology/features/artificial-intelligence-bills-20th-congress-philippines/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ph-9",
+      "title": "Ateneo machine learning lab opens doors to industry partners and collaborators",
+      "publisher": "Ateneo de Manila University",
+      "url": "https://www.ateneo.edu/news/2026/03/ateneo-machine-learning-lab-opens-doors-industry-partners-collaborators",
+      "date": "2026-03",
+      "category": "research"
+    },
+    {
+      "id": "ph-10",
+      "title": "Alibaba Cloud and De La Salle University collaborate to strengthen AI and cloud computing education in the Philippines",
+      "publisher": "Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/blog/alibaba-cloud-and-de-la-salle-university-collaborate-to-strengthen-ai-and-cloud-computing-education-in-the-philippines_602277",
+      "date": "2025",
+      "category": "industry"
+    },
+    {
+      "id": "ph-11",
+      "title": "Philippine BPOs slash growth goals on AI shift",
+      "publisher": "Philippine Daily Inquirer",
+      "url": "https://business.inquirer.net/600460/philippine-bpos-slash-growth-goals-on-ai-shift",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ph-12",
+      "title": "BPOs commit $25M a year to AI upskilling",
+      "publisher": "Outsource Accelerator",
+      "url": "https://news.outsourceaccelerator.com/bpos-25mn-upskilling/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ph-13",
+      "title": "Generative AI and the Philippine 2025 elections",
+      "publisher": "WITNESS",
+      "url": "https://blog.witness.org/2025/05/generative-ai-philippine-elections2025/",
+      "date": "2025-05",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "ph-14",
+      "title": "Analysts warn vs. AI deepfakes in 2025 polls",
+      "publisher": "Philippine Daily Inquirer",
+      "url": "https://newsinfo.inquirer.net/1949706/analysts-warn-vs-ai-deepfakes-in-2025-polls",
+      "date": "2025",
+      "category": "news"
+    }
+  ]
+}

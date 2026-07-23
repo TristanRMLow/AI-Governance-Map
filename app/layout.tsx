@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "AI Governance World Map",
   description:
     "An interactive map of global AI policy, security, and governance developments.",
+  alternates: {
+    types: {
+      "application/rss+xml": "/feed.xml",
+    },
+  },
 };
 
 export default function RootLayout({

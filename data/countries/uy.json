@@ -1,0 +1,210 @@
+{
+  "code": "uy",
+  "name": "Uruguay",
+  "shortName": "Uruguay",
+  "flagEmoji": "🇺🇾",
+  "geometryType": "polygon",
+  "isoA3": ["URY"],
+  "region": "Americas",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Non-binding national AI strategy and ethics guidance led by the digital-government agency AGESIC, with no binding AI-specific law",
+  "accentColor": { "light": "#834482", "dark": "#AE61AC" },
+  "center": [-56.0, -32.8],
+  "zoom": 6.3,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": false,
+  "debateTopics": [
+    "Governance credibility questions at AGESIC amid a leadership crisis, just as Uruguay positions itself as a regional AI-ethics leader",
+    "Whether Uruguay's small, renewable-heavy grid can sustain its ambition to become a regional AI data-center hub"
+  ],
+  "overview": "Uruguay has no AI-specific binding law. Its approach runs through AGESIC (Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento), the digital-government agency that coordinates the National Artificial Intelligence Strategy 2024–2030, approved November 21, 2024 by the Comité Estratégico Nacional de IA y Datos under the legal basis of Article 74 of Law 20.212. The strategy sets non-binding principles — purpose, general interest, human-rights respect, transparency, accountability, ethics, privacy by design, and security — with a mid-term review built into its 2024–2030 horizon. Uruguay has also positioned itself regionally: AGESIC, UNESCO and CAF co-hosted the Second Ministerial Summit on AI Ethics in Latin America and the Caribbean in Montevideo in October 2024, producing the Declaración de Montevideo and a regional ethical-AI roadmap, and Uruguay subsequently launched the region's first national Business Council for AI Ethics.\n\nThat regional-leadership narrative has been complicated by an internal governance episode at AGESIC itself: executive director Daniel Mordecki resigned in December 2025 after conflict with the Director General of the Presidency, Diego Pastorín, and Mordecki subsequently filed a complaint alleging irregular hiring and conflicts of interest among presidential advisors. Cristina Zubillaga was named the new executive director in early 2026 — notably, Mordecki's own complaint had named Zubillaga as one of the advisors he alleged had a conflict of interest (via her ties to the GovTech.uy foundation, which has an agreement with the Domus Global business group), so her subsequent appointment to lead the agency sits in some tension with the allegations that prompted his complaint in the first place. Separately, Uruguay's near-100%-renewable electricity grid has drawn hyperscaler investment — Google confirmed an over $850 million data center in Canelones in 2024, and Microsoft opened its first South American 'AI for Good Lab' in Uruguay in March 2026 — while the state telecom Antel has also begun investing in domestic AI-oriented data-center capacity. Uruguay's education system, through Plan Ceibal, has integrated AI tools (including an EduIA regional laboratory) at a notably large scale for a country of under 3.5 million people.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Non-binding national AI strategy, active regional ethics leadership",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Principle-based, non-binding National AI Strategy 2024–2030 coordinated by AGESIC; no AI-specific law",
+    "latestMajorUpdate": "Microsoft opens its first South American 'AI for Good Lab' in Uruguay, at LATU's Innovation Park (March 2026)",
+    "governmentInvolvement": "AGESIC coordinates AI strategy government-wide via the Comité Estratégico Nacional de IA y Datos, though the agency's own leadership crisis in late 2025/early 2026 raised internal governance questions",
+    "industrialStrategy": "Renewable-energy-driven push to attract AI data-center investment (Google, Antel), alongside AGESIC-led public-sector AI adoption and Plan Ceibal's education-focused AI programs",
+    "internationalPartnerships": "Co-host with UNESCO and CAF of the Second Ministerial Summit on AI Ethics in Latin America and the Caribbean (2024) and the resulting Declaración de Montevideo; Microsoft's regional AI for Good Lab located in Uruguay",
+    "primaryPolicyFocus": "Implementing the National AI Strategy 2024–2030 and expanding AI-related data-center investment, while managing recent leadership turnover at AGESIC"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Uruguay continues to build out a non-binding, principle-based approach to AI governance centered on AGESIC and the National AI Strategy 2024–2030, with no indication of near-term movement toward a binding AI law. Recent momentum has instead come from infrastructure and diplomacy — new data-center investment from Google, Microsoft and Antel, and continued regional convening on AI ethics — even as a leadership crisis inside AGESIC itself (a director's resignation and conflict-of-interest allegations) introduced some friction into the institution most responsible for coordinating that strategy."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Uruguay's Comité Estratégico Nacional de IA y Datos approves the National Artificial Intelligence Strategy 2024–2030, coordinated by AGESIC with technical cooperation from CAF and UNESCO.",
+      "date": "2024-11-21",
+      "sourceIds": ["uy-1", "uy-2"]
+    },
+    {
+      "text": "AGESIC, UNESCO and CAF co-host the Second Ministerial Summit on AI Ethics in Latin America and the Caribbean in Montevideo, producing the Declaración de Montevideo and a regional AI-ethics roadmap for 2024–2025.",
+      "date": "2024-10-04",
+      "sourceIds": ["uy-3"]
+    },
+    {
+      "text": "Google confirms an investment of US$850 million to build a data center at the Parque de las Ciencias in Canelones, with an energy-supply agreement with state utility UTE.",
+      "date": "2024-08-30",
+      "sourceIds": ["uy-9"]
+    },
+    {
+      "text": "AGESIC executive director Daniel Mordecki resigns amid conflict with the Director General of the Presidency, Diego Pastorín, later filing a complaint alleging irregular advisor hiring and conflicts of interest.",
+      "date": "2025-12-17",
+      "sourceIds": ["uy-7"]
+    },
+    {
+      "text": "Cristina Zubillaga is named AGESIC's new executive director, succeeding Daniel Mordecki — notably, Zubillaga was herself named in Mordecki's conflict-of-interest complaint as one of the advisors hired at the Presidency's request.",
+      "date": "2026-03",
+      "sourceIds": ["uy-6", "uy-7"]
+    },
+    {
+      "text": "Microsoft and the Uruguayan government launch the 'AI for Good Lab' at LATU's Innovation Park — Microsoft's first laboratory of this kind in South America, with the Uruguayan government contributing roughly $400,000 annually alongside a matching contribution from Microsoft in computing capacity.",
+      "date": "2026-03-12",
+      "sourceIds": ["uy-11", "uy-13"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Estrategia Nacional de Inteligencia Artificial 2024–2030",
+      "status": "in_force",
+      "summary": "Non-binding national AI strategy approved November 21, 2024, coordinated by AGESIC under Article 74 of Law 20.212, setting principles (purpose, human rights, transparency, accountability, privacy by design, security) with a mid-term review.",
+      "officialUrl": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/publicaciones/estrategia-nacional-inteligencia-artificial-del-uruguay-2024-2030",
+      "sourceIds": ["uy-1", "uy-2"]
+    },
+    {
+      "title": "AI cybersecurity profile (proposed addition to Uruguay's national Cybersecurity Framework)",
+      "status": "proposed",
+      "summary": "AGESIC has been evaluating incorporation of an AI-specific profile into Uruguay's Cybersecurity Framework, aligned with the NIST AI Risk Management Framework.",
+      "sourceIds": ["uy-5"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "CICADA (Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático), based at Universidad de la República's Espacio Interdisciplinario, coordinates data-science and machine-learning research across UdelaR faculties and links academia, government and industry. Uruguay's small population and single major public university mean AI research capacity is concentrated rather than distributed, and some applied AI work also happens through Plan Ceibal's EduIA laboratory and Microsoft's AI for Good Lab at LATU.",
+    "sourceIds": ["uy-12"]
+  },
+  "companies": [
+    {
+      "name": "dLocal",
+      "description": "Montevideo-founded (2016) cross-border payments company connecting global merchants to emerging markets; Uruguay's best-known fintech unicorn, though not itself an AI model developer.",
+      "url": "https://www.dlocal.com"
+    },
+    {
+      "name": "Horizon",
+      "description": "Montevideo AI startup co-founded by Nicolás Scopesi and Nicolás López with ties to Universidad de la República's engineering community; raised a $3.5 million seed round.",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      { "name": "Google Cloud", "description": "Building a data center at the Parque de las Ciencias in Canelones, backed by an investment reported at US$850 million and an energy-supply agreement with state utility UTE." },
+      { "name": "Antel", "description": "State telecom operator investing in AI-oriented data-center capacity, including a project in Pando and a planned Montevideo facility for added capacity and redundancy.", "needsVerification": true },
+      { "name": "Microsoft Azure", "description": "Cloud provider present in Uruguay; Microsoft also operates the 'AI for Good Lab' at LATU's Innovation Park, its first such lab in South America." }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Universidad de la República (UdelaR)",
+      "description": "Uruguay's largest public university; hosts CICADA, an interdisciplinary center for data science and machine learning research linking academia, government and industry.",
+      "url": "https://cicada.uy"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "AGESIC (Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento)",
+      "description": "Digital-government agency that coordinates Uruguay's National AI Strategy 2024–2030 and AI-related cybersecurity guidance; underwent a leadership change in late 2025/early 2026 following director Daniel Mordecki's resignation amid conflict-of-interest allegations.",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/"
+    },
+    {
+      "name": "Plan Ceibal",
+      "description": "National education-technology program integrating AI tools into public schooling via its CREA platform and EduIA regional laboratory, reaching a large share of Uruguay's urban and rural public schools.",
+      "url": "https://ceibal.edu.uy"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Cristina Zubillaga",
+      "role": "Executive Director",
+      "affiliation": "AGESIC",
+      "category": "government",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "AGESIC",
+      "type": "organization",
+      "role": "Coordinates Uruguay's National AI Strategy 2024–2030 and public-sector AI governance.",
+      "category": "government",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/"
+    },
+    {
+      "name": "Plan Ceibal",
+      "type": "organization",
+      "role": "Drives large-scale AI integration into Uruguay's public education system.",
+      "category": "government",
+      "url": "https://ceibal.edu.uy"
+    }
+  ],
+  "influenceMap": [
+    { "label": "AGESIC", "type": "government" },
+    { "label": "Presidencia (Diego Pastorín)", "type": "government" },
+    { "label": "Plan Ceibal", "type": "agency" },
+    { "label": "Universidad de la República / CICADA", "type": "research" },
+    { "label": "Google / Microsoft / Antel (data centers)", "type": "company" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI law", "note": "Uruguay has no AI-specific binding law; governance runs through the non-binding National AI Strategy 2024–2030 and AGESIC guidance." },
+    { "area": "Dedicated AI regulator", "note": "No standalone AI regulatory authority exists; AGESIC coordinates strategy but does not function as a binding-rules enforcer." },
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Uruguay; the country's AI role is concentrated in data-center hosting, applied research, and public-sector adoption rather than model development." },
+    { "area": "Independent AI-policy think tanks", "note": "No dedicated AI-policy think tank was identified in available sources; policy discussion is concentrated within AGESIC, academia (CICADA), and international bodies (UNESCO, CAF)." }
+  ],
+  "debates": [
+    {
+      "topic": "Governance credibility questions at AGESIC amid a leadership crisis, just as Uruguay positions itself as a regional AI-ethics leader",
+      "category": "government",
+      "summary": "AGESIC's late-2025 leadership crisis — a director's resignation followed by conflict-of-interest allegations against presidential advisors — sits awkwardly alongside Uruguay's parallel push to be seen as a regional model for AI governance.",
+      "expanded": "Daniel Mordecki's resignation as AGESIC's executive director in December 2025, and his subsequent complaint alleging that the Director General of the Presidency, Diego Pastorín, imposed advisors with conflicts of interest (including one who allegedly participated in digital-health decisions while working for a private insurer), drew legislative scrutiny, with deputies examining the allegations in committee. This occurred at the same time Uruguay was hosting regional AI-ethics summits and touting its first national Business Council for AI Ethics, creating a visible gap between the country's external governance narrative and its internal institutional turbulence. Pastorín has denied wrongdoing and noted Mordecki himself signed the contested contracts.",
+      "sourceIds": ["uy-6", "uy-7"]
+    },
+    {
+      "topic": "Whether Uruguay's small, renewable-heavy grid can sustain its ambition to become a regional AI data-center hub",
+      "category": "infrastructure",
+      "summary": "Uruguay's near-100%-renewable electricity matrix has attracted hyperscaler data-center investment, but some analysts caution that energy availability, not appetite, will limit how many such projects the country can actually host.",
+      "expanded": "Google's Canelones data center and Microsoft's AI for Good Lab reflect real hyperscaler interest tied to Uruguay's clean-energy profile and regulatory stability. However, industry commentary (including from energy-sector figures like Bruno Gili) suggests Uruguay could realistically attract only a handful of additional large data centers before energy supply becomes a binding constraint, tempering expectations that Uruguay could become a dominant regional AI-infrastructure hub rather than a selective, high-quality one.",
+      "sourceIds": ["uy-9", "uy-10"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "National Artificial Intelligence Strategy 2024–2030",
+      "type": "government",
+      "author": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-20242030-8923"
+    },
+    {
+      "title": "Aprobación de la Declaración de Montevideo",
+      "type": "government",
+      "author": "AGESIC",
+      "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/aprobacion-declaracion-montevideo"
+    }
+  ],
+  "sources": [
+    { "id": "uy-1", "title": "Estrategia Nacional de Inteligencia Artificial del Uruguay 2024–2030", "publisher": "AGESIC", "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/publicaciones/estrategia-nacional-inteligencia-artificial-del-uruguay-2024-2030", "date": "2024-11-21", "category": "government" },
+    { "id": "uy-2", "title": "Se aprobó la Estrategia Nacional de Inteligencia Artificial 2024 – 2030", "publisher": "AGESIC", "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/se-aprobo-estrategia-nacional-inteligencia-artificial-2024-2030", "date": "2024-11-21", "category": "government" },
+    { "id": "uy-3", "title": "Cumbre Ministerial sobre IA en Montevideo destaca avances regionales y presenta informe RAM", "publisher": "UNESCO", "url": "https://www.unesco.org/es/articles/cumbre-ministerial-sobre-ia-en-montevideo-destaca-avances-regionales-y-presenta-informe-ram-de", "date": "2024-10", "category": "government" },
+    { "id": "uy-5", "title": "Ante el avance de la inteligencia artificial, Agesic revisa la ciberseguridad del Estado", "publisher": "Búsqueda", "url": "https://www.busqueda.com.uy/tecnologia/ante-el-avance-la-inteligencia-artificial-agesic-revisa-la-ciberseguridad-del-estado-n5414697", "date": "2026", "category": "news" },
+    { "id": "uy-6", "title": "Cristina Zubillaga será la nueva directora ejecutiva de Agesic tras renuncia de Mordecki", "publisher": "Montevideo.com", "url": "https://www.montevideo.com.uy/Noticias/Cristina-Zubillaga-sera-la-nueva-directora-ejecutiva-de-Agesic-tras-renuncia-de-Mordecki-uc957143", "date": "2026-03", "category": "news" },
+    { "id": "uy-7", "title": "Denuncia de exjerarca de Agesic detalla conflictos de interés en asesores contratados a pedido del director de Presidencia", "publisher": "Búsqueda", "url": "https://www.busqueda.com.uy/tecnologia/denuncia-exjerarca-agesic-detalla-conflictos-interes-asesores-contratados-pedido-del-director-presidencia-n5412940", "date": "2026", "category": "news" },
+    { "id": "uy-9", "title": "Google confirmó inversión de USD 850 millones para construir en Uruguay el segundo data center de la región", "publisher": "Infobae", "url": "https://www.infobae.com/america/america-latina/2024/08/30/google-confirmo-inversion-de-usd-850-millones-para-construir-en-uruguay-el-segundo-data-center-de-la-region/", "date": "2024-08-30", "category": "news" },
+    { "id": "uy-10", "title": "Bruno Gili: Uruguay podría atraer 'dos o tres' nuevos data centers, pero la energía condiciona proyectos de IA", "publisher": "Búsqueda", "url": "https://www.busqueda.com.uy/tecnologia/bruno-gili-uruguay-podria-atraer-dos-o-tres-nuevos-data-centers-pero-la-energia-condiciona-proyectos-ia-n5411507", "date": "2026", "category": "news" },
+    { "id": "uy-11", "title": "Microsoft y el gobierno de Uruguay lanzan el Laboratorio de inteligencia artificial para el bien", "publisher": "Microsoft Source LATAM", "url": "https://news.microsoft.com/source/latam/noticias-de-microsoft/microsoft-y-el-gobierno-de-uruguay-lanzan-el-laboratorio-de-inteligencia-artificial-para-el-bien-en-una-nueva-etapa-de-colaboracion-publico-privada/", "date": "2026-03-12", "category": "industry" },
+    { "id": "uy-12", "title": "Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático (CICADA)", "publisher": "Universidad de la República", "url": "https://cicada.uy", "date": "2026", "category": "research" },
+    { "id": "uy-13", "title": "Por qué Uruguay fue elegido por Microsoft para su primer 'AI for Good Lab' en Sudamérica y cómo funcionará", "publisher": "Forbes Uruguay", "url": "https://www.forbesuruguay.com/innovacion/por-uruguay-fue-elegido-microsoft-su-primer-ai-for-good-lab-sudamerica-como-funcionara-n87995", "date": "2026-03", "category": "news" }
+  ]
+}

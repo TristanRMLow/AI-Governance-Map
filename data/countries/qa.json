@@ -1,0 +1,266 @@
+{
+  "code": "qa",
+  "name": "Qatar",
+  "shortName": "Qatar",
+  "flagEmoji": "🇶🇦",
+  "geometryType": "polygon",
+  "isoA3": ["QAT"],
+  "region": "Middle East",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "State-led strategy and sectoral guidance, with a phased path toward formal AI regulation still underway",
+  "accentColor": { "light": "#458344", "dark": "#62AE61" },
+  "center": [51.2, 25.3],
+  "zoom": 7.8,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Qatar's compute-diplomacy bet: sovereignty ambitions versus dependence on foreign capital and hyperscalers",
+    "Water and energy strain from Gulf AI data-center buildout in a highly water-stressed country"
+  ],
+  "overview": "Qatar has pursued AI policy primarily through strategy and sectoral guidance rather than a single binding AI law. Its 2019 National AI Strategy set out six pillars — education, data access, employment, business, research and ethics — and a 2021 Cabinet Decision (No. 10 of 2021) established an inter-ministerial Artificial Intelligence Committee, coordinated through the Ministry of Communications and Information Technology (MCIT), to implement it. Since then, the National Cyber Security Agency (NCSA) issued 'Guidelines for Secure Usage and Adoption of AI' (February 2024), and 2025 saw the publication of 'Principles and Guidelines for Ethical Use of AI.' Reporting describes a phased approach — foundation-building (2024-2025), sectoral implementation (2025-2026) and full deployment with GCC-wide alignment (2026-2027) — with formal, binding AI regulation reportedly still expected only in 2026 or 2027. One concrete, narrower step arrived in January 2026, when the Qatar International Court and Dispute Resolution Centre (QICDRC) issued a Procedural Directive governing AI use in litigation, among the first formal legal controls on AI deployment in the country.\n\nQatar's more visible recent AI activity has been in infrastructure and capital deployment rather than rulemaking. In December 2025, Qai — a state-backed AI infrastructure company under the Qatar Investment Authority (QIA) — and Brookfield Asset Management announced a $20 billion joint venture to build AI data-center and compute infrastructure in Qatar and internationally, positioning Qatar alongside Saudi Arabia's Humain and the UAE's G42 as a third major Gulf player in the AI infrastructure race. Ooredoo, via its data-center spinoff Syntys, has separately launched a sovereign AI cloud built on Nvidia GPUs. This buildout has drawn scrutiny from regional analysts over the water and energy demands of data centers in one of the world's most water-stressed countries, an area where Gulf-wide regulatory standards remain largely undeveloped.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Strategy and sectoral guidance; comprehensive AI regulation still pending",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Phased, strategy-led approach built on the 2019 National AI Strategy and 2021 AI Committee, with sector-specific guidance (cybersecurity, ethics, judicial AI use) rather than a single binding AI law so far",
+    "latestMajorUpdate": "Qai (Qatar's state AI infrastructure company, a QIA subsidiary) and Brookfield Asset Management form a $20B AI infrastructure joint venture (December 2025)",
+    "governmentInvolvement": "High — the state, via QIA-backed Qai and MCIT-led strategy, is a direct investor and coordinator in AI infrastructure and policy rather than solely a regulator",
+    "industrialStrategy": "Large-scale sovereign AI compute buildout via the Qai-Brookfield joint venture and Ooredoo/Syntys's Nvidia-powered sovereign AI cloud, framed as part of the Qatar Digital Agenda 2030",
+    "internationalPartnerships": "Brookfield Asset Management (AI infrastructure joint venture), Nvidia (GPU supply for sovereign cloud), and Qatar Foundation-affiliated branch campuses (Carnegie Mellon Qatar, Texas A&M Qatar) conducting AI research with US partner institutions",
+    "primaryPolicyFocus": "Scaling sovereign AI compute and data-center capacity while formal, binding AI-specific regulation remains largely still in development"
+  },
+  "currentDirection": {
+    "trend": "loosening",
+    "summary": "Qatar's recent trajectory has been dominated by rapid capital deployment into AI infrastructure — most visibly the $20B Qai-Brookfield joint venture announced in December 2025 — rather than new binding rules. On the regulatory side, movement has been narrow and procedural (the QICDRC's January 2026 directive on AI in litigation) rather than comprehensive; officials have signaled that fuller sectoral and GCC-aligned AI regulation is not expected until 2026-2027, so the near-term emphasis remains on strategy, infrastructure and ethics guidance rather than enforceable AI-specific law."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Qai (Qatar's state AI company, a subsidiary of the Qatar Investment Authority) and Brookfield Asset Management announce a $20B strategic partnership to build AI data-center and compute infrastructure in Qatar and international markets.",
+      "date": "2025-12-09",
+      "sourceIds": ["qa-1", "qa-2"],
+      "severity": "major"
+    },
+    {
+      "text": "Qatar International Court and Dispute Resolution Centre (QICDRC) issues Procedural Directive No. (1) of 2026, formally regulating the use of AI tools in litigation before the Court, including mandatory disclosure and verification of AI-generated content.",
+      "date": "2026-01-07",
+      "sourceIds": ["qa-3", "qa-4"]
+    },
+    {
+      "text": "Ooredoo launches a sovereign AI cloud in Qatar built on Nvidia Hopper GPUs, operated through its data-center spinoff Syntys.",
+      "date": "2025-07",
+      "sourceIds": ["qa-5"]
+    },
+    {
+      "text": "imec, a leading international nanotechnology R&D institute, announces a new regional research and development hub at Qatar Science and Technology Park in Doha, focused on AI-enhanced chip design, advanced computing and sustainable innovation.",
+      "date": "2026-01",
+      "sourceIds": ["qa-6"]
+    },
+    {
+      "text": "Jahez Group (Saudi Arabia) completes acquisition of a 76.56% stake in Qatar's Snoonu, marking what local commentary described as Qatar's first unicorn-level tech exit.",
+      "date": "2025-10",
+      "sourceIds": ["qa-7"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Artificial Intelligence Strategy",
+      "status": "in_force",
+      "summary": "Launched in 2019, structured around six pillars — education, data access, employment, business, research and ethics — implemented via an inter-ministerial AI Committee established by Cabinet Decision No. (10) of 2021.",
+      "sourceIds": ["qa-8", "qa-9"]
+    },
+    {
+      "title": "NCSA Guidelines for Secure Usage and Adoption of AI",
+      "status": "in_force",
+      "summary": "Published by Qatar's National Cyber Security Agency in February 2024, giving organizations non-binding guidance on securely adopting AI systems.",
+      "sourceIds": ["qa-9"]
+    },
+    {
+      "title": "Principles and Guidelines for Ethical Use of AI",
+      "status": "in_force",
+      "summary": "Published in 2025 to guide responsible development and deployment of AI across sectors; non-binding.",
+      "sourceIds": ["qa-9"]
+    },
+    {
+      "title": "QICDRC Procedural Directive No. (1) of 2026 on AI in Litigation",
+      "status": "in_force",
+      "summary": "Regulates use of AI tools by litigants and legal representatives before the Qatar International Court and Dispute Resolution Centre, requiring verification and disclosure of AI-generated legal content.",
+      "sourceIds": ["qa-3", "qa-4"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Qatar's AI research is concentrated at the Qatar Computing Research Institute (QCRI), part of Hamad Bin Khalifa University and Qatar Foundation, which runs a dedicated Qatar Center for Artificial Intelligence (QCAI) focused on Arabic-language NLP, speech technology, social computing and responsible AI, and partners with Boeing on applied research. US branch campuses in Education City — Carnegie Mellon University in Qatar and Texas A&M University at Qatar — also conduct AI-related research funded substantially through the Qatar National Research Fund (QNRF), though US reporting in 2026 has raised questions about the scale and transparency of Qatari funding to Carnegie Mellon's home campus, a dynamic that sits alongside (but is distinct from) the Doha campus's own AI research output.",
+    "sourceIds": ["qa-10", "qa-11"]
+  },
+  "companies": [
+    {
+      "name": "Qai",
+      "description": "Qatar's state-backed AI infrastructure company, a subsidiary of the Qatar Investment Authority, that formed a $20B AI infrastructure joint venture with Brookfield Asset Management in December 2025.",
+      "url": "https://www.qia.qa"
+    },
+    {
+      "name": "Ooredoo",
+      "description": "Qatari telecom operator running a Strategic Digital & AI Transformation Program (with Microsoft) and, through its Syntys data-center spinoff, a sovereign AI cloud built on Nvidia GPUs.",
+      "url": "https://www.ooredoo.qa"
+    },
+    {
+      "name": "Snoonu",
+      "description": "Qatari super-app for delivery and logistics, founded by Hamad Al Hajri; majority-acquired by Saudi Arabia's Jahez Group in 2025 in what local commentary described as Qatar's first unicorn-level tech exit. Has since launched a 'Startup Factory' backing early-stage ventures including an AI-driven digital-menu startup.",
+      "url": "https://www.snoonu.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Ooredoo / Syntys",
+        "description": "Sovereign AI cloud built on Nvidia Hopper GPUs and hosted in local data centers; Syntys was spun out of Ooredoo in March 2025 following investment from Iron Mountain and reportedly targets over 120MW of capacity."
+      },
+      {
+        "name": "Qai / Brookfield",
+        "description": "$20B joint venture (announced December 2025) to develop fully integrated AI data-center and compute infrastructure in Qatar and, potentially, international markets."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Hamad Bin Khalifa University / Qatar Computing Research Institute (QCRI)",
+      "description": "Home to the Qatar Center for Artificial Intelligence (QCAI); conducts research spanning Arabic NLP, speech and conversational AI, social computing and responsible AI, established in 2010 under Qatar Foundation.",
+      "url": "https://www.hbku.edu.qa/en/qcri"
+    },
+    {
+      "name": "Carnegie Mellon University in Qatar",
+      "description": "US branch campus in Education City conducting AI research (e.g., agricultural optimization, autonomous marine robotics) funded substantially by the Qatar National Research Fund.",
+      "url": "https://www.qatar.cmu.edu"
+    },
+    {
+      "name": "Texas A&M University at Qatar",
+      "description": "US branch campus in Education City partnering with Qatar Foundation and QNRF on applied engineering and AI-adjacent research.",
+      "url": "https://www.qatar.tamu.edu"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Middle East Council on Global Affairs",
+      "description": "Doha-based policy institute that has published analysis on the water and energy sustainability risks of Gulf AI data-center expansion, including Qatar's.",
+      "url": "https://mecouncil.org"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Communications and Information Technology (MCIT)",
+      "description": "Lead ministry coordinating Qatar's National AI Strategy and the inter-ministerial AI Committee; led by Minister Mohammed bin Ali Al Mannai.",
+      "url": "https://www.mcit.gov.qa"
+    },
+    {
+      "name": "National Cyber Security Agency (NCSA)",
+      "description": "Issued Qatar's 2024 guidelines on secure AI adoption.",
+      "url": "https://www.ncsa.gov.qa"
+    },
+    {
+      "name": "Qatar Investment Authority (QIA)",
+      "description": "Sovereign wealth fund whose subsidiary, Qai, leads state investment in AI infrastructure, including the $20B joint venture with Brookfield.",
+      "url": "https://www.qia.qa"
+    },
+    {
+      "name": "Qatar International Court and Dispute Resolution Centre (QICDRC)",
+      "description": "Issued Qatar's first formal procedural rules on AI use in litigation (Procedural Directive No. 1 of 2026).",
+      "url": "https://www.qicdrc.gov.qa"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Mohammed bin Ali Al Mannai",
+      "role": "Minister of Communications and Information Technology",
+      "affiliation": "Government of Qatar",
+      "category": "government",
+      "url": "https://www.mcit.gov.qa"
+    },
+    {
+      "name": "Hamad Al Hajri",
+      "role": "Founder and CEO",
+      "affiliation": "Snoonu",
+      "category": "company_leader",
+      "url": "https://www.snoonu.com"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Ministry of Communications and Information Technology (MCIT)",
+      "type": "organization",
+      "role": "Lead government body on Qatar's AI strategy and regulatory guidance.",
+      "category": "government",
+      "url": "https://www.mcit.gov.qa"
+    },
+    {
+      "name": "Qatar Computing Research Institute (QCRI)",
+      "type": "organization",
+      "role": "Qatar's leading applied AI research institute, including its dedicated Qatar Center for Artificial Intelligence.",
+      "category": "university",
+      "url": "https://www.hbku.edu.qa/en/qcri"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Ministry of Communications and Information Technology", "type": "government" },
+    { "label": "Qatar Investment Authority / Qai", "type": "agency" },
+    { "label": "Ooredoo", "type": "company" },
+    { "label": "QCRI (Hamad Bin Khalifa University)", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Comprehensive binding AI law", "note": "Qatar has strategy documents, ethics principles and sector-specific guidance, but no single binding, cross-sector AI statute; officials have signaled formal regulation is expected only in 2026-2027." },
+    { "area": "Data-center water/energy standards", "note": "No Gulf-wide or Qatar-specific mandatory framework on water-use effectiveness or heat-adapted data-center design has been identified, despite Qatar's status as one of the most water-stressed countries globally." },
+    { "area": "Independent AI regulator", "note": "AI policy coordination runs through an inter-ministerial Committee under MCIT rather than a standalone AI regulatory authority." }
+  ],
+  "debates": [
+    {
+      "topic": "Qatar's compute-diplomacy bet: sovereignty ambitions versus dependence on foreign capital and hyperscalers",
+      "category": "investment",
+      "summary": "Qatar's entry into the Gulf AI infrastructure race — via the $20B Qai-Brookfield joint venture and Ooredoo's Nvidia-powered sovereign cloud — is framed by officials as building 'sovereign' AI capacity, but relies heavily on foreign capital, foreign chip supply and international partners.",
+      "expanded": "Regional analysts have noted that Qatar's move mirrors similar bets by Saudi Arabia (via Humain) and the UAE (via G42), all of which pair large domestic ambitions with deep reliance on US and international capital, hardware and cloud partners. Whether this produces durable, independent Qatari AI capability — as opposed to hosting infrastructure largely owned or financed by outside investors and dependent on Nvidia GPU supply — remains an open and largely unresolved question in available commentary, and Qatar's own AI research and model-development base (concentrated mainly at QCRI) remains modest relative to the scale of the announced infrastructure investment.",
+      "sourceIds": ["qa-1", "qa-2", "qa-5"]
+    },
+    {
+      "topic": "Water and energy strain from Gulf AI data-center buildout in a highly water-stressed country",
+      "category": "infrastructure",
+      "summary": "Regional policy analysts have raised concerns that large-scale AI data-center expansion, including Qatar's, is proceeding faster than water- and energy-specific regulatory standards, in a country that ranks among the world's most water-stressed.",
+      "expanded": "Cooling data centers in the Gulf's hot, humid climate is water-intensive, and freshwater in the region depends heavily on energy-intensive desalination; one estimate cited by regional researchers projects Gulf data centers could consume over 426 billion liters of water annually by 2030. Analysts note there is no GCC-wide framework mandating water-use-effectiveness limits or climate-adapted data-center design, meaning Qatar's data-center buildout (including the Qai-Brookfield venture) is proceeding without binding sustainability guardrails specific to this risk, even as broader ethical-AI guidance has been published.",
+      "sourceIds": ["qa-12", "qa-13"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "How Qatar Is Positioning Itself Among World's Leading Artificial Intelligence Economies",
+      "type": "government",
+      "author": "Qatar News Agency (QNA)",
+      "url": "https://qna.org.qa/en/news/news-details?id=how-qatar-is-positioning-itself-among-worlds-leading-artificial-intelligence-economies-report-2&date=7%2F06%2F2026"
+    },
+    {
+      "title": "Desert Bytes: Why Gulf AI Ambitions Must Align with Energy and Water Realities",
+      "type": "think_tank",
+      "author": "Middle East Council on Global Affairs",
+      "url": "https://mecouncil.org/publication/gulf-ai-data-centers-water-energy/"
+    },
+    {
+      "title": "Policy to practice: how Qatar is writing the playbook for agentic AI",
+      "type": "conference_talk",
+      "author": "MWC Doha",
+      "url": "https://www.mwcdoha.com/articles/policy-to-practice-how-qatar-is-writing-the-playbook-for-agentic-ai"
+    }
+  ],
+  "sources": [
+    { "id": "qa-1", "title": "Brookfield and Qai Form $20 Billion Strategic Investment Partnership for AI Infrastructure", "publisher": "Qatar Investment Authority", "url": "https://www.qia.qa/en/Newsroom/Pages/Brookfield-and-Qai-Form-$20-Billion-Strategic-Investment-Partnership-for-AI-Infrastructure.aspx", "date": "2025-12-09", "category": "government" },
+    { "id": "qa-2", "title": "Brookfield and Qai Form $20 Billion Strategic Investment Partnership for AI Infrastructure", "publisher": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2025/12/09/3202121/0/en/Brookfield-and-Qai-Form-20-Billion-Strategic-Investment-Partnership-for-AI-Infrastructure.html", "date": "2025-12-09", "category": "industry" },
+    { "id": "qa-3", "title": "Qatar International Court Issues Procedural Directive Regulating the Use of Artificial Intelligence in Litigation", "publisher": "Mondaq", "url": "https://www.mondaq.com/new-technology/1736918/qatar-international-court-issues-procedural-directive-regulating-the-use-of-artificial-intelligence-in-litigation", "date": "2026-01", "category": "expert_commentary" },
+    { "id": "qa-4", "title": "QICDRC Issues Practice Direction No. 1 of 2026 and Practice Guidance on the Use of Artificial Intelligence in Court Proceedings", "publisher": "QICDRC", "url": "https://www.qicdrc.gov.qa/media-center/news/qicdrc-issues-practice-direction-no-1-2026-and-practice-guidance-use-artificial", "date": "2026-01-07", "category": "government" },
+    { "id": "qa-5", "title": "Ooredoo launches AI cloud in Qatar using Nvidia tech", "publisher": "RCR Wireless News", "url": "https://www.rcrwireless.com/20250704/ai-infrastructure/ooredoo-launches-ai", "date": "2025-07-04", "category": "news" },
+    { "id": "qa-6", "title": "imec strengthens its global presence with a new regional research and development hub in Qatar", "publisher": "imec", "url": "https://www.imec-int.com/en/press/imec-strengthens-its-global-presence-new-regional-research-development-hub-qatar", "date": "2026-01", "category": "industry" },
+    { "id": "qa-7", "title": "Jahez's acquisition of Snoonu and what it says about Qatar", "publisher": "Kristie Neo (Substack)", "url": "https://kristieneo.substack.com/p/jahezs-acquisition-of-snoonu-and", "date": "2025-10", "category": "expert_commentary" },
+    { "id": "qa-8", "title": "Artificial Intelligence (AI) in Qatar", "publisher": "International Media Office, Qatar", "url": "https://imo.gov.qa/priorities/artificial-intelligence", "date": "2026", "category": "government" },
+    { "id": "qa-9", "title": "Mapping Qatar's Regulatory Landscape for Artificial Intelligence", "publisher": "Eversheds Sutherland", "url": "https://www.eversheds-sutherland.com/en/united-states/insights/mapping-qatars-regulatory-landscape-for-artificial-intelligence-november-2025", "date": "2025-11", "category": "expert_commentary" },
+    { "id": "qa-10", "title": "QCRI leading way in cutting-edge AI research and development", "publisher": "The Peninsula Qatar", "url": "https://thepeninsulaqatar.com/article/16/08/2023/qcri-leading-way-in-cutting-edge-ai-research-and-development", "date": "2023-08-16", "category": "news" },
+    { "id": "qa-11", "title": "The Campus That Can't Say No: Carnegie Mellon's $740 Million Qatar Dependency", "publisher": "University Herald", "url": "https://www.universityherald.com/articles/80154/20260217/campus-that-cant-say-no-carnegie-mellons-740-million-qatar-dependency.htm", "date": "2026-02-17", "category": "news" },
+    { "id": "qa-12", "title": "Desert Bytes: Why Gulf AI Ambitions Must Align with Energy and Water Realities", "publisher": "Middle East Council on Global Affairs", "url": "https://mecouncil.org/publication/gulf-ai-data-centers-water-energy/", "date": "2026", "category": "think_tank" },
+    { "id": "qa-13", "title": "The Gulf's trillion-dollar AI dream faces a water crisis", "publisher": "Rest of World", "url": "https://restofworld.org/2025/gulf-ai-water-crisis/", "date": "2025", "category": "news" }
+  ]
+}

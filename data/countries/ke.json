@@ -1,0 +1,330 @@
+{
+  "code": "ke",
+  "name": "Kenya",
+  "shortName": "Kenya",
+  "flagEmoji": "🇰🇪",
+  "geometryType": "polygon",
+  "isoA3": ["KEN"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "A published national AI strategy plus a pending, ambitiously-scoped AI Bill proposing a dedicated Commissioner, layered on an existing Data Protection Act already tested against AI-adjacent companies",
+  "accentColor": { "light": "#83447B", "dark": "#AE61A3" },
+  "center": [37.9, 0.2],
+  "zoom": 5.5,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Kenyan content moderators' and data annotators' court battles with Meta and Sama over AI-related labour conditions",
+    "Whether Kenya's proposed AI Commissioner would duplicate the Data Protection Commissioner and Communications Authority"
+  ],
+  "overview": "Kenya has moved further than most African peers toward a comprehensive, dedicated AI governance framework, while also being a focal point for global debate over the labour conditions underlying AI's supply chain. The Ministry of Information, Communications and the Digital Economy (MICDE), under Cabinet Secretary William Kabogo, launched Kenya's first National Artificial Intelligence Strategy (2025-2030) in March 2025, organised around AI digital infrastructure, data ecosystems and governance, and research/innovation/commercialisation. In February 2026, nominated Senator Karen Nyamu introduced the Artificial Intelligence Bill, 2026, which would create an Office of the AI Commissioner as an independent regulator with powers to inspect AI systems, access training data, maintain a public registry of high-risk applications and enforce a four-tier risk classification — a more centralized model than the sector-based approaches taken by South Africa or (so far) Nigeria. Separately, the ministry opened a fresh, broader public consultation on a draft Kenya Artificial Intelligence and Other Emerging Technologies Policy in mid-2026, with written submissions due by August 4, 2026.\n\nAlongside this policy activity, Kenya's role as a hub for the global AI data-labelling and content-moderation workforce has produced some of the continent's highest-profile AI-adjacent litigation. More than 180 former Meta and Sama content moderators and data annotators have pursued cases in Kenyan courts since 2022 alleging unlawful dismissal, exploitative pay and conditions, and (in 2026 reporting) exposure to intimate footage captured by Ray-Ban Meta smart glasses during content review work. Kenyan courts have repeatedly ruled that Meta can be sued locally despite jurisdictional objections, though as of mid-2026 a full trial date had still not been firmly set.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Strategy launched, comprehensive AI Bill and emerging-tech policy both pending",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "A risk-tiered, centralized model proposed under the pending AI Bill (new AI Commissioner), alongside a broader AI & Emerging Technologies Policy still in public consultation",
+    "latestMajorUpdate": "Ministry of Information, Communications and the Digital Economy opens public participation on the draft Kenya AI and Other Emerging Technologies Policy, with submissions due August 4, 2026",
+    "governmentInvolvement": "High — a dedicated national strategy, a pending AI-specific bill proposing a new regulator, and an existing Data Protection Commissioner already engaging with AI-related privacy questions",
+    "industrialStrategy": "National AI Strategy (2025-2030) prioritising health, agriculture, education, finance and public services, plus Konza/Technopolis-linked digital hubs and BPO-style AI-assisted platforms",
+    "internationalPartnerships": "Strathmore University's CIPIT engages internationally on AI governance research (e.g., with the Alan Turing Institute), and Kenya remains a major hub for outsourced AI data-labelling work for global technology firms",
+    "primaryPolicyFocus": "Advancing the Artificial Intelligence Bill, 2026 through Parliament while finalizing the separate, broader AI and Emerging Technologies Policy following its 2026 public consultation"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Kenya's direction in 2026 has been toward more formal, centralized AI oversight: the Artificial Intelligence Bill, 2026 proposes a new Office of the AI Commissioner with inspection, investigation and registry powers, and the ministry's parallel AI and Emerging Technologies Policy consultation (running into August 2026) signals continued momentum. At the same time, unresolved litigation over Meta- and Sama-linked content moderation and data-labelling work continues to shape international scrutiny of Kenya's AI-adjacent labour practices, a dimension largely separate from the formal legislative track."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Ministry of Information, Communications, and Digital Economy launches Kenya's first National Artificial Intelligence Strategy (2025-2030) at KICC, Nairobi.",
+      "date": "2025-03-01",
+      "sourceIds": ["ke-1"]
+    },
+    {
+      "text": "Nairobi courts continue hearing the Meta/Sama content-moderator cases; rulings on procedural matters are repeatedly postponed, delaying a full trial on claims from more than 180 former moderators and data annotators.",
+      "date": "2026-02-12",
+      "sourceIds": ["ke-2"]
+    },
+    {
+      "text": "Nominated Senator Karen Nyamu introduces the Artificial Intelligence Bill, 2026, proposing a new Office of the Artificial Intelligence Commissioner with risk-based regulatory powers.",
+      "date": "2026-02-01",
+      "sourceIds": ["ke-3"],
+      "severity": "major"
+    },
+    {
+      "text": "Reporting details Meta's termination of its Sama content-review contract following complaints that moderators were exposed to intimate footage recorded by Ray-Ban Meta smart glasses; Sama subsequently lays off more than 1,000 Kenyan employees.",
+      "date": "2026-05-02",
+      "sourceIds": ["ke-4"]
+    },
+    {
+      "text": "President William Ruto signs the Technopolis Act, replacing the Konza Technopolis Development Authority with a new Technopolis Development Authority overseeing Kenya's planned tech-city infrastructure.",
+      "date": "2026-05-11",
+      "sourceIds": ["ke-5"]
+    },
+    {
+      "text": "Ministry of Information, Communications and the Digital Economy opens public participation on the draft Kenya Artificial Intelligence and Other Emerging Technologies Policy, with written submissions due by August 4, 2026.",
+      "date": "2026-07-21",
+      "sourceIds": ["ke-6"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Artificial Intelligence Strategy 2025-2030",
+      "status": "in_force",
+      "summary": "Kenya's first national AI strategy, launched March 2025, organised around AI digital infrastructure, data ecosystems/governance, and research/innovation/commercialisation, with cross-cutting focus on ethics, skills, finance and governance.",
+      "sourceIds": ["ke-1"]
+    },
+    {
+      "title": "Data Protection Act, 2019",
+      "status": "in_force",
+      "summary": "General data-protection law enforced by the Office of the Data Protection Commissioner (ODPC), already applied to AI-adjacent disputes and cited as the legal basis the proposed AI Bill would build upon rather than replace.",
+      "sourceIds": ["ke-3"]
+    },
+    {
+      "title": "Artificial Intelligence Bill, 2026",
+      "status": "proposed",
+      "summary": "Sponsored by nominated Senator Karen Nyamu; would create an Office of the AI Commissioner with powers to inspect AI systems and training data, maintain a public high-risk AI registry, and enforce a four-tier risk classification, plus penalties (up to KES 5 million and prison terms) for non-consensual deepfakes. Must pass both houses of Parliament and receive presidential assent before taking effect; as of mid-2026 it remains under review, with legal commentators questioning overlap with the Data Protection Commissioner and Communications Authority.",
+      "sourceIds": ["ke-3", "ke-7"]
+    },
+    {
+      "title": "Kenya Artificial Intelligence and Other Emerging Technologies Policy",
+      "status": "proposed",
+      "summary": "Broader draft policy covering AI and other emerging technologies, under development since around November 2025 by MICDE; public submissions were open through August 4, 2026, as part of a five-phase drafting process.",
+      "sourceIds": ["ke-6"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Kenyan AI policy research is led substantially by Strathmore University's Centre for Intellectual Property and Information Technology Law (CIPIT), which conducts research on AI governance, ethics and regulation from an African perspective and convenes the Conference on the State of Artificial Intelligence in Africa (COSAA). KICTANet, a Nairobi-based multi-stakeholder think-tank network, is also active in mapping Kenya's AI ecosystem and has engaged in international partnerships on responsible AI (including with the UK's Alan Turing Institute).",
+    "sourceIds": ["ke-8", "ke-9"]
+  },
+  "companies": [
+    {
+      "name": "M-KOPA",
+      "description": "Nairobi-founded fintech using IoT-based credit scoring and AI-driven risk assessment to extend asset financing to underserved customers across Africa; among Kenya's most prominent tech scale-ups.",
+      "url": "https://www.m-kopa.com",
+      "needsVerification": true
+    },
+    {
+      "name": "Sama",
+      "description": "AI data-annotation and content-moderation outsourcing company with major Nairobi operations; at the centre of ongoing litigation brought by former content moderators over labour conditions, and lost its Meta content-review contract in 2026.",
+      "url": "https://www.sama.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      { "name": "AWS", "description": "Operates cloud infrastructure serving Kenyan enterprise and startup AI workloads." },
+      { "name": "Microsoft Azure", "description": "Cloud provider with a presence in the Kenyan market." },
+      { "name": "Google Cloud", "description": "Cloud provider used across Kenyan research and enterprise AI." }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Strathmore University",
+      "description": "Nairobi university hosting CIPIT, a leading centre for AI, IP and technology law research and policy engagement in East Africa.",
+      "url": "https://cipit.strathmore.edu/"
+    },
+    {
+      "name": "University of Nairobi",
+      "description": "Kenya's largest public university, active in computer science and AI-adjacent research.",
+      "url": "https://www.uonbi.ac.ke",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "KICTANet",
+      "description": "Kenya ICT Action Network — a multi-stakeholder think tank mapping Kenya's AI ecosystem and engaging on AI policy, including government-perspective convenings on the AI & Emerging Technologies Policy.",
+      "url": "https://www.kictanet.or.ke/"
+    },
+    {
+      "name": "CIPIT (Strathmore University)",
+      "description": "Research and policy centre producing analysis on Kenya's National AI Strategy and the wider East African AI governance landscape.",
+      "url": "https://cipit.strathmore.edu/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Information, Communications and the Digital Economy (MICDE)",
+      "description": "Lead ministry for Kenya's National AI Strategy and the draft AI and Emerging Technologies Policy, headed by Cabinet Secretary William Kabogo.",
+      "url": "https://www.ict.go.ke"
+    },
+    {
+      "name": "Office of the Data Protection Commissioner (ODPC)",
+      "description": "Enforces the Data Protection Act, 2019 and has engaged publicly on AI-related privacy risks; led by Commissioner Immaculate Kassait.",
+      "url": "https://www.odpc.go.ke/"
+    },
+    {
+      "name": "Technopolis Development Authority",
+      "description": "Successor to the Konza Technopolis Development Authority, established under the Technopolis Act (signed May 2026), overseeing Kenya's planned smart-city and digital-hub infrastructure including Konza.",
+      "sourceIds": ["ke-5"]
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "William Kabogo",
+      "role": "Cabinet Secretary, Information, Communications and the Digital Economy",
+      "affiliation": "MICDE",
+      "category": "government",
+      "url": "https://www.ict.go.ke"
+    },
+    {
+      "name": "Immaculate Kassait",
+      "role": "Data Protection Commissioner",
+      "affiliation": "Office of the Data Protection Commissioner",
+      "category": "government",
+      "url": "https://www.odpc.go.ke/"
+    },
+    {
+      "name": "Karen Nyamu",
+      "role": "Nominated Senator; sponsor of the Artificial Intelligence Bill, 2026",
+      "affiliation": "Senate of Kenya",
+      "category": "government"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "CIPIT (Strathmore University)",
+      "type": "organization",
+      "role": "Publishes ongoing research and commentary on Kenya's National AI Strategy and AI Bill",
+      "category": "university",
+      "url": "https://cipit.strathmore.edu/"
+    },
+    {
+      "name": "KICTANet",
+      "type": "organization",
+      "role": "Multi-stakeholder think tank tracking and shaping Kenya's AI policy process",
+      "category": "think_tank",
+      "url": "https://www.kictanet.or.ke/"
+    },
+    {
+      "name": "Immaculate Kassait",
+      "type": "person",
+      "role": "Kenya's Data Protection Commissioner, active commentator on AI and data-privacy risk",
+      "category": "government",
+      "url": "https://www.odpc.go.ke/"
+    }
+  ],
+  "influenceMap": [
+    { "label": "MICDE", "type": "government" },
+    { "label": "Office of the Data Protection Commissioner", "type": "agency" },
+    { "label": "Technopolis Development Authority", "type": "agency" },
+    { "label": "CIPIT / Strathmore University", "type": "research" },
+    { "label": "Sama", "type": "company" }
+  ],
+  "notableGaps": [
+    { "area": "Frontier-model developers", "note": "No frontier foundation-model developer is headquartered in Kenya; the country's global AI footprint is concentrated in outsourced data-labelling/content-moderation work and applied fintech/agritech AI rather than model development." },
+    { "area": "Settled AI-specific law", "note": "As of mid-2026, both the Artificial Intelligence Bill, 2026 and the broader AI and Emerging Technologies Policy remain in draft/consultation stages, so no dedicated binding AI statute is yet in force." }
+  ],
+  "debates": [
+    {
+      "topic": "Kenyan content moderators' and data annotators' court battles with Meta and Sama over AI-related labour conditions",
+      "category": "industry",
+      "summary": "More than 180 former Meta/Sama content moderators and data labellers have pursued Kenyan court cases since 2022 alleging unlawful dismissal, low pay and inadequate mental-health support, with 2026 reporting adding claims about exposure to intimate footage from Ray-Ban Meta smart glasses.",
+      "expanded": "Kenyan courts have repeatedly rejected Meta's jurisdictional objections, allowing the cases to proceed, but a full trial date remained unset as of early 2026 after further procedural postponements. The dispute has become a reference point in global debates about the labour conditions underlying AI content-moderation and data-annotation supply chains, with Kenya's position as a major outsourcing hub for this work drawing sustained international scrutiny alongside its ambitions to be recognised as a broader AI innovation hub.",
+      "sourceIds": ["ke-2", "ke-4"]
+    },
+    {
+      "topic": "Whether Kenya's proposed AI Commissioner would duplicate the Data Protection Commissioner and Communications Authority",
+      "category": "government",
+      "summary": "Legal commentators have questioned whether the Artificial Intelligence Bill, 2026's proposed Office of the AI Commissioner would create bureaucratic overlap with Kenya's existing Data Protection Commissioner and Communications Authority.",
+      "expanded": "The bill grants the proposed Commissioner broad powers — inspecting AI systems, accessing training data, maintaining a high-risk AI registry — on top of an existing regulatory landscape already shaped by the 2019 Data Protection Act and the 2018 Computer Misuse and Cybercrimes Act (the latter having already been used by Kenyan courts to halt Worldcoin's iris-scanning operations). Some business groups have also raised concerns about compliance costs for smaller AI-related SMEs under a new, strict regulatory regime.",
+      "sourceIds": ["ke-7", "ke-3"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Mapping Kenya's AI Ecosystem",
+      "type": "think_tank",
+      "author": "KICTANet",
+      "url": "https://www.kictanet.or.ke/mapping-kenyas-ai-ecosystem/"
+    },
+    {
+      "title": "The Kenya National AI Strategy 2025-2030: Regional and Global Positioning",
+      "type": "academic",
+      "author": "CIPIT, Strathmore University",
+      "url": "https://cipit.strathmore.edu/the-kenya-national-ai-strategy-2025-2030-regional-and-global-positioning/"
+    },
+    {
+      "title": "Kenya's AI bill creates a powerful new digital sheriff",
+      "type": "think_tank",
+      "author": "TechCabal",
+      "url": "https://techcabal.com/2026/04/02/kenyas-ai-bill-creates-a-powerful-new-digital-sheriff/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ke-1",
+      "title": "The Kenya National AI Strategy 2025-2030: Regional and Global Positioning",
+      "publisher": "CIPIT, Strathmore University",
+      "url": "https://cipit.strathmore.edu/the-kenya-national-ai-strategy-2025-2030-regional-and-global-positioning/",
+      "date": "2025-03",
+      "category": "research"
+    },
+    {
+      "id": "ke-2",
+      "title": "Kenya: Court postpones ruling in two cases against Meta brought by former content moderators, delaying trial",
+      "publisher": "Business & Human Rights Resource Centre",
+      "url": "https://www.business-humanrights.org/en/latest-news/kenya-court-postpones-ruling-in-two-cases-against-meta-brought-by-former-content-moderators-delaying-trial-2/",
+      "date": "2026-02-12",
+      "category": "news"
+    },
+    {
+      "id": "ke-3",
+      "title": "Kenya: Artificial Intelligence Bill, 2026 - Proposed too soon?",
+      "publisher": "Bowmans",
+      "url": "https://bowmanslaw.com/insights/kenya-artificial-intelligence-bill-2026-proposed-too-soon/",
+      "date": "2026-03",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "ke-4",
+      "title": "Meta Terminates Kenya Contract After Workers Viewed Intimate Footage Captured by Ray-Ban Smart Glasses",
+      "publisher": "Political.org",
+      "url": "https://political.org/2026/05/02/meta-terminates-kenya-contract-after-workers-viewed-intimate-footage-captured-by-ray-ban-smart-glasses/",
+      "date": "2026-05-02",
+      "category": "news"
+    },
+    {
+      "id": "ke-5",
+      "title": "President Ruto Signs Technopolis Act Opening Door for New Tech Cities in Kenya",
+      "publisher": "Techweez",
+      "url": "https://techweez.com/2026/05/11/kenya-technopolis-act-signed-into-law/",
+      "date": "2026-05-11",
+      "category": "news"
+    },
+    {
+      "id": "ke-6",
+      "title": "Kenya AI and ET Policy Public Participation 2026",
+      "publisher": "Ministry of Information, Communications and the Digital Economy",
+      "url": "https://www.ict.go.ke/index.php/kenya-ai-and-et-policy-public-participation-2026",
+      "date": "2026-07-21",
+      "category": "government"
+    },
+    {
+      "id": "ke-7",
+      "title": "Kenya's AI bill creates a powerful new digital sheriff",
+      "publisher": "TechCabal",
+      "url": "https://techcabal.com/2026/04/02/kenyas-ai-bill-creates-a-powerful-new-digital-sheriff/",
+      "date": "2026-04-02",
+      "category": "news"
+    },
+    {
+      "id": "ke-8",
+      "title": "CIPIT - Centre for Intellectual Property and Information Technology Law",
+      "publisher": "Strathmore University",
+      "url": "https://cipit.strathmore.edu/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ke-9",
+      "title": "Mapping Kenya's AI Ecosystem",
+      "publisher": "KICTANet",
+      "url": "https://www.kictanet.or.ke/mapping-kenyas-ai-ecosystem/",
+      "date": "2026",
+      "category": "think_tank"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "code": "ma",
+  "name": "Morocco",
+  "shortName": "Morocco",
+  "flagEmoji": "🇲🇦",
+  "geometryType": "polygon",
+  "isoA3": ["MAR"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Government-led national AI roadmap ('Maroc IA 2030') coordinated by the Ministry of Digital Transition, without a dedicated binding AI law",
+  "accentColor": { "light": "#5B8344", "dark": "#7DAE61" },
+  "center": [-6.5, 31.8],
+  "zoom": 5.2,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Whether 'Maroc IA 2030' can deliver genuine digital and linguistic sovereignty while relying heavily on foreign AI labs like Mistral AI",
+    "Automation risk to Morocco's large offshoring/BPO sector versus the government's AI-led growth targets"
+  ],
+  "overview": "Morocco does not yet have a binding AI-specific law; AI governance instead runs through a national strategic roadmap, 'Maroc IA 2030' (branded 'AI Made in Morocco'), launched by the Ministry of Digital Transition and Administrative Reform in Rabat in January 2026. The roadmap operationalizes outcomes from a National Artificial Intelligence Conference held in July 2025 and sets goals around technological sovereignty, public trust in AI, national skills development, local innovation and balanced territorial coverage; at the launch event, Minister Amal El Fallah Seghrouchni stated the government is targeting a 100 billion dirham (about $10 billion) contribution to GDP from AI by 2030, training 200,000 AI-skilled graduates and creating 50,000 AI-related jobs. A central institutional piece is JAZARI ROOT, described as the founding node of a planned nationwide network of AI centers of excellence ('Jazari Institutes') intended to combine training, applied research, experimentation and startup incubation across all twelve regions of the country.\n\nThe current Minister of Digital Transition and Administrative Reform, Amal El Fallah Seghrouchni — herself an AI researcher by background — has pursued international partnerships to support this roadmap, including a September 2025 memorandum of understanding with France's Mistral AI, which led to the January 2026 launch of a joint Mistral AI & MTNRA research lab in Rabat focused on AI models tailored to Morocco's linguistic and cultural context, including Darija (Moroccan Arabic). Morocco's existing binding privacy framework remains Law No. 09-08 (2009) on the protection of personal data, enforced by the National Commission for the Control of Personal Data Protection (CNDP); as of early 2026, a proposed National Agency for AI Governance had reportedly been discussed as a coordinating body with CNDP on AI-related data processing, though this had not been enacted. On the research side, Mohammed VI Polytechnic University (UM6P), through its 'AI Movement' center (a UNESCO Category II institute) and one of Africa's most powerful supercomputers, is the country's most prominent AI research hub.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "National AI roadmap launched, no binding AI-specific law yet",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Strategic roadmap ('Maroc IA 2030', launched January 2026) rather than binding regulation; existing data-processing rules run through the 2009 data protection law (09-08)",
+    "latestMajorUpdate": "Launch of the 'Maroc IA 2030' roadmap and the JAZARI ROOT institute (January 2026), followed by the Mistral AI & MTNRA joint research lab in Rabat",
+    "governmentInvolvement": "High — the roadmap is coordinated by the Ministry of Digital Transition and Administrative Reform, with the minister personally an AI researcher by background",
+    "industrialStrategy": "Government-stated target of roughly $10 billion in AI-driven GDP contribution and 50,000 new AI jobs by 2030, anchored by a planned nationwide network of Jazari Institutes and UM6P's existing 'AI Movement' research center",
+    "internationalPartnerships": "September 2025 memorandum of understanding and January 2026 joint research lab with France's Mistral AI, focused on AI models for Darija and Moroccan cultural context; earlier exploratory talks with OpenAI",
+    "primaryPolicyFocus": "Standing up the Jazari Institute network and building Darija/Arabic/Amazigh-capable AI models while pursuing digital sovereignty goals"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Morocco moved from exploratory ambitions (a 2023 statement of intent to build a 'dedicated AI system') to a formal national roadmap in January 2026, with concrete institutional follow-through in the form of the JAZARI ROOT institute and the Mistral AI & MTNRA joint lab. The roadmap remains a strategic and industrial-policy document rather than binding regulation, and a reported proposal for a National Agency for AI Governance had not been enacted as of mid-2026, so Morocco's approach continues to rely on its pre-existing 2009 data protection law for anything with binding legal force."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Ministry of Digital Transition and Administrative Reform officially launches the 'Maroc IA 2030' national AI roadmap and the JAZARI ROOT institute in Rabat, operationalizing the July 2025 National Artificial Intelligence Conference.",
+      "date": "2026-01-12",
+      "sourceIds": ["ma-1", "ma-2", "ma-12"],
+      "severity": "major"
+    },
+    {
+      "text": "Mistral AI and Morocco's MTNRA (Ministry of Digital Transition and Administrative Reform) officially launch a joint AI research lab in Rabat focused on cultural- and linguistic-tailored AI models, including Darija, building on a September 2025 MOU.",
+      "date": "2026-01",
+      "sourceIds": ["ma-3", "ma-1"]
+    },
+    {
+      "text": "African Center for Strategic Studies and Digitalization report projects that AI-driven automation could put over 1.3 million net Moroccan jobs at risk by 2030 (roughly 1.5 million jobs facing direct automation pressure, offset by about 180,000 new digital roles), with BPO/offshoring, banking/insurance, automotive and textile sectors most exposed.",
+      "date": "2026-04-23",
+      "sourceIds": ["ma-4"]
+    },
+    {
+      "text": "Minister Ghita Mezzour (then Minister Delegate for Digital Transition) meets OpenAI COO Brad Lightcap in San Francisco to discuss potential AI research cooperation tailored to Moroccan needs.",
+      "date": "2023-10",
+      "sourceIds": ["ma-5"]
+    },
+    {
+      "text": "Amal El Fallah Seghrouchni, an AI researcher, is appointed Minister Delegate to the Head of Government in charge of Digital Transition and Administrative Reform, succeeding Ghita Mezzour.",
+      "date": "2024-10",
+      "sourceIds": ["ma-6"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Law No. 09-08 on the Protection of Individuals with Regard to the Processing of Personal Data",
+      "status": "in_force",
+      "summary": "Morocco's principal binding data-protection law, enacted 18 February 2009, enforced by the National Commission for the Control of Personal Data Protection (CNDP). Applies to AI systems that process personal data but is not AI-specific.",
+      "sourceIds": ["ma-7"]
+    },
+    {
+      "title": "'Maroc IA 2030' national AI roadmap",
+      "status": "proposed",
+      "summary": "Strategic (non-binding) roadmap launched January 2026 by the Ministry of Digital Transition and Administrative Reform, targeting digital sovereignty, AI skills development, local innovation and territorial coverage, anchored by the JAZARI ROOT institute and planned nationwide Jazari Institutes network.",
+      "sourceIds": ["ma-1", "ma-2", "ma-12"]
+    },
+    {
+      "title": "Proposed National Agency for AI Governance",
+      "status": "proposed",
+      "summary": "Reported proposal for a dedicated AI governance agency intended to coordinate with the CNDP on AI-related data processing; described in legal commentary as under discussion in early 2026 but not yet enacted into law.",
+      "sourceIds": ["ma-8"],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Mohammed VI Polytechnic University (UM6P), a private non-profit research university founded in 2013 near Marrakesh with a campus network extending to Rabat, is among Morocco's most prominent AI research institutions. Its 'AI Movement' center was granted UNESCO Category II status in 2023, and UM6P's supercomputer reportedly reached around 98th in the global Top500 ranking in 2020 and was said to be first in Africa for computing power at that time; by June 2025 the same machine's ranking had fallen to roughly 356th globally as other systems came online elsewhere, so its standing should be read as a 2020 snapshot rather than a current one, and neither figure has been independently re-verified here. UM6P also runs its own venture arm, UM6P Ventures, which together with Al Mada Ventures accounted for roughly 70% of Moroccan startup funding deployed in 2024. Beyond UM6P, Morocco's broader public-university AI research base appears less prominent in available English-language reporting.",
+    "sourceIds": ["ma-9", "ma-10"]
+  },
+  "companies": [
+    {
+      "name": "UM6P Ventures",
+      "description": "Venture capital arm of Mohammed VI Polytechnic University, running Digital Transformation and Deeptech Ventures funds supporting pre-seed and seed-stage Moroccan startups in AgriTech, HealthTech, AI and cybersecurity.",
+      "url": "https://um6pventures.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "UM6P supercomputing infrastructure",
+        "description": "High-performance computing cluster operated by Mohammed VI Polytechnic University, reported in one industry ranking as one of the most powerful supercomputers in Africa; primarily used for university and applied research rather than as commercial public cloud infrastructure."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Mohammed VI Polytechnic University (UM6P)",
+      "description": "Private non-profit research university founded in 2013, based in Benguerir near Marrakesh with an additional campus in Rabat; hosts the 'AI Movement' (Ai movement) center, a UNESCO Category II institute for AI and data science, and operates a major supercomputing cluster.",
+      "url": "https://um6p.ma",
+      "aliases": ["University Mohammed VI Polytechnic"]
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digital Transition and Administrative Reform (MTNRA)",
+      "description": "Lead ministry for Morocco's AI strategy, having launched the 'Maroc IA 2030' roadmap and the Mistral AI & MTNRA joint research lab; formerly named the Ministry Delegate for Digital Transition and Administrative Reform.",
+      "url": "https://www.mtnra.gov.ma"
+    },
+    {
+      "name": "National Commission for the Control of Personal Data Protection (CNDP)",
+      "description": "Autonomous administrative authority responsible for enforcing Morocco's 2009 data protection law (09-08), including as it applies to AI systems processing personal data.",
+      "url": "https://www.cndp.ma"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Amal El Fallah Seghrouchni",
+      "role": "Minister Delegate to the Head of Government in charge of Digital Transition and Administrative Reform",
+      "affiliation": "Government of Morocco",
+      "category": "government",
+      "url": "https://en.wikipedia.org/wiki/Amal_El_Fallah_Seghrouchni"
+    },
+    {
+      "name": "Ghita Mezzour",
+      "role": "Former Minister Delegate for Digital Transition and Administrative Reform (Oct 2021–Oct 2024)",
+      "affiliation": "Government of Morocco (former)",
+      "category": "government",
+      "url": "https://en.wikipedia.org/wiki/Ghita_Mezzour"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Amal El Fallah Seghrouchni",
+      "type": "person",
+      "role": "Minister leading 'Maroc IA 2030' and the Mistral AI partnership; an AI researcher by academic background, giving her portfolio unusual technical depth among African digital ministers.",
+      "category": "government",
+      "url": "https://en.wikipedia.org/wiki/Amal_El_Fallah_Seghrouchni"
+    },
+    {
+      "name": "UM6P / AI Movement",
+      "type": "organization",
+      "role": "Among Morocco's leading AI research centers and a UNESCO Category II institute; a bellwether for Moroccan and broader Francophone-African AI research output.",
+      "category": "university",
+      "url": "https://aim.um6p.ma/en/home/"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Ministry of Digital Transition and Administrative Reform", "type": "government" },
+    { "label": "CNDP", "type": "agency" },
+    { "label": "UM6P / AI Movement", "type": "research" },
+    { "label": "Mistral AI & MTNRA lab", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI-specific law", "note": "Morocco has no binding AI-specific legislation; 'Maroc IA 2030' is a strategic roadmap and a proposed National Agency for AI Governance had not been enacted as of mid-2026." },
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Morocco; the Mistral AI & MTNRA lab is a joint research collaboration with a French lab rather than an independent Moroccan frontier developer." },
+    { "area": "Public data on Jazari Institutes rollout", "note": "Beyond the JAZARI ROOT launch, public reporting on the pace and funding of the planned regional Jazari Institutes network was limited as of mid-2026; treat rollout claims with some caution." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether 'Maroc IA 2030' can deliver genuine digital and linguistic sovereignty while relying heavily on foreign AI labs like Mistral AI",
+      "category": "government",
+      "summary": "Morocco's roadmap explicitly frames 'technological sovereignty' as a core goal, yet its most visible flagship project to date is a joint research lab with a French AI company.",
+      "expanded": "The Mistral AI & MTNRA lab is framed by officials as building Moroccan capacity to develop AI models attuned to Darija and Moroccan cultural context, and Minister El Fallah Seghrouchni has also held exploratory talks with OpenAI. Some observers see this as a pragmatic way to accelerate local capability by partnering with an established lab rather than building frontier AI capacity from scratch; others question whether a roadmap centered on partnerships with foreign labs can simultaneously deliver on stated goals of reducing technological dependence. This tension has not been resolved in available reporting and is likely to recur as the Jazari Institutes network develops.",
+      "sourceIds": ["ma-3", "ma-1"]
+    },
+    {
+      "topic": "Automation risk to Morocco's large offshoring/BPO sector versus the government's AI-led growth targets",
+      "category": "industry",
+      "summary": "A 2026 report projects that AI-driven automation could put over 1.3 million net Moroccan jobs at risk by 2030, concentrated in the offshoring/BPO sector that has been a pillar of Morocco's economic strategy.",
+      "expanded": "The April 2026 report from the African Center for Strategic Studies and Digitalization estimated roughly 1.5 million Moroccan jobs facing direct automation exposure by 2030 (offset by only around 180,000 new digital roles), with the business-process-outsourcing/offshoring sector — long promoted by the government as a source of employment — showing around 30% exposure, alongside meaningful exposure in banking/insurance, automotive and textiles. This sits in some tension with 'Maroc IA 2030's' framing of AI primarily as a growth and competitiveness opportunity; the government has not yet published a detailed public response specifically addressing the report's job-displacement projections, though officials have periodically referenced upgrading the offshoring sector toward higher-value, AI-enabled services as a mitigation strategy.",
+      "sourceIds": ["ma-4", "ma-11"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Morocco Launches 'Maroc IA 2030' Roadmap To Strengthen AI Governance, Digital Sovereignty",
+      "type": "news",
+      "author": "Morocco World News",
+      "url": "https://www.moroccoworldnews.com/2026/01/274765/morocco-launches-maroc-ia-2030-roadmap-to-strengthen-ai-governance-digital-sovereignty/"
+    },
+    {
+      "title": "AI Law in Morocco: Legal Framework and Key Issues",
+      "type": "think_tank",
+      "author": "Naim Bentaleb",
+      "url": "https://www.naimbentaleb.com/blog/2026-04-29-droit-intelligence-artificielle-maroc-cadre-legal/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ma-1",
+      "title": "Morocco Launches 'Maroc IA 2030' Roadmap To Strengthen AI Governance, Digital Sovereignty",
+      "publisher": "Morocco World News",
+      "url": "https://www.moroccoworldnews.com/2026/01/274765/morocco-launches-maroc-ia-2030-roadmap-to-strengthen-ai-governance-digital-sovereignty/",
+      "date": "2026-01-12",
+      "category": "news"
+    },
+    {
+      "id": "ma-12",
+      "title": "New 'AI Made in Morocco' strategy aims for $10 billion impact",
+      "publisher": "Middle East AI News",
+      "url": "https://www.middleeastainews.com/p/new-ai-made-in-morocco-strategy",
+      "date": "2026-01-13",
+      "category": "news"
+    },
+    {
+      "id": "ma-2",
+      "title": "Morocco sets out national AI roadmap to 2030",
+      "publisher": "CADE (Civil Society Alliances for Digital Empowerment)",
+      "url": "https://cadeproject.org/updates/morocco-sets-out-national-ai-roadmap-to-2030/",
+      "date": "2026-01",
+      "category": "think_tank"
+    },
+    {
+      "id": "ma-3",
+      "title": "AI Made in Morocco: Mistral AI Partners with MTNRA on Cultural-Linguistic AI Models",
+      "publisher": "Ecofin Agency",
+      "url": "https://www.ecofinagency.com/news-digital/1601-51978-ai-made-in-morocco-mistral-ai-partners-with-mtnra-on-cultural-linguistic-ai-models",
+      "date": "2026-01",
+      "category": "news"
+    },
+    {
+      "id": "ma-4",
+      "title": "AI to Put Over 1.3 Million Moroccan Jobs at Risk by 2030",
+      "publisher": "Morocco World News",
+      "url": "https://www.moroccoworldnews.com/2026/04/288461/ai-to-put-over-1-3-million-moroccan-jobs-at-risk-by-2030/",
+      "date": "2026-04-23",
+      "category": "news"
+    },
+    {
+      "id": "ma-5",
+      "title": "Morocco's digital transition minister engages OpenAI in AI collaboration talks",
+      "publisher": "Hespress English",
+      "url": "https://en.hespress.com/84818-moroccos-digital-transition-minister-engages-openai-in-ai-collaboration-talks.html",
+      "date": "2023-10",
+      "category": "news"
+    },
+    {
+      "id": "ma-6",
+      "title": "Amal El Fallah Seghrouchni",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amal_El_Fallah_Seghrouchni",
+      "date": "2024-10",
+      "category": "news"
+    },
+    {
+      "id": "ma-7",
+      "title": "Law No. 09-08 on the Protection of Individuals with Regard to the Processing of Personal Data",
+      "publisher": "Regulations.AI",
+      "url": "https://regulations.ai/regulations/morocco-2009-data-protection-law",
+      "date": "2009-02",
+      "category": "government"
+    },
+    {
+      "id": "ma-8",
+      "title": "AI Law in Morocco: Legal Framework and Key Issues",
+      "publisher": "Naim Bentaleb",
+      "url": "https://www.naimbentaleb.com/blog/2026-04-29-droit-intelligence-artificielle-maroc-cadre-legal/",
+      "date": "2026-04-29",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "ma-9",
+      "title": "Morocco's Ai Movement — UM6P Receives UNESCO Category II Status in Paris",
+      "publisher": "Morocco World News",
+      "url": "https://www.moroccoworldnews.com/2023/11/26814/moroccos-ai-movement-um6p-receives-unesco-category-ii-status-in-paris/",
+      "date": "2023-11",
+      "category": "news"
+    },
+    {
+      "id": "ma-10",
+      "title": "Morocco rising: Inside the Kingdom's startup and VC revolution",
+      "publisher": "African Business",
+      "url": "https://african.business/2026/03/innov-africa-deals/morocco-rising-inside-the-kingdoms-startup-and-vc-revolution",
+      "date": "2026-03",
+      "category": "news"
+    },
+    {
+      "id": "ma-11",
+      "title": "Morocco's offshoring sector makes a comeback, but don't expect it to last",
+      "publisher": "Hespress English",
+      "url": "https://en.hespress.com/83988-moroccos-offshoring-sector-makes-a-comeback-but-dont-expect-it-to-last.html",
+      "category": "news"
+    }
+  ]
+}

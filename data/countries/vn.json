@@ -1,0 +1,328 @@
+{
+  "code": "vn",
+  "name": "Vietnam",
+  "shortName": "Vietnam",
+  "flagEmoji": "🇻🇳",
+  "geometryType": "polygon",
+  "isoA3": ["VNM"],
+  "region": "Southeast Asia",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Binding, risk-based national AI law, among the first standalone AI statutes in Southeast Asia",
+  "accentColor": { "light": "#504483", "dark": "#7061AE" },
+  "center": [108.0, 14.5],
+  "zoom": 4.5,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "AI-driven job displacement in Vietnam's IT workforce vs. talent shortages",
+    "Building a self-reliant 'Make in Vietnam' AI ecosystem vs. dependence on Nvidia and foreign partners",
+    "Enforcement capacity for a binding, risk-tiered AI Law taking effect March 2026"
+  ],
+  "overview": "Vietnam has moved faster than most Southeast Asian peers toward binding AI regulation. The Politburo's Resolution No. 57-NQ/TW (signed December 22, 2024) elevated science, technology, innovation and digital transformation to a top national strategic priority, with an explicit goal of ranking among the top three ASEAN countries in AI research and development by 2030; a government Action Program (Resolution 03/NQ-CP, January 9, 2025) followed to implement it. Building on this, the National Assembly adopted Law No. 134/2025/QH15 on Artificial Intelligence on December 10, 2025 — Vietnam's first standalone AI statute — which took effect March 1, 2026. The law, comprising 35 articles across 8 chapters, introduces a three-tier risk classification (high/medium/low) with pre-market approval for high-risk systems in sectors like finance, healthcare and justice, mandatory data-source disclosure and watermarking for generative AI, and penalties of up to VND 2 billion for violations.\n\nOn the industrial side, Vietnam signed a cooperation agreement with Nvidia in December 2024 to establish an AI research and development centre and support data-centre buildout (including at state-owned Viettel), part of a reported $250 million Nvidia commitment; Nvidia separately acquired Vingroup's AI healthcare unit VinBrain, and FPT Corporation announced a $200 million AI 'factory' with Nvidia in 2025. Domestic research strength is anchored by VinAI Research (founded 2019, part of Vingroup), described in some rankings as among the world's top 20 AI research organisations, alongside university-based AI institutes such as VNU's AI4SD.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Binding, risk-tiered AI law now in force",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Law No. 134/2025/QH15 on Artificial Intelligence — a binding, three-tier risk-based framework in force since March 1, 2026",
+    "latestMajorUpdate": "Law on Artificial Intelligence (134/2025/QH15) takes effect March 1, 2026",
+    "governmentInvolvement": "High and centrally directed — Politburo-level Resolution 57 frames AI as a top national strategic priority, translated into a binding national AI law and coordinated ministry/province implementation plans",
+    "industrialStrategy": "Building a 'Make in Vietnam' domestic AI ecosystem (VinAI, FPT, Viettel) alongside large partnerships with Nvidia on R&D centres and AI 'factories', with a stated target of three major data centres and three AI centres by 2030",
+    "internationalPartnerships": "December 2024 cooperation agreement with Nvidia on AI R&D and data centres; broader semiconductor-industry ambitions targeting over $100 billion in annual revenue by 2050",
+    "primaryPolicyFocus": "Implementing the new AI Law's risk-classification and registration requirements, and building out domestic AI compute and talent, appear to be near-term priorities based on recent government statements"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Vietnam has moved unusually quickly among Southeast Asian countries from strategic framing (Resolution 57, December 2024) to a binding, risk-tiered AI statute in force since March 2026 — a notably faster and firmer trajectory than most regional peers, which remain at the guideline or draft-bill stage. Implementation capacity and enforcement consistency for the new law's pre-market approval and audit requirements remain to be tested in practice."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Politburo issues Resolution No. 57-NQ/TW, elevating science, technology, innovation and digital transformation to a top national strategic breakthrough, with a goal of ranking Vietnam among ASEAN's top three countries in AI R&D by 2030.",
+      "date": "2024-12-22",
+      "sourceIds": ["vn-1"],
+      "severity": "major"
+    },
+    {
+      "text": "Vietnam signs a cooperation agreement with Nvidia to establish an AI research and development centre and support AI data-centre development (including with state-owned Viettel), as part of a reported $250 million Nvidia commitment; Nvidia separately acquires Vingroup's AI healthcare unit VinBrain.",
+      "date": "2024-12-05",
+      "sourceIds": ["vn-2"]
+    },
+    {
+      "text": "Government issues Action Program Resolution No. 03/NQ-CP to implement Resolution 57, followed by ministry- and province-level implementation plans and steering structures.",
+      "date": "2025-01-09",
+      "sourceIds": ["vn-3"]
+    },
+    {
+      "text": "FPT Corporation and Nvidia announce plans to build a $200 million AI 'factory' using Nvidia GPUs and software.",
+      "date": "2025-04",
+      "sourceIds": ["vn-4"]
+    },
+    {
+      "text": "National Assembly adopts Law No. 134/2025/QH15 on Artificial Intelligence, Vietnam's first standalone AI statute, which takes effect March 1, 2026 with a three-tier risk classification and penalties of up to VND 2 billion for violations.",
+      "date": "2025-12-10",
+      "sourceIds": ["vn-5", "vn-6"],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Resolution No. 57-NQ/TW",
+      "status": "in_force",
+      "summary": "Politburo resolution (signed December 22, 2024) framing science, technology, innovation and digital transformation as Vietnam's top strategic breakthrough, with an explicit AI R&D leadership target within ASEAN by 2030.",
+      "sourceIds": ["vn-1"]
+    },
+    {
+      "title": "Law on Artificial Intelligence (No. 134/2025/QH15)",
+      "status": "in_force",
+      "summary": "Vietnam's first standalone AI law, adopted December 10, 2025 and in force since March 1, 2026. Establishes a three-tier risk classification (high/medium/low), pre-market approval and registration for high-risk AI in sectors like finance, healthcare, education, infrastructure and justice, mandatory data-source disclosure and watermarking for generative AI outputs, prohibited uses (e.g. manipulation causing serious harm, exploitation of vulnerable groups), and penalties of up to VND 2 billion for non-compliance.",
+      "officialUrl": "https://english.luatvietnam.vn/law-no-134-2025-qh15-dated-december-10-2025-of-the-national-assembly-on-artificial-intelligence-422299-doc1.html",
+      "sourceIds": ["vn-5", "vn-6"]
+    },
+    {
+      "title": "Decision No. 1131/QD-TTg (Strategic Technologies List)",
+      "status": "in_force",
+      "summary": "Prime Ministerial decision (June 12, 2025) listing AI as a top strategic technology and strategic technology product for national development.",
+      "sourceIds": ["vn-7"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Vietnam's most prominent dedicated AI research organisation is VinAI Research, founded in 2019 as part of the Vingroup conglomerate, headquartered in Hanoi with additional offices in Ho Chi Minh City, the US, Europe and Australia; some industry rankings have placed it among the world's top 20 AI research-based organisations, and it draws researchers with prior experience at Google DeepMind, Adobe, Stanford Research Institute and other major labs, though such rankings have not been independently re-verified here. University-based research includes the VNU Institute for Applied Artificial Intelligence in Sustainable Development (VNU-AI4SD), established May 2025 under Vietnam National University, Hanoi, and a 2026 partnership between FPT, VNU Hanoi's Quantum AI & Cyber Security Institute (QACI), and the University of Engineering and Technology focused on AI, quantum computing and cybersecurity talent development.",
+    "sourceIds": ["vn-8", "vn-9"]
+  },
+  "companies": [
+    {
+      "name": "VinAI Research",
+      "description": "AI research organisation founded in 2019 as part of Vingroup, headquartered in Hanoi with offices in Ho Chi Minh City, the US, Europe and Australia; reported in some industry rankings among the world's top 20 AI research-based companies.",
+      "url": "https://www.vinai.io",
+      "needsVerification": true
+    },
+    {
+      "name": "FPT Corporation",
+      "description": "Vietnam's largest IT services and technology group; announced a $200 million AI 'factory' with Nvidia in 2025 and has separately committed roughly $100 million toward AI, quantum computing and cybersecurity capability-building.",
+      "url": "https://fpt.com"
+    },
+    {
+      "name": "Viettel",
+      "description": "State-owned telecommunications group receiving Nvidia technical support for AI data-centre development as part of Vietnam's December 2024 cooperation agreement with Nvidia.",
+      "url": "https://www.viettel.com.vn"
+    },
+    {
+      "name": "VinBrain",
+      "description": "Vingroup's AI healthcare startup, acquired by Nvidia as part of its expanded Vietnam presence.",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Nvidia (AI R&D Center / partnerships)",
+        "description": "Established a Vietnam AI research and development centre following a December 2024 cooperation agreement with the government, alongside technical support for Viettel's data-centre buildout and a $200 million AI factory partnership with FPT."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Vietnam National University, Hanoi (VNU) — AI4SD",
+      "description": "Institute for Applied Artificial Intelligence in Sustainable Development, established May 2025 under VNU Hanoi.",
+      "url": "https://ai4sd.vnu.edu.vn/"
+    },
+    {
+      "name": "VNU University of Engineering and Technology",
+      "description": "Partnered with FPT and VNU Hanoi's Quantum AI & Cyber Security Institute (QACI) in 2026 to develop AI, quantum computing and cybersecurity talent.",
+      "url": "https://uet.vnu.edu.vn"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Vietnam Institute for Economic and Policy Research (VEPR)",
+      "description": "Independent Vietnamese economic policy research institute; covers technology and digital-economy policy among broader economic research, though dedicated AI-governance publications are limited.",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Science and Technology",
+      "description": "Ministry responsible for AI strategy and the Law on Artificial Intelligence; formed via the merger overseen initially by Minister Nguyen Manh Hung, who presented the draft AI Law to the National Assembly before Vu Hai Quan became minister in April 2026.",
+      "url": "https://english.mst.gov.vn"
+    },
+    {
+      "name": "National Assembly of Vietnam",
+      "description": "Adopted Law No. 134/2025/QH15 on Artificial Intelligence on December 10, 2025.",
+      "url": "https://quochoi.vn"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Nguyen Manh Hung",
+      "role": "Former Minister of Science and Technology (previously Minister of Information and Communications)",
+      "affiliation": "Ministry of Science and Technology, Government of Vietnam",
+      "category": "government",
+      "url": "https://english.mst.gov.vn"
+    },
+    {
+      "name": "Vu Hai Quan",
+      "role": "Minister of Science and Technology (from April 2026)",
+      "affiliation": "Ministry of Science and Technology, Government of Vietnam",
+      "category": "government",
+      "url": "https://english.mst.gov.vn",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Ministry of Science and Technology",
+      "type": "organization",
+      "role": "Lead government body for Vietnam's AI Law and national AI strategy implementation.",
+      "category": "government",
+      "url": "https://english.mst.gov.vn"
+    },
+    {
+      "name": "VinAI Research",
+      "type": "organization",
+      "role": "Vietnam's leading dedicated AI research organisation, part of Vingroup.",
+      "category": "company",
+      "url": "https://www.vinai.io"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Ministry of Science and Technology", "type": "government" },
+    { "label": "National Assembly", "type": "government" },
+    { "label": "VinAI Research", "type": "research" },
+    { "label": "FPT Corporation", "type": "company" },
+    { "label": "Viettel", "type": "company" },
+    { "label": "Nvidia (Vietnam AI R&D Center)", "type": "company" }
+  ],
+  "notableGaps": [
+    { "area": "Enforcement track record", "note": "Law No. 134/2025/QH15 took effect only in March 2026; there is not yet a public track record of enforcement actions, high-risk-system approvals, or penalty cases to assess how rigorously the law is being applied." },
+    { "area": "Independent AI-focused think tanks", "note": "Compared to some regional peers, Vietnam has fewer independent (non-government-affiliated) think tanks publishing dedicated AI-governance analysis; most authoritative commentary comes from government bodies, law firms, or industry associations rather than independent policy institutes." },
+    { "area": "Frontier foundation-model developers", "note": "No Vietnamese organisation is known to have trained a frontier-scale foundation model from scratch; VinAI and other domestic players focus on applied research and, in some cases, fine-tuning or building on existing model architectures." }
+  ],
+  "debates": [
+    {
+      "topic": "AI-driven job displacement in Vietnam's IT workforce vs. talent shortages",
+      "category": "industry",
+      "summary": "Vietnam's roughly one million IT engineers face significant AI-driven role disruption even as employers report acute shortages of AI-skilled talent.",
+      "expanded": "A mid-2025 Microsoft Vietnam report cited in local reporting estimated that as many as half of Vietnam's IT engineers may need to switch to substantially different roles because of AI, and the Vietnam Software and IT Services Association has reported some companies cutting workforce by as much as 70% after adopting AI tools. At the same time, employer surveys report that a large share of companies struggle to find suitably AI-skilled candidates even while planning to expand headcount, producing what some analysts describe as a 'K-shaped' labour market — rising demand and pay for AI-skilled workers alongside declining demand for others. The scale and permanence of these effects, and how much is genuine displacement versus role transformation, remains actively debated.",
+      "sourceIds": ["vn-10", "vn-11"]
+    },
+    {
+      "topic": "Building a self-reliant 'Make in Vietnam' AI ecosystem vs. dependence on Nvidia and foreign partners",
+      "category": "industry",
+      "summary": "Vietnam's stated ambition for a self-reliant domestic AI ecosystem under Resolution 57 coexists with heavy reliance on Nvidia for compute infrastructure, R&D centres and corporate partnerships.",
+      "expanded": "Official commentary around Resolution 57 has emphasized building a 'self-reliant and sustainable domestic AI ecosystem,' yet the concrete steps taken since December 2024 — the Nvidia AI R&D centre, Nvidia's technical support for Viettel's data centres, Nvidia's acquisition of VinBrain, and FPT's Nvidia-powered AI factory — are all built substantially around a single foreign chip and compute partner. Some domestic commentators frame this as a pragmatic bootstrapping phase toward eventual self-reliance, while others may see it as underscoring how far Vietnam's compute base remains from genuine independence.",
+      "sourceIds": ["vn-1", "vn-2", "vn-4"]
+    },
+    {
+      "topic": "Enforcement capacity for a binding, risk-tiered AI Law taking effect March 2026",
+      "category": "government",
+      "summary": "Vietnam's AI Law introduces a detailed risk-classification and pre-market-approval regime, but questions remain about the government's practical capacity to assess and audit AI systems at the scale the law envisions.",
+      "expanded": "Law 134/2025/QH15 requires mandatory government assessment and registration for high-risk AI systems in sectors like finance, healthcare, education, infrastructure and justice, alongside sample audits for medium-risk systems and incident-driven monitoring for low-risk ones. Because the law only took effect March 1, 2026, there is not yet a public record of how consistently or rigorously these classification and approval processes are being applied in practice, which is an open question for a regulatory regime this detailed and centrally administered.",
+      "sourceIds": ["vn-5", "vn-6"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Vietnam: Artificial Intelligence Law - Foundation and Outlook",
+      "type": "think_tank",
+      "author": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/02/vietnam-artificial-intelligence-law-foundation-and-outlook"
+    },
+    {
+      "title": "ILO Brief: Generative AI and Jobs in Viet Nam",
+      "type": "research",
+      "author": "International Labour Organization",
+      "url": "https://www.ilo.org/sites/default/files/2026-04/ILO%20Brief_Generative%20AI_ENG.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "id": "vn-1",
+      "title": "Resolution 57: Vietnam advances domestic AI ecosystem",
+      "publisher": "VietnamPlus",
+      "url": "https://en.vietnamplus.vn/resolution-57-vietnam-advances-domestic-ai-ecosystem-post339602.vnp",
+      "date": "2024-12-22",
+      "category": "government"
+    },
+    {
+      "id": "vn-2",
+      "title": "Nvidia Agrees to Open Vietnam AI Center in Southeast Asia Push",
+      "publisher": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2024-12-05/nvidia-agrees-to-open-vietnam-ai-center-in-southeast-asia-push",
+      "date": "2024-12-05",
+      "category": "news"
+    },
+    {
+      "id": "vn-3",
+      "title": "Resolution No. 57-NQ/TW on Breakthroughs in the Development of Science, Technology, Innovation and National Digital Transformation",
+      "publisher": "Regulations.AI",
+      "url": "https://regulations.ai/regulations/vietnam-resolution-57-digital-tech-2024",
+      "date": "2025-01",
+      "category": "government"
+    },
+    {
+      "id": "vn-4",
+      "title": "Quantum, AI, cybersecurity: FPT's $100M bet on Vietnam's tech edge",
+      "publisher": "VietnamNet",
+      "url": "https://vietnamnet.vn/en/quantum-ai-cybersecurity-fpt-s-100m-bet-on-vietnam-s-tech-edge-2489777.html",
+      "date": "2025-04",
+      "category": "news"
+    },
+    {
+      "id": "vn-5",
+      "title": "New Law on Artificial Intelligence Takes Effect on 1 March 2026",
+      "publisher": "Lexology",
+      "url": "https://www.lexology.com/library/detail.aspx?g=db227267-380c-46d6-83ea-6b4834d97b5a",
+      "date": "2026-01",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "vn-6",
+      "title": "Law No. 134/2025/QH15 dated December 10, 2025 of the National Assembly on Artificial Intelligence",
+      "publisher": "LuatVietnam",
+      "url": "https://english.luatvietnam.vn/law-no-134-2025-qh15-dated-december-10-2025-of-the-national-assembly-on-artificial-intelligence-422299-doc1.html",
+      "date": "2025-12-10",
+      "category": "government"
+    },
+    {
+      "id": "vn-7",
+      "title": "First-ever Law on Artificial Intelligence approved",
+      "publisher": "Ministry of Science and Technology (Vietnam)",
+      "url": "https://english.mst.gov.vn/first-ever-law-on-artificial-intelligence-approved-197251215231241888.htm",
+      "date": "2025-12-15",
+      "category": "government"
+    },
+    {
+      "id": "vn-8",
+      "title": "VinAI Research company profile",
+      "publisher": "LinkedIn",
+      "url": "https://vn.linkedin.com/company/vinai-research",
+      "category": "industry"
+    },
+    {
+      "id": "vn-9",
+      "title": "AI4SD - Research Institute for Artificial Intelligence Applications for Sustainable Development",
+      "publisher": "Vietnam National University, Hanoi",
+      "url": "https://ai4sd.vnu.edu.vn/",
+      "date": "2025-05",
+      "category": "research"
+    },
+    {
+      "id": "vn-10",
+      "title": "AI's impact on Việt Nam's workforce: challenges and opportunities",
+      "publisher": "Vietnam News",
+      "url": "https://vietnamnews.vn/society/1662060/ai-s-impact-on-viet-nam-s-workforce-challenges-and-opportunities.html",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "vn-11",
+      "title": "AI-ready workforce key to Vietnam's next decade, analysts say",
+      "publisher": "Vietnam Investment Review",
+      "url": "https://vir.com.vn/ai-ready-workforce-key-to-vietnams-next-decade-analysts-say-155861.html",
+      "date": "2026",
+      "category": "news"
+    }
+  ]
+}

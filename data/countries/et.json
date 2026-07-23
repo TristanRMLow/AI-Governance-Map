@@ -1,0 +1,270 @@
+{
+  "code": "et",
+  "name": "Ethiopia",
+  "shortName": "Ethiopia",
+  "flagEmoji": "🇪🇹",
+  "geometryType": "polygon",
+  "isoA3": ["ETH"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Government-led AI development coordinated through a dedicated federal AI institute, under a 2024 National AI Policy, alongside a separate 2024 data protection law",
+  "accentColor": { "light": "#837F44", "dark": "#AEA861" },
+  "center": [39.5, 8.6],
+  "zoom": 4.9,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 3,
+  "hasMajorUpdate": false,
+  "debateTopics": [
+    "Whether Ethiopia's AI ambitions can be reconciled with severe capacity gaps in data infrastructure and skilled personnel",
+    "The role of AI-amplified misinformation on social platforms during Ethiopia's ethnic and political conflicts"
+  ],
+  "overview": "Ethiopia's AI governance centers on the Ethiopian Artificial Intelligence Institute (EAII), a federal government institution first launched as an AI Center in 2020 and elevated to full institute status under Council of Ministers Regulation No. 510/2022. In June 2024, Ethiopia's Council of Ministers approved the country's first National Artificial Intelligence Policy, developed under EAII's leadership in coordination with the Ministry of Innovation and Technology, aiming to build human capacity, strengthen data and digital infrastructure, support research, and set policy directions on ethics, transparency and accountable AI use across sectors including health, finance, agriculture and security. The policy itself acknowledges significant existing gaps — including limited digital and data infrastructure, shortages of skilled personnel, weak data governance, and the absence of comprehensive legal and ethical frameworks — that it aims to close over time rather than problems already solved.\n\nEAII, under Director-General Worku Gachena, has focused heavily on applied AI projects with direct government backing, including a patented AI system for detecting coffee and other crop diseases and an AI-assisted breast-cancer detection tool in testing, and was designated an 'African Artificial Intelligence Center of Excellence' in November 2023. Ethiopia's broader digital strategy — Digital Ethiopia 2030, building on the earlier Digital Ethiopia 2025 framework — situates AI as one of several priorities alongside data protection, cybersecurity, digital payments and digital identity (the Fayda national ID). Separately, Ethiopia enacted its first comprehensive data protection law, Personal Data Protection Proclamation No. 1321/2024, which entered into force in July 2024 and is enforced by the Ethiopian Communications Authority. As host of the African Union headquarters in Addis Ababa, Ethiopia is also a natural venue for continental AI governance discussions tied to the AU's Continental AI Strategy (endorsed July 2024), though the Continental Strategy itself is an AU Commission document rather than an Ethiopian national one.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Government-led AI development strategy, policy framework still maturing",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Non-binding National AI Policy (2024) setting strategic direction, paired with a separate binding data protection law (Proclamation No. 1321/2024)",
+    "latestMajorUpdate": "Council of Ministers approves the Medemer Artificial Intelligence University (March 2026), a planned dedicated public AI university",
+    "governmentInvolvement": "High — AI strategy is coordinated centrally through the Ethiopian Artificial Intelligence Institute (EAII) and the Ministry of Innovation and Technology, with direct backing from Prime Minister Abiy Ahmed",
+    "industrialStrategy": "EAII-led applied AI projects in agriculture and health, the '5 Million Ethiopian Coders' digital-skills program launched with the UAE, and a planned dedicated AI university (Medemer)",
+    "internationalPartnerships": "5 Million Ethiopian Coders initiative launched with the United Arab Emirates (2024); Addis Ababa's role as African Union headquarters ties Ethiopia into the AU's Continental AI Strategy discussions",
+    "primaryPolicyFocus": "Building AI skills and applied government use-cases (health, agriculture) while closing acknowledged infrastructure and data-governance gaps identified in the 2024 policy"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Ethiopia continues to build out AI institutions and applied projects under EAII following the 2024 National AI Policy, with the March 2026 Council of Ministers approval of a dedicated Medemer Artificial Intelligence University representing a further institutional step. Ethiopia's approach remains oriented toward capacity-building and government-directed applied use-cases rather than binding regulation of AI systems, and the policy's own stated gaps in infrastructure, skills and data governance appear only partly addressed as of mid-2026."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Ethiopia's Council of Ministers formally approves the Medemer Artificial Intelligence University, a proposed public university in Addis Ababa dedicated to AI, machine learning, data science and robotics, under Proclamation No. 1294/2015; not yet operational as of mid-2026.",
+      "date": "2026-03-02",
+      "sourceIds": ["et-1"],
+      "needsVerification": true
+    },
+    {
+      "text": "EAII Director-General Worku Gachena presents Ethiopia's AI research, development and implementation efforts at the SelectUSA Investment Summit in the United States.",
+      "date": "2026-05",
+      "sourceIds": ["et-2"]
+    },
+    {
+      "text": "Ethiopia's Personal Data Protection Proclamation No. 1321/2024 enters into force, establishing the country's first comprehensive data protection regime with the Ethiopian Communications Authority as supervisory authority.",
+      "date": "2024-07-24",
+      "sourceIds": ["et-4"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Artificial Intelligence Policy",
+      "status": "in_force",
+      "summary": "Approved by the Council of Ministers on 27 June 2024, Ethiopia's first national AI policy, developed under EAII leadership with the Ministry of Innovation and Technology. Sets direction on capacity building, data and digital infrastructure, research and innovation, and ethical/legal frameworks, while explicitly acknowledging existing gaps in each of these areas. Non-binding.",
+      "sourceIds": ["et-5", "et-6"]
+    },
+    {
+      "title": "Personal Data Protection Proclamation No. 1321/2024",
+      "status": "in_force",
+      "summary": "Ethiopia's first comprehensive data protection law, adopted 4 April 2024 and in force since 24 July 2024, modeled partly on the EU GDPR. Covers consent, data-subject rights, cross-border transfer restrictions and a 72-hour breach-notification requirement; enforced by the Ethiopian Communications Authority. Not AI-specific, but the main binding legal instrument touching automated processing and profiling.",
+      "sourceIds": ["et-4"]
+    },
+    {
+      "title": "Artificial Intelligence Institute Establishment Regulation No. 510/2022",
+      "status": "in_force",
+      "summary": "Council of Ministers regulation formally establishing the Ethiopian Artificial Intelligence Institute (EAII) as an autonomous federal institution, building on an AI Center first launched in 2020.",
+      "sourceIds": ["et-7"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Ethiopia's AI research is led mainly by the government-backed Ethiopian Artificial Intelligence Institute (EAII), which runs a Tier III data center and applied research programs in agriculture (crop and livestock disease detection) and health (breast-cancer screening), and was designated an African Artificial Intelligence Center of Excellence in November 2023. On the private side, iCog Labs, founded in Addis Ababa around 2012/2013 by Getnet Aseffa with support from researcher Ben Goertzel, is described as East Africa's first private AI and robotics R&D company and contributed software to the Sophia humanoid robot project; it partners with organizations including SingularityNET and the OpenCog Foundation. University-based AI research capacity, including at Addis Ababa University and Addis Ababa Science and Technology University, appears comparatively limited relative to EAII's government-driven programs, and the planned Medemer AI University (approved March 2026 but not yet operational) is intended to help close that gap.",
+    "sourceIds": ["et-7", "et-8"]
+  },
+  "companies": [
+    {
+      "name": "iCog Labs",
+      "description": "Addis Ababa-based AI and robotics R&D company, among the first private AI companies in East Africa; works on machine learning, computational linguistics, computer vision and cognitive robotics, and contributed to the Sophia humanoid robot project. Partners with international collaborators including SingularityNET and the OpenCog Foundation.",
+      "url": "https://icog-labs.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "EAII Tier III data center",
+        "description": "Government-operated data center run by the Ethiopian Artificial Intelligence Institute, providing hosting for government agencies and financial institutions; not comparable in scale to major international hyperscalers."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Medemer Artificial Intelligence University",
+      "description": "Proposed public university in Addis Ababa dedicated to AI, machine learning, data science, robotics and intelligent systems, approved by the Council of Ministers in March 2026 under Proclamation No. 1294/2015. Not yet operational as of mid-2026; officials have indicated a target of roughly 1,000 annual student enrollments once running.",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Ethiopian Artificial Intelligence Institute (EAII)",
+      "description": "Autonomous federal institution leading Ethiopia's AI policy, research and applied projects; established as an AI Center in 2020/2021 and elevated to institute status under Regulation No. 510/2022. Designated an African Artificial Intelligence Center of Excellence in November 2023.",
+      "url": "https://www.aii.et",
+      "needsVerification": true
+    },
+    {
+      "name": "Ministry of Innovation and Technology (MInT)",
+      "description": "Federal ministry that coordinated development of the 2024 National AI Policy alongside EAII and oversees Ethiopia's broader digital transformation agenda, including the 5 Million Ethiopian Coders initiative.",
+      "url": "http://www.mint.gov.et"
+    },
+    {
+      "name": "Ethiopian Communications Authority (ECA)",
+      "description": "Telecommunications regulator designated as the supervisory authority for Ethiopia's Personal Data Protection Proclamation No. 1321/2024.",
+      "url": "https://eca.et"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Worku Gachena",
+      "role": "Director-General",
+      "affiliation": "Ethiopian Artificial Intelligence Institute (EAII)",
+      "category": "government",
+      "needsVerification": true
+    },
+    {
+      "name": "Abiy Ahmed",
+      "role": "Prime Minister",
+      "affiliation": "Government of Ethiopia",
+      "category": "government",
+      "url": "https://www.pmo.gov.et"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Ethiopian Artificial Intelligence Institute (EAII)",
+      "type": "organization",
+      "role": "Central government body for Ethiopia's AI policy, applied research and international engagement (e.g., SelectUSA Investment Summit appearances).",
+      "category": "government",
+      "url": "https://www.aii.et"
+    },
+    {
+      "name": "iCog Labs",
+      "type": "organization",
+      "role": "Longest-running private AI/robotics R&D company in Ethiopia; a useful bellwether for the private, non-government AI sector.",
+      "category": "company",
+      "url": "https://icog-labs.com"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Ethiopian Artificial Intelligence Institute (EAII)", "type": "agency" },
+    { "label": "Ministry of Innovation and Technology", "type": "government" },
+    { "label": "Ethiopian Communications Authority", "type": "agency" },
+    { "label": "iCog Labs", "type": "company" },
+    { "label": "African Union Commission", "type": "government" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI-specific regulation", "note": "Ethiopia has no binding AI-specific law; the 2024 National AI Policy sets strategic direction but is not itself enforceable, and the policy document explicitly names the absence of comprehensive legal and ethical AI frameworks as a current gap." },
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Ethiopia; domestic private-sector AI activity is led by smaller applied R&D firms such as iCog Labs." },
+    { "area": "Data and digital infrastructure", "note": "The National AI Policy itself cites limited digital and data infrastructure and a shortage of skilled AI personnel as ongoing constraints on implementation, alongside broader national connectivity and electricity-access gaps." },
+    { "area": "EAII leadership confirmation", "note": "Reporting on the EAII director-general's name varies across sources (Worku Gachena in 2026 coverage vs. other names in earlier reporting); this should be independently verified before being treated as authoritative." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether Ethiopia's AI ambitions can be reconciled with severe capacity gaps in data infrastructure and skilled personnel",
+      "category": "government",
+      "summary": "Ethiopia's own 2024 National AI Policy acknowledges that limited digital infrastructure, weak data governance and a shortage of skilled personnel are significant constraints on its AI ambitions.",
+      "expanded": "Programs like the 5 Million Ethiopian Coders initiative (launched 2024 with UAE backing) and the planned Medemer AI University aim to close the skills gap, and EAII has delivered some notable applied projects (crop-disease detection, breast-cancer screening tools). But independent assessments and the policy document itself point to continuing gaps in electricity access, broadband penetration, data governance capacity and the depth of Ethiopia's AI talent pool outside EAII. Whether current investment levels and timelines are sufficient to meet the government's 2030 ambitions for AI-driven development remains a genuinely open question among observers, rather than one with a settled answer.",
+      "sourceIds": ["et-5", "et-6"]
+    },
+    {
+      "topic": "The role of AI-amplified misinformation on social platforms during Ethiopia's ethnic and political conflicts",
+      "category": "government",
+      "summary": "Independent reporting and a 2023 Amnesty International investigation found that Meta's content-moderation systems, including automated tools, failed to adequately catch hate speech in Amharic and other Ethiopian languages during the Tigray war, with real-world consequences.",
+      "expanded": "Ethiopian-born AI ethics researcher Timnit Gebru and others have highlighted how automated moderation systems trained primarily on high-resource languages struggle with Ethiopia's linguistic diversity, allowing harmful content to circulate largely unchecked during periods of conflict. This is a debate about foreign platforms' AI systems rather than an Ethiopian government AI policy per se, but it bears directly on how AI technologies interact with Ethiopia's fragile inter-ethnic dynamics, and has fed into broader domestic conversations (including ongoing fact-checking efforts) about the risks of under-moderated AI-driven platforms operating in Ethiopian languages.",
+      "sourceIds": ["et-9", "et-10"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "The Landscape of Artificial Intelligence Implementation in Ethiopia",
+      "type": "academic",
+      "author": "ASRIC",
+      "url": "https://asric.africa/sites/default/files/2025-07/NS%202023_Vol.%203%20Issue2_19.pdf"
+    },
+    {
+      "title": "Is Ethiopia Ready for the Artificial Intelligence Era?",
+      "type": "podcast",
+      "author": "AfriPoli",
+      "url": "https://afripoli.org/podcast/is-ethiopia-ready-for-the-artificial-intelligence-era"
+    }
+  ],
+  "sources": [
+    {
+      "id": "et-1",
+      "title": "Medemer Artificial Intelligence University",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Medemer_Artificial_Intelligence_University",
+      "date": "2026-03",
+      "category": "news"
+    },
+    {
+      "id": "et-2",
+      "title": "Ethiopian Artificial Intelligence Institute showcases AI capabilities at SelectUSA Investment Summit",
+      "publisher": "Tech Review Africa",
+      "url": "https://techreviewafrica.com/news/5312/ethiopian-artificial-intelligence-institute-showcases-ai-capabilities-at-selectusa-investment-summit-in-the-united-states",
+      "date": "2026-05",
+      "category": "news"
+    },
+    {
+      "id": "et-4",
+      "title": "Ethiopia's Personal Data Protection Proclamation enters into force",
+      "publisher": "TBeST Law LLP",
+      "url": "https://tbestlaw.com/ethiopias-personal-data-protection-proclamation-enters-in-to-force/",
+      "date": "2024-07-24",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "et-5",
+      "title": "Ethiopian council of ministers approves AI policy",
+      "publisher": "Diplo",
+      "url": "https://www.diplomacy.edu/updates/ethiopian-council-of-ministers-approves-ai-policy/",
+      "date": "2024-06-27",
+      "category": "news"
+    },
+    {
+      "id": "et-6",
+      "title": "National Artificial Intelligence Policy — Ethiopia",
+      "publisher": "Regulations.AI",
+      "url": "https://regulations.ai/regulations/RAI-ET-NA-NATARIN-2024",
+      "date": "2024-06",
+      "category": "research"
+    },
+    {
+      "id": "et-7",
+      "title": "EAII becomes African Artificial Intelligence Center of Excellence",
+      "publisher": "Fana Media Corporation",
+      "url": "https://www.fanamc.com/english/eaii-becomes-african-artificial-intelligence-center-of-excellence/",
+      "date": "2023-11",
+      "category": "news"
+    },
+    {
+      "id": "et-8",
+      "title": "Our journey of starting the first artificial intelligence research and software development company in Ethiopia",
+      "publisher": "TechCheetah",
+      "url": "https://techcheetah.com/our-journey-of-starting-the-first-artificial-intelligence-research-and-software-development-company-in-ethiopia/",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "et-9",
+      "title": "Ethiopia: Facebook algorithms contributed to human rights abuses against Tigrayans during conflict",
+      "publisher": "Amnesty International UK",
+      "url": "https://www.amnesty.org.uk/press-releases/ethiopia-facebook-algorithms-contributed-human-rights-abuses-against-tigrayans",
+      "date": "2023",
+      "category": "research"
+    },
+    {
+      "id": "et-10",
+      "title": "In Ethiopia, fact-checking can be a matter of life and death",
+      "publisher": "Nieman Journalism Lab",
+      "url": "https://www.niemanlab.org/2026/07/in-ethiopia-fact-checking-can-be-a-matter-of-life-and-death/",
+      "date": "2026-07",
+      "category": "news"
+    }
+  ]
+}

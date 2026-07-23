@@ -1,0 +1,313 @@
+{
+  "code": "za",
+  "name": "South Africa",
+  "shortName": "South Africa",
+  "flagEmoji": "🇿🇦",
+  "geometryType": "polygon",
+  "isoA3": ["ZAF"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Decentralized, sector-based oversight built on existing regulators (data protection, financial, health) rather than a standalone AI law, with a national AI policy currently being redrafted after a citation scandal",
+  "accentColor": { "light": "#808344", "dark": "#AAAE61" },
+  "center": [24.5, -29.0],
+  "zoom": 4.6,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 4,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Withdrawal of the draft National AI Policy over AI-fabricated citations and what it means for government AI use",
+    "Whether a decentralized, sector-regulator model can substitute for a dedicated AI law"
+  ],
+  "overview": "South Africa does not have a standalone AI act, and its approach to date has combined a sector-by-sector regulatory model with a slow-moving national AI policy process. The Department of Communications and Digital Technologies (DCDT) released an initial AI Policy Framework in October 2024, proposing to lean on existing bodies — the Information Regulator under the Protection of Personal Information Act (POPIA), the Financial Sector Conduct Authority and South African Reserve Bank for financial AI, and the South African Health Products Regulatory Authority (SAHPRA) for medical AI — rather than create a single AI super-regulator, alongside a four-tier risk classification broadly modelled on the EU AI Act.\n\nThat process suffered a significant setback in April 2026: after Cabinet published a draft National AI Policy for public comment on April 2, 2026, reporting on April 26 revealed that at least several of the document's roughly 67 references were AI-fabricated, non-existent citations. Minister of Communications and Digital Technologies Solly Malatsi withdrew the draft on April 27, 2026, calling the episode \"embarrassing\" and pledging consequences for those responsible for drafting and quality assurance. In May 2026, Malatsi appointed an independent expert panel — chaired by Wits University's Professor Benjamin Rosman and including Professor Vukosi Marivate, Professor Alison Gillwald of Research ICT Africa, and others — to authenticate references and guide a redraft, with the revised policy targeted for Cabinet submission by November 2026 and public comment expected around January 2027.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "National AI policy withdrawn and under independent redraft",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Decentralized, sector-based oversight (POPIA/Information Regulator, FSCA, SAHPRA) rather than a single AI-specific regulator, per the withdrawn draft's four-tier risk model",
+    "latestMajorUpdate": "Minister Solly Malatsi withdraws the draft National AI Policy after it was found to contain AI-fabricated citations (April 27, 2026); independent expert panel chaired by Professor Benjamin Rosman appointed to redraft it (May 2026)",
+    "governmentInvolvement": "Active but currently in a reset phase — the DCDT-led national AI policy process was paused mid-2026 pending an independent review",
+    "industrialStrategy": "Emphasis in policy drafts on local datasets and African-language AI processing, alongside applied AI activity in agriculture, manufacturing and language technology",
+    "internationalPartnerships": "Research ICT Africa's Africa Just AI project (funded by IDRC and the FCDO) is a notable example of cross-border AI-policy research collaboration",
+    "primaryPolicyFocus": "Rebuilding the National AI Policy through the independent expert panel process, targeting Cabinet submission by around November 2026"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "South Africa's AI governance trajectory was disrupted rather than accelerated in 2026: the government's first attempt at a full National AI Policy was withdrawn after a citation-fabrication scandal, and the policy is now being rebuilt by an independent academic-led panel with a target of reaching Cabinet by around November 2026. In the interim, existing sector regulators (data protection, financial, health) continue to apply general law to AI use cases, and no dedicated AI statute has been introduced in Parliament."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Department of Communications and Digital Technologies publishes South Africa's AI Policy Framework, proposing a human-centred, risk-based, sector-led approach as the basis for a future national AI policy.",
+      "date": "2024-10-01",
+      "sourceIds": ["za-1"]
+    },
+    {
+      "text": "South African Cabinet publishes a draft National AI Policy for public comment, built on a four-tier risk model and a decentralized regulatory approach relying on existing sector agencies.",
+      "date": "2026-04-02",
+      "sourceIds": ["za-2"]
+    },
+    {
+      "text": "Minister Solly Malatsi withdraws the draft National AI Policy after reporting revealed its reference list contained AI-fabricated, non-existent academic citations.",
+      "date": "2026-04-27",
+      "sourceIds": ["za-3"],
+      "severity": "major"
+    },
+    {
+      "text": "Malatsi appoints an independent expert panel, chaired by Wits University's Professor Benjamin Rosman and including Professor Vukosi Marivate and Professor Alison Gillwald, to authenticate references and guide a full redraft of the AI policy.",
+      "date": "2026-05-12",
+      "sourceIds": ["za-4", "za-5"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Protection of Personal Information Act (POPIA)",
+      "status": "in_force",
+      "summary": "General data-protection law enforced by the Information Regulator; forms the main current legal lever over AI systems that process personal data, including automated decision-making.",
+      "sourceIds": ["za-2"]
+    },
+    {
+      "title": "National AI Policy Framework",
+      "status": "in_force",
+      "summary": "October 2024 discussion document from the DCDT proposing sector-based, risk-tiered AI oversight; a preliminary framework rather than binding law, superseded in status by the since-withdrawn 2026 draft policy.",
+      "sourceIds": ["za-1"]
+    },
+    {
+      "title": "Draft National AI Policy (2026)",
+      "status": "repealed",
+      "summary": "Published for public comment on April 2, 2026, then withdrawn on April 27, 2026, after being found to contain AI-fabricated citations. Being rebuilt by an independent expert panel, with Cabinet submission targeted for around November 2026.",
+      "sourceIds": ["za-3", "za-4", "za-5"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "South African AI research is anchored significantly at the University of the Witwatersrand (Wits), whose School of Computer Science and Applied Mathematics and Machine Intelligence and Neural Discovery (MIND) Institute host a notable concentration of AI researchers on the continent, and which hosted the first Deep Learning Indaba in 2017 — a pan-African machine learning conference founded partly in response to the near-total absence of African-institution papers at top ML venues. Research ICT Africa, based in Cape Town and affiliated with the University of Cape Town, is a leading policy-research think tank on AI and digital rights across Africa, led by founding director Professor Alison Gillwald.",
+    "sourceIds": ["za-6", "za-7", "za-8"]
+  },
+  "companies": [
+    {
+      "name": "DataProphet",
+      "description": "Industrial AI company providing manufacturing optimization software (PRESCRIBE) aimed at reducing production defects and waste.",
+      "url": "https://dataprophet.com/"
+    },
+    {
+      "name": "Aerobotics",
+      "description": "Cape Town-based agritech company using aerial imagery and machine learning to help farmers detect crop pests and disease.",
+      "url": "https://aerobotics.com/"
+    },
+    {
+      "name": "Lelapa AI",
+      "description": "Co-founded by Professor Vukosi Marivate, builds resource-efficient language AI models for African languages, addressing gaps in mainstream NLP tooling.",
+      "url": "https://lelapa.ai/"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      { "name": "AWS", "description": "Operates cloud infrastructure serving South African enterprise and startup AI workloads, including a Cape Town region." },
+      { "name": "Microsoft Azure", "description": "Cloud provider with a significant South African enterprise footprint." },
+      { "name": "Google Cloud", "description": "Cloud provider used across South African research and enterprise AI." }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "University of the Witwatersrand (Wits)",
+      "description": "Hosts the Machine Intelligence and Neural Discovery (MIND) Institute and a School of Computer Science and Applied Mathematics with one of the highest concentrations of AI researchers in Africa; hosted the first Deep Learning Indaba in 2017.",
+      "url": "https://www.wits.ac.za/mind/ai-at-wits/"
+    },
+    {
+      "name": "University of Cape Town (UCT)",
+      "description": "Affiliated home institution of Research ICT Africa and its AI policy research work.",
+      "url": "https://www.uct.ac.za",
+      "needsVerification": true
+    },
+    {
+      "name": "University of Pretoria",
+      "description": "Home to the ABSA-UP Chair of Data Science held by Professor Vukosi Marivate and the African Institute for Data Science and Artificial Intelligence (AfriDSAI).",
+      "url": "https://www.up.ac.za"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Research ICT Africa",
+      "description": "Cape Town-based think tank on digital policy and AI governance across Africa, led by founding director Professor Alison Gillwald; runs the Africa Just AI project on inclusive AI policy.",
+      "url": "https://researchictafrica.net/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Department of Communications and Digital Technologies (DCDT)",
+      "description": "Lead department for South Africa's national AI policy process, headed by Minister Solly Malatsi.",
+      "url": "https://www.dcdt.gov.za"
+    },
+    {
+      "name": "Information Regulator (South Africa)",
+      "description": "Primary enforcer of data-privacy law under POPIA; envisaged under the draft AI policy as the lead body for AI-related data-protection issues.",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Solly Malatsi",
+      "role": "Minister of Communications and Digital Technologies",
+      "affiliation": "DCDT",
+      "category": "government",
+      "url": "https://www.dcdt.gov.za/the-minister.html"
+    },
+    {
+      "name": "Benjamin Rosman",
+      "role": "Professor; Chair of the independent expert panel redrafting South Africa's National AI Policy",
+      "affiliation": "University of the Witwatersrand",
+      "category": "researcher",
+      "url": "https://www.wits.ac.za/mind/ai-at-wits/"
+    },
+    {
+      "name": "Vukosi Marivate",
+      "role": "Professor and ABSA-UP Chair of Data Science; Director, African Institute for Data Science and Artificial Intelligence (AfriDSAI); co-founder, Lelapa AI, Deep Learning Indaba and Masakhane",
+      "affiliation": "University of Pretoria",
+      "category": "researcher",
+      "url": "https://lelapa.ai/"
+    },
+    {
+      "name": "Alison Gillwald",
+      "role": "Founding Director",
+      "affiliation": "Research ICT Africa; University of Cape Town",
+      "category": "think_tank_leader",
+      "url": "https://researchictafrica.net/"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Vukosi Marivate",
+      "type": "person",
+      "role": "Leading South African NLP researcher and AI-for-Africa advocate; co-founder of Lelapa AI, Deep Learning Indaba and Masakhane",
+      "category": "researcher",
+      "url": "https://lelapa.ai/"
+    },
+    {
+      "name": "Research ICT Africa",
+      "type": "organization",
+      "role": "Cape Town think tank producing regular AI governance research across Africa",
+      "category": "think_tank",
+      "url": "https://researchictafrica.net/"
+    },
+    {
+      "name": "Benjamin Rosman",
+      "type": "person",
+      "role": "Wits AI professor chairing the panel rebuilding South Africa's National AI Policy",
+      "category": "university",
+      "url": "https://www.wits.ac.za/mind/ai-at-wits/"
+    }
+  ],
+  "influenceMap": [
+    { "label": "DCDT", "type": "government" },
+    { "label": "Information Regulator", "type": "agency" },
+    { "label": "Wits MIND Institute", "type": "research" },
+    { "label": "Research ICT Africa", "type": "think_tank" },
+    { "label": "Lelapa AI", "type": "company" }
+  ],
+  "notableGaps": [
+    { "area": "Binding national AI policy", "note": "South Africa's draft National AI Policy was withdrawn in April 2026 after fabricated citations were discovered; as of mid-2026 there is no adopted national AI policy, only the 2024 preliminary framework and a redraft in progress." },
+    { "area": "Dedicated AI regulator", "note": "South Africa has explicitly chosen not to create a standalone AI regulator, relying instead on existing sector bodies (Information Regulator, FSCA, SAHPRA) — a deliberate design choice rather than an oversight gap, but one whose coordination mechanisms remain unbuilt while the national policy is being redrafted." }
+  ],
+  "debates": [
+    {
+      "topic": "Withdrawal of the draft National AI Policy over AI-fabricated citations and what it means for government AI use",
+      "category": "government",
+      "summary": "The April 2026 withdrawal of South Africa's draft National AI Policy, after its reference list was found to contain AI-generated fictitious sources, became a widely discussed cautionary case about unverified AI use inside government itself.",
+      "expanded": "Minister Malatsi described the episode as a failure of human oversight rather than of the policy's substantive content, and pledged consequences for those responsible for drafting and quality assurance. Commentators, including some South African legal and media outlets, characterised the incident as \"embarrassing and damning,\" and it has fed into the broader debate about how the government can credibly regulate AI risk (including hallucination and verification failures) while its own drafting processes remain vulnerable to the same failure modes.",
+      "sourceIds": ["za-3", "za-5"]
+    },
+    {
+      "topic": "Whether a decentralized, sector-regulator model can substitute for a dedicated AI law",
+      "category": "government",
+      "summary": "South Africa's policy approach — leaning on the Information Regulator, FSCA, SAHPRA and other existing bodies rather than a single AI authority — is a deliberate design choice that remains contested among policy observers.",
+      "expanded": "Proponents argue this avoids duplicating regulatory expertise and lets AI oversight be embedded in bodies that already understand their sectors. Critics, including some of the independent panel members now redrafting the policy, have raised concerns about coordination gaps, unclear escalation paths for cross-sectoral AI harms, and the fact that the coordinating bodies proposed in the withdrawn draft (a National AI Coordination Office, inter-departmental forums, an AI Advisory Council) would lack binding enforcement powers even once established.",
+      "sourceIds": ["za-2", "za-4"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "South Africa: Department of Communications and Digital Technologies releases Artificial Intelligence Policy Framework",
+      "type": "think_tank",
+      "author": "Bowmans",
+      "url": "https://bowmanslaw.com/insights/south-africa-department-of-communications-and-digital-technologies-releases-artificial-intelligence-policy-framework/"
+    },
+    {
+      "title": "Why South Africa is taking a different path to AI regulation",
+      "type": "academic",
+      "author": "TechCabal",
+      "url": "https://techcabal.com/2026/04/09/south-africas-new-policy-is-betting-on-decentralised-ai-control/"
+    },
+    {
+      "title": "Professor Benjamin Rosman leads South Africa's AI policy panel",
+      "type": "academic",
+      "author": "Wits University",
+      "url": "https://www.wits.ac.za/news/latest-news/research-news/2026/2026-05/professor-benjamin-rosman-leads-south-africas-ai-policy-panel.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "za-1",
+      "title": "South Africa: Department of Communications and Digital Technologies releases Artificial Intelligence Policy Framework",
+      "publisher": "Bowmans",
+      "url": "https://bowmanslaw.com/insights/south-africa-department-of-communications-and-digital-technologies-releases-artificial-intelligence-policy-framework/",
+      "date": "2024-10",
+      "category": "think_tank"
+    },
+    {
+      "id": "za-2",
+      "title": "Why South Africa is taking a different path to AI regulation",
+      "publisher": "TechCabal",
+      "url": "https://techcabal.com/2026/04/09/south-africas-new-policy-is-betting-on-decentralised-ai-control/",
+      "date": "2026-04-09",
+      "category": "news"
+    },
+    {
+      "id": "za-3",
+      "title": "Minister Malatsi withdraws draft AI policy",
+      "publisher": "TimesLIVE",
+      "url": "https://www.timeslive.co.za/news/2026-04-27-minister-malatsi-withdraws-draft-ai-policy/",
+      "date": "2026-04-27",
+      "category": "news"
+    },
+    {
+      "id": "za-4",
+      "title": "Professor Benjamin Rosman leads South Africa's AI policy panel",
+      "publisher": "Wits University",
+      "url": "https://www.wits.ac.za/news/latest-news/research-news/2026/2026-05/professor-benjamin-rosman-leads-south-africas-ai-policy-panel.html",
+      "date": "2026-05",
+      "category": "research"
+    },
+    {
+      "id": "za-5",
+      "title": "Malatsi sets up team of experts after AI policy blunder",
+      "publisher": "TimesLIVE",
+      "url": "https://www.timeslive.co.za/news/2026-05-12-malatsi-sets-up-team-of-experts-after-ai-policy-blunder/",
+      "date": "2026-05-12",
+      "category": "news"
+    },
+    {
+      "id": "za-6",
+      "title": "Deep Learning Indaba",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deep_Learning_Indaba",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "za-7",
+      "title": "AI at Wits - The Machine Intelligence and Neural Discovery (MIND) Institute",
+      "publisher": "Wits University",
+      "url": "https://www.wits.ac.za/mind/ai-at-wits/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "za-8",
+      "title": "Research ICT Africa",
+      "publisher": "Research ICT Africa",
+      "url": "https://researchictafrica.net/",
+      "date": "2026",
+      "category": "think_tank"
+    }
+  ]
+}

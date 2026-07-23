@@ -1,0 +1,252 @@
+{
+  "code": "ir",
+  "name": "Iran",
+  "shortName": "Iran",
+  "flagEmoji": "🇮🇷",
+  "geometryType": "polygon",
+  "isoA3": ["IRN"],
+  "region": "Middle East",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Centralized 'AI sovereignty' strategy directed through a Supreme-Leader-linked policy body, amid repeated institutional restructuring and severe sanctions constraints",
+  "accentColor": { "light": "#448351", "dark": "#61AE71" },
+  "center": [53.7, 32.4],
+  "zoom": 4.5,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Repeated restructuring of Iran's national AI governance body reflects deeper power struggles within the state",
+    "National-security-first AI development (judicial automation, surveillance) versus the stated economic-development goals of Iran's AI strategy",
+    "Generative AI's role in wartime disinformation and cyber operations during the 2026 conflict",
+    "A wide gap between Iran's stated ambition to become a top-10 global AI power and its reported AI investment levels"
+  ],
+  "overview": "Iran's AI governance sits within a highly turbulent political context as of mid-2026. Since 2021, following a directive from then-Supreme Leader Ali Khamenei, Iran has pursued a centralized national AI strategy under the concept of 'AI sovereignty' — indigenous hardware, localized data processing and Persian-language software intended to reduce dependence on foreign platforms. In June 2024 the Supreme Council of the Cultural Revolution (SCCR), a body that answers to the Supreme Leader, approved a 'National Artificial Intelligence Document' setting out 14 policies and 11 goals, including an ambition to rank among the world's top 10 AI powers within roughly a decade. A National AI Organization (NAIO) was created that July to serve as the main executive and regulatory body. Its institutional footing has since proven unstable: government reporting indicates the NAIO was effectively shelved in May 2025 in favor of a 'Headquarters for the Development of AI Technology' under the Vice Presidency, only for Iran's Parliament to approve a National AI Bill reviving the NAIO days later, with further parliamentary action reported in October 2025 to formally re-establish it. Because independent reporting on Iran's internal bureaucracy is limited, the current, de facto locus of AI-policy authority should be treated as unsettled.\n\nThis institutional churn has occurred alongside acute national crisis. Then-Supreme Leader Ali Khamenei was killed in an Israeli airstrike on February 28, 2026, and his son Mojtaba Khamenei was announced as the new Supreme Leader in early March 2026; multiple international outlets reported that Mojtaba Khamenei's public appearances since then have been unusually limited, with Iranian state media reportedly using AI-generated video to deliver messages attributed to him. A ceasefire reached between the US, Israel and Iran in April 2026 broke down by July 2026, with fighting resuming after Iranian strikes on commercial shipping and retaliatory US strikes on Iranian military targets. Independent security researchers report that Iran-linked actors made extensive use of commercial generative AI tools (including ChatGPT and Google Gemini) during the conflict for cyber-reconnaissance, malware development and disinformation, alongside AI-generated propaganda content. Economically, Iran's AI ambitions remain heavily constrained by sanctions: one 2025 investigative estimate put Iran's total AI investment at under $50 million, compared with roughly $20 billion reportedly committed by Saudi Arabia and $1.4 billion by the UAE — a gap that casts doubt on the near-term feasibility of Iran's stated global AI ambitions.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "State-directed 'AI sovereignty' push amid institutional flux and war",
+      "sentiment": "red"
+    },
+    "regulatoryApproach": "Centralized strategy set by the Supreme Council of the Cultural Revolution, implemented through a national AI organization whose institutional form and authority have shifted repeatedly since 2024",
+    "latestMajorUpdate": "Assassination of Supreme Leader Ali Khamenei in an Israeli strike (February 2026) and succession by his son Mojtaba Khamenei has introduced significant uncertainty into the Supreme-Leader-linked structure that oversees Iran's AI policy",
+    "governmentInvolvement": "Very high — AI policy is directed top-down through the SCCR and a national AI body under direct presidential/vice-presidential oversight, with a strong national-security orientation",
+    "industrialStrategy": "Domestic 'AI sovereignty' program emphasizing indigenous hardware and a self-hosted national AI platform (developed with Sharif University of Technology) designed to function without foreign APIs, alongside reported but not independently confirmed plans for domestic GPU data-center capacity",
+    "internationalPartnerships": "Severely constrained by international sanctions; some reporting points to growing reliance on Chinese suppliers such as Huawei for AI computing hardware, though the scale of any such relationship is not independently confirmed",
+    "primaryPolicyFocus": "Building sanctions-resilient domestic AI capability (compute, Persian-language models) while an active armed conflict with Israel and the US, and a contested leadership succession, dominate the broader policy environment"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Iran's AI policy direction in 2026 leans toward tighter state and security control: independent researchers describe national security, rather than economic development, as the primary driver of AI policy, judicial AI automation (the 'Tenad' system) is expanding, and Iran-linked actors have made heavy use of generative AI tools for wartime disinformation and cyber operations. At the same time, the practical capacity of the state to implement a coherent AI strategy looks weaker than its rhetoric suggests: the national AI governance body has been created, shelved and revived multiple times in under two years, reported investment lags far behind regional peers, and the assassination of the Supreme Leader and an unresolved war with Israel and the US have introduced further uncertainty into which institutions actually hold authority over AI policy."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Supreme Leader Ali Khamenei is killed in an Israeli airstrike; his son Mojtaba Khamenei is announced as the new Supreme Leader on March 8, 2026, introducing major uncertainty into the Supreme-Leader-linked structure (the Supreme Council of the Cultural Revolution) that oversees Iran's national AI strategy.",
+      "date": "2026-02-28",
+      "sourceIds": ["ir-9", "ir-10"],
+      "severity": "major"
+    },
+    {
+      "text": "International reporting indicates Iranian state media has used AI-generated video to broadcast messages attributed to Mojtaba Khamenei amid weeks of public absence following his father's assassination and his own reported injury.",
+      "date": "2026-04-21",
+      "sourceIds": ["ir-9", "ir-10"],
+      "needsVerification": true
+    },
+    {
+      "text": "During renewed fighting between Iran, Israel and the US, security researchers document Iran-linked groups (CyberAv3ngers, GreenBravo, APT42) using commercial generative AI tools including ChatGPT and Google Gemini to accelerate cyber-reconnaissance, malware development and 'rapport-building' phishing, alongside AI-generated disinformation campaigns reportedly reaching tens of millions of views.",
+      "date": "2026-07",
+      "sourceIds": ["ir-4"]
+    },
+    {
+      "text": "Iran's Parliament reportedly gives final approval to formally (re-)establish the National AI Organization as an independent body with its secretariat reporting directly to the President, following months of institutional back-and-forth over its status.",
+      "date": "2025-10-29",
+      "sourceIds": ["ir-6"],
+      "needsVerification": true
+    },
+    {
+      "text": "Iranian government shelves the National AI Organization in favor of a new 'Headquarters for the Development of AI Technology' under the Vice Presidency; days later, Parliament approves a National AI Bill intended to revive the National AI Organization instead.",
+      "date": "2025-05-13",
+      "sourceIds": ["ir-2"],
+      "needsVerification": true
+    },
+    {
+      "text": "Government unveils a prototype of a national open-source AI platform, developed with Sharif University of Technology and led by Vice President for Science and Technology Hossein Afshin, described as operating independently of foreign APIs and intended to keep functioning even if Iran's internet connectivity were disrupted.",
+      "date": "2025-03-15",
+      "sourceIds": ["ir-8"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Artificial Intelligence Document",
+      "status": "in_force",
+      "summary": "Approved by the Supreme Council of the Cultural Revolution in June 2024; sets out 14 policies and 11 goals, including an ambition for Iran to become a top-10 global AI power within roughly a decade.",
+      "sourceIds": ["ir-1", "ir-3"]
+    },
+    {
+      "title": "National AI Organization (NAIO) / National AI Bill",
+      "status": "passed",
+      "summary": "Established July 2024 as the main executive/regulatory AI body under presidential oversight; reportedly shelved in favor of a Vice-Presidency 'Headquarters' in May 2025, then revived via a Parliament-approved National AI Bill days later, with further parliamentary action in October 2025. Its current authority and operational status are not fully confirmed by independent sources as of mid-2026.",
+      "sourceIds": ["ir-2", "ir-6"],
+      "needsVerification": true
+    },
+    {
+      "title": "Judiciary Transformation Document / 'Tenad' judicial AI system",
+      "status": "in_force",
+      "summary": "Judicial-automation program reportedly training algorithms on some 110 million historical rulings, with a stated goal of reducing human intervention in judicial processes; raises documented concerns about automating existing biases.",
+      "sourceIds": ["ir-2"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "AI research is concentrated at a handful of universities: Sharif University of Technology (which partnered with the government on the national AI platform prototype and hosts machine learning, computer vision and Persian-language NLP labs), the University of Tehran (ranked as Iran's top AI institution in at least one international university ranking), Amirkabir University of Technology, and Iran University of Science and Technology. Comprehensive, independently verified data on the scale of Iran's AI research output is limited; one source describes only a few Iranian universities as having standalone AI departments, though it does not give a precise count, and rankings and investment figures cited in available reporting should be treated with some caution given the difficulty of independently verifying claims from within Iran.",
+    "sourceIds": ["ir-1", "ir-12"]
+  },
+  "companies": [],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "National GPU data-center project",
+        "description": "Iranian officials have discussed plans for a domestically hosted GPU data center to support the national AI platform, but independently verified details on scale, operator and current operational status are scarce given sanctions and limited outside reporting access."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Sharif University of Technology",
+      "description": "Leading Iranian technical university; partnered with the government on the national AI platform prototype and hosts machine learning, computer vision and Persian NLP research groups.",
+      "url": "https://www.sharif.ir/en/"
+    },
+    {
+      "name": "University of Tehran",
+      "description": "Iran's largest public university; cited in at least one international ranking as the country's top institution for AI-related research output.",
+      "url": "https://ut.ac.ir/en",
+      "needsVerification": true
+    },
+    {
+      "name": "Amirkabir University of Technology",
+      "description": "Also known as Tehran Polytechnic; maintains AI and machine learning research within its computer engineering programs.",
+      "url": "https://aut.ac.ir/en"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Supreme Council of the Cultural Revolution (SCCR)",
+      "description": "Strategic policy body answering to the Supreme Leader; approved the 2024 National Artificial Intelligence Document and retains ultimate oversight of AI policy direction."
+    },
+    {
+      "name": "National AI Organization (NAIO)",
+      "description": "Iran's principal executive/regulatory AI body, created in 2024, shelved in 2025, and reportedly revived via parliamentary action later that year. Its current operational authority is not fully confirmed by independent reporting.",
+      "needsVerification": true
+    },
+    {
+      "name": "Vice Presidency for Science, Technology and Knowledge-Based Economy",
+      "description": "Government body led by Hossein Afshin that has driven the national AI platform project and, for a period in 2025, hosted a rival 'Headquarters for the Development of AI Technology.'"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Hossein Afshin",
+      "role": "Vice President for Science, Technology and Knowledge-Based Economy",
+      "affiliation": "Government of Iran",
+      "category": "government",
+      "needsVerification": true
+    },
+    {
+      "name": "Mohammad Reza Aref",
+      "role": "Reported chairman of the National AI Organization and its strategic council",
+      "affiliation": "Government of Iran",
+      "category": "government",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Filterwatch (Miaan Group)",
+      "type": "organization",
+      "role": "Digital rights research initiative publishing detailed, independent investigative analysis of Iran's AI governance and internet policy.",
+      "category": "think_tank",
+      "url": "https://filter.watch/english/"
+    },
+    {
+      "name": "Recorded Future",
+      "type": "organization",
+      "role": "Threat-intelligence firm publishing research on Iran's AI-related national security strategy and wartime use of generative AI.",
+      "category": "think_tank",
+      "url": "https://www.recordedfuture.com"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Supreme Council of the Cultural Revolution", "type": "government" },
+    { "label": "National AI Organization", "type": "agency" },
+    { "label": "Sharif University of Technology", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "No internationally verifiable private AI company sector", "note": "Sanctions and limited independent reporting mean no major Iranian private-sector AI company could be verified against credible current sources; this file lists no companies rather than guess." },
+    { "area": "Institutional continuity", "note": "Iran's national AI governance body has been created, shelved and revived multiple times since 2024; independent, up-to-date confirmation of which body currently holds operational authority over AI policy was not available." },
+    { "area": "Independent domestic AI policy research", "note": "No independent Iranian AI-focused think tank was identified; most rigorous English-language analysis available comes from foreign research organizations (e.g., Recorded Future, Filterwatch/Miaan Group) rather than domestic institutions, which limits triangulation of claims." },
+    { "area": "Compute infrastructure verification", "note": "Claims about Iranian GPU data-center plans and domestic AI model capabilities could not be independently verified and should be treated cautiously." }
+  ],
+  "debates": [
+    {
+      "topic": "Repeated restructuring of Iran's national AI governance body reflects deeper power struggles within the state",
+      "category": "government",
+      "summary": "Iran's National AI Organization has been created (2024), effectively shelved in favor of a rival Vice-Presidency body (May 2025), and reportedly revived by Parliament within the same month and again in October 2025 — an unusually rapid sequence of institutional reversals for a strategy meant to run through 2032 and beyond.",
+      "expanded": "Independent researchers tracking Iranian tech policy describe this churn as symptomatic of broader competition between the presidency, the Supreme Leader-linked Supreme Council of the Cultural Revolution, and other power centers over control of AI strategy and its associated resources, rather than reflecting substantive disagreement over AI policy goals themselves. Because Iranian government communications on this topic are not consistently corroborated by independent sources, the practical, current locus of authority over AI policy remains genuinely unclear as of mid-2026.",
+      "sourceIds": ["ir-2", "ir-6"]
+    },
+    {
+      "topic": "National-security-first AI development (judicial automation, surveillance) versus the stated economic-development goals of Iran's AI strategy",
+      "category": "government",
+      "summary": "Independent analysis argues that, in practice, Iran's AI development has prioritized national-security and state-control applications — such as judicial automation and surveillance tooling — over the broader economic-development framing used in official strategy documents.",
+      "expanded": "The Judiciary Transformation Document's 'Tenad' system, which trains algorithms on some 110 million historical court rulings with a stated goal of reducing human intervention in judicial decisions, is cited by researchers as the most advanced current implementation of Iranian government AI, raising concerns about automating pre-existing biases in the judicial system. Government messaging continues to emphasize economic modernization and a top-10 global AI ranking as strategic goals, but independent researchers argue the resourcing and institutional priority given to security- and control-oriented applications suggests those goals, rather than economic development, are the more immediate driver of state AI investment.",
+      "sourceIds": ["ir-2"]
+    },
+    {
+      "topic": "Generative AI's role in wartime disinformation and cyber operations during the 2026 conflict",
+      "category": "security",
+      "summary": "Threat-intelligence researchers report that Iran-linked actors made substantial use of commercial generative AI tools — including ChatGPT and Google Gemini — for cyber-reconnaissance, malware development, and large-scale AI-generated disinformation during the 2026 conflict with Israel and the US.",
+      "expanded": "Reported examples include the 'CyberAv3ngers' group allegedly using ChatGPT to identify vulnerable US industrial control systems, 'GreenBravo' allegedly using Gemini to accelerate malware tool development, and 'APT42' allegedly using AI to craft culturally tailored phishing lures; separately, a Cyabra analysis identified dozens of inauthentic accounts generating tens of millions of views for AI-fabricated content depicting American military setbacks. These reports, while consistent across several security-research sources, describe attributed but not independently court-verified activity, and should be read with the caution appropriate to wartime attribution claims generally.",
+      "sourceIds": ["ir-4"]
+    },
+    {
+      "topic": "A wide gap between Iran's stated ambition to become a top-10 global AI power and its reported AI investment levels",
+      "category": "government",
+      "summary": "Iran's National Artificial Intelligence Document sets a goal of ranking among the world's top 10 AI powers within roughly a decade, but one 2025 investigative estimate placed Iran's total AI investment at under $50 million — a small fraction of the roughly $20 billion and $1.4 billion reportedly committed by Saudi Arabia and the UAE respectively.",
+      "expanded": "Independent analysts attribute this gap primarily to international sanctions and broader economic isolation, which restrict access to advanced chips, foreign capital and international research collaboration. Some observers read Iran's continued high-level rhetoric about AI leadership, set against this resourcing gap, as evidence that near-term implementation is likely to fall well short of stated ambitions, though Iran's demonstrated domestic workarounds (the self-hosted national AI platform, reported interest in Chinese hardware suppliers) suggest the government is actively trying to close at least part of the gap through indigenization rather than funding scale alone.",
+      "sourceIds": ["ir-2", "ir-3"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Iran's AI Ambitions: National Security, Global Influence, and Strategic Challenges",
+      "type": "think_tank",
+      "author": "Recorded Future",
+      "url": "https://www.recordedfuture.com/research/irans-ai-ambitions-balancing-economic-isolation-national-security-imperatives"
+    },
+    {
+      "title": "Control Over Innovation: Iran's Paradoxical AI Development (Part 1)",
+      "type": "think_tank",
+      "author": "Filterwatch (Miaan Group)",
+      "url": "https://filter.watch/english/2025/09/30/investigative-report-september-2025-control-over-innovation/"
+    },
+    {
+      "title": "AI Has Enhanced Iran's Asymmetric Playbook During the 2026 Conflict",
+      "type": "think_tank",
+      "author": "Recorded Future",
+      "url": "https://www.recordedfuture.com/research/iran-ai-asymmetric-playbook"
+    }
+  ],
+  "sources": [
+    { "id": "ir-1", "title": "Artificial Intelligence in Iran: Recent Developments and Outlook", "publisher": "TS2 Tech", "url": "https://ts2.tech/en/artificial-intelligence-in-iran-recent-developments-and-outlook/", "date": "2025-06-30", "category": "research" },
+    { "id": "ir-2", "title": "Control Over Innovation: Iran's Paradoxical AI Development (Part 1)", "publisher": "Filterwatch (Miaan Group)", "url": "https://filter.watch/english/2025/09/30/investigative-report-september-2025-control-over-innovation/", "date": "2025-09-30", "category": "research" },
+    { "id": "ir-3", "title": "Iran's AI Ambitions: National Security, Global Influence, and Strategic Challenges", "publisher": "Recorded Future", "url": "https://www.recordedfuture.com/research/irans-ai-ambitions-balancing-economic-isolation-national-security-imperatives", "date": "2026", "category": "research" },
+    { "id": "ir-4", "title": "AI Has Enhanced Iran's Asymmetric Playbook During the 2026 Conflict", "publisher": "Recorded Future", "url": "https://www.recordedfuture.com/research/iran-ai-asymmetric-playbook", "date": "2026-07", "category": "research" },
+    { "id": "ir-5", "title": "Iran opens national artificial intelligence organisation", "publisher": "TV BRICS", "url": "https://tvbrics.com/en/news/iran-opens-national-artificial-intelligence-organisation/", "date": "2024-07-10", "category": "news" },
+    { "id": "ir-6", "title": "Iran approves creation of national AI organisation", "publisher": "TV BRICS", "url": "https://tvbrics.com/en/news/iran-approves-creation-of-national-ai-organisation/", "date": "2025-10-29", "category": "news" },
+    { "id": "ir-7", "title": "Smart drones and smuggled chips: How Iran wants to join the AI revolution", "publisher": "The National", "url": "https://www.thenationalnews.com/news/mena/2025/12/05/iran-ai-revolution-drones-chips-tech-race/", "date": "2025-12-05", "category": "news" },
+    { "id": "ir-8", "title": "Iran unveils national AI platform prototype", "publisher": "Iran International", "url": "https://www.iranintl.com/en/202503158253", "date": "2025-03-15", "category": "news" },
+    { "id": "ir-9", "title": "Iran's Supreme Leader No Longer Reigns Supreme", "publisher": "TIME", "url": "https://time.com/article/2026/04/21/war-iran-mojtaba-khamenei-supreme-leader/", "date": "2026-04-21", "category": "news" },
+    { "id": "ir-10", "title": "Iran's new supreme leader is nowhere to be seen. That might be helping the regime to survive", "publisher": "CNN", "url": "https://www.cnn.com/2026/04/21/middleeast/iran-supreme-leader-intl", "date": "2026-04-21", "category": "news" },
+    { "id": "ir-11", "title": "March to July: What's different as US-Iran fighting escalates again?", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/7/13/march-to-july-whats-different-as-us-iran-fighting-escalates-again", "date": "2026-07-13", "category": "news" },
+    { "id": "ir-12", "title": "Edurank places 100 Iranian universities among top institutions for AI", "publisher": "Tehran Times", "url": "https://www.tehrantimes.com/news/501100/Edurank-places-100-Iranian-universities-among-top-institutions", "date": "2026", "category": "news" }
+  ]
+}

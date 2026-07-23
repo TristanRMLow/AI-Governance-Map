@@ -1,0 +1,420 @@
+{
+  "code": "id",
+  "name": "Indonesia",
+  "shortName": "Indonesia",
+  "flagEmoji": "🇮🇩",
+  "geometryType": "polygon",
+  "isoA3": ["IDN"],
+  "region": "Southeast Asia",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Non-binding ethics guidance and a national strategy roadmap, with a draft Presidential Regulation on AI ethics still in progress",
+  "accentColor": { "light": "#674483", "dark": "#8B61AE" },
+  "center": [113.9, -0.5],
+  "zoom": 3.6,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Data localization and digital sovereignty vs. hyperscaler investment",
+    "Algorithmic management of gig-economy workers",
+    "Soft-law ethics guidance vs. a binding AI regulation"
+  ],
+  "overview": "Indonesia's AI governance currently rests on non-binding instruments rather than a binding AI-specific law. The Ministry of Communication and Digital Affairs (Komdigi, formerly Kominfo) issued Circular Letter SE Menkominfo No. 9/2023 setting out nine voluntary ethical principles for AI — described by some trackers as the first such guidance in ASEAN — and has since been developing a National AI Roadmap (Peta Jalan KA Nasional) intended to operationalize the longer-run National AI Strategy (Stranas KA, 2020–2045). A draft Presidential Regulation (Perpres) on AI ethics, reportedly using a risk-tiered structure (unacceptable/high/low risk) with a two-year compliance window, was circulated for consultation with a version dated January 27, 2026, but available reporting does not confirm it has been signed into force as of mid-2026; Minister Meutya Hafid has publicly described AI regulation as a priority for President Prabowo Subianto's government in 2026, though exact timelines vary across secondary sources and should be treated with some caution.\n\nAlongside this policy work, Indonesia has attracted large hyperscaler and chipmaker investment: Microsoft committed $1.7B toward Indonesian cloud and AI infrastructure (announced April 2024) and opened its first Indonesian hyperscale region, \"Indonesia Central,\" in May 2025, while Nvidia, Cisco and telecom operator Indosat Ooredoo Hutchison launched a National AI Center of Excellence in Jakarta in July 2025 built around Indosat's Lintasarta AI Factory. How this infrastructure buildout interacts with Indonesia's existing data-localization rules under the Personal Data Protection Law (UU PDP No. 27/2022) remains an active point of discussion among industry and policymakers.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Non-binding ethics guidance, draft AI regulation pending",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Voluntary ethics circular (SE 9/2023) plus a national strategy roadmap; a risk-tiered draft Presidential Regulation on AI ethics has been under consultation but its enactment status is unconfirmed",
+    "latestMajorUpdate": "National AI Center of Excellence launched in Jakarta with Komdigi, Indosat, Nvidia and Cisco (July 2025); draft Perpres on AI ethics circulated dated January 27, 2026",
+    "governmentInvolvement": "Active on strategy and infrastructure partnerships (Komdigi-led roadmap, state-linked telecom partnerships with Nvidia/Cisco), but no binding AI-specific law is yet in force",
+    "industrialStrategy": "Positioning as a Southeast Asian AI infrastructure hub via hyperscaler investment (Microsoft's Indonesia Central region) and the Nvidia/Cisco/Indosat AI Center of Excellence, alongside a workforce goal of training roughly one million people in AI by 2027",
+    "internationalPartnerships": "Large-scale partnerships with Microsoft, Nvidia and Cisco on cloud and AI infrastructure; Indonesia also participates in ASEAN-level AI governance discussions",
+    "primaryPolicyFocus": "Finalizing the National AI Roadmap and the draft Perpres on AI ethics appear to be near-term government priorities, based on ministerial statements, though official timelines have shifted"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Indonesia appears to be moving from voluntary ethics guidance toward a more formal, risk-tiered regulatory instrument, though the draft Presidential Regulation on AI ethics has not been confirmed as enacted and its timeline has reportedly slipped across 2025 into 2026. Government statements suggest continued priority on AI regulation for 2026, but observers should treat specific dates with caution given inconsistent secondary reporting."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Microsoft announces a $1.7B investment in Indonesian cloud and AI infrastructure — described as the largest in Microsoft's 29-year history in the country — alongside the elevAIte Indonesia program with Komdigi to train 1 million Indonesians in AI skills.",
+      "date": "2024-04-30",
+      "sourceIds": ["id-1"],
+      "severity": "major"
+    },
+    {
+      "text": "Microsoft opens \"Indonesia Central,\" its first hyperscale cloud region in Indonesia; IDC projects a $15.2B economic contribution and over 106,000 jobs through 2028 (an industry-commissioned estimate, not independently verified).",
+      "date": "2025-05-27",
+      "sourceIds": ["id-2"],
+      "needsVerification": true
+    },
+    {
+      "text": "National AI Center of Excellence launches in Jakarta, backed by Komdigi, Indosat Ooredoo Hutchison, Nvidia and Cisco, built around Indosat's Lintasarta AI Factory — reportedly the first Southeast Asian deployment integrating Nvidia GB200 NVL72 systems — with a stated goal of training 1 million people by 2027.",
+      "date": "2025-07-16",
+      "sourceIds": ["id-3"],
+      "severity": "major"
+    },
+    {
+      "text": "A draft Presidential Regulation (Perpres) on the Ethics of Artificial Intelligence, dated January 27, 2026, circulates with a risk-tiered structure (unacceptable/high/low risk) and a proposed two-year compliance window; its enactment status remains unconfirmed in available reporting.",
+      "date": "2026-01-27",
+      "sourceIds": ["id-4"],
+      "needsVerification": true
+    },
+    {
+      "text": "Minister of Communication and Digital Affairs Meutya Hafid states that AI regulation is a priority for President Prabowo Subianto's government in 2026, citing AI's contribution to GDP; exact legislative timeline described inconsistently across secondary sources.",
+      "date": "2026-02",
+      "sourceIds": ["id-5"],
+      "needsVerification": true
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Personal Data Protection Law (UU PDP, Law No. 27/2022)",
+      "status": "in_force",
+      "summary": "Indonesia's general data protection law, enacted in 2022 with a multi-year transition period; requires a lawful basis for processing, impact assessments for high-risk processing, and data protection officers — relevant to AI systems trained or operating on personal data. Some secondary compliance-guide sources cite an October 2026 full-enforcement deadline for the transition period, which was not independently confirmed against a primary source.",
+      "sourceIds": ["id-6"],
+      "needsVerification": true
+    },
+    {
+      "title": "Circular Letter on AI Ethics (SE Menkominfo No. 9/2023)",
+      "status": "in_force",
+      "summary": "Non-binding guidance from the Ministry of Communication and Informatics setting out nine ethical principles for AI use (inclusivity, humanity, security, accessibility, transparency, accountability, personal data protection, sustainability, and intellectual property) for both public and private electronic system operators.",
+      "sourceIds": ["id-7"]
+    },
+    {
+      "title": "National AI Strategy (Stranas KA, 2020–2045)",
+      "status": "in_force",
+      "summary": "Long-run strategic roadmap identifying priority sectors for AI adoption — health, bureaucratic reform, education, food security, and mobility/smart cities — aligned with Indonesia's longer-term national development plan (RPJPN 2025–2045); not a binding legal instrument.",
+      "sourceIds": ["id-8"]
+    },
+    {
+      "title": "National AI Roadmap (Peta Jalan KA Nasional, 2025–2029)",
+      "status": "proposed",
+      "summary": "An implementation-focused successor roadmap led by Komdigi intended to operationalize the Stranas KA strategy; described in ministerial statements as under development, with no confirmed final publication date found in available reporting.",
+      "sourceIds": ["id-5"],
+      "needsVerification": true
+    },
+    {
+      "title": "Draft Presidential Regulation (Perpres) on Ethics of Artificial Intelligence",
+      "status": "proposed",
+      "summary": "A risk-tiered draft regulation (unacceptable/high/low risk categories) with a proposed two-year compliance window, circulated for consultation with a version dated January 27, 2026; not confirmed as signed or in force as of this writing.",
+      "sourceIds": ["id-4"],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Indonesian AI research is coordinated in part through the Indonesia AI Research Consortium (IARC), founded in October 2020 with members including Universitas Gadjah Mada (UGM), Universitas Indonesia (UI), Institut Teknologi Bandung (ITB), Universitas Gunadarma, Institut Teknologi Sepuluh Nopember (ITS) and Telkom University, later joined by Universitas Brawijaya in 2024. The National Research and Innovation Agency (BRIN) runs an AI and Cybersecurity Research Centre (established 2022) with applied projects in areas such as precision agriculture and remote-sensing law-enforcement tools, though available reporting names individual project researchers rather than a single clearly designated national AI research lead.",
+    "sourceIds": ["id-9", "id-10"]
+  },
+  "companies": [
+    {
+      "name": "Kata.ai",
+      "description": "Conversational AI and chatbot platform founded in 2015 by Irzan Raditya, serving banking, e-commerce and government clients in Indonesia. Recent funding or scale figures circulating in some listicle-style sources could not be independently verified and are omitted here.",
+      "url": "https://kata.ai"
+    },
+    {
+      "name": "Nodeflux",
+      "description": "Computer-vision and facial-recognition company founded in 2016, deploying systems for public-safety and smart-city use cases since Indonesia's 2018 Asian Games; specific usage/performance statistics circulating in some secondary sources could not be independently verified.",
+      "url": "https://www.nodeflux.ai",
+      "needsVerification": true
+    },
+    {
+      "name": "Indosat Ooredoo Hutchison",
+      "description": "Telecommunications operator that partnered with Nvidia and Cisco on Indonesia's National AI Center of Excellence, operating the Lintasarta AI Factory built on Nvidia GB200 NVL72 infrastructure.",
+      "url": "https://indosatooredoohutchison.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Operates \"Indonesia Central,\" Microsoft's first hyperscale cloud region in Indonesia, opened May 2025 as part of a $1.7B investment commitment."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Major cloud provider active in Indonesian enterprise and public-sector workloads."
+      },
+      {
+        "name": "AWS",
+        "description": "Major cloud provider active in Indonesian enterprise and startup workloads."
+      },
+      {
+        "name": "Lintasarta (Indosat)",
+        "description": "Domestic AI infrastructure operator running the Lintasarta AI Factory, built around Nvidia GB200 NVL72 systems as part of the National AI Center of Excellence."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Universitas Gadjah Mada (UGM)",
+      "description": "Member of the Indonesia AI Research Consortium, operating a dedicated AI Center of Excellence.",
+      "url": "https://ai.ugm.ac.id"
+    },
+    {
+      "name": "Universitas Indonesia (UI)",
+      "description": "Founding member of the Indonesia AI Research Consortium, with AI research based in its Faculty of Computer Science.",
+      "url": "https://cs.ui.ac.id"
+    },
+    {
+      "name": "Institut Teknologi Bandung (ITB)",
+      "description": "Founding member of the Indonesia AI Research Consortium, with AI research based in its Faculty of Informatics.",
+      "url": "https://stei.itb.ac.id"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Center for Indonesian Policy Studies (CIPS)",
+      "description": "Independent nonprofit think tank covering digital security, digital trade and digital inclusion policy, including AI-adjacent issues.",
+      "url": "https://www.cips-indonesia.org"
+    },
+    {
+      "name": "ELSAM (Institute for Policy Research and Advocacy)",
+      "description": "Jakarta-based civil-society research institute covering technology and human rights, including commentary on Indonesia's AI ethics circular.",
+      "url": "https://www.elsam.or.id"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Communication and Digital Affairs (Komdigi)",
+      "description": "Formerly Kominfo; lead ministry for AI policy, the National AI Roadmap, and drafting of the AI ethics Perpres.",
+      "url": "https://www.komdigi.go.id",
+      "aliases": ["Kominfo"]
+    },
+    {
+      "name": "National Research and Innovation Agency (BRIN)",
+      "description": "Established in 2019; runs an AI and Cybersecurity Research Centre (2022) with applied AI projects in areas such as precision agriculture and remote sensing.",
+      "url": "https://www.brin.go.id"
+    },
+    {
+      "name": "Financial Services Authority (OJK)",
+      "description": "Sectoral regulator issuing non-binding guidance on responsible and trustworthy AI use in fintech.",
+      "url": "https://www.ojk.go.id"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Meutya Hafid",
+      "role": "Minister of Communication and Digital Affairs",
+      "affiliation": "Komdigi",
+      "category": "government",
+      "url": "https://www.komdigi.go.id"
+    },
+    {
+      "name": "Vikram Sinha",
+      "role": "President Director and CEO",
+      "affiliation": "Indosat Ooredoo Hutchison",
+      "category": "company_leader",
+      "url": "https://indosatooredoohutchison.com"
+    },
+    {
+      "name": "Irzan Raditya",
+      "role": "Co-founder and CEO",
+      "affiliation": "Kata.ai",
+      "category": "company_leader",
+      "url": "https://kata.ai",
+      "needsVerification": true
+    }
+  ],
+  "influenceMap": [
+    { "label": "Komdigi", "type": "government" },
+    { "label": "BRIN", "type": "agency" },
+    { "label": "Indosat Ooredoo Hutchison", "type": "company" },
+    { "label": "Indonesia AI Research Consortium", "type": "research" }
+  ],
+  "notableGaps": [
+    {
+      "area": "Binding AI-specific law",
+      "note": "As of mid-2026, Indonesia has no confirmed binding AI-specific statute or regulation in force — the draft Perpres on AI ethics remains unconfirmed as signed, and existing AI guidance (SE 9/2023) is voluntary."
+    },
+    {
+      "area": "Frontier model developers",
+      "note": "No frontier-scale foundation-model developer is headquartered in Indonesia; domestic AI companies (e.g. Kata.ai, Nodeflux) focus on applied/vertical AI rather than frontier model training."
+    },
+    {
+      "area": "Facial-recognition-specific regulation",
+      "note": "Government and private facial-recognition deployments (e.g. Nodeflux's public-safety systems) have proceeded without a dedicated legal framework specific to biometric/facial-recognition technology, beyond the general Personal Data Protection Law."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Data localization and digital sovereignty vs. hyperscaler investment",
+      "category": "government",
+      "summary": "Indonesia's push for digital sovereignty and data-localization rules sits in tension with its simultaneous courting of foreign hyperscaler investment from Microsoft, Google and AWS.",
+      "expanded": "Indonesia's data center industry has reportedly protested proposed data-localization reforms, arguing they could complicate the very foreign cloud investment (such as Microsoft's $1.7B commitment and its new Indonesia Central region) that the government has simultaneously sought to attract. This reflects a broader regional tension between sovereignty-driven policy goals and the practical reality that most large-scale AI infrastructure in Indonesia is currently built and operated by foreign hyperscalers.",
+      "sourceIds": ["id-11", "id-12"]
+    },
+    {
+      "topic": "Algorithmic management of gig-economy workers",
+      "category": "industry",
+      "summary": "Indonesian gig-economy platforms' use of algorithmic scheduling and earnings allocation has drawn scrutiny, including analysis suggesting a disproportionate burden on female drivers balancing caregiving responsibilities.",
+      "expanded": "Ride-hailing and delivery platforms operating in Indonesia rely on algorithmic systems to allocate jobs, set incentive structures and manage driver-partners who are typically classified outside standard employment protections. Commentary published in 2026 has argued that algorithmic scheduling can disadvantage female gig workers with caregiving constraints, and driver protests over algorithmic pay/allocation changes have occurred in prior years; the extent and consistency of these effects across platforms has not been independently quantified in available reporting.",
+      "sourceIds": ["id-13", "id-14"]
+    },
+    {
+      "topic": "Soft-law ethics guidance vs. a binding AI regulation",
+      "category": "government",
+      "summary": "Indonesia's shift from a voluntary 2023 ethics circular toward a proposed risk-tiered Presidential Regulation reflects an ongoing debate about whether non-binding guidance is adequate as generative AI adoption scales.",
+      "expanded": "The 2023 circular letter carried no sanctions and relied on voluntary commitments from public and private electronic system operators. The subsequent move toward a risk-tiered draft Perpres suggests government recognition that binding rules may eventually be needed, but the draft's repeatedly shifting timeline (reported variously as expected in 2025, then early 2026) illustrates the practical difficulty of finalizing enforceable AI-specific regulation.",
+      "sourceIds": ["id-7", "id-4"]
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Meutya Hafid",
+      "type": "person",
+      "role": "Minister of Communication and Digital Affairs; central voice on Indonesia's AI regulation timeline and priorities.",
+      "category": "government",
+      "url": "https://www.komdigi.go.id"
+    },
+    {
+      "name": "Center for Indonesian Policy Studies (CIPS)",
+      "type": "organization",
+      "role": "Independent think tank publishing on digital policy issues relevant to AI governance in Indonesia.",
+      "category": "think_tank",
+      "url": "https://www.cips-indonesia.org"
+    },
+    {
+      "name": "ELSAM",
+      "type": "organization",
+      "role": "Civil-society research institute tracking AI ethics and technology-and-human-rights issues in Indonesia.",
+      "category": "think_tank",
+      "url": "https://www.elsam.or.id"
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "AI Ethics Circular seeks voluntary commitments from companies and stakeholders",
+      "type": "think_tank",
+      "author": "ELSAM",
+      "url": "https://www.elsam.or.id/en/technology-and-human-rights/ai-ethics-circular-seeks-voluntary-commitments-from-companies-and-stakeholders"
+    },
+    {
+      "title": "Microsoft announces $1.7 billion investment to advance Indonesia's cloud and AI ambitions",
+      "type": "government",
+      "author": "Microsoft",
+      "url": "https://news.microsoft.com/apac/2024/04/30/microsoft-announces-us1-7-billion-investment-to-advance-indonesias-cloud-and-ai-ambitions/"
+    },
+    {
+      "title": "Algorithms don't care: how AI worsens the double burden for Indonesia's female gig workers",
+      "type": "academic",
+      "author": "The Conversation",
+      "url": "https://theconversation.com/algorithms-dont-care-how-ai-worsens-the-double-burden-for-indonesias-female-gig-workers-279978"
+    }
+  ],
+  "sources": [
+    {
+      "id": "id-1",
+      "title": "Microsoft announces $1.7 billion investment to advance Indonesia's cloud and AI ambitions",
+      "publisher": "Microsoft",
+      "url": "https://news.microsoft.com/apac/2024/04/30/microsoft-announces-us1-7-billion-investment-to-advance-indonesias-cloud-and-ai-ambitions/",
+      "date": "2024-04-30",
+      "category": "industry"
+    },
+    {
+      "id": "id-2",
+      "title": "Microsoft opens Indonesia Central",
+      "publisher": "Microsoft",
+      "url": "https://news.microsoft.com/id-id/2025/05/27/microsoft-opens-indonesia-central/",
+      "date": "2025-05-27",
+      "category": "industry"
+    },
+    {
+      "id": "id-3",
+      "title": "Indonesia to establish AI Center of Excellence with support from Nvidia, Cisco and Indosat",
+      "publisher": "SiliconANGLE",
+      "url": "https://siliconangle.com/2025/07/16/indonesia-to-establish-ai-center-of-excellence-with-support-from-nvidia-cisco-and-indosat/",
+      "date": "2025-07-16",
+      "category": "news"
+    },
+    {
+      "id": "id-4",
+      "title": "Indonesian Ethics on Artificial Intelligence: Presidential Regulation Draft on Ethics of Artificial Intelligence dated 27 January 2026",
+      "publisher": "Mondaq / Hukumonline",
+      "url": "https://www.mondaq.com/new-technology/1795604/indonesian-ethics-on-artificial-intelligence--presidential-regulation-draft-on-ethics-of-artificial-intelligence-dated-27-january-2026",
+      "date": "2026-01-27",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "id-5",
+      "title": "Indonesia prioritizes AI regulation in 2026, says Communications Minister",
+      "publisher": "Indonesia Business Post",
+      "url": "https://indonesiabusinesspost.com/5992/cyber-and-espionage/indonesia-prioritizes-ai-regulation-in-2026-says-communications-minister",
+      "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "id-6",
+      "title": "Indonesia's Personal Data Protection Law compliance guide",
+      "publisher": "PertamaPartners",
+      "url": "https://pertamapartners.com",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "id-7",
+      "title": "Surat Edaran (Circular Letter) panduan etika kecerdasan artifisial",
+      "publisher": "Kompas",
+      "url": "https://www.kompas.id/artikel/en-surat-edaran-panduan-etika-kecerdasan-artifisial-berlaku-bagi-penyelenggara-sistem-elektronik-publik-dan-privat",
+      "date": "2023-12-19",
+      "category": "government"
+    },
+    {
+      "id": "id-8",
+      "title": "Indonesia's National AI Strategy (Stranas KA)",
+      "publisher": "BRIN / Bappenas",
+      "url": "https://www.brin.go.id",
+      "date": "2020",
+      "category": "government"
+    },
+    {
+      "id": "id-9",
+      "title": "UB officially joins the Indonesia AI Research Consortium",
+      "publisher": "Universitas Brawijaya AI Center",
+      "url": "https://aicenter.ub.ac.id/2024/08/ub-resmi-bergabung-dengan-indonesia-ai-research-consortium-iarc/",
+      "date": "2024-08",
+      "category": "research"
+    },
+    {
+      "id": "id-10",
+      "title": "Indonesia's AI tools and BRIN's government research programs",
+      "publisher": "Rest of World",
+      "url": "https://restofworld.org/2024/indonesia-ai-tools-brin-government-agency/",
+      "date": "2024",
+      "category": "news"
+    },
+    {
+      "id": "id-11",
+      "title": "Indonesia's data center industry protests data localization reform",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/indonesias-data-center-industry-protests-data-localization-reform/",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "id-12",
+      "title": "Indonesia's data sovereignty in the spotlight after US trade deal",
+      "publisher": "Jakarta Globe",
+      "url": "https://jakartaglobe.id/tech/indonesias-data-sovereignty-in-the-spotlight-after-us-trade-deal",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "id-13",
+      "title": "Algorithms don't care: how AI worsens the double burden for Indonesia's female gig workers",
+      "publisher": "The Conversation",
+      "url": "https://theconversation.com/algorithms-dont-care-how-ai-worsens-the-double-burden-for-indonesias-female-gig-workers-279978",
+      "date": "2026-04",
+      "category": "research"
+    },
+    {
+      "id": "id-14",
+      "title": "AI worsens the burden for Indonesia's female gig workers",
+      "publisher": "The Jakarta Post",
+      "url": "https://www.thejakartapost.com/opinion/2026/04/20/ai-worsens-the-burden-for-indonesias-female-gig-workers",
+      "date": "2026-04-20",
+      "category": "news"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "code": "pe",
+  "name": "Peru",
+  "shortName": "Peru",
+  "flagEmoji": "🇵🇪",
+  "geometryType": "polygon",
+  "isoA3": ["PER"],
+  "region": "Americas",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Binding framework law (Ley 31814) implemented through regulation, with a sector-by-sector compliance rollout through 2028 and a parallel national AI strategy",
+  "accentColor": { "light": "#754483", "dark": "#9D61AE" },
+  "center": [-75.0, -9.2],
+  "zoom": 4.6,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": false,
+  "debateTopics": [
+    "Whether the AI Law's regulation imposes unlawful bureaucratic barriers on private-sector AI developers",
+    "Electoral deepfakes and AI-driven disinformation ahead of and after Peru's 2026 general elections"
+  ],
+  "overview": "Peru has one of Latin America's more developed binding AI frameworks. Ley N.° 31814, enacted July 5, 2023, declared the promotion of AI development of national interest and established general principles (safety, ethics, transparency, sustainability, non-discrimination, protection of human rights) alongside a mandate for risk-based classification. Its implementing regulation, Supreme Decree N.° 115-2025-PCM, was approved on September 9, 2025 and entered into force January 22, 2026, naming the Secretaría de Gobierno y Transformación Digital (SGTD) — part of the Presidencia del Consejo de Ministros (PCM) — as the national technical-regulatory authority for AI. Compliance obligations are being phased in by sector: health, education, justice, security, and economy/finance (plus unspecified uses) from September 10, 2026; transport, commerce, and labor from September 10, 2027; and production, agriculture, energy, and mining from September 10, 2028.\n\nIn May 2026, INDECOPI's Sala Especializada en Eliminación de Barreras Burocráticas issued Resolution N.° 0219-2026/SEL, clarifying which specific obligations under the AI Law's regulation do, and do not, constitute unlawful bureaucratic barriers on private-sector AI developers and deployers — an indication that implementation is already generating friction with businesses. Separately, on May 1, 2026 the government approved the National Artificial Intelligence Strategy 2026–2030 (ENIA) via Ministerial Resolution N.° 152-2026-PCM, a mandatory guidance instrument for public entities and a referential one for the private sector, again led by the SGTD. AI has also become a live issue in Peru's 2026 general elections (first round April 12, 2026): lawmakers proposed penalties for AI-generated deepfakes in campaigns, and the Jurado Nacional de Elecciones (JNE) deployed AI-assisted fact-checking tools to monitor disinformation across social platforms.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Binding AI law in force, with phased sectoral compliance through 2028",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Framework law (Ley 31814) plus implementing regulation (DS 115-2025-PCM), with risk classification and a sector-by-sector obligation timeline",
+    "latestMajorUpdate": "INDECOPI Resolution N.° 0219-2026/SEL (May 2026) clarifying which AI Law obligations are, and are not, unlawful bureaucratic barriers on business",
+    "governmentInvolvement": "The Secretaría de Gobierno y Transformación Digital (SGTD), within the Presidencia del Consejo de Ministros, is the designated national technical-regulatory authority for AI",
+    "industrialStrategy": "National Artificial Intelligence Strategy 2026–2030 (ENIA), mandatory for public entities and state-owned companies, referential for the private sector",
+    "internationalPartnerships": "The AI Law's regulation and ENIA reference international norms on AI ethics and risk management, though specific bilateral AI partnerships were not identified in available reporting",
+    "primaryPolicyFocus": "Phasing in sectoral compliance obligations under the AI Law's regulation while resolving disputes over regulatory-burden concerns raised via INDECOPI"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Peru has moved from a promotional framework law (2023) to a binding, sector-phased implementing regulation now in force, plus a formal national strategy approved in May 2026 — a steady tightening of the compliance perimeter. At the same time, INDECOPI's May 2026 ruling on bureaucratic barriers shows real pushback from the private sector on how far those obligations should extend, and Peru's political environment (a new government took office following the April–June 2026 general elections) adds some uncertainty about how consistently implementation will be pursued through the following presidential term."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Supreme Decree N.° 115-2025-PCM, the implementing regulation for Ley 31814, is approved, naming the SGTD as national AI authority and setting a phased sectoral compliance timeline.",
+      "date": "2025-09-09",
+      "sourceIds": ["pe-2"]
+    },
+    {
+      "text": "The AI Law's regulation enters into force.",
+      "date": "2026-01-22",
+      "sourceIds": ["pe-2", "pe-3"]
+    },
+    {
+      "text": "Government approves the National Artificial Intelligence Strategy 2026–2030 (ENIA) via Ministerial Resolution N.° 152-2026-PCM, mandatory for public entities.",
+      "date": "2026-05-01",
+      "sourceIds": ["pe-5"]
+    },
+    {
+      "text": "INDECOPI's Sala Especializada en Eliminación de Barreras Burocráticas issues Resolution N.° 0219-2026/SEL, clarifying which obligations under the AI Law's regulation do and do not constitute unlawful bureaucratic barriers on businesses.",
+      "date": "2026-05-20",
+      "sourceIds": ["pe-4"]
+    },
+    {
+      "text": "Ahead of Peru's April 12, 2026 general elections, the JNE announces AI-assisted monitoring tools to detect manipulated content and disinformation about electoral bodies across social platforms, while a congressional bill proposes fines for AI-generated deepfakes in campaigns.",
+      "date": "2025-12-11",
+      "sourceIds": ["pe-6", "pe-7"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Ley N.° 31814 — Ley que promueve el uso de la inteligencia artificial",
+      "status": "in_force",
+      "summary": "Enacted July 5, 2023, declares AI promotion of national interest and sets general principles: safety, ethics, transparency, sustainability, non-discrimination, and human-rights protection.",
+      "officialUrl": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf",
+      "sourceIds": ["pe-1"]
+    },
+    {
+      "title": "Reglamento de la Ley N.° 31814 (Decreto Supremo N.° 115-2025-PCM)",
+      "status": "in_force",
+      "summary": "Approved September 9, 2025, in force since January 22, 2026; designates the SGTD as national AI authority and phases in sectoral compliance obligations through September 2028.",
+      "officialUrl": "https://www.gob.pe/110224-conoce-el-reglamento-de-la-ley-de-inteligencia-artificial-en-el-peru",
+      "sourceIds": ["pe-2", "pe-3"]
+    },
+    {
+      "title": "Estrategia Nacional de Inteligencia Artificial 2026–2030 (ENIA)",
+      "status": "in_force",
+      "summary": "Approved May 1, 2026 via Resolución Ministerial N.° 152-2026-PCM; mandatory guidance for public administration entities and state-owned companies, referential for the private sector.",
+      "sourceIds": ["pe-5"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "The Grupo de Inteligencia Artificial de la Pontificia Universidad Católica del Perú (IA-PUCP) is described by the university as the country's leading AI research center, working on computer vision, pattern recognition and applications in health, security, environment and law. PUCP also runs a dedicated Grupo de Derecho e Inteligencia Artificial studying the legal and regulatory dimensions of AI. A fuller national picture of Peruvian AI research output beyond PUCP has not been independently verified here.",
+    "sourceIds": ["pe-8"]
+  },
+  "companies": [
+    {
+      "name": "Krealo (Credicorp)",
+      "description": "Venture and innovation arm of Credicorp, Peru's largest financial group; has backed AI-adjacent fintech investments regionally, including in Ecuador's Jelou.",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      { "name": "AWS", "description": "Major cloud provider for Peruvian enterprise and public-sector workloads." },
+      { "name": "Microsoft Azure", "description": "Cloud provider used across Peruvian enterprise AI adoption." },
+      { "name": "Google Cloud", "description": "Cloud provider present in the Peruvian market, though with a smaller local infrastructure footprint than in some neighboring countries." }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Pontificia Universidad Católica del Perú (PUCP)",
+      "description": "Home to IA-PUCP, described as the country's most prominent AI research group, plus a specialized Grupo de Derecho e Inteligencia Artificial on AI law and policy.",
+      "url": "https://ia.inf.pucp.edu.pe"
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "Secretaría de Gobierno y Transformación Digital (SGTD)",
+      "description": "Unit of the Presidencia del Consejo de Ministros (PCM) designated as Peru's national technical-regulatory authority for AI, responsible for directing, evaluating and supervising AI development and use, and for leading the ENIA 2026–2030.",
+      "url": "https://www.gob.pe/institucion/pcm"
+    },
+    {
+      "name": "INDECOPI",
+      "description": "National competition and consumer-protection agency; its Sala Especializada en Eliminación de Barreras Burocráticas has begun ruling on which AI Law compliance obligations constitute unlawful bureaucratic barriers on business.",
+      "url": "https://www.gob.pe/indecopi"
+    },
+    {
+      "name": "Jurado Nacional de Elecciones (JNE)",
+      "description": "Electoral authority that deployed AI-assisted fact-checking and content-monitoring tools ahead of the 2026 general elections to track disinformation about the electoral process.",
+      "url": "https://www.gob.pe/jne"
+    }
+  ],
+  "keyPeople": [],
+  "peopleToFollow": [
+    {
+      "name": "Secretaría de Gobierno y Transformación Digital (SGTD)",
+      "type": "organization",
+      "role": "Peru's national technical-regulatory authority for AI, leading implementation of the AI Law's regulation and the ENIA 2026–2030.",
+      "category": "government",
+      "url": "https://www.gob.pe/institucion/pcm"
+    },
+    {
+      "name": "IA-PUCP",
+      "type": "organization",
+      "role": "Peru's leading academic AI research group, based at Pontificia Universidad Católica del Perú.",
+      "category": "university",
+      "url": "https://ia.inf.pucp.edu.pe"
+    }
+  ],
+  "influenceMap": [
+    { "label": "SGTD (PCM)", "type": "government" },
+    { "label": "INDECOPI", "type": "agency" },
+    { "label": "JNE", "type": "agency" },
+    { "label": "PUCP / IA-PUCP", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Named political/technical leadership", "note": "Available reporting did not confirm a current, up-to-date named head of the SGTD as of mid-2026; Peru's frequent cabinet turnover makes this difficult to verify without more recent sourcing." },
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Peru; domestic activity centers on applied research (e.g., IA-PUCP) and compliance with the new regulatory regime." },
+    { "area": "Independent AI-specific think tanks", "note": "No dedicated AI-policy think tank was identified in available sources; legal and policy commentary comes mainly from law firms and university-affiliated researchers." },
+    { "area": "Cloud/data-center infrastructure detail", "note": "Public data on hyperscaler data-center presence specific to Peru (as opposed to the wider Andean region) was limited in available sources." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether the AI Law's regulation imposes unlawful bureaucratic barriers on private-sector AI developers",
+      "category": "government",
+      "summary": "INDECOPI's May 2026 ruling on the AI Law's implementing regulation reflects a live tension between compliance obligations and business costs.",
+      "expanded": "Resolution N.° 0219-2026/SEL from INDECOPI's barrier-elimination tribunal clarified that some obligations under Supreme Decree 115-2025-PCM are lawful regulatory requirements while others may restrict economic activity in ways that qualify as unlawful bureaucratic barriers. This suggests that, even with a relatively mature legal framework compared to regional peers, Peru is still working out in practice how far AI compliance obligations can extend before they are challenged as excessive by industry.",
+      "sourceIds": ["pe-4"]
+    },
+    {
+      "topic": "Electoral deepfakes and AI-driven disinformation ahead of and after Peru's 2026 general elections",
+      "category": "government",
+      "summary": "Concerns about AI-generated deepfakes and disinformation shaped part of the debate around Peru's April–June 2026 general elections.",
+      "expanded": "A congressional bill sponsored by Carlos Anderson proposed fines (20 URP, over S/10,000) for producing or disseminating deceptive AI-generated electoral content, alongside a mechanism for the JNE to request immediate takedown of manipulated audiovisual material; it does not appear to include criminal penalties. Separately, the JNE deployed its own AI-assisted monitoring tools to track manipulated content on TikTok, X, Facebook and streaming platforms. Whether these measures meaningfully reduced disinformation during the election, and what happens to the deepfake bill going forward, was not confirmed in available post-election reporting.",
+      "sourceIds": ["pe-6", "pe-7"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Gobernar la Inteligencia Artificial: Comentarios a la Estrategia Nacional de Inteligencia Artificial 2026-2030",
+      "type": "academic",
+      "author": "Revista Derecho y Tecnología Perú",
+      "url": "https://derechoytecnologiaperu.wordpress.com/2026/05/14/gobernar-la-inteligencia-artificial-comentarios-a-la-estrategia-nacional-de-inteligencia-artifical-2026-2030/"
+    },
+    {
+      "title": "¿Qué establece el Reglamento de la Ley de Inteligencia Artificial?",
+      "type": "think_tank",
+      "author": "Cuatrecasas",
+      "url": "https://www.cuatrecasas.com/es/latam/tecnologia-medios-digitales/art/que-establece-el-reglamento-de-la-ley-de-inteligencia-artificial"
+    }
+  ],
+  "sources": [
+    { "id": "pe-1", "title": "Ley N.° 31814 — texto consolidado", "publisher": "Congreso de la República del Perú", "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf", "date": "2023-07-05", "category": "government" },
+    { "id": "pe-2", "title": "Perú | Reglamento de la Ley de Inteligencia Artificial, DS 115-2025-PCM", "publisher": "Compliance Latam", "url": "https://compliancelatam.legal/peru-reglamento-de-la-ley-de-inteligencia-artificial-ds-115-2025-pcm-aprueban-el-reglamento-de-la-ley-de-inteligencia-artificial-ley-no-31814/", "date": "2025-09", "category": "news" },
+    { "id": "pe-3", "title": "Conoce el Reglamento de la Ley de inteligencia artificial en el Perú", "publisher": "Presidencia del Consejo de Ministros (PCM), Plataforma del Estado Peruano", "url": "https://www.gob.pe/110224-conoce-el-reglamento-de-la-ley-de-inteligencia-artificial-en-el-peru", "date": "2026-01", "category": "government" },
+    { "id": "pe-4", "title": "Legal Alert — Resolution No. 0219-2026/SEL-INDECOPI on AI Law obligations", "publisher": "Kaiteki Regulación", "url": "https://www.kaitekiregulacion.pe/en/alerta-legal-insight-21/", "date": "2026-05-20", "category": "expert_commentary" },
+    { "id": "pe-5", "title": "Perú fija reglas para la inteligencia artificial en el sector público hasta 2030", "publisher": "El Peruano", "url": "https://www.elperuano.pe/noticia/294752-peru-fija-reglas-para-la-inteligencia-artificial-en-el-sector-publico-hasta-2030", "date": "2026-05-01", "category": "government" },
+    { "id": "pe-6", "title": "Elecciones 2026: Congresista Carlos Anderson presenta proyecto para 'prevenir la desinformación electoral' y sancionar 'deepfake'", "publisher": "El Comercio", "url": "https://elcomercio.pe/politica/actualidad/elecciones-2026-congresista-carlos-anderson-presenta-proyecto-para-prevenir-la-desinformacion-electoral-y-sancionar-deepfake-noticia/", "date": "2025-11", "category": "news" },
+    { "id": "pe-7", "title": "Elecciones 2026 en Perú: JNE detecta ola de noticias falsas en redes sociales y anuncia monitoreo con IA", "publisher": "Infobae", "url": "https://www.infobae.com/peru/2025/12/11/elecciones-2026-en-peru-jne-detecta-ola-de-noticias-falsas-en-redes-sociales-y-anuncia-monitoreo-con-ia/", "date": "2025-12-11", "category": "news" },
+    { "id": "pe-8", "title": "Grupo de Inteligencia Artificial PUCP (IA-PUCP)", "publisher": "Pontificia Universidad Católica del Perú", "url": "https://ia.inf.pucp.edu.pe", "date": "2026", "category": "research" }
+  ]
+}

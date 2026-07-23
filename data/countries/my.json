@@ -1,0 +1,348 @@
+{
+  "code": "my",
+  "name": "Malaysia",
+  "shortName": "Malaysia",
+  "flagEmoji": "🇲🇾",
+  "geometryType": "polygon",
+  "isoA3": ["MYS"],
+  "region": "Southeast Asia",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Voluntary national guidelines moving toward Malaysia's first binding, horizontal AI law",
+  "accentColor": { "light": "#44834A", "dark": "#61AE68" },
+  "center": [109.5, 3.5],
+  "zoom": 3.8,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Malaysia's role as a chip trans-shipment hub amid US-China export controls",
+    "Data centre boom vs. Johor's water and power constraints",
+    "Shift from voluntary AI ethics guidelines to a binding AI Governance Bill"
+  ],
+  "overview": "Malaysia has moved in stages toward a more formal AI governance regime. In September 2024, the Ministry of Science, Technology and Innovation (MOSTI) published the National Guidelines on AI Governance & Ethics (AIGE) — a voluntary, seven-principle framework built around fairness, safety and human control, privacy and security, inclusiveness, and transparency and accountability, which several trackers describe as among the first national-level AI ethics guidelines published in ASEAN. The government followed this with an institutional build-out: Cabinet approved a National AI Office (NAIO) under the Ministry of Digital on August 28, 2024, Prime Minister Anwar Ibrahim inaugurated it on December 12, 2024, and it was reportedly further empowered from July 28 to formally coordinate AI policy across government.\n\nNAIO is now leading development of what would be Malaysia's first horizontal, binding AI-specific law — an AI Governance Bill. Digital Minister Gobind Singh Deo indicated in late 2025 that a legislative framework would go to Cabinet by around June 2026, and NAIO published a public consultation paper on July 10, 2026 with a comment deadline of July 31, 2026, meaning the bill remains in active consultation as of this writing rather than settled law. Proposed principles include human dignity, transparency and explainability, accountability, safety and security, and data governance, alongside a reportedly unusual provision treating both AI training data and AI-generated outputs as intellectual property.\n\nSeparately, Malaysia has become entangled in the US-China AI chip conflict as a major transit point for Nvidia GPUs, prompting Malaysia's own export-permit regime in mid-2025, and has simultaneously become one of the world's largest destinations for AI data-centre investment — a boom that is now colliding with water and power constraints in Johor.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Voluntary guidelines transitioning toward a binding AI law",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Non-binding National Guidelines on AI Governance & Ethics (2024), with a horizontal AI Governance Bill in active public consultation as of mid-2026",
+    "latestMajorUpdate": "NAIO public consultation paper on the AI Governance Bill, published July 10, 2026 with comments due July 31, 2026",
+    "governmentInvolvement": "High and centralising — a dedicated National AI Office under the Ministry of Digital now coordinates AI policy, industrial strategy, and the incoming legislative framework",
+    "industrialStrategy": "Positioning as a regional AI infrastructure and data-centre hub, drawing very large hyperscaler and chipmaker investment, especially concentrated in Johor",
+    "internationalPartnerships": "Engagement with ASEAN AI-governance harmonisation efforts, alongside direct exposure to US export-control policy given Malaysia's role in AI chip supply chains",
+    "primaryPolicyFocus": "Finalising the AI Governance Bill and managing the tension between data-centre-driven investment and local resource constraints appear to be near-term priorities, based on recent government statements"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Malaysia is moving from voluntary AI ethics guidance toward binding regulation: NAIO's AI Governance Bill consultation (July 2026) would make Malaysia's AI governance model materially firmer if enacted as planned. In parallel, Malaysia tightened chip export-transshipment controls in mid-2025 under US pressure, and Johor-level authorities have begun restricting new high-water-use data-centre approvals — suggesting a broader shift toward more active state management of AI-linked investment and trade rather than a purely open-door approach."
+  },
+  "recentDevelopments": [
+    {
+      "text": "MOSTI publishes the National Guidelines on AI Governance & Ethics (AIGE), a voluntary seven-principle framework described by several trackers as among the first national-level AI ethics guidelines in ASEAN.",
+      "date": "2024-09",
+      "sourceIds": ["my-1"]
+    },
+    {
+      "text": "Cabinet approves establishment of the National AI Office (NAIO) under the Ministry of Digital; it is inaugurated by Prime Minister Anwar Ibrahim on December 12, 2024, and reportedly further empowered from July 28 to formally coordinate AI matters across government.",
+      "date": "2024-12-12",
+      "sourceIds": ["my-2", "my-3"],
+      "severity": "major"
+    },
+    {
+      "text": "Malaysia's Ministry of Investment, Trade and Industry (MITI) issues Directive No. 1/2025, requiring a Strategic Trade Permit for export, transshipment and re-export of US-origin advanced AI chips, following US scrutiny of Malaysia as a possible trans-shipment route to China.",
+      "date": "2025-07-14",
+      "sourceIds": ["my-4"],
+      "severity": "major"
+    },
+    {
+      "text": "Reports indicate the US Commerce Department is drafting a rule that would specifically tighten AI-chip export licensing requirements for Malaysia and Thailand, citing continued concern over diversion to China.",
+      "date": "2025-07",
+      "sourceIds": ["my-5"],
+      "needsVerification": true
+    },
+    {
+      "text": "National AI Office publishes a public consultation paper on the proposed AI Governance Bill — Malaysia's first horizontal, binding AI-specific legislation — with written feedback due by July 31, 2026.",
+      "date": "2026-07-10",
+      "sourceIds": ["my-6"],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Guidelines on AI Governance & Ethics (AIGE)",
+      "status": "in_force",
+      "summary": "Voluntary framework published by MOSTI in September 2024, built around seven principles (fairness; reliability, safety and human control; privacy and security; inclusiveness; transparency, accountability and human-centricity), aimed at users, regulators and developers. Non-binding.",
+      "sourceIds": ["my-1"]
+    },
+    {
+      "title": "AI Governance Bill",
+      "status": "proposed",
+      "summary": "Proposed horizontal AI-specific law led by NAIO, in public consultation as of July 2026 (comments due July 31, 2026). Proposed principles: human dignity, transparency and explainability, accountability, safety and security, and data governance; risk-based approach with incident-reporting and regulatory-sandbox mechanisms; reportedly includes a provision treating both AI training data and AI-generated outputs as intellectual property. Cabinet presentation was targeted for around June 2026 per ministerial statements, though the bill had not yet passed as of this writing.",
+      "sourceIds": ["my-6", "my-7"]
+    },
+    {
+      "title": "MITI Directive No. 1/2025 (AI chip export/transshipment controls)",
+      "status": "in_force",
+      "summary": "Issued July 14, 2025, requiring a Strategic Trade Permit for the export, transshipment and re-export of high-performance, US-origin AI chips, in response to US pressure over possible diversion to China.",
+      "sourceIds": ["my-4"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "AI research capacity is concentrated in a handful of public universities and one national applied-research institute rather than a dense national research ecosystem. Universiti Malaya operates a dedicated Malaya AI Research (UMAI) centre within its Faculty of Computer Science & IT, alongside a separate AI-in-medicine initiative; Universiti Teknologi Malaysia's Centre for Artificial Intelligence & Robotics (CAIRO) has published peer-reviewed applied-AI work, including a 2026 award-winning paper on flood-forecasting models. MIMOS Berhad, Malaysia's national applied R&D centre, works on AI and semiconductor R&D, including collaborations with international university partners, though independent, comprehensive comparisons of Malaysia's academic AI output against regional peers were not found.",
+    "sourceIds": ["my-8", "my-9"]
+  },
+  "companies": [
+    {
+      "name": "YTL Power / YTL Corporation",
+      "description": "Malaysian conglomerate that entered a multi-billion-dollar AI infrastructure partnership with Nvidia, reportedly including a large GPU-equipped data centre in Johor powered substantially by solar generation and a project to develop what has been described as Malaysia's first sovereign large language model. Exact deal value has been reported inconsistently across outlets (roughly $2.3–2.4B) and should be treated with some caution.",
+      "url": "https://www.ytlpower.com",
+      "needsVerification": true
+    },
+    {
+      "name": "MIMOS Berhad",
+      "description": "Malaysia's national applied research and development centre, active in AI and semiconductor R&D and in partnerships with domestic and international universities.",
+      "url": "https://www.mimos.my"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Launched its 'Malaysia West' cloud region in Q2 2025 with three hyperscale data centres across Greater Kuala Lumpur and Johor, and announced a planned second region ('Southeast Asia 3') in Johor in November 2025."
+      },
+      {
+        "name": "Amazon Web Services",
+        "description": "Launched an AWS Asia Pacific (Malaysia) region in 2025 as part of a broader Southeast Asian expansion that also included Thailand."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Acquired roughly 389 acres of land in Negeri Sembilan from Gamuda Berhad for approximately RM455 million in May 2025, reportedly for future data-centre development."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Universiti Malaya (Malaya AI Research / UMAI)",
+      "description": "Public university whose Faculty of Computer Science & IT hosts the Malaya AI Research (UMAI) centre, working on machine learning, NLP, computer vision and healthcare AI, alongside a separate AI-in-medicine initiative.",
+      "url": "https://umai.my"
+    },
+    {
+      "name": "Universiti Teknologi Malaysia (UTM) — CAIRO",
+      "description": "UTM's Centre for Artificial Intelligence & Robotics (CAIRO) conducts applied AI/robotics research and postgraduate training; UTM researchers won a Best Paper award (ACM SIGAI) at IEA/AIE 2026 for a hybrid flood-forecasting AI model.",
+      "url": "https://research.utm.my/cairo/"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Institute of Strategic & International Studies (ISIS) Malaysia",
+      "description": "Malaysia's longest-established foreign-policy and strategic-studies think tank (founded 1983), whose technology-and-cyber research stream has published specifically on Malaysia's AI governance choices and on Malaysia's potential role in ASEAN AI safety cooperation.",
+      "url": "https://www.isis.org.my"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "National AI Office (NAIO)",
+      "description": "Established under the Ministry of Digital following Cabinet approval on August 28, 2024, and inaugurated December 12, 2024; the central coordinating body for Malaysia's AI strategy, ethics guidance and incoming AI Governance Bill.",
+      "url": "https://ai.gov.my"
+    },
+    {
+      "name": "Ministry of Digital",
+      "description": "Ministry overseeing NAIO and Malaysia's digital-economy and AI policy portfolio, led by Minister Gobind Singh Deo.",
+      "url": "https://www.digital.gov.my"
+    },
+    {
+      "name": "Ministry of Science, Technology and Innovation (MOSTI)",
+      "description": "Published the National Guidelines on AI Governance & Ethics (AIGE) in September 2024.",
+      "url": "https://www.mosti.gov.my"
+    },
+    {
+      "name": "Ministry of Investment, Trade and Industry (MITI)",
+      "description": "Issued Directive No. 1/2025 establishing Strategic Trade Permit requirements for AI-chip exports and transshipments, in response to US concerns over chip diversion to China.",
+      "url": "https://www.miti.gov.my"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Gobind Singh Deo",
+      "role": "Minister of Digital",
+      "affiliation": "Ministry of Digital, Government of Malaysia",
+      "category": "government",
+      "url": "https://www.digital.gov.my"
+    },
+    {
+      "name": "Shamsul Izhan Abdul Majid",
+      "role": "Chief Executive Officer, National AI Office",
+      "affiliation": "National AI Office (NAIO)",
+      "category": "government",
+      "url": "https://ai.gov.my",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Gobind Singh Deo",
+      "type": "person",
+      "role": "Minister of Digital leading Malaysia's AI Governance Bill and broader digital-economy policy.",
+      "category": "government",
+      "url": "https://www.digital.gov.my"
+    },
+    {
+      "name": "National AI Office (NAIO)",
+      "type": "organization",
+      "role": "Central government body coordinating Malaysia's AI strategy, ethics guidance, and incoming legislation.",
+      "category": "government",
+      "url": "https://ai.gov.my"
+    },
+    {
+      "name": "ISIS Malaysia",
+      "type": "organization",
+      "role": "Think tank publishing policy analysis on Malaysia's AI governance and regional AI-safety positioning.",
+      "category": "think_tank",
+      "url": "https://www.isis.org.my"
+    }
+  ],
+  "influenceMap": [
+    { "label": "National AI Office (NAIO)", "type": "agency" },
+    { "label": "Ministry of Digital", "type": "government" },
+    { "label": "MITI", "type": "government" },
+    { "label": "YTL Power / YTL Corporation", "type": "company" },
+    { "label": "ISIS Malaysia", "type": "think_tank" },
+    { "label": "Universiti Malaya (UMAI)", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Malaysia; the country's AI industrial strategy centres on data-centre and compute infrastructure hosting rather than domestic frontier-model development." },
+    { "area": "Dedicated AI regulator", "note": "As of mid-2026, AI oversight sits with NAIO as a coordinating office rather than an independent statutory regulator; enforcement powers depend on the still-pending AI Governance Bill." },
+    { "area": "National AI Roadmap 2021-2025", "note": "Malaysia is reported to have had an earlier National AI Roadmap covering 2021-2025, but independently verifiable detail on its implementation and outcomes was limited, so it is omitted from policyAndRegulation rather than described with unconfirmed specifics." }
+  ],
+  "debates": [
+    {
+      "topic": "Malaysia's role as a chip trans-shipment hub amid US-China export controls",
+      "category": "government",
+      "summary": "Malaysia's position as a major transit point for Nvidia AI chips has drawn direct US pressure, prompting Malaysia's own export-permit regime in mid-2025.",
+      "expanded": "Malaysia's GPU imports reportedly hit a record of roughly $2.74 billion in April 2025, fuelling US concern that chips were being re-routed to Chinese buyers in violation of American export controls. Malaysia issued its own Strategic Trade Permit requirement in July 2025 (MITI Directive No. 1/2025) in apparent response, and some reporting from mid-2025 suggested the US Commerce Department was drafting still-tighter licensing rules specifically targeting Malaysia and Thailand. The episode illustrates a broader tension for Malaysia's data-centre-led AI strategy: attracting large-scale AI infrastructure investment while avoiding becoming a flashpoint in US-China technology competition.",
+      "sourceIds": ["my-4", "my-5"]
+    },
+    {
+      "topic": "Data centre boom vs. Johor's water and power constraints",
+      "category": "infrastructure",
+      "summary": "Malaysia's rapid rise as a top global destination for AI data-centre investment is increasingly colliding with local water and electricity constraints, particularly in Johor.",
+      "expanded": "Malaysia drew more than $10 billion in data-centre investment in 2023 and reportedly tripled that figure in 2024, with Johor's aggregate data-centre capacity nearly doubling to about 5.8 gigawatts by mid-2025. That growth has produced local friction: residents in Gelang Patah, Johor protested in February 2026 over concerns that data centres would leave insufficient water for residential use, and Johor authorities raised industrial water tariffs and reportedly paused approvals for new high-water-use facilities. Malaysian officials have said the state rejected roughly 30% of data-centre bids in late 2024 for failing to meet sustainability requirements, suggesting growing government caution about the resource footprint of the AI infrastructure boom even as it continues to court hyperscaler investment.",
+      "sourceIds": ["my-10", "my-11"]
+    },
+    {
+      "topic": "Shift from voluntary AI ethics guidelines to a binding AI Governance Bill",
+      "category": "government",
+      "summary": "Malaysia's move from the non-binding 2024 AIGE guidelines toward a binding AI Governance Bill marks a significant shift in regulatory posture that is still being contested during public consultation.",
+      "expanded": "The AIGE guidelines were explicitly voluntary, aimed at building trust and adoption rather than imposing legal obligations. The AI Governance Bill under consultation since July 2026 would change that by creating enforceable obligations, incident-reporting duties, and a reportedly novel treatment of both AI training data and AI-generated outputs as intellectual property. Industry groups and legal commentators have flagged open questions about compliance burden and enforcement mechanisms during the consultation period (through July 31, 2026), and the bill's final form, and its Parliamentary timeline, remained unsettled as of this writing.",
+      "sourceIds": ["my-6", "my-7"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Future of Malaysia's AI governance",
+      "type": "think_tank",
+      "author": "ISIS Malaysia",
+      "url": "https://www.isis.org.my/2024/12/09/future-of-malaysias-ai-governance/"
+    },
+    {
+      "title": "How Malaysia could take the lead in ASEAN AI Safe",
+      "type": "think_tank",
+      "author": "ISIS Malaysia",
+      "url": "https://www.isis.org.my/2025/02/12/how-malaysia-could-take-the-lead-in-asean-ai-safe/"
+    },
+    {
+      "title": "Malaysia's AI Governance Bill: What's Inside",
+      "type": "academic",
+      "author": "ProductNation",
+      "url": "https://productnation.co/my/31565/malaysia-ai-governance-bill-ip-rules/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "my-1",
+      "title": "National Guidelines on Artificial Intelligence Governance and Ethics (AIGE)",
+      "publisher": "Malaysia.gov.my",
+      "url": "https://www.malaysia.gov.my/en/my-initiative/whole-government-digital-services/tadbir-urus/national-guidelines-on-artificial-intelligence-governance-and-ethics-aige",
+      "date": "2024-09",
+      "category": "government"
+    },
+    {
+      "id": "my-2",
+      "title": "Malaysia Launches New National AI Office",
+      "publisher": "US-ASEAN Business Council",
+      "url": "https://www.usasean.org/article/malaysia-launches-new-national-ai-office",
+      "date": "2024-12",
+      "category": "industry"
+    },
+    {
+      "id": "my-3",
+      "title": "Malaysia's National AI Office to be empowered on July 28 to oversee AI matters",
+      "publisher": "W.Media",
+      "url": "https://w.media/malaysias-national-ai-office-to-be-empowered-on-july-28-to-oversee-ai-matters/",
+      "category": "news"
+    },
+    {
+      "id": "my-4",
+      "title": "Malaysia requires export permits for Nvidia AI chips to block China trans-shipments",
+      "publisher": "DigiTimes",
+      "url": "https://www.digitimes.com/news/a20250715PD223/chips-nvidia-shipments-high-end-exports.html",
+      "date": "2025-07-15",
+      "category": "news"
+    },
+    {
+      "id": "my-5",
+      "title": "US plans to tighten AI chip export rules for Malaysia, Thailand",
+      "publisher": "Asia Times",
+      "url": "https://asiatimes.com/2025/07/us-plans-to-tighten-ai-chip-export-rules-for-malaysia-thailand/",
+      "date": "2025-07",
+      "category": "news"
+    },
+    {
+      "id": "my-6",
+      "title": "Malaysia launches consultations on AI Governance Bill",
+      "publisher": "Digital Watch Observatory",
+      "url": "https://dig.watch/updates/malaysia-ai-governance-bill-consultation",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "my-7",
+      "title": "Malaysia AI Governance Bill: What's Inside",
+      "publisher": "ProductNation",
+      "url": "https://productnation.co/my/31565/malaysia-ai-governance-bill-ip-rules/",
+      "date": "2026-06",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "my-8",
+      "title": "Malaya AI Research (UMAI)",
+      "publisher": "Universiti Malaya",
+      "url": "https://umai.my/",
+      "category": "research"
+    },
+    {
+      "id": "my-9",
+      "title": "CAIRO — Centre for Artificial Intelligence & Robotics",
+      "publisher": "Universiti Teknologi Malaysia",
+      "url": "https://research.utm.my/cairo/",
+      "category": "research"
+    },
+    {
+      "id": "my-10",
+      "title": "Whose Water Powers the Cloud? Data Centers and the Right to Water in Johor",
+      "publisher": "The Diplomat",
+      "url": "https://thediplomat.com/2026/04/whose-water-powers-the-cloud-data-centers-and-the-right-to-water-in-johor/",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "my-11",
+      "title": "Official: Johor snubbed 30pc of data centre bids for not meeting sustainability goals",
+      "publisher": "Malay Mail",
+      "url": "https://www.malaymail.com/news/malaysia/2024/11/20/official-johor-snubbed-30pc-of-data-centre-bids-for-not-meeting-sustainability-goals/157396",
+      "date": "2024-11-20",
+      "category": "news"
+    }
+  ]
+}

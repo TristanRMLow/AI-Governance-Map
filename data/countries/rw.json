@@ -1,0 +1,331 @@
+{
+  "code": "rw",
+  "name": "Rwanda",
+  "shortName": "Rwanda",
+  "flagEmoji": "🇷🇼",
+  "geometryType": "polygon",
+  "isoA3": ["RWA"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Centralized government-led AI strategy built on a 2023 National AI Policy, now moving toward a dedicated National AI Agency",
+  "accentColor": { "light": "#834465", "dark": "#AE6188" },
+  "center": [29.9, -1.9],
+  "zoom": 7.5,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Whether a heavily state-directed AI push is compatible with Rwanda's weak checks on digital surveillance",
+    "Whether Rwanda's AI ambitions are constrained by limited domestic compute and energy capacity"
+  ],
+  "overview": "Rwanda is widely reported to have been the first African country to adopt a dedicated national AI policy, with Cabinet approving the National AI Policy in April 2023. Developed by the Ministry of ICT and Innovation (MINICT) together with the Rwanda Utilities Regulatory Authority (RURA), GIZ's FAIR Forward programme, the Centre for the Fourth Industrial Revolution Rwanda (C4IR Rwanda), and The Future Society, the policy sets out six priority areas — AI skills and literacy, computing infrastructure, data strategy, trustworthy public-sector adoption, private-sector adoption, and ethical guidelines — rather than binding legal rules. Minister of ICT and Innovation Paula Ingabire, named to Time's 100 Most Influential People in AI list in 2025, has been the policy's most visible public champion.\n\nIn June 2026, Rwanda's Cabinet, chaired by President Paul Kagame, approved the creation of a National Artificial Intelligence Agency, described in government and press coverage as the country's first dedicated AI institution, with a mandate spanning AI deployment, governance, research, skills, ethics, industry growth and international partnerships. Structural details, leadership and a firm launch date had not been made public as of mid-2026. Rwanda has also positioned itself as a continental convener on AI policy, hosting the inaugural Global AI Summit on Africa in Kigali in April 2025, where more than 1,000 delegates endorsed an Africa Declaration on Artificial Intelligence and organizers announced a proposed $60 billion Africa AI Fund. Alongside this policy activity, the government secured Gates Foundation backing (initially $7.5 million, later reported as expanding toward $17.5 million) for a Rwanda AI Scaling Hub hosted by C4IR Rwanda, focused on scaling AI solutions in health, agriculture and education. Rwanda's overall approach remains development- and adoption-focused rather than centered on binding AI-specific regulation; the 2021 personal data protection law (Law No. 058/2021) is the main binding legal instrument that touches automated decision-making and profiling.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "State-led AI development strategy, no binding AI-specific law",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Non-binding National AI Policy (2023) covering skills, infrastructure, data, public- and private-sector adoption and ethics, layered with a newly approved National AI Agency",
+    "latestMajorUpdate": "Cabinet approves creation of a National Artificial Intelligence Agency (June 2026), Rwanda's first dedicated AI institution",
+    "governmentInvolvement": "High — AI policy is centrally coordinated by MINICT and, going forward, the new National AI Agency, with President Kagame personally chairing the Cabinet session that approved it",
+    "industrialStrategy": "Positioning Rwanda as an African AI hub through the National AI Policy, the Gates Foundation-backed Rwanda AI Scaling Hub (hosted by C4IR Rwanda), and hosting of the Global AI Summit on Africa",
+    "internationalPartnerships": "Hosted the inaugural Global AI Summit on Africa (April 2025) that produced the Africa Declaration on AI; Gates Foundation partnership on the AI Scaling Hub; GIZ FAIR Forward support for the 2023 policy",
+    "primaryPolicyFocus": "Standing up the new National AI Agency and scaling AI adoption in health, agriculture, education and public services via the AI Scaling Hub"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Rwanda has moved from a non-binding 2023 policy toward institution-building, with the June 2026 Cabinet approval of a National AI Agency representing a step toward a more formal governance structure, though it remains focused on coordinating adoption and industrial strategy rather than imposing binding rules on AI systems themselves. How the new Agency's mandate will interact with existing bodies such as RURA and MINICT's AI Office has not been fully clarified in public reporting."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Rwanda's Cabinet, chaired by President Paul Kagame, approves creation of a National Artificial Intelligence Agency — described as the country's first dedicated AI institution, with a mandate covering AI deployment, governance, research, skills, ethics and industry growth.",
+      "date": "2026-06-08",
+      "sourceIds": ["rw-1", "rw-2"],
+      "severity": "major"
+    },
+    {
+      "text": "Government intensifies AI capacity-building push, training Chief Digital Officers from government agencies through the Ministry of ICT and Innovation.",
+      "date": "2026-03-19",
+      "sourceIds": ["rw-3"]
+    },
+    {
+      "text": "Rwanda and Zipline sign an expansion deal for AI-powered drone logistics, including Zipline's first overseas AI and robotics testing facility, to scale autonomous medical delivery.",
+      "date": "2026-02-05",
+      "sourceIds": ["rw-4"]
+    },
+    {
+      "text": "Rwanda hosts the inaugural Global AI Summit on Africa in Kigali; more than 1,000 delegates endorse the Africa Declaration on Artificial Intelligence (54 signatories including the African Union) and organizers announce a proposed $60 billion Africa AI Fund.",
+      "date": "2025-04-04",
+      "sourceIds": ["rw-5", "rw-6"],
+      "severity": "major"
+    },
+    {
+      "text": "Bill & Melinda Gates Foundation and Rwanda's Ministry of ICT and Innovation sign a memorandum of understanding establishing the Rwanda AI Scaling Hub, an initial three-year, $7.5 million partnership hosted by C4IR Rwanda; later reporting describes total Gates Foundation commitments expanding toward $17.5 million.",
+      "date": "2025-04-03",
+      "sourceIds": ["rw-6", "rw-7"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National AI Policy",
+      "status": "in_force",
+      "summary": "Approved by Cabinet in April 2023, making Rwanda the first African country with a dedicated national AI policy. Built on six priority areas: AI skills and literacy, computing infrastructure, data strategy, trustworthy public-sector adoption, private-sector adoption, and ethical guidelines. Non-binding.",
+      "officialUrl": "https://www.minict.gov.rw/ai-policy",
+      "sourceIds": ["rw-8", "rw-9"]
+    },
+    {
+      "title": "Law No. 058/2021 relating to the Protection of Personal Data and Privacy",
+      "status": "in_force",
+      "summary": "Rwanda's principal binding data-protection law, in force since October 2021, covering consent, data-subject rights and automated decision-making/profiling; enforced with RURA and other sector regulators. Not an AI-specific law, but the main binding legal instrument that currently touches AI-driven data processing.",
+      "sourceIds": ["rw-10"]
+    },
+    {
+      "title": "National Artificial Intelligence Agency",
+      "status": "passed",
+      "summary": "Approved by Cabinet in June 2026 as Rwanda's first dedicated AI institution, intended to take over AI-related responsibilities previously held by MINICT's AI Office. Structure, leadership and full legal basis were not yet public as of mid-2026.",
+      "sourceIds": ["rw-1", "rw-2"],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Rwanda's most prominent AI-relevant research institution is Carnegie Mellon University Africa (CMU-Africa), a Kigali campus of the CMU College of Engineering offering graduate programs and research in AI, robotics and machine learning applied to problems such as agriculture, health and infrastructure. The Centre for the Fourth Industrial Revolution Rwanda (C4IR Rwanda), affiliated with the World Economic Forum, hosts the Gates Foundation-backed Rwanda AI Scaling Hub and functions as a policy and applied-research convener rather than a university. Beyond these, Rwanda's university-based AI research base appears comparatively thin, and available public reporting does not point to additional large dedicated AI research centres.",
+    "sourceIds": ["rw-11", "rw-7"]
+  },
+  "companies": [
+    {
+      "name": "Zipline",
+      "description": "US-based autonomous drone logistics company operating one of the world's largest medical-delivery drone networks in Rwanda since 2016; signed a 2026 expansion deal with the Rwandan government including Zipline's first overseas AI and robotics testing facility.",
+      "url": "https://www.flyzipline.com"
+    },
+    {
+      "name": "Charis",
+      "description": "Rwandan agritech company using drone and sensor data for precision farming and crop monitoring.",
+      "needsVerification": true
+    },
+    {
+      "name": "Kasha",
+      "description": "Rwanda-founded e-commerce platform distributing health and personal-care products to women across East Africa; uses data-driven distribution and recommendation tools rather than being an AI-first company.",
+      "url": "https://kasha.rw"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Local Rwandan data centers",
+        "description": "Rwanda hosts a small number of Tier III-class data centers supporting government and enterprise workloads, alongside a nationwide fiber-optic backbone; GPU/AI-specific compute capacity remains limited relative to demand."
+      }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Carnegie Mellon University Africa (CMU-Africa)",
+      "description": "Kigali-based overseas campus of CMU's College of Engineering, located in Kigali Innovation City; offers graduate programs and conducts research in AI, robotics and machine learning applied to transportation, energy, agriculture, health and security.",
+      "url": "https://www.africa.engineering.cmu.edu"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Centre for the Fourth Industrial Revolution Rwanda (C4IR Rwanda)",
+      "description": "World Economic Forum-affiliated centre that helped co-develop the 2023 National AI Policy and hosts the Gates Foundation-backed Rwanda AI Scaling Hub.",
+      "url": "https://c4ir.rw"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of ICT and Innovation (MINICT)",
+      "description": "Lead ministry for Rwanda's AI policy, having developed the 2023 National AI Policy and, pending the new Agency's stand-up, coordinated AI strategy through an internal AI Office.",
+      "url": "https://www.minict.gov.rw"
+    },
+    {
+      "name": "National Artificial Intelligence Agency",
+      "description": "Newly approved (June 2026) dedicated AI institution intended to lead AI deployment, governance, research, skills development, ethics and industry growth; operational details not yet public.",
+      "needsVerification": true
+    },
+    {
+      "name": "Rwanda Utilities Regulatory Authority (RURA)",
+      "description": "Telecommunications and ICT regulator that co-developed the 2023 National AI Policy and is described in government materials as handling technical regulation and ethical guidelines for AI in the utilities and communications sectors.",
+      "url": "https://www.rura.rw"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Paula Ingabire",
+      "role": "Minister of ICT and Innovation",
+      "affiliation": "Government of Rwanda",
+      "category": "government",
+      "url": "https://www.minict.gov.rw"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Paula Ingabire",
+      "type": "person",
+      "role": "Minister of ICT and Innovation; principal public face of Rwanda's National AI Policy and the new National AI Agency; named to Time's 100 Most Influential People in AI (2025).",
+      "category": "government",
+      "url": "https://www.minict.gov.rw"
+    },
+    {
+      "name": "Centre for the Fourth Industrial Revolution Rwanda (C4IR Rwanda)",
+      "type": "organization",
+      "role": "Co-developer of the National AI Policy and host of the Gates Foundation-backed Rwanda AI Scaling Hub.",
+      "category": "think_tank",
+      "url": "https://c4ir.rw"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Ministry of ICT and Innovation (MINICT)", "type": "government" },
+    { "label": "National Artificial Intelligence Agency", "type": "agency" },
+    { "label": "RURA", "type": "agency" },
+    { "label": "C4IR Rwanda", "type": "think_tank" },
+    { "label": "CMU-Africa", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI-specific law", "note": "Rwanda has no AI-specific binding legislation; the 2023 National AI Policy and the 2026 National AI Agency are both strategic/institutional rather than legally binding on AI system developers or deployers." },
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Rwanda; the domestic AI sector is oriented toward applied adoption (health, agriculture, logistics) rather than model development." },
+    { "area": "Domestic compute capacity", "note": "Rwanda's data-center and GPU capacity remain limited, and national electricity generation capacity (roughly 400MW) constrains how much large-scale AI compute infrastructure the country could host without major new power investment." },
+    { "area": "Independent oversight of AI/surveillance", "note": "Human rights organizations (e.g., CIPESA, Human Rights Watch) have raised concerns about limited independent institutional checks on Rwanda's broader digital-surveillance apparatus; this sits alongside, rather than directly regulated by, the AI policy framework." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether a heavily state-directed AI push is compatible with Rwanda's weak checks on digital surveillance",
+      "category": "government",
+      "summary": "Rwanda's AI policy is often presented internationally as a governance success story, but human rights researchers have separately documented an expanding, weakly checked digital-surveillance apparatus in the country.",
+      "expanded": "Rwanda's 2023 National AI Policy and 2026 National AI Agency emphasize ethics and responsible innovation as core pillars, and government officials frequently cite these commitments in international forums. At the same time, organizations such as CIPESA and Human Rights Watch have documented patterns of internet censorship, alleged use of spyware against critics, and a 2021 data-protection law that some observers say lacks a public-interest exception for journalism, alongside a broader civic environment with very few independent institutions able to scrutinize government technology use. Reporting connected to the 'Rwanda Classified' investigation also identified networks of accounts spreading pro-government content online. Whether the country's stated AI ethics commitments translate into meaningful independent oversight of AI-enabled surveillance and biometric ID systems remains a genuinely open and contested question, and this tension has not been resolved by the 2026 institutional changes.",
+      "sourceIds": ["rw-12", "rw-13"]
+    },
+    {
+      "topic": "Whether Rwanda's AI ambitions are constrained by limited domestic compute and energy capacity",
+      "category": "infrastructure",
+      "summary": "Some infrastructure analysts argue Rwanda's national AI ambitions currently outpace its computing and electricity capacity.",
+      "expanded": "Rwanda's total generation capacity is reported at roughly 400MW, meaning even a single mid-sized 100MW AI data-center facility could consume close to a third of national supply — a constraint cited by regional infrastructure experts as a reason Africa's AI compute build-out may favor smaller, distributed edge data centers over large hyperscale facilities. This has fed a broader debate about whether Rwanda's positioning as an 'AI hub' will be realized primarily through home-grown compute infrastructure, or whether it will continue to rely mainly on adoption of foreign-hosted cloud AI services alongside more modest domestic capacity such as the AI Scaling Hub.",
+      "sourceIds": ["rw-14"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Introducing the National Artificial Intelligence Policy for Rwanda",
+      "type": "government",
+      "author": "ICTworks",
+      "url": "https://www.ictworks.org/national-artificial-intelligence-policy-rwanda/"
+    },
+    {
+      "title": "Key takeaways from the Global AI Summit on Africa",
+      "type": "think_tank",
+      "author": "UNDP Rwanda",
+      "url": "https://www.undp.org/rwanda/blog/key-takeaways-global-ai-summit-africa"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rw-1",
+      "title": "Rwanda Strengthens AI Governance With Dedicated National Institution",
+      "publisher": "Ecofin Agency",
+      "url": "https://www.ecofinagency.com/news-digital/1206-56404-rwanda-strengthens-ai-governance-with-dedicated-national-institution",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "rw-2",
+      "title": "Rwanda's AI ambition takes shape as Cabinet approves new agency",
+      "publisher": "KT Press",
+      "url": "https://www.ktpress.rw/2026/06/rwandas-ai-ambition-takes-shape-as-cabinet-approves-new-agency/",
+      "date": "2026-06-08",
+      "category": "news"
+    },
+    {
+      "id": "rw-3",
+      "title": "Government of Rwanda Deepens AI Strategy Through Capacity-Building Initiative",
+      "publisher": "TechAfrica News",
+      "url": "https://techafricanews.com/2026/03/19/government-of-rwanda-deepens-ai-strategy-through-capacity-building-initiative/",
+      "date": "2026-03-19",
+      "category": "news"
+    },
+    {
+      "id": "rw-4",
+      "title": "Rwanda, Zipline sign deal to expand AI-powered drone logistics",
+      "publisher": "TechCabal",
+      "url": "https://techcabal.com/2026/02/05/rwanda-zipline-sign-expansion-deal/",
+      "date": "2026-02-05",
+      "category": "news"
+    },
+    {
+      "id": "rw-5",
+      "title": "Africa Launches Landmark AI Declaration at Global Summit in Kigali",
+      "publisher": "TechLabari",
+      "url": "https://techlabari.com/africa-launches-landmark-ai-declaration-at-global-summit-in-kigali/",
+      "date": "2025-04",
+      "category": "news"
+    },
+    {
+      "id": "rw-6",
+      "title": "Key takeaways from the Global AI Summit on Africa",
+      "publisher": "UNDP Rwanda",
+      "url": "https://www.undp.org/rwanda/blog/key-takeaways-global-ai-summit-africa",
+      "date": "2025-04",
+      "category": "government"
+    },
+    {
+      "id": "rw-7",
+      "title": "Rwanda Becomes Africa's First AI Scaling Hub After $17.5M Investment",
+      "publisher": "AI Reports Africa",
+      "url": "https://aireports.africa/2025/10/20/rwanda-becomes-africas-first-ai-scaling-hub-after-17-5m-investment/",
+      "date": "2025-10-20",
+      "category": "news"
+    },
+    {
+      "id": "rw-8",
+      "title": "Access Alert | Rwandan government approves National AI Policy",
+      "publisher": "Access Partnership",
+      "url": "https://accesspartnership.com/opinion/access-alert-rwandan-government-approves-national-ai-policy/",
+      "date": "2023-04",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "rw-9",
+      "title": "AI Policy",
+      "publisher": "Ministry of ICT and Innovation, Republic of Rwanda",
+      "url": "https://www.minict.gov.rw/ai-policy",
+      "date": "2023-04",
+      "category": "government"
+    },
+    {
+      "id": "rw-10",
+      "title": "Data protection laws in Rwanda",
+      "publisher": "DLA Piper Data Protection Laws of the World",
+      "url": "https://www.dlapiperdataprotection.com/index.html?t=about&c=RW",
+      "date": "2021-10",
+      "category": "research"
+    },
+    {
+      "id": "rw-11",
+      "title": "CMU-Africa — AI and robotics research",
+      "publisher": "Carnegie Mellon University Africa",
+      "url": "https://www.africa.engineering.cmu.edu/research/artificial-intelligence.html",
+      "category": "research"
+    },
+    {
+      "id": "rw-12",
+      "title": "Human Rights in the Digital Context in Rwanda",
+      "publisher": "CIPESA",
+      "url": "https://cipesa.org/2025/07/human-rights-in-the-digital-context-in-rwanda/",
+      "date": "2025-07",
+      "category": "research"
+    },
+    {
+      "id": "rw-13",
+      "title": "Africa's Smart State: Inside Rwanda's Digital Governance Model",
+      "publisher": "Modern Diplomacy",
+      "url": "https://moderndiplomacy.eu/2025/08/04/africas-smart-state-inside-rwandas-digital-governance-model/",
+      "date": "2025-08-04",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "rw-14",
+      "title": "Africa's AI future hinges on smaller, local data centres — experts",
+      "publisher": "allAfrica",
+      "url": "https://allafrica.com/stories/202606020228.html",
+      "date": "2026-06-02",
+      "category": "news"
+    }
+  ]
+}

@@ -19,8 +19,8 @@
     35.9
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-07-23",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "Regulating agentic AI under the new Intelligent Agents framework",
     "AI companion apps and anthropomorphic interaction rules",
@@ -90,6 +90,16 @@
       "sourceIds": [
         "cn-5"
       ]
+    },
+    {
+      "text": "Moonshot AI releases Kimi K3, a 2.8-trillion-parameter open-weight model that Artificial Analysis and other benchmarks placed just behind Anthropic and OpenAI's frontier systems, at roughly $15 per million output tokens; media widely described the reaction as a 'second DeepSeek shock,' with same-day selloffs in TSMC (-7%), SoftBank (-9%) and rival Chinese lab Z.ai (-30% in Hong Kong trading), plus a brief dip for Nvidia. Full model weights were scheduled for release on July 27, 2026. Reports differ on the exact release date (July 16 vs. 17, likely a timezone artifact of US vs. Chinese coverage).",
+      "date": "2026-07-16",
+      "sourceIds": [
+        "cn-21",
+        "cn-22"
+      ],
+      "severity": "major",
+      "needsVerification": true
     }
   ],
   "policyAndRegulation": [
@@ -162,7 +172,7 @@
     },
     {
       "name": "Moonshot AI",
-      "description": "Developer of the Kimi model family; its July 2026 Kimi K3 release was described by multiple outlets as a 'second DeepSeek shock' for its capability-to-cost ratio."
+      "description": "Developer of the Kimi model family, founded 2023 by Yang Zhilin; its July 2026 Kimi K3 release was described by multiple outlets as a 'second DeepSeek shock' for its capability-to-cost ratio, and came after a sharp valuation decline (reportedly to around $4.3B by December 2025) and recovery (reportedly over $30B by July 2026) following user losses to DeepSeek's R1 in early 2025."
     },
     {
       "name": "ByteDance",
@@ -307,6 +317,13 @@
       "needsVerification": true
     },
     {
+      "name": "Yang Zhilin",
+      "role": "Founder and CEO",
+      "affiliation": "Moonshot AI",
+      "category": "company_leader",
+      "needsVerification": true
+    },
+    {
       "name": "Zheng Shanjie",
       "role": "Chairman",
       "affiliation": "National Development and Reform Commission (NDRC)",
@@ -390,10 +407,11 @@
     {
       "topic": "Open-weighting frontier models as strategy",
       "category": "industry",
-      "summary": "DeepSeek's open-weight releases have become a geopolitical talking point, widely cited as evidence of competitive Chinese frontier capability despite chip export controls.",
-      "expanded": "DeepSeek's decision to open-weight highly capable reasoning models surprised international observers and raised questions about whether export controls on advanced chips have meaningfully slowed Chinese frontier AI progress. The releases are widely read as a deliberate soft-power and talent-attraction strategy as much as a technical choice, and have accelerated debate in other jurisdictions over open-weight model risk.",
+      "summary": "DeepSeek's open-weight releases were the first to become a geopolitical talking point over competitive Chinese frontier capability; Moonshot AI's July 2026 Kimi K3 release triggered a comparable market reaction, suggesting this is becoming a recurring pattern rather than a one-off.",
+      "expanded": "DeepSeek's decision to open-weight highly capable reasoning models surprised international observers and raised questions about whether export controls on advanced chips have meaningfully slowed Chinese frontier AI progress. The releases are widely read as a deliberate soft-power and talent-attraction strategy as much as a technical choice, and have accelerated debate in other jurisdictions over open-weight model risk. Moonshot AI's July 2026 Kimi K3 — a 2.8-trillion-parameter open-weight model priced well below comparable Western systems — prompted media to describe a 'second DeepSeek shock,' with same-day selloffs across chip and AI-adjacent stocks in Taiwan, Japan, Hong Kong and the US. Whether this reflects a durable Chinese strategic pattern of releasing frontier-competitive models as open weights, rather than two isolated events from two different labs, remains to be seen as more Chinese labs approach the frontier.",
       "sourceIds": [
-        "cn-5"
+        "cn-5",
+        "cn-21"
       ]
     }
   ],
@@ -404,6 +422,12 @@
       "role": "DeepSeek founder and CEO; one of the most closely watched figures in Chinese frontier AI.",
       "category": "company",
       "url": "https://www.deepseek.com"
+    },
+    {
+      "name": "Yang Zhilin",
+      "type": "person",
+      "role": "Moonshot AI founder and CEO; led the company's comeback from a 2025 valuation trough to a 'second DeepSeek shock' with Kimi K3.",
+      "category": "company"
     },
     {
       "name": "ChinaTalk",
@@ -612,11 +636,27 @@
     },
     {
       "id": "cn-21",
-      "title": "Kimi K3 release coverage",
-      "publisher": "Multiple outlets (aggregated)",
-      "url": "https://moonshot.ai",
+      "title": "Markets experience new DeepSeek shock after MoonShot AI releases Kimi K3",
+      "publisher": "Fortune",
+      "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/",
+      "date": "2026-07-17",
+      "category": "news"
+    },
+    {
+      "id": "cn-22",
+      "title": "Kimi K3 goes open",
+      "publisher": "The Neuron",
+      "url": "https://www.theneurondaily.com/p/kimi-k3-goes-open",
+      "date": "2026-07-17",
+      "category": "news"
+    },
+    {
+      "id": "cn-23",
+      "title": "Moonshot nears $30 billion valuation after Kimi K3 release",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/moonshot-nears-30-billion-valuation-205525768.html",
       "date": "2026-07",
-      "category": "industry"
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

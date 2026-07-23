@@ -1,4 +1,5 @@
 import type { CountryData } from "@/lib/types";
+import { WatchlistStar } from "@/components/country/WatchlistStar";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("en-US", {
@@ -34,9 +35,12 @@ export function CountryHeader({ country }: { country: CountryData }) {
             </p>
           </div>
         </div>
-        <p className="font-mono text-[11px] tabular-nums text-page-text-muted">
-          Reviewed {formatDate(country.lastUpdated)}
-        </p>
+        <div className="flex shrink-0 items-start gap-3">
+          <p className="font-mono text-[11px] tabular-nums text-page-text-muted">
+            Reviewed {formatDate(country.lastUpdated)}
+          </p>
+          <WatchlistStar code={country.code} />
+        </div>
       </div>
     </div>
   );

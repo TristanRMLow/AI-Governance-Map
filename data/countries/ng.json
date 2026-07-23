@@ -1,0 +1,362 @@
+{
+  "code": "ng",
+  "name": "Nigeria",
+  "shortName": "Nigeria",
+  "flagEmoji": "🇳🇬",
+  "geometryType": "polygon",
+  "isoA3": ["NGA"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "A published national AI strategy and an active data-protection regulator, alongside several competing AI-specific bills still working through the National Assembly",
+  "accentColor": { "light": "#448359", "dark": "#61AE7A" },
+  "center": [8.0, 9.5],
+  "zoom": 5.2,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Nigeria's antitrust and content-scraping probe of Meta, Alphabet and X as a digital-sovereignty flashpoint",
+    "A crowded, overlapping field of AI bills with no single one yet enacted",
+    "A fast-growing AI startup scene constrained by a persistent capital gap"
+  ],
+  "overview": "Nigeria's AI governance currently rests more on strategy documents and general-purpose regulators than on a dedicated AI law. The Federal Ministry of Communications, Innovation and Digital Economy (FMCIDE), led by Dr 'Bosun Tijani, published the National Artificial Intelligence Strategy (NAIS) in September 2025, setting a five-year (2025-2029) vision built around economic growth, social inclusion and technological leadership, and acknowledging real structural constraints such as public R&D spending of roughly 0.2% of GDP and a shortage of skilled AI professionals. The National Information Technology Development Agency (NITDA), under Director-General Kashifu Inuwa Abdullahi, is positioned as the lead implementing and would-be enforcement body, including through its National Centre for Artificial Intelligence and Robotics (NCAIR).\n\nOn the legislative side, Nigeria has seen a proliferation of overlapping proposals rather than a single settled law: a National Digital Economy and e-Governance Bill (reported since January 2026 as likely to pass \"within weeks\" but still not enacted as of July 2026), a separate National Artificial Intelligence Commission (Establishment) Bill, and a Nigeria Digital Sovereignty and Fair Data Compensation Bill, among earlier consolidated proposals. In parallel, the existing Nigeria Data Protection Act (NDPA) 2023 and its regulator, the Nigeria Data Protection Commission (NDPC), already apply to AI systems that process personal data, and NDPC has signalled plans to review the Act specifically to address AI. The most consequential recent development is not a new AI law but a competition and content-scraping investigation: in July 2026, President Bola Tinubu directed the Federal Competition and Consumer Protection Commission (FCCPC) to probe Meta, Alphabet and X, plus unnamed generative AI platforms, over alleged unauthorized scraping of Nigerian media content, following the FCCPC's earlier $220 million penalty against Meta over data-privacy and competition violations.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "National strategy published, binding AI law still pending",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "A non-binding National AI Strategy plus general data-protection law, with several competing risk-based AI bills still in the legislative pipeline",
+    "latestMajorUpdate": "President Tinubu directs the FCCPC to investigate Meta, Alphabet, X and generative AI platforms over alleged unauthorized scraping of Nigerian media content (July 2026)",
+    "governmentInvolvement": "Active across several bodies — FMCIDE, NITDA/NCAIR and NDPC — though enforcement so far has come mainly through competition and data-protection law rather than a dedicated AI statute",
+    "industrialStrategy": "National AI Strategy (2025-2029) targeting priority sectors such as agriculture and healthcare, alongside NCAIR-backed projects like the N-ATLAS multilingual model built with Lagos startup Awarri",
+    "internationalPartnerships": "Engagement through events such as Microsoft's AI Summit Nigeria in Abuja and NITDA's participation in GITEX Africa, though no landmark bilateral AI agreement is confirmed in available reporting",
+    "primaryPolicyFocus": "Advancing one of several pending AI-related bills to enactment while using existing competition and data-protection powers against large platforms in the interim"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Nigeria's posture has moved from strategy-writing toward more assertive enforcement, even as dedicated AI legislation remains stalled. Officials have repeatedly signalled that a comprehensive AI/digital-economy bill is close to passage — first by March 2026, then described in July 2026 as ready \"in weeks\" — without it yet being enacted. In the meantime, the government has used existing competition and data-protection authority, most visibly the FCCPC's July 2026 investigation of Meta, Alphabet and X over AI-related content scraping, to assert oversight over large AI platforms operating in Nigeria."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Federal Ministry of Communications, Innovation and Digital Economy publishes the National Artificial Intelligence Strategy (NAIS), setting a 2025-2029 roadmap across infrastructure, ecosystem, sector adoption, responsible AI and governance.",
+      "date": "2025-09-01",
+      "sourceIds": ["ng-1", "ng-2"]
+    },
+    {
+      "text": "Bloomberg and other outlets report Nigeria is on track to pass a sweeping National Digital Economy and e-Governance Bill, giving NITDA formal authority over high-risk AI systems, by end of March 2026.",
+      "date": "2026-01-13",
+      "sourceIds": ["ng-3"]
+    },
+    {
+      "text": "Report finds Nigeria's AI startup count has grown past 120 active companies, concentrated in Lagos, spanning health tech, fintech, agriculture and language technology — though 79% of surveyed founders cite lack of capital as a serious constraint.",
+      "date": "2026-02-24",
+      "sourceIds": ["ng-4"]
+    },
+    {
+      "text": "Nigeria Data Protection Commission announces plans to review the Nigeria Data Protection Act 2023 to explicitly address AI, robotics and other emerging technologies.",
+      "date": "2026-06-19",
+      "sourceIds": ["ng-5"]
+    },
+    {
+      "text": "President Bola Tinubu directs the Federal Competition and Consumer Protection Commission to investigate Meta, Alphabet, X and generative AI platforms over alleged anti-competitive conduct and unauthorized scraping of Nigerian media content for AI model training.",
+      "date": "2026-07-06",
+      "sourceIds": ["ng-6"],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Artificial Intelligence Strategy (NAIS) 2025-2029",
+      "status": "in_force",
+      "summary": "Published September 2025 by FMCIDE with NITDA as key implementer; a non-binding strategic roadmap rather than enforceable law, built around infrastructure, ecosystem development, sector adoption, responsible AI and governance.",
+      "officialUrl": "https://fmcide.gov.ng/initiative/nais/",
+      "sourceIds": ["ng-1", "ng-2"]
+    },
+    {
+      "title": "Nigeria Data Protection Act (NDPA) 2023",
+      "status": "in_force",
+      "summary": "General data-protection law enforced by the Nigeria Data Protection Commission; already applies to AI systems that process personal data, and is slated for a review to more explicitly address AI.",
+      "sourceIds": ["ng-5"]
+    },
+    {
+      "title": "National Digital Economy and e-Governance Bill",
+      "status": "proposed",
+      "summary": "Would give NITDA formal authority over algorithms, data governance and digital platforms, with high-risk AI systems requiring licenses and annual impact assessments, and penalties up to ₦10 million or 2% of annual gross revenue. Repeatedly reported as close to passage since January 2026 (initially targeted for March 2026, described in July 2026 press coverage as ready \"in weeks\") but not confirmed enacted as of this writing.",
+      "sourceIds": ["ng-3", "ng-7"],
+      "needsVerification": true
+    },
+    {
+      "title": "National Artificial Intelligence Commission (Establishment) Bill",
+      "status": "proposed",
+      "summary": "A separate bill proposing a dedicated National AI Commission as regulator, reported to have passed a first reading; its relationship to the Digital Economy and e-Governance Bill's NITDA-centred approach is not fully resolved in available reporting.",
+      "sourceIds": ["ng-8"],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Nigerian AI research and talent development runs substantially through non-profit and industry-led initiatives rather than a single national AI institute. Data Science Nigeria, founded by Bayo Adekanmbi, operates a dedicated Artificial Intelligence Community Hub on the University of Lagos campus and has run large-scale machine learning competitions and bootcamps aimed at building an AI talent pipeline. NITDA's National Centre for Artificial Intelligence and Robotics (NCAIR) in Abuja functions as a government-backed applied-research and innovation facility, including its role alongside Lagos startup Awarri in developing N-ATLAS, a multilingual model covering Yoruba, Hausa, Igbo and Nigerian-accented English.",
+    "sourceIds": ["ng-9", "ng-10", "ng-11"]
+  },
+  "companies": [
+    {
+      "name": "Awarri",
+      "description": "Lagos-based AI and robotics company that partnered with NITDA's NCAIR to build N-ATLAS, described as Nigeria's first government-backed large language model covering several major Nigerian languages.",
+      "url": "https://www.awarri.com/"
+    },
+    {
+      "name": "EqualyzAI",
+      "description": "Voice-first agentic AI company with operations in Lagos and Washington, DC, building resource-efficient models for African-language contexts such as health advice in Yoruba and financial guidance in Pidgin.",
+      "url": "https://equalyz.ai/"
+    },
+    {
+      "name": "Terra Industries",
+      "description": "Abuja-based startup, founded in 2024 by Maxwell Maduka and Nathan Nwachuku, building AI-powered drones and autonomous ground vehicles for security and surveillance of energy, mining and telecoms infrastructure across several African countries.",
+      "url": "https://www.terraindustries.co/"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      { "name": "AWS", "description": "Cloud provider used across Nigerian enterprise and startup AI workloads." },
+      { "name": "Microsoft Azure", "description": "Cloud provider with a visible presence in Nigeria, including hosting the Microsoft-led AI Summit Nigeria in Abuja." },
+      { "name": "Google Cloud", "description": "Cloud provider used by Nigerian startups and enterprises for AI workloads." }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "University of Lagos (UNILAG)",
+      "description": "Hosts a dedicated Artificial Intelligence Community Hub established in partnership with Data Science Nigeria.",
+      "url": "https://unilag.edu.ng",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Paradigm Initiative",
+      "description": "Pan-African digital rights organisation headquartered in Lagos that has published stakeholder mapping of AI actors in Nigeria and engaged with NITDA's AI policy process.",
+      "url": "https://paradigmhq.org"
+    },
+    {
+      "name": "Tech Hive Advisory",
+      "description": "Technology policy, law and research advisory firm publishing regular analysis of Nigeria's AI regulatory landscape and offering AI-governance training.",
+      "url": "https://www.techhiveadvisory.africa/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Federal Ministry of Communications, Innovation and Digital Economy (FMCIDE)",
+      "description": "Lead ministry for Nigeria's National Artificial Intelligence Strategy, headed by Dr 'Bosun Tijani.",
+      "url": "https://fmcide.gov.ng"
+    },
+    {
+      "name": "National Information Technology Development Agency (NITDA)",
+      "description": "Primary implementing and prospective enforcement agency for AI policy, led by Director-General Kashifu Inuwa Abdullahi; expected to gain formal AI oversight powers under pending legislation.",
+      "url": "https://nitda.gov.ng"
+    },
+    {
+      "name": "National Centre for Artificial Intelligence and Robotics (NCAIR)",
+      "description": "NITDA special-purpose vehicle and applied research/innovation facility in Abuja focused on AI, robotics, drones and IoT, including a digital fabrication lab (FabLab).",
+      "url": "https://ncair.nitda.gov.ng"
+    },
+    {
+      "name": "Nigeria Data Protection Commission (NDPC)",
+      "description": "Data-protection regulator enforcing the Nigeria Data Protection Act 2023, led by National Commissioner Dr Vincent Olatunji; has announced plans to review the Act to address AI.",
+      "url": "https://ndpc.gov.ng/"
+    },
+    {
+      "name": "Federal Competition and Consumer Protection Commission (FCCPC)",
+      "description": "Competition regulator directed by President Tinubu in July 2026 to investigate Meta, Alphabet, X and generative AI platforms over alleged anti-competitive conduct and unauthorized use of Nigerian media content; previously fined Meta $220 million over related violations.",
+      "sourceIds": ["ng-6"]
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "'Bosun Tijani",
+      "role": "Minister of Communications, Innovation and Digital Economy",
+      "affiliation": "FMCIDE",
+      "category": "government",
+      "url": "https://fmcide.gov.ng"
+    },
+    {
+      "name": "Kashifu Inuwa Abdullahi",
+      "role": "Director-General",
+      "affiliation": "NITDA",
+      "category": "government",
+      "url": "https://nitda.gov.ng"
+    },
+    {
+      "name": "Bayo Adekanmbi",
+      "role": "Founder and CEO",
+      "affiliation": "Data Science Nigeria; co-founder, EqualyzAI",
+      "category": "company_leader",
+      "url": "https://datasciencenigeria.org/"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Bosun Tijani",
+      "type": "person",
+      "role": "Minister of Communications, Innovation and Digital Economy; leads Nigeria's National AI Strategy",
+      "category": "government",
+      "url": "https://fmcide.gov.ng"
+    },
+    {
+      "name": "Data Science Nigeria",
+      "type": "organization",
+      "role": "Leading AI talent-development organisation, running Africa-focused machine learning training and hosting the UNILAG AI hub",
+      "category": "university",
+      "url": "https://datasciencenigeria.org/"
+    },
+    {
+      "name": "Tech Hive Advisory",
+      "type": "organization",
+      "role": "Publishes ongoing analysis tracking Nigeria's shifting AI regulatory landscape",
+      "category": "think_tank",
+      "url": "https://www.techhiveadvisory.africa/"
+    }
+  ],
+  "influenceMap": [
+    { "label": "FMCIDE", "type": "government" },
+    { "label": "NITDA / NCAIR", "type": "agency" },
+    { "label": "NDPC", "type": "agency" },
+    { "label": "FCCPC", "type": "agency" },
+    { "label": "Awarri", "type": "company" },
+    { "label": "Data Science Nigeria", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI-specific legislation", "note": "As of July 2026, no dedicated AI law has been enacted; several competing bills (Digital Economy and e-Governance Bill, AI Commission Establishment Bill, Digital Sovereignty and Fair Data Compensation Bill) remain in progress with unclear sequencing." },
+    { "area": "Frontier-model developers", "note": "No frontier foundation-model developer is headquartered in Nigeria; AI activity is concentrated in applied startups and a government-backed multilingual model project (N-ATLAS) rather than general-purpose frontier systems." }
+  ],
+  "debates": [
+    {
+      "topic": "Nigeria's antitrust and content-scraping probe of Meta, Alphabet and X as a digital-sovereignty flashpoint",
+      "category": "government",
+      "summary": "President Tinubu's July 2026 directive to the FCCPC to investigate major US platforms over alleged unauthorized AI scraping of Nigerian media content has been read by some observers as a digital-sovereignty assertion that substitutes for, rather than complements, a still-unfinished AI law.",
+      "expanded": "The FCCPC's inquiry follows its earlier $220 million penalty against Meta over data-privacy and competition violations, and covers allegations of anti-competitive conduct and unauthorized extraction of copyrighted Nigerian news content for training generative AI models. Because Nigeria still lacks an enacted AI-specific statute, some analysts see this competition-law route as a pragmatic way to assert oversight over foreign AI platforms in the interim, while others question whether competition law is well suited to resolving AI training-data and content-licensing disputes on its own.",
+      "sourceIds": ["ng-6"]
+    },
+    {
+      "topic": "A crowded, overlapping field of AI bills with no single one yet enacted",
+      "category": "government",
+      "summary": "Multiple AI-related bills — spanning digital economy governance, a dedicated AI Commission, and digital sovereignty/data compensation — have moved through Nigeria's National Assembly in parallel, without clear resolution of how they relate to one another.",
+      "expanded": "Reporting since January 2026 has repeatedly suggested passage of a comprehensive AI/digital-economy law was imminent, yet as of July 2026 no single bill has been confirmed enacted, and it remains unclear whether NITDA, a new AI Commission, or some combination would ultimately hold primary AI enforcement authority. Some legal commentators view this proliferation as a sign of serious legislative attention; others see it as a source of continuing regulatory uncertainty for AI developers and deployers operating in Nigeria.",
+      "sourceIds": ["ng-3", "ng-7", "ng-8"]
+    },
+    {
+      "topic": "A fast-growing AI startup scene constrained by a persistent capital gap",
+      "category": "industry",
+      "summary": "Nigeria's AI startup count has grown past 120 companies, yet a large majority of founders surveyed in early 2026 cite lack of capital as a serious constraint on growth.",
+      "expanded": "Sectors such as health tech, agriculture and African-language AI have produced notable applied startups (Awarri, EqualyzAI, Terra Industries), but the National AI Strategy itself acknowledges structural headwinds including public R&D investment of roughly 0.2% of GDP versus a global average near 2.2%, and a shortage of skilled AI professionals amid brain drain. Whether government programmes and private investment can close this funding gap fast enough to sustain the startup boom is an open question among ecosystem observers.",
+      "sourceIds": ["ng-4", "ng-1"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Nigeria's National AI Strategy: A Vision for Inclusive Innovation and Global Leadership",
+      "type": "think_tank",
+      "url": "https://richlyai.com/blog/nigerias-national-ai-strategy-a-vision-for-inclusive-innovation-and-global-leadership/"
+    },
+    {
+      "title": "Nigeria moves toward comprehensive AI regulation",
+      "type": "think_tank",
+      "author": "IAPP",
+      "url": "https://iapp.org/news/a/nigeria-moves-toward-comprehensive-ai-regulation"
+    },
+    {
+      "title": "AI startup Awarri is behind Nigeria's first government-backed LLM",
+      "type": "academic",
+      "author": "Rest of World",
+      "url": "https://restofworld.org/2024/nigeria-awarri-ai-startup-llm/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ng-1",
+      "title": "National Artificial Intelligence Strategy",
+      "publisher": "Federal Ministry of Communications, Innovation and Digital Economy",
+      "url": "https://fmcide.gov.ng/initiative/nais/",
+      "date": "2025-09",
+      "category": "government"
+    },
+    {
+      "id": "ng-2",
+      "title": "Policy Brief: Nigeria's National AI Strategy",
+      "publisher": "Tunani HQ",
+      "url": "https://tunanihq.org/assets/publication/Policy-Brief-NNAIS-Strategy-final.pdf",
+      "date": "2026-04",
+      "category": "think_tank"
+    },
+    {
+      "id": "ng-3",
+      "title": "Nigeria Set to Pass Sweeping AI Rules for Digital Economy",
+      "publisher": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/nigeria-set-to-pass-sweeping-ai-rules-for-digital-economy",
+      "date": "2026-01-13",
+      "category": "news"
+    },
+    {
+      "id": "ng-4",
+      "title": "Lagos leads as Nigeria records 120+ AI startups",
+      "publisher": "PM News Nigeria",
+      "url": "https://pmnewsnigeria.com/2026/02/24/lagos-leads-as-nigeria-records-120-ai-startups/",
+      "date": "2026-02-24",
+      "category": "news"
+    },
+    {
+      "id": "ng-5",
+      "title": "NDPC plans review of Nigeria's data protection Act to address AI and other emerging technologies",
+      "publisher": "TechNext24",
+      "url": "https://technext24.com/2026/06/20/ndpc-to-review-data-protection-act/",
+      "date": "2026-06-20",
+      "category": "news"
+    },
+    {
+      "id": "ng-6",
+      "title": "Tinubu orders FCCPC to probe Meta, Google, X, others over Nigerian media complaints",
+      "publisher": "Nairametrics",
+      "url": "https://nairametrics.com/2026/07/06/breaking-tinubu-orders-fccpc-to-probe-meta-google-x-others-over-nigerian-media-complaints/",
+      "date": "2026-07-06",
+      "category": "news"
+    },
+    {
+      "id": "ng-7",
+      "title": "'National Digital Economy and e-Governance Act 2026 Ready in Weeks'",
+      "publisher": "THISDAY Live",
+      "url": "https://www.thisdaylive.com/2026/07/09/national-digital-economy-and-e-governance-act-2026-ready-in-weeks/",
+      "date": "2026-07-09",
+      "category": "news"
+    },
+    {
+      "id": "ng-8",
+      "title": "Nigeria's Regulatory Environment for Artificial Intelligence",
+      "publisher": "Legal Bytes (Substack)",
+      "url": "https://legalbytes.substack.com/p/nigerias-regulatory-environment-for",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "ng-9",
+      "title": "Data Science Nigeria opens 1st Artificial Intelligence Hub in Unilag",
+      "publisher": "The Guardian Nigeria",
+      "url": "https://guardian.ng/technology/data-science-nigeria-opens-1st-artificial-intelligence-hub-in-unilag/",
+      "date": "2023",
+      "category": "news"
+    },
+    {
+      "id": "ng-10",
+      "title": "National Center for Artificial Intelligence and Robotics",
+      "publisher": "NITDA",
+      "url": "https://nitda.gov.ng/ncair/",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "ng-11",
+      "title": "AI startup Awarri is behind Nigeria's first government-backed LLM",
+      "publisher": "Rest of World",
+      "url": "https://restofworld.org/2024/nigeria-awarri-ai-startup-llm/",
+      "date": "2024",
+      "category": "news"
+    }
+  ]
+}

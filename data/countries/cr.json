@@ -1,0 +1,221 @@
+{
+  "code": "cr",
+  "name": "Costa Rica",
+  "shortName": "Costa Rica",
+  "flagEmoji": "🇨🇷",
+  "geometryType": "polygon",
+  "isoA3": ["CRI"],
+  "region": "Americas",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "National AI strategy (ENIA) and a voluntary technical standard, with competing binding-law proposals still under Legislative Assembly review",
+  "accentColor": { "light": "#835A44", "dark": "#AE7C61" },
+  "center": [-84.0, 9.9],
+  "zoom": 6.9,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 5,
+  "hasMajorUpdate": false,
+  "debateTopics": [
+    "Whether Costa Rica should legislate now or wait, given MICITT's own caution that binding AI law could become obsolete before publication",
+    "Costa Rica's AI strategy addresses ethics and adoption but has been criticized for not squarely addressing job displacement in its BPO-heavy service sector"
+  ],
+  "overview": "Costa Rica became the first Central American country with a dedicated public AI policy when it launched the Estrategia Nacional de Inteligencia Artificial (ENIA) 2024–2027 on October 24, 2024, led by the Ministerio de Ciencia, Innovación, Tecnología y Telecomunicaciones (MICITT). ENIA is organized around seven strategic axes — ethical/safe/responsible AI, territorial articulation and economic development, research and innovation, intelligent government, talent development, digital infrastructure, and international leadership — but, like most national AI strategies in the region, it is a policy framework rather than binding law. In March 2026, Costa Rica went a step further among regional peers by officially adopting INTE/ISO/IEC 42001:2026, a national-context-adapted technical standard for AI management-system governance, developed at the Instituto de Normas Técnicas de Costa Rica (INTECO) with private-sector input including technical leadership from Equifax; MICITT minister Paula Bogantes said the standard would support ENIA's implementation. Costa Rica also launched an 'AI Landscape Assessment' (AILA) diagnostic process in early 2026 to map the country's AI ecosystem gaps and priorities.\n\nBinding legislation remains unsettled. Three competing bills have circulated in the Legislative Assembly — expediente 23771 (notably drafted with ChatGPT assistance), 23919 ('Ley para la Promoción Responsable de la Inteligencia Artificial'), and 24484 — with a legislative working group convened to reconcile them. Notably, MICITT's own director of research, development and innovation, Marlon Ávalos, publicly cautioned in early 2026 that 'neither the country nor the world is prepared to issue legislation that could become obsolete even before its publication,' reflecting institutional ambivalence about moving to a binding law quickly. Separately, Costa Rica's large business-process-outsourcing (BPO) and shared-services sector — a major driver of tech exports — faces disproportionate AI-driven disruption: sector studies estimate 67–70% task exposure to automation in call-center and support roles, prompting debate over whether ENIA sufficiently addresses employment transition even as national-level displacement estimates (around 19% of jobs 'augmentable' by generative AI, per a joint Academia de Centroamérica/Konrad-Adenauer-Stiftung study) suggest more moderate overall risk.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "National AI strategy and voluntary standard in place; binding law still pending",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Non-binding national strategy (ENIA 2024–2027) plus a voluntary technical standard (INTE/ISO/IEC 42001:2026); three competing binding-law bills remain under Legislative Assembly review",
+    "latestMajorUpdate": "Costa Rica officially adopts INTE/ISO/IEC 42001:2026, a national AI governance and management-system standard developed at INTECO (March 2026)",
+    "governmentInvolvement": "MICITT leads ENIA implementation and coordinated the AILA ecosystem assessment; the Legislative Assembly's science and technology committee is working to reconcile three separate AI bills",
+    "industrialStrategy": "ENIA's territorial-articulation and economic-development axis, alongside CINDE-supported foreign investment in AI-adjacent services (e.g., Feuji's planned 150 new AI-related jobs) and Caricaco Ventures funding of up to $200,000 for regional AI/software startups",
+    "internationalPartnerships": "Costa Rica has positioned itself as a regional AI-dialogue convener (MICITT-hosted regional discussions) and adapted its technical standard from the international ISO/IEC 42001 framework",
+    "primaryPolicyFocus": "Implementing ENIA's seven strategic axes and the new INTE/ISO/IEC 42001:2026 standard while the Legislative Assembly works to reconcile competing binding AI-law proposals"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Costa Rica continues to build out a non-binding governance layer — ENIA's strategic axes, the new AILA ecosystem assessment, and the INTE/ISO/IEC 42001:2026 standard — while binding legislation remains stalled across three competing Legislative Assembly bills. A senior MICITT official's public caution that AI law risks becoming obsolete before it is even published suggests the government itself is not pushing hard for a fast binding-law timeline, making this look more like a deliberate wait-and-see posture than legislative gridlock."
+  },
+  "recentDevelopments": [
+    {
+      "text": "MICITT launches the Estrategia Nacional de Inteligencia Artificial (ENIA) 2024–2027, making Costa Rica the first Central American country with a dedicated national AI public policy.",
+      "date": "2024-10-24",
+      "sourceIds": ["cr-1"]
+    },
+    {
+      "text": "A legislative working group, convened by science and technology committee chair Johanna Obando, begins reconciling three competing AI bills (expedientes 23771, 23919, and 24484) in the Legislative Assembly.",
+      "date": "2025-03",
+      "sourceIds": ["cr-3"],
+      "needsVerification": true
+    },
+    {
+      "text": "Costa Rica launches the AI Landscape Assessment (AILA), a diagnostic of the national AI ecosystem's gaps and priorities.",
+      "date": "2026-03",
+      "sourceIds": ["cr-4"]
+    },
+    {
+      "text": "Costa Rica officially adopts INTE/ISO/IEC 42001:2026, a national-context-adapted AI management and governance standard developed by INTECO with private-sector input, including from Equifax.",
+      "date": "2026-03",
+      "sourceIds": ["cr-5"]
+    },
+    {
+      "text": "Academia de Centroamérica and the Konrad-Adenauer-Stiftung publish a study estimating that 19.2% of Costa Rican jobs are susceptible to enhancement (not necessarily replacement) by generative AI, with highly skilled roles most affected.",
+      "date": "2026",
+      "sourceIds": ["cr-7"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Estrategia Nacional de Inteligencia Artificial (ENIA) 2024–2027",
+      "status": "in_force",
+      "summary": "Costa Rica's national AI policy framework, organized around seven strategic axes (ethical AI, territorial/economic development, research, intelligent government, talent, infrastructure, international leadership); non-binding.",
+      "officialUrl": "https://www.micitt.go.cr/gobierno_digital/inteligencia_artificial",
+      "sourceIds": ["cr-1"]
+    },
+    {
+      "title": "INTE/ISO/IEC 42001:2026",
+      "status": "in_force",
+      "summary": "Voluntary national technical standard for AI management-system governance, adapted to Costa Rica's context and developed at INTECO; intended to support ENIA implementation.",
+      "sourceIds": ["cr-5"]
+    },
+    {
+      "title": "Ley para la Promoción Responsable de la Inteligencia Artificial en Costa Rica (expediente 23919) and related bills (23771, 24484)",
+      "status": "proposed",
+      "summary": "Three competing Legislative Assembly bills on binding AI regulation; a legislative working group has been formed to reconcile them, but MICITT officials have publicly cautioned against rushing legislation that could become obsolete quickly.",
+      "sourceIds": ["cr-3"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "The Universidad de Costa Rica (UCR) is the most visible academic actor, having adopted an institutional AI Governance and Management Framework built on ten guiding principles (transparency, accountability, equity, human-rights respect, academic integrity, data protection, and others) and running related work through its Centro de Informática and PROSIC program on the information society. Universidad CENFOTEC operates a dedicated School of Intelligent Systems. A fuller comparative picture of AI research output across Costa Rica's other universities (including the Instituto Tecnológico de Costa Rica) was not confirmed in available sources.",
+    "sourceIds": ["cr-8"]
+  },
+  "companies": [
+    {
+      "name": "Feuji",
+      "description": "Global technology services company expanding its Costa Rica operations, with plans to open around 150 new positions over three years specializing in AI, automation, cybersecurity and digital transformation.",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      { "name": "AWS", "description": "Cloud provider used across Costa Rica's exporting tech and BPO sector." },
+      { "name": "Microsoft Azure", "description": "Cloud provider present in Costa Rican enterprise and public-sector AI adoption." },
+      { "name": "Google Cloud", "description": "Cloud provider present in the Costa Rican market; no dedicated in-country hyperscaler data center was confirmed in available sources." }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "Universidad de Costa Rica (UCR)",
+      "description": "Adopted an institutional Marco de Gobernanza y Gestión de la Inteligencia Artificial defining ten guiding principles for AI use in teaching, research and administration; also runs AI-related work through its Centro de Informática and PROSIC program.",
+      "url": "https://ci.ucr.ac.cr/ucr-marca-ruta-para-el-uso-etico-inteligencia-artificial-en-educacion-superior"
+    },
+    {
+      "name": "Universidad CENFOTEC",
+      "description": "Private technical university operating a dedicated School of Intelligent Systems focused on AI and related computing disciplines.",
+      "url": "https://ucenfotec.ac.cr/escuela-sistemas-inteligentes/"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Academia de Centroamérica",
+      "description": "Costa Rican economic-research think tank that, with the Konrad-Adenauer-Stiftung, published a 2026 study on generative AI's impact on Costa Rican employment.",
+      "url": "https://www.academiaca.or.cr/serie-vision-para-el-desarrollo/impacto-de-la-inteligencia-artificial-generativa-en-los-trabajos-costarricenses/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministerio de Ciencia, Innovación, Tecnología y Telecomunicaciones (MICITT)",
+      "description": "Lead ministry for AI policy, responsible for ENIA 2024–2027, the AILA ecosystem assessment, and coordination on the new INTE/ISO/IEC 42001:2026 standard; led by Minister Paula Bogantes.",
+      "url": "https://www.micitt.go.cr"
+    },
+    {
+      "name": "Instituto de Normas Técnicas de Costa Rica (INTECO)",
+      "description": "National standards body that developed INTE/ISO/IEC 42001:2026, Costa Rica's AI management-system governance standard, with private-sector input.",
+      "url": "https://www.inteco.org"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Paula Bogantes",
+      "role": "Minister of Science, Innovation, Technology and Telecommunications",
+      "affiliation": "MICITT",
+      "category": "government",
+      "url": "https://www.micitt.go.cr"
+    },
+    {
+      "name": "Marlon Ávalos",
+      "role": "Director of Research, Development and Innovation",
+      "affiliation": "MICITT",
+      "category": "government",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "MICITT",
+      "type": "organization",
+      "role": "Leads Costa Rica's national AI strategy, standards adoption, and ecosystem assessment work.",
+      "category": "government",
+      "url": "https://www.micitt.go.cr"
+    },
+    {
+      "name": "Academia de Centroamérica",
+      "type": "organization",
+      "role": "Publishes influential research on AI's labor-market effects in Costa Rica.",
+      "category": "think_tank",
+      "url": "https://www.academiaca.or.cr"
+    }
+  ],
+  "influenceMap": [
+    { "label": "MICITT", "type": "government" },
+    { "label": "INTECO", "type": "agency" },
+    { "label": "Legislative Assembly (science & technology committee)", "type": "government" },
+    { "label": "Universidad de Costa Rica", "type": "research" },
+    { "label": "CINDE", "type": "agency" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI law", "note": "No binding AI-specific law is in force; three competing bills (23771, 23919, 24484) remain under Legislative Assembly review, and MICITT itself has publicly urged caution about legislating too quickly." },
+    { "area": "Dedicated AI regulator", "note": "No standalone AI regulatory authority exists; MICITT coordinates policy but does not function as a binding-rules enforcer." },
+    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Costa Rica; the country's AI-relevant private sector is concentrated in BPO/shared-services exports and applied technology services." },
+    { "area": "Employment-transition policy", "note": "Commentary (e.g., from El Financiero) has flagged that Costa Rica's AI strategy is stronger on ethics and adoption than on addressing potential job displacement in its BPO-heavy service sector." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether Costa Rica should legislate now or wait, given MICITT's own caution that binding AI law could become obsolete before publication",
+      "category": "government",
+      "summary": "Three competing AI bills sit in the Legislative Assembly, but a senior MICITT official has publicly questioned whether now is the right time to legislate at all.",
+      "expanded": "Marlon Ávalos, MICITT's director of research, development and innovation, said in early 2026 that 'neither the country nor the world is prepared to issue legislation that could become obsolete even before its publication' — a notable statement from inside the ministry most responsible for AI policy. Meanwhile, legislator Johanna Obando has convened a working group to reconcile the three pending bills, one of which (expediente 23771) drew attention for having been drafted with ChatGPT assistance. The tension between legislative momentum and executive-branch caution means Costa Rica's path to a binding AI law remains genuinely uncertain rather than simply slow-moving.",
+      "sourceIds": ["cr-3"]
+    },
+    {
+      "topic": "Costa Rica's AI strategy addresses ethics and adoption but has been criticized for not squarely addressing job displacement in its BPO-heavy service sector",
+      "category": "industry",
+      "summary": "Costa Rica's shared-services and call-center sector faces high automation exposure, and some commentary argues ENIA has not fully grappled with the resulting employment-transition challenge.",
+      "expanded": "Sector-specific estimates put automation exposure in customer-service and support roles at 67–70%, well above the roughly 19% economy-wide 'augmentable' share estimated by the Academia de Centroamérica/Konrad-Adenauer-Stiftung study. El Financiero coverage has specifically noted that Costa Rica's AI strategy 'stands out' internationally but 'does not address job loss,' framing workforce transition (e.g., into higher-complexity 'augmented agent' roles) as a policy gap rather than a resolved question.",
+      "sourceIds": ["cr-6", "cr-7"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Costa Rica destaca por su estrategia para la IA, pero no aborda la pérdida de empleo. ¿Qué se puede hacer?",
+      "type": "newsletter",
+      "author": "El Financiero",
+      "url": "https://www.elfinancierocr.com/tecnologia/costa-rica-destaca-por-su-estrategia-para-la-ia/KZSU7ABYNVGM5PFTACAPTUNBOU/story/"
+    },
+    {
+      "title": "Impacto de la Inteligencia Artificial Generativa en los trabajos costarricenses",
+      "type": "think_tank",
+      "author": "Academia de Centroamérica / Konrad-Adenauer-Stiftung",
+      "url": "https://www.academiaca.or.cr/serie-vision-para-el-desarrollo/impacto-de-la-inteligencia-artificial-generativa-en-los-trabajos-costarricenses/"
+    }
+  ],
+  "sources": [
+    { "id": "cr-1", "title": "MICITT presentó Estrategia Nacional de Inteligencia Artificial (ENIA)", "publisher": "MICITT", "url": "https://micitt.go.cr/el-sector-informa/micitt-presento-estrategia-nacional-de-inteligencia-artificial-enia", "date": "2024-10-24", "category": "government" },
+    { "id": "cr-3", "title": "¿Qué plantean tres proyectos de ley sobre inteligencia artificial que generan alarmas en los sectores tecnológico y de comercio en Costa Rica?", "publisher": "El Financiero", "url": "https://www.elfinancierocr.com/tecnologia/que-plantean-tres-proyectos-de-ley-sobre/ZT3GKQ3YZ5AQBNN64NLIZNDDZE/story/", "date": "2026", "category": "news" },
+    { "id": "cr-4", "title": "Costa Rica inicia evaluación nacional en inteligencia artificial", "publisher": "Delfino.cr", "url": "https://delfino.cr/2026/03/costa-rica-inicia-evaluacion-nacional-en-inteligencia-artificial", "date": "2026-03", "category": "news" },
+    { "id": "cr-5", "title": "Costa Rica oficializa norma técnica para la gestión y gobernanza de la inteligencia artificial", "publisher": "Delfino.cr", "url": "https://delfino.cr/2026/03/costa-rica-oficializa-norma-tecnica-para-la-gestion-y-gobernanza-de-la-inteligencia-artificial", "date": "2026-03", "category": "news" },
+    { "id": "cr-6", "title": "Costa Rica destaca por su estrategia para la IA, pero no aborda la pérdida de empleo. ¿Qué se puede hacer?", "publisher": "El Financiero", "url": "https://www.elfinancierocr.com/tecnologia/costa-rica-destaca-por-su-estrategia-para-la-ia/KZSU7ABYNVGM5PFTACAPTUNBOU/story/", "date": "2026", "category": "news" },
+    { "id": "cr-7", "title": "Impacto de la Inteligencia Artificial Generativa en los trabajos costarricenses", "publisher": "Academia de Centroamérica / Konrad-Adenauer-Stiftung", "url": "https://www.academiaca.or.cr/serie-vision-para-el-desarrollo/impacto-de-la-inteligencia-artificial-generativa-en-los-trabajos-costarricenses/", "date": "2026", "category": "research" },
+    { "id": "cr-8", "title": "UCR marca la ruta para el uso ético de la inteligencia artificial en la educación superior", "publisher": "Universidad de Costa Rica, Centro de Informática", "url": "https://ci.ucr.ac.cr/ucr-marca-ruta-para-el-uso-etico-inteligencia-artificial-en-educacion-superior", "date": "2025", "category": "research" }
+  ]
+}

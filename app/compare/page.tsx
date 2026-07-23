@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { NavBar } from "@/components/layout/NavBar";
+import { GlobalNavLinks } from "@/components/layout/GlobalNavLinks";
 import { getAllCountries } from "@/lib/getCountryData";
 import { getFlagshipComparisons } from "@/lib/getComparisonData";
 import { FlagshipCard } from "@/components/compare/FlagshipCard";
@@ -22,7 +23,7 @@ export default async function ComparePage({
 
   return (
     <div className="page-surface min-h-dvh bg-page-bg">
-      <NavBar variant="light" breadcrumb="Compare" />
+      <NavBar variant="light" breadcrumb="Compare" right={<GlobalNavLinks variant="light" />} />
       <div className="mx-auto max-w-[1240px] px-6 py-8">
         <h1 className="text-[32px] font-bold tracking-[-0.02em] text-page-text text-balance">
           Compare Countries

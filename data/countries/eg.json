@@ -1,0 +1,309 @@
+{
+  "code": "eg",
+  "name": "Egypt",
+  "shortName": "Egypt",
+  "flagEmoji": "🇪🇬",
+  "geometryType": "polygon",
+  "isoA3": ["EGY"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "State-led, ethics-charter-based governance under an expanded National Council for AI, with a formal AI law still in draft and a national data-centre push aimed at attracting foreign AI infrastructure investment",
+  "accentColor": { "light": "#448377", "dark": "#61AE9E" },
+  "center": [30.0, 26.5],
+  "zoom": 4.8,
+  "lastUpdated": "2026-07-22",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": false,
+  "debateTopics": [
+    "Whether Egypt's ethics-charter model can hold before binding AI legislation is finally adopted",
+    "Egypt's push to become a regional AI/data-centre hub amid broader governance-transparency concerns"
+  ],
+  "overview": "Egypt has pursued one of the more institutionally developed AI governance tracks in Africa, built around a dedicated advisory council rather than early binding legislation. The National Council for Artificial Intelligence (NCAI), housed under the Ministry of Communications and Information Technology (MCIT), has coordinated Egypt's AI policy since adopting the Egyptian Charter for Responsible AI in 2023 and publishing the second edition of its National AI Strategy (2025-2030) in January 2025, which targets training 30,000 AI specialists and supporting AI pilots in areas such as healthcare imaging, smart irrigation and digital public services. In January 2026, the council's mandate was formally broadened, and it was renamed the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies. At its first meeting under the new mandate, on March 12, 2026, the council approved a 2026 governance work plan that includes guidelines for children's safe use of AI applications, alongside 56 monitoring indicators for the National AI Strategy and a capacity-building program with UNESCO for Arab and African government institutions.\n\nA dedicated AI law has been in draft since around 2024 and, as of mid-2026, had not yet been confirmed adopted by Parliament, with reporting suggesting it is meant to align with the 2023 Charter and OECD AI Principles and to formally establish a Center for Responsible AI with audit and certification powers. Meanwhile, Egypt has moved more concretely on AI-adjacent infrastructure: in mid-2026, under directives from President Abdel Fattah El-Sisi, three ministries (Communications and IT, Electricity and Renewable Energy, and Investment and Foreign Trade) coordinated a national data-centre investment strategy, with Hassan Allam Digital Infrastructure and Data Center Solutions signing an agreement for an approximately $400 million first-phase data-centre and cloud-computing project. Raafat Hindy became Minister of Communications and Information Technology in February 2026, succeeding long-serving minister Amr Talaat, who had overseen much of Egypt's earlier AI institution-building, including the original National AI Council and the Data Protection Law.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Ethics-charter-led governance; binding AI law still in draft",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Council-coordinated, charter-based ethical guidance (transparency, fairness, accountability) preceding a still-unadopted formal AI law",
+    "latestMajorUpdate": "National Council for Artificial Intelligence's mandate expanded and renamed to cover quantum computing and emerging technologies (January 2026); council approves a 2026 governance work plan at its first meeting under the new mandate (March 12, 2026)",
+    "governmentInvolvement": "High and centralized — NCAI under MCIT coordinates strategy and ethics guidance, alongside a separate national push on AI-related data-centre infrastructure",
+    "industrialStrategy": "National AI Strategy (2025-2030) targeting 30,000 trained AI specialists and sector pilots, plus a national data-centre investment strategy (from mid-2026) aimed at attracting hyperscale and cloud AI infrastructure",
+    "internationalPartnerships": "Egypt has engaged internationally on AI governance, including presenting its approach as a Global-South model at forums such as the OECD and UN University, and assumed the 2026 WSIS Forum presidency from South Africa in July 2026",
+    "primaryPolicyFocus": "Implementing the NCAI's 2026 governance work plan and national data-centre strategy while working toward eventual passage of a formal AI law"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Egypt's AI governance has moved incrementally from a voluntary ethics charter toward more institutionalised oversight: the NCAI's January 2026 mandate expansion (to cover quantum computing and emerging technologies) and its March 2026 governance work plan, including child-safety guidelines for AI applications, both point toward tightening. However, the centrepiece binding AI law remains in draft as of mid-2026, so Egypt's framework continues to rely primarily on the non-binding 2023 Charter for Responsible AI pending that legislation's adoption."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Egypt launches the second edition of its National Artificial Intelligence Strategy (2025-2030), targeting training of 30,000 AI specialists and sector pilots in healthcare, agriculture and public services.",
+      "date": "2025-01-01",
+      "sourceIds": ["eg-1"]
+    },
+    {
+      "text": "National Council for Artificial Intelligence's mandate is expanded and the body is renamed the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies.",
+      "date": "2026-01",
+      "sourceIds": ["eg-2"]
+    },
+    {
+      "text": "At its first meeting under the new mandate, the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies approves a 2026 governance work plan including child-safety AI-use guidelines, 56 monitoring indicators for the National AI Strategy, and a UNESCO capacity-building program for Arab and African government institutions.",
+      "date": "2026-03-12",
+      "sourceIds": ["eg-8"]
+    },
+    {
+      "text": "Raafat Hindy is appointed Minister of Communications and Information Technology in Prime Minister Mostafa Madbouly's second cabinet, succeeding Amr Talaat.",
+      "date": "2026-02-01",
+      "sourceIds": ["eg-3"]
+    },
+    {
+      "text": "Under presidential directive, Egypt's Ministries of Communications and IT, Electricity and Renewable Energy, and Investment and Foreign Trade coordinate a national data-centre investment strategy; Hassan Allam Digital Infrastructure signs an approximately $400 million first-phase data-centre and cloud-computing agreement.",
+      "date": "2026-06-21",
+      "sourceIds": ["eg-4"]
+    },
+    {
+      "text": "Egypt assumes the presidency of the 2026 World Summit on the Information Society (WSIS) Forum from South Africa.",
+      "date": "2026-07-08",
+      "sourceIds": ["eg-3"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Egyptian Charter for Responsible AI",
+      "status": "in_force",
+      "summary": "Adopted in 2023, setting national ethical principles (transparency, fairness, accountability, human oversight) for AI use; non-binding but the reference framework the draft AI law is intended to align with.",
+      "sourceIds": ["eg-5"]
+    },
+    {
+      "title": "Personal Data Protection Law (PDPL) and Executive Regulations",
+      "status": "in_force",
+      "summary": "Law No. 151 of 2020, with long-awaited Executive Regulations (Ministerial Decision No. 81 of 2025) issued in November 2025, enforced by the Personal Data Protection Center (PDPC) under MCIT; applies to AI systems processing personal data.",
+      "sourceIds": ["eg-6"]
+    },
+    {
+      "title": "National Artificial Intelligence Strategy (2025-2030), second edition",
+      "status": "in_force",
+      "summary": "Published January 2025 by NCAI with MCIT and multi-stakeholder input; targets 30,000 trained AI specialists and sector-specific pilots.",
+      "sourceIds": ["eg-1"]
+    },
+    {
+      "title": "Draft Artificial Intelligence Law",
+      "status": "proposed",
+      "summary": "In development since around 2024, intended to align with the Charter for Responsible AI and OECD AI Principles and to formally establish a Center for Responsible AI with audit and certification powers; not confirmed adopted by Parliament as of mid-2026.",
+      "sourceIds": ["eg-5"],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Egyptian AI research and applied development runs partly through MCIT-linked bodies such as the Information Technology Industry Development Agency (ITIDA) and the Applied Innovation Center, which uses high-performance computing to advance applied AI research including in health, alongside university-based work at institutions such as the American University in Cairo and Nile University. Available reporting on specific AI research output and rankings for Egyptian universities is comparatively thin, and claims about scale or global standing should be treated cautiously pending stronger sourcing.",
+    "sourceIds": ["eg-7"]
+  },
+  "companies": [
+    {
+      "name": "Instabug",
+      "description": "Cairo-founded software company providing bug and crash reporting/monitoring tools for mobile apps, one of Egypt's best-known SaaS exports.",
+      "url": "https://www.instabug.com",
+      "needsVerification": true
+    },
+    {
+      "name": "Vezeeta",
+      "description": "Digital healthcare booking and telehealth platform connecting patients and providers across Egypt and the wider MENA region.",
+      "url": "https://www.vezeeta.com",
+      "needsVerification": true
+    },
+    {
+      "name": "Hassan Allam Digital Infrastructure and Data Center Solutions",
+      "description": "Egyptian infrastructure company that signed an agreement in 2026 for an approximately $400 million first-phase national data-centre and cloud-computing project supporting AI and cloud services.",
+      "sourceIds": ["eg-4"]
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      { "name": "Microsoft Azure", "description": "Active in the Egyptian market, including hosting Microsoft AI Tour events in Cairo." },
+      { "name": "AWS", "description": "Cloud provider used by Egyptian enterprises and startups for AI workloads." },
+      { "name": "Hassan Allam Digital Infrastructure and Data Center Solutions", "description": "Egyptian firm building new domestic data-centre and cloud-computing capacity as part of the 2026 national data-centre strategy." }
+    ],
+    "dominance": []
+  },
+  "universities": [
+    {
+      "name": "American University in Cairo (AUC)",
+      "description": "Offers AI and machine learning programmes and is frequently cited as a contributor to Egypt's AI talent pipeline.",
+      "url": "https://www.aucegypt.edu",
+      "needsVerification": true
+    },
+    {
+      "name": "Nile University",
+      "description": "Egypt's first non-profit research and entrepreneurial university, hosting innovation and incubator programmes relevant to Egypt's applied-tech ecosystem.",
+      "url": "https://nu.edu.eg",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [],
+  "governmentInstitutions": [
+    {
+      "name": "National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies (NCAI)",
+      "description": "Egypt's lead AI coordinating body under MCIT; renamed and given an expanded mandate in January 2026, responsible for the National AI Strategy and annual governance work plans.",
+      "aliases": ["National Council for Artificial Intelligence"],
+      "url": "https://mcit.gov.eg/en/Artificial_Intelligence"
+    },
+    {
+      "name": "Ministry of Communications and Information Technology (MCIT)",
+      "description": "Lead ministry for Egypt's AI, data-protection and digital-infrastructure policy, headed by Minister Raafat Hindy since February 2026.",
+      "url": "https://mcit.gov.eg"
+    },
+    {
+      "name": "Personal Data Protection Center (PDPC)",
+      "description": "Regulator enforcing Egypt's Personal Data Protection Law and its 2025 Executive Regulations, operating under MCIT.",
+      "url": "https://pdpc.gov.eg/"
+    },
+    {
+      "name": "Information Technology Industry Development Agency (ITIDA)",
+      "description": "MCIT-affiliated agency supporting AI sandboxes, training programmes and industry development.",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Raafat Hindy",
+      "role": "Minister of Communications and Information Technology (since February 2026)",
+      "affiliation": "MCIT",
+      "category": "government",
+      "url": "https://mcit.gov.eg"
+    },
+    {
+      "name": "Amr Talaat",
+      "role": "Former Minister of Communications and Information Technology (2018-2026); oversaw the original National AI Council, Data Protection Law and Applied Innovation Center",
+      "affiliation": "Former MCIT minister",
+      "category": "government",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Ministry of Communications and Information Technology (MCIT)",
+      "type": "organization",
+      "role": "Central driver of Egypt's AI strategy, governance charter and data-centre investment push",
+      "category": "government",
+      "url": "https://mcit.gov.eg"
+    },
+    {
+      "name": "National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies",
+      "type": "organization",
+      "role": "Sets Egypt's annual AI governance work plans and ethics guidance",
+      "category": "government",
+      "url": "https://mcit.gov.eg/en/Artificial_Intelligence"
+    }
+  ],
+  "influenceMap": [
+    { "label": "MCIT", "type": "government" },
+    { "label": "NCAI", "type": "agency" },
+    { "label": "Personal Data Protection Center", "type": "agency" },
+    { "label": "Hassan Allam Digital Infrastructure", "type": "company" }
+  ],
+  "notableGaps": [
+    { "area": "Binding AI-specific law", "note": "Egypt's draft AI law has been in preparation since roughly 2024 and, as of mid-2026, has not been confirmed as adopted by Parliament; governance currently rests on the non-binding 2023 Charter for Responsible AI plus NCAI work plans." },
+    { "area": "Frontier-model developers and independent AI think tanks", "note": "No frontier foundation-model developer is headquartered in Egypt, and available reporting did not surface an independent (non-governmental) AI-focused think tank comparable to those found in Kenya or South Africa; Egypt's AI policy discourse is comparatively centralized around MCIT and NCAI." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether Egypt's ethics-charter model can hold before binding AI legislation is finally adopted",
+      "category": "government",
+      "summary": "Egypt has relied on its 2023 Charter for Responsible AI and NCAI-issued work plans for several years while a formal AI law remains in draft, raising questions about whether voluntary ethical guidance is sufficient as AI adoption scales.",
+      "expanded": "Officials have described the pending law as intended to formalise a Center for Responsible AI with audit and compliance-certification powers, moving Egypt from voluntary guidelines toward mandatory requirements. Some international commentary, including from the Inter-Parliamentary Union, has praised Egypt's inclusive, multi-stakeholder approach as a possible model for other Global-South countries; others note that the repeated delay in finalising binding legislation leaves enforcement gaps, particularly as the NCAI's own mandate has kept expanding (most recently to quantum computing and emerging technologies in January 2026) without a corresponding increase in binding legal authority.",
+      "sourceIds": ["eg-5", "eg-2"]
+    },
+    {
+      "topic": "Egypt's push to become a regional AI/data-centre hub amid broader governance-transparency concerns",
+      "category": "infrastructure",
+      "summary": "Egypt's 2026 national data-centre strategy, anchored by a roughly $400 million first-phase project with Hassan Allam Digital Infrastructure, aims to position the country as a regional hub for AI and cloud infrastructure, leveraging renewable energy plans and its submarine-cable position linking Europe, Asia and Africa.",
+      "expanded": "The strategy was coordinated across three ministries under a presidential directive, reflecting significant top-down state direction of digital infrastructure investment. Some analysts view this centralized, presidentially-directed model as an efficient way to mobilise large capital projects quickly; broader Egyptian governance-transparency concerns raised in unrelated contexts (for instance, around other state-directed economic entities) mean that observers of Egypt's AI infrastructure build-out should watch for how transparently these data-centre investments and any associated public-private agreements are disclosed over time.",
+      "sourceIds": ["eg-4"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Egypt's National AI Strategy",
+      "type": "government",
+      "url": "https://dig.watch/resource/egypts-national-ai-strategy"
+    },
+    {
+      "title": "Governing AI with inclusion: An Egyptian model for the Global South",
+      "type": "think_tank",
+      "author": "OECD.AI",
+      "url": "https://oecd.ai/en/wonk/governing-ai-with-inclusion-an-egyptian-model-for-the-global-south"
+    },
+    {
+      "title": "Aligning Intelligence with Purpose: Egypt's Vision for Responsible and Inclusive AI",
+      "type": "interview",
+      "author": "United Nations University",
+      "url": "https://unu.edu/conversation-series/aligning-intelligence-purpose-egypts-vision-responsible-and-inclusive-ai"
+    }
+  ],
+  "sources": [
+    {
+      "id": "eg-1",
+      "title": "AI Policy Egypt 2025: Key Regulations & Strategy Guide",
+      "publisher": "Nemko Digital",
+      "url": "https://digital.nemko.com/regulations/ai-policy-egypt",
+      "date": "2025",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "eg-2",
+      "title": "Egypt Expands National AI Council Mandate to Include Quantum Computing, Biotech",
+      "publisher": "iAfrica",
+      "url": "https://iafrica.com/egypt-expands-national-ai-council-mandate-to-include-quantum-computing-biotech/",
+      "date": "2026-01-16",
+      "category": "news"
+    },
+    {
+      "id": "eg-3",
+      "title": "Raafat Hindy",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raafat_Hindy",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "eg-4",
+      "title": "Egypt Targets AI and Cloud Investment with National Data Centre Strategy",
+      "publisher": "The Middle East Observer",
+      "url": "https://meobserver.news/technology/2026/06/21/egypt-targets-ai-and-cloud-investment-with-national-data-centre-strategy/",
+      "date": "2026-06-21",
+      "category": "news"
+    },
+    {
+      "id": "eg-5",
+      "title": "Guide to Egypt's National AI Governance Framework",
+      "publisher": "National Council for Artificial Intelligence (Egypt)",
+      "url": "https://ai.gov.eg/SynchedFiles/ar/Resources/Guide%20to%20Egypt%E2%80%99s%20National%20AI%20Governance%20Framework.pdf",
+      "date": "2026-03",
+      "category": "government"
+    },
+    {
+      "id": "eg-6",
+      "title": "A First Look at Egypt's Personal Data Protection Executive Regulations",
+      "publisher": "GLA & Company",
+      "url": "https://www.glaco.com/blog/a-first-look-at-egypts-personal-data-protection-executive-regulations/",
+      "date": "2025-11",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "eg-7",
+      "title": "Biography of Communications and IT Minister Amr Talaat",
+      "publisher": "State Information Service (Egypt)",
+      "url": "https://sis.gov.eg/en/media-center/news/biography-of-communications-and-it-minister/",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "eg-8",
+      "title": "Egypt advances AI strategy, digital governance",
+      "publisher": "Egyptian Gazette",
+      "url": "https://egyptian-gazette.com/egypt/egypt-advances-ai-strategy-digital-governance/",
+      "date": "2026-03-12",
+      "category": "news"
+    }
+  ]
+}

@@ -12,14 +12,30 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.URL || process.env.DEPLOY_PRIME_URL || "http://localhost:3000";
+const title = "AI Governance World Map";
+const description =
+  "An interactive map of global AI policy, security, and governance developments.";
+
 export const metadata: Metadata = {
-  title: "AI Governance World Map",
-  description:
-    "An interactive map of global AI policy, security, and governance developments.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
   alternates: {
     types: {
       "application/rss+xml": "/feed.xml",
     },
+  },
+  openGraph: {
+    title,
+    description,
+    siteName: title,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
   },
 };
 

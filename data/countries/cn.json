@@ -19,7 +19,7 @@
     35.9
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-26",
   "newDevelopmentsCount": 7,
   "debateTopics": [
     "Regulating agentic AI under the new Intelligent Agents framework",
@@ -466,7 +466,14 @@
       "title": "ChinaTalk",
       "type": "substack",
       "author": "Jordan Schneider",
-      "note": "Newsletter and podcast covering Chinese tech and AI policy in depth."
+      "note": "Newsletter and podcast covering Chinese tech and AI policy in depth, with regular contributions from a small team of China-focused researchers and writers alongside Schneider."
+    },
+    {
+      "title": "ChinAI Newsletter",
+      "type": "substack",
+      "author": "Jeffrey Ding",
+      "url": "https://chinai.substack.com",
+      "note": "Weekly translations and analysis of Chinese-language writing on China's AI landscape, written by a George Washington University political scientist."
     },
     {
       "title": "Liang Wenfeng on DeepSeek's approach to open frontier models",

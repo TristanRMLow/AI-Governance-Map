@@ -19,8 +19,8 @@
     39.8
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 9,
+  "lastUpdated": "2026-07-26",
+  "newDevelopmentsCount": 11,
   "debateTopics": [
     "Who leads AI policy after the AI czar role went vacant",
     "Federal preemption vs. state AI laws",
@@ -35,7 +35,7 @@
       "sentiment": "green"
     },
     "regulatoryApproach": "Sectoral, executive-led — no binding federal frontier-model law",
-    "latestMajorUpdate": "FTC opens public comment on an AI-accuracy policy statement; a bipartisan 'Great American AI Act' discussion draft circulates in Congress, alongside a House Science Committee markup of ten AI bills",
+    "latestMajorUpdate": "Anthropic releases Claude Opus 5 and adds Nobel laureate John Jumper (ex-Google DeepMind) to its research roster; FTC opens public comment on an AI-accuracy policy statement and a bipartisan 'Great American AI Act' discussion draft circulates in Congress",
     "governmentInvolvement": "Low-to-moderate — light federal touch, no binding frontier-model law",
     "industrialStrategy": "Infrastructure- and export-led; the 'Stargate' initiative and America's AI Action Plan prioritise compute build-out",
     "internationalPartnerships": "Chip export-control coordination with allies; no formal multilateral AI safety treaty",
@@ -46,6 +46,22 @@
     "summary": "Federal AI policy leadership arguably thinned rather than tightened through 2026 — the White House AI & Crypto Czar role has sat vacant since David Sacks stepped down in March, leaving CAISI's technical standards and testing work as one of the most active and consistent threads of federal AI policy activity."
   },
   "recentDevelopments": [
+    {
+      "text": "Anthropic releases Claude Opus 5, its new flagship model; the company's automated behavioural audit found it 'the most aligned model to date' with the lowest measured rates of deceptive and misuse-prone behaviour among recent Claude models, alongside tightened safeguards restricting cyber-offense-relevant capabilities to a vetted 'Cyber Verification Program.'",
+      "date": "2026-07",
+      "sourceIds": [
+        "us-24"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Nobel laureate John Jumper, AlphaFold's lead architect, leaves Google DeepMind for Anthropic after nearly nine years — one of 2026's most closely watched AI research talent moves, and part of a broader wave of DeepMind and academic researchers joining US frontier labs.",
+      "date": "2026-06",
+      "sourceIds": [
+        "us-25"
+      ],
+      "severity": "major"
+    },
     {
       "text": "FTC opens public comment on an AI-accuracy and manipulation policy statement, issued pursuant to Executive Order 14365; a bipartisan 'Great American AI Act' (GAAIA) discussion draft circulates in Congress; the House Science Committee advances ten AI bills, including one that would statutorily codify CAISI.",
       "date": "2026-07",
@@ -522,11 +538,11 @@
       "note": "May 2023 hearing on rules for AI, still widely cited in US policy debate."
     },
     {
-      "title": "Cambrian AI Research",
+      "title": "Cambrian",
       "type": "substack",
-      "author": "Karl Freund",
-      "url": "https://karlfreund429026.substack.com",
-      "note": "AI-hardware and semiconductor industry analysis."
+      "author": "Hamish Low & Tristan Low",
+      "url": "https://cambrianr.substack.com",
+      "note": "Writing on AI, economics and geopolitics, including compute governance and US-China technology competition."
     },
     {
       "title": "Epoch AI",
@@ -712,6 +728,22 @@
       "url": "https://www.srgresearch.com/",
       "date": "2026-05",
       "category": "research"
+    },
+    {
+      "id": "us-24",
+      "title": "Introducing Claude Opus 5",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "date": "2026-07",
+      "category": "industry"
+    },
+    {
+      "id": "us-25",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-anthropic/",
+      "date": "2026-06",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

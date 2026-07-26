@@ -17,7 +17,7 @@
     50.85
   ],
   "zoom": 4,
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-26",
   "newDevelopmentsCount": 6,
   "debateTopics": [
     "Digital Omnibus — simplification or weakening of the AI Act?",
@@ -409,6 +409,13 @@
       "type": "substack",
       "author": "Euractiv",
       "note": "Daily EU tech and digital policy newsletter."
+    },
+    {
+      "title": "Threading the Needle",
+      "type": "substack",
+      "author": "Anton Leicht",
+      "url": "https://writing.antonleicht.me",
+      "note": "Political economy of AI, with a strong focus on EU AI Act implementation; Leicht is a Carnegie Endowment Fellow with prior Bundestag policy-advisory experience."
     },
     {
       "title": "Politico Tech",

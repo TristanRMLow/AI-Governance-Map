@@ -19,8 +19,8 @@
     54.5
   ],
   "zoom": 4.6,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 8,
+  "lastUpdated": "2026-07-26",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "Blueprint vs. binding law — has the UK shelved the Frontier AI Bill?",
     "AI Growth Lab: advisory pilot vs. rule-relaxing sandbox",
@@ -45,6 +45,14 @@
     "summary": "As of mid-2026, the UK appears to be in a holding pattern: no primary AI legislation, continued reliance on sector regulators (ICO, FCA, Bank of England) applying existing powers, and an advisory AI Growth Lab pilot rather than the binding frontier-model law once promised."
   },
   "recentDevelopments": [
+    {
+      "text": "Nobel laureate John Jumper, co-creator of AlphaFold at Google DeepMind's London lab, announces he is leaving after nearly nine years to join US rival Anthropic — one of the most closely watched departures from the UK's flagship AI lab to date, and part of a broader wave of DeepMind researchers moving to US labs in 2026.",
+      "date": "2026-06-19",
+      "sourceIds": [
+        "uk-27"
+      ],
+      "severity": "major"
+    },
     {
       "text": "New Prime Minister Andy Burnham abolishes DSIT in his first machinery-of-government changes: business/innovation/science/trade functions move to a new Department for Business, Innovation, Science and Trade (DBIST) under Jonathan Reynolds, while AI strategy, public-sector AI adoption and the AI Security Institute move to the Cabinet Office under a newly Cabinet-attending AI minister, Kanishka Narayan. Liz Kendall leaves government. Announced via a written statement to the House of Lords two days after Burnham succeeded Keir Starmer as PM.",
       "date": "2026-07-21",
@@ -156,7 +164,7 @@
   "companies": [
     {
       "name": "Google DeepMind",
-      "description": "London-headquartered AI lab behind the Gemini and AlphaFold model families; Demis Hassabis and John Jumper won the 2024 Nobel Prize in Chemistry for AlphaFold.",
+      "description": "London-headquartered AI lab behind the Gemini and AlphaFold model families; Demis Hassabis and John Jumper won the 2024 Nobel Prize in Chemistry for AlphaFold. Jumper announced in June 2026 that he was leaving after nearly nine years to join US rival Anthropic, one of the highest-profile departures from the lab to date.",
       "url": "https://deepmind.google"
     },
     {
@@ -461,6 +469,20 @@
       "author": "Christoph Winter & Charlie Bullock, Institute for Law & AI",
       "url": "https://radical-optionality.ai",
       "note": "Winter directs LawAI and is Assistant Professor of Law & AI at Cambridge."
+    },
+    {
+      "title": "International AI Safety Report 2026",
+      "type": "academic",
+      "author": "Chaired by Yoshua Bengio",
+      "url": "https://library.iaseai.org/reports/international-ai-safety-report-2026/",
+      "note": "Independent report on frontier AI capabilities, risks and safeguards, mandated by the 2023 Bletchley Declaration and backed by 30+ countries plus the UN, OECD and EU."
+    },
+    {
+      "title": "Notes on Growth",
+      "type": "substack",
+      "author": "Sam Dumitriu",
+      "url": "https://www.samdumitriu.com",
+      "note": "UK growth-economics newsletter (Britain Remade) that regularly covers AI compute, energy and infrastructure policy."
     }
   ],
   "sources": [
@@ -670,6 +692,14 @@
       "publisher": "digit.fyi",
       "url": "https://www.digit.fyi/uk-sovereign-ai-fund-bezos-backs-cuspai-in-335m-series-b-funding/",
       "date": "2026-07-20",
+      "category": "news"
+    },
+    {
+      "id": "uk-27",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-anthropic/",
+      "date": "2026-06",
       "category": "news"
     }
   ],

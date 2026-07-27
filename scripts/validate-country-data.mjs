@@ -89,6 +89,15 @@ for (const file of files) {
 
   if (!Array.isArray(data.notableGaps)) fail(file, `notableGaps must be an array (can be empty)`);
 
+  // Timeline/RSS ordering relies on these being real dates; a typo like
+  // "2026-7" or "July 2026" would sort into nonsense. Accept year, month, or
+  // full-day precision — sortableDate() normalizes across those at read time.
+  for (const dev of data.recentDevelopments ?? []) {
+    if (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(dev.date ?? "")) {
+      fail(file, `recentDevelopments date "${dev.date}" is not YYYY, YYYY-MM, or YYYY-MM-DD`);
+    }
+  }
+
   const actualCount = (data.recentDevelopments ?? []).length;
   if (data.newDevelopmentsCount !== actualCount) {
     fail(file, `newDevelopmentsCount is ${data.newDevelopmentsCount} but recentDevelopments has ${actualCount} entries`);

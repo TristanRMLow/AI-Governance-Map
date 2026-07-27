@@ -1,6 +1,7 @@
 import type { ComparisonData, ComparisonDimension, CountryData, Development, PolicyItem } from "./types";
 import { getAllCountries, getCountryData, getCountryMeta } from "./getCountryData";
 import { CATEGORY_COLOR } from "./categoryColors";
+import { sortableDate } from "./dates";
 
 const TREND_WORD: Record<CountryData["currentDirection"]["trend"], string> = {
   tightening: "tightening its regulatory grip",
@@ -41,7 +42,9 @@ function firstClause(text: string, maxLen = 140): string {
  * whatever happens to sort last by date. */
 function latestDevelopment(data: CountryData): Development | undefined {
   if (data.recentDevelopments.length === 0) return undefined;
-  const sorted = [...data.recentDevelopments].sort((a, b) => b.date.localeCompare(a.date));
+  const sorted = [...data.recentDevelopments].sort((a, b) =>
+    sortableDate(b.date).localeCompare(sortableDate(a.date))
+  );
   return sorted.find((d) => d.severity === "major") ?? sorted[0];
 }
 

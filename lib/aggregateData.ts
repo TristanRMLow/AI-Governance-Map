@@ -1,4 +1,5 @@
 import { getAllCountries, getCountryData } from "./getCountryData";
+import { sortableDate } from "./dates";
 import type { Debate, Development, SourceRef } from "./types";
 
 interface CountryTag {
@@ -32,7 +33,7 @@ export function getAllDevelopments(): DevelopmentWithCountry[] {
     };
     for (const dev of data.recentDevelopments) all.push({ ...dev, ...tag });
   }
-  return all.sort((a, b) => b.date.localeCompare(a.date));
+  return all.sort((a, b) => sortableDate(b.date).localeCompare(sortableDate(a.date)));
 }
 
 /** Every debate across every country, tagged with its source jurisdiction —

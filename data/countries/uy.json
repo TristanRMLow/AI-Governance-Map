@@ -11,8 +11,8 @@
   "accentColor": { "light": "#834482", "dark": "#AE61AC" },
   "center": [-56.0, -32.8],
   "zoom": 6.3,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
   "hasMajorUpdate": false,
   "debateTopics": [
     "Governance credibility questions at AGESIC amid a leadership crisis, just as Uruguay positions itself as a regional AI-ethics leader",
@@ -36,6 +36,18 @@
     "summary": "Uruguay continues to build out a non-binding, principle-based approach to AI governance centered on AGESIC and the National AI Strategy 2024–2030, with no indication of near-term movement toward a binding AI law. Recent momentum has instead come from infrastructure and diplomacy — new data-center investment from Google, Microsoft and Antel, and continued regional convening on AI ethics — even as a leadership crisis inside AGESIC itself (a director's resignation and conflict-of-interest allegations) introduced some friction into the institution most responsible for coordinating that strategy."
   },
   "recentDevelopments": [
+    {
+      "text": "The government designates the leadership of a new Centro Nacional de Inteligencia Artificial — reported as integrating AGESIC, technology lab LATU, education programme Plan Ceibal, the research-and-innovation agency ANII and state telecom Antel — and advances a joint MIEM/Antel/AGESIC plan to procure GPUs, part of a stated effort to position Uruguay as a regional AI reference point.",
+      "date": "2026-07",
+      "sourceIds": ["uy-14", "uy-16"],
+      "needsVerification": true
+    },
+    {
+      "text": "Uruguay enables its first AI and data regulatory sandboxes, presented as a step toward a future technology-regulation framework, with AGESIC tasked to design a national data-and-AI strategy and promote related regulatory initiatives.",
+      "date": "2026",
+      "sourceIds": ["uy-15"],
+      "needsVerification": true
+    },
     {
       "text": "Uruguay's Comité Estratégico Nacional de IA y Datos approves the National Artificial Intelligence Strategy 2024–2030, coordinated by AGESIC with technical cooperation from CAF and UNESCO.",
       "date": "2024-11-21",
@@ -106,6 +118,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Renewable-powered data centres (Google ~US$850M Canelones, Antel); a public GPU-procurement plan is under way",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
+  },
   "universities": [
     {
       "name": "Universidad de la República (UdelaR)",
@@ -124,6 +141,11 @@
       "name": "Plan Ceibal",
       "description": "National education-technology program integrating AI tools into public schooling via its CREA platform and EduIA regional laboratory, reaching a large share of Uruguay's urban and rural public schools.",
       "url": "https://ceibal.edu.uy"
+    },
+    {
+      "name": "Centro Nacional de Inteligencia Artificial (Uruguay)",
+      "description": "New national AI centre whose leadership was designated in mid-2026; reported as integrating AGESIC, LATU, Plan Ceibal, ANII and Antel to coordinate applied AI, talent and infrastructure. Distinct from Chile's similarly named CENIA.",
+      "needsVerification": true
     }
   ],
   "keyPeople": [
@@ -205,6 +227,9 @@
     { "id": "uy-10", "title": "Bruno Gili: Uruguay podría atraer 'dos o tres' nuevos data centers, pero la energía condiciona proyectos de IA", "publisher": "Búsqueda", "url": "https://www.busqueda.com.uy/tecnologia/bruno-gili-uruguay-podria-atraer-dos-o-tres-nuevos-data-centers-pero-la-energia-condiciona-proyectos-ia-n5411507", "date": "2026", "category": "news" },
     { "id": "uy-11", "title": "Microsoft y el gobierno de Uruguay lanzan el Laboratorio de inteligencia artificial para el bien", "publisher": "Microsoft Source LATAM", "url": "https://news.microsoft.com/source/latam/noticias-de-microsoft/microsoft-y-el-gobierno-de-uruguay-lanzan-el-laboratorio-de-inteligencia-artificial-para-el-bien-en-una-nueva-etapa-de-colaboracion-publico-privada/", "date": "2026-03-12", "category": "industry" },
     { "id": "uy-12", "title": "Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático (CICADA)", "publisher": "Universidad de la República", "url": "https://cicada.uy", "date": "2026", "category": "research" },
-    { "id": "uy-13", "title": "Por qué Uruguay fue elegido por Microsoft para su primer 'AI for Good Lab' en Sudamérica y cómo funcionará", "publisher": "Forbes Uruguay", "url": "https://www.forbesuruguay.com/innovacion/por-uruguay-fue-elegido-microsoft-su-primer-ai-for-good-lab-sudamerica-como-funcionara-n87995", "date": "2026-03", "category": "news" }
+    { "id": "uy-13", "title": "Por qué Uruguay fue elegido por Microsoft para su primer 'AI for Good Lab' en Sudamérica y cómo funcionará", "publisher": "Forbes Uruguay", "url": "https://www.forbesuruguay.com/innovacion/por-uruguay-fue-elegido-microsoft-su-primer-ai-for-good-lab-sudamerica-como-funcionara-n87995", "date": "2026-03", "category": "news" },
+    { "id": "uy-14", "title": "Gobierno designa autoridades del nuevo Centro Nacional de Inteligencia Artificial", "publisher": "El Observador", "url": "https://www.elobservador.com.uy/ciencia-y-tecnologia/gobierno-designa-autoridades-del-nuevo-centro-nacional-inteligencia-artificial-n6050905", "date": "2026-07", "category": "news" },
+    { "id": "uy-15", "title": "Uruguay habilita los primeros 'sandboxes' de IA y datos, un paso previo a una futura regulación tecnológica", "publisher": "Búsqueda", "url": "https://www.busqueda.com.uy/tecnologia/uruguay-habilita-los-primeros-sandboxes-ia-y-datos-un-paso-previo-una-futura-regulacion-tecnologica-n5407738", "date": "2026", "category": "news" },
+    { "id": "uy-16", "title": "Uruguay comprará infraestructura para el desarrollo de la inteligencia artificial en el ámbito local", "publisher": "Búsqueda", "url": "https://www.busqueda.com.uy/tecnologia/uruguay-comprara-infraestructura-el-desarrollo-la-inteligencia-artificial-el-ambito-local-n5394474", "date": "2026", "category": "news" }
   ]
 }

@@ -19,20 +19,20 @@
     -10.8
   ],
   "zoom": 3.5,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 2,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 4,
   "debateTopics": [
     "Biometric surveillance carve-outs and other sticking points in PL 2338",
-    "Whether PL 2338 can still pass before the August 2026 recess after its planned May vote was postponed"
+    "Whether PL 2338 can still pass in 2026 after repeated postponements"
   ],
-  "overview": "Brazil's comprehensive AI bill, PL 2338/2023, has been working through Congress since May 2023. The Senate approved a substitute text in December 2024, and as of mid-2026 it remains pending in the Chamber of Deputies, with amendments still being negotiated — biometric surveillance carve-outs have been widely reported as one sticking point, alongside broader disagreements over balancing rights protections with innovation. A Chamber of Deputies plenary vote had been scheduled for May 27, 2026, following rapporteur Deputy Aguinaldo Ribeiro's report presented on May 19, 2026, but that vote was postponed after Chamber President Hugo Motta said the text needed to be aligned with the Senate's version first. It remains unclear whether the bill will reach a floor vote before the Chamber's August 2026 recess, and enforcement provisions likely would not take effect before late 2026 even if passed.\n\nThe bill centres enforcement on ANPD, Brazil's data protection authority, using a risk-based framework similar in spirit to the EU AI Act. Alongside the legislation, the government's Brazilian AI Plan (PBIA) runs across five axes — infrastructure, training and capacity, public-service improvement, business innovation, and regulation and governance support — and a related IA² programme supports AI-related startups and research projects, though the exact cumulative scale of that support could not be independently confirmed.",
+  "overview": "Brazil's comprehensive AI bill, PL 2338/2023, has been working through Congress since May 2023. The Senate approved a substitute text in December 2024, and as of mid-2026 it remains pending in the Chamber of Deputies, with amendments still being negotiated — biometric surveillance carve-outs have been widely reported as one sticking point, alongside broader disagreements over balancing rights protections with innovation. A Chamber of Deputies plenary vote had been scheduled for May 27, 2026, following rapporteur Deputy Aguinaldo Ribeiro's report presented on May 19, 2026, but that vote was postponed after Chamber President Hugo Motta said the text needed to be aligned with the Senate's version first. The bill did not reach a floor vote before the Chamber's mid-year recess; parliamentary-advisory body DIAP has reported that a plenary vote is now expected only toward the end of the 2026 legislative year (around December), and enforcement provisions would likely not take effect until 2027 even if passed.\n\nThe bill centres enforcement on ANPD, Brazil's data protection authority, using a risk-based framework similar in spirit to the EU AI Act. Alongside the legislation, the government's Brazilian AI Plan (PBIA) runs across five axes — infrastructure, training and capacity, public-service improvement, business innovation, and regulation and governance support — and a related IA² programme supports AI-related startups and research projects, though the exact cumulative scale of that support could not be independently confirmed. Brazilian universities and institutions also contributed to Latam-GPT, an open large language model for Latin America coordinated by Chile's CENIA and launched in February 2026 — a regional 'sovereign AI' effort in which Brazil participates rather than leads.",
   "atAGlance": {
     "policyDirection": {
       "label": "Comprehensive AI bill pending final passage",
       "sentiment": "amber"
     },
     "regulatoryApproach": "Risk-based framework (PL 2338), enforcement centred on ANPD; not yet passed",
-    "latestMajorUpdate": "PL 2338 AI Bill's planned May 27, 2026 Chamber vote was postponed; passage before the August 2026 recess is now uncertain",
+    "latestMajorUpdate": "PL 2338 AI Bill's planned May 2026 Chamber vote was postponed; a floor vote is now reported as unlikely before around December 2026",
     "governmentInvolvement": "Rising — comprehensive risk-based bill advancing through Congress plus an active national AI plan",
     "industrialStrategy": "Brazilian AI Plan (PBIA) across five axes, including an IA² programme supporting AI startups and research projects (exact cumulative scale not independently verified)",
     "internationalPartnerships": "Regulatory approach modelled in spirit on the EU AI Act's risk-based framework",
@@ -40,15 +40,30 @@
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "Brazil could become one of the few major economies outside the EU with a comprehensive, binding, risk-based AI law if PL 2338 passes — the bill has cleared the Senate, but a Chamber of Deputies vote planned for May 27, 2026 was postponed, and it remains unclear whether the bill will reach a floor vote before the August 2026 recess."
+    "summary": "Brazil could become one of the few major economies outside the EU with a comprehensive, binding, risk-based AI law if PL 2338 passes — the bill has cleared the Senate, but a Chamber of Deputies vote planned for May 2026 was postponed, and as of early August 2026 a floor vote is reported as unlikely before around December 2026."
   },
   "recentDevelopments": [
     {
-      "text": "A Chamber of Deputies plenary vote on PL 2338 scheduled for May 27, 2026 (following rapporteur Deputy Aguinaldo Ribeiro's report presented May 19, 2026) was postponed; Chamber President Hugo Motta cited the need to align the Chamber's text with the Senate's version first, leaving the bill's path before the August 2026 recess uncertain.",
+      "text": "With PL 2338's postponed May vote unresolved, parliamentary-advisory body DIAP reports that a Chamber of Deputies floor vote on the AI bill is now expected only toward the end of the 2026 legislative year (around December), pushing binding AI legislation further down the calendar and its enforcement provisions likely into 2027.",
+      "date": "2026-07",
+      "sourceIds": [
+        "br-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "A Chamber of Deputies plenary vote on PL 2338 scheduled for May 27, 2026 (following rapporteur Deputy Aguinaldo Ribeiro's report presented May 19, 2026) was postponed; Chamber President Hugo Motta cited the need to align the Chamber's text with the Senate's version first, leaving the bill's path uncertain.",
       "date": "2026-06",
       "sourceIds": [
         "br-1",
         "br-4"
+      ]
+    },
+    {
+      "text": "Latam-GPT, an open large language model for Latin America coordinated by Chile's national AI centre CENIA, is launched with contributions from institutions across the region, including Brazilian universities and civil-society bodies — positioning Brazil as a participant in a regional 'sovereign AI' effort rather than a domestic frontier developer.",
+      "date": "2026-02",
+      "sourceIds": [
+        "br-7"
       ]
     },
     {
@@ -122,6 +137,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Large hyperscaler and colocation build-out (e.g. Campinas hub); a ~R$1.8bn PBIA AI supercomputer is planned by 2027",
+    "chipAccess": "Import-reliant on foreign GPUs; no domestic advanced-chip fabrication"
+  },
   "universities": [
     {
       "name": "C4AI (Center for Artificial Intelligence)",
@@ -192,10 +212,10 @@
       ]
     },
     {
-      "topic": "Whether PL 2338 can still pass before the August 2026 recess",
+      "topic": "Whether PL 2338 can still pass in 2026 after repeated postponements",
       "category": "government",
-      "summary": "After years of progress, PL 2338's path to passage has become less certain: a Chamber vote scheduled for May 27, 2026 was postponed, leaving open whether the bill can still reach a floor vote before the Chamber's August 2026 recess.",
-      "expanded": "The bill has already survived a multi-year process, including Senate approval of a substitute text in December 2024 and a rapporteur's report presented in May 2026. Chamber President Hugo Motta postponed the planned May 27, 2026 vote, citing the need to align the Chamber's text with the Senate's version first. Missing the August 2026 recess deadline would not kill the bill outright, but would extend Brazil's current status as one of the few major economies still without comprehensive binding AI legislation. A separate government bill addressing a constitutional drafting flaw in the Senate text, submitted in December 2025, adds further procedural complexity to the timeline.",
+      "summary": "After years of progress, PL 2338's path to passage has become less certain: a Chamber vote scheduled for May 27, 2026 was postponed, and reporting now points to a floor vote no earlier than around December 2026.",
+      "expanded": "The bill has already survived a multi-year process, including Senate approval of a substitute text in December 2024 and a rapporteur's report presented in May 2026. Chamber President Hugo Motta postponed the planned May 27, 2026 vote, citing the need to align the Chamber's text with the Senate's version first; parliamentary-advisory body DIAP subsequently reported that a vote is now expected only toward the end of the 2026 legislative year (around December). Further slippage would not kill the bill outright, but would extend Brazil's current status as one of the few major economies still without comprehensive binding AI legislation. A separate government bill addressing a constitutional drafting flaw in the Senate text, submitted in December 2025, adds further procedural complexity to the timeline.",
       "sourceIds": [
         "br-1",
         "br-4"
@@ -270,6 +290,22 @@
       "publisher": "ABVCAP",
       "url": "https://abvcap.com.br/en/startups-brasileiras-em-2026-panorama-principais-empresas-e-unicornios/",
       "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "br-6",
+      "title": "PL 2338/23: Votação do projeto sobre Inteligência Artificial está prevista apenas para dezembro",
+      "publisher": "DIAP (Departamento Intersindical de Assessoria Parlamentar)",
+      "url": "https://www.diap.org.br/index.php/noticias/noticias/92249-pl-2338-23-votacao-do-projeto-sobre-inteligencia-artificial-esta-prevista-apenas-para-dezembro",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "br-7",
+      "title": "What is Latam-GPT: Latin America's Spanish and Portuguese AI model?",
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/next/2026/02/12/what-is-latam-gpt-latin-americas-spanish-and-portuguese-ai-model",
+      "date": "2026-02",
       "category": "news"
     }
   ],

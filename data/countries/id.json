@@ -11,8 +11,8 @@
   "accentColor": { "light": "#674483", "dark": "#8B61AE" },
   "center": [113.9, -0.5],
   "zoom": 3.6,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Data localization and digital sovereignty vs. hyperscaler investment",
@@ -37,6 +37,12 @@
     "summary": "Indonesia appears to be moving from voluntary ethics guidance toward a more formal, risk-tiered regulatory instrument, though the draft Presidential Regulation on AI ethics has not been confirmed as enacted and its timeline has reportedly slipped across 2025 into 2026. Government statements suggest continued priority on AI regulation for 2026, but observers should treat specific dates with caution given inconsistent secondary reporting."
   },
   "recentDevelopments": [
+    {
+      "text": "Komdigi's National AI Roadmap white paper and the draft Presidential Regulation are reported to propose a 'Sovereign AI Fund' — to be managed by state investment agency Danantara under a public–private partnership scheme (variously reported for the 2027–2029 period) — to finance data centres, compute and AI-talent development, as Indonesia frames a longer-run sovereign-AI ambition. Details and timeline remain provisional.",
+      "date": "2026-06",
+      "sourceIds": ["id-15"],
+      "needsVerification": true
+    },
     {
       "text": "Microsoft announces a $1.7B investment in Indonesian cloud and AI infrastructure — described as the largest in Microsoft's 29-year history in the country — alongside the elevAIte Indonesia program with Komdigi to train 1 million Indonesians in AI skills.",
       "date": "2024-04-30",
@@ -89,10 +95,10 @@
       "sourceIds": ["id-8"]
     },
     {
-      "title": "National AI Roadmap (Peta Jalan KA Nasional, 2025–2029)",
+      "title": "National AI Roadmap (Peta Jalan KA Nasional, 2025–2029) / White Paper",
       "status": "proposed",
-      "summary": "An implementation-focused successor roadmap led by Komdigi intended to operationalize the Stranas KA strategy; described in ministerial statements as under development, with no confirmed final publication date found in available reporting.",
-      "sourceIds": ["id-5"],
+      "summary": "An implementation-focused successor roadmap led by Komdigi intended to operationalize the Stranas KA strategy across pillars such as ethics/governance, talent, infrastructure and data, research, investment and priority use cases. A 'Buku Putih' (white paper) version was released for public consultation and is described as the foundation for follow-on implementing regulations and a proposed Presidential Regulation; it reportedly also proposes a Danantara-managed Sovereign AI Fund. No confirmed final adoption date was found in available reporting.",
+      "sourceIds": ["id-5", "id-15"],
       "needsVerification": true
     },
     {
@@ -145,6 +151,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Growing: Nvidia GB200 'AI Factory' (Lintasarta/Indosat) and Microsoft's 'Indonesia Central' hyperscale region",
+    "chipAccess": "Import-reliant, via hyperscaler and Nvidia partnerships"
   },
   "universities": [
     {
@@ -414,6 +425,14 @@
       "publisher": "The Jakarta Post",
       "url": "https://www.thejakartapost.com/opinion/2026/04/20/ai-worsens-the-burden-for-indonesias-female-gig-workers",
       "date": "2026-04-20",
+      "category": "news"
+    },
+    {
+      "id": "id-15",
+      "title": "Indonesia plans sovereign AI fund to become regional technology hub",
+      "publisher": "Indonesia Business Post",
+      "url": "https://indonesiabusinesspost.com/4981/markets-and-finance/indonesia-plans-sovereign-ai-fund-to-become-regional-technology-hub",
+      "date": "2026",
       "category": "news"
     }
   ]

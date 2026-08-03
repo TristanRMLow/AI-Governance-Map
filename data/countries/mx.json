@@ -11,8 +11,8 @@
   "accentColor": { "light": "#494483", "dark": "#6761AE" },
   "center": [-102.5, 23.6],
   "zoom": 4.2,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Whether Mexico's new AI-adjacent content rules risk conflicting with USMCA obligations",
@@ -37,25 +37,16 @@
   },
   "recentDevelopments": [
     {
-      "text": "Secihti and the Agency for Digital Transformation and Telecommunications (ATDT) publish a voluntary 'Declaration of Ethics and Best Practices for the Use and Development of Artificial Intelligence,' grounded in the 'Chapultepec Principles.'",
-      "date": "2026-01-29",
-      "sourceIds": ["mx-2"]
-    },
-    {
-      "text": "Senator Karina Isabel Ruiz Ruiz (MORENA) introduces a bill for a 'National Law to Regulate the Use of Artificial Intelligence' in the Senate; referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring and Evaluation of AI in Mexico.",
-      "date": "2026-02-11",
-      "sourceIds": ["mx-13"]
-    },
-    {
-      "text": "President Claudia Sheinbaum submits a presidential initiative to amend the Federal Labor Law and Federal Copyright Law to address AI's use of performers' voice, image and likeness; referred to the Chamber of Deputies' Committee on Culture and Cinematography.",
-      "date": "2026-02-23",
-      "sourceIds": ["mx-3"]
-    },
-    {
-      "text": "Chamber of Deputies passes the labor/copyright AI reform by a wide margin; vote tallies vary slightly across reports (roughly 335 or 368 in favor), possibly reflecting separate general/particular votes in the same session rather than a genuine discrepancy.",
-      "date": "2026-04-07",
-      "sourceIds": ["mx-3", "mx-4"],
+      "text": "Mexico's data-centre build-out accelerates, concentrated in Querétaro (reportedly ~65% of national capacity): the Mexican Data Center Association (MEXDC) projects roughly US$82.5 billion of investment in construction and equipment over 2026–31, and CloudHQ announced a ~US$4.8 billion hyperscale campus in the state — extending AWS's ~US$5 billion cloud region and reinforcing Mexico's nearshoring-driven role as a regional AI-compute hub.",
+      "date": "2026",
+      "sourceIds": ["mx-16", "mx-17"],
       "needsVerification": true
+    },
+    {
+      "text": "Federal Labor Law and Copyright Law reforms addressing AI's use of performers' voice and image enter into force (published in the Official Gazette of the Federation on May 14), becoming Mexico's first enacted AI-adjacent legislative change.",
+      "date": "2026-05-15",
+      "sourceIds": ["mx-4"],
+      "severity": "major"
     },
     {
       "text": "Mexico News Daily reports that a Senate committee on AI, chaired by Senator Rolando Zapata and drawing on 16 months of work with 72 specialists, is nearing presentation of a broader 'Federal Law Regulating Artificial Intelligence' with a national AI strategy, development fund and federal certification system; its relationship to Senator Ruiz's February bill is not fully clarified in available reporting.",
@@ -64,10 +55,30 @@
       "needsVerification": true
     },
     {
-      "text": "Federal Labor Law and Copyright Law reforms addressing AI's use of performers' voice and image enter into force (published in the Official Gazette of the Federation on May 14), becoming Mexico's first enacted AI-adjacent legislative change.",
-      "date": "2026-05-15",
-      "sourceIds": ["mx-4"],
-      "severity": "major"
+      "text": "Chamber of Deputies passes the labor/copyright AI reform by a wide margin; vote tallies vary slightly across reports (roughly 335 or 368 in favor), possibly reflecting separate general/particular votes in the same session rather than a genuine discrepancy.",
+      "date": "2026-04-07",
+      "sourceIds": ["mx-3", "mx-4"],
+      "needsVerification": true
+    },
+    {
+      "text": "President Claudia Sheinbaum submits a presidential initiative to amend the Federal Labor Law and Federal Copyright Law to address AI's use of performers' voice, image and likeness; referred to the Chamber of Deputies' Committee on Culture and Cinematography.",
+      "date": "2026-02-23",
+      "sourceIds": ["mx-3"]
+    },
+    {
+      "text": "Senator Karina Isabel Ruiz Ruiz (MORENA) introduces a bill for a 'National Law to Regulate the Use of Artificial Intelligence' in the Senate; referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring and Evaluation of AI in Mexico.",
+      "date": "2026-02-11",
+      "sourceIds": ["mx-13"]
+    },
+    {
+      "text": "Mexican institutions contribute to Latam-GPT, an open large language model for Latin America coordinated by Chile's national AI centre CENIA and launched in February 2026 — situating Mexico as a participant in a regional 'sovereign AI' effort rather than a domestic frontier developer.",
+      "date": "2026-02",
+      "sourceIds": ["mx-18"]
+    },
+    {
+      "text": "Secihti and the Agency for Digital Transformation and Telecommunications (ATDT) publish a voluntary 'Declaration of Ethics and Best Practices for the Use and Development of Artificial Intelligence,' grounded in the 'Chapultepec Principles.'",
+      "date": "2026-01-29",
+      "sourceIds": ["mx-2"]
     }
   ],
   "policyAndRegulation": [
@@ -135,6 +146,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Fast-growing hyperscaler and colocation build-out concentrated in Querétaro (AWS ~$5bn, CloudHQ ~$4.8bn); MEXDC projects ~$82.5bn over 2026–31",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
   },
   "universities": [
     {
@@ -391,6 +407,30 @@
       "url": "https://datagovhub.elliott.gwu.edu/mexico-ai-strategy/",
       "date": "2026",
       "category": "research"
+    },
+    {
+      "id": "mx-16",
+      "title": "Mexico Targets US$82.5 Billion Data Center Buildout Through 2031",
+      "publisher": "Mexico Business News",
+      "url": "https://mexicobusiness.news/cloudanddata/news/mexico-targets-us825-billion-data-center-buildout-through-2031",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "mx-17",
+      "title": "CloudHQ Announces USD 4.8 Billion Mega Investment for Data Center in Querétaro",
+      "publisher": "ProMexico Industry",
+      "url": "https://www.promexicoindustry.com/en/article/cloudhq-announces-usd-4-8-billion-mega-investment-for-data-center-in-quertaro",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "mx-18",
+      "title": "What is Latam-GPT: Latin America's Spanish and Portuguese AI model?",
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/next/2026/02/12/what-is-latam-gpt-latin-americas-spanish-and-portuguese-ai-model",
+      "date": "2026-02",
+      "category": "news"
     }
   ]
 }

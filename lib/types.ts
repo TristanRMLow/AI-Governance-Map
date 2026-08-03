@@ -82,6 +82,12 @@ export interface Development extends Verifiable {
    * international agreements). Absent means routine — kept rare so the
    * Recent Updates banner stays meaningful. */
   severity?: "major";
+  /** Optional shared-event key. When the SAME cross-jurisdiction event shows
+   * up as a development in many countries (e.g. an EU-wide AI Act milestone),
+   * tagging each with the same key lets the aggregated Timeline collapse them
+   * into one grouped card instead of a near-duplicate cluster. Country pages
+   * still render each entry normally — this only affects the Timeline. */
+  eventGroup?: string;
 }
 
 export type LegislationStatus = "proposed" | "passed" | "in_force" | "repealed";
@@ -175,6 +181,21 @@ export interface CloudShare {
   share: number;
 }
 
+/** A small, deliberately coarse compute-and-frontier signal, kept compact and
+ * rendered in a subordinate position (a mini-row inside the infrastructure
+ * card) rather than as a hero stat. Optional — absent where not yet assessed. */
+export interface ComputeFrontier {
+  /** Does a developer based in the jurisdiction train frontier- or
+   * near-frontier-scale models? "domestic" = yes; "emerging" = building toward
+   * it / smaller sovereign or open models; "none" = no such developer. */
+  frontierDeveloper: "domestic" | "emerging" | "none";
+  /** One short line on notable compute / data-centre capacity. */
+  compute: string;
+  /** One short line on advanced-AI-chip access (domestic fabrication,
+   * import-reliant, export-controlled, etc.). */
+  chipAccess: string;
+}
+
 export interface InfluenceNode {
   label: string;
   type: "government" | "agency" | "company" | "research" | "think_tank";
@@ -189,6 +210,7 @@ export interface CountryData extends CountryMeta {
   researchEcosystem: { summary: string; sourceIds: string[] };
   companies: EcosystemCompany[];
   cloudInfrastructure: { providers: EcosystemCompany[]; dominance: CloudShare[] };
+  computeFrontier?: ComputeFrontier;
   universities: Institution[];
   thinkTanks: Institution[];
   governmentInstitutions: Institution[];

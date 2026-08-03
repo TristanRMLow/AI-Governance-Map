@@ -2,7 +2,6 @@ import { Gavel } from "lucide-react";
 import { SectionCard, EmptyState } from "@/components/country/SectionCard";
 import { SourceRefs } from "@/components/country/SourceRefs";
 import { StatusBadge } from "@/components/country/StatusBadge";
-import { VerificationBadge } from "@/components/country/VerificationBadge";
 import type { PolicyItem, SourceRef } from "@/lib/types";
 
 export function PolicyRegulationSection({
@@ -27,9 +26,8 @@ export function PolicyRegulationSection({
           {items.map((item) => (
             <div key={item.title} className="rounded-xl border border-page-border bg-page-bg/50 p-4">
               <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
-                <h3 className="text-[14.5px] font-medium text-page-text">{item.title}</h3>
+                <h3 className="min-w-0 break-words text-[14.5px] font-medium text-page-text">{item.title}</h3>
                 <div className="flex shrink-0 items-center gap-1.5">
-                  {item.needsVerification && <VerificationBadge />}
                   <StatusBadge status={item.status} />
                 </div>
               </div>

@@ -19,49 +19,103 @@
     40.3
   ],
   "zoom": 5.2,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 3,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "AESIA's sandbox and enforcement posture",
-    "Organic Law's sanctions regime passing the Cortes intact"
+    "Organic Law's sanctions regime passing the Cortes intact",
+    "Sovereign compute and public LLMs (ALIA / MareNostrum 5)"
   ],
-  "overview": "Spain was the first EU member state to stand up a dedicated national AI authority — AESIA, the Spanish AI Supervisory Agency, headquartered in A Coruña and operational since June 2024. In May 2026 the Council of Ministers approved a draft Organic Law on AI governance that would formally adapt the EU AI Act into Spanish national law and establish an AESIA-managed regulatory sandbox; some analyses indicate it would also repeal the prior 2023 sandbox decree, though that specific detail was not independently confirmed in this review. As of this writing the law remains before the Cortes, not yet passed.\n\nMinister for Digital Transformation and Civil Service Óscar López has taken a notably measured public tone, cautioning that 'nobody should overreact' against the EU AI Act — a contrast with some peer states' more assertive national add-on legislation.",
+  "overview": "Spain was the first EU member state to stand up a dedicated national AI authority — AESIA, the Spanish Agency for the Supervision of Artificial Intelligence, headquartered in A Coruña and operational since June 2024. AESIA is widely described as Spain's national market-surveillance authority under the EU AI Act and its single point of contact with the EU institutions, and it runs one of Europe's first operational AI regulatory sandboxes; from 2 August 2026 the EU AI Act's general-purpose-AI (GPAI) supervision and enforcement powers take effect across member states, with the EU AI Office holding the central enforcement role over GPAI providers while national authorities such as AESIA supervise other obligations. Most high-risk (Annex III) obligations were delayed to 2027–2028, so the near-term binding load remains limited.\n\nOn the legislative side, the Council of Ministers approved a draft Organic Law on the proper use and governance of AI on 26 May 2026, which was published in Parliament's Official Journal on 12 June 2026 and referred to committee; it adapts the EU AI Act into Spanish law, formalises AESIA's role and a mandatory sandbox, and — per legal commentary — provides for substantial fines (reported at up to €35M for failing to label AI-generated content, mirroring the EU AI Act's prohibited-practices tier) for the practices Spain can penalise nationally, though the exact figures and their final form remain subject to parliamentary negotiation. Minister for Digital Transformation and Civil Service Óscar López has taken a notably measured public tone, cautioning that 'nobody should overreact' against the EU AI Act.\n\nSpain has also emerged as a notable European compute and public-model hub: the Barcelona Supercomputing Centre (BSC) operates MareNostrum 5 and trained ALIA, a publicly funded multilingual model family (including the open-weight Salamandra models) focused on Spanish and Spain's co-official languages, while hyperscalers have committed tens of billions of euros to data centres, led by AWS's expanded ~€33.7B Aragón investment announced in early 2026.",
   "atAGlance": {
     "policyDirection": {
       "label": "First EU national AI authority, measured on new law",
       "sentiment": "blue"
     },
-    "regulatoryApproach": "AESIA-led; Organic Law would formally implement the EU AI Act nationally",
-    "latestMajorUpdate": "Draft Organic Law on AI governance approved by the Council of Ministers, sent to the Cortes",
-    "governmentInvolvement": "High — first EU state with a dedicated national AI supervisory agency",
-    "industrialStrategy": "Direct government funding of applied AI (e.g. €30M for Universal Diagnostics)",
-    "internationalPartnerships": "Aligning national implementation closely with the EU AI Act baseline",
-    "primaryPolicyFocus": "Passing the Organic Law and standing up AESIA's regulatory sandbox"
+    "regulatoryApproach": "AESIA-led national market surveillance under the EU AI Act; Organic Law would formally implement it in Spanish law",
+    "latestMajorUpdate": "EU AI Act GPAI enforcement powers take effect (2 Aug 2026) with AESIA as Spain's national market-surveillance authority; the draft Organic Law on AI governance is in parliamentary processing",
+    "governmentInvolvement": "High — first EU state with a dedicated national AI supervisory agency, plus large public compute investment",
+    "industrialStrategy": "Sovereign compute and public multilingual models (MareNostrum 5, ALIA) alongside direct funding of applied AI",
+    "internationalPartnerships": "Aligning national implementation closely with the EU AI Act baseline; single EU contact point via AESIA",
+    "primaryPolicyFocus": "Passing the Organic Law, operationalising AESIA's market-surveillance and sandbox role, and building sovereign compute"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "Spain is moving from a sandbox-only regime toward a full Organic Law implementing the EU AI Act nationally — though the law is still before parliament, and the Digital Transformation Minister's public tone has been notably measured rather than assertive."
+    "summary": "Spain is moving from a sandbox-and-guidance regime toward binding enforcement: as of 2 August 2026 the EU AI Act's GPAI supervision powers apply, with AESIA acting as the national market-surveillance authority, and the draft Organic Law would add a domestic sanctions regime once passed. The tightening is real but gradual — the Organic Law is still before parliament, most high-risk obligations are delayed to 2027–2028, and the Digital Transformation Minister's public tone has been measured rather than assertive."
   },
   "recentDevelopments": [
     {
-      "text": "Draft Organic Law on AI governance approved by the Council of Ministers, sent to the Cortes for consideration.",
+      "text": "The EU AI Act's general-purpose-AI (GPAI) supervision and enforcement powers take effect across member states (2 August 2026): the EU AI Office can request documentation, run evaluations and demand mitigations, with fines of up to €15M or 3% of global turnover for GPAI providers, while Article 50 transparency duties (chatbot disclosure, AI-content and deepfake labelling) begin to apply. AESIA acts as Spain's national market-surveillance authority and single EU contact point; most high-risk (Annex III) obligations were delayed to 2027–2028.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "es-14",
+        "es-7"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "Spain's draft Organic Law on the proper use and governance of AI is published in Parliament's Official Journal (12 June 2026) and referred to the Congress Committee on Economy, Commerce and Digital Transformation, opening an amendment period; the bill names AESIA as market-surveillance authority, mandates a national sandbox and a public inventory, and — per legal commentary — provides for fines reported at up to €35M for failing to label AI-generated content, though the exact figures remain subject to parliamentary negotiation.",
+      "date": "2026-06-12",
+      "sourceIds": [
+        "es-7",
+        "es-13"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "The Council of Ministers approves the draft Organic Law on the proper use and governance of AI, sending it to the Cortes; it adapts the EU AI Act into Spanish national law and formalises an AESIA-managed regulatory sandbox.",
       "date": "2026-05-26",
       "sourceIds": [
         "es-1"
-      ]
+      ],
+      "severity": "major"
     },
     {
-      "text": "Minister Óscar López publicly cautions 'nobody should overreact' against the EU AI Act, signalling a measured implementation stance.",
+      "text": "AWS announces it will raise its planned investment in Spain to roughly €33.7B (about $39.8B), expanding its Aragón data-centre region (Zaragoza, Huesca and Teruel) with capacity dedicated in part to AI and machine-learning workloads — among the largest single tech-infrastructure commitments in Spain to date.",
+      "date": "2026-03",
+      "sourceIds": [
+        "es-8"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "AESIA publishes an expanding suite of technical guidance documents (reported at around 16 guides) to help organisations comply with the EU AI Act, developed partly through its regulatory sandbox pilot; new appointee Alberto Gago Fernández becomes Director General.",
+      "date": "2026",
+      "sourceIds": [
+        "es-9",
+        "es-10"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "MareNostrum 5 at the Barcelona Supercomputing Centre reportedly receives a roughly €90M upgrade, reinforcing Spain's position as a leading European public-compute hub and the platform on which the ALIA public multilingual models were trained.",
+      "date": "2026",
+      "sourceIds": [
+        "es-11",
+        "es-12"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Minister Óscar López publicly cautions that 'nobody should overreact' against the EU AI Act, signalling a measured implementation stance.",
       "date": "2026",
       "sourceIds": [
         "es-2"
       ]
     },
     {
-      "text": "Universal Diagnostics, an AI cancer-detection company, receives €30M from the Spanish government.",
+      "text": "Universal Diagnostics, an AI cancer-detection company, receives roughly €30M from the Spanish government via SETT, drawn from Next Generation EU recovery funds.",
       "date": "2026-01",
       "sourceIds": [
         "es-3"
+      ]
+    },
+    {
+      "text": "Alberto Gago Fernández is appointed the new Director General of AESIA, succeeding earlier leadership; he had previously headed the Secretariat of State for Digitalisation and AI's Spain Digital 2030 and internationalisation office.",
+      "date": "2025-12",
+      "sourceIds": [
+        "es-10"
       ]
     }
   ],
@@ -69,16 +123,26 @@
     {
       "title": "Draft Organic Law on AI governance",
       "status": "proposed",
-      "summary": "Approved by the Council of Ministers in May 2026; adapts the EU AI Act into Spanish national law and establishes an AESIA-managed sandbox. Some analyses report it would also repeal the prior 2023 sandbox decree, though that detail was not independently confirmed. Not yet passed by the Cortes — published in Parliament's Official Journal in June 2026 and referred to committee.",
+      "summary": "Approved by the Council of Ministers on 26 May 2026 and published in Parliament's Official Journal on 12 June 2026, then referred to the Congress Committee on Economy, Commerce and Digital Transformation with an amendment period. It adapts the EU AI Act into Spanish national law, names AESIA as market-surveillance authority, establishes a mandatory AESIA-managed sandbox and a public inventory of high-risk systems, and sets a domestic sanctions regime — legal commentary reports fines of up to €35M (mirroring the EU AI Act's prohibited-practices tier) for failing to label AI-generated content, though the exact figures and final text remain subject to parliamentary negotiation. Not yet passed by the Cortes.",
       "needsVerification": true,
       "sourceIds": [
-        "es-1"
+        "es-1",
+        "es-7",
+        "es-13"
+      ]
+    },
+    {
+      "title": "EU AI Act (as applied in Spain)",
+      "status": "in_force",
+      "summary": "The substantive rules Spain enforces are the EU AI Act's. As of 2 August 2026 the GPAI supervision and enforcement powers take effect (EU AI Office central enforcer over GPAI providers, fines up to €15M or 3% of turnover), and Article 50 transparency duties begin to apply; most high-risk (Annex III) obligations were delayed to 2027–2028. AESIA acts as Spain's national market-surveillance authority and single EU contact point.",
+      "sourceIds": [
+        "es-14"
       ]
     },
     {
       "title": "AESIA (Spanish AI Supervisory Agency)",
       "status": "in_force",
-      "summary": "The first dedicated EU national AI authority, headquartered in A Coruña and operational since June 2024.",
+      "summary": "The first dedicated EU national AI authority, established by Royal Decree 729/2023 and headquartered in A Coruña, operational since June 2024. It functions as Spain's national market-surveillance authority for AI, runs one of Europe's first operational regulatory sandboxes, and serves as the single point of contact with the European Commission; full sanctioning powers are expected once the Organic Law and the EU AI Act's enforcement provisions are fully in force.",
       "sourceIds": [
         "es-4",
         "es-6"
@@ -86,9 +150,10 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "Spanish AI research spans the Technical University of Madrid, Universitat Politècnica de Catalunya, the University of the Basque Country, and CSIC/BIST/ICREA. Seedtable, an industry listicle rather than a primary data source, estimates this ecosystem has produced over 360 VC-backed spinouts with a combined value of roughly $10.5B — a figure that has not been independently verified.",
+    "summary": "Spanish AI research spans the Technical University of Madrid, Universitat Politècnica de Catalunya, the University of the Basque Country, and CSIC/BIST/ICREA, and is increasingly anchored by public compute at the Barcelona Supercomputing Centre (BSC), home to the MareNostrum 5 supercomputer. BSC trained ALIA, a publicly funded multilingual model family (reportedly trained on some 9.37 trillion tokens across dozens of languages, and including the open-weight Salamandra models) focused on Spanish and Spain's co-official languages under the national AI strategy. Seedtable, an industry listicle rather than a primary data source, estimates the wider ecosystem has produced over 360 VC-backed spinouts worth roughly $10.5B — a figure that has not been independently verified.",
     "sourceIds": [
-      "es-5"
+      "es-5",
+      "es-12"
     ]
   },
   "companies": [
@@ -111,20 +176,33 @@
     "providers": [
       {
         "name": "AWS",
-        "description": "Major cloud provider for Spanish enterprise AI workloads."
+        "description": "Major cloud provider for Spanish enterprise AI workloads; announced an expanded investment of roughly €33.7B in its Aragón (Zaragoza, Huesca, Teruel) data-centre region, including AI/ML-dedicated capacity.",
+        "url": "https://aws.amazon.com"
       },
       {
         "name": "Microsoft Azure",
-        "description": "Cloud provider with significant Spanish enterprise integration."
+        "description": "Cloud provider with significant Spanish enterprise integration; building a data-centre campus in Aragón reported at around €7.16B.",
+        "url": "https://azure.microsoft.com"
       },
       {
         "name": "Google Cloud",
-        "description": "Cloud provider used across Spanish research and enterprise AI."
+        "description": "Cloud provider used across Spanish research and enterprise AI.",
+        "url": "https://cloud.google.com"
       }
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "MareNostrum 5 at the Barcelona Supercomputing Centre — a leading European public system — plus a large hyperscaler build-out in Aragón",
+    "chipAccess": "Import-reliant (NVIDIA H100-class GPUs); no domestic advanced-AI-chip fabrication"
+  },
   "universities": [
+    {
+      "name": "Barcelona Supercomputing Centre (BSC)",
+      "description": "Operates MareNostrum 5, one of Europe's most powerful supercomputers, and led the training of the ALIA public multilingual model family (including the open-weight Salamandra models).",
+      "url": "https://www.bsc.es"
+    },
     {
       "name": "Technical University of Madrid",
       "description": "Leading Spanish technical university for AI research."
@@ -142,7 +220,7 @@
   "governmentInstitutions": [
     {
       "name": "AESIA",
-      "description": "Spanish Agency for the Supervision of Artificial Intelligence; the first dedicated EU national AI authority.",
+      "description": "Spanish Agency for the Supervision of Artificial Intelligence; the first dedicated EU national AI authority, acting as Spain's market-surveillance authority under the EU AI Act and single EU contact point. Led by Director General Alberto Gago Fernández since December 2025.",
       "url": "https://aesia.digital.gob.es/en/es"
     },
     {
@@ -158,10 +236,9 @@
     },
     {
       "name": "Alberto Gago Fernández",
-      "role": "Director General",
+      "role": "Director General, AESIA (appointed December 2025)",
       "affiliation": "AESIA (Spanish AI Supervision Agency)",
-      "category": "government",
-      "needsVerification": true
+      "category": "government"
     }
   ],
   "influenceMap": [
@@ -172,6 +249,10 @@
     {
       "label": "AESIA",
       "type": "agency"
+    },
+    {
+      "label": "Barcelona Supercomputing Centre",
+      "type": "research"
     },
     {
       "label": "Sherpa AI",
@@ -186,19 +267,32 @@
     {
       "topic": "AESIA's sandbox and enforcement posture",
       "category": "government",
-      "summary": "As the first EU state with a dedicated AI authority, Spain's approach to sandbox design and enforcement is being cited by some analysts as an early reference point — positive or cautionary — for other member states.",
-      "expanded": "AESIA's regulatory sandbox lets companies trial AI systems under supervision before full compliance is required. How strictly AESIA moves from sandbox permissiveness to full enforcement once the Organic Law passes could influence whether other member states come to view Spain's early-mover approach as a template worth following.",
+      "summary": "As the first EU state with a dedicated AI authority — now the national market-surveillance authority as the AI Act's GPAI enforcement powers take effect — Spain's approach to sandbox design and enforcement is being cited by some analysts as an early reference point, positive or cautionary, for other member states.",
+      "expanded": "AESIA's regulatory sandbox lets companies trial AI systems under supervision before full compliance is required, and the agency has published a growing suite of technical guides. How strictly AESIA moves from sandbox permissiveness and guidance to full enforcement — once the Organic Law passes and the EU AI Act's sanctioning provisions bite — could influence whether other member states come to view Spain's early-mover approach as a template worth following.",
       "sourceIds": [
-        "es-4"
+        "es-4",
+        "es-9"
       ]
     },
     {
       "topic": "Organic Law's sanctions regime passing the Cortes intact",
       "category": "government",
-      "summary": "The draft Organic Law's sanctions and enforcement provisions still need to survive parliamentary negotiation before becoming binding.",
-      "expanded": "Council of Ministers approval is only the first step — Spain's minority-coalition politics mean the sanctions regime and sandbox provisions could still be amended before the law passes the Cortes, and Minister López's measured public tone suggests the government may be open to softening some provisions during negotiation.",
+      "summary": "The draft Organic Law's sanctions and enforcement provisions — including reported fines of up to €35M for unlabelled AI-generated content — still need to survive parliamentary negotiation before becoming binding.",
+      "expanded": "Council of Ministers approval and publication in Parliament's Official Journal are only early steps — Spain's minority-coalition politics mean the sanctions regime, the mandatory sandbox and public-inventory provisions could still be amended before the law passes the Cortes, and Minister López's measured public tone suggests the government may be open to softening some provisions during negotiation.",
       "sourceIds": [
-        "es-1"
+        "es-1",
+        "es-7",
+        "es-13"
+      ]
+    },
+    {
+      "topic": "Sovereign compute and public LLMs (ALIA / MareNostrum 5)",
+      "category": "infrastructure",
+      "summary": "Spain has invested in public compute (MareNostrum 5) and publicly funded multilingual models (ALIA) as a route to AI capability that prioritises Spanish and co-official languages over pure frontier performance.",
+      "expanded": "ALIA, trained at the Barcelona Supercomputing Centre, is framed as a public, multilingual alternative that foregrounds Spanish, Catalan, Galician and Basque rather than competing at the global model frontier. Supporters argue this builds durable sovereign capability and linguistic representation; sceptics question whether publicly funded models can keep pace with fast-moving commercial labs, and whether Spain's compute strength (amplified by large hyperscaler data-centre investments) will translate into competitive domestic model development.",
+      "sourceIds": [
+        "es-11",
+        "es-12"
       ]
     }
   ],
@@ -212,9 +306,16 @@
     {
       "name": "AESIA",
       "type": "organization",
-      "role": "Spanish AI Supervisory Agency; the first dedicated national AI authority in the EU.",
+      "role": "Spanish AI Supervisory Agency; the first dedicated national AI authority in the EU and its national market-surveillance authority.",
       "category": "government",
       "url": "https://aesia.digital.gob.es/en/es"
+    },
+    {
+      "name": "Barcelona Supercomputing Centre",
+      "type": "organization",
+      "role": "Operator of MareNostrum 5 and lead on the ALIA public multilingual models; a hub of Spain's sovereign-compute and public-AI efforts.",
+      "category": "university",
+      "url": "https://www.bsc.es"
     }
   ],
   "knowledgeHub": [
@@ -224,15 +325,21 @@
       "url": "https://privacymatters.dlapiper.com/2026/05/spain-government-approves-the-draft-organic-law-on-the-proper-use-and-governance-of-artificial-intelligence/"
     },
     {
-      "title": "Spain makes strides implementing the European AI Act",
+      "title": "Spain submits its AI Governance Law to Congress: sanctions, AESIA, and public inventory",
       "type": "government",
-      "url": "https://www.hsfkramer.com/notes/madrid/2026-posts/alert-spain-makes-strides-implementing-european-ai-act-june-2026"
+      "url": "https://cloudnews.tech/spain-submits-its-ai-governance-law-to-congress-sanctions-aesia-and-public-inventory/"
+    },
+    {
+      "title": "ALIA / Proyecto AINA — Spain's public multilingual language models",
+      "type": "government",
+      "author": "Barcelona Supercomputing Centre",
+      "url": "https://projecteaina.cat/tech/en/"
     }
   ],
   "sources": [
     {
       "id": "es-1",
-      "title": "Council of Ministers press conference",
+      "title": "Council of Ministers press conference / Government regulates AI",
       "publisher": "La Moncloa",
       "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/councilministers/Paginas/2026/20260526-council-press-conference.aspx",
       "date": "2026-05",
@@ -277,10 +384,78 @@
       "url": "https://aesia.digital.gob.es/en/es",
       "date": "2026",
       "category": "government"
+    },
+    {
+      "id": "es-7",
+      "title": "Spain submits its AI Governance Law to Congress: sanctions, AESIA, and public inventory",
+      "publisher": "Cloud News",
+      "url": "https://cloudnews.tech/spain-submits-its-ai-governance-law-to-congress-sanctions-aesia-and-public-inventory/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "es-8",
+      "title": "Amazon increases investment in Spain to €33.7 billion to expand data centre infrastructure and drive AI innovation",
+      "publisher": "About Amazon EU",
+      "url": "https://www.aboutamazon.eu/news/job-creation-and-investment/amazon-investment-spain-2026",
+      "date": "2026-03",
+      "category": "industry"
+    },
+    {
+      "id": "es-9",
+      "title": "AESIA's AI Guidelines: Spain steps into the AI spotlight",
+      "publisher": "IAPP",
+      "url": "https://iapp.org/news/a/aesia-s-ai-guidelines-spain-steps-into-the-ai-spotlight",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "es-10",
+      "title": "Alberto Gago, new director of the Spanish Agency for the Supervision of Artificial Intelligence",
+      "publisher": "AESIA",
+      "url": "https://aesia.digital.gob.es/en/present/20251219-alberto-gago-new-director-of-the-spanish-agency-for-the-supervision-of-artificial-intelligence",
+      "date": "2025-12",
+      "category": "government"
+    },
+    {
+      "id": "es-11",
+      "title": "Barcelona's MareNostrum 5 supercomputer gets €90 million boost",
+      "publisher": "Catalan News",
+      "url": "https://www.catalannews.com/tech-science/item/barcelonas-marenostrum-5-supercomputer-gets-90-million-boost",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "es-12",
+      "title": "AINA / ALIA — Spain's public multilingual language models",
+      "publisher": "Barcelona Supercomputing Centre (Projecte AINA)",
+      "url": "https://projecteaina.cat/tech/en/",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "es-13",
+      "title": "AI Watch: Global regulatory tracker — Spain",
+      "publisher": "White & Case LLP",
+      "url": "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-spain",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "es-14",
+      "title": "AI Act — regulatory framework and enforcement timeline",
+      "publisher": "European Commission (Shaping Europe's digital future)",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "date": "2026",
+      "category": "government"
     }
   ],
-  "hasMajorUpdate": false,
+  "hasMajorUpdate": true,
   "notableGaps": [
+    {
+      "area": "Frontier foundation-model developers",
+      "note": "No lab headquartered in Spain trains an independent, general-purpose frontier-scale foundation model comparable to GPT/Gemini/Claude-class systems. Spain's most prominent public effort, the BSC-led ALIA/Salamandra family, is a sovereign multilingual model line focused on Spanish and co-official languages rather than global-frontier performance — hence an 'emerging', not 'domestic', frontier position."
+    },
     {
       "area": "Think tanks",
       "note": "No AI-focused think tanks are currently listed for Spain. It is unclear whether this reflects a genuine gap in the country's AI policy ecosystem or simply incomplete research coverage."

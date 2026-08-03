@@ -1,0 +1,446 @@
+{
+  "code": "ch",
+  "name": "Switzerland",
+  "shortName": "Switzerland",
+  "flagEmoji": "🇨🇭",
+  "geometryType": "polygon",
+  "isoA3": [
+    "CHE"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Light-touch, sector-specific regulation via the Council of Europe AI Convention, paired with world-class academic AI (ETH Zurich, EPFL) and Geneva's governance-hub role",
+  "accentColor": {
+    "light": "#A85D4D",
+    "dark": "#C47965"
+  },
+  "center": [
+    8.23,
+    46.8
+  ],
+  "zoom": 6.6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Sovereign open models versus reliance on foreign frontier labs",
+    "Light-touch Swiss regulation versus the EU AI Act's reach",
+    "Geneva as a neutral venue for global AI governance"
+  ],
+  "overview": "Switzerland occupies an unusual position in the AI landscape: it is not home to a large commercial frontier lab, yet it hosts two of continental Europe's strongest technical universities -- ETH Zurich and EPFL -- and, through the Swiss National Supercomputing Centre (CSCS) in Lugano, one of the region's most capable public AI compute systems, the 'Alps' machine. That combination produced Apertus, a fully open, multilingual large language model released in September 2025 and updated to version 1.5 in July 2026, which is widely described as one of the most transparent large-scale models to date.\n\nOn governance, the Federal Council has opted for a deliberately light-touch, sector-specific path rather than a single horizontal AI law. In early 2025 it decided that Switzerland should ratify the Council of Europe Framework Convention on Artificial Intelligence and make targeted amendments to existing law, reserving cross-sectoral rules largely for areas touching fundamental rights (such as data protection) and otherwise favouring sectoral measures and non-binding instruments. A consultation bill is expected by the end of 2026. In parallel, Geneva -- host to the ITU's 'AI for Good' summit, the inaugural UN Global Dialogue on AI Governance and initiatives such as GESDA -- has consolidated its standing as a neutral venue for international AI diplomacy. Swiss firms that supply the EU market are also affected extraterritorially by the EU AI Act, whose general-purpose AI provisions took effect on 2 August 2026."
+  ,
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Light-touch and sector-specific, with strong academic and open-model strengths",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Principles-based; ratifying the Council of Europe AI Convention rather than adopting an EU-style horizontal AI act",
+    "latestMajorUpdate": "Apertus 1.5 open model released by ETH Zurich, EPFL and CSCS",
+    "governmentInvolvement": "Moderate: coordinated by the Federal Chancellery and DETEC, with a consultation bill due end of 2026",
+    "industrialStrategy": "No domestic frontier lab; strengths in academic AI, deep-tech spin-offs and a sovereign open model (Apertus)",
+    "internationalPartnerships": "Geneva as a global AI-governance hub (ITU AI for Good, UN Global Dialogue, GESDA); Council of Europe alignment",
+    "primaryPolicyFocus": "Balancing innovation and fundamental rights via targeted, sector-specific measures"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Switzerland's direction appears settled around a light-touch, innovation-friendly model: it is preparing to ratify the Council of Europe AI Convention and to legislate narrowly and sector-by-sector, while investing in public compute and open models through the Swiss AI Initiative. The main external tightening pressure comes indirectly, via the EU AI Act's extraterritorial reach on Swiss exporters."
+  },
+  "recentDevelopments": [
+    {
+      "text": "ETH Zurich, EPFL and CSCS released Apertus 1.5, an updated version of Switzerland's fully open, multilingual large language model (8B and 70B parameters), reportedly alongside a suite of smaller distilled 'Apertus Mini' models; the original Apertus launched in September 2025 and is described as trained on the Alps supercomputer over more than 1,000 languages.",
+      "date": "2026-07-24",
+      "sourceIds": [
+        "ch-1",
+        "ch-2"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Geneva hosted the ITU-led 'AI for Good' Global Summit (7-10 July 2026 at Palexpo, co-convened with the Swiss government), held back-to-back with the inaugural UN Global Dialogue on AI Governance (6-7 July), reinforcing the city's role as a venue for international AI diplomacy.",
+      "date": "2026-07",
+      "sourceIds": [
+        "ch-5"
+      ]
+    },
+    {
+      "text": "The EU AI Act's general-purpose AI obligations took effect on 2 August 2026; although Switzerland is not an EU member, Swiss providers and deployers serving the EU market are affected extraterritorially, a point emphasised in Swiss legal and compliance commentary.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "ch-7"
+      ]
+    },
+    {
+      "text": "Swiss deep-tech AI spin-offs continued to attract investment, including ETH spin-off DeepJudge (legal-AI search) reported to have raised a Series A of roughly USD 41-42m, and LatticeFlow (AI model evaluation, robustness and compliance), underscoring the strength of the ETH/EPFL commercialisation pipeline.",
+      "date": "2026",
+      "sourceIds": [
+        "ch-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "The Swiss AI Initiative -- launched in December 2023 by the ETH Domain with an initial commitment reported at around CHF 20m plus over 10 million GPU hours on the Alps supercomputer -- continued to scale, positioning Apertus as a reference point for 'sovereign', fully transparent open models.",
+      "date": "2026",
+      "sourceIds": [
+        "ch-4",
+        "ch-1"
+      ]
+    },
+    {
+      "text": "Following its early-2025 decision on regulatory direction, the Federal Council reaffirmed plans for the Federal Department of Justice and Police (FDJP) to prepare, by the end of 2026, a consultation bill implementing the Council of Europe AI Convention through targeted, sector-specific amendments rather than a single horizontal AI law.",
+      "date": "2026",
+      "sourceIds": [
+        "ch-3",
+        "ch-8"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Ratification of the Council of Europe Framework Convention on AI",
+      "status": "proposed",
+      "summary": "In early 2025 the Federal Council decided that Switzerland should ratify the Council of Europe's Framework Convention on Artificial Intelligence and adapt Swiss law accordingly, focusing on transparency, data protection, non-discrimination and supervision. The FDJP, together with DETEC and the FDFA, is tasked with drafting a consultation bill by the end of 2026. The approach is deliberately sector-specific: cross-sectoral rules are reserved mainly for fundamental-rights areas, with other gaps addressed through sectoral law or non-binding measures such as self-declaration or industry solutions.",
+      "officialUrl": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-104110.html",
+      "sourceIds": [
+        "ch-3",
+        "ch-8"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "Sector-specific and non-binding AI measures",
+      "status": "proposed",
+      "summary": "Rather than an EU-style horizontal AI act, Switzerland's stated model prioritises targeted amendments within existing sectoral regimes (for example in finance, health and data protection) and non-legally-binding instruments. DETEC, with the FDJP, the FDFA and the EAER, is to draw up a plan for further non-binding measures by the end of 2026. Commentators describe the overall posture as innovation-friendly and lighter-touch than the EU regime.",
+      "officialUrl": "https://www.bk.admin.ch/en/regulation",
+      "sourceIds": [
+        "ch-8",
+        "ch-7"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Swiss AI research is concentrated in the ETH Domain -- ETH Zurich and EPFL -- both consistently ranked among Europe's strongest for computer science, supported by the Swiss National Supercomputing Centre (CSCS) and its 'Alps' system (reported to use over 4,000 NVIDIA GH200 Grace Hopper superchips). The Swiss AI Initiative, jointly run by ETH Zurich, EPFL and CSCS, produced the open Apertus model. Additional strengths include IDIAP (Martigny) and the University of Zurich, feeding a deep-tech spin-off pipeline in trustworthy and applied AI.",
+    "sourceIds": [
+      "ch-1",
+      "ch-4"
+    ]
+  },
+  "companies": [
+    {
+      "name": "LatticeFlow AI",
+      "description": "Zurich-based ETH spin-off (founded 2020 by Andreas Krause, Martin Vechev, Pavol Bielik and Petar Tsankov) building tools for AI-model evaluation, robustness testing, governance and EU AI Act compliance; investors reported to include Warburg Pincus, Salesforce Ventures and Swisscom.",
+      "url": "https://latticeflow.ai"
+    },
+    {
+      "name": "DeepJudge",
+      "description": "Zurich company founded by ETH PhD graduates building AI-powered knowledge search for legal teams; reported to have raised a Series A of roughly USD 41-42m.",
+      "url": "https://www.deepjudge.ai"
+    },
+    {
+      "name": "Swisscom",
+      "description": "Switzerland's largest telecoms operator and an active partner in national AI efforts, including enterprise AI services and support for Swiss language-model work.",
+      "url": "https://www.swisscom.ch"
+    },
+    {
+      "name": "Together AI / DeepL (regional context)",
+      "description": "Switzerland hosts and neighbours several notable AI firms; while DeepL is German, the broader DACH region's applied-AI market is closely linked to Swiss talent and ETH/EPFL graduates. Listed here as context rather than as a Swiss-domiciled champion.",
+      "url": "https://www.deepl.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Swiss National Supercomputing Centre (CSCS) — 'Alps'",
+        "description": "Public research supercomputer in Lugano reported to use over 4,000 NVIDIA GH200 Grace Hopper superchips, powered largely by carbon-neutral electricity; the compute backbone of the Swiss AI Initiative and the Apertus model.",
+        "url": "https://www.cscs.ch"
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Operates Swiss cloud regions (Zurich and Geneva) used widely for enterprise and public-sector workloads, including data-residency-sensitive AI deployments.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Runs a Zurich cloud region and a significant Google engineering presence in Zurich, one of its largest outside the United States.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "AWS",
+        "description": "Operates a Swiss (Zurich) region serving Swiss enterprises, finance and public-sector customers.",
+        "url": "https://aws.amazon.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "CSCS 'Alps' (4,000+ NVIDIA GH200) is a strong public AI cluster; no hyperscale commercial frontier build-out",
+    "chipAccess": "Import-reliant on NVIDIA hardware; Western-aligned, not export-restricted"
+  },
+  "universities": [
+    {
+      "name": "ETH Zurich",
+      "description": "Federal Institute of Technology in Zurich; a leading global centre for machine learning, robotics and trustworthy AI, and co-lead of the Swiss AI Initiative and Apertus.",
+      "url": "https://ethz.ch"
+    },
+    {
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+      "description": "The ETH Domain's Lausanne institute; strong in machine learning, NLP and AI theory, co-lead of the Swiss AI Initiative and Apertus.",
+      "url": "https://www.epfl.ch"
+    },
+    {
+      "name": "University of Zurich",
+      "description": "Major research university with growing AI, data-science and digital-society programmes.",
+      "url": "https://www.uzh.ch"
+    },
+    {
+      "name": "IDIAP Research Institute",
+      "description": "Martigny-based research institute specialising in machine perception, speech and NLP, affiliated with EPFL.",
+      "url": "https://www.idiap.ch"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "GESDA (Geneva Science and Diplomacy Anticipation)",
+      "description": "Geneva-based foundation anticipating scientific breakthroughs -- including AI -- and translating them into diplomatic and policy action.",
+      "url": "https://gesda.global"
+    },
+    {
+      "name": "ITU (International Telecommunication Union)",
+      "description": "UN specialised agency headquartered in Geneva; convenor of the 'AI for Good' Global Summit and active in AI standards and capacity-building.",
+      "url": "https://www.itu.int"
+    },
+    {
+      "name": "Geneva Graduate Institute",
+      "description": "Graduate institute active in international-affairs research on AI governance, participating in Geneva's AI-policy convenings.",
+      "url": "https://www.graduateinstitute.ch"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Federal Chancellery — Regulation of AI",
+      "description": "Coordinates the federal administration's cross-cutting work on AI, including the digital-Switzerland strategy and AI regulatory analysis.",
+      "url": "https://www.bk.admin.ch/en/artificial-intelligence"
+    },
+    {
+      "name": "Federal Department of the Environment, Transport, Energy and Communications (DETEC)",
+      "description": "Lead department (via OFCOM) on Switzerland's digital and AI policy, tasked with drawing up plans for non-binding AI measures.",
+      "url": "https://www.uvek.admin.ch"
+    },
+    {
+      "name": "Federal Department of Justice and Police (FDJP)",
+      "description": "Tasked with drafting, by the end of 2026, the consultation bill implementing the Council of Europe AI Convention in Swiss law.",
+      "url": "https://www.ejpd.admin.ch"
+    },
+    {
+      "name": "Federal Data Protection and Information Commissioner (FDPIC)",
+      "description": "Independent supervisory authority for data protection, with growing relevance to AI systems processing personal data.",
+      "url": "https://www.edoeb.admin.ch"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Andreas Krause",
+      "role": "Professor at ETH Zurich (Learning & Adaptive Systems), chair of the ETH AI Center and a leading figure in the Swiss AI Initiative; co-founder of LatticeFlow.",
+      "category": "researcher",
+      "url": "https://las.inf.ethz.ch"
+    },
+    {
+      "name": "Martin Vechev",
+      "role": "Professor at ETH Zurich (Secure, Reliable and Intelligent Systems lab); co-founder of LatticeFlow and founder of INSAIT in Sofia.",
+      "category": "researcher",
+      "url": "https://www.sri.inf.ethz.ch"
+    },
+    {
+      "name": "Antoine Bosselut / Martin Jaggi (EPFL)",
+      "role": "EPFL machine-learning faculty associated with the Swiss AI Initiative and Apertus model development.",
+      "category": "researcher",
+      "url": "https://www.epfl.ch",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Andreas Krause",
+      "type": "person",
+      "role": "Chair of the ETH AI Center; a central figure in Swiss academic AI and the Apertus initiative.",
+      "category": "researcher",
+      "url": "https://las.inf.ethz.ch"
+    },
+    {
+      "name": "Swiss AI Initiative",
+      "type": "organization",
+      "role": "ETH Zurich / EPFL / CSCS programme behind the open Apertus model and Switzerland's sovereign-AI compute effort.",
+      "category": "university",
+      "url": "https://www.swiss-ai.org"
+    },
+    {
+      "name": "ITU AI for Good",
+      "type": "organization",
+      "role": "Geneva-based convenor of the annual global AI-for-good summit and AI standards work.",
+      "category": "think_tank",
+      "url": "https://aiforgood.itu.int"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Federal Chancellery / DETEC",
+      "type": "government"
+    },
+    {
+      "label": "ETH Zurich",
+      "type": "research"
+    },
+    {
+      "label": "EPFL",
+      "type": "research"
+    },
+    {
+      "label": "CSCS ('Alps')",
+      "type": "research"
+    },
+    {
+      "label": "ITU / Geneva governance hub",
+      "type": "think_tank"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Domestic commercial frontier lab",
+      "note": "Switzerland has no large commercial frontier AI developer comparable to Mistral (France) or Google DeepMind (UK). Its frontier-adjacent capacity is academic and open (Apertus via ETH/EPFL/CSCS) rather than a well-capitalised private lab, so the 'emerging' frontier-developer label rests on public, non-commercial efforts."
+    },
+    {
+      "area": "Horizontal AI legislation",
+      "note": "As of mid-2026 Switzerland has no comprehensive horizontal AI law in force; the Council of Europe Convention implementation is still at the pre-consultation stage, and much detail (scope, supervision, sanctions) remains to be settled in the bill expected by end of 2026."
+    },
+    {
+      "area": "Single AI regulator",
+      "note": "Switzerland has deliberately avoided creating a dedicated national AI authority, relying instead on existing sectoral regulators and the data-protection commissioner; this leaves the enforcement architecture more diffuse than the EU's AI Office model."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Sovereign open models versus reliance on foreign frontier labs",
+      "category": "research",
+      "summary": "Apertus is widely praised as a fully transparent, publicly funded model, but debate continues over whether academic open models can remain competitive with fast-moving commercial frontier systems.",
+      "expanded": "Supporters argue that Apertus -- fully open in weights, data and training recipe, and trained on public compute -- gives Switzerland genuine 'digital sovereignty' and a research asset that closed commercial models cannot match on transparency. Sceptics note that an 8B/70B open model, however well-engineered, sits well behind the largest US and Chinese frontier systems on raw capability, and that sustaining competitiveness requires recurring public investment in compute and talent. The July 2026 Apertus 1.5 update and the 'Apertus Mini' distilled models are read by some as a pragmatic pivot toward efficient, deployable models rather than a race for scale.",
+      "sourceIds": [
+        "ch-1",
+        "ch-2",
+        "ch-4"
+      ]
+    },
+    {
+      "topic": "Light-touch Swiss regulation versus the EU AI Act's reach",
+      "category": "government",
+      "summary": "Switzerland's decision to legislate narrowly and sector-by-sector is framed as a competitive advantage, but Swiss firms exporting to the EU remain bound by the EU AI Act regardless.",
+      "expanded": "The Federal Council's sector-specific approach is intended to keep Switzerland attractive for AI innovation while meeting Council of Europe commitments on fundamental rights. Critics and some legal commentators argue the practical benefit is limited: any Swiss provider placing AI systems on the EU single market must comply with the EU AI Act -- whose general-purpose AI obligations took effect on 2 August 2026 -- so the lighter domestic regime may create a two-track compliance burden rather than genuine relief. The debate mirrors Switzerland's broader relationship with EU digital rules.",
+      "sourceIds": [
+        "ch-3",
+        "ch-7",
+        "ch-8"
+      ]
+    },
+    {
+      "topic": "Geneva as a neutral venue for global AI governance",
+      "category": "government",
+      "summary": "Geneva has consolidated a role as a convening ground for international AI governance, but questions persist about whether summit diplomacy translates into binding outcomes.",
+      "expanded": "In July 2026 Geneva hosted the ITU 'AI for Good' Global Summit and the inaugural UN Global Dialogue on AI Governance back-to-back, alongside standing initiatives such as GESDA. Advocates see this as leveraging Swiss neutrality and the city's dense UN ecosystem to shape norms and standards. Others caution that high-profile convenings risk becoming talking shops unless they feed into enforceable instruments; Switzerland's own preference for non-binding measures domestically is sometimes cited in this debate.",
+      "sourceIds": [
+        "ch-5"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Apertus: a fully open, transparent, multilingual language model",
+      "type": "academic",
+      "author": "ETH Zurich / EPFL / CSCS",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html"
+    },
+    {
+      "title": "Apertus 1.5: Building the next generation of open AI infrastructure",
+      "type": "academic",
+      "author": "CSCS",
+      "url": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure"
+    },
+    {
+      "title": "AI regulation: Federal Council to ratify Council of Europe Convention",
+      "type": "government",
+      "author": "Swiss Federal Council",
+      "url": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-104110.html"
+    },
+    {
+      "title": "AI for Good Global Summit 2026",
+      "type": "conference_talk",
+      "author": "ITU",
+      "url": "https://aiforgood.itu.int/summit26/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ch-1",
+      "title": "Apertus: a fully open, transparent, multilingual language model",
+      "publisher": "ETH Zurich",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
+      "date": "2025-09",
+      "category": "research"
+    },
+    {
+      "id": "ch-2",
+      "title": "Apertus 1.5: Building the next generation of open AI infrastructure",
+      "publisher": "CSCS",
+      "url": "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ch-3",
+      "title": "AI regulation: Federal Council to ratify Council of Europe Convention",
+      "publisher": "Swiss Federal Council (admin.ch)",
+      "url": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-104110.html",
+      "date": "2025-02",
+      "category": "government"
+    },
+    {
+      "id": "ch-4",
+      "title": "Swiss AI Initiative",
+      "publisher": "Swiss AI (ETH Zurich / EPFL / CSCS)",
+      "url": "https://www.swiss-ai.org/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "ch-5",
+      "title": "AI for Good Global Summit 2026 puts Geneva at centre of global AI policy",
+      "publisher": "Digital Watch Observatory / ITU",
+      "url": "https://aiforgood.itu.int/summit26/",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "ch-6",
+      "title": "From ETH Labs to $300M Valuation: DeepJudge's $41.2M Round and Swiss AI",
+      "publisher": "Deep Tech Nation Switzerland",
+      "url": "https://deeptechnation.ch/dtn-news/from-eth-labs-to-300m-valuation-how-deepjudges-41-2m-round-showcases-swiss-ai-excellence/",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "ch-7",
+      "title": "Switzerland's AI rules are coming: Inside the sector-specific approach for 2026",
+      "publisher": "6clicks",
+      "url": "https://www.6clicks.com/resources/blog/switzerlands-ai-rules-are-coming-inside-the-sector-specific-approach-for-2026",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ch-8",
+      "title": "Regulation of AI",
+      "publisher": "Swiss Federal Chancellery",
+      "url": "https://www.bk.admin.ch/en/regulation",
+      "date": "2026",
+      "category": "government"
+    }
+  ]
+}

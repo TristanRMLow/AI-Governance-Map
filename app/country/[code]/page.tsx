@@ -117,6 +117,7 @@ export default async function CountryPage({
               <CloudInfrastructureSection
                 providers={country.cloudInfrastructure.providers}
                 dominance={country.cloudInfrastructure.dominance}
+                computeFrontier={country.computeFrontier}
               />
             </div>
 

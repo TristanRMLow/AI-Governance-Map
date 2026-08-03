@@ -1,0 +1,431 @@
+{
+  "code": "pk",
+  "name": "Pakistan",
+  "shortName": "Pakistan",
+  "flagEmoji": "🇵🇰",
+  "geometryType": "polygon",
+  "isoA3": [
+    "PAK"
+  ],
+  "region": "Asia-Pacific",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Aspirational, adoption-led National AI Policy 2025 led by the Ministry of IT & Telecommunication, with data-protection legislation still pending",
+  "accentColor": {
+    "light": "#1F6E5A",
+    "dark": "#2F9E82"
+  },
+  "center": [
+    69.3,
+    30.4
+  ],
+  "zoom": 4.3,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "Ambitious AI targets vs. limited compute and funding",
+    "Regulating AI without a data-protection law",
+    "An IT-export and freelancer economy meeting AI"
+  ],
+  "overview": "Pakistan's AI approach is set out in its National AI Policy 2025, approved by the Federal Cabinet in late July 2025 and led by the Ministry of Information Technology and Telecommunication (MoITT) under Minister Shaza Fatima Khawaja. The policy is aspirational and adoption-led rather than restrictive: a six-pillar framework spanning AI innovation, public awareness, secure and responsible systems, sectoral transformation, infrastructure, and international partnerships, backed by headline targets such as training one million people in AI by 2030, thousands of annual scholarships and internships, and proposed AI Innovation and Venture funds.\n\nImplementation is being built out through a National AI Council, a Policy Implementation Cell and Centres of Excellence in AI, and the government has signalled larger ambitions — at the Indus AI Summit in Islamabad (February 2026) the Prime Minister announced a plan to invest around US$1 billion in AI by 2030. The economic backdrop is a fast-growing IT-export and freelancer sector, with IT exports reaching a record US$4.6bn in FY2026. Yet the enabling environment remains thin: domestic compute is nascent (a handful of academic supercomputers rather than frontier-scale clusters), and Pakistan still lacks a comprehensive data-protection law, with a Personal Data Protection Bill pending for years. Governance is therefore more a statement of intent than a binding regime as of mid-2026.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Ambitious, adoption-led policy; thin enabling infrastructure",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Non-binding national policy and skills targets; no comprehensive AI law or data-protection statute in force",
+    "latestMajorUpdate": "PM announces ~US$1bn AI investment plan by 2030 at the Indus AI Summit; MoITT begins standing up the National AI Council",
+    "governmentInvolvement": "Moderate and aspirational — MoITT-led policy and institution-building, constrained by fiscal and infrastructure limits",
+    "industrialStrategy": "Skills, IT-export growth and adoption; AI Innovation/Venture funds and Centres of Excellence proposed",
+    "internationalPartnerships": "Sixth policy pillar; engagement via SCO and bilateral tech partnerships",
+    "primaryPolicyFocus": "Building AI skills, adoption and infrastructure to grow a knowledge economy and IT exports"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Pakistan's direction is one of gradual institution-building on an adoption-first policy: the National AI Policy 2025 and the emerging AI Council set intent and targets, and the government has floated larger investment, but binding regulation is limited and a data-protection law remains pending. The trajectory is expansion of ambition rather than a tightening or loosening of rules."
+  },
+  "recentDevelopments": [
+    {
+      "text": "At the Indus AI Summit in Islamabad (9–10 February 2026), Prime Minister Shehbaz Sharif announced plans to invest around US$1bn in AI by 2030, alongside 1,000 AI PhD scholarships and a national programme to train one million AI specialists.",
+      "date": "2026-02",
+      "sourceIds": [
+        "pk-5",
+        "pk-10"
+      ],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "MoITT began formally notifying the National AI Council to provide strategic oversight of the National AI Policy 2025, supported by a Policy Implementation Cell and Centres of Excellence in AI in major cities.",
+      "date": "2026",
+      "sourceIds": [
+        "pk-4",
+        "pk-1"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Pakistan's IT exports reached a record US$4.6bn in FY2026 (up roughly 21% year on year), with freelancer remittances rising sharply — underlining an IT-services and freelance economy that AI is reshaping.",
+      "date": "2026",
+      "sourceIds": [
+        "pk-7"
+      ]
+    },
+    {
+      "text": "The Federal Cabinet approved the National AI Policy 2025 (late July 2025), a six-pillar framework covering innovation, awareness, secure systems, sectoral transformation, infrastructure and international partnerships, with a headline goal of training one million people in AI by 2030.",
+      "date": "2025-07",
+      "sourceIds": [
+        "pk-2",
+        "pk-3"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Reporting indicated Pakistan still lacks a comprehensive data-protection law: the Personal Data Protection Bill remains pending before Parliament, while the Prevention of Electronic Crimes (Amendment) Act 2025 tightened content and cybercrime rules — leaving a notable governance gap for AI systems that process personal data.",
+      "date": "2026",
+      "sourceIds": [
+        "pk-6"
+      ]
+    },
+    {
+      "text": "Pakistan's AI research base remained concentrated in academia — notably NUST (home to the National Centre of Artificial Intelligence and the fastest supercomputer in Pakistani academia, at roughly petaflop scale) and LUMS — rather than in frontier industrial labs.",
+      "date": "2026",
+      "sourceIds": [
+        "pk-9"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National AI Policy 2025",
+      "status": "in_force",
+      "summary": "Approved by the Federal Cabinet in late July 2025 and led by MoITT, this is Pakistan's foundational AI policy — a six-pillar framework (AI innovation; public awareness; secure and responsible systems; sectoral transformation; infrastructure; international partnerships). It sets adoption and skills targets (e.g. one million people trained by 2030, thousands of annual scholarships and internships, compute access for 150 institutions) and proposes AI Innovation and AI Venture funds, overseen by a National AI Council. It is a policy framework rather than binding legislation.",
+      "officialUrl": "https://moitt.gov.pk/SiteImage/Misc/files/National%20AI%20Policy.pdf",
+      "sourceIds": [
+        "pk-1",
+        "pk-2",
+        "pk-3"
+      ]
+    },
+    {
+      "title": "Personal Data Protection Bill",
+      "status": "proposed",
+      "summary": "A draft Personal Data Protection Bill has been introduced by MoITT and revised over several years but not enacted; as of mid-2026 Pakistan has no comprehensive data-protection statute. Its absence is widely flagged as a gap for AI governance, given how much AI depends on personal-data processing.",
+      "sourceIds": [
+        "pk-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "Prevention of Electronic Crimes (Amendment) Act 2025 (PECA Amendment)",
+      "status": "in_force",
+      "summary": "An amendment to Pakistan's cybercrime law passed in 2025, tightening rules on online content and electronic offences. While not AI-specific, it forms part of the digital-governance backdrop against which AI content and platforms operate, and has drawn civil-society concern over free-expression effects.",
+      "sourceIds": [
+        "pk-6"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Pakistan's AI research is concentrated in a handful of universities — most prominently NUST (via SEECS and the National Centre of Artificial Intelligence, which runs labs across several universities) and LUMS — supported by modest academic high-performance computing rather than frontier-scale clusters. The wider ecosystem leans heavily on a large, export-oriented IT-services and freelancer base applying AI tools, rather than on domestic foundation-model development.",
+    "sourceIds": [
+      "pk-9",
+      "pk-7"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Systems Limited",
+      "description": "One of Pakistan's largest IT-services and software firms, expanding AI and data offerings for domestic and export clients.",
+      "url": "https://www.systemsltd.com"
+    },
+    {
+      "name": "NETSOL Technologies",
+      "description": "Pakistan-origin software company (asset-finance and leasing platforms) integrating AI into its products and services.",
+      "url": "https://netsoltech.com"
+    },
+    {
+      "name": "10Pearls",
+      "description": "Digital-development and AI services company with significant Pakistan operations, building AI solutions for international clients.",
+      "url": "https://10pearls.com",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Hyperscaler widely used by Pakistani enterprises and the public sector; Microsoft has run skilling and cloud initiatives in Pakistan, though it announced closure of its small direct country office in 2025 while continuing to serve the market via partners.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "description": "Major hyperscaler used by Pakistani startups, IT-export firms and freelancers, typically via nearby regional regions rather than in-country data centres.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Hyperscaler used by Pakistani developers and enterprises; Google runs developer and skilling programmes in the country.",
+        "url": "https://cloud.google.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Nascent — a few academic supercomputers at roughly petaflop scale; no frontier-scale national cluster yet",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication, and foreign-exchange constraints limit large GPU purchases"
+  },
+  "universities": [
+    {
+      "name": "National University of Sciences and Technology (NUST)",
+      "description": "Islamabad-based university leading Pakistani AI research through SEECS and hosting the National Centre of Artificial Intelligence and the fastest supercomputer in Pakistani academia.",
+      "url": "https://nust.edu.pk"
+    },
+    {
+      "name": "Lahore University of Management Sciences (LUMS)",
+      "description": "Leading private university with strong computer-science and AI research and a prominent role in Pakistan's tech ecosystem.",
+      "url": "https://lums.edu.pk"
+    },
+    {
+      "name": "Information Technology University (ITU), Punjab",
+      "description": "Lahore-based public university with an active AI and data-science research community.",
+      "url": "https://itu.edu.pk",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "National Centre of Artificial Intelligence (NCAI)",
+      "description": "NUST-headquartered national research centre coordinating AI labs across several Pakistani universities; a hub for applied AI research and talent.",
+      "url": "https://ncai.nust.edu.pk/"
+    },
+    {
+      "name": "Pakistan Institute of Development Economics (PIDE)",
+      "description": "Islamabad public-policy research institute publishing on the digital economy, technology policy and AI's implications for Pakistan.",
+      "url": "https://pide.org.pk",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Information Technology and Telecommunication (MoITT)",
+      "description": "Lead federal ministry for AI policy, owner of the National AI Policy 2025 and the emerging National AI Council and implementation structures.",
+      "url": "https://moitt.gov.pk"
+    },
+    {
+      "name": "National AI Council (in formation)",
+      "description": "Strategic-oversight body being stood up by MoITT to steer implementation of the National AI Policy 2025, supported by a Policy Implementation Cell.",
+      "url": "https://moitt.gov.pk",
+      "needsVerification": true
+    },
+    {
+      "name": "Pakistan Telecommunication Authority (PTA)",
+      "description": "Telecom and digital-services regulator whose remit intersects with AI-enabled connectivity, platforms and data flows.",
+      "url": "https://www.pta.gov.pk"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Shaza Fatima Khawaja",
+      "role": "Federal Minister for Information Technology and Telecommunication; led approval of the National AI Policy 2025",
+      "affiliation": "Government of Pakistan",
+      "category": "government",
+      "url": "https://moitt.gov.pk"
+    },
+    {
+      "name": "Shehbaz Sharif",
+      "role": "Prime Minister; announced the ~US$1bn AI investment plan at the Indus AI Summit",
+      "affiliation": "Government of Pakistan",
+      "category": "government",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Shaza Fatima Khawaja",
+      "type": "person",
+      "role": "Federal IT & Telecom Minister; central figure in Pakistan's AI policy.",
+      "category": "government",
+      "url": "https://moitt.gov.pk"
+    },
+    {
+      "name": "Ministry of IT & Telecommunication (MoITT)",
+      "type": "organization",
+      "role": "Owner of the National AI Policy 2025 and its implementation.",
+      "category": "government",
+      "url": "https://moitt.gov.pk"
+    },
+    {
+      "name": "National Centre of Artificial Intelligence (NCAI)",
+      "type": "organization",
+      "role": "Pakistan's main academic AI research network, hosted at NUST.",
+      "category": "university",
+      "url": "https://ncai.nust.edu.pk/"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Ministry of IT & Telecommunication",
+      "type": "government"
+    },
+    {
+      "label": "National AI Council",
+      "type": "agency"
+    },
+    {
+      "label": "NUST / NCAI",
+      "type": "research"
+    },
+    {
+      "label": "Pakistan Telecommunication Authority",
+      "type": "agency"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Data-protection law",
+      "note": "Pakistan has no comprehensive data-protection statute in force as of mid-2026; the Personal Data Protection Bill has been pending for years. This leaves AI systems that process personal data without a clear statutory baseline."
+    },
+    {
+      "area": "Compute and funding",
+      "note": "Domestic compute is nascent — a few academic supercomputers rather than frontier-scale clusters — and fiscal and foreign-exchange constraints put the policy's headline targets (one million trained, ~US$1bn investment) at risk of outrunning delivery. Several such figures are announced ambitions rather than confirmed spending."
+    },
+    {
+      "area": "Frontier model development",
+      "note": "There is no domestic frontier or near-frontier model developer; Pakistan's AI strength is an applied, export-oriented IT-services and freelancer economy rather than foundation-model training."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Ambitious AI targets vs. limited compute and funding",
+      "category": "infrastructure",
+      "summary": "Pakistan's AI policy sets striking targets — one million trained by 2030, thousands of scholarships, ~US$1bn of investment — against a backdrop of nascent compute and tight public finances, raising questions about deliverability.",
+      "expanded": "The National AI Policy 2025 and subsequent announcements are heavy on ambition: mass skilling, Centres of Excellence, innovation and venture funds, and a national compute grid. But domestic compute today amounts to a few academic supercomputers, and Pakistan's fiscal position and foreign-exchange constraints make large GPU procurement and sustained funding hard. Supporters argue bold targets mobilise attention and partners; sceptics warn of a gap between announced figures and actual delivery, and note that much of the headline investment remains aspirational.",
+      "sourceIds": [
+        "pk-5",
+        "pk-1"
+      ]
+    },
+    {
+      "topic": "Regulating AI without a data-protection law",
+      "category": "government",
+      "summary": "Pakistan is promoting AI adoption while lacking a comprehensive data-protection statute, leaving a governance gap for systems that rely on large-scale personal-data processing.",
+      "expanded": "The National AI Policy speaks of secure and responsible systems, but the Personal Data Protection Bill remains unpassed, and the main recent legislative movement — the PECA Amendment 2025 — is a cybercrime/content measure that civil-society groups argue tilts toward control rather than rights protection. The debate is whether Pakistan can build trustworthy AI adoption without first establishing baseline privacy protections, and how to sequence enabling policy against overdue data-protection legislation.",
+      "sourceIds": [
+        "pk-6"
+      ]
+    },
+    {
+      "topic": "An IT-export and freelancer economy meeting AI",
+      "category": "industry",
+      "summary": "With record IT exports and a vast freelancer base, Pakistan sees AI as both an opportunity to move up the value chain and a threat to commoditised services work.",
+      "expanded": "Pakistan's IT exports hit a record US$4.6bn in FY2026, and freelancing is a major source of foreign earnings. AI could let Pakistani firms and freelancers offer higher-value services, but it also risks automating exactly the kind of commoditised outsourcing work many rely on. Policymakers frame skilling and adoption as the response; the open question is whether Pakistan can reskill fast enough to capture AI's upside rather than be squeezed by it.",
+      "sourceIds": [
+        "pk-7"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "National Artificial Intelligence Policy 2025",
+      "type": "government",
+      "author": "Ministry of IT & Telecommunication",
+      "url": "https://moitt.gov.pk/SiteImage/Misc/files/National%20AI%20Policy.pdf"
+    },
+    {
+      "title": "Pakistan unveils national AI policy to boost innovation, jobs and ethical governance",
+      "type": "government",
+      "author": "Arab News",
+      "url": "https://www.arabnews.com/node/2611685/pakistan"
+    },
+    {
+      "title": "National Centre of Artificial Intelligence (NCAI)",
+      "type": "academic",
+      "author": "NUST",
+      "url": "https://ncai.nust.edu.pk/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "pk-1",
+      "title": "National Artificial Intelligence Policy",
+      "publisher": "Ministry of IT & Telecommunication (MoITT)",
+      "url": "https://moitt.gov.pk/SiteImage/Misc/files/National%20AI%20Policy.pdf",
+      "date": "2025",
+      "category": "government"
+    },
+    {
+      "id": "pk-2",
+      "title": "Federal cabinet approves National AI Policy 2025",
+      "publisher": "Dawn",
+      "url": "https://www.dawn.com/news/1927634",
+      "date": "2025-07",
+      "category": "news"
+    },
+    {
+      "id": "pk-3",
+      "title": "Pakistan unveils national AI policy to boost innovation, jobs and ethical governance",
+      "publisher": "Arab News",
+      "url": "https://www.arabnews.com/node/2611685/pakistan",
+      "date": "2025-07",
+      "category": "news"
+    },
+    {
+      "id": "pk-4",
+      "title": "Pakistan to Train 1 Million People in AI Under National AI Policy 2025",
+      "publisher": "ProPakistani",
+      "url": "https://propakistani.pk/2025/10/02/pakistan-to-train-1-million-people-in-ai-under-national-ai-policy-2025/",
+      "date": "2025-10",
+      "category": "news"
+    },
+    {
+      "id": "pk-5",
+      "title": "Pakistan to invest US$1bn in artificial intelligence by 2030, announces PM Shehbaz",
+      "publisher": "Dawn / Asia News Network",
+      "url": "https://www.dawn.com/news/1972056",
+      "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "pk-6",
+      "title": "Data Protection Laws and Regulations 2026 — Pakistan",
+      "publisher": "ICLG",
+      "url": "https://iclg.com/practice-areas/data-protection-laws-and-regulations/pakistan/",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "pk-7",
+      "title": "IT Exports Reach Record $4.6 Billion During FY-2026 in Pakistan",
+      "publisher": "PhoneWorld",
+      "url": "https://www.phoneworld.com.pk/it-exports-reach-record-4-6-billion-during-fy-2026-in-pakistan-as-digital-economy-and-ai-sector-grow/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "pk-8",
+      "title": "Shaza Fatima Khawaja",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shaza_Fatima_Khawaja",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "pk-9",
+      "title": "NCAI — National Center of Artificial Intelligence, NUST",
+      "publisher": "NUST",
+      "url": "https://ncai.nust.edu.pk/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "pk-10",
+      "title": "International Forum on Artificial Intelligence in Islamabad (Indus AI Summit)",
+      "publisher": "Shanghai Cooperation Organisation",
+      "url": "https://eng.sectsco.org/20260211/2164856.html",
+      "date": "2026-02",
+      "category": "government"
+    }
+  ],
+  "hasMajorUpdate": true
+}

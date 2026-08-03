@@ -11,8 +11,8 @@
   "accentColor": { "light": "#458344", "dark": "#62AE61" },
   "center": [51.2, 25.3],
   "zoom": 7.8,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Qatar's compute-diplomacy bet: sovereignty ambitions versus dependence on foreign capital and hyperscalers",
@@ -41,6 +41,11 @@
       "date": "2025-12-09",
       "sourceIds": ["qa-1", "qa-2"],
       "severity": "major"
+    },
+    {
+      "text": "Hyperscaler and local data-centre capacity expands to support Qatar's AI push: Microsoft's Azure region in Qatar is reported to be growing, Google Cloud's Doha region is operational, and local operator MEEZA is expanding AI and data-centre capacity backed by a roughly $200M funding facility — reinforcing infrastructure as the country's most active AI thread ahead of comprehensive regulation.",
+      "date": "2026",
+      "sourceIds": ["qa-14", "qa-15"]
     },
     {
       "text": "Qatar International Court and Dispute Resolution Centre (QICDRC) issues Procedural Directive No. (1) of 2026, formally regulating the use of AI tools in litigation before the Court, including mandatory disclosure and verification of AI-generated content.",
@@ -122,6 +127,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Large announced build-out — $20B Qai–Brookfield venture, Ooredoo/Syntys sovereign cloud, plus Microsoft, Google and MEEZA capacity",
+    "chipAccess": "Import-reliant, principally on NVIDIA GPUs for the sovereign cloud"
   },
   "universities": [
     {
@@ -261,6 +271,8 @@
     { "id": "qa-10", "title": "QCRI leading way in cutting-edge AI research and development", "publisher": "The Peninsula Qatar", "url": "https://thepeninsulaqatar.com/article/16/08/2023/qcri-leading-way-in-cutting-edge-ai-research-and-development", "date": "2023-08-16", "category": "news" },
     { "id": "qa-11", "title": "The Campus That Can't Say No: Carnegie Mellon's $740 Million Qatar Dependency", "publisher": "University Herald", "url": "https://www.universityherald.com/articles/80154/20260217/campus-that-cant-say-no-carnegie-mellons-740-million-qatar-dependency.htm", "date": "2026-02-17", "category": "news" },
     { "id": "qa-12", "title": "Desert Bytes: Why Gulf AI Ambitions Must Align with Energy and Water Realities", "publisher": "Middle East Council on Global Affairs", "url": "https://mecouncil.org/publication/gulf-ai-data-centers-water-energy/", "date": "2026", "category": "think_tank" },
-    { "id": "qa-13", "title": "The Gulf's trillion-dollar AI dream faces a water crisis", "publisher": "Rest of World", "url": "https://restofworld.org/2025/gulf-ai-water-crisis/", "date": "2025", "category": "news" }
+    { "id": "qa-13", "title": "The Gulf's trillion-dollar AI dream faces a water crisis", "publisher": "Rest of World", "url": "https://restofworld.org/2025/gulf-ai-water-crisis/", "date": "2025", "category": "news" },
+    { "id": "qa-14", "title": "Accelerated investment in AI data centres in the GCC region will reach USD5–7 billion in 2026", "publisher": "Analysys Mason", "url": "https://www.analysysmason.com/about-us/news/predictions-2026/prediction-ai-investment-gcc/", "date": "2026", "category": "research" },
+    { "id": "qa-15", "title": "On a mission to lead in AI, Qatar partners with Microsoft to expand Cloud Data Centres", "publisher": "Doha News", "url": "https://dohanews.co/on-a-mission-to-lead-in-ai-qatar-partners-with-microsoft-to-expand-cloud-data-centres/", "date": "2026", "category": "news" }
   ]
 }

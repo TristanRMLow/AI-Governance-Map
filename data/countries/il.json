@@ -19,11 +19,12 @@
     31.0
   ],
   "zoom": 6.8,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 4,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
   "debateTopics": [
     "AI21 Labs' decline and what it signals about the Israeli AI startup boom",
-    "Israel's principle-based approach without a binding AI law as models scale"
+    "Israel's principle-based approach without a binding AI law as models scale",
+    "Military and defence AI use and international-law scrutiny"
   ],
   "overview": "Israel has no single AI Act. The Ministry of Innovation, Science and Technology (MIST) leads sectoral AI policy through its December 2023 'Responsible Innovation' policy — a risk-based approach built on human oversight, transparency and accountability, developed jointly with the Ministry of Justice. In May 2026, MIST, the Ministry of Justice and the Israel National Digital Agency published version 1.0 of a 'Guide for Responsible AI Use in the Public Sector.' On June 16, 2026 the government also approved a new National AI Program for 2027–2032, led by a newly created National AI Directorate in the Prime Minister's Office and reportedly targeting around 100,000 processing units and $20–30B in compute investment — a notable expansion of the state's role alongside MIST's existing framework.\n\nIsrael's private AI and tech sector presents a mixed picture. Google (Alphabet) completed a $32B cash acquisition of the Israeli cybersecurity company Wiz in March 2026 — reportedly the largest acquisition in Google's history and among the highest-profile exits for an Israeli tech company — while AI21 Labs, once a $1.4B unicorn, has shrunk sharply, laying off around 110 of its 180 staff and scaling back most standalone product lines in favour of its Maestro agent-orchestration platform.",
   "atAGlance": {
@@ -43,6 +44,21 @@
     "summary": "Israel continues layering non-binding, sectoral AI guidance through MIST with a newly approved national compute strategy: in June 2026 the government approved a National AI Program for 2027–2032, led by a new National AI Directorate in the Prime Minister's Office and reportedly targeting roughly 100,000 processing units and $20–30B in compute investment. How this expanded, infrastructure-focused strategy will interact with MIST's existing 'Responsible Innovation' framework, and whether Israel eventually moves toward binding AI-specific rules, remains to be seen."
   },
   "recentDevelopments": [
+    {
+      "text": "NVIDIA deepens its Israeli chip-design and AI-infrastructure R&D footprint: it moved into an expanded Be'er Sheva R&D centre (reported to roughly triple its footprint, with hundreds of planned hires) and unveiled plans for a multibillion-shekel campus in the northern town of Kiryat Tivon — part of a reported ~$1.5B expansion — reinforcing Israel's role in advanced networking and data-centre silicon design even without a domestic frontier lab.",
+      "date": "2026",
+      "sourceIds": [
+        "il-7"
+      ]
+    },
+    {
+      "text": "Israel moves from AI strategy toward implementation, with reporting describing a national AI Policy Coordination Center intended to act as a cross-sector knowledge hub and keep sectoral regulators aligned under the non-binding 'Responsible Innovation' framework.",
+      "date": "2026",
+      "sourceIds": [
+        "il-8"
+      ],
+      "needsVerification": true
+    },
     {
       "text": "Israel National Digital Agency, Ministry of Justice and MIST publish version 1.0 of a 'Guide for Responsible AI Use in the Public Sector.'",
       "date": "2026-05-19",
@@ -136,6 +152,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "No hyperscale sovereign clusters yet; a National AI Program (2027–2032) targets large state compute (reportedly ~100,000 processing units)",
+    "chipAccess": "Strong design base — major NVIDIA (and historically Intel) R&D and chip-design centres, though fabrication and frontier training remain offshore"
+  },
   "universities": [
     {
       "name": "Technion",
@@ -220,6 +241,17 @@
         "il-1",
         "il-5"
       ]
+    },
+    {
+      "topic": "Military and defence AI use and international-law scrutiny",
+      "category": "security",
+      "summary": "Reporting on the Israel Defense Forces' use of AI decision-support systems in Gaza — notably tools described in investigative coverage as 'Lavender' and 'Where's Daddy?' — has made Israel a focal point in the global debate over AI in targeting and accountability under international humanitarian law.",
+      "expanded": "Investigative outlets reported that AI systems were used to help generate and track large numbers of potential targets, with critics — including human-rights groups and some defence analysts — arguing that heavy reliance on algorithmic target-generation, combined with limited human review, raised serious civilian-protection and international-law concerns; the IDF has contested key characterisations, describing such tools as decision-support aids subject to human judgement rather than autonomous weapons. The episode is frequently cited as an example of military AI outpacing binding legal and ethical guardrails, and it sits largely outside MIST's civilian 'Responsible Innovation' framework, which does not comprehensively govern defence uses. Specific operational claims remain contested and difficult to verify independently.",
+      "sourceIds": [
+        "il-9",
+        "il-10"
+      ],
+      "needsVerification": true
     }
   ],
   "peopleToFollow": [
@@ -300,6 +332,38 @@
       "url": "https://techcrunch.com/2026/03/11/google-completes-32b-acquisition-of-wiz/",
       "date": "2026-03-11",
       "category": "news"
+    },
+    {
+      "id": "il-7",
+      "title": "Nvidia plans $1.5 billion Israel expansion with new R&D campus and advanced data centre",
+      "publisher": "The Tech Capital",
+      "url": "https://thetechcapital.com/nvidia-plans-1-5-billion-israel-expansion-with-new-rd-campus-and-advanced-data-centre/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "il-8",
+      "title": "AI Watch: Global regulatory tracker — Israel",
+      "publisher": "White & Case",
+      "url": "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-israel",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "il-9",
+      "title": "'Lavender': The AI machine directing Israel's bombing spree in Gaza",
+      "publisher": "+972 Magazine",
+      "url": "https://www.972mag.com/lavender-ai-israeli-army-gaza/",
+      "date": "2024",
+      "category": "news"
+    },
+    {
+      "id": "il-10",
+      "title": "The Israel Defense Forces' Use of AI in Gaza: A Case of Misplaced Purpose",
+      "publisher": "Royal United Services Institute (RUSI)",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/israel-defense-forces-use-ai-gaza-case-misplaced-purpose",
+      "date": "2024",
+      "category": "think_tank"
     }
   ],
   "hasMajorUpdate": true,

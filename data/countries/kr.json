@@ -19,8 +19,8 @@
     36.5
   ],
   "zoom": 6.2,
-  "lastUpdated": "2026-07-19",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "AI Basic Act enforcement decree's narrow high-risk definition",
     "Sovereign foundation-model push vs. matching frontier performance"
@@ -43,6 +43,24 @@
     "summary": "South Korea moved among the fastest of major economies to pass comprehensive, binding, cross-sector AI legislation — though civil-society critics argue the enforcement decree's narrow 'high-risk' definition undercuts the law's practical bite — even as the state pours resources into a sovereign foundation-model push whose roster has already been reshuffled once, with two of the original five teams dropped and a new one added within weeks of the law taking effect."
   },
   "recentDevelopments": [
+    {
+      "text": "The sovereign foundation-model programme's second-round evaluation is scheduled for 8-11 August 2026, with the four remaining teams (LG AI Research, SK Telecom, Upstage and Motif Technologies) tested — reportedly including a panel of around 200 'citizen evaluators' — with agentic capability and real-world applicability cited as key criteria; the round is expected to narrow the field from four teams to three, and to two finalists by year-end.",
+      "date": "2026-07",
+      "sourceIds": [
+        "kr-10",
+        "kr-11"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "South Korea's state-backed AI compute build-out accelerates: a national AI computing centre at Solasido in Haenam, Jeollanam-do — planned around 15,000 GPUs under a public-private special-purpose company — breaks ground in the third quarter of 2026, and MSIT's 2026 AI budget rises to a reported record of roughly $3.5B, with national GPU-procurement targets of 52,000 by 2028 and 260,000 by 2030.",
+      "date": "2026-07",
+      "sourceIds": [
+        "kr-12",
+        "kr-13"
+      ],
+      "needsVerification": true
+    },
     {
       "text": "A 40+ expert Task Force (convened since March, reportedly still active) continues refining AI Basic Act implementation; a new ₩763.2B Science and Technology Innovation Fund and an ₩8.6 trillion R&D plan are reported, though these figures come from a general ministry source rather than a specific release.",
       "date": "2026-07",
@@ -162,6 +180,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Fast state-backed build-out; national AI computing centre (Haenam, ~15,000 GPUs) breaking ground 2026",
+    "chipAccess": "Home to Samsung and SK Hynix (memory/HBM); scaling NVIDIA GPU procurement"
+  },
   "universities": [
     {
       "name": "KAIST",
@@ -217,7 +240,7 @@
       "topic": "Sovereign foundation-model push vs. matching frontier performance",
       "category": "investment",
       "summary": "Korea's state-backed sovereign-model programme — now four teams after two were dropped and one added in early 2026 — has been reported (though not fully reconfirmed since the reshuffle) to be held to a target of matching a high share of frontier-model performance on a periodic review cycle.",
-      "expanded": "Unlike open-ended national AI investment elsewhere, Korea's programme was reported to carry a specific, numeric performance target — at least 95% of frontier-model performance — reassessed roughly every six months through 2027, creating pressure on participants to show measurable progress against US and Chinese frontier labs rather than simply receiving indefinite state support. That pressure appears to have already had consequences: after a first-round evaluation announced 15 January 2026, MSIT dropped Naver Cloud and NC AI (Naver Cloud's submission reportedly relied on fine-tuning Alibaba's Qwen model rather than independent development), leaving LG AI Research, SK Telecom and Upstage to advance. A Motif Technologies-led consortium was added on 20 February 2026 to fill the vacated slot, and a second-round evaluation was reportedly planned for early August 2026 to decide which teams advance further — underscoring how contested, and unsettled, the sovereign-model bet remains.",
+      "expanded": "Unlike open-ended national AI investment elsewhere, Korea's programme was reported to carry a specific, numeric performance target — at least 95% of frontier-model performance — reassessed roughly every six months through 2027, creating pressure on participants to show measurable progress against US and Chinese frontier labs rather than simply receiving indefinite state support. That pressure appears to have already had consequences: after a first-round evaluation announced 15 January 2026, MSIT dropped Naver Cloud and NC AI (Naver Cloud's submission reportedly relied on fine-tuning Alibaba's Qwen model rather than independent development), leaving LG AI Research, SK Telecom and Upstage to advance. A Motif Technologies-led consortium was added on 20 February 2026 to fill the vacated slot, and the second-round evaluation is scheduled for 8-11 August 2026 — reportedly weighting agentic capability and real-world applicability, and using a panel of around 200 'citizen evaluators' — expected to narrow the four teams to three, with two finalists chosen by year-end. That contest is unfolding alongside a rapid state-backed compute build-out (a national AI computing centre at Haenam and a record 2026 AI budget), underscoring how contested, and unsettled, the sovereign-model bet remains.",
       "sourceIds": [
         "kr-2",
         "kr-6",
@@ -327,6 +350,38 @@
       "url": "https://www.lightreading.com/ai-machine-learning/south-korea-enters-second-phase-of-sovereign-ai-project",
       "date": "2026-02",
       "category": "news"
+    },
+    {
+      "id": "kr-10",
+      "title": "South Korea's national AI project enters second round; four teams submit field report cards",
+      "publisher": "BigGo Finance",
+      "url": "https://finance.biggo.com/news/b8f832e3-8f3b-40c6-9199-d183d3d88d48",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "kr-11",
+      "title": "South Korea recruits 200 citizen evaluators to test homegrown 'K-AI' models",
+      "publisher": "BigGo Finance",
+      "url": "https://finance.biggo.com/news/3ceb2287-ae06-4663-8ad6-20a7d96523e0",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "kr-12",
+      "title": "The Ministry of Science and ICT plans to launch a National AI Computing Center",
+      "publisher": "W.Media",
+      "url": "https://w.media/the-ministry-of-science-and-ict-plans-to-launch-a-national-ai-computing-center/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "kr-13",
+      "title": "NAVER, NVIDIA and Brookfield to expand Korea's national AI factory infrastructure buildout",
+      "publisher": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+      "date": "2026",
+      "category": "industry"
     }
   ],
   "hasMajorUpdate": true,

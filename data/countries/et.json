@@ -11,8 +11,8 @@
   "accentColor": { "light": "#837F44", "dark": "#AEA861" },
   "center": [39.5, 8.6],
   "zoom": 4.9,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 3,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 4,
   "hasMajorUpdate": false,
   "debateTopics": [
     "Whether Ethiopia's AI ambitions can be reconciled with severe capacity gaps in data infrastructure and skilled personnel",
@@ -37,15 +37,21 @@
   },
   "recentDevelopments": [
     {
-      "text": "Ethiopia's Council of Ministers formally approves the Medemer Artificial Intelligence University, a proposed public university in Addis Ababa dedicated to AI, machine learning, data science and robotics, under Proclamation No. 1294/2015; not yet operational as of mid-2026.",
-      "date": "2026-03-02",
-      "sourceIds": ["et-1"],
+      "text": "EAII frames a digital-sovereignty drive under Digital Ethiopia 2030, describing plans for a sovereign cloud data centre, a national data lakehouse and an indigenous large language model trained in Amharic, Afan Oromo, Tigrinya and Somali; reporting also references an enlarged EAII budget (around 1.13 billion birr). These remain stated ambitions rather than delivered systems as of mid-2026.",
+      "date": "2026-06",
+      "sourceIds": ["et-11", "et-12"],
       "needsVerification": true
     },
     {
       "text": "EAII Director-General Worku Gachena presents Ethiopia's AI research, development and implementation efforts at the SelectUSA Investment Summit in the United States.",
       "date": "2026-05",
       "sourceIds": ["et-2"]
+    },
+    {
+      "text": "Ethiopia's Council of Ministers formally approves the Medemer Artificial Intelligence University, a proposed public university in Addis Ababa dedicated to AI, machine learning, data science and robotics, under Proclamation No. 1294/2015; not yet operational as of mid-2026.",
+      "date": "2026-03-02",
+      "sourceIds": ["et-1"],
+      "needsVerification": true
     },
     {
       "text": "Ethiopia's Personal Data Protection Proclamation No. 1321/2024 enters into force, establishing the country's first comprehensive data protection regime with the Ethiopian Communications Authority as supervisory authority.",
@@ -92,6 +98,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "EAII Tier III government data centre; hydropower-rich grid cited as a long-term advantage; sovereign-cloud and indigenous-LLM plans under Digital Ethiopia 2030",
+    "chipAccess": "Import-reliant; constrained by foreign-exchange shortages and connectivity gaps"
   },
   "universities": [
     {
@@ -264,6 +275,22 @@
       "publisher": "Nieman Journalism Lab",
       "url": "https://www.niemanlab.org/2026/07/in-ethiopia-fact-checking-can-be-a-matter-of-life-and-death/",
       "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "et-11",
+      "title": "Ethiopia Advances Digital Sovereignty Drive to Accelerate National Growth: EAII Director",
+      "publisher": "Addis Media Network",
+      "url": "https://www.amn.gov.et/en/ethiopia-advances-digital-sovereignty-drive-to-accelerate-national-growth-eaii-director/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "et-12",
+      "title": "Artificial Intelligence Institute Expanding Roles Across Health, Agriculture and Services: PM Abiy",
+      "publisher": "Ethiopian News Agency (ENA)",
+      "url": "https://www.ena.et/web/eng/w/eng_7719425",
+      "date": "2026",
       "category": "news"
     }
   ]

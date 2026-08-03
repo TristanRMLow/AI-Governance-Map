@@ -19,8 +19,8 @@
     1.35
   ],
   "zoom": 9,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "Voluntary governance for agentic AI",
     "AI Tester Accreditation and third-party red-teaming",
@@ -46,12 +46,25 @@
   },
   "recentDevelopments": [
     {
-      "text": "Model AI Governance Framework for Agentic AI updated after industry feedback, adding guidance on multi-agent systems, third-party agents, and automation bias. (The framework's exact version label and the precise number of contributing organisations were not independently confirmed.)",
+      "text": "IMDA and Microsoft sign a memorandum of understanding (mid-June 2026) to deepen AI safety and security cooperation, including a policy framework for trusted government and critical-infrastructure access to frontier AI models and a planned joint white paper weighing demand-side needs against model-provider responsibilities — an example of Singapore's frontier-safety diplomacy alongside its Singapore AI Safety Institute work.",
+      "date": "2026-06",
+      "sourceIds": [
+        "sg-16"
+      ]
+    },
+    {
+      "text": "Singapore's AI Safety Institute (housed at NTU's Digital Trust Centre) hosts the International Scientific Exchange on AI Safety in May 2026, with Minister Josephine Teo addressing the main conference on 18 May; the institute contributes to joint testing under the International Network of AI Safety Institutes and chairs the ASEAN Working Group on AI Governance.",
+      "date": "2026-05",
+      "sourceIds": [
+        "sg-17"
+      ]
+    },
+    {
+      "text": "Model AI Governance Framework for Agentic AI updated after industry feedback, adding real-world case studies and guidance on multi-agent systems, third-party agents, and automation bias, drawing on contributions from more than 50 organisations.",
       "date": "2026-05-20",
       "sourceIds": [
         "sg-1"
-      ],
-      "needsVerification": true
+      ]
     },
     {
       "text": "AI Tester Accreditation Programme (AI TAP) announced, set to launch in Q3 2026 as Asia's first accreditation scheme for third-party AI red-teamers.",
@@ -102,12 +115,11 @@
     {
       "title": "Model AI Governance Framework for Agentic AI",
       "status": "in_force",
-      "summary": "A voluntary framework specifically addressing agentic AI systems — autonomous, multi-step AI agents — updated in May 2026 to add guidance on multi-agent systems, third-party agents, and automation bias. (The exact version label reported by some trackers, and the precise count of organisations consulted, are not independently confirmed.)",
+      "summary": "A voluntary framework specifically addressing agentic AI systems — autonomous, multi-step AI agents — updated in May 2026 to add real-world case studies and guidance on multi-agent systems, third-party agents, and automation bias, reportedly drawing on contributions from more than 50 organisations.",
       "officialUrl": "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf",
       "sourceIds": [
         "sg-1"
-      ],
-      "needsVerification": true
+      ]
     },
     {
       "title": "AI Tester Accreditation Programme (AI TAP)",
@@ -193,6 +205,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Major regional cloud/data-centre hub, but land and power constraints limit domestic training scale",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
+  },
   "universities": [
     {
       "name": "A*STAR",
@@ -241,6 +258,14 @@
     {
       "name": "National AI Council",
       "description": "Top-level body chaired by Prime Minister Lawrence Wong, established following Budget 2026 to steer national AI strategy across ministries, overseeing four sector-specific 'National AI Missions' (advanced manufacturing, connectivity, finance, and healthcare)."
+    },
+    {
+      "name": "Singapore AI Safety Institute (Singapore AISI)",
+      "description": "Singapore's national AI safety institute, housed at NTU's Digital Trust Centre and designated in 2024; a member of the International Network of AI Safety Institutes, it conducts AI-safety and evaluation research, hosts the International Scientific Exchange on AI Safety, and chairs the ASEAN Working Group on AI Governance.",
+      "url": "https://sgaisi.sg/",
+      "aliases": [
+        "Digital Trust Centre (DTC)"
+      ]
     }
   ],
   "keyPeople": [
@@ -507,6 +532,22 @@
       "url": "https://www.theedgesingapore.com/news/budget-2026/singapore-establish-new-national-ai-council-chaired-prime-minister-wong",
       "date": "2026-02",
       "category": "news"
+    },
+    {
+      "id": "sg-16",
+      "title": "Singapore reinforces responsible-AI and safety efforts through new IMDA-Microsoft alliance",
+      "publisher": "The Independent Singapore",
+      "url": "https://theindependent.sg/singapore-reinforces-commitment-to-responsible-ai-practices-and-safety-efforts-through-new-imda-microsoft-alliance/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "sg-17",
+      "title": "Digital Trust Centre designated as Singapore's AI Safety Institute",
+      "publisher": "IMDA",
+      "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2024/digital-trust-centre",
+      "date": "2026-05",
+      "category": "government"
     }
   ],
   "hasMajorUpdate": true,
@@ -516,8 +557,8 @@
       "note": "No lab headquartered in Singapore currently trains frontier-scale foundation models; Sea AI Lab and ByteDance's Singapore lab are applied/regional research arms rather than frontier-scale developers, consistent with Singapore's positioning as a testing-and-standards hub."
     },
     {
-      "area": "Dedicated AI safety institute",
-      "note": "Singapore has no standalone national AI safety institute, consistent with its emphasis on voluntary industry frameworks over a dedicated regulatory/safety body."
+      "area": "Binding AI-specific legislation",
+      "note": "Singapore has no binding, AI-specific statute; its governance rests on voluntary frameworks plus the general Personal Data Protection Act. It does, however, have a designated national AI safety institute (the Singapore AISI at NTU's Digital Trust Centre) — so the absence is of hard law rather than of a safety body."
     }
   ]
 }

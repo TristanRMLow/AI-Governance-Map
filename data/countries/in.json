@@ -19,8 +19,8 @@
     22.0
   ],
   "zoom": 4.0,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "India signals a possible shift toward binding AI legislation",
     "IT Rules 2026 takedown triggers criticised as overbroad by digital-rights groups",
@@ -44,6 +44,24 @@
     "summary": "Officials' public rhetoric has moved from 'no separate AI law needed' toward openness to drafting one within eight months, with a senior MeitY official using hedged language about timing and no draft bill yet published. Reporting indicates the government is also weighing emergency shutdown powers for high-risk AI systems, a notably assertive tool most peer jurisdictions haven't proposed — though the specific scope and design of any such power remain unconfirmed."
   },
   "recentDevelopments": [
+    {
+      "text": "India's private-sector AI-infrastructure build-out accelerates: Reliance announced (February 2026 AGM) a reported ₹10 lakh crore (~$110B) seven-year AI push anchored by a multi-gigawatt, renewable-powered data centre in Jamnagar (first phase targeting 3GW, with an initial ~120MW slated to come online in late 2026), signed its first AI data-centre deal with Meta in June 2026, and is working with NVIDIA on an India-focused foundation model; Adani has announced comparably large plans, together positioning India as a major AI-infrastructure hub.",
+      "date": "2026-06",
+      "sourceIds": [
+        "in-8",
+        "in-9"
+      ],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "The IndiaAI Safety Institute, established under the IndiaAI Mission's Safe & Trusted AI pillar, advances: MeitY approved a further tranche of responsible-AI projects (reported as around 13) targeting deepfakes, bias and evaluation tooling, and issued a call for research partnerships, though the institute's full staffing and independent capacity remain unconfirmed.",
+      "date": "2026",
+      "sourceIds": [
+        "in-10"
+      ],
+      "needsVerification": true
+    },
     {
       "text": "MeitY Secretary S. Krishnan signals intent to prepare a draft binding, risk-based AI law, suggesting banking/finance/health/critical-infrastructure could form a high-risk tier; reporting also indicates the government is weighing emergency shutdown powers — a shift in tone from its November 2025 non-binding stance, though no draft bill has been published.",
       "date": "2026-07-06",
@@ -150,9 +168,19 @@
         "name": "Neysa",
         "description": "Indian AI infrastructure company; raised a Blackstone-led financing of up to $1.2B in February 2026 to scale GPU-based AI cloud infrastructure, targeting 20,000+ GPUs.",
         "url": null
+      },
+      {
+        "name": "Reliance Jio (Jio Intelligence)",
+        "description": "Building large-scale 'sovereign' AI compute, anchored by a multi-gigawatt renewable-powered data centre in Jamnagar; announced a ~$110B AI push (2026), a June 2026 AI data-centre deal with Meta, and an India-focused foundation-model collaboration with NVIDIA.",
+        "url": "https://www.jio.com"
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Scaling fast — IndiaAI Mission's 38,000+ subsidised GPUs plus Reliance/Adani multi-GW data-centre plans",
+    "chipAccess": "Import-reliant on NVIDIA; no advanced domestic fabrication yet"
   },
   "universities": [
     {
@@ -329,6 +357,30 @@
       "url": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
       "date": "2026-05-05",
       "category": "news"
+    },
+    {
+      "id": "in-8",
+      "title": "Reliance unveils $110B AI investment plan as India ramps up tech ambitions",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/02/19/reliance-unveils-110b-ai-investment-plan-as-india-ramps-up-tech-ambitions/",
+      "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "in-9",
+      "title": "Meta signs first AI data center deal in India with Reliance",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "in-10",
+      "title": "IndiaAI Mission's Safe & Trusted AI pillar advances; 13 projects approved",
+      "publisher": "DD News",
+      "url": "https://ddnews.gov.in/en/indiaai-missions-safe-trusted-ai-pillar-advances-responsible-ai-13-projects-approved-to-tackle-deepfakes-and-bias/",
+      "date": "2026",
+      "category": "government"
     }
   ],
   "hasMajorUpdate": true,

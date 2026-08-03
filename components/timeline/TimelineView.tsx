@@ -2,10 +2,16 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { CircleAlert, Star } from "lucide-react";
+import { CircleAlert, Star, Layers } from "lucide-react";
 import type { DevelopmentWithCountry } from "@/lib/aggregateData";
 import { SourceRefs } from "@/components/country/SourceRefs";
 import { useWatchlist } from "@/lib/useWatchlist";
+
+/** Human titles for shared cross-jurisdiction events, keyed by Development.eventGroup.
+ * Falls back to the representative development's own text if a key isn't listed. */
+const GROUP_TITLES: Record<string, string> = {
+  "eu-ai-act-gpai-aug2026": "EU AI Act — GPAI enforcement powers and transparency duties take effect (2 August 2026)",
+};
 
 function MajorBadge() {
   return (
@@ -18,6 +24,10 @@ function MajorBadge() {
     </span>
   );
 }
+
+type TimelineEntry =
+  | { kind: "single"; item: DevelopmentWithCountry }
+  | { kind: "group"; key: string; primary: DevelopmentWithCountry; members: DevelopmentWithCountry[] };
 
 export function TimelineView({
   developments,
@@ -39,6 +49,30 @@ export function TimelineView({
       return true;
     });
   }, [developments, region, majorOnly, starredOnly, starred]);
+
+  // Collapse developments that share an eventGroup into a single grouped card,
+  // positioned where the group first appears (all members share the same date).
+  const entries = useMemo(() => {
+    const result: TimelineEntry[] = [];
+    const groupAt = new Map<string, number>();
+    for (const item of filtered) {
+      if (item.eventGroup) {
+        const at = groupAt.get(item.eventGroup);
+        if (at === undefined) {
+          groupAt.set(item.eventGroup, result.length);
+          result.push({ kind: "group", key: item.eventGroup, primary: item, members: [item] });
+        } else {
+          const g = result[at] as Extract<TimelineEntry, { kind: "group" }>;
+          g.members.push(item);
+          // Prefer the supranational (EU) entry's neutral wording as the representative text.
+          if (item.countryCode === "eu") g.primary = item;
+        }
+      } else {
+        result.push({ kind: "single", item });
+      }
+    }
+    return result;
+  }, [filtered]);
 
   return (
     <div className="mt-6">
@@ -92,44 +126,82 @@ export function TimelineView({
       </div>
 
       <ul className="mt-5 space-y-4">
-        {filtered.map((item, i) => (
-          <li
-            key={`${item.countryCode}-${item.date}-${i}`}
-            className="rounded-xl border border-page-border bg-page-card p-4"
-          >
-            <div className="flex items-start justify-between gap-3">
-              <Link
-                href={`/country/${item.countryCode}#recent-developments`}
-                className="flex shrink-0 items-center gap-1.5 text-[12.5px] font-semibold"
-                style={{ color: item.accentColor.light }}
-              >
-                <span aria-hidden>{item.flagEmoji}</span>
-                {item.countryName}
-              </Link>
-              <button
-                type="button"
-                onClick={() => toggle(item.countryCode)}
-                aria-label={isStarred(item.countryCode) ? "Remove from watchlist" : "Add to watchlist"}
-                className="shrink-0 text-page-text-muted transition-colors hover:text-page-text"
-              >
-                <Star size={14} strokeWidth={2.25} fill={isStarred(item.countryCode) ? "currentColor" : "none"} />
-              </button>
-            </div>
+        {entries.map((entry, i) =>
+          entry.kind === "single" ? (
+            <li
+              key={`${entry.item.countryCode}-${entry.item.date}-${i}`}
+              className="rounded-xl border border-page-border bg-page-card p-4"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <Link
+                  href={`/country/${entry.item.countryCode}#recent-developments`}
+                  className="flex shrink-0 items-center gap-1.5 text-[12.5px] font-semibold"
+                  style={{ color: entry.item.accentColor.light }}
+                >
+                  <span aria-hidden>{entry.item.flagEmoji}</span>
+                  {entry.item.countryName}
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => toggle(entry.item.countryCode)}
+                  aria-label={isStarred(entry.item.countryCode) ? "Remove from watchlist" : "Add to watchlist"}
+                  className="shrink-0 text-page-text-muted transition-colors hover:text-page-text"
+                >
+                  <Star size={14} strokeWidth={2.25} fill={isStarred(entry.item.countryCode) ? "currentColor" : "none"} />
+                </button>
+              </div>
 
-            <div className="mt-2 flex flex-wrap items-start gap-x-2 gap-y-1">
-              <p className="text-[14px] leading-snug text-page-text">{item.text}</p>
-              {item.severity === "major" && <MajorBadge />}
-            </div>
+              <div className="mt-2 flex flex-wrap items-start gap-x-2 gap-y-1">
+                <p className="text-[14px] leading-snug text-page-text">{entry.item.text}</p>
+                {entry.item.severity === "major" && <MajorBadge />}
+              </div>
 
-            <div className="mt-2 flex flex-wrap items-center gap-2">
-              <span className="font-mono text-[11px] text-page-text-muted">{item.date}</span>
-              <SourceRefs sourceIds={item.sourceIds} sources={item.sources} />
-            </div>
-          </li>
-        ))}
+              <div className="mt-2 flex flex-wrap items-center gap-2">
+                <span className="font-mono text-[11px] text-page-text-muted">{entry.item.date}</span>
+                <SourceRefs sourceIds={entry.item.sourceIds} sources={entry.item.sources} />
+              </div>
+            </li>
+          ) : (
+            <li key={`group-${entry.key}`} className="rounded-xl border border-page-border bg-page-card p-4">
+              <div className="flex items-start justify-between gap-3">
+                <span className="flex min-w-0 items-center gap-1.5 text-[12.5px] font-semibold text-page-text-secondary">
+                  <Layers size={13} strokeWidth={2.25} className="shrink-0" />
+                  <span className="break-words">{entry.members.length} jurisdictions</span>
+                </span>
+                {entry.members.some((m) => m.severity === "major") && <MajorBadge />}
+              </div>
+
+              <p className="mt-2 text-[14px] font-medium leading-snug text-page-text">
+                {GROUP_TITLES[entry.key] ?? entry.primary.text}
+              </p>
+              {GROUP_TITLES[entry.key] && (
+                <p className="mt-1 text-[13px] leading-snug text-page-text-secondary">{entry.primary.text}</p>
+              )}
+
+              <div className="mt-2.5 flex flex-wrap gap-1.5">
+                {entry.members.map((m) => (
+                  <Link
+                    key={m.countryCode}
+                    href={`/country/${m.countryCode}#recent-developments`}
+                    className="inline-flex items-center gap-1 rounded-full border border-page-border px-2 py-0.5 text-[11.5px] transition-colors hover:border-page-border-strong hover:text-page-text"
+                    style={{ color: m.accentColor.light }}
+                  >
+                    <span aria-hidden>{m.flagEmoji}</span>
+                    {m.countryName}
+                  </Link>
+                ))}
+              </div>
+
+              <div className="mt-2.5 flex flex-wrap items-center gap-2">
+                <span className="font-mono text-[11px] text-page-text-muted">{entry.primary.date}</span>
+                <SourceRefs sourceIds={entry.primary.sourceIds} sources={entry.primary.sources} />
+              </div>
+            </li>
+          )
+        )}
       </ul>
 
-      {filtered.length === 0 && (
+      {entries.length === 0 && (
         <p className="mt-8 rounded-lg border border-dashed border-page-border-strong px-4 py-6 text-center text-[13.5px] text-page-text-muted">
           Nothing matches these filters.
         </p>

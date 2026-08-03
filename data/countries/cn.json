@@ -19,8 +19,8 @@
     35.9
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-07-26",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "Regulating agentic AI under the new Intelligent Agents framework",
     "AI companion apps and anthropomorphic interaction rules",
@@ -34,7 +34,7 @@
       "sentiment": "red"
     },
     "regulatoryApproach": "Targeted, stacked binding rules — no single comprehensive AI law",
-    "latestMajorUpdate": "TC260 Ethics-Safety Guidelines and the Intelligent Agents framework both take effect within two weeks",
+    "latestMajorUpdate": "China launches the World AI Cooperation Organization (WAICO) at WAIC and its labs keep shipping frontier-competitive open-weight models — Moonshot's Kimi K3 (mid-July) and DeepSeek-V4-Flash-0731 (31 July) — even as US chip export controls hold",
     "governmentInvolvement": "High — CAC-led, enforcement-backed rulemaking that has expanded into several new AI categories in 2026",
     "industrialStrategy": "AI+ Initiative-driven integration across manufacturing and public services; some analysts frame China's widely-used open-weight models as a soft-power and talent-attraction tool, though this is not an officially stated government goal",
     "internationalPartnerships": "Global AI Governance Initiative, advanced institutionally in July 2026 with the launch of the World AI Cooperation Organization (WAICO), a Shanghai-headquartered intergovernmental body with 29 founding member states",
@@ -45,6 +45,14 @@
     "summary": "China keeps extending binding regulation into newly significant categories of AI product — AI companion apps in April 2026, autonomous AI agents in July 2026 — rather than consolidating into one law, continuing its pattern of fast, targeted, enforcement-backed rulemaking."
   },
   "recentDevelopments": [
+    {
+      "text": "DeepSeek releases DeepSeek-V4-Flash-0731 (31 July), the official public build of its V4-Flash line — described as its April V4-Flash preview retrained on a substantially improved post-training pipeline for coding, agents and tool use. DeepSeek reports it beats its own larger V4-Pro preview across nine agentic and coding benchmarks despite activating only ~13B of 284B parameters (MoE, 1M-token context), at roughly $0.14/$0.28 per million input/output tokens; the upgrade is a silent same-endpoint swap for existing API users. CAISI had earlier assessed DeepSeek's V4 Pro as roughly eight months behind top US frontier models.",
+      "date": "2026-07-31",
+      "sourceIds": [
+        "cn-24",
+        "cn-25"
+      ]
+    },
     {
       "text": "TC260's Ethics-Safety Guidelines take effect (1 July), just two weeks before the Intelligent Agents framework — ByteDance and Alibaba have already begun restricting AI-companion features ahead of the deadlines.",
       "date": "2026-07-01",
@@ -238,6 +246,11 @@
         "share": 6.1
       }
     ]
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "domestic",
+    "compute": "Large domestic AI-cloud build-out (Alibaba, Volcano Engine, Huawei), though frontier training remains chip-constrained",
+    "chipAccess": "Cut off from top NVIDIA chips by US export controls; pushing SMIC/Huawei Ascend self-sufficiency, with HBM supply a live bottleneck"
   },
   "universities": [
     {
@@ -663,6 +676,22 @@
       "publisher": "Yahoo Finance",
       "url": "https://finance.yahoo.com/technology/ai/articles/moonshot-nears-30-billion-valuation-205525768.html",
       "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "cn-24",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "publisher": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/",
+      "date": "2026-07-31",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "cn-25",
+      "title": "DeepSeek Upgrades DeepSeek-V4-Flash-0731 with Major Agentic and Coding Gains",
+      "publisher": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
+      "date": "2026-07-31",
       "category": "news"
     }
   ],

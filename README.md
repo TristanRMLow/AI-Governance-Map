@@ -1,7 +1,7 @@
 # AI Governance Map
 
 An interactive world map of AI governance: policy, regulation, key institutions, companies, and
-research ecosystems for 43 jurisdictions, plus a Compare tool for side-by-side analysis.
+research ecosystems for 51 jurisdictions, plus a Compare tool for side-by-side analysis.
 
 Each jurisdiction's data lives in `data/countries/{code}.json`, structured per `lib/types.ts`'s
 `CountryData` interface — overview, current policy direction, recent developments, companies,

@@ -11,8 +11,8 @@
   "accentColor": { "light": "#448351", "dark": "#61AE71" },
   "center": [53.7, 32.4],
   "zoom": 4.5,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 7,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Repeated restructuring of Iran's national AI governance body reflects deeper power struggles within the state",
@@ -39,10 +39,9 @@
   },
   "recentDevelopments": [
     {
-      "text": "Supreme Leader Ali Khamenei is killed in an Israeli airstrike; his son Mojtaba Khamenei is announced as the new Supreme Leader on March 8, 2026, introducing major uncertainty into the Supreme-Leader-linked structure (the Supreme Council of the Cultural Revolution) that oversees Iran's national AI strategy.",
-      "date": "2026-02-28",
-      "sourceIds": ["ir-9", "ir-10"],
-      "severity": "major"
+      "text": "During renewed fighting between Iran, Israel and the US, security researchers document Iran-linked groups (CyberAv3ngers, GreenBravo, APT42) using commercial generative AI tools including ChatGPT and Google Gemini to accelerate cyber-reconnaissance, malware development and 'rapport-building' phishing, alongside AI-generated disinformation campaigns reportedly reaching tens of millions of views.",
+      "date": "2026-07",
+      "sourceIds": ["ir-4"]
     },
     {
       "text": "International reporting indicates Iranian state media has used AI-generated video to broadcast messages attributed to Mojtaba Khamenei amid weeks of public absence following his father's assassination and his own reported injury.",
@@ -51,9 +50,16 @@
       "needsVerification": true
     },
     {
-      "text": "During renewed fighting between Iran, Israel and the US, security researchers document Iran-linked groups (CyberAv3ngers, GreenBravo, APT42) using commercial generative AI tools including ChatGPT and Google Gemini to accelerate cyber-reconnaissance, malware development and 'rapport-building' phishing, alongside AI-generated disinformation campaigns reportedly reaching tens of millions of views.",
-      "date": "2026-07",
-      "sourceIds": ["ir-4"]
+      "text": "Iranian officials reportedly present a final version of the national AI platform, with full public access targeted for 2026 (following a beta stage in late 2025), and reiterate plans for a large-scale open-source Persian-language model developed with Sharif University of Technology. Independent confirmation of the platform's status and capabilities is unavailable, particularly given the ongoing conflict.",
+      "date": "2026-03",
+      "sourceIds": ["ir-8", "ir-13"],
+      "needsVerification": true
+    },
+    {
+      "text": "Supreme Leader Ali Khamenei is killed in an Israeli airstrike; his son Mojtaba Khamenei is announced as the new Supreme Leader on March 8, 2026, introducing major uncertainty into the Supreme-Leader-linked structure (the Supreme Council of the Cultural Revolution) that oversees Iran's national AI strategy.",
+      "date": "2026-02-28",
+      "sourceIds": ["ir-9", "ir-10"],
+      "severity": "major"
     },
     {
       "text": "Iran's Parliament reportedly gives final approval to formally (re-)establish the National AI Organization as an independent body with its secretariat reporting directly to the President, following months of institutional back-and-forth over its status.",
@@ -107,6 +113,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Sanctions-constrained; a domestic GPU data-centre for the national AI platform is reported but not independently verified",
+    "chipAccess": "Severely export-restricted; reportedly reliant on smuggled and Chinese (e.g. Huawei) hardware"
   },
   "universities": [
     {
@@ -247,6 +258,7 @@
     { "id": "ir-9", "title": "Iran's Supreme Leader No Longer Reigns Supreme", "publisher": "TIME", "url": "https://time.com/article/2026/04/21/war-iran-mojtaba-khamenei-supreme-leader/", "date": "2026-04-21", "category": "news" },
     { "id": "ir-10", "title": "Iran's new supreme leader is nowhere to be seen. That might be helping the regime to survive", "publisher": "CNN", "url": "https://www.cnn.com/2026/04/21/middleeast/iran-supreme-leader-intl", "date": "2026-04-21", "category": "news" },
     { "id": "ir-11", "title": "March to July: What's different as US-Iran fighting escalates again?", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/7/13/march-to-july-whats-different-as-us-iran-fighting-escalates-again", "date": "2026-07-13", "category": "news" },
-    { "id": "ir-12", "title": "Edurank places 100 Iranian universities among top institutions for AI", "publisher": "Tehran Times", "url": "https://www.tehrantimes.com/news/501100/Edurank-places-100-Iranian-universities-among-top-institutions", "date": "2026", "category": "news" }
+    { "id": "ir-12", "title": "Edurank places 100 Iranian universities among top institutions for AI", "publisher": "Tehran Times", "url": "https://www.tehrantimes.com/news/501100/Edurank-places-100-Iranian-universities-among-top-institutions", "date": "2026", "category": "news" },
+    { "id": "ir-13", "title": "Iran is on the AI development train / Full public access to the national AI platform next year", "publisher": "Science and Technology Vice-Presidency (ISTI)", "url": "https://en.isti.ir/Deputy-for-Technology-Innovation-&-Commercialization-Development-News-Archive/Iran-is-on-the-AI-development-train%E2%81%84Full-public-access-to-the-national-AI-platform-next-year", "date": "2025", "category": "government" }
   ]
 }

@@ -17,22 +17,22 @@
     50.85
   ],
   "zoom": 4,
-  "lastUpdated": "2026-07-26",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "Digital Omnibus — simplification or weakening of the AI Act?",
     "Cloud and AI Development Act and compute sovereignty",
     "Copyright and text-and-data-mining under the AI Act",
     "AI Act enforcement readiness across member states"
   ],
-  "overview": "The European Union is widely regarded as having one of the world's most comprehensive binding AI laws — and in June 2026 it amended that law for the first time since 2024 adoption. The 'Digital Omnibus' simplification package, finalised by the Council on 29 June 2026, pushed back several major compliance deadlines in response to industry competitiveness concerns, while adding a new prohibition on AI-generated non-consensual intimate imagery and CSAM.\n\nThe Commission is simultaneously pursuing compute sovereignty through the Cloud and AI Development Act, proposed in June 2026 and published in the Official Journal in July 2026, which aims to reduce the EU's dependence on non-EU hyperscalers for AI infrastructure.",
+  "overview": "The European Union is widely regarded as having one of the world's most comprehensive binding AI laws — and in June 2026 it amended that law for the first time since 2024 adoption. The 'Digital Omnibus' simplification package, finalised by the Council on 29 June 2026, pushed back several major compliance deadlines in response to industry competitiveness concerns, while adding a new prohibition on AI-generated non-consensual intimate imagery and CSAM.\n\nThe Commission is simultaneously pursuing compute sovereignty through the Cloud and AI Development Act, proposed in June 2026 and published in the Official Journal in July 2026, which aims to reduce the EU's dependence on non-EU hyperscalers for AI infrastructure.\n\nA further enforcement milestone arrived on 2 August 2026, when the Commission's general-purpose AI (GPAI) supervision and enforcement powers took effect — the power to request documentation, run evaluations, demand mitigations, and fine GPAI providers up to €15M or 3% of global turnover — alongside the AI Act's Article 50 transparency duties (chatbot disclosure, AI-content marking and deepfake labelling). This is widely read as the point at which the AI Act's frontier-model provisions acquired real teeth, even as the higher-risk Annex III obligations remain delayed to 2027-2028.",
   "atAGlance": {
     "policyDirection": {
       "label": "Comprehensive law, timelines now loosening",
       "sentiment": "blue"
     },
     "regulatoryApproach": "Risk-tiered hard law, binding across all member states",
-    "latestMajorUpdate": "New Action Plan on Cybersecurity and AI launched alongside CADA's Official Journal publication",
+    "latestMajorUpdate": "The AI Act's GPAI supervision and enforcement powers take effect on 2 August 2026 — including fines up to €15M or 3% of global turnover — alongside Article 50 transparency duties, while high-risk obligations stay delayed to 2027-2028",
     "governmentInvolvement": "Very high — binding supranational law in force across all 27 member states, though national enforcement readiness reportedly varies",
     "industrialStrategy": "Compute sovereignty via CADA and 'AI Gigafactories'; simplification to aid competitiveness",
     "internationalPartnerships": "Participates in the G7 Hiroshima Process; the AI Act is frequently cited internationally as a reference point in AI regulatory debates",
@@ -43,6 +43,16 @@
     "summary": "The AI Act's core structure is unchanged, but June 2026's Digital Omnibus postponed several major compliance deadlines in response to competitiveness pressure — a real softening of pace even as the Commission simultaneously pushes forward on compute sovereignty via the newly enacted Cloud and AI Development Act."
   },
   "recentDevelopments": [
+    {
+      "text": "The AI Act's general-purpose AI (GPAI) supervision and enforcement powers take effect: the Commission's AI Office can now request documentation, run evaluations, demand mitigations or recall, and fine GPAI providers up to €15M or 3% of global turnover (Art. 101). Article 50 transparency duties — chatbot disclosure, machine-readable marking of AI-generated content, and deepfake labelling — become enforceable the same day, with systems already on the market given until 2 December 2026 to comply with the watermarking requirement. High-risk (Annex III) obligations remain delayed to 2027-2028 following the Digital Omnibus.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "eu-16",
+        "eu-17"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
     {
       "text": "European Commission launches a new Action Plan on Cybersecurity and AI, addressing risks and opportunities at the intersection of the two; the Cloud and AI Development Act was published in the Official Journal on 15 July 2026.",
       "date": "2026-07-07",
@@ -92,7 +102,7 @@
     {
       "title": "AI Act (Regulation (EU) 2024/1689), as amended by the Digital Omnibus",
       "status": "in_force",
-      "summary": "In force since August 2024; June 2026's Digital Omnibus is the first amendment, postponing most high-risk system obligations to December 2027 / August 2028 while adding a new prohibition on AI-generated intimate imagery and CSAM (effective December 2026).",
+      "summary": "In force since August 2024; June 2026's Digital Omnibus is the first amendment, postponing most high-risk system obligations to December 2027 / August 2028 while adding a new prohibition on AI-generated intimate imagery and CSAM (effective December 2026). From 2 August 2026 the AI Office's GPAI supervision and enforcement powers apply — including fines of up to €15M or 3% of global turnover — as do the Article 50 transparency duties.",
       "officialUrl": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
       "sourceIds": [
         "eu-1"
@@ -205,6 +215,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "domestic",
+    "compute": "Building 'AI Gigafactories' and pursuing sovereignty via CADA, but capacity still trails the US and China",
+    "chipAccess": "Import-reliant for AI accelerators (NVIDIA-dominated); key leverage is ASML's EUV lithography, not chip design or fabrication"
   },
   "universities": [
     {
@@ -546,6 +561,22 @@
       "publisher": "IAPP",
       "url": "https://iapp.org/news/a/european-commission-withdraws-ai-liability-directive-from-consideration",
       "date": "2025-10",
+      "category": "news"
+    },
+    {
+      "id": "eu-16",
+      "title": "Transparency obligations under Article 50 of the AI Act",
+      "publisher": "European Commission — Shaping Europe's digital future",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+      "date": "2026-08",
+      "category": "government"
+    },
+    {
+      "id": "eu-17",
+      "title": "EU AI Act Enforcement Is Here: Chatbot Rules Live, High-Risk AI Delay Now Binding Law",
+      "publisher": "Tech Times",
+      "url": "https://www.techtimes.com/articles/320101/20260710/eu-ai-act-enforcement-here-chatbot-rules-live-high-risk-ai-delay-now-binding-law.htm",
+      "date": "2026-07",
       "category": "news"
     }
   ],

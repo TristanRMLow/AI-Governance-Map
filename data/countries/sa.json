@@ -19,13 +19,14 @@
     24.0
   ],
   "zoom": 4.8,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 4,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "Shift from AI strategy to execution — can HUMAIN build in one year what took 20?",
-    "Chip access as part of Gulf compute diplomacy"
+    "Chip access as part of Gulf compute diplomacy",
+    "Sovereign Arabic models versus dependence on foreign hardware and hyperscalers"
   ],
-  "overview": "Saudi Arabia's Cabinet designated 2026 the 'Year of Artificial Intelligence,' which government statements describe as marking a shift from strategy to execution of the National Strategy for Data and AI (NSDAI), led by SDAIA (the Saudi Data and AI Authority) since 2019 across six pillars: ambition, competencies, policies, investment, innovation and ecosystem.\n\nHUMAIN, launched in May 2025 as the Public Investment Fund's principal sovereign AI infrastructure vehicle, consolidated some of Aramco Digital's AI assets at founding; Saudi Aramco separately agreed in a later, distinct transaction reported in late 2025 to acquire a significant minority stake in HUMAIN, with PIF retaining majority ownership. HUMAIN was approved alongside UAE's G42 in November 2025 to purchase up to 35,000 NVIDIA Blackwell chips. Recent infrastructure milestones include the Shaheen III supercomputer and the Hexagon data centre — at 480MW, described in Saudi state and trade press as among the world's largest government data facilities by capacity.",
+  "overview": "Saudi Arabia's Cabinet designated 2026 the 'Year of Artificial Intelligence,' which government statements describe as marking a shift from strategy to execution of the National Strategy for Data and AI (NSDAI), led by SDAIA (the Saudi Data and AI Authority) since 2019 across six pillars: ambition, competencies, policies, investment, innovation and ecosystem. SDAIA's board is chaired by Crown Prince Mohammed bin Salman, and there is no binding AI-specific statute; the closest binding instrument is the SDAIA-supervised Personal Data Protection Law, enforceable since September 2024.\n\nHUMAIN — launched in May 2025 as the Public Investment Fund's principal sovereign AI vehicle and framed in some coverage as a roughly $100B undertaking — consolidated some of Aramco Digital's AI assets at founding; Saudi Aramco separately agreed in a later, distinct transaction reported in late 2025 to acquire a significant minority stake, with PIF retaining majority ownership. Through 2025–2026 HUMAIN assembled an unusually broad compute-supplier stack — NVIDIA (reported at up to several hundred thousand GPUs over five years, with 18,000 GB300 chips delivered first), AMD (a roughly $10B, 500MW commitment), AWS (a $5B-plus 'AI Zone'), and Qualcomm (200MW of AI200/AI250 inference from 2026) — and was approved alongside the UAE's G42 in November 2025 to buy up to 35,000 NVIDIA Blackwell chips. On the model side, SDAIA's National Center for AI developed the ALLaM family of Arabic-first LLMs (distributed via Microsoft Azure and IBM watsonx), with HUMAIN increasingly positioned as their commercial production and distribution channel. Recent infrastructure milestones include the KAUST-hosted Shaheen III supercomputer and the roughly $2.7B, 480MW Hexagon data centre in Riyadh, which broke ground in January 2026 and is described in Saudi state and trade press as among the world's largest government data facilities by capacity.",
   "atAGlance": {
     "policyDirection": {
       "label": "2026 declared 'Year of AI'; execution over strategy",
@@ -35,7 +36,7 @@
     "latestMajorUpdate": "Cabinet designates 2026 the 'Year of Artificial Intelligence'",
     "governmentInvolvement": "Very high — state-directed strategy executed via SDAIA and PIF-backed HUMAIN",
     "industrialStrategy": "HUMAIN sovereign AI infrastructure vehicle; Shaheen III supercomputer; 480MW Hexagon data centre",
-    "internationalPartnerships": "Gulf compute diplomacy with the US; DISAI programme with Qualcomm",
+    "internationalPartnerships": "Gulf compute diplomacy with the US; HUMAIN compute deals with NVIDIA, AMD, AWS and Qualcomm; ALLaM distributed via Microsoft Azure and IBM watsonx",
     "primaryPolicyFocus": "Government messaging emphasizes executing at speed on existing strategy rather than passing new binding rules"
   },
   "currentDirection": {
@@ -44,10 +45,29 @@
   },
   "recentDevelopments": [
     {
-      "text": "Cabinet designates 2026 the 'Year of Artificial Intelligence', marking a shift from strategy to execution of the National Strategy for Data and AI.",
+      "text": "Cabinet designates 2026 the 'Year of Artificial Intelligence', marking a shift from strategy to execution of the National Strategy for Data and AI; SDAIA issues national guidelines to unify the year's initiatives across government.",
       "date": "2026",
       "sourceIds": [
-        "sa-1"
+        "sa-1",
+        "sa-3"
+      ]
+    },
+    {
+      "text": "HUMAIN's compute-supplier stack scales toward activation through 2026: alongside NVIDIA (reported at up to several hundred thousand GPUs over five years) and an AMD commitment of roughly $10B for 500MW of capacity, HUMAIN plans to deploy 200MW of Qualcomm AI200/AI250 inference solutions from 2026, and AWS's $5B-plus 'AI Zone' infrastructure is set to come online — a landmark concentration of advanced compute in one sovereign vehicle.",
+      "date": "2026",
+      "sourceIds": [
+        "sa-6",
+        "sa-7",
+        "sa-8"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "The roughly $2.7B, 480MW Hexagon data centre breaks ground in Riyadh — described in Saudi state and trade press as among the world's largest government data facilities by capacity — while the KAUST-hosted Shaheen III supercomputer (ranked 18th on the November 2025 Top500) anchors national research compute.",
+      "date": "2026-01",
+      "sourceIds": [
+        "sa-1",
+        "sa-9"
       ]
     },
     {
@@ -59,7 +79,15 @@
       "severity": "major"
     },
     {
-      "text": "Shaheen III supercomputer and the 480MW Hexagon data centre — described as the world's largest government data facility — mark major infrastructure milestones.",
+      "text": "SDAIA's National Center for AI extends the ALLaM family of Arabic-first LLMs — recognised as a leading Arabic-language model on the Arabic MMLU benchmark and distributed via Microsoft Azure AI Foundry and IBM watsonx — with HUMAIN increasingly positioned as its commercial production and distribution channel.",
+      "date": "2026",
+      "sourceIds": [
+        "sa-10"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "SDAIA reports growing government adoption of AI services under the Year of AI, part of the National Strategy for Data and AI's execution phase.",
       "date": "2026",
       "sourceIds": [
         "sa-1"
@@ -114,6 +142,11 @@
     {
       "name": "Aramco Digital",
       "description": "Digital and AI arm of Saudi Aramco. Some of its AI assets were reportedly consolidated into HUMAIN at HUMAIN's May 2025 founding; whether Aramco Digital continues to operate as a fully distinct entity or has been substantially folded into HUMAIN is unclear from available sources."
+    },
+    {
+      "name": "ALLaM (SDAIA / National Center for AI)",
+      "description": "Family of Arabic-first large language models developed by SDAIA's National Center for AI, trained on a very large Arabic–English corpus and recognised as a leading Arabic-language model on the Arabic MMLU benchmark. Distributed via Microsoft Azure AI Foundry and IBM watsonx, with HUMAIN increasingly positioned as its commercial channel.",
+      "url": "https://sdaia.gov.sa"
     }
   ],
   "cloudInfrastructure": {
@@ -142,6 +175,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Fast-scaling — HUMAIN's multi-supplier build-out (NVIDIA/AMD/AWS/Qualcomm), Shaheen III and the 480MW Hexagon data centre",
+    "chipAccess": "Import-reliant but improving — US-approved NVIDIA Blackwell purchases and large AMD/Qualcomm commitments via HUMAIN"
   },
   "universities": [
     {
@@ -205,6 +243,16 @@
       "expanded": "The November 2025 approval for HUMAIN (alongside G42) to purchase advanced NVIDIA chips followed direct diplomatic engagement, including a Saudi Crown Prince visit. This suggests Saudi Arabia's compute access may be a function of bilateral relations as much as commercial terms — a dependency that could shift with US political change.",
       "sourceIds": [
         "sa-2"
+      ]
+    },
+    {
+      "topic": "Sovereign Arabic models versus dependence on foreign hardware and hyperscalers",
+      "category": "industry",
+      "summary": "Saudi Arabia pairs a genuine sovereign-model effort — SDAIA's ALLaM Arabic LLMs — with near-total reliance on imported chips and foreign cloud platforms for both training compute and distribution, a tension common across the Gulf's AI strategies.",
+      "expanded": "ALLaM gives the Kingdom a credible Arabic-first model recognised on benchmarks such as Arabic MMLU, and HUMAIN is being positioned as its commercial channel. Yet the underlying compute depends on US-approved NVIDIA and AMD hardware and AWS/Qualcomm partnerships, and the models are largely distributed through Microsoft Azure and IBM watsonx. Whether this produces durable sovereign capability — as opposed to Saudi-branded services running on foreign silicon and clouds — remains an open question, and is sharpened by the fact that advanced-chip access still turns partly on case-by-case US approval.",
+      "sourceIds": [
+        "sa-6",
+        "sa-10"
       ]
     }
   ],
@@ -279,6 +327,47 @@
       "url": "https://www.clydeco.com/en/insights/2024/09/saudi-arabia-s-personal-data-protection-law-become",
       "date": "2024-09",
       "category": "expert_commentary"
+    },
+    {
+      "id": "sa-6",
+      "title": "AMD, Nvidia partner with Saudi startup to build multi-billion dollar AI service centers",
+      "publisher": "Network World",
+      "url": "https://www.networkworld.com/article/3986905/amd-nvidia-partner-with-saudi-startup-to-build-multi-billion-dollar-ai-service-centers.html",
+      "date": "2025-05",
+      "category": "news"
+    },
+    {
+      "id": "sa-7",
+      "title": "AWS and HUMAIN announce a more than $5B investment to advance AI in Saudi Arabia",
+      "publisher": "Amazon (AWS)",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-aws-humain-ai-investment-in-saudi-arabia",
+      "date": "2025-05",
+      "category": "industry"
+    },
+    {
+      "id": "sa-8",
+      "title": "Qualcomm and HUMAIN sign MoU to deliver advanced AI data centres in Saudi Arabia and beyond",
+      "publisher": "Intelligent CIO Middle East",
+      "url": "https://www.intelligentcio.com/me/2025/05/14/qualcomm-and-humain-sign-mou-to-deliver-advanced-ai-data-centres-in-saudi-arabia-and-beyond/",
+      "date": "2025-05",
+      "category": "industry",
+      "needsVerification": true
+    },
+    {
+      "id": "sa-9",
+      "title": "Saudi Arabia designates 2026 as the Year of AI",
+      "publisher": "Saudi Gazette",
+      "url": "https://saudigazette.com.sa/article/659672",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "sa-10",
+      "title": "Introducing SDAIA and Their Latest Arabic LLM (ALLaM) on the Azure AI Model Catalog",
+      "publisher": "Microsoft",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-sdaia-and-their-latest-arabic-llm-on-azure-ai-model-catalog/4240241",
+      "date": "2025",
+      "category": "industry"
     }
   ],
   "hasMajorUpdate": true,

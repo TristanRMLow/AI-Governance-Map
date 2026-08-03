@@ -11,7 +11,7 @@
   "accentColor": { "light": "#548344", "dark": "#74AE61" },
   "center": [122.0, 12.5],
   "zoom": 4.3,
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-08-02",
   "newDevelopmentsCount": 6,
   "hasMajorUpdate": true,
   "debateTopics": [
@@ -166,6 +166,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Modest and emerging; ePLDT's ~50MW 'Pilipinas AI' hyperscale site (Sta. Rosa, Laguna) plus telco data-centre build-out",
+    "chipAccess": "Import-reliant"
   },
   "universities": [
     {

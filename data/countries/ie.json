@@ -1,0 +1,457 @@
+{
+  "code": "ie",
+  "name": "Ireland",
+  "shortName": "Ireland",
+  "flagEmoji": "🇮🇪",
+  "geometryType": "polygon",
+  "isoA3": [
+    "IRL"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Distributed, sectoral AI Act enforcement via a new National AI Office, with the Data Protection Commission as de facto lead regulator for the many labs based in Ireland",
+  "accentColor": {
+    "light": "#4A8A55",
+    "dark": "#62AE70"
+  },
+  "center": [
+    -8.0,
+    53.2
+  ],
+  "zoom": 6.0,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Ireland as the EU's de facto AI-enforcement hub",
+    "Data-centre growth versus grid and climate limits",
+    "Hosting frontier labs without building frontier AI"
+  ],
+  "overview": "Ireland's role in the AI landscape is defined less by building frontier systems than by hosting them: Google, Meta, Microsoft, Apple, X and -- increasingly -- OpenAI and Anthropic run their European operations, and much of their EU data processing, from Ireland. That makes the Irish state, and above all the Data Protection Commission (DPC), unusually consequential in European AI governance. Because OpenAI Ireland Limited has been the data controller for EEA and Swiss users since 2024 (mirroring long-standing arrangements for Meta, Google, TikTok and others), the DPC acts as lead GDPR authority for a large share of Europe's most significant AI deployments.\n\nOn the EU AI Act, Ireland has adopted a distributed model rather than a single AI regulator, empowering a set of existing sectoral 'competent authorities' and standing up a National AI Office as the central coordinating body around the AI Act's 2 August 2026 general-purpose AI milestone (with the AI Office in Brussels supervising the largest general-purpose models directly). Ireland's National AI Strategy, 'AI -- Here for Good' (2021, refreshed in November 2024), frames an FDI-led, applied-AI approach, supported by strong research centres (Insight, ADAPT, CeADAR and the new Rinn AI network) and a large data-centre footprint whose electricity demand -- among the highest in the developed world as a share of the grid -- has become a central policy tension.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "EU tech-HQ and data-centre hub; distributed AI-Act enforcement led in practice by the DPC",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act member state; distributed sectoral competent authorities coordinated by a National AI Office, with the DPC as lead privacy regulator",
+    "latestMajorUpdate": "National AI Office stood up around the EU AI Act's 2 Aug 2026 milestone",
+    "governmentInvolvement": "Moderate: FDI-led strategy plus a distributed enforcement architecture and grid/energy policy",
+    "industrialStrategy": "Host to frontier labs' EU operations and a major data-centre market; applied-AI and FDI focus rather than domestic frontier building",
+    "internationalPartnerships": "EU AI Act framework; hosting the International AI Summit in Dublin during Ireland's EU Council Presidency (Oct 2026)",
+    "primaryPolicyFocus": "Enforcing EU rules on globally significant labs while managing data-centre grid constraints"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Ireland's regulatory footprint is tightening as the EU AI Act's general-purpose AI obligations take effect and a National AI Office is established, layered on the DPC's already-heavy enforcement load over Ireland-based frontier labs. At the same time, grid and climate constraints are forcing a more restrictive posture toward new data-centre connections, even as FDI ambitions push the other way."
+  },
+  "recentDevelopments": [
+    {
+      "text": "OpenAI signed an ~88,000 sq ft lease for an expanded Dublin EU headquarters, reported to add around 250 jobs, deepening the concentration of frontier-lab EU operations in Ireland as EU AI Act fines near.",
+      "date": "2026-07-28",
+      "sourceIds": [
+        "ie-3"
+      ]
+    },
+    {
+      "text": "An Oireachtas committee heard evidence that AI-driven data-centre growth is intensifying pressure on Ireland's electricity grid and climate targets, with data centres reported to account for around a fifth of national electricity demand -- among the highest shares in the developed world.",
+      "date": "2026-07-27",
+      "sourceIds": [
+        "ie-5"
+      ]
+    },
+    {
+      "text": "Around the EU AI Act's 2 August 2026 general-purpose AI milestone, Ireland moved to establish a National AI Office as central coordinating body, complementing the distributed sectoral competent authorities and the AI Office in Brussels that supervises the largest general-purpose models (including OpenAI, Google DeepMind, Anthropic and Meta, all with major Irish operations).",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "ie-4",
+        "ie-8"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "Rinn AI, a new national AI research network, began work on 1 July 2026 -- directed by Professor Noel O'Connor (DCU) and co-led by five universities (DCU, TCD, UCC, UCD and the University of Galway) -- building on the Insight and ADAPT centres.",
+      "date": "2026-07-01",
+      "sourceIds": [
+        "ie-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Ireland confirmed a distributed EU AI Act enforcement model rather than a single AI regulator, drawing on established sectoral authorities, with the Data Protection Commission retaining oversight wherever GDPR obligations are engaged -- in practice, most AI systems processing personal data.",
+      "date": "2026-03",
+      "sourceIds": [
+        "ie-2",
+        "ie-4"
+      ]
+    },
+    {
+      "text": "The IMF ranked Ireland first globally in its January 2026 Skill Readiness Index for AI readiness, and Ireland is due to host an International AI Summit in Dublin in October 2026 as part of its EU Council Presidency.",
+      "date": "2026-01",
+      "sourceIds": [
+        "ie-6"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "EU AI Act national implementation (distributed model)",
+      "status": "in_force",
+      "summary": "Ireland has adopted a distributed enforcement model for the EU AI Act, empowering a set of existing sectoral competent authorities to supervise AI within their domains rather than creating a standalone AI regulator, with a National AI Office as central coordinating body. The Data Protection Commission retains oversight wherever GDPR obligations are engaged. The AI Act's general-purpose AI obligations took effect on 2 August 2026, with the AI Office in Brussels supervising the largest general-purpose models.",
+      "officialUrl": "https://www.twobirds.com/en/insights/2025/ireland/eu-ai-act-update-ireland-appoints-its-national-competent-authorities",
+      "sourceIds": [
+        "ie-2",
+        "ie-4"
+      ]
+    },
+    {
+      "title": "National AI Strategy — 'AI — Here for Good'",
+      "status": "in_force",
+      "summary": "Ireland's National AI Strategy, first published in 2021 as 'AI -- Here for Good' and refreshed in November 2024, sets out an FDI-led, applied-AI and ethics-oriented approach across several strands (from enterprise adoption to skills, trust and governance). A broader National Digital and AI Strategy has since built on it, reflecting Ireland's positioning as a European AI and data hub.",
+      "officialUrl": "https://enterprise.gov.ie/en/publications/publication-files/national-ai-strategy.pdf",
+      "sourceIds": [
+        "ie-1",
+        "ie-7"
+      ]
+    },
+    {
+      "title": "Data-centre and grid policy",
+      "status": "in_force",
+      "summary": "With data centres consuming around a fifth of national electricity demand and forecasts of further growth, grid-connection policy has become a de facto constraint on AI infrastructure. The transmission operator and regulator have applied stricter conditions on new large-load connections, and the tension between data-centre expansion, grid capacity and climate targets is an active policy and parliamentary debate.",
+      "officialUrl": "https://www.ucd.ie/newsandopinion/news/2026/july/27/aidatacentregrowthpressuresirelandsgridandclimategoalsoireachtashears/",
+      "sourceIds": [
+        "ie-5"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Irish AI research is concentrated in Research Ireland (formerly SFI) centres: Insight, the large data-analytics centre spanning UCD, DCU, UCC and the University of Galway with partners at Trinity, Maynooth, Limerick and Tyndall; and ADAPT, the AI-driven digital-content centre led from Trinity College Dublin. CeADAR, Ireland's Centre for Applied AI, bridges research and industry, and the new Rinn AI network (from July 2026) consolidates national capacity across five universities. The ecosystem is tightly coupled to the multinational tech sector clustered in Dublin.",
+    "sourceIds": [
+      "ie-6"
+    ]
+  },
+  "companies": [
+    {
+      "name": "OpenAI (Ireland)",
+      "description": "OpenAI Ireland Limited is the data controller for EEA and Swiss users; OpenAI is expanding its Dublin EU headquarters (reported ~88,000 sq ft, ~250 jobs). Ireland hosts rather than originates the company, but is central to its European operations and regulation.",
+      "url": "https://openai.com"
+    },
+    {
+      "name": "Google / DeepMind (Ireland)",
+      "description": "Google runs a large European hub in Dublin; Google DeepMind's models are supervised at EU level via the AI Office, with Ireland central to Google's EU data operations.",
+      "url": "https://about.google"
+    },
+    {
+      "name": "Meta (Ireland)",
+      "description": "Meta's international headquarters are in Dublin, making the Irish DPC its lead EU privacy regulator, including for Meta's AI products.",
+      "url": "https://about.meta.com"
+    },
+    {
+      "name": "Microsoft (Ireland)",
+      "description": "Microsoft operates a major European base and extensive data-centre capacity in Ireland, underpinning Azure and its AI services in the region.",
+      "url": "https://www.microsoft.com/en-ie/"
+    },
+    {
+      "name": "CeADAR",
+      "description": "Ireland's Centre for Applied AI, funded by Enterprise Ireland and the IDA, commercialising AI research and running an AI-startup accelerator with NovaUCD.",
+      "url": "https://www.ceadar.ie"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Operates extensive data-centre capacity in the Dublin region; a cornerstone of Ireland's status as a European cloud and AI hub.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "AWS",
+        "description": "Runs the long-established AWS Europe (Ireland) region -- one of AWS's largest and oldest -- serving customers across Europe.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Operates significant Dublin-area data-centre and cloud capacity supporting European workloads.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "Meta",
+        "description": "Operates large data centres (including at Clonee) supporting its platforms and AI workloads.",
+        "url": "https://about.meta.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Among Europe's densest data-centre markets (~fifth of national electricity demand), but grid-constrained; no domestic frontier training programme",
+    "chipAccess": "Hosts hyperscaler AI clusters; import-reliant, no domestic chip fabrication"
+  },
+  "universities": [
+    {
+      "name": "Trinity College Dublin (TCD)",
+      "description": "Leading research university and home of the ADAPT centre; strong in machine learning, NLP and AI ethics.",
+      "url": "https://www.tcd.ie"
+    },
+    {
+      "name": "University College Dublin (UCD)",
+      "description": "Major research university, an Insight host and co-lead of the Rinn AI network, with CeADAR and NovaUCD nearby.",
+      "url": "https://www.ucd.ie"
+    },
+    {
+      "name": "Dublin City University (DCU)",
+      "description": "Host of significant AI research; directs the new national Rinn AI network under Professor Noel O'Connor.",
+      "url": "https://www.dcu.ie"
+    },
+    {
+      "name": "University College Cork (UCC)",
+      "description": "Research university participating in Insight and the Rinn AI network, with strengths in data and applied AI.",
+      "url": "https://www.ucc.ie"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "CeADAR — Ireland's Centre for Applied AI",
+      "description": "Applied-AI centre bridging academia and industry, funded by Enterprise Ireland and the IDA.",
+      "url": "https://www.ceadar.ie"
+    },
+    {
+      "name": "ADAPT Centre",
+      "description": "Research Ireland centre for AI-driven digital-content technology, led from Trinity College Dublin.",
+      "url": "https://www.adaptcentre.ie"
+    },
+    {
+      "name": "Insight SFI Research Centre for Data Analytics",
+      "description": "One of Europe's largest data and AI research centres, spanning multiple Irish universities.",
+      "url": "https://www.insight-centre.org"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Data Protection Commission (DPC)",
+      "description": "Ireland's data-protection authority and lead EU (GDPR) regulator for many major tech and AI firms headquartered in Ireland, including OpenAI, Meta and Google; retains AI oversight wherever personal data is processed.",
+      "url": "https://www.dataprotection.ie"
+    },
+    {
+      "name": "National AI Office",
+      "description": "Central coordinating body established around the EU AI Act's 2 August 2026 milestone to coordinate Ireland's distributed sectoral competent authorities.",
+      "url": "https://enterprise.gov.ie",
+      "needsVerification": true
+    },
+    {
+      "name": "Department of Enterprise, Tourism and Employment",
+      "description": "Lead department for Ireland's National AI Strategy and enterprise-focused AI policy.",
+      "url": "https://enterprise.gov.ie"
+    },
+    {
+      "name": "IDA Ireland",
+      "description": "Inward-investment agency central to attracting the multinational AI and data-centre operations that define Ireland's AI footprint.",
+      "url": "https://www.idaireland.com"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Des Hogan",
+      "role": "Chairperson / Commissioner of the Data Protection Commission, Ireland's lead EU privacy regulator for major AI firms.",
+      "category": "government",
+      "url": "https://www.dataprotection.ie",
+      "needsVerification": true
+    },
+    {
+      "name": "Noel O'Connor",
+      "role": "DCU professor directing the new national Rinn AI research network.",
+      "category": "researcher",
+      "url": "https://www.dcu.ie"
+    },
+    {
+      "name": "John Kelleher",
+      "role": "Trinity College Dublin professor leading the ADAPT centre; researcher and author on machine learning and language models.",
+      "category": "researcher",
+      "url": "https://www.adaptcentre.ie"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Data Protection Commission (Ireland)",
+      "type": "organization",
+      "role": "Lead EU privacy regulator for OpenAI, Meta, Google and others -- a decisive actor in European AI enforcement.",
+      "category": "government",
+      "url": "https://www.dataprotection.ie"
+    },
+    {
+      "name": "John Kelleher",
+      "type": "person",
+      "role": "ADAPT director and author on machine learning; a leading Irish AI academic voice.",
+      "category": "researcher",
+      "url": "https://www.adaptcentre.ie"
+    },
+    {
+      "name": "IDA Ireland",
+      "type": "organization",
+      "role": "Investment agency shaping Ireland's role as host to frontier labs' EU operations.",
+      "category": "government",
+      "url": "https://www.idaireland.com"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Data Protection Commission",
+      "type": "agency"
+    },
+    {
+      "label": "National AI Office",
+      "type": "agency"
+    },
+    {
+      "label": "Frontier labs' EU bases (OpenAI, Google, Meta, Microsoft)",
+      "type": "company"
+    },
+    {
+      "label": "Research Ireland centres (Insight, ADAPT, Rinn AI)",
+      "type": "research"
+    },
+    {
+      "label": "IDA Ireland",
+      "type": "government"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Domestic frontier developer",
+      "note": "Ireland builds no frontier or near-frontier models of its own -- its significance is as host to the EU operations of foreign labs (OpenAI, Google, Meta, Microsoft, X, Apple). The frontier-developer status is therefore 'none', notwithstanding the outsized regulatory role this hosting confers."
+    },
+    {
+      "area": "Grid capacity as a hard constraint",
+      "note": "With data centres already consuming around a fifth of national electricity and forecasts rising, grid connection -- not capital or policy ambition -- is the binding constraint on further AI-infrastructure growth, forcing trade-offs against climate targets and other demand."
+    },
+    {
+      "area": "Enforcement capacity versus caseload",
+      "note": "Because so many globally significant labs are Irish-domiciled, the DPC and the new competent-authority architecture carry an EU-wide enforcement burden that critics argue outstrips the resources of a small member state, feeding recurring 'one-stop-shop' bottleneck concerns."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Ireland as the EU's de facto AI-enforcement hub",
+      "category": "government",
+      "summary": "Because OpenAI, Meta, Google and others are Irish-domiciled, the DPC and Irish competent authorities effectively regulate much of Europe's frontier AI -- a role critics say is under-resourced.",
+      "expanded": "Ireland's 'one-stop-shop' status under GDPR, extended in practice to AI oversight wherever personal data is processed, concentrates enormous responsibility in the Irish DPC. Supporters note the efficiency of a single lead regulator for pan-European operations; critics -- including other member states and civil-society groups -- have long argued the arrangement produces bottlenecks and under-enforcement given Ireland's size and its economic interest in retaining these employers. The arrival of the National AI Office and distributed competent authorities in 2026 tests whether Ireland can carry this load.",
+      "sourceIds": [
+        "ie-2",
+        "ie-4",
+        "ie-3"
+      ]
+    },
+    {
+      "topic": "Data-centre growth versus grid and climate limits",
+      "category": "infrastructure",
+      "summary": "Ireland's data-centre boom underpins its AI-hub status but consumes a fifth of national electricity, colliding with grid capacity and climate targets.",
+      "expanded": "Data centres are integral to Ireland's FDI model and to hosting AI workloads, yet their electricity demand is among the highest in the developed world as a share of the grid. Parliamentary hearings in 2026 highlighted competition between data centres and other essential infrastructure for scarce grid capacity, and stricter connection conditions have followed. The unresolved question is whether Ireland can keep attracting AI infrastructure while meeting binding climate commitments and maintaining supply for households and other industry.",
+      "sourceIds": [
+        "ie-5"
+      ]
+    },
+    {
+      "topic": "Hosting frontier labs without building frontier AI",
+      "category": "industry",
+      "summary": "Ireland captures enormous economic value from hosting AI multinationals, but has little domestic frontier-building capability of its own.",
+      "expanded": "The presence of OpenAI, Google, Meta, Microsoft, Apple and X gives Ireland jobs, tax revenue and regulatory influence far beyond its size. Yet the value is largely that of a host: the models are built elsewhere, and Ireland's own research centres (Insight, ADAPT, CeADAR, Rinn AI) focus on applied and academic AI rather than frontier training. Debate continues over whether Ireland should leverage its position to develop more indigenous capability, or accept a specialised role as Europe's AI operations and enforcement hub.",
+      "sourceIds": [
+        "ie-1",
+        "ie-6"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Ireland Publishes New National Digital and AI Strategy",
+      "type": "government",
+      "author": "William Fry",
+      "url": "https://www.williamfry.com/knowledge/ireland-publishes-new-national-digital-and-ai-strategy-key-takeaways-for-business/"
+    },
+    {
+      "title": "AI — Here for Good: A National AI Strategy for Ireland",
+      "type": "government",
+      "author": "Government of Ireland",
+      "url": "https://enterprise.gov.ie/en/publications/publication-files/national-ai-strategy.pdf"
+    },
+    {
+      "title": "Who really regulates AI in Ireland?",
+      "type": "think_tank",
+      "author": "Accountancy Ireland",
+      "url": "https://www.accountancyireland.ie/2026/03/27/who-really-regulates-ai-in-ireland/content.html"
+    },
+    {
+      "title": "AI data-centre growth pressures Ireland's grid and climate goals, Oireachtas hears",
+      "type": "government",
+      "author": "University College Dublin",
+      "url": "https://www.ucd.ie/newsandopinion/news/2026/july/27/aidatacentregrowthpressuresirelandsgridandclimategoalsoireachtashears/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ie-1",
+      "title": "Ireland Publishes New National Digital and AI Strategy: Key Takeaways for Business",
+      "publisher": "William Fry",
+      "url": "https://www.williamfry.com/knowledge/ireland-publishes-new-national-digital-and-ai-strategy-key-takeaways-for-business/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ie-2",
+      "title": "EU AI Act Update: Ireland appoints its national competent authorities",
+      "publisher": "Bird & Bird",
+      "url": "https://www.twobirds.com/en/insights/2025/ireland/eu-ai-act-update-ireland-appoints-its-national-competent-authorities",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "ie-3",
+      "title": "OpenAI Dublin EU Headquarters: 88,000 Sq Ft Lease and 250 Jobs",
+      "publisher": "Tech Times",
+      "url": "https://www.techtimes.com/articles/321771/20260728/openai-dublin-eu-headquarters-88000-sq-ft-lease-250-jobs-ai-fines-near.htm",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "ie-4",
+      "title": "Who really regulates AI in Ireland?",
+      "publisher": "Accountancy Ireland",
+      "url": "https://www.accountancyireland.ie/2026/03/27/who-really-regulates-ai-in-ireland/content.html",
+      "date": "2026-03",
+      "category": "news"
+    },
+    {
+      "id": "ie-5",
+      "title": "AI data-centre growth pressures Ireland's grid and climate goals, Oireachtas hears",
+      "publisher": "University College Dublin",
+      "url": "https://www.ucd.ie/newsandopinion/news/2026/july/27/aidatacentregrowthpressuresirelandsgridandclimategoalsoireachtashears/",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "ie-6",
+      "title": "Ireland's €1 Billion Rinn Network: the new National AI Centre",
+      "publisher": "AI Ireland",
+      "url": "https://aiireland.ie/2026/06/12/irelands-e1-billion-rinn-network-what-the-new-national-ai-centre-means-for-your-boards-next-move/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "ie-7",
+      "title": "Ireland's national AI strategy refresh: the seven strands",
+      "publisher": "Pinsent Masons",
+      "url": "https://www.pinsentmasons.com/out-law/analysis/ireland-national-ai-strategy-refresh-the-seven-strands",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ie-8",
+      "title": "Ireland Is Becoming the EU's Main AI Enforcement Hub",
+      "publisher": "Wangdoo",
+      "url": "https://www.wangdoo.com/ireland-is-setting-up-its-own-ai-regulator-explained/",
+      "date": "2026",
+      "category": "news"
+    }
+  ]
+}

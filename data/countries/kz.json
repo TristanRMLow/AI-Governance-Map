@@ -1,0 +1,475 @@
+{
+  "code": "kz",
+  "name": "Kazakhstan",
+  "shortName": "Kazakhstan",
+  "flagEmoji": "🇰🇿",
+  "geometryType": "polygon",
+  "isoA3": [
+    "KAZ"
+  ],
+  "region": "Asia-Pacific",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "State-led 'sovereign AI' drive — Central Asia's first comprehensive AI law, a dedicated AI ministry, sovereign models and a large data-centre build-out",
+  "accentColor": {
+    "light": "#3E8EAE",
+    "dark": "#57AEC8"
+  },
+  "center": [
+    67,
+    48
+  ],
+  "zoom": 3.3,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 7,
+  "debateTopics": [
+    "Central Asia's AI hub ambitions",
+    "Sovereign models and compute vs. foreign dependence",
+    "First-mover AI law: protection vs. over-regulation"
+  ],
+  "overview": "Kazakhstan has made an unusually assertive, state-led push to position itself as Central Asia's AI hub. In 2025–2026 it adopted the region's first comprehensive AI law, elevated AI to ministerial rank under a Ministry of Artificial Intelligence and Digital Development, and declared 2026 the 'Year of Digitalisation and Artificial Intelligence' by presidential decree. The strategy pairs governance with heavy infrastructure and 'sovereign AI' ambitions: a national supercomputer (branded around Alem.Cloud) reported at roughly 2 exaflops (FP8) on 512 NVIDIA H200 GPUs — described as Central Asia's most powerful — plus sovereign large language models KazLLM (built by Nazarbayev University's ISSAI) and AlemLLM, both multilingual across Kazakh, Russian, English and Turkish.\n\nThe country is courting large foreign investment to scale compute, including a reported US$2bn Freedom Holding 'Sovereign AI Hub' powered by NVIDIA, a 'Data Center Valley' campus (with partners including NVIDIA and Presight) targeting up to a gigawatt of capacity, and education and infrastructure partnerships announced with NVIDIA, OpenAI and Scale AI. Institutionally, an Alem.AI international AI centre in Astana, the Astana Hub tech park, an AI & Innovation Development Committee and a presidential AI development council anchor coordination. The open questions are whether these ambitions convert into durable capability rather than announcements, and how far a first-mover AI law and reliance on imported chips and foreign capital shape genuine 'sovereignty'. Some figures come from state or investor sources and are hedged accordingly.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "State-led sovereign-AI drive; regional hub ambitions",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Central Asia's first comprehensive AI law (in force Jan 2026), emphasising transparency, safety, accountability and data privacy",
+    "latestMajorUpdate": "First AI law takes effect and 2026 declared the 'Year of Digitalisation and AI'; large NVIDIA-powered data-centre and sovereign-AI deals announced",
+    "governmentInvolvement": "High — a dedicated AI ministry, presidential council and 'Year of AI' mobilisation",
+    "industrialStrategy": "Sovereign compute and models plus courting hyperscaler and NVIDIA-backed data-centre investment",
+    "internationalPartnerships": "Partnerships announced with NVIDIA, OpenAI, Scale AI and Presight; positioning as a Central Asia AI gateway",
+    "primaryPolicyFocus": "Becoming a regional AI hub via sovereign models, national compute and inward tech investment"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Kazakhstan is simultaneously building governance and capacity: a first-of-its-kind AI law adds binding obligations (transparency, safety, data privacy), while a dedicated ministry, sovereign models and a rapid data-centre build-out expand the state's role. The net direction is a tightening, more structured regime layered on an aggressive investment-led expansion — with the main uncertainty being execution rather than intent."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Kazakhstan's first comprehensive Law 'On Artificial Intelligence' — adopted 29 October 2025 — took effect on 18 January 2026, introducing rules for AI systems on transparency, safety, accountability and data privacy, and reported as the first such law in Central Asia.",
+      "date": "2026-01-18",
+      "sourceIds": [
+        "kz-2",
+        "kz-3"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "A presidential decree (6 January 2026) declared 2026 the 'Year of Digitalisation and Artificial Intelligence', framing government priority around embedding AI across the economy and public services.",
+      "date": "2026-01-06",
+      "sourceIds": [
+        "kz-4",
+        "kz-1"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Freedom Holding Corp announced an agreement with the Ministry of AI and Digital Development to build a reported US$2bn 'Sovereign AI Hub' powered by NVIDIA exascale infrastructure, with Firebird Labs to be established at the Alem.AI centre in Astana.",
+      "date": "2026",
+      "sourceIds": [
+        "kz-9"
+      ],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "Kazakhstan and partners (including Firebird, NVIDIA and Presight AI) signed memoranda to establish a 'Data Center Valley' — pitched as Central Asia's largest data-centre campus, with planned capacity of up to 1 gigawatt.",
+      "date": "2026-05",
+      "sourceIds": [
+        "kz-12"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "At Davos (January 2026), Kazakhstan announced partnerships with NVIDIA, OpenAI and Scale AI covering supercomputing, educational infrastructure and data preparation, part of a wider push to attract global AI investment.",
+      "date": "2026-01",
+      "sourceIds": [
+        "kz-5",
+        "kz-8"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Kazakhstan expanded its national supercomputer and data centre (reported around 2 exaflops FP8 on 512 NVIDIA H200 GPUs, branded around Alem.Cloud) to underpin the National AI Platform and sovereign models — described as the most powerful cluster in Central Asia.",
+      "date": "2026-04",
+      "sourceIds": [
+        "kz-8",
+        "kz-11"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Nazarbayev University's ISSAI advanced its sovereign KazLLM model (built April–December 2024), joined by a second national model, AlemLLM — both multilingual (Kazakh, Russian, English, Turkish) and integrated with the state computing platform.",
+      "date": "2026",
+      "sourceIds": [
+        "kz-6",
+        "kz-7"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Law of the Republic of Kazakhstan 'On Artificial Intelligence'",
+      "status": "in_force",
+      "summary": "Adopted 29 October 2025 and in force from 18 January 2026, reported as Central Asia's first comprehensive AI law. It sets rules for AI systems operating in the country — covering transparency, safety, accountability and data privacy — and provides the statutory backbone for Kazakhstan's broader AI strategy. Precise scope and enforcement mechanics are still being clarified through implementing rules.",
+      "officialUrl": "https://www.loc.gov/item/global-legal-monitor/2026-01-12/kazakhstan-new-law-introduces-rules-for-ai-systems-operating-in-the-country",
+      "sourceIds": [
+        "kz-2",
+        "kz-3"
+      ]
+    },
+    {
+      "title": "Decree declaring 2026 the 'Year of Digitalisation and Artificial Intelligence'",
+      "status": "in_force",
+      "summary": "A presidential decree (6 January 2026) making digitalisation and AI the government's flagship priority for the year, directing ministries to embed AI across sectors of the economy and public administration. A mobilising policy instrument rather than binding regulation.",
+      "officialUrl": "https://primeminister.kz/en/news/year-of-digitalization-and-artificial-intelligence-in-kazakhstan-30934",
+      "sourceIds": [
+        "kz-4"
+      ]
+    },
+    {
+      "title": "National AI Platform and sovereign-model programme",
+      "status": "in_force",
+      "summary": "A state-run National AI Platform provides government developers and partner universities with access to national compute, curated datasets and pre-trained sovereign models (KazLLM, AlemLLM), with data processed on Kazakhstan's territory on state-owned equipment. It operationalises the 'sovereign AI' element of the strategy.",
+      "officialUrl": "https://ai.nitec.kz/en",
+      "sourceIds": [
+        "kz-11",
+        "kz-6"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Kazakhstan's AI research is anchored by Nazarbayev University's Institute of Smart Systems and Artificial Intelligence (ISSAI), which built the sovereign KazLLM, alongside a state National AI Platform giving universities and government developers access to national compute and datasets. The ecosystem is young and heavily state-shaped, with an Alem.AI international centre and the Astana Hub tech park intended as focal points; it leans on imported hardware and foreign partnerships rather than a deep independent research base.",
+    "sourceIds": [
+      "kz-6",
+      "kz-11"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Freedom Holding Corp",
+      "description": "Kazakhstan-linked financial-services group (Nasdaq-listed) backing large AI infrastructure, including a reported US$2bn NVIDIA-powered 'Sovereign AI Hub' and Firebird Labs at the Alem.AI centre.",
+      "url": "https://ffin.global",
+      "needsVerification": true
+    },
+    {
+      "name": "Astana Hub",
+      "description": "Kazakhstan's flagship international technology park, hosting startups (including AI ventures) and central to the country's digital-economy and AI ambitions.",
+      "url": "https://astanahub.com"
+    },
+    {
+      "name": "Presight AI",
+      "description": "Abu Dhabi-listed (G42-linked) data-analytics and AI firm partnering on Kazakhstan's 'Data Center Valley' and national AI infrastructure projects.",
+      "url": "https://www.presight.ai",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Alem.Cloud / National AI Platform",
+        "description": "State-backed national compute platform reported at roughly 2 exaflops (FP8) on 512 NVIDIA H200 GPUs — described as Central Asia's most powerful cluster — hosting sovereign models KazLLM and AlemLLM for government and partner universities.",
+        "url": "https://ai.nitec.kz/en",
+        "needsVerification": true
+      },
+      {
+        "name": "Data Center Valley (planned)",
+        "description": "A planned large-scale data-centre campus (partners including Firebird, NVIDIA and Presight) targeting up to 1 GW of capacity, intended to make Kazakhstan a regional AI-infrastructure hub. Early-stage and dependent on announced deals converting into build-out."
+      },
+      {
+        "name": "Freedom Sovereign AI Hub (planned)",
+        "description": "A reported US$2bn NVIDIA-powered sovereign AI compute hub backed by Freedom Holding, hosting Firebird Labs at Alem.AI in Astana; announced, with delivery still to be verified.",
+        "needsVerification": true
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Central Asia's largest national cluster (branded Alem.Cloud, ~2 EF FP8 on 512 NVIDIA H200s), with gigawatt-scale data-centre plans",
+    "chipAccess": "Import-reliant but NVIDIA-partnered — accessing H200-class GPUs and exascale infrastructure via foreign investment, not domestic fabrication"
+  },
+  "universities": [
+    {
+      "name": "Nazarbayev University",
+      "description": "Astana-based research university and home to ISSAI, the institute that built the sovereign KazLLM model; central to Kazakhstan's AI research base.",
+      "url": "https://nu.edu.kz"
+    },
+    {
+      "name": "Institute of Smart Systems and Artificial Intelligence (ISSAI)",
+      "description": "Nazarbayev University AI research institute; developer of KazLLM and a leading node in Kazakhstan's sovereign-model programme.",
+      "url": "https://issai.nu.edu.kz"
+    },
+    {
+      "name": "Astana IT University",
+      "description": "Astana-based university focused on IT and AI education, feeding talent into the country's digital-economy initiatives.",
+      "url": "https://astanait.edu.kz",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Alem.AI (international AI centre)",
+      "description": "Astana-based international AI centre intended as a hub for research, startups and partnerships (hosting Firebird Labs), and a focal point of Kazakhstan's regional AI ambitions.",
+      "url": "https://alem.ai",
+      "needsVerification": true
+    },
+    {
+      "name": "International Advisory Council on AI",
+      "description": "Advisory body convened to advise Kazakhstan's leadership on AI, bringing together domestic specialists and global experts.",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Artificial Intelligence and Digital Development",
+      "description": "Lead ministry (elevated to include AI at ministerial rank) driving Kazakhstan's AI law, sovereign-AI programme and infrastructure deals, under Minister Zhaslan Madiyev.",
+      "url": "https://www.gov.kz/memleket/entities/mdai?lang=en",
+      "needsVerification": true
+    },
+    {
+      "name": "AI and Innovation Development Committee",
+      "description": "Committee established to spearhead AI policy development and regulatory coordination within the digital-development apparatus.",
+      "needsVerification": true
+    },
+    {
+      "name": "Council for the Development of Artificial Intelligence",
+      "description": "Presidential-level council (chaired by President Tokayev, who held its first meeting) to steer national AI development at the apex of Kazakhstan's AI governance architecture.",
+      "url": "https://www.akorda.kz/en",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Zhaslan Madiyev",
+      "role": "Minister of Artificial Intelligence and Digital Development",
+      "affiliation": "Government of Kazakhstan",
+      "category": "government",
+      "url": "https://www.gov.kz/memleket/entities/mdai?lang=en",
+      "needsVerification": true
+    },
+    {
+      "name": "Kassym-Jomart Tokayev",
+      "role": "President; chairs the Council for the Development of Artificial Intelligence and declared 2026 the 'Year of AI'",
+      "affiliation": "Republic of Kazakhstan",
+      "category": "government",
+      "url": "https://www.akorda.kz/en"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Zhaslan Madiyev",
+      "type": "person",
+      "role": "Kazakhstan's AI and Digital Development Minister; central figure in the sovereign-AI drive.",
+      "category": "government",
+      "url": "https://www.gov.kz/memleket/entities/mdai?lang=en"
+    },
+    {
+      "name": "ISSAI (Nazarbayev University)",
+      "type": "organization",
+      "role": "Builder of KazLLM and Kazakhstan's leading AI research institute.",
+      "category": "university",
+      "url": "https://issai.nu.edu.kz"
+    },
+    {
+      "name": "The Astana Times — AI coverage",
+      "type": "organization",
+      "role": "English-language outlet tracking Kazakhstan's AI policy and infrastructure developments.",
+      "category": "journalist",
+      "url": "https://astanatimes.com"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "President / AI Development Council",
+      "type": "government"
+    },
+    {
+      "label": "Ministry of AI & Digital Development",
+      "type": "agency"
+    },
+    {
+      "label": "ISSAI (Nazarbayev University)",
+      "type": "research"
+    },
+    {
+      "label": "Freedom Holding",
+      "type": "company"
+    },
+    {
+      "label": "Alem.AI",
+      "type": "think_tank"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Delivery vs. announcement",
+      "note": "Many headline figures — the US$2bn Freedom hub, ~1 GW Data Center Valley, exascale NVIDIA deals, US$10bn accords — come from state or investor sources and are announced rather than delivered. Their realisation, timelines and financing remain to be verified, and several are flagged accordingly in this file."
+    },
+    {
+      "area": "Genuine 'sovereignty' vs. foreign dependence",
+      "note": "Kazakhstan's 'sovereign AI' rests heavily on imported NVIDIA hardware and foreign partners (NVIDIA, OpenAI, Scale AI, Presight/G42). There is no domestic advanced-chip fabrication, so sovereignty is more about domestic control of data and models than an independent supply chain."
+    },
+    {
+      "area": "Frontier-scale model development",
+      "note": "KazLLM and AlemLLM are credible sovereign models optimised for regional languages, but are not at the global frontier; Kazakhstan is classed as an 'emerging' rather than 'domestic' frontier developer."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Central Asia's AI hub ambitions",
+      "category": "infrastructure",
+      "summary": "Kazakhstan is betting that a first-mover AI law, national compute and large data-centre deals can make it the AI gateway for Central Asia — a bold claim for a country reliant on imported chips and foreign capital.",
+      "expanded": "The 'Year of AI', a dedicated ministry, Alem.AI, the Astana Hub and a wave of NVIDIA-backed infrastructure deals are all aimed at making Kazakhstan the region's AI hub, leveraging cheap energy (partly from former crypto-mining capacity) and geographic position between Russia, China and the wider region. Supporters point to genuine early assets — Central Asia's most powerful cluster and sovereign models. Sceptics note that much of the plan is announcements yet to be built, and question whether Kazakhstan can out-compete larger neighbours and Gulf hubs for talent and durable investment.",
+      "sourceIds": [
+        "kz-5",
+        "kz-8"
+      ]
+    },
+    {
+      "topic": "Sovereign models and compute vs. foreign dependence",
+      "category": "industry",
+      "summary": "Kazakhstan frames KazLLM, AlemLLM and its national platform as 'sovereign AI', yet the underlying compute and much expertise are supplied by foreign firms — raising the question of what sovereignty means in practice.",
+      "expanded": "The sovereign-AI narrative emphasises data processed on Kazakh territory, on state-owned equipment, using home-built models tuned for Kazakh and regional languages. But the GPUs are NVIDIA, the exascale build-outs are financed and equipped by foreign partners, and model and data-pipeline expertise draws on OpenAI, Scale AI and Presight. The debate is whether this constitutes genuine sovereignty or a well-branded dependence — and whether it is the right trade-off for a mid-sized economy seeking rapid capability.",
+      "sourceIds": [
+        "kz-6",
+        "kz-9"
+      ]
+    },
+    {
+      "topic": "First-mover AI law: protection vs. over-regulation",
+      "category": "government",
+      "summary": "As Central Asia's first country with a comprehensive AI law, Kazakhstan faces the classic first-mover trade-off between establishing trust and safeguards and risking rules that outpace its still-young AI ecosystem.",
+      "expanded": "The 2026 AI law sets obligations on transparency, safety, accountability and data privacy — ahead of neighbours and, in some respects, ahead of the domestic industry it governs. Proponents argue early rules build trust and attract responsible investment; critics worry that binding obligations imposed before a mature ecosystem exists could deter startups or prove hard to enforce, and that much depends on implementing regulations still being written. How Kazakhstan calibrates enforcement will shape whether the law is seen as enabling or constraining.",
+      "sourceIds": [
+        "kz-1",
+        "kz-2"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Kazakhstan: New Law Introduces Rules for AI Systems Operating in the Country",
+      "type": "government",
+      "author": "Library of Congress",
+      "url": "https://www.loc.gov/item/global-legal-monitor/2026-01-12/kazakhstan-new-law-introduces-rules-for-ai-systems-operating-in-the-country"
+    },
+    {
+      "title": "6 Months Into Kazakhstan's Year of AI",
+      "type": "think_tank",
+      "author": "The Diplomat",
+      "url": "https://thediplomat.com/2026/06/6-months-into-kazakhstans-year-of-ai/"
+    },
+    {
+      "title": "ISSAI Explains KazLLM: Why Kazakhstan Built Its Own Large Language Model",
+      "type": "academic",
+      "author": "ISSAI, Nazarbayev University",
+      "url": "https://issai.nu.edu.kz/2026/02/13/issai-explains-kazllm-why-kazakhstan-built-its-own-large-language-model/"
+    },
+    {
+      "title": "National Artificial Intelligence Platform",
+      "type": "government",
+      "author": "Government of Kazakhstan",
+      "url": "https://ai.nitec.kz/en"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kz-1",
+      "title": "Kazakhstan Advances Human-Centered AI With New Law, Governance Program, and UNESCO Assessment",
+      "publisher": "The Astana Times",
+      "url": "https://astanatimes.com/2026/01/kazakhstan-advances-human-centered-ai-with-new-law-governance-program-and-unesco-assessment/",
+      "date": "2026-01",
+      "category": "news"
+    },
+    {
+      "id": "kz-2",
+      "title": "Kazakhstan: New Law Introduces Rules for AI Systems Operating in the Country",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/item/global-legal-monitor/2026-01-12/kazakhstan-new-law-introduces-rules-for-ai-systems-operating-in-the-country",
+      "date": "2026-01",
+      "category": "government"
+    },
+    {
+      "id": "kz-3",
+      "title": "The Law of the Republic of Kazakhstan 'On Artificial Intelligence' has been adopted",
+      "publisher": "EY Kazakhstan",
+      "url": "https://www.ey.com/en_kz/technical/tax-alerts/2025/12/law-on-artificial-intelligence-kazakhstan",
+      "date": "2025-12",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "kz-4",
+      "title": "Year of Digitalization and Artificial Intelligence in Kazakhstan",
+      "publisher": "Prime Minister of the Republic of Kazakhstan",
+      "url": "https://primeminister.kz/en/news/year-of-digitalization-and-artificial-intelligence-in-kazakhstan-30934",
+      "date": "2026-01",
+      "category": "government"
+    },
+    {
+      "id": "kz-5",
+      "title": "6 Months Into Kazakhstan's Year of AI",
+      "publisher": "The Diplomat",
+      "url": "https://thediplomat.com/2026/06/6-months-into-kazakhstans-year-of-ai/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "kz-6",
+      "title": "ISSAI Explains KazLLM: Why Kazakhstan Built Its Own Large Language Model",
+      "publisher": "ISSAI, Nazarbayev University",
+      "url": "https://issai.nu.edu.kz/2026/02/13/issai-explains-kazllm-why-kazakhstan-built-its-own-large-language-model/",
+      "date": "2026-02",
+      "category": "research"
+    },
+    {
+      "id": "kz-7",
+      "title": "Nazarbayev University's ISSAI Presents Kazakh Large Language Model KAZ-LLM",
+      "publisher": "Nazarbayev University",
+      "url": "https://nu.edu.kz/news-en/nazarbayev-university-s-issai-presents-kazakh-large-language-model-kaz-llm/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "kz-8",
+      "title": "Kazakhstan bets on global tech investors for AI infrastructure",
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/2026/07/10/kazakhstan-bets-on-global-tech-investors-for-ai-infrastructure-as-net-fdi-tops-130-billion",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "kz-9",
+      "title": "Freedom Holding Corp to Build $2B Sovereign AI Hub in Kazakhstan Powered by NVIDIA",
+      "publisher": "Barchart",
+      "url": "https://www.barchart.com/story/news/35993892/freedom-holding-corp-to-build-2b-sovereign-ai-hub-in-kazakhstan-powered-by-nvidia",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "kz-10",
+      "title": "Kazakh AI Minister Joins World Leaders Shaping AI Governance",
+      "publisher": "The Astana Times",
+      "url": "https://astanatimes.com/2026/07/kazakh-ai-minister-joins-world-leaders-shaping-ai-governance/",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "kz-11",
+      "title": "National Artificial Intelligence Platform",
+      "publisher": "Government of Kazakhstan (NITEC)",
+      "url": "https://ai.nitec.kz/en",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "kz-12",
+      "title": "Data Centre Valley: Kazakhstan and Firebird sign €8.6B AI agreements with NVIDIA support",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/data-centre-valley-kazakhstan-firebird-111706161.html",
+      "date": "2026-05",
+      "category": "news"
+    }
+  ],
+  "hasMajorUpdate": true
+}

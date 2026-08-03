@@ -11,7 +11,7 @@
   "accentColor": { "light": "#834465", "dark": "#AE6188" },
   "center": [29.9, -1.9],
   "zoom": 7.5,
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-08-02",
   "newDevelopmentsCount": 5,
   "hasMajorUpdate": true,
   "debateTopics": [
@@ -115,6 +115,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Limited; the new National AI Agency is to be backed by a national data centre and governed data sandbox, but a ~400MW national grid constrains large-scale AI compute",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
   },
   "universities": [
     {

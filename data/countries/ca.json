@@ -19,8 +19,8 @@
     56.1
   ],
   "zoom": 3.0,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "Legislative vacuum after AIDA's death",
     "Germany-Canada Sovereign Technology Alliance and cross-border AI sovereignty",
@@ -51,6 +51,15 @@
         "ca-1"
       ],
       "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "ISED's AI Sovereign Compute Infrastructure Program (SCIP) — a call for proposals to build a large-scale public AI supercomputer backed by roughly $890M over seven fiscal years — closed to applications on June 1, 2026 and entered assessment; no build partner had been publicly announced as of early August 2026. It is the compute centrepiece of Canada's broader Sovereign AI Compute Strategy, alongside a separate stream enabling commercial 'sovereign' AI data centres above 100MW.",
+      "date": "2026-06",
+      "sourceIds": [
+        "ca-17",
+        "ca-18"
+      ],
       "needsVerification": true
     },
     {
@@ -248,6 +257,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "domestic",
+    "compute": "Growing sovereign compute: ~$890M public AI supercomputer (SCIP) plus Telus 'AI Factory' data centres",
+    "chipAccess": "Import-reliant on foreign GPUs; some chip-design (Tenstorrent) but no domestic advanced fabrication"
   },
   "universities": [
     {
@@ -553,6 +567,22 @@
       "url": "https://mila.quebec/en/directory/yoshua-bengio",
       "date": "2026",
       "category": "research"
+    },
+    {
+      "id": "ca-17",
+      "title": "AI Sovereign Compute Infrastructure Program",
+      "publisher": "Innovation, Science and Economic Development Canada (ISED)",
+      "url": "https://ised-isde.canada.ca/site/ised/en/ai-sovereign-compute-infrastructure-program",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "ca-18",
+      "title": "Canadian government launches Sovereign AI Compute Strategy",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/canadian-government-launches-sovereign-ai-compute-strategy/",
+      "date": "2026",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

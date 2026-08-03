@@ -11,7 +11,7 @@
   "accentColor": { "light": "#6E4483", "dark": "#9461AE" },
   "center": [-73.0, 4.0],
   "zoom": 4.9,
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-08-02",
   "newDevelopmentsCount": 6,
   "hasMajorUpdate": true,
   "debateTopics": [
@@ -114,6 +114,11 @@
       { "name": "Microsoft Azure", "description": "Cloud provider used across Colombian enterprise and public-sector AI deployments." }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Google building its first in-country data centre (~100MW, Yumbo); reporting notes data centres still lack a critical-infrastructure designation",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
   },
   "universities": [
     {

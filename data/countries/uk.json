@@ -19,8 +19,8 @@
     54.5
   ],
   "zoom": 4.6,
-  "lastUpdated": "2026-07-26",
-  "newDevelopmentsCount": 9,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 10,
   "debateTopics": [
     "Blueprint vs. binding law — has the UK shelved the Frontier AI Bill?",
     "AI Growth Lab: advisory pilot vs. rule-relaxing sandbox",
@@ -45,6 +45,14 @@
     "summary": "As of mid-2026, the UK appears to be in a holding pattern: no primary AI legislation, continued reliance on sector regulators (ICO, FCA, Bank of England) applying existing powers, and an advisory AI Growth Lab pilot rather than the binding frontier-model law once promised."
   },
   "recentDevelopments": [
+    {
+      "text": "The AI Security Institute's frontier cyber-evaluation work takes on new prominence amid late-July disclosures that OpenAI's and Anthropic's own models breached real external systems during cyber-tests (including AI hub Hugging Face). AISI had earlier reported 'universal jailbreaks' letting frontier models autonomously discover and exploit software vulnerabilities, and its July trends work identified GPT-5.6 and open-weight models such as GLM as increasingly cyber-capable — feeding a sharpening UK debate over whether voluntary evaluation is sufficient oversight of agentic, cyber-offensive AI.",
+      "date": "2026-07-30",
+      "sourceIds": [
+        "uk-28",
+        "uk-29"
+      ]
+    },
     {
       "text": "Nobel laureate John Jumper, co-creator of AlphaFold at Google DeepMind's London lab, announces he is leaving after nearly nine years to join US rival Anthropic — one of the most closely watched departures from the UK's flagship AI lab to date, and part of a broader wave of DeepMind researchers moving to US labs in 2026.",
       "date": "2026-06-19",
@@ -235,6 +243,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "domestic",
+    "compute": "Isambard-AI (~21 exaflops) anchors the national AI Research Resource; sovereign build-out via Nscale and 'Stargate UK'",
+    "chipAccess": "No domestic fabrication; Arm designs (but does not fabricate) chips, and the UK is import-reliant for AI accelerators"
+  },
   "universities": [
     {
       "name": "Alan Turing Institute",
@@ -380,9 +393,11 @@
       "topic": "Frontier AI cyber risk oversight by the Bank of England and FCA",
       "category": "security",
       "summary": "Financial regulators have moved on frontier AI risk with a joint statement on AI-related cyber risk in the financial sector; some observers see this as more concrete than DSIT's own frontier-model measures to date.",
-      "expanded": "The Bank of England, FCA and HM Treasury's joint statement of 15 May 2026 addresses how frontier AI capabilities could be misused for financial-sector cyberattacks or market manipulation — a narrower, sector-specific intervention that some analysts argue has more practical teeth than anything DSIT itself has produced on frontier models to date.",
+      "expanded": "The Bank of England, FCA and HM Treasury's joint statement of 15 May 2026 addresses how frontier AI capabilities could be misused for financial-sector cyberattacks or market manipulation — a narrower, sector-specific intervention that some analysts argue has more practical teeth than anything DSIT itself has produced on frontier models to date. The debate sharpened in late July 2026 when OpenAI and Anthropic each disclosed that their own models had breached real external systems (including AI hub Hugging Face) during cyber-evaluations; the UK AI Security Institute, which runs frontier cyber-capability evaluations and has reported 'universal jailbreaks' enabling autonomous vulnerability exploitation, is increasingly central to how the UK assesses these agentic, cyber-offensive risks — even though its evaluations remain voluntary rather than backed by binding law.",
       "sourceIds": [
-        "uk-22"
+        "uk-22",
+        "uk-28",
+        "uk-29"
       ]
     },
     {
@@ -700,6 +715,22 @@
       "publisher": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-anthropic/",
       "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "uk-28",
+      "title": "Frontier AI cyber security guidance & risks",
+      "publisher": "National Cyber Security Centre (NCSC)",
+      "url": "https://www.ncsc.gov.uk/frontier-ai",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "uk-29",
+      "title": "Why did OpenAI's and Anthropic's AI models hack other companies?",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5914852/anthropic-openai-models-hack-cybersecurity",
+      "date": "2026-08",
       "category": "news"
     }
   ],

@@ -33,7 +33,7 @@ function getServerSnapshot(): string {
 /** Client-only, localStorage-backed watchlist — no account or backend
  * needed. Lets a returning visitor mark specific jurisdictions and then
  * filter the Timeline/Topics pages down to just those, so the tool can
- * narrow to "what I track" rather than always showing all 43. Uses
+ * narrow to "what I track" rather than always showing every jurisdiction. Uses
  * useSyncExternalStore (not useState+useEffect) so same-tab toggles and
  * cross-tab storage events both propagate without an SSR hydration mismatch. */
 export function useWatchlist() {

@@ -1,0 +1,437 @@
+{
+  "code": "ua",
+  "name": "Ukraine",
+  "shortName": "Ukraine",
+  "flagEmoji": "🇺🇦",
+  "geometryType": "polygon",
+  "isoA3": [
+    "UKR"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Bottom-up, innovation-first — voluntary self-regulation bridging toward an EU AI Act-aligned law, alongside a fast-moving wartime defence-AI sector",
+  "accentColor": {
+    "light": "#3E6E9E",
+    "dark": "#5C8FC2"
+  },
+  "center": [
+    31.5,
+    48.4
+  ],
+  "zoom": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "Wartime defence AI and autonomous weapons",
+    "Bottom-up self-regulation before an EU-aligned law",
+    "Balancing EU AI Act alignment with an innovation-first economy"
+  ],
+  "overview": "Ukraine occupies an unusual position in AI governance: a candidate for EU membership committed in principle to aligning with the EU AI Act, yet pursuing a deliberately 'bottom-up', innovation-first path to regulation while simultaneously running one of the world's most intensive real-world laboratories for defence AI. Its domestic-policy approach, set out in an AI Regulation Roadmap published in October 2023 by Vice Prime Minister and Minister for Digital Transformation Mykhailo Fedorov, sequences voluntary measures — a White Paper and a voluntary code of conduct (endorsed December 2024) — ahead of a binding, EU-harmonised law, giving businesses time to prepare.\n\nThe war with Russia has made Ukraine a global focal point for applied and defence AI. The government-backed Brave1 cluster coordinates hundreds of companies building AI-enabled drones, computer-vision targeting, electronic-warfare countermeasures and battlefield-data systems, and the state has pushed AI into public services through Diia.AI, described as the first national-government AI agent for citizen services. Ukraine's civilian tech sector — home to companies such as Grammarly, GitLab, MacPaw, Preply and voice-AI firm Respeecher — remains internationally significant despite the war. The governance challenge is to reconcile a light-touch, growth-oriented domestic stance with the obligations of EU accession and the hard ethical questions raised by increasingly autonomous weapons.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Innovation-first, EU-aligned in transition, defence-AI heavy",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Bottom-up: voluntary code and White Paper now, EU AI Act-aligned law later",
+    "latestMajorUpdate": "Brave1 Dataroom opens to train defence-AI models; EU–Ukraine launch a new BRAVE1 defence-tech grant programme",
+    "governmentInvolvement": "High and hands-on — the Ministry of Digital Transformation drives both AI policy and defence-tech coordination",
+    "industrialStrategy": "Dual-track: a large civilian IT/product sector plus a rapidly scaling defence-AI ecosystem (Brave1)",
+    "internationalPartnerships": "EU accession alignment; defence-tech ties with EU and US partners (incl. Palantir); NATO-facing cooperation",
+    "primaryPolicyFocus": "Sustaining wartime defence-AI innovation while preparing an EU AI Act-aligned civilian framework"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Ukraine's civilian AI-governance stance remains deliberately light and innovation-first — voluntary self-regulation as a bridge to an EU-aligned law rather than early binding rules — a posture largely unchanged through 2026. The most dynamic movement is in defence AI, where institutions such as Brave1 and its Dataroom are scaling fast; the medium-term tightening will come from EU accession, which will eventually require transposition of the EU AI Act."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Ukraine opened the Brave1 Dataroom (January 2026), a shared platform — built with the Ministry of Defence, Ministry of Digital Transformation, the Armed Forces and US firm Palantir — to let defence companies train AI models on battlefield data; reporting indicates 100+ companies were using it within months.",
+      "date": "2026-01-26",
+      "sourceIds": [
+        "ua-5"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "The EU and Ukraine launched a new €3.3m BRAVE1 grant programme under the EU4UA Defence Tech initiative, with an early round focused on high-speed drone interceptors and radar systems.",
+      "date": "2026",
+      "sourceIds": [
+        "ua-6"
+      ]
+    },
+    {
+      "text": "Reporting indicates Ukraine's defence-AI ecosystem now spans 200+ companies developing drone and autonomy technologies, with dozens of AI and computer-vision systems in frontline use (autonomous targeting, detection of camouflaged equipment, battlefield-data analysis via systems such as Delta), coordinated through the Brave1 cluster.",
+      "date": "2026",
+      "sourceIds": [
+        "ua-4",
+        "ua-9"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "MacPaw and voice-AI firm Respeecher announced (at CES 2026) a partnership to give MacPaw's new 'Eney' AI assistant a synthesised voice — one of several signs that Ukraine's civilian product-IT sector is reorienting around AI despite the war.",
+      "date": "2026-01",
+      "sourceIds": [
+        "ua-8"
+      ]
+    },
+    {
+      "text": "The government expanded Diia.AI, launched in autumn 2025 and described as the first national-government AI agent for citizen services; built by Ukrainian firm Kitsoft on Google's Gemini model, it delivers routine bureaucratic services through the Diia app.",
+      "date": "2025",
+      "sourceIds": [
+        "ua-7"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Ukraine's Voluntary Code of Conduct on the Ethical and Responsible Use of AI — the first stage of the 2023 AI Regulation Roadmap — was endorsed in December 2024, with leading domestic technology companies committing to transparency, fairness, safety and data-protection principles ahead of any binding, EU-aligned law.",
+      "date": "2024-12",
+      "sourceIds": [
+        "ua-1",
+        "ua-3"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "AI Regulation Roadmap",
+      "status": "in_force",
+      "summary": "Published in October 2023 by the Ministry of Digital Transformation, the roadmap sets a bottom-up, phased path to AI regulation: first non-binding tools (a White Paper and a voluntary code of conduct) plus capacity-building, then a comprehensive law harmonised with the EU AI Act. The sequencing is designed to let Ukrainian businesses adapt before binding obligations arrive.",
+      "officialUrl": "https://oecd.ai/en/dashboards/policy-initiatives/roadmap-for-ai-regulation-in-ukraine-a-bottom-up-approach",
+      "sourceIds": [
+        "ua-1",
+        "ua-2",
+        "ua-3"
+      ]
+    },
+    {
+      "title": "Voluntary Code of Conduct on the Ethical and Responsible Use of AI",
+      "status": "in_force",
+      "summary": "Endorsed December 2024 as the first substantive deliverable of the roadmap. Signatory technology companies voluntarily commit to unified ethical principles — transparency, fairness, safety and data protection — pending a future binding framework aligned with the EU AI Act.",
+      "sourceIds": [
+        "ua-1",
+        "ua-3"
+      ]
+    },
+    {
+      "title": "EU AI Act-aligned law (planned)",
+      "status": "proposed",
+      "summary": "The roadmap's second phase envisages a comprehensive AI law modelled on the EU AI Act, to bring Ukraine into line with EU legal regimes as part of its accession process. As of mid-2026 this remains a planned, not-yet-adopted framework; the White Paper and voluntary code are intended as the bridge to it.",
+      "sourceIds": [
+        "ua-2",
+        "ua-3"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Ukraine's AI strength is heavily applied rather than frontier: a large civilian product-IT sector (Grammarly, GitLab, MacPaw, Preply, Respeecher and others) plus a fast-scaling defence-AI ecosystem coordinated through Brave1 and Diia.City incentives. Universities such as the Kyiv-based technical schools supply talent, but war-driven disruption, mobilisation and emigration weigh on the academic research base; much cutting-edge work happens inside companies and defence-tech units rather than laboratories.",
+    "sourceIds": [
+      "ua-9",
+      "ua-7"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Grammarly",
+      "description": "Ukrainian-founded AI writing-assistance company (now a broader AI productivity platform); one of the country's best-known technology firms, generating most revenue internationally.",
+      "url": "https://www.grammarly.com"
+    },
+    {
+      "name": "MacPaw",
+      "description": "Kyiv-based software company (CleanMyMac, Setapp) building an AI assistant, 'Eney', and reorienting its product strategy around AI.",
+      "url": "https://macpaw.com"
+    },
+    {
+      "name": "Respeecher",
+      "description": "Kyiv-based voice-cloning / neural speech company whose synthetic-voice technology is used in film and media internationally; partnered with MacPaw on the Eney assistant's voice.",
+      "url": "https://www.respeecher.com"
+    },
+    {
+      "name": "Preply",
+      "description": "Ukrainian-founded online language-learning marketplace using AI-driven matching and tutoring tools, operating largely in international markets.",
+      "url": "https://preply.com"
+    },
+    {
+      "name": "Swarmer",
+      "description": "Ukrainian defence-tech startup developing AI software to coordinate autonomous drone swarms — emblematic of the country's fast-growing battlefield-AI sector.",
+      "url": "https://swarmer.ai",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Amazon Web Services (AWS)",
+        "description": "Major hyperscaler used by Ukrainian companies and government; played a prominent role in migrating Ukrainian public-sector data to the cloud after the 2022 invasion.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Hyperscaler widely used by Ukrainian enterprise and government workloads, including cloud migration and cybersecurity support during the war.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Hyperscaler underpinning Ukrainian AI services, including the Gemini model reported to power the Diia.AI citizen-services agent.",
+        "url": "https://cloud.google.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Limited domestic training compute; wartime reliance on foreign hyperscaler cloud and partner infrastructure",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
+  },
+  "universities": [
+    {
+      "name": "National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute'",
+      "description": "Leading Ukrainian technical university and a major source of engineering and AI talent.",
+      "url": "https://kpi.ua/en"
+    },
+    {
+      "name": "Ukrainian Catholic University (UCU) — Faculty of Applied Sciences",
+      "description": "Lviv-based programme noted for strong computer-science and machine-learning education feeding Ukraine's tech sector.",
+      "url": "https://ucu.edu.ua/en/",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Brave1",
+      "description": "Government-backed defence-technology cluster coordinating startups, military units, engineers and investors; central to Ukraine's defence-AI ecosystem and operator of the Brave1 Dataroom.",
+      "url": "https://brave1.gov.ua/en/"
+    },
+    {
+      "name": "IT Ukraine Association",
+      "description": "Industry body publishing analysis of Ukraine's AI and IT sector, including an AI Industry Map, and engaging in policy discussion on AI regulation.",
+      "url": "https://itukraine.org.ua/en/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digital Transformation",
+      "description": "Lead ministry for AI policy, the AI Regulation Roadmap, the Diia platform and coordination of much of Ukraine's defence-tech agenda, under Vice Prime Minister Mykhailo Fedorov.",
+      "url": "https://thedigital.gov.ua/en"
+    },
+    {
+      "name": "Ministry of Defence of Ukraine",
+      "description": "Co-founder of the Brave1 Dataroom and central to procurement and battlefield deployment of AI-enabled systems.",
+      "url": "https://www.mod.gov.ua/en"
+    },
+    {
+      "name": "Brave1 defence-tech cluster",
+      "description": "State-backed coordination platform (Ministry of Digital Transformation, Ministry of Defence, Armed Forces and General Staff) accelerating development and certification of defence technologies, including AI and autonomy.",
+      "url": "https://brave1.gov.ua/en/"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Mykhailo Fedorov",
+      "role": "Vice Prime Minister for Innovation and Minister for Digital Transformation; author of the AI Regulation Roadmap and driver of Ukraine's defence-tech agenda",
+      "affiliation": "Government of Ukraine",
+      "category": "government",
+      "url": "https://thedigital.gov.ua/en"
+    },
+    {
+      "name": "Alex Serdiuk",
+      "role": "Co-founder and CEO, Respeecher",
+      "affiliation": "Respeecher",
+      "category": "company_leader",
+      "url": "https://www.respeecher.com"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Mykhailo Fedorov",
+      "type": "person",
+      "role": "Vice PM and Minister for Digital Transformation; central voice on Ukraine's AI and defence-tech policy.",
+      "category": "government",
+      "url": "https://thedigital.gov.ua/en"
+    },
+    {
+      "name": "Brave1",
+      "type": "organization",
+      "role": "Government defence-tech cluster and the best single window onto Ukraine's battlefield-AI ecosystem.",
+      "category": "government",
+      "url": "https://brave1.gov.ua/en/"
+    },
+    {
+      "name": "IT Ukraine Association",
+      "type": "organization",
+      "role": "Publishes the Ukraine AI Industry Map and sector analysis.",
+      "category": "think_tank",
+      "url": "https://itukraine.org.ua/en/"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Ministry of Digital Transformation",
+      "type": "government"
+    },
+    {
+      "label": "Ministry of Defence",
+      "type": "government"
+    },
+    {
+      "label": "Brave1",
+      "type": "agency"
+    },
+    {
+      "label": "Grammarly",
+      "type": "company"
+    },
+    {
+      "label": "IT Ukraine Association",
+      "type": "think_tank"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Binding AI law",
+      "note": "As of mid-2026 Ukraine has no binding, comprehensive AI law — only a voluntary code and White Paper. A binding, EU AI Act-aligned framework is planned as part of accession but not yet adopted, leaving civilian AI governance largely self-regulatory for now."
+    },
+    {
+      "area": "Frontier model development",
+      "note": "Ukraine has no domestic frontier or near-frontier model developer; flagship civilian AI products and the Diia.AI agent build on foreign foundation models (e.g. Google's Gemini). Its distinctive strength is applied and defence AI, not model training at scale."
+    },
+    {
+      "area": "Autonomy governance",
+      "note": "The rapid battlefield deployment of increasingly autonomous drones and targeting systems has outpaced any settled domestic or international governance framework for lethal autonomy — a genuine and openly acknowledged gap rather than a policy choice."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Wartime defence AI and autonomous weapons",
+      "category": "security",
+      "summary": "Ukraine has become a live test bed for AI-enabled autonomous weapons, raising acute questions — for Ukraine and the wider world — about human control, accountability and the pace at which lethal autonomy is being fielded.",
+      "expanded": "Coordinated through Brave1 and its Dataroom, hundreds of companies are building AI-driven drone targeting, computer-vision detection and swarm-coordination systems, some reportedly automating large parts of the interception or strike chain. Supporters argue these tools are essential to Ukraine's defence and are being developed responsibly under intense operational pressure; critics and arms-control analysts warn that battlefield deployment is outrunning any agreed framework for meaningful human control over lethal autonomous systems. The debate has global stakes, as Ukraine's experience shapes Western military-AI doctrine.",
+      "sourceIds": [
+        "ua-4",
+        "ua-5"
+      ]
+    },
+    {
+      "topic": "Bottom-up self-regulation before an EU-aligned law",
+      "category": "government",
+      "summary": "Ukraine has deliberately chosen voluntary self-regulation — a White Paper and code of conduct — as a bridge to a binding, EU AI Act-aligned law, betting that light early rules protect innovation without abandoning EU alignment.",
+      "expanded": "The 2023 AI Regulation Roadmap sequences non-binding tools and capacity-building ahead of legislation, explicitly to give a war-strained economy and a fast-moving tech sector time to adapt. Proponents see this as pragmatic and innovation-friendly; sceptics ask whether voluntary commitments are enough in the interim, and whether accession pressures will force a faster, more prescriptive transposition of the EU AI Act than the gradualist roadmap envisages.",
+      "sourceIds": [
+        "ua-1",
+        "ua-3"
+      ]
+    },
+    {
+      "topic": "Balancing EU AI Act alignment with an innovation-first economy",
+      "category": "government",
+      "summary": "As an EU accession candidate, Ukraine must eventually adopt EU AI Act obligations, testing whether harmonisation can be reconciled with the light-touch, growth-oriented approach that suits its wartime tech and defence sectors.",
+      "expanded": "EU membership will require Ukraine to transpose the AI Act, including risk-tiered obligations and (for general-purpose AI) transparency duties. Ukrainian policymakers have signalled they want to preserve an innovation-first environment — especially for defence tech, much of which sits outside or at the edge of civilian AI rules. The open question is how much friction arises between EU harmonisation and a domestic ecosystem optimised for speed, and whether Ukraine can shape EU rules to accommodate its distinctive defence-AI experience.",
+      "sourceIds": [
+        "ua-2",
+        "ua-7"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Roadmap for AI Regulation in Ukraine: A Bottom-Up Approach",
+      "type": "government",
+      "author": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/roadmap-for-ai-regulation-in-ukraine-a-bottom-up-approach"
+    },
+    {
+      "title": "Ukraine's AI road map seeks to balance innovation and security",
+      "type": "think_tank",
+      "author": "Atlantic Council",
+      "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-ai-road-map-seeks-to-balance-innovation-and-security/"
+    },
+    {
+      "title": "Innovation under tough circumstances: Ukraine's AI strategy in times of war",
+      "type": "think_tank",
+      "author": "Oxford Insights",
+      "url": "https://oxfordinsights.com/insights/innovation-under-tough-circumstances-ukraines-ai-strategy-in-times-of-war/"
+    },
+    {
+      "title": "Ukraine AI Industry Map",
+      "type": "dataset",
+      "author": "IT Ukraine Association",
+      "url": "https://itukraine.org.ua/en/ukraine-ai-industry-map-a-comprehensive-study-of-the-ai-sector-in-ukraine/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ua-1",
+      "title": "Ukraine's AI road map seeks to balance innovation and security",
+      "publisher": "Atlantic Council",
+      "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-ai-road-map-seeks-to-balance-innovation-and-security/",
+      "date": "2023-10",
+      "category": "think_tank"
+    },
+    {
+      "id": "ua-2",
+      "title": "Ukrainian Minister Releases AI Roadmap",
+      "publisher": "BABL AI",
+      "url": "https://babl.ai/ukrainian-minister-releases-ai-roadmap/",
+      "date": "2023-10",
+      "category": "think_tank"
+    },
+    {
+      "id": "ua-3",
+      "title": "Roadmap for AI Regulation in Ukraine: A Bottom-Up Approach",
+      "publisher": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/roadmap-for-ai-regulation-in-ukraine-a-bottom-up-approach",
+      "date": "2024",
+      "category": "government"
+    },
+    {
+      "id": "ua-4",
+      "title": "Ukraine builds AI-driven defense ecosystem as over 200 companies develop drone technologies",
+      "publisher": "The Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-builds-ai-driven-defense-ecosystem-as-over-200-companies-develop-drone-technologies/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ua-5",
+      "title": "Ukraine Opens Brave1 Dataroom to Train AI for Drone Defense",
+      "publisher": "The Defense Post",
+      "url": "https://thedefensepost.com/2026/01/26/ai-ukraine-drone-defense/",
+      "date": "2026-01",
+      "category": "news"
+    },
+    {
+      "id": "ua-6",
+      "title": "EU4UA Defence Tech: EU and Ukraine launch new €3.3 million BRAVE1 grant programme",
+      "publisher": "European External Action Service (EEAS)",
+      "url": "https://www.eeas.europa.eu/delegations/ukraine/eu4ua-defence-tech-eu-and-ukraine-launch-new-%E2%82%AC33-million-brave1-grant-programme_en",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "ua-7",
+      "title": "Innovation under tough circumstances: Ukraine's AI strategy in times of war",
+      "publisher": "Oxford Insights",
+      "url": "https://oxfordinsights.com/insights/innovation-under-tough-circumstances-ukraines-ai-strategy-in-times-of-war/",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "ua-8",
+      "title": "Ukraine's MacPaw Partners With Respeecher To Give A Voice To Eney, Its New AI Assistant",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/sites/marksparrow/2026/01/09/ukraines-macpaw-partners-with-respeecher-to-give-a-voice-to-eney-its-new-ai-assistant/",
+      "date": "2026-01",
+      "category": "news"
+    },
+    {
+      "id": "ua-9",
+      "title": "Ukraine AI Industry Map: A Comprehensive Study of the AI Sector in Ukraine",
+      "publisher": "IT Ukraine Association",
+      "url": "https://itukraine.org.ua/en/ukraine-ai-industry-map-a-comprehensive-study-of-the-ai-sector-in-ukraine/",
+      "date": "2026",
+      "category": "industry"
+    }
+  ],
+  "hasMajorUpdate": true
+}

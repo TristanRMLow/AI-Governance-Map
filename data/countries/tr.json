@@ -11,7 +11,7 @@
   "accentColor": { "light": "#4C8344", "dark": "#6BAE61" },
   "center": [35.2, 39.0],
   "zoom": 4.7,
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-08-02",
   "newDevelopmentsCount": 6,
   "hasMajorUpdate": true,
   "debateTopics": [
@@ -155,6 +155,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "State-backed build-out: Turkcell-Google Cloud Ankara hyperscale region and a ~1GW-by-2030 data-centre target under the 2026-2030 Action Plan",
+    "chipAccess": "Import-reliant; a defence-industry indigenisation push but no advanced domestic chip fabrication"
   },
   "universities": [
     {

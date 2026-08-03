@@ -11,14 +11,14 @@
   "accentColor": { "light": "#584483", "dark": "#7961AE" },
   "center": [-64.0, -34.0],
   "zoom": 3.6,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 9,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Whether AI-run 'non-human corporations' can be safely accountable without a human owner",
     "AI-driven disruption of Argentina's large IT-services workforce and who bears responsibility for retraining"
   ],
-  "overview": "Argentina has no binding AI-specific law. The main formal governance instruments are voluntary: Provision 2/2023 from the Jefatura de Gabinete de Ministros set out ethical principles (human oversight, accountability, transparency) for AI, and the data-protection authority AAIP followed with Resolution 161/2023 creating a National Program for Transparency and Personal Data Protection in the use of AI, later elaborated in a 2024 guide for public and private entities. An Interministerial Working Group on AI, coordinated through the Secretaría de Asuntos Estratégicos, has sought to coordinate a broader national strategy, and a bill to create an Observatorio Federal sobre Inteligencia Artificial (OFIA) has been proposed but not enacted. Under President Javier Milei, the government's stated posture goes further than most soft-law jurisdictions: Minister of Deregulation and State Transformation Federico Sturzenegger has said his goal is to ensure 'no artificial intelligence law appears,' framing regulatory restraint itself as Argentina's core AI policy.\n\nThe most striking 2026 development is a bill, associated with Sturzenegger's broader corporate-law reform push and publicly championed by Milei, to create 'non-human corporations' — companies that could be operated by AI agents or robots, with human shareholders optional (though a human administrator remains legally required and liable for harm). Milei laid out a three-pillar pitch in a June 2026 Financial Times op-ed: no AI-specific regulation, this new corporate form, and low corporate taxes, aimed at making Buenos Aires a hub for global AI investment. In parallel, presidential chief advisor Demian Reidel has promoted a plan for five to six nuclear-powered AI data centers in Patagonia, intended to position Argentina as a fourth global AI hub after China, the US and Europe, while Congress has advanced 'Super RIGI,' an expanded large-investment incentive regime explicitly targeting AI data centers, semiconductors and related infrastructure. On the industry side, Argentina's globally exported IT-services sector — anchored by Globant, alongside companies like Mercado Libre — is both a source of AI-driven growth and a flashpoint for labor tension, as the AGC tech-workers' union has clashed publicly with employers over AI-linked job disruption.",
+  "overview": "Argentina has no binding AI-specific law. The main formal governance instruments are voluntary: Provision 2/2023 from the Jefatura de Gabinete de Ministros set out ethical principles (human oversight, accountability, transparency) for AI, and the data-protection authority AAIP followed with Resolution 161/2023 creating a National Program for Transparency and Personal Data Protection in the use of AI, later elaborated in a 2024 guide for public and private entities. An Interministerial Working Group on AI, coordinated through the Secretaría de Asuntos Estratégicos, has sought to coordinate a broader national strategy, and a bill to create an Observatorio Federal sobre Inteligencia Artificial (OFIA) has been proposed but not enacted. Under President Javier Milei, the government's stated posture goes further than most soft-law jurisdictions: Minister of Deregulation and State Transformation Federico Sturzenegger has said his goal is to ensure 'no artificial intelligence law appears,' framing regulatory restraint itself as Argentina's core AI policy.\n\nThe most striking 2026 development is a bill, associated with Sturzenegger's broader corporate-law reform push and publicly championed by Milei, to create 'non-human corporations' — companies that could be operated by AI agents or robots, with human shareholders optional (though a human administrator remains legally required and liable for harm). Milei laid out a three-pillar pitch in a June 2026 Financial Times op-ed: no AI-specific regulation, this new corporate form, and low corporate taxes, aimed at making Buenos Aires a hub for global AI investment. In parallel, presidential chief advisor Demian Reidel has promoted a plan for five to six nuclear-powered AI data centers in Patagonia, intended to position Argentina as a fourth global AI hub after China, the US and Europe. The most concrete expression of that ambition so far is 'Stargate Argentina', a letter of intent announced in October 2025 under which OpenAI and local developer Sur Energy would build a large AI data centre in Patagonia — reported at up to US$25 billion and around 500MW, and described as OpenAI's first such project in Latin America — structured under the RIGI incentive regime, though as of mid-2026 it remains an early-stage letter of intent rather than a committed build. Congress, meanwhile, has advanced 'Super RIGI,' an expanded large-investment incentive regime explicitly targeting AI data centers, semiconductors and related infrastructure. On the industry side, Argentina's globally exported IT-services sector — anchored by Globant, alongside companies like Mercado Libre — is both a source of AI-driven growth and a flashpoint for labor tension, as the AGC tech-workers' union has clashed publicly with employers over AI-linked job disruption.",
   "atAGlance": {
     "policyDirection": {
       "label": "Explicitly deregulatory; investment-first approach with no binding AI law",
@@ -37,9 +37,9 @@
   },
   "recentDevelopments": [
     {
-      "text": "Presidential chief advisor Demian Reidel publicly argues that Argentina should pursue an AI-hub strategy 'without regulations,' saying new rules would deter investment.",
-      "date": "2025-04-24",
-      "sourceIds": ["ar-7"]
+      "text": "The Senate schedules floor debate on the expanded 'Super RIGI' investment regime for around August 5, 2026, after committees moved to issue their report; the governing bloc reportedly aims to convert the bill — which targets AI data centres, semiconductors and clean energy — into law before the end of August.",
+      "date": "2026-08-01",
+      "sourceIds": ["ar-22"]
     },
     {
       "text": "Reidel and Secretary of Innovation Darío Genua detail a plan reportedly involving 5–6 nuclear-powered AI data centers in Patagonia intended to make Argentina a 'fourth global AI hub'; specific scale and investor details rest on a single outlet's reporting and have not been independently cross-confirmed.",
@@ -48,9 +48,20 @@
       "needsVerification": true
     },
     {
-      "text": "Dispute between Globant and the AGC tech-workers' union sharpens after Globant's CEO acknowledges AI is transforming the sector, while the union argues the company's internal retraining plan is insufficient and calls for industry-wide, collectively bargained commitments.",
-      "date": "2026-04-13",
-      "sourceIds": ["ar-13"]
+      "text": "Chamber of Deputies approves the expanded 'Super RIGI' large-investment incentive regime, targeting AI data centers, semiconductors and other strategic sectors with a minimum $1 billion investment threshold and a reduced 15% corporate tax rate; bill proceeds to the Senate.",
+      "date": "2026-06-25",
+      "sourceIds": ["ar-5", "ar-6"],
+      "severity": "major"
+    },
+    {
+      "text": "Historian Yuval Noah Harari publishes a rebuttal in the Financial Times warning that AI-run corporations without human accountability could enable systemic abuse.",
+      "date": "2026-06-07",
+      "sourceIds": ["ar-1"]
+    },
+    {
+      "text": "President Milei publishes a Financial Times op-ed outlining a three-pillar strategy — no AI regulation, the new non-human corporate form, and low corporate taxes — to position Argentina as a global AI-investment destination.",
+      "date": "2026-06-03",
+      "sourceIds": ["ar-1"]
     },
     {
       "text": "Milei government submits a bill enabling 'non-human corporations' — companies operated by AI agents or robots, with optional human shareholders but a legally required, liable human administrator — rewriting the General Companies Act that has governed Argentine business since 1972.",
@@ -59,20 +70,20 @@
       "severity": "major"
     },
     {
-      "text": "President Milei publishes a Financial Times op-ed outlining a three-pillar strategy — no AI regulation, the new non-human corporate form, and low corporate taxes — to position Argentina as a global AI-investment destination.",
-      "date": "2026-06-03",
-      "sourceIds": ["ar-1"]
+      "text": "Dispute between Globant and the AGC tech-workers' union sharpens after Globant's CEO acknowledges AI is transforming the sector, while the union argues the company's internal retraining plan is insufficient and calls for industry-wide, collectively bargained commitments.",
+      "date": "2026-04-13",
+      "sourceIds": ["ar-13"]
     },
     {
-      "text": "Historian Yuval Noah Harari publishes a rebuttal in the Financial Times warning that AI-run corporations without human accountability could enable systemic abuse.",
-      "date": "2026-06-07",
-      "sourceIds": ["ar-1"]
-    },
-    {
-      "text": "Chamber of Deputies approves the expanded 'Super RIGI' large-investment incentive regime, targeting AI data centers, semiconductors and other strategic sectors with a minimum $1 billion investment threshold and a reduced 15% corporate tax rate; bill proceeds to the Senate.",
-      "date": "2026-06-25",
-      "sourceIds": ["ar-5", "ar-6"],
+      "text": "OpenAI and local developer Sur Energy announce 'Stargate Argentina', a letter of intent to build a large AI data centre in Patagonia — reported at up to US$25 billion and roughly 500MW, and described as OpenAI's first data-centre project in Latin America — to be structured under the RIGI incentive regime; as of mid-2026 it remains an early-stage letter of intent rather than a committed build.",
+      "date": "2025-10",
+      "sourceIds": ["ar-21"],
       "severity": "major"
+    },
+    {
+      "text": "Presidential chief advisor Demian Reidel publicly argues that Argentina should pursue an AI-hub strategy 'without regulations,' saying new rules would deter investment.",
+      "date": "2025-04-24",
+      "sourceIds": ["ar-7"]
     }
   ],
   "policyAndRegulation": [
@@ -140,6 +151,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Early-stage; the 'Stargate Argentina' OpenAI/Sur Energy letter of intent (~500MW, Patagonia) and 'Super RIGI' incentives target large AI data centres, but little is built yet",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
   },
   "universities": [
     {
@@ -375,6 +391,22 @@
       "publisher": "La Vanguardia (Diario)",
       "url": "https://www.diariolavanguardia.com/tecnologia/18193-asi-es-el-ambicioso-programa-de-milei-que-creara-6-centros-de-inteligencia-artificial-en-argentina/",
       "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "ar-21",
+      "title": "OpenAI plans 500MW data center in Argentina ('Stargate Argentina')",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-plans-500mw-data-center-in-argentina/",
+      "date": "2025-10",
+      "category": "news"
+    },
+    {
+      "id": "ar-22",
+      "title": "Súper RIGI: el oficialismo buscará dictaminar la próxima semana en el Senado",
+      "publisher": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/07/29/super-rigi-el-oficialismo-buscara-dictaminar-la-proxima-semana-en-el-senado/",
+      "date": "2026-07-29",
       "category": "news"
     }
   ]

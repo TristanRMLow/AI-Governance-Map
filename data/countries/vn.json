@@ -11,8 +11,8 @@
   "accentColor": { "light": "#504483", "dark": "#7061AE" },
   "center": [108.0, 14.5],
   "zoom": 4.5,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
   "hasMajorUpdate": true,
   "debateTopics": [
     "AI-driven job displacement in Vietnam's IT workforce vs. talent shortages",
@@ -37,6 +37,22 @@
     "summary": "Vietnam has moved unusually quickly among Southeast Asian countries from strategic framing (Resolution 57, December 2024) to a binding, risk-tiered AI statute in force since March 2026 — a notably faster and firmer trajectory than most regional peers, which remain at the guideline or draft-bill stage. Implementation capacity and enforcement consistency for the new law's pre-market approval and audit requirements remain to be tested in practice."
   },
   "recentDevelopments": [
+    {
+      "text": "Vietnam features prominently in Nvidia's 'sovereign AI' push: on June 3, 2026 FPT and Viettel are named among a limited group of national partners, with FPT and Nvidia releasing an open, population-scale Vietnamese dataset ('Nemotron-Personas-Vietnam') and Viettel AI building a national legal-sector AI application by fine-tuning Nvidia's Nemotron open models.",
+      "date": "2026-06",
+      "sourceIds": ["vn-12", "vn-13"]
+    },
+    {
+      "text": "Viettel puts into operation Vietnam's first Nvidia DGX B200 supercomputer (eight Blackwell GPUs) at its technical centre in Hoa Lac, Hanoi, describing it as a step toward sovereign, trusted AI capability and the training of Vietnamese-language models.",
+      "date": "2026-02-07",
+      "sourceIds": ["vn-14"]
+    },
+    {
+      "text": "Vietnam's Law on Digital Technology Industry (No. 71/2025/QH15, passed June 14, 2025) takes effect on January 1, 2026 — described as the world's first dedicated digital-technology-industry law, covering AI, semiconductors, IoT, cloud and digital assets with tax and investment incentives; its AI chapter was subsequently superseded by the standalone Law on Artificial Intelligence that took effect March 1, 2026.",
+      "date": "2026-01-01",
+      "sourceIds": ["vn-15"],
+      "needsVerification": true
+    },
     {
       "text": "Politburo issues Resolution No. 57-NQ/TW, elevating science, technology, innovation and digital transformation to a top national strategic breakthrough, with a goal of ranking Vietnam among ASEAN's top three countries in AI R&D by 2030.",
       "date": "2024-12-22",
@@ -80,6 +96,13 @@
       "sourceIds": ["vn-5", "vn-6"]
     },
     {
+      "title": "Law on Digital Technology Industry (No. 71/2025/QH15)",
+      "status": "in_force",
+      "summary": "Passed June 14, 2025 and in force since January 1, 2026; reported as the world's first dedicated law on the digital technology industry, covering AI, semiconductors, IoT, cloud computing, digital data and digital assets, with tax and investment incentives and a target of building 150,000 digital-tech firms by 2035. Its original AI chapter was superseded by the standalone Law on Artificial Intelligence (No. 134/2025/QH15) that took effect March 1, 2026.",
+      "sourceIds": ["vn-15"],
+      "needsVerification": true
+    },
+    {
       "title": "Decision No. 1131/QD-TTg (Strategic Technologies List)",
       "status": "in_force",
       "summary": "Prime Ministerial decision (June 12, 2025) listing AI as a top strategic technology and strategic technology product for national development.",
@@ -121,6 +144,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Building fast: Viettel's Nvidia DGX B200 supercomputer (Hoa Lac), FPT's US$200M AI factory, and a planned 140-MW Viettel data centre",
+    "chipAccess": "Import-reliant, channelled through Nvidia 'sovereign AI' partnerships with FPT and Viettel"
   },
   "universities": [
     {
@@ -322,6 +350,38 @@
       "publisher": "Vietnam Investment Review",
       "url": "https://vir.com.vn/ai-ready-workforce-key-to-vietnams-next-decade-analysts-say-155861.html",
       "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "vn-12",
+      "title": "Vietnam's tech giant FPT, Viettel join Nvidia's sovereign AI push",
+      "publisher": "TNGlobal",
+      "url": "https://technode.global/2026/06/03/vietnams-tech-giant-fpt-viettel-join-nvidias-sovereign-ai-push/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "vn-13",
+      "title": "Nvidia, Vietnam's tech giant FPT release open Vietnam AI dataset to advance sovereign AI development",
+      "publisher": "TNGlobal",
+      "url": "https://technode.global/2026/06/08/nvdia-vietnams-tech-giant-fpt-release-open-vietnam-ai-dataset-to-advance-sovereign-ai-development/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "vn-14",
+      "title": "Viettel launches Vietnam's first Nvidia DGX B200 supercomputer for AI development",
+      "publisher": "VOV (Voice of Vietnam)",
+      "url": "https://english.vov.vn/en/society/viettel-launches-vietnams-first-nvidia-dgx-b200-supercomputer-for-ai-development-post1267372.vov",
+      "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "vn-15",
+      "title": "Vietnam Passes First-Ever Law on Digital Technology Industry",
+      "publisher": "Vietnam Briefing",
+      "url": "https://www.vietnam-briefing.com/news/vietnam-passes-first-ever-law-on-digital-technology-industry.html/",
+      "date": "2025",
       "category": "news"
     }
   ]

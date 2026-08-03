@@ -11,8 +11,8 @@
   "accentColor": { "light": "#5B8344", "dark": "#7DAE61" },
   "center": [-6.5, 31.8],
   "zoom": 5.2,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Whether 'Maroc IA 2030' can deliver genuine digital and linguistic sovereignty while relying heavily on foreign AI labs like Mistral AI",
@@ -37,6 +37,18 @@
   },
   "recentDevelopments": [
     {
+      "text": "African Center for Strategic Studies and Digitalization report projects that AI-driven automation could put over 1.3 million net Moroccan jobs at risk by 2030 (roughly 1.5 million jobs facing direct automation pressure, offset by about 180,000 new digital roles), with BPO/offshoring, banking/insurance, automotive and textile sectors most exposed.",
+      "date": "2026-04-23",
+      "sourceIds": ["ma-4"]
+    },
+    {
+      "text": "On the sidelines of GITEX Africa in Marrakech, a consortium led by US firm Nexus Core Systems — with Nvidia, South Korea's Naver and investor Lloyd Capital — signs a roughly $1.2 billion memorandum of understanding to build the 'Nexus AI Factory' near Casablanca, a sovereign AI data centre targeting up to 500MW of renewable-powered capacity and phased through 2027 in support of Morocco's digital-2030 ambitions.",
+      "date": "2026-04-09",
+      "sourceIds": ["ma-13", "ma-14"],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
       "text": "Ministry of Digital Transition and Administrative Reform officially launches the 'Maroc IA 2030' national AI roadmap and the JAZARI ROOT institute in Rabat, operationalizing the July 2025 National Artificial Intelligence Conference.",
       "date": "2026-01-12",
       "sourceIds": ["ma-1", "ma-2", "ma-12"],
@@ -48,19 +60,14 @@
       "sourceIds": ["ma-3", "ma-1"]
     },
     {
-      "text": "African Center for Strategic Studies and Digitalization report projects that AI-driven automation could put over 1.3 million net Moroccan jobs at risk by 2030 (roughly 1.5 million jobs facing direct automation pressure, offset by about 180,000 new digital roles), with BPO/offshoring, banking/insurance, automotive and textile sectors most exposed.",
-      "date": "2026-04-23",
-      "sourceIds": ["ma-4"]
+      "text": "Amal El Fallah Seghrouchni, an AI researcher, is appointed Minister Delegate to the Head of Government in charge of Digital Transition and Administrative Reform, succeeding Ghita Mezzour.",
+      "date": "2024-10",
+      "sourceIds": ["ma-6"]
     },
     {
       "text": "Minister Ghita Mezzour (then Minister Delegate for Digital Transition) meets OpenAI COO Brad Lightcap in San Francisco to discuss potential AI research cooperation tailored to Moroccan needs.",
       "date": "2023-10",
       "sourceIds": ["ma-5"]
-    },
-    {
-      "text": "Amal El Fallah Seghrouchni, an AI researcher, is appointed Minister Delegate to the Head of Government in charge of Digital Transition and Administrative Reform, succeeding Ghita Mezzour.",
-      "date": "2024-10",
-      "sourceIds": ["ma-6"]
     }
   ],
   "policyAndRegulation": [
@@ -103,6 +110,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "UM6P 'Toubkal' supercomputer (among Africa's most powerful); a ~$1.2bn Nexus AI Factory near Casablanca (up to 500MW, backed by Nvidia and Naver) planned through 2027",
+    "chipAccess": "Import-reliant; the planned Nexus factory would deploy Nvidia GPUs"
   },
   "universities": [
     {
@@ -292,6 +304,22 @@
       "title": "Morocco's offshoring sector makes a comeback, but don't expect it to last",
       "publisher": "Hespress English",
       "url": "https://en.hespress.com/83988-moroccos-offshoring-sector-makes-a-comeback-but-dont-expect-it-to-last.html",
+      "category": "news"
+    },
+    {
+      "id": "ma-13",
+      "title": "Nexus Factory Launch at GITEX Africa Positions Morocco as a Future AI Gateway",
+      "publisher": "Morocco World News",
+      "url": "https://www.moroccoworldnews.com/2026/04/286411/nexus-factory-launch-at-gitex-africa-positions-morocco-as-a-future-ai-gateway/",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "ma-14",
+      "title": "Morocco Signs $1.28 Billion MoU to Build AI Factory",
+      "publisher": "Ecofin Agency",
+      "url": "https://www.ecofinagency.com/news/1304-54600-morocco-signs-1-28-billion-mou-to-build-ai-factory",
+      "date": "2026-04",
       "category": "news"
     }
   ]

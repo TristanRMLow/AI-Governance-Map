@@ -1,7 +1,18 @@
 import { Cloud } from "lucide-react";
 import { SectionCard, EmptyState } from "@/components/country/SectionCard";
 import { EntityGrid } from "@/components/country/EntityGrid";
-import type { CloudShare, EcosystemCompany } from "@/lib/types";
+import type { CloudShare, ComputeFrontier, EcosystemCompany } from "@/lib/types";
+
+const FRONTIER_LABEL: Record<ComputeFrontier["frontierDeveloper"], string> = {
+  domestic: "Domestic frontier developer",
+  emerging: "Emerging / sovereign models",
+  none: "No domestic frontier developer",
+};
+const FRONTIER_DOT: Record<ComputeFrontier["frontierDeveloper"], string> = {
+  domestic: "#4D9D80",
+  emerging: "#D9A521",
+  none: "#8A8578",
+};
 
 /** Recognisable, at-a-glance colours per cloud provider so a chart with AWS
  * and Azure side by side is never a guessing game — deliberately distinct
@@ -32,14 +43,45 @@ function colorForProvider(name: string, fallbackIndex: number): string {
 export function CloudInfrastructureSection({
   providers,
   dominance,
+  computeFrontier,
 }: {
   providers: EcosystemCompany[];
   dominance: CloudShare[];
+  computeFrontier?: ComputeFrontier;
 }) {
   const total = dominance.reduce((sum, d) => sum + d.share, 0) || 1;
 
   return (
     <SectionCard id="cloud-infrastructure" title="Cloud Infrastructure" icon={Cloud} category="infrastructure">
+      {computeFrontier && (
+        <dl className="mb-5 grid gap-x-4 gap-y-2 border-b border-page-border/60 pb-4 text-[12.5px] sm:grid-cols-3">
+          <div>
+            <dt className="mb-0.5 text-[10.5px] uppercase tracking-[0.04em] text-page-text-muted">
+              Frontier AI
+            </dt>
+            <dd className="inline-flex items-center gap-1.5 text-page-text-secondary">
+              <span
+                aria-hidden
+                className="h-1.5 w-1.5 shrink-0 rounded-full"
+                style={{ background: FRONTIER_DOT[computeFrontier.frontierDeveloper] }}
+              />
+              {FRONTIER_LABEL[computeFrontier.frontierDeveloper]}
+            </dd>
+          </div>
+          <div>
+            <dt className="mb-0.5 text-[10.5px] uppercase tracking-[0.04em] text-page-text-muted">
+              Compute
+            </dt>
+            <dd className="text-page-text-secondary">{computeFrontier.compute}</dd>
+          </div>
+          <div>
+            <dt className="mb-0.5 text-[10.5px] uppercase tracking-[0.04em] text-page-text-muted">
+              Chip access
+            </dt>
+            <dd className="text-page-text-secondary">{computeFrontier.chipAccess}</dd>
+          </div>
+        </dl>
+      )}
       {dominance.length > 0 && (
         <div className="mb-6">
           <p className="mb-1.5 text-[11px] uppercase tracking-[0.04em] text-page-text-muted">

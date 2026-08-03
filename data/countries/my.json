@@ -11,7 +11,7 @@
   "accentColor": { "light": "#44834A", "dark": "#61AE68" },
   "center": [109.5, 3.5],
   "zoom": 3.8,
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-08-02",
   "newDevelopmentsCount": 5,
   "hasMajorUpdate": true,
   "debateTopics": [
@@ -61,9 +61,9 @@
       "needsVerification": true
     },
     {
-      "text": "National AI Office publishes a public consultation paper on the proposed AI Governance Bill — Malaysia's first horizontal, binding AI-specific legislation — with written feedback due by July 31, 2026.",
-      "date": "2026-07-10",
-      "sourceIds": ["my-6"],
+      "text": "National AI Office publishes a public consultation paper on the proposed AI Governance Bill — Malaysia's first horizontal, binding AI-specific legislation — with written feedback due by July 31, 2026. The consultation window closed on July 31, 2026, and legal commentators (including Baker McKenzie) have since published analyses of the proposed risk-based framework; the Bill had not been tabled in Parliament as of early August 2026.",
+      "date": "2026-07-31",
+      "sourceIds": ["my-6", "my-12"],
       "severity": "major"
     }
   ],
@@ -120,6 +120,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Among the world's fastest-growing data-centre hubs (Johor on track for ~1GW by end-2026); YTL–Nvidia GB200 NVL72 site in Kulai live since late 2025",
+    "chipAccess": "Large Nvidia GPU inflows but export-controlled — a US 'Tier 2' cap plus Malaysia's own Strategic Trade Permit regime"
   },
   "universities": [
     {
@@ -220,15 +225,15 @@
       "topic": "Malaysia's role as a chip trans-shipment hub amid US-China export controls",
       "category": "government",
       "summary": "Malaysia's position as a major transit point for Nvidia AI chips has drawn direct US pressure, prompting Malaysia's own export-permit regime in mid-2025.",
-      "expanded": "Malaysia's GPU imports reportedly hit a record of roughly $2.74 billion in April 2025, fuelling US concern that chips were being re-routed to Chinese buyers in violation of American export controls. Malaysia issued its own Strategic Trade Permit requirement in July 2025 (MITI Directive No. 1/2025) in apparent response, and some reporting from mid-2025 suggested the US Commerce Department was drafting still-tighter licensing rules specifically targeting Malaysia and Thailand. The episode illustrates a broader tension for Malaysia's data-centre-led AI strategy: attracting large-scale AI infrastructure investment while avoiding becoming a flashpoint in US-China technology competition.",
-      "sourceIds": ["my-4", "my-5"]
+      "expanded": "Malaysia's GPU imports reportedly hit a record of roughly $2.74 billion in April 2025, fuelling US concern that chips were being re-routed to Chinese buyers in violation of American export controls. Malaysia issued its own Strategic Trade Permit requirement in July 2025 (MITI Directive No. 1/2025) in apparent response, and some reporting from mid-2025 suggested the US Commerce Department was drafting still-tighter licensing rules specifically targeting Malaysia and Thailand. The episode illustrates a broader tension for Malaysia's data-centre-led AI strategy: attracting large-scale AI infrastructure investment while avoiding becoming a flashpoint in US-China technology competition. By mid-2026, reporting indicated the US had placed Malaysia in a 'Tier 2' access category, reportedly capping advanced-AI-chip imports at around 50,000 GPUs over two years; local analysts (e.g. The Edge Malaysia) argued Malaysia's core semiconductor and packaging industry would remain largely unscathed, while a subset of high-end AI data-centre projects could be disrupted.",
+      "sourceIds": ["my-4", "my-5", "my-13"]
     },
     {
       "topic": "Data centre boom vs. Johor's water and power constraints",
       "category": "infrastructure",
       "summary": "Malaysia's rapid rise as a top global destination for AI data-centre investment is increasingly colliding with local water and electricity constraints, particularly in Johor.",
-      "expanded": "Malaysia drew more than $10 billion in data-centre investment in 2023 and reportedly tripled that figure in 2024, with Johor's aggregate data-centre capacity nearly doubling to about 5.8 gigawatts by mid-2025. That growth has produced local friction: residents in Gelang Patah, Johor protested in February 2026 over concerns that data centres would leave insufficient water for residential use, and Johor authorities raised industrial water tariffs and reportedly paused approvals for new high-water-use facilities. Malaysian officials have said the state rejected roughly 30% of data-centre bids in late 2024 for failing to meet sustainability requirements, suggesting growing government caution about the resource footprint of the AI infrastructure boom even as it continues to court hyperscaler investment.",
-      "sourceIds": ["my-10", "my-11"]
+      "expanded": "Malaysia drew more than $10 billion in data-centre investment in 2023 and reportedly tripled that figure in 2024, with Johor's aggregate data-centre capacity nearly doubling to about 5.8 gigawatts by mid-2025. That growth has produced local friction: residents in Gelang Patah, Johor protested in February 2026 over concerns that data centres would leave insufficient water for residential use, and Johor authorities raised industrial water tariffs and reportedly paused approvals for new high-water-use facilities. Malaysian officials have said the state rejected roughly 30% of data-centre bids in late 2024 for failing to meet sustainability requirements, suggesting growing government caution about the resource footprint of the AI infrastructure boom even as it continues to court hyperscaler investment. Momentum has nonetheless continued: Malaysia's first Nvidia-powered AI data centre (YTL Power, on Nvidia GB200 NVL72 hardware) in Kulai, Johor became operational in late 2025, and Johor is reported to be on track to reach roughly 1GW of data-centre capacity by end-2026.",
+      "sourceIds": ["my-10", "my-11", "my-14"]
     },
     {
       "topic": "Shift from voluntary AI ethics guidelines to a binding AI Governance Bill",
@@ -342,6 +347,30 @@
       "publisher": "Malay Mail",
       "url": "https://www.malaymail.com/news/malaysia/2024/11/20/official-johor-snubbed-30pc-of-data-centre-bids-for-not-meeting-sustainability-goals/157396",
       "date": "2024-11-20",
+      "category": "news"
+    },
+    {
+      "id": "my-12",
+      "title": "Malaysia: Public Consultation on the AI Governance Bill",
+      "publisher": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/07/malaysia-public-consultation-on-the-ai-governance-bill",
+      "date": "2026-07",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "my-13",
+      "title": "Malaysian semiconductor industry unscathed by US AI chip export curbs, but some data centres may face impact",
+      "publisher": "The Edge Malaysia",
+      "url": "https://theedgemalaysia.com/node/744990",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "my-14",
+      "title": "Johor on track to be a 1GW data centre market by end-2026",
+      "publisher": "Real Estate Asia",
+      "url": "https://realestateasia.com/industrial/news/johor-track-be-1gw-data-centre-market-end-2026",
+      "date": "2026",
       "category": "news"
     }
   ]

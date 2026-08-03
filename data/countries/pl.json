@@ -1,0 +1,447 @@
+{
+  "code": "pl",
+  "name": "Poland",
+  "shortName": "Poland",
+  "flagEmoji": "🇵🇱",
+  "geometryType": "polygon",
+  "isoA3": [
+    "POL"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "EU member implementing the AI Act via a national Act on AI Systems and a new supervisor (KRiBSI), alongside a sovereign-model and data-centre push",
+  "accentColor": {
+    "light": "#A14A5C",
+    "dark": "#C46277"
+  },
+  "center": [
+    19.4,
+    52.0
+  ],
+  "zoom": 5.2,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Distributed EU AI Act enforcement and the new KRiBSI commission",
+    "Sovereign PLLuM model and public-sector AI adoption",
+    "Data-centre boom versus grid and energy constraints"
+  ],
+  "overview": "Poland has positioned itself as Central and Eastern Europe's most ambitious AI hub, combining a growing hyperscale data-centre market, EuroHPC-funded 'AI factories', a state-backed sovereign language model (PLLuM) and an increasingly active regulatory agenda. Policy is coordinated by the Ministry of Digital Affairs under Deputy Prime Minister Krzysztof Gawkowski, with Deputy Minister Dariusz Standerski leading much of the day-to-day AI work.\n\nOn 31 March 2026 the Council of Ministers adopted a draft Act on Artificial Intelligence Systems to transpose the EU AI Act into Polish law and establish the Commission for the Development and Security of Artificial Intelligence (KRiBSI) as the national supervisory authority -- an independent body administratively serviced by the Ministry of Digital Affairs. The EU AI Act's general-purpose AI obligations took effect on 2 August 2026, with the AI Office in Brussels supervising the largest general-purpose models directly. Industrially, Poland has attracted large hyperscaler commitments (Microsoft, Google and AWS all operate or are expanding cloud capacity around Warsaw), secured two EuroHPC AI factories (PIAST in Poznan and Gaia in Krakow), and taken a symbolic equity stake in voice-AI company ElevenLabs -- founded by two Varsovians -- while launching an 'AI Lab Poland' to grow domestic startups.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Ambitious CEE hub; transposing the EU AI Act with a dedicated supervisor",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act member state; national Act on AI Systems adopted by government, creating the KRiBSI supervisory commission",
+    "latestMajorUpdate": "Council of Ministers adopted the Act on Artificial Intelligence Systems",
+    "governmentInvolvement": "High and rising: Ministry of Digital Affairs leads strategy, PLLuM, sandboxes and data-centre policy",
+    "industrialStrategy": "Hyperscale data centres, EuroHPC AI factories (Poznan, Krakow), sovereign PLLuM model, startup support via AI Lab Poland",
+    "internationalPartnerships": "EU AI Act framework; strategic AI partnership with Google; bidding to host an EU AI gigafactory",
+    "primaryPolicyFocus": "Transposing the EU AI Act while scaling compute, public-sector AI and a domestic startup base"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Poland is moving from strategy to enforcement architecture: it has adopted a national Act on AI Systems creating the KRiBSI supervisor and aligned with the EU AI Act's 2 August 2026 general-purpose AI milestone, while simultaneously loosening barriers to investment through sandboxes and heavy data-centre expansion. The net direction is a more formal regulatory regime layered onto an aggressive growth push."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Poland entered the race to host one of the EU-backed AI 'gigafactories', reflecting its ambition to anchor large-scale AI compute in Central Europe on top of its existing EuroHPC AI factories.",
+      "date": "2026-07-28",
+      "sourceIds": [
+        "pl-6"
+      ]
+    },
+    {
+      "text": "Vinci, the venture arm of Poland's state development bank BGK, invested about USD 11m in voice-AI company ElevenLabs (founded by Varsovians Mati Staniszewski and Piotr Dabkowski) and launched 'AI Lab Poland' to support early-stage Polish AI startups.",
+      "date": "2026-06-17",
+      "sourceIds": [
+        "pl-5"
+      ]
+    },
+    {
+      "text": "The EU AI Act's general-purpose AI obligations took effect on 2 August 2026; in Poland the new Act on AI Systems is intended to designate national competent authorities and stand up the KRiBSI commission, which reporting suggests could begin operating later in 2026.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "pl-2",
+        "pl-3"
+      ],
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "The Council of Ministers adopted the draft Act on Artificial Intelligence Systems, transposing the EU AI Act into Polish law and establishing the Commission for the Development and Security of Artificial Intelligence (KRiBSI) as national supervisory authority, with powers of inspection and penalties and plans for an EU AI regulatory sandbox.",
+      "date": "2026-03-31",
+      "sourceIds": [
+        "pl-2",
+        "pl-7"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "The Ministry of Digital Affairs issued guidelines for public administration on the use of AI, covering common use cases and deployment recommendations, as part of a wider Digitalisation Strategy running to 2035.",
+      "date": "2026-03",
+      "sourceIds": [
+        "pl-2"
+      ]
+    },
+    {
+      "text": "Poland anchored two of the EU's EuroHPC 'AI factories' -- PIAST in Poznan and the roughly EUR 70m Gaia AI factory in Krakow (reported to house over 1,000 GPUs) -- strengthening national AI research compute.",
+      "date": "2026",
+      "sourceIds": [
+        "pl-4"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Act on Artificial Intelligence Systems",
+      "status": "proposed",
+      "summary": "Draft legislation adopted by the Council of Ministers on 31 March 2026 to transpose the EU AI Act into Polish law. It would impose risk-assessment, transparency and safeguard obligations on AI providers and deployers, and establish the Commission for the Development and Security of Artificial Intelligence (KRiBSI) as the national supervisory authority -- an independent body administratively serviced by the Ministry of Digital Affairs, with powers to inspect and impose penalties. The bill also envisages an EU AI regulatory sandbox. As of early August 2026 it was proceeding through Parliament rather than yet in force.",
+      "officialUrl": "https://digitalpolicyalert.org/change/11449-draft-act-on-artificial-intelligence-systems-in-poland",
+      "sourceIds": [
+        "pl-2",
+        "pl-7"
+      ]
+    },
+    {
+      "title": "EU AI Act (general-purpose AI obligations)",
+      "status": "in_force",
+      "summary": "As an EU member state, Poland is bound by the EU AI Act, whose general-purpose AI provisions and transparency duties took effect on 2 August 2026, with the AI Office in Brussels supervising the largest general-purpose models. National enforcement of many obligations depends on the domestic Act on AI Systems and KRiBSI once operational.",
+      "officialUrl": "https://digitalpolicyalert.org/event/39124-council-of-ministers-adopted-act-on-artificial-intelligence-systems",
+      "sourceIds": [
+        "pl-2",
+        "pl-3"
+      ]
+    },
+    {
+      "title": "AI Policy for Poland / Digitalisation Strategy to 2035",
+      "status": "in_force",
+      "summary": "Poland's AI ambitions build on its earlier 'AI Policy for Poland' and a Digitalisation Strategy to 2035, which frames investment in compute (EuroHPC AI factories in Poznan and Krakow), public-sector AI adoption and skills. In March 2026 the Ministry of Digital Affairs issued practical AI-use guidelines for public administration.",
+      "officialUrl": "https://www.gov.pl/web/cyfryzacja",
+      "sourceIds": [
+        "pl-2",
+        "pl-4"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Polish AI research draws on strong mathematics and computer-science traditions across universities in Warsaw, Krakow, Poznan and Wroclaw, backed by state research institutes such as NASK and IDEAS NCBR, and increasingly by EuroHPC compute (the PIAST and Gaia AI factories). The flagship applied initiative is PLLuM, an open Polish large language model developed by a public consortium and hosted by the Ministry of Digital Affairs (CYFRAGOVPL), tailored to Polish and public-administration terminology.",
+    "sourceIds": [
+      "pl-1",
+      "pl-4"
+    ]
+  },
+  "companies": [
+    {
+      "name": "ElevenLabs",
+      "description": "Fast-growing voice/audio-AI company founded by Varsovians Mati Staniszewski and Piotr Dabkowski (headquartered in London); Poland's state venture arm Vinci took a minority stake in 2026 and launched 'AI Lab Poland' around it. Listed here for its strong Polish founding roots rather than domicile.",
+      "url": "https://elevenlabs.io"
+    },
+    {
+      "name": "IDEAS NCBR",
+      "description": "State-backed research and development centre for AI and digital economy, supporting Polish AI research and commercialisation.",
+      "url": "https://ideas-ncbr.pl"
+    },
+    {
+      "name": "Nomagic",
+      "description": "Warsaw-based robotics-AI company building AI systems for warehouse and logistics pick-and-place robots.",
+      "url": "https://www.nomagic.ai",
+      "needsVerification": true
+    },
+    {
+      "name": "Pathway",
+      "description": "Polish-founded company building real-time data-processing and LLM-app infrastructure, active in the European AI-infrastructure scene.",
+      "url": "https://pathway.com",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Operates Azure Poland Central near Warsaw -- reported as the first hyperscale cloud region in Central and Eastern Europe -- built on a 2020 USD 1bn commitment, with a further PLN 2.8bn (~USD 700m) expansion in cloud, AI and cybersecurity announced through 2026.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Runs the Warsaw cloud region (europe-central2), launched in 2021; in February 2025 Google signed a strategic AI partnership with the Polish government covering energy, cybersecurity and digital skills.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "AWS",
+        "description": "Major hyperscaler expanding Central European capacity; reported among the largest investors in the region's data-centre build-out.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "EuroHPC AI Factories (PIAST, Gaia)",
+        "description": "EU-co-funded AI supercomputing sites in Poznan (PIAST) and Krakow (Gaia, ~EUR 70m, reported 1,000+ GPUs) providing public AI research compute.",
+        "url": "https://eurohpc-ju.europa.eu"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Growing hyperscale data centres around Warsaw plus two EuroHPC AI factories (Poznan, Krakow); bidding for an EU AI gigafactory",
+    "chipAccess": "Import-reliant via EU supply chains; no domestic advanced-chip fabrication"
+  },
+  "universities": [
+    {
+      "name": "University of Warsaw",
+      "description": "Leading Polish university with strong mathematics, informatics and machine-learning research; a core contributor to the national AI talent pool.",
+      "url": "https://www.uw.edu.pl"
+    },
+    {
+      "name": "Warsaw University of Technology",
+      "description": "Major technical university with active AI, robotics and data-science programmes.",
+      "url": "https://www.pw.edu.pl"
+    },
+    {
+      "name": "AGH University of Krakow",
+      "description": "Krakow-based science and technology university with significant AI and high-performance-computing activity, near the Gaia AI factory.",
+      "url": "https://www.agh.edu.pl"
+    },
+    {
+      "name": "Poznan University of Technology",
+      "description": "Technical university associated with the Poznan supercomputing and networking ecosystem hosting the PIAST AI factory.",
+      "url": "https://www.put.poznan.pl"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "NASK (National Research Institute)",
+      "description": "State research institute focused on cybersecurity, networks and AI, advising government on digital and AI policy and hosting PLLuM-related work.",
+      "url": "https://www.nask.pl"
+    },
+    {
+      "name": "IDEAS NCBR",
+      "description": "Government-backed AI research and development centre bridging academia and industry.",
+      "url": "https://ideas-ncbr.pl"
+    },
+    {
+      "name": "Digital Poland Foundation",
+      "description": "Non-governmental organisation analysing digitalisation and AI adoption in Poland.",
+      "url": "https://www.digitalpoland.org",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digital Affairs",
+      "description": "Lead ministry for Polish AI policy, PLLuM, the Act on AI Systems and the Digitalisation Strategy, headed by Deputy Prime Minister Krzysztof Gawkowski.",
+      "url": "https://www.gov.pl/web/cyfryzacja"
+    },
+    {
+      "name": "Commission for the Development and Security of Artificial Intelligence (KRiBSI)",
+      "description": "Proposed national AI supervisory authority under the Act on AI Systems; envisaged as an independent body administratively serviced by the Ministry of Digital Affairs, with inspection and penalty powers.",
+      "url": "https://www.gov.pl/web/cyfryzacja",
+      "needsVerification": true
+    },
+    {
+      "name": "NASK (National Research Institute)",
+      "description": "State research institute supporting cybersecurity, AI research and public-sector deployments, including PLLuM.",
+      "url": "https://www.nask.pl"
+    },
+    {
+      "name": "National Centre for Research and Development (NCBR)",
+      "description": "Public agency funding research and innovation, including AI-related programmes.",
+      "url": "https://www.gov.pl/web/ncbr-en"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Krzysztof Gawkowski",
+      "role": "Deputy Prime Minister and Minister of Digital Affairs, leading Poland's AI strategy and regulation.",
+      "category": "government",
+      "url": "https://www.gov.pl/web/cyfryzacja"
+    },
+    {
+      "name": "Dariusz Standerski",
+      "role": "Deputy Minister of Digital Affairs responsible for much of the day-to-day AI agenda, including the Act on AI Systems, KRiBSI and EU sandbox plans.",
+      "category": "government",
+      "url": "https://www.gov.pl/web/cyfryzacja"
+    },
+    {
+      "name": "Mati Staniszewski",
+      "role": "Co-founder and CEO of ElevenLabs; Varsovian entrepreneur central to Poland's AI-startup narrative.",
+      "category": "company_leader",
+      "url": "https://elevenlabs.io"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Dariusz Standerski",
+      "type": "person",
+      "role": "Deputy Minister of Digital Affairs driving Poland's AI Act transposition, KRiBSI and sandbox agenda.",
+      "category": "government",
+      "url": "https://www.gov.pl/web/cyfryzacja"
+    },
+    {
+      "name": "Ministry of Digital Affairs (Poland)",
+      "type": "organization",
+      "role": "Lead body for PLLuM, the Act on AI Systems and Poland's Digitalisation Strategy.",
+      "category": "government",
+      "url": "https://www.gov.pl/web/cyfryzacja"
+    },
+    {
+      "name": "PLLuM",
+      "type": "organization",
+      "role": "Poland's open sovereign large language model, hosted by the Ministry of Digital Affairs (CYFRAGOVPL).",
+      "category": "university",
+      "url": "https://huggingface.co/CYFRAGOVPL"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Ministry of Digital Affairs",
+      "type": "government"
+    },
+    {
+      "label": "KRiBSI (proposed AI supervisor)",
+      "type": "agency"
+    },
+    {
+      "label": "NASK / IDEAS NCBR",
+      "type": "research"
+    },
+    {
+      "label": "EuroHPC AI factories (PIAST, Gaia)",
+      "type": "research"
+    },
+    {
+      "label": "Hyperscalers (Microsoft, Google, AWS)",
+      "type": "company"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Domestic frontier lab",
+      "note": "Poland has no domestic frontier-scale commercial AI developer. PLLuM is a mid-sized (8-70B) open sovereign model rather than a frontier system, and ElevenLabs -- though Polish-founded -- is domiciled in London, so the 'emerging' label reflects public models and compute rather than a home-grown frontier champion."
+    },
+    {
+      "area": "Operational AI supervisor",
+      "note": "As of early August 2026 the KRiBSI commission is not yet operational: the Act on AI Systems had been adopted by the Council of Ministers but was still moving through Parliament, leaving national AI-Act enforcement mechanics not fully in place."
+    },
+    {
+      "area": "Grid and energy constraints",
+      "note": "Poland's rapid data-centre expansion is increasingly bounded by grid-connection and power-availability limits, a constraint repeatedly flagged in market analysis and central to whether its compute ambitions (including an EU gigafactory bid) can be realised."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Distributed EU AI Act enforcement and the new KRiBSI commission",
+      "category": "government",
+      "summary": "Poland's choice to create a dedicated KRiBSI supervisor -- while housing it administratively within the Ministry of Digital Affairs -- has drawn debate over its independence and capacity.",
+      "expanded": "The Act on AI Systems designates KRiBSI as an independent authority with inspection and sanction powers, but critics note it is administratively serviced by the Ministry of Digital Affairs, raising questions about genuine independence and resourcing. Supporters argue a single, dedicated commission is clearer than the sectoral, multi-regulator models chosen by some other member states, and that pairing it with an early EU regulatory sandbox will help Polish firms adapt. The debate is partly about whether Poland can stand the body up quickly enough to matter for the AI Act's 2026 milestones.",
+      "sourceIds": [
+        "pl-2",
+        "pl-7"
+      ]
+    },
+    {
+      "topic": "Sovereign PLLuM model and public-sector AI adoption",
+      "category": "research",
+      "summary": "PLLuM is promoted as a sovereign, Polish-language model for public services, but its practical competitiveness against global models is debated.",
+      "expanded": "PLLuM, developed by a public consortium and tailored to Polish and administrative language, is framed as a tool for trustworthy public-sector AI and linguistic sovereignty. Sceptics question whether an 8-70B open model can match commercial frontier systems for general capability, and whether public bodies will adopt it at scale versus off-the-shelf foreign models. The March 2026 public-administration AI guidelines are read as an attempt to channel adoption toward controlled, compliant use, with PLLuM as one option.",
+      "sourceIds": [
+        "pl-1",
+        "pl-2"
+      ]
+    },
+    {
+      "topic": "Data-centre boom versus grid and energy constraints",
+      "category": "infrastructure",
+      "summary": "Hyperscaler investment has made Warsaw a leading CEE data-centre market, but grid connection and power supply are emerging as binding constraints.",
+      "expanded": "Microsoft, Google and AWS have all committed significant capacity around Warsaw, and Poland is bidding to host an EU AI gigafactory and building EuroHPC AI factories in Poznan and Krakow. Analysts increasingly argue that Poland's AI-compute ceiling will be set less by capital than by electricity availability and grid-connection timelines, echoing similar debates in Ireland. How Poland resolves the energy question is widely seen as decisive for its 'AI fortress' ambitions.",
+      "sourceIds": [
+        "pl-4",
+        "pl-6"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Poland launches Polish Large Language Model (PLLuM)",
+      "type": "government",
+      "author": "Notes From Poland",
+      "url": "https://notesfrompoland.com/2025/02/24/poland-launches-polish-large-language-model/"
+    },
+    {
+      "title": "Draft Act on Artificial Intelligence Systems in Poland",
+      "type": "government",
+      "author": "Digital Policy Alert",
+      "url": "https://digitalpolicyalert.org/change/11449-draft-act-on-artificial-intelligence-systems-in-poland"
+    },
+    {
+      "title": "Artificial Intelligence 2026 - Poland",
+      "type": "think_tank",
+      "author": "Chambers and Partners",
+      "url": "https://practiceguides.chambers.com/practice-guides/artificial-intelligence-2026/poland"
+    },
+    {
+      "title": "CYFRAGOVPL (Ministry of Digital Affairs) on Hugging Face",
+      "type": "github",
+      "author": "Ministry of Digital Affairs",
+      "url": "https://huggingface.co/CYFRAGOVPL"
+    }
+  ],
+  "sources": [
+    {
+      "id": "pl-1",
+      "title": "Poland launches Polish Large Language Model",
+      "publisher": "Notes From Poland",
+      "url": "https://notesfrompoland.com/2025/02/24/poland-launches-polish-large-language-model/",
+      "date": "2025-02",
+      "category": "news"
+    },
+    {
+      "id": "pl-2",
+      "title": "Council of Ministers adopted proposal for Act on Artificial Intelligence Systems",
+      "publisher": "Digital Policy Alert",
+      "url": "https://digitalpolicyalert.org/event/39124-council-of-ministers-adopted-act-on-artificial-intelligence-systems",
+      "date": "2026-03",
+      "category": "government"
+    },
+    {
+      "id": "pl-3",
+      "title": "Artificial Intelligence 2026 - Poland",
+      "publisher": "Chambers and Partners",
+      "url": "https://practiceguides.chambers.com/practice-guides/artificial-intelligence-2026/poland",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "pl-4",
+      "title": "Poland's Emerging AI Infrastructure",
+      "publisher": "Introl",
+      "url": "https://introl.com/blog/poland-ai-infrastructure-central-europe-tech-hub-2025",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "pl-5",
+      "title": "Poland invests $11m in ElevenLabs to develop Polish AI hub",
+      "publisher": "Notes From Poland",
+      "url": "https://notesfrompoland.com/2026/06/18/poland-invests-11m-in-elevenlabs-to-develop-polish-ai-hub/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "pl-6",
+      "title": "Poland enters race to host EU-backed AI gigafactory",
+      "publisher": "Notes From Poland",
+      "url": "https://notesfrompoland.com/2026/07/28/poland-enters-race-to-host-eu-backed-ai-gigafactory/",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "pl-7",
+      "title": "A new draft law on AI systems in Poland",
+      "publisher": "Crowe Poland",
+      "url": "https://www.crowe.com/pl/en-us/insights/a-new-draft-law-on-ai-systems-in-poland",
+      "date": "2026",
+      "category": "news"
+    }
+  ]
+}

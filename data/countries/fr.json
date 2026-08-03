@@ -19,8 +19,8 @@
     46.6
   ],
   "zoom": 5.0,
-  "lastUpdated": "2026-07-16",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 10,
   "debateTopics": [
     "Mistral's defense-AI partnership and dual military/commercial strategy",
     "Silicon sovereignty — AMD/SiPearl vs. NVIDIA dependence",
@@ -33,7 +33,7 @@
       "sentiment": "green"
     },
     "regulatoryApproach": "EU AI Act member state; sovereignty pursued mainly through infrastructure investment and certification rather than new national legislation",
-    "latestMajorUpdate": "Mistral enters early access on a new open-weight MoE model as EU AI Act enforcement powers activate",
+    "latestMajorUpdate": "The EU AI Act's GPAI supervision and enforcement powers take effect on 2 August 2026, placing Mistral — as a France-based general-purpose AI provider — directly under EU AI Office oversight, while France's own national competent-authority designations reportedly remain awaiting parliamentary adoption",
     "governmentInvolvement": "High — large state-backed infrastructure spend and a defense-AI contract with Mistral",
     "industrialStrategy": "Significant state investment in compute sovereignty via Mistral Compute, Jean Zay, and a further ~€4B French/Swedish data-centre build-out",
     "internationalPartnerships": "EU AI Act participation; ASML as Mistral's lead strategic investor",
@@ -41,16 +41,65 @@
   },
   "currentDirection": {
     "trend": "stable",
-    "summary": "France's AI Act obligations remain unchanged as an EU member state; much of the visible policy momentum has instead been industrial — a roughly €109B infrastructure package, Mistral's compute build-out, and efforts toward European silicon aimed at reducing NVIDIA dependence."
+    "summary": "France's substantive AI obligations remain those of the EU AI Act, whose GPAI supervision and enforcement powers activated on 2 August 2026; as an EU-based frontier lab, Mistral now falls directly under EU AI Office oversight. Nationally, France appears to have moved slowly on the mechanics of implementation — its September 2025 scheme designating competent authorities (with the DGCCRF as single point of contact) reportedly still awaited parliamentary adoption as of mid-2026. Most of the visible momentum has instead been industrial: a roughly €109B infrastructure package, Mistral's compute build-out and the MGX/Bpifrance/Nvidia 'Campus AI' venture, and efforts toward European silicon aimed at reducing NVIDIA dependence."
   },
   "recentDevelopments": [
     {
-      "text": "Mistral opens early access to a new open-weight mixture-of-experts model; EU AI Act enforcement powers (information requests, model access, recall) activate 2 August 2026; a further €4B French/Swedish data-centre build-out is announced.",
+      "text": "The EU AI Act's general-purpose AI (GPAI) supervision and enforcement powers take effect on 2 August 2026 — the AI Office can now request documentation, run evaluations, demand mitigations and fine GPAI providers up to €15M or 3% of global turnover — and Article 50 transparency duties (chatbot disclosure, AI-content and deepfake labelling) apply, with pre-existing systems given until 2 December 2026 for machine-readable marking. Enforcement of GPAI runs centrally through the EU AI Office rather than a national regulator, placing Mistral, as an EU-based GPAI provider, directly under EU oversight; most high-risk (Annex III) obligations were separately postponed to 2027–2028. France's own national competent-authority designations reportedly remained awaiting parliamentary adoption as of mid-2026.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "fr-7",
+        "fr-14",
+        "fr-15"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "Samsung Electronics is reported to be in advanced talks to invest up to roughly €1B in Mistral AI at a valuation of around €20B (some coverage cites a figure nearing $23B), as part of a larger multibillion-euro raise reportedly also involving EQT's Scaleup Europe fund, Novo Holdings and Santander; the round had not been confirmed as closed as of the most recent research.",
+      "date": "2026-07-22",
+      "sourceIds": [
+        "fr-12"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Microsoft and Mistral announce an expanded strategic partnership aimed at giving enterprises and regulated industries access to frontier AI they can control, deepening a relationship that began with Microsoft's 2024 investment in the French lab.",
+      "date": "2026-07-21",
+      "sourceIds": [
+        "fr-11"
+      ]
+    },
+    {
+      "text": "Mistral releases 'Robostral Navigate,' described as its first model built for physical navigation/robotics — an early move by the French lab beyond text-and-code models into embodied AI.",
+      "date": "2026-07-08",
+      "sourceIds": [
+        "fr-12"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Mistral opens early access to a new open-weight mixture-of-experts model (described by CEO Arthur Mensch as 'fat but sparse'), and confirms a €4B French/Swedish data-centre build-out; the company's annual recurring revenue is reported to have passed $400M with a path toward $1B by year-end.",
       "date": "2026-07-04",
       "sourceIds": [
         "fr-9"
       ],
       "severity": "major"
+    },
+    {
+      "text": "MGX, Bpifrance, Nvidia and Mistral scale their 'Campus AI' joint venture to a planned 3GW of AI compute across France (total investment reported at roughly €7.5B), with a first campus of up to ~1.4GW near Paris expected to begin operations around 2028 — announced in the wake of the May 2026 Choose France summit and framed as potentially Europe's largest AI campus.",
+      "date": "2026-06",
+      "sourceIds": [
+        "fr-13"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "SoftBank plans up to 5GW / up to €75B of French AI data-centre capacity, with an initial €45B phase covering 3.1GW by 2031 across sites in Hauts-de-France (Dunkirk/Loon-Plage, Bosquel, Bouchain), announced around the May 2026 Choose France summit.",
+      "date": "2026-05",
+      "sourceIds": [
+        "fr-3"
+      ]
     },
     {
       "text": "Mistral AI selected by the Ministry of the Armed Forces under a three-year defense-AI framework deal, notified 16 December 2025 and steered by AMIAD (Agence ministérielle pour l'intelligence artificielle de défense); some outlets report its value at roughly $14B.",
@@ -72,20 +121,6 @@
       "date": "2026",
       "sourceIds": [
         "fr-2"
-      ]
-    },
-    {
-      "text": "SoftBank plans up to 5GW / up to €75B of French AI data-centre capacity, with an initial €45B phase covering 3.1GW by 2031 across sites in Hauts-de-France (Dunkirk/Loon-Plage, Bosquel, Bouchain), announced around the May 2026 Choose France summit.",
-      "date": "2026-05",
-      "sourceIds": [
-        "fr-3"
-      ]
-    },
-    {
-      "text": "Mistral AI closes a €1.7B Series C at an €11.7B valuation, with ASML as lead investor taking an 11% stake.",
-      "date": "2025-09",
-      "sourceIds": [
-        "fr-4"
       ]
     }
   ],
@@ -109,10 +144,20 @@
     {
       "title": "AI Act (as applied in France)",
       "status": "in_force",
-      "summary": "France's AI governance runs through the EU AI Act as a member state, with no distinct comprehensive national AI statute of its own.",
+      "summary": "France's AI governance runs through the EU AI Act as a member state, with no distinct comprehensive national AI statute of its own. The Act's GPAI supervision and enforcement powers took effect on 2 August 2026 (fines up to €15M or 3% of global turnover, enforced centrally by the EU AI Office), alongside Article 50 transparency duties; most high-risk (Annex III) obligations were postponed to 2027–2028. As an EU-based general-purpose AI provider, Mistral now sits directly under this GPAI regime.",
       "sourceIds": [
         "fr-7"
       ]
+    },
+    {
+      "title": "National competent-authority designation for the AI Act",
+      "status": "proposed",
+      "summary": "France was expected to designate its national competent authorities under the AI Act by 2 August 2025. A government scheme published around 9 September 2025 proposed the DGCCRF (with the DGE) as coordinating single point of contact, alongside sectoral supervisors — reportedly including the CNIL (personal data and biometrics), ARCOM (digital content/deepfakes), ACPR (finance) and HAS/ANSM (health), with ANSSI and PEReN providing technical expertise. As of the most recent research this designation reportedly still awaited formal adoption via national legislation, leaving France among the member states yet to finalise its supervisory architecture.",
+      "sourceIds": [
+        "fr-14",
+        "fr-15"
+      ],
+      "needsVerification": true
     }
   ],
   "researchEcosystem": {
@@ -124,7 +169,7 @@
   "companies": [
     {
       "name": "Mistral AI",
-      "description": "Widely regarded as France's flagship frontier AI lab; now runs its own 'Mistral Compute' infrastructure and holds a defense-AI framework deal with the Ministry of the Armed Forces.",
+      "description": "Widely regarded as France's flagship frontier AI lab; runs its own 'Mistral Compute' infrastructure, holds a defense-AI framework deal with the Ministry of the Armed Forces, and by mid-2026 was reported to be raising fresh capital at a valuation of around €20B (some coverage cites a figure nearing $23B). As an EU-based general-purpose AI provider it now falls directly under the EU AI Act's GPAI supervision regime.",
       "url": "https://mistral.ai"
     },
     {
@@ -229,6 +274,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "domestic",
+    "compute": "Large state-backed build-out: Mistral Compute (NVIDIA GB200), Jean Zay/Alice Recoque HPC, plus SoftBank and MGX/UAE 'Campus AI' clusters",
+    "chipAccess": "Import-reliant (NVIDIA/TSMC), with a partial SiPearl/AMD European-silicon sovereignty hedge"
+  },
   "universities": [
     {
       "name": "Inria",
@@ -287,8 +337,19 @@
   "governmentInstitutions": [
     {
       "name": "ANSSI",
-      "description": "France's national cybersecurity agency, which administers the SecNumCloud sovereignty certification.",
+      "description": "France's national cybersecurity agency, which administers the SecNumCloud sovereignty certification; under the proposed AI Act designation scheme it would provide technical/cybersecurity expertise to other supervisory authorities.",
       "url": "https://www.ssi.gouv.fr"
+    },
+    {
+      "name": "DGCCRF",
+      "description": "Directorate-General for Competition, Consumer Affairs and Fraud Control; proposed (with the DGE) in France's September 2025 scheme as the coordinating single point of contact for EU AI Act supervision, a designation reportedly still awaiting formal adoption as of mid-2026.",
+      "url": "https://www.economie.gouv.fr/dgccrf",
+      "needsVerification": true
+    },
+    {
+      "name": "CNIL",
+      "description": "France's data-protection authority and de-facto lead where AI processes personal data or biometrics; expected to be a key sectoral supervisor under the AI Act designation scheme.",
+      "url": "https://www.cnil.fr"
     },
     {
       "name": "Ministry of the Armed Forces",
@@ -518,6 +579,46 @@
       "url": "https://www.cnbc.com",
       "date": "2026",
       "category": "news"
+    },
+    {
+      "id": "fr-11",
+      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control",
+      "publisher": "Microsoft",
+      "url": "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/",
+      "date": "2026-07",
+      "category": "industry"
+    },
+    {
+      "id": "fr-12",
+      "title": "Mistral Ships Robotics Model as Valuation Nears $23B",
+      "publisher": "Tech Insider",
+      "url": "https://tech-insider.org/au/mistral-robotics-model-valuation-2026/",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "fr-13",
+      "title": "MGX and partners to expand Campus AI in France",
+      "publisher": "AGBI",
+      "url": "https://www.agbi.com/ai/2026/06/mgx-and-partners-to-expand-campus-ai-in-france/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "fr-14",
+      "title": "Appointed supervisory authority in France — AI Laws of the World",
+      "publisher": "DLA Piper",
+      "url": "https://intelligence.dlapiper.com/artificial-intelligence/?t=03-appointed-supervisory-authority&c=FR",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "fr-15",
+      "title": "The EU AI Act in France (2026) — CNIL, DGCCRF, sandbox & deadlines",
+      "publisher": "RegulatoryAI",
+      "url": "https://www.regulatoryai.eu/ai-act-france/",
+      "date": "2026",
+      "category": "expert_commentary"
     }
   ],
   "hasMajorUpdate": true

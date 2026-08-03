@@ -11,8 +11,8 @@
   "accentColor": { "light": "#448359", "dark": "#61AE7A" },
   "center": [8.0, 9.5],
   "zoom": 5.2,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Nigeria's antitrust and content-scraping probe of Meta, Alphabet and X as a digital-sovereignty flashpoint",
@@ -38,19 +38,16 @@
   },
   "recentDevelopments": [
     {
-      "text": "Federal Ministry of Communications, Innovation and Digital Economy publishes the National Artificial Intelligence Strategy (NAIS), setting a 2025-2029 roadmap across infrastructure, ecosystem, sector adoption, responsible AI and governance.",
-      "date": "2025-09-01",
-      "sourceIds": ["ng-1", "ng-2"]
+      "text": "As of early August 2026, the National Digital Economy and e-Governance Bill — repeatedly described as imminent since January — remained unpassed, with NITDA continuing to press for its enactment to deepen AI and cloud adoption; the timing of a binding AI framework thus stayed uncertain.",
+      "date": "2026-08",
+      "sourceIds": ["ng-7", "ng-12"],
+      "needsVerification": true
     },
     {
-      "text": "Bloomberg and other outlets report Nigeria is on track to pass a sweeping National Digital Economy and e-Governance Bill, giving NITDA formal authority over high-risk AI systems, by end of March 2026.",
-      "date": "2026-01-13",
-      "sourceIds": ["ng-3"]
-    },
-    {
-      "text": "Report finds Nigeria's AI startup count has grown past 120 active companies, concentrated in Lagos, spanning health tech, fintech, agriculture and language technology — though 79% of surveyed founders cite lack of capital as a serious constraint.",
-      "date": "2026-02-24",
-      "sourceIds": ["ng-4"]
+      "text": "President Bola Tinubu directs the Federal Competition and Consumer Protection Commission to investigate Meta, Alphabet, X and generative AI platforms over alleged anti-competitive conduct and unauthorized scraping of Nigerian media content for AI model training.",
+      "date": "2026-07-06",
+      "sourceIds": ["ng-6"],
+      "severity": "major"
     },
     {
       "text": "Nigeria Data Protection Commission announces plans to review the Nigeria Data Protection Act 2023 to explicitly address AI, robotics and other emerging technologies.",
@@ -58,10 +55,19 @@
       "sourceIds": ["ng-5"]
     },
     {
-      "text": "President Bola Tinubu directs the Federal Competition and Consumer Protection Commission to investigate Meta, Alphabet, X and generative AI platforms over alleged anti-competitive conduct and unauthorized scraping of Nigerian media content for AI model training.",
-      "date": "2026-07-06",
-      "sourceIds": ["ng-6"],
-      "severity": "major"
+      "text": "Report finds Nigeria's AI startup count has grown past 120 active companies, concentrated in Lagos, spanning health tech, fintech, agriculture and language technology — though 79% of surveyed founders cite lack of capital as a serious constraint.",
+      "date": "2026-02-24",
+      "sourceIds": ["ng-4"]
+    },
+    {
+      "text": "Bloomberg and other outlets report Nigeria is on track to pass a sweeping National Digital Economy and e-Governance Bill, giving NITDA formal authority over high-risk AI systems, by end of March 2026.",
+      "date": "2026-01-13",
+      "sourceIds": ["ng-3"]
+    },
+    {
+      "text": "Federal Ministry of Communications, Innovation and Digital Economy publishes the National Artificial Intelligence Strategy (NAIS), setting a 2025-2029 roadmap across infrastructure, ecosystem, sector adoption, responsible AI and governance.",
+      "date": "2025-09-01",
+      "sourceIds": ["ng-1", "ng-2"]
     }
   ],
   "policyAndRegulation": [
@@ -121,6 +127,11 @@
       { "name": "Google Cloud", "description": "Cloud provider used by Nigerian startups and enterprises for AI workloads." }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Growing commercial data-centre hubs in Lagos (e.g. Rack Centre, Open Access Data Centres); little AI-specific accelerator capacity",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
   },
   "universities": [
     {
@@ -357,6 +368,14 @@
       "url": "https://restofworld.org/2024/nigeria-awarri-ai-startup-llm/",
       "date": "2024",
       "category": "news"
+    },
+    {
+      "id": "ng-12",
+      "title": "FG pushes e-governance, digital economy bill to deepen AI, cloud adoption",
+      "publisher": "NITDA",
+      "url": "https://nitda.gov.ng/fg-pushes-e-governance-digital-economy-bill-to-deepen-ai-cloud-adoption/",
+      "date": "2026",
+      "category": "government"
     }
   ]
 }

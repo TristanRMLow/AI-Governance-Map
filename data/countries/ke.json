@@ -11,8 +11,8 @@
   "accentColor": { "light": "#83447B", "dark": "#AE61A3" },
   "center": [37.9, 0.2],
   "zoom": 5.5,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 7,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Kenyan content moderators' and data annotators' court battles with Meta and Sama over AI-related labour conditions",
@@ -37,9 +37,26 @@
   },
   "recentDevelopments": [
     {
-      "text": "Ministry of Information, Communications, and Digital Economy launches Kenya's first National Artificial Intelligence Strategy (2025-2030) at KICC, Nairobi.",
-      "date": "2025-03-01",
-      "sourceIds": ["ke-1"]
+      "text": "Ministry of Information, Communications and the Digital Economy opens public participation on the draft Kenya Artificial Intelligence and Other Emerging Technologies Policy, with written submissions due by August 4, 2026.",
+      "date": "2026-07-21",
+      "sourceIds": ["ke-6"]
+    },
+    {
+      "text": "President William Ruto signs the Technopolis Act, replacing the Konza Technopolis Development Authority with a new Technopolis Development Authority overseeing Kenya's planned tech-city infrastructure.",
+      "date": "2026-05-11",
+      "sourceIds": ["ke-5"]
+    },
+    {
+      "text": "The proposed $1 billion Microsoft-G42 geothermal-powered AI data centre at Olkaria (announced with KenGen in 2025) stalls after the government declines to guarantee the up-to-1GW of power and offtake the facility would require; President Ruto acknowledges Kenya's grid cannot support it at full scale, and officials float 'captive power' arrangements as a possible path forward.",
+      "date": "2026-05",
+      "sourceIds": ["ke-10", "ke-11"],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "Reporting details Meta's termination of its Sama content-review contract following complaints that moderators were exposed to intimate footage recorded by Ray-Ban Meta smart glasses; Sama subsequently lays off more than 1,000 Kenyan employees.",
+      "date": "2026-05-02",
+      "sourceIds": ["ke-4"]
     },
     {
       "text": "Nairobi courts continue hearing the Meta/Sama content-moderator cases; rulings on procedural matters are repeatedly postponed, delaying a full trial on claims from more than 180 former moderators and data annotators.",
@@ -53,19 +70,9 @@
       "severity": "major"
     },
     {
-      "text": "Reporting details Meta's termination of its Sama content-review contract following complaints that moderators were exposed to intimate footage recorded by Ray-Ban Meta smart glasses; Sama subsequently lays off more than 1,000 Kenyan employees.",
-      "date": "2026-05-02",
-      "sourceIds": ["ke-4"]
-    },
-    {
-      "text": "President William Ruto signs the Technopolis Act, replacing the Konza Technopolis Development Authority with a new Technopolis Development Authority overseeing Kenya's planned tech-city infrastructure.",
-      "date": "2026-05-11",
-      "sourceIds": ["ke-5"]
-    },
-    {
-      "text": "Ministry of Information, Communications and the Digital Economy opens public participation on the draft Kenya Artificial Intelligence and Other Emerging Technologies Policy, with written submissions due by August 4, 2026.",
-      "date": "2026-07-21",
-      "sourceIds": ["ke-6"]
+      "text": "Ministry of Information, Communications, and Digital Economy launches Kenya's first National Artificial Intelligence Strategy (2025-2030) at KICC, Nairobi.",
+      "date": "2025-03-01",
+      "sourceIds": ["ke-1"]
     }
   ],
   "policyAndRegulation": [
@@ -118,6 +125,11 @@
       { "name": "Google Cloud", "description": "Cloud provider used across Kenyan research and enterprise AI." }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Modest; a $1bn Microsoft-G42 Olkaria geothermal AI data-centre plan stalled in 2026 over power guarantees, alongside Konza/Technopolis digital-hub ambitions",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
   },
   "universities": [
     {
@@ -325,6 +337,22 @@
       "url": "https://www.kictanet.or.ke/mapping-kenyas-ai-ecosystem/",
       "date": "2026",
       "category": "think_tank"
+    },
+    {
+      "id": "ke-10",
+      "title": "Kenya Stalls $1 Billion Microsoft-G42 Data Centre Plan as the Power Maths Catches Up",
+      "publisher": "Techish Kenya",
+      "url": "https://tech-ish.com/2026/05/09/kenya-microsoft-g42-data-centre-stalled/",
+      "date": "2026-05-09",
+      "category": "news"
+    },
+    {
+      "id": "ke-11",
+      "title": "Microsoft and G42 to build geothermal-powered data center in Kenya",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-to-build-geothermal-powered-data-center-in-kenya/",
+      "date": "2025-05",
+      "category": "news"
     }
   ]
 }

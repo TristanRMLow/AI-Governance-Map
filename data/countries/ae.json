@@ -19,13 +19,13 @@
     24.0
   ],
   "zoom": 6.5,
-  "lastUpdated": "2026-07-19",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "Consolidating AI governance under a single new Authority",
     "Chip access diplomacy and the shift toward unrestricted export status"
   ],
-  "overview": "The UAE consolidated its AI governance in June 2026, approving a new Artificial Intelligence and Data Authority that merges the former Office of AI/Digital Economy/Remote Work Applications, the UAE Data Office, and the TDRA's digital-government portfolio into one body. Omar Sultan Al Olama, the UAE's Minister of State for AI since 2017, was confirmed as its chair \u2014 extending his existing mandate into a single, consolidated institution. (Whether the Authority has completed its formal legal and operational stand-up beyond this June 2026 approval has not been independently confirmed.)\n\nOn the industry side, Abu Dhabi's G42 (valued at roughly $20B in one April 2026 estimate) and the Technology Innovation Institute jointly produce the Falcon model family, including 2026 releases Falcon Perception (efficient multimodal) and Falcon-H1 Arabic, described by TII and several outlets as the world's leading Arabic-language LLM. Chip access, once a genuine point of friction, moved further toward resolution in mid-2026: after the US authorized G42 to purchase up to 35,000 NVIDIA Blackwell chips in November 2025, the US Commerce Department reclassified the UAE into the highest-trust Export Administration Regulations tier (Country Group A:5) on July 10, 2026, removing the requirement for individual export licenses for approved UAE entities \u2014 including G42 \u2014 to receive NVIDIA Blackwell and AMD Instinct chips. Legal analyses of the underlying rule note that this license-free treatment for G42 and its Core42 cloud unit is, per Supplement No. 8 to Part 740, a roughly 270-day pre-approval window rather than a permanent exemption, unless those entities become US-headquartered within that period.",
+  "overview": "The UAE consolidated its AI governance in June 2026, approving a new Artificial Intelligence and Data Authority that merges the former Office of AI/Digital Economy/Remote Work Applications, the UAE Data Office, and the TDRA's digital-government portfolio into one body. Omar Sultan Al Olama, the UAE's Minister of State for AI since 2017, was confirmed as its chair \u2014 extending his existing mandate into a single, consolidated institution. (Whether the Authority has completed its formal legal and operational stand-up beyond this June 2026 approval has not been independently confirmed.)\n\nOn the industry side, the UAE now sustains two distinct frontier-adjacent model efforts: Abu Dhabi's G42 (valued at roughly $20B in one April 2026 estimate) and the Technology Innovation Institute jointly produce the open-weight Falcon family, including 2026 releases Falcon Perception (efficient multimodal) and Falcon-H1 Arabic, described by TII as the world's leading Arabic-language LLM; separately, MBZUAI's Institute of Foundation Models, with G42 and Cerebras, released K2 Think V2 in January 2026, a roughly 70-billion-parameter open reasoning system billed as fully sovereign and end-to-end open. On compute, G42's Khazna Data Centers is building Stargate UAE \u2014 a 1GW cluster within a planned 5GW Abu Dhabi 'UAE\u2013US AI Campus', operated with OpenAI and Oracle \u2014 whose 200MW first phase (around 100,000 NVIDIA GB300 systems) is reported on course for completion in Q3 2026. Chip access, once a genuine point of friction, eased further in mid-2026: after the US authorized G42 to purchase up to 35,000 NVIDIA Blackwell chips in November 2025, the US Commerce Department reclassified the UAE into the highest-trust Export Administration Regulations tier (Country Group A:5) on July 10, 2026, removing individual export-license requirements for approved UAE entities \u2014 including G42 \u2014 to receive NVIDIA Blackwell and AMD Instinct chips. Legal analyses of the underlying rule note that this license-free treatment for G42 and its Core42 cloud unit is, per Supplement No. 8 to Part 740, a roughly 270-day pre-approval window rather than a permanent exemption, unless those entities become US-headquartered within that period.",
   "atAGlance": {
     "policyDirection": {
       "label": "State-directed, consolidating under one Authority",
@@ -43,6 +43,15 @@
     "summary": "The UAE is consolidating institutional control over AI policy under a single new Authority chaired by Omar Sultan Al Olama, AI minister since 2017 \u2014 a centralising move even though no binding AI-specific law has followed \u2014 alongside continued state investment in sovereign compute and Arabic-language frontier models, and a July 2026 US export-control reclassification that eased the UAE's access to advanced AI chips."
   },
   "recentDevelopments": [
+    {
+      "text": "Construction of Stargate UAE — a 1GW AI compute cluster built by G42's Khazna Data Centers within a planned 5GW Abu Dhabi 'UAE–US AI Campus' and operated with OpenAI and Oracle (partners also include NVIDIA, Cisco and SoftBank) — continues, with the 200MW first phase, reported to use around 100,000 NVIDIA Grace Blackwell GB300 systems, said to be on course for completion in the third quarter of 2026. It is widely described as the largest AI data-centre build outside the US.",
+      "date": "2026",
+      "sourceIds": [
+        "ae-9",
+        "ae-10"
+      ],
+      "severity": "major"
+    },
     {
       "text": "UAE approves a new Artificial Intelligence and Data Authority, merging the Office of AI/Digital Economy/Remote Work Applications, the UAE Data Office, and the TDRA's digital-government portfolio.",
       "date": "2026-06",
@@ -74,6 +83,13 @@
       ]
     },
     {
+      "text": "MBZUAI's Institute of Foundation Models, with G42 and Cerebras, releases K2 Think V2, a roughly 70-billion-parameter open reasoning system built on the K2-V2 base model and billed as fully sovereign and open from pre-training data through post-training — a second UAE frontier-adjacent model line alongside TII's Falcon family.",
+      "date": "2026-01",
+      "sourceIds": [
+        "ae-11"
+      ]
+    },
+    {
       "text": "US Commerce Department authorizes G42 to purchase up to 35,000 NVIDIA Blackwell (GB300) chips.",
       "date": "2025-11-19",
       "sourceIds": [
@@ -102,16 +118,27 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "UAE AI research and development runs largely through the Technology Innovation Institute (TII), the applied-research arm of the Advanced Technology Research Council, and MBZUAI, an Abu Dhabi-based university that is widely described as the world's first dedicated AI research university.",
+    "summary": "UAE AI research and development runs largely through the Technology Innovation Institute (TII), the applied-research arm of the Advanced Technology Research Council, and MBZUAI, an Abu Dhabi-based university widely described as the world's first dedicated AI research university. MBZUAI's Institute of Foundation Models, with G42 and Cerebras, produces the K2 Think open reasoning models (V2 released January 2026), while TII maintains the open-weight Falcon family — giving the UAE two distinct sovereign model programmes.",
     "sourceIds": [
-      "ae-2"
+      "ae-2",
+      "ae-11"
     ]
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "domestic",
+    "compute": "Large sovereign build-out — G42's Stargate UAE (1GW cluster, 200MW first phase due Q3 2026) within a planned 5GW Abu Dhabi campus",
+    "chipAccess": "Eased sharply in 2026 — reclassified to the top US export tier (Group A:5); G42's licence-free status is a time-limited window"
   },
   "companies": [
     {
       "name": "G42",
-      "description": "Abu Dhabi-based sovereign AI powerhouse valued at roughly $20B, co-producer of the Falcon model family.",
+      "description": "Abu Dhabi-based sovereign AI powerhouse valued at roughly $20B; co-produces the Falcon and K2 Think model families and, through Khazna Data Centers, is building the Stargate UAE compute cluster.",
       "url": "https://www.g42.ai"
+    },
+    {
+      "name": "MBZUAI Institute of Foundation Models",
+      "description": "The foundation-model arm of Mohamed bin Zayed University of Artificial Intelligence; with G42 and Cerebras it develops the open K2 Think reasoning system (V2, roughly 70B parameters, released January 2026).",
+      "url": "https://ifm.mbzuai.ac.ae"
     }
   ],
   "cloudInfrastructure": {
@@ -297,6 +324,30 @@
       "publisher": "Core42",
       "url": "https://www.core42.ai",
       "category": "industry"
+    },
+    {
+      "id": "ae-9",
+      "title": "Introducing Stargate UAE",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-stargate-uae/",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "ae-10",
+      "title": "Stargate UAE's first phase to be completed in third quarter of 2026",
+      "publisher": "The National",
+      "url": "https://www.thenationalnews.com/business/2025/12/05/stargate-uaes-first-phase-to-be-completed-in-third-quarter-of-2026/",
+      "date": "2025-12",
+      "category": "news"
+    },
+    {
+      "id": "ae-11",
+      "title": "MBZUAI Launches K2 Think V2: UAE's Fully Sovereign, Next-Generation Reasoning System",
+      "publisher": "MBZUAI / PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/mbzuai-launches-k2-think-v2-uaes-fully-sovereign-next-generation-reasoning-system-302671460.html",
+      "date": "2026-01",
+      "category": "research"
     }
   ],
   "hasMajorUpdate": true,

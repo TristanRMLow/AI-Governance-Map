@@ -11,8 +11,8 @@
   "accentColor": { "light": "#835A44", "dark": "#AE7C61" },
   "center": [-84.0, 9.9],
   "zoom": 6.9,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
   "hasMajorUpdate": false,
   "debateTopics": [
     "Whether Costa Rica should legislate now or wait, given MICITT's own caution that binding AI law could become obsolete before publication",
@@ -36,6 +36,11 @@
     "summary": "Costa Rica continues to build out a non-binding governance layer — ENIA's strategic axes, the new AILA ecosystem assessment, and the INTE/ISO/IEC 42001:2026 standard — while binding legislation remains stalled across three competing Legislative Assembly bills. A senior MICITT official's public caution that AI law risks becoming obsolete before it is even published suggests the government itself is not pushing hard for a fast binding-law timeline, making this look more like a deliberate wait-and-see posture than legislative gridlock."
   },
   "recentDevelopments": [
+    {
+      "text": "MICITT publicly opposes the three pending AI bills in their current form, arguing the country is not yet ready to legislate binding AI rules that could become obsolete before publication, and recommending broader stakeholder input instead — reinforcing a deliberate wait-and-see posture over the standard and strategy already in place.",
+      "date": "2026",
+      "sourceIds": ["cr-9"]
+    },
     {
       "text": "MICITT launches the Estrategia Nacional de Inteligencia Artificial (ENIA) 2024–2027, making Costa Rica the first Central American country with a dedicated national AI public policy.",
       "date": "2024-10-24",
@@ -102,6 +107,11 @@
       { "name": "Google Cloud", "description": "Cloud provider present in the Costa Rican market; no dedicated in-country hyperscaler data center was confirmed in available sources." }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "No in-country hyperscaler AI data centre confirmed; strength is a BPO/shared-services and nearshoring export base, including Intel's assembly-and-test site",
+    "chipAccess": "Hosts Intel assembly-and-test operations, but import-reliant for advanced AI chips; no domestic fabrication"
   },
   "universities": [
     {
@@ -216,6 +226,7 @@
     { "id": "cr-5", "title": "Costa Rica oficializa norma técnica para la gestión y gobernanza de la inteligencia artificial", "publisher": "Delfino.cr", "url": "https://delfino.cr/2026/03/costa-rica-oficializa-norma-tecnica-para-la-gestion-y-gobernanza-de-la-inteligencia-artificial", "date": "2026-03", "category": "news" },
     { "id": "cr-6", "title": "Costa Rica destaca por su estrategia para la IA, pero no aborda la pérdida de empleo. ¿Qué se puede hacer?", "publisher": "El Financiero", "url": "https://www.elfinancierocr.com/tecnologia/costa-rica-destaca-por-su-estrategia-para-la-ia/KZSU7ABYNVGM5PFTACAPTUNBOU/story/", "date": "2026", "category": "news" },
     { "id": "cr-7", "title": "Impacto de la Inteligencia Artificial Generativa en los trabajos costarricenses", "publisher": "Academia de Centroamérica / Konrad-Adenauer-Stiftung", "url": "https://www.academiaca.or.cr/serie-vision-para-el-desarrollo/impacto-de-la-inteligencia-artificial-generativa-en-los-trabajos-costarricenses/", "date": "2026", "category": "research" },
-    { "id": "cr-8", "title": "UCR marca la ruta para el uso ético de la inteligencia artificial en la educación superior", "publisher": "Universidad de Costa Rica, Centro de Informática", "url": "https://ci.ucr.ac.cr/ucr-marca-ruta-para-el-uso-etico-inteligencia-artificial-en-educacion-superior", "date": "2025", "category": "research" }
+    { "id": "cr-8", "title": "UCR marca la ruta para el uso ético de la inteligencia artificial en la educación superior", "publisher": "Universidad de Costa Rica, Centro de Informática", "url": "https://ci.ucr.ac.cr/ucr-marca-ruta-para-el-uso-etico-inteligencia-artificial-en-educacion-superior", "date": "2025", "category": "research" },
+    { "id": "cr-9", "title": "Micitt se opone a proyectos para legislar sobre Inteligencia Artificial", "publisher": "DPL News", "url": "https://dplnews.com/costa-rica-micitt-se-opone-a-proyectos-para-legislar-sobre-inteligencia-artificial/", "date": "2026", "category": "news" }
   ]
 }

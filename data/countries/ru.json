@@ -1,0 +1,458 @@
+{
+  "code": "ru",
+  "name": "Russia",
+  "shortName": "Russia",
+  "flagEmoji": "🇷🇺",
+  "geometryType": "polygon",
+  "isoA3": [
+    "RUS"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "State-directed 'technological sovereignty' — a 2030 AI strategy and light framework law, led by state-aligned developers (Sber, Yandex) under Western chip sanctions",
+  "accentColor": {
+    "light": "#8A4A52",
+    "dark": "#AE626C"
+  },
+  "center": [
+    80,
+    62
+  ],
+  "zoom": 2.2,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "Building frontier AI under Western chip sanctions",
+    "State control, 'traditional values' and AI content",
+    "Sovereign models vs. the global frontier"
+  ],
+  "overview": "Russia pursues AI under an explicitly state-directed model of 'technological sovereignty', anchored by the National Strategy for the Development of Artificial Intelligence to 2030 — first approved by Presidential Decree No. 490 (October 2019) and substantially updated by Presidential Decree No. 124 in February 2024 to prioritise domestic foundation models, sovereign computing infrastructure and reduced dependence on foreign technology. In November 2025 President Putin reportedly directed the creation of a centralised AI coordination headquarters under the Government and Presidential Administration to drive implementation and monitor strategy metrics.\n\nThe ecosystem is dominated by two state-aligned technology groups: Sberbank, whose GigaChat model family and Kandinsky image/video generators are Russia's most prominent generative systems, and Yandex, developer of the YandexGPT line. Both operate largely on a domestic technology stack, a posture reinforced by Western export controls that sharply restrict access to advanced NVIDIA and other AI accelerators. Regulation has been deliberately light and enabling — experimental legal regimes (regulatory sandboxes) and, in mid-2026, a short framework law supporting AI development — though a parallel legislative strand would require domestically deployed AI to align with Russian 'traditional values', reflecting the state's emphasis on ideological as well as technological control. Much official information is state-controlled, so several claims here are hedged and flagged for verification.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "State-directed AI sovereignty under heavy sanctions",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Light, enabling framework law plus regulatory sandboxes; a separate 'traditional values' alignment strand",
+    "latestMajorUpdate": "State Duma passes a framework law supporting AI development (third reading, July 2026), due to take effect 1 September 2026",
+    "governmentInvolvement": "High — presidential strategy, a centralised AI coordination headquarters, and state-linked developers",
+    "industrialStrategy": "Import-substitution and 'technological sovereignty'; domestic models (Sber GigaChat, Yandex YandexGPT) on a largely home-grown stack",
+    "internationalPartnerships": "Oriented toward non-Western partners (China, BRICS, India and others) via the AI Journey conference and related fora",
+    "primaryPolicyFocus": "Building sovereign AI capability — domestic models, compute and talent — despite constrained access to advanced Western chips"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Russia appears to be tightening state coordination of AI — a centralised implementation headquarters, a new framework law, and legislative moves to bind AI to 'traditional values' — while simultaneously trying to loosen constraints on developers through regulatory sandboxes. The binding constraint is external: Western export controls limit advanced-chip access, pushing the ecosystem toward domestic and smuggled hardware and shaping a sovereignty-first strategy."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The State Duma passed, at third reading (reported 8 July 2026), a framework federal law 'On Supporting the Development of Artificial Intelligence Technologies in the Russian Federation' — a short, enabling statute (reported at around 13 articles) intended to underpin large domestic foundation models and 'technological sovereignty'. If signed, it is reported to take effect on 1 September 2026.",
+      "date": "2026-07-08",
+      "sourceIds": [
+        "ru-3",
+        "ru-4"
+      ],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "Russian legislators advanced measures reported to require AI systems deployed domestically to align with Russian 'traditional values' and national information-security priorities — part of a broader push to keep generative AI ideologically as well as technologically 'sovereign'. Details and final status remain unclear.",
+      "date": "2026-06",
+      "sourceIds": [
+        "ru-5"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "The State Duma adopted, at first reading (15 April 2026), a bill expanding experimental legal regimes ('regulatory sandboxes') for digital and technological innovation, including AI projects, letting participants trial applications while temporarily exempted from certain federal rules.",
+      "date": "2026-04-15",
+      "sourceIds": [
+        "ru-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "At the AI Journey 2025 conference in Moscow (November 2025), hosted by Sberbank and addressed by President Putin, the government was directed to develop multimodal AI models trained on Russian culture, history, traditions and values, and Sber showcased a largely domestic AI stack; Putin also publicly linked planned nuclear-power build-out to future AI compute demand.",
+      "date": "2025-11",
+      "sourceIds": [
+        "ru-1",
+        "ru-9",
+        "ru-10"
+      ]
+    },
+    {
+      "text": "Sber released updated GigaChat and Kandinsky 5.0 (image/video) systems, positioned as Russia's leading domestic generative models, while Yandex deployed YandexGPT 5 — both promoted as evidence of a self-sufficient national model ecosystem amid restricted access to Western AI chips.",
+      "date": "2025",
+      "sourceIds": [
+        "ru-7",
+        "ru-8"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Presidential Decree No. 124 (15 February 2024) updated the National AI Strategy to 2030 (originally Decree No. 490 of 2019), sharpening its focus on technological independence, domestic foundation models and expanded computing infrastructure; implementation was later reinforced by a reported centralised AI coordination headquarters established in late 2025.",
+      "date": "2024-02-15",
+      "sourceIds": [
+        "ru-2"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Framework Law on Supporting the Development of AI Technologies",
+      "status": "passed",
+      "summary": "A short, framework-style federal law (reported at around 13 articles) passed by the State Duma at third reading in July 2026 to support the development and deployment of large domestic foundation models, ensure 'technological sovereignty', and protect state and societal security in their use. As an enabling rather than prescriptive statute, it stops well short of comprehensive risk regulation. Reported to take effect 1 September 2026 if signed by the President.",
+      "sourceIds": [
+        "ru-3",
+        "ru-4"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "National AI Strategy to 2030 (Decree No. 490, as amended by Decree No. 124)",
+      "status": "in_force",
+      "summary": "Russia's foundational AI policy, approved by Presidential Decree No. 490 in October 2019 and substantially updated by Presidential Decree No. 124 in February 2024. The updated strategy prioritises technological independence, support for domestic foundation models, sovereign computing infrastructure and wider use of AI in public administration and the economy, with implementation coordinated centrally.",
+      "officialUrl": "http://en.kremlin.ru/acts/assignments/orders/78992",
+      "sourceIds": [
+        "ru-2"
+      ]
+    },
+    {
+      "title": "Experimental legal regimes (regulatory sandboxes) for AI",
+      "status": "in_force",
+      "summary": "A framework of 'experimental legal regimes' allowing the government to trial AI applications (e.g. autonomous vehicles, medical diagnostics) in real-world settings while temporarily exempting participants from certain federal laws. A bill expanding these regimes for digital and technological innovation passed first reading in April 2026.",
+      "sourceIds": [
+        "ru-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "'Traditional values' alignment requirements for AI",
+      "status": "proposed",
+      "summary": "Legislative measures reported in 2026 that would require AI systems deployed in Russia to align with Russian 'traditional values' and national information-security priorities. The precise scope, enforcement mechanism and final legal status are unclear, and the measure is best read as an emerging ideological-control strand rather than a settled technical-safety regime.",
+      "sourceIds": [
+        "ru-5"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Russian AI research is concentrated in state-linked corporate labs (notably Sber's AI research units and Yandex Research) and a handful of leading universities and academies, with the Alliance for Artificial Intelligence acting as an industry–academia coordination body. Western sanctions, reduced international collaboration and researcher emigration since 2022 are widely reported to have constrained the ecosystem, even as domestic model development continues. Independent verification of research output and benchmarks is difficult given limited transparency.",
+    "sourceIds": [
+      "ru-1",
+      "ru-7"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Sber (Sberbank)",
+      "description": "State-controlled banking and technology group; developer of the GigaChat model family and Kandinsky image/video generators, and host of the annual AI Journey conference. Widely regarded as Russia's most prominent AI developer, operating on a largely domestic technology stack.",
+      "url": "https://www.sber.ru"
+    },
+    {
+      "name": "Yandex",
+      "description": "Russian internet and technology company; developer of the YandexGPT model line and AI-driven search, mapping and autonomous-driving research. Its international assets were restructured in 2024, leaving the Russian business under domestic ownership.",
+      "url": "https://ya.ru"
+    },
+    {
+      "name": "VK",
+      "description": "State-aligned internet group operating major Russian social platforms and services, investing in generative-AI features and assistants across its ecosystem.",
+      "url": "https://vk.company"
+    },
+    {
+      "name": "MTS",
+      "description": "Telecommunications and technology group with an AI division (MTS AI) developing language and computer-vision products for the domestic market.",
+      "url": "https://moskva.mts.ru"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Sbercloud (Cloud.ru)",
+        "description": "Sber-linked cloud provider positioned as a leading domestic platform for AI workloads, offering GPU compute and access to GigaChat-family services; part of Russia's import-substitution response after major Western cloud providers withdrew.",
+        "url": "https://cloud.ru"
+      },
+      {
+        "name": "Yandex Cloud",
+        "description": "Yandex's cloud platform, one of the main domestic providers of AI and machine-learning infrastructure for Russian enterprises and government bodies.",
+        "url": "https://yandex.cloud"
+      },
+      {
+        "name": "VK Cloud",
+        "description": "VK's cloud arm, among the domestic providers that expanded to serve enterprise and public-sector demand after Western hyperscalers exited the Russian market.",
+        "url": "https://mcs.mail.ru"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Domestic clusters (e.g. Sber's supercomputers) sized well below global frontier labs; nuclear build-out floated to meet future demand",
+    "chipAccess": "Severely constrained — Western export controls limit advanced NVIDIA/AMD chips; reliance on stockpiles, grey-market imports and domestic efforts"
+  },
+  "universities": [
+    {
+      "name": "Higher School of Economics (HSE University)",
+      "description": "Moscow university with substantial AI, data-science and computational research and policy analysis.",
+      "url": "https://www.hse.ru/en/"
+    },
+    {
+      "name": "Skoltech (Skolkovo Institute of Science and Technology)",
+      "description": "Graduate research institution near Moscow with machine-learning and AI research groups, though internationally affected by post-2022 sanctions and reduced collaboration.",
+      "url": "https://www.skoltech.ru/en/"
+    },
+    {
+      "name": "Moscow Institute of Physics and Technology (MIPT)",
+      "description": "Leading technical university and a major source of AI and machine-learning talent for Russian industry and state-linked labs.",
+      "url": "https://mipt.ru/english/"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Alliance for Artificial Intelligence (AI Alliance Russia)",
+      "description": "Industry association founded by Sber, Yandex, VK, Gazprom Neft, MTS and other major companies to coordinate AI development, ethics guidelines (including a national AI Code of Ethics) and talent initiatives.",
+      "url": "https://a-ai.ru/en/",
+      "needsVerification": true
+    },
+    {
+      "name": "AI Research Institute (AIRI)",
+      "description": "Moscow-based non-profit AI research institute backed by Sber and partners, conducting fundamental and applied AI research.",
+      "url": "https://airi.net/en/",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digital Development, Communications and Mass Media (Mintsifry)",
+      "description": "Lead federal ministry for digital and AI policy, national programmes and implementation of the AI strategy.",
+      "url": "https://digital.gov.ru/en/"
+    },
+    {
+      "name": "Centralised AI coordination headquarters",
+      "description": "A coordination body reported to have been established in late 2025 under the Government and Presidential Administration to drive implementation of the National AI Strategy to 2030 and monitor its metrics. Structure and status not independently verified.",
+      "needsVerification": true
+    },
+    {
+      "name": "Analytical Center for the Government of the Russian Federation",
+      "description": "Government analytical body involved in coordinating national AI strategy monitoring and federal-project reporting.",
+      "url": "https://ac.gov.ru/en",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "German Gref",
+      "role": "Chief Executive Officer, Sberbank; host of the AI Journey conference and a leading public advocate for Russian AI",
+      "affiliation": "Sberbank",
+      "category": "company_leader",
+      "url": "https://www.sber.ru"
+    },
+    {
+      "name": "Maksut Shadaev",
+      "role": "Minister of Digital Development, Communications and Mass Media",
+      "affiliation": "Government of Russia",
+      "category": "government",
+      "url": "https://digital.gov.ru/en/",
+      "needsVerification": true
+    },
+    {
+      "name": "Dmitry Chernyshenko",
+      "role": "Deputy Prime Minister with responsibility for digital and technology policy",
+      "affiliation": "Government of Russia",
+      "category": "government",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "AI Journey",
+      "type": "organization",
+      "role": "Sber-hosted annual AI conference and the main public showcase of Russian AI strategy, models and international outreach.",
+      "category": "company",
+      "url": "https://aij.ru/en"
+    },
+    {
+      "name": "Alliance for Artificial Intelligence",
+      "type": "organization",
+      "role": "Industry association coordinating Russia's major AI developers and national AI ethics initiatives.",
+      "category": "think_tank",
+      "url": "https://a-ai.ru/en/"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Presidential Administration / AI headquarters",
+      "type": "government"
+    },
+    {
+      "label": "Ministry of Digital Development",
+      "type": "agency"
+    },
+    {
+      "label": "Sber",
+      "type": "company"
+    },
+    {
+      "label": "Yandex",
+      "type": "company"
+    },
+    {
+      "label": "Alliance for Artificial Intelligence",
+      "type": "think_tank"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Advanced-chip access",
+      "note": "Western export controls sharply restrict Russia's access to leading-edge AI accelerators. Domestic fabrication is well behind the frontier, and reporting suggests reliance on pre-sanction stockpiles and grey-market imports; there is no verified domestic supply of frontier-class training chips."
+    },
+    {
+      "area": "Independent, verifiable information",
+      "note": "Much AI-related information is state-controlled or promotional, and independent benchmarking of Russian models against global frontier systems is limited. Several claims in this file are hedged and flagged for verification accordingly."
+    },
+    {
+      "area": "Frontier-scale model development",
+      "note": "Sber's GigaChat and Yandex's YandexGPT are credible domestic systems but are not generally assessed as sitting at the global frontier; Russia is classed here as an 'emerging' rather than 'domestic' frontier developer."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Building frontier AI under Western chip sanctions",
+      "category": "infrastructure",
+      "summary": "Russia's central AI constraint is compute: Western export controls limit access to advanced NVIDIA and other accelerators, forcing reliance on stockpiles, grey-market imports and domestic efforts, and raising doubts about how far a sovereign strategy can close the gap with global frontier labs.",
+      "expanded": "The National AI Strategy's emphasis on 'technological sovereignty' is in part a response to sanctions that cut off leading-edge hardware and much Western software and collaboration after 2022. Sber and others have publicised domestic supercomputers and cloud capacity, and Putin has linked planned nuclear build-out to future AI compute demand — but domestic chip fabrication remains behind the frontier, and independent analysts question whether Russia can train globally competitive models without leading-edge accelerators. The debate is whether import-substitution and non-Western partnerships (China, BRICS) can substitute for lost access, or whether Russia's frontier ambitions are structurally capped.",
+      "sourceIds": [
+        "ru-1",
+        "ru-10"
+      ]
+    },
+    {
+      "topic": "State control, 'traditional values' and AI content",
+      "category": "government",
+      "summary": "Russia is moving to bind domestically deployed AI to state-defined 'traditional values' and information-security priorities, framing model governance as much around ideological control as technical safety.",
+      "expanded": "Alongside an enabling framework law and regulatory sandboxes, legislators have advanced measures that would require AI systems used in Russia to align with Russian 'traditional values', and the government has been directed to build multimodal models trained on Russian culture, history and values. Critics see this as extending the state's information-control apparatus into generative AI; officials frame it as protecting sovereignty and social cohesion. The precise scope and enforcement remain unclear, so the strand is best read as emerging rather than settled.",
+      "sourceIds": [
+        "ru-5",
+        "ru-9"
+      ]
+    },
+    {
+      "topic": "Sovereign models vs. the global frontier",
+      "category": "industry",
+      "summary": "Sber's GigaChat and Yandex's YandexGPT are promoted as evidence of a self-sufficient national AI ecosystem, but their standing relative to leading US and Chinese models is hard to verify independently.",
+      "expanded": "State-aligned developers present domestic models as proof that Russia can sustain a full home-grown AI stack despite sanctions. Company claims (e.g. matching foreign models on subsets of tasks) are difficult to corroborate given limited transparency and Russia's absence from many international benchmarks. The open question is whether a sanctions-constrained, state-directed ecosystem can keep pace with rapidly advancing frontier labs abroad, or whether it will settle into a capable-but-trailing 'sovereign' tier.",
+      "sourceIds": [
+        "ru-7",
+        "ru-8"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Instructions following the AI Journey international conference",
+      "type": "government",
+      "author": "President of Russia (Kremlin)",
+      "url": "http://en.kremlin.ru/acts/assignments/orders/78992"
+    },
+    {
+      "title": "Russia Updates National AI Strategy",
+      "type": "think_tank",
+      "author": "BABL AI",
+      "url": "https://babl.ai/russia-updates-national-ai-strategy/"
+    },
+    {
+      "title": "Control, not innovation: how Russia's AI law evolved",
+      "type": "think_tank",
+      "author": "RKS Global",
+      "url": "https://rks.global/en/research/russian-ai-control/"
+    },
+    {
+      "title": "AI Journey conference",
+      "type": "conference_talk",
+      "author": "Sber",
+      "url": "https://aij.ru/en"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ru-1",
+      "title": "AI Journey international conference",
+      "publisher": "President of Russia (Kremlin)",
+      "url": "http://en.kremlin.ru/events/president/news/78498",
+      "date": "2025-11",
+      "category": "government"
+    },
+    {
+      "id": "ru-2",
+      "title": "Russia Updates National AI Strategy",
+      "publisher": "BABL AI",
+      "url": "https://babl.ai/russia-updates-national-ai-strategy/",
+      "date": "2024",
+      "category": "think_tank"
+    },
+    {
+      "id": "ru-3",
+      "title": "Russian Federation Council approves framework law supporting AI development",
+      "publisher": "TASS",
+      "url": "https://tass.com/politics/2161507",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "ru-4",
+      "title": "State Duma adopts draft law on regulation of Artificial Intelligence",
+      "publisher": "Denuo",
+      "url": "https://denuo.legal/en/insights/news/I30/",
+      "date": "2026-07",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "ru-5",
+      "title": "Russia Passes Law Requiring Domestic Artificial Intelligence to Align With 'Traditional Values'",
+      "publisher": "United24 Media",
+      "url": "https://united24media.com/world/russia-passes-law-requiring-domestic-artificial-intelligence-to-align-with-traditional-values-20592",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ru-6",
+      "title": "Experimental legal regimes (sandboxes) in the field of digital innovation in Russia",
+      "publisher": "TAdviser",
+      "url": "https://tadviser.com/index.php/Article:Experimental_legal_regimes_(sandboxes)_in_the_field_of_digital_innovation_in_Russia",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "ru-7",
+      "title": "Feature: AI innovations blossom in Russia",
+      "publisher": "Xinhua",
+      "url": "https://english.news.cn/europe/20251126/90a8e62df89645edb83e324e83a1d589/c.html",
+      "date": "2025-11",
+      "category": "news"
+    },
+    {
+      "id": "ru-8",
+      "title": "Russia's National AI Strategy",
+      "publisher": "Global Index on Responsible AI / GINC",
+      "url": "https://www.ginc.org/russias-national-ai-strategy/",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "ru-9",
+      "title": "Instructions following the AI Journey international conference",
+      "publisher": "President of Russia (Kremlin)",
+      "url": "http://en.kremlin.ru/acts/assignments/orders/78992",
+      "date": "2025-11",
+      "category": "government"
+    },
+    {
+      "id": "ru-10",
+      "title": "Putin links nuclear build-out to Russia's AI ambitions",
+      "publisher": "Nuclear Engineering International",
+      "url": "https://www.neimagazine.com/news/putin-links-nuclear-buildout-to-russias-ai-ambitions/",
+      "date": "2025-11",
+      "category": "news"
+    }
+  ],
+  "hasMajorUpdate": true
+}

@@ -19,8 +19,8 @@
     36.5
   ],
   "zoom": 4.3,
-  "lastUpdated": "2026-07-19",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "AI Basic Plan implementation and the AI investment gap",
     "AI copyright compensation and voice-imitation rules",
@@ -46,6 +46,15 @@
   },
   "recentDevelopments": [
     {
+      "text": "SoftBank's large-scale AI data centre in Sakai, Osaka — built on the site of a former Sharp LCD plant and widely described as the anchor of 'Stargate Japan', the domestic arm of the OpenAI-SoftBank-Oracle Stargate initiative — progresses toward opening, with SoftBank planning to launch an 'AI Data Center GPU Cloud' service in Japan from October 2026 and reported plans to scale capacity toward 250MW.",
+      "date": "2026-07",
+      "sourceIds": [
+        "jp-13",
+        "jp-14"
+      ],
+      "needsVerification": true
+    },
+    {
       "text": "Sovereign-AI 'Noetra' consortium — led by SoftBank, Sony, NEC and Honda, with roughly 40 companies participating — receives government backing of around ¥387.3 billion in FY2026 and roughly ¥1 trillion (~$6.3B) over five years, targeting 10 million AI-equipped robots deployed across around 18 sectors by 2040.",
       "date": "2026-07-01",
       "sourceIds": [
@@ -65,6 +74,14 @@
       "sourceIds": [
         "jp-1"
       ]
+    },
+    {
+      "text": "Japan's AI Safety Institute (J-AISI) and South Korea's AI Safety Institute announce joint work to align AI-safety evaluation frameworks, a step toward a shared regional benchmark for testing large language models; both are members of the International Network of AI Safety Institutes.",
+      "date": "2026-06",
+      "sourceIds": [
+        "jp-15"
+      ],
+      "needsVerification": true
     },
     {
       "text": "Government AI platform 'GENNAI' pilot scales toward a target of roughly 180,000 civil servants across ministries and agencies during FY2026, with full-scale deployment planned for FY2027.",
@@ -189,6 +206,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Growing fast — SoftBank's Sakai 'Stargate Japan' data centre plus state-backed build-out",
+    "chipAccess": "Import-reliant on NVIDIA; domestic Rapidus 2nm and TSMC Kumamoto fabs onshoring capacity"
   },
   "universities": [
     {
@@ -490,6 +512,30 @@
       "publisher": "The Japan Times",
       "url": "https://www.japantimes.co.jp/news/2026/07/07/japan/ai-new-council/",
       "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "jp-13",
+      "title": "SoftBank buys former Sharp factory to build AI data center in Osaka, Japan",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/softbank-buys-former-sharp-factory-for-676m-to-build-ai-data-center-in-osaka-japan/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "jp-14",
+      "title": "SoftBank Corp. to construct large-scale AI data center utilising the Sharp Sakai plant",
+      "publisher": "SoftBank",
+      "url": "https://www.softbank.jp/en/corp/news/press/sbkk/2024/20240607_01/",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "jp-15",
+      "title": "Japan and South Korea launch joint AI safety cooperation",
+      "publisher": "TechnoSports",
+      "url": "https://technosports.co.in/japan-south-korea-ai-safety/",
+      "date": "2026-06",
       "category": "news"
     }
   ],

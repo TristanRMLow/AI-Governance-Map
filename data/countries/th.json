@@ -11,7 +11,7 @@
   "accentColor": { "light": "#7D4483", "dark": "#A661AE" },
   "center": [101.0, 15.0],
   "zoom": 5.0,
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-08-02",
   "newDevelopmentsCount": 5,
   "hasMajorUpdate": true,
   "debateTopics": [
@@ -59,7 +59,7 @@
       "sourceIds": ["th-4"]
     },
     {
-      "text": "ETDA hosts AI Governance Week 2026 (June 29–July 3) and releases a revised draft AI Act for public consultation on July 2, 2026, positioning Thailand as an aspiring regional AI-governance hub.",
+      "text": "ETDA hosts AI Governance Week 2026 (June 29–July 3) and releases a revised draft AI Act for public consultation on July 2, 2026, positioning Thailand as an aspiring regional AI-governance hub. The public-hearing period was reported to run roughly 30 days (into early August 2026), keeping the Act in consultation rather than settled law.",
       "date": "2026-07-02",
       "sourceIds": ["th-5", "th-6"],
       "severity": "major"
@@ -122,6 +122,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Fast-growing data-centre hub (AWS, Google, Microsoft, ByteDance), concentrated in the Eastern Economic Corridor",
+    "chipAccess": "Import-reliant; under US chip-transshipment scrutiny"
   },
   "universities": [
     {

@@ -19,44 +19,69 @@
     42.5
   ],
   "zoom": 5.0,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 4,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "TDM copyright restriction scope contested by industry vs. rightsholders",
-    "First-mover national AI law vs. EU harmonisation"
+    "First-mover national AI law vs. EU harmonisation",
+    "The Garante as Europe's most active AI privacy enforcer"
   ],
-  "overview": "Italy became the first EU member state to pass its own comprehensive national AI law, Law No. 132/2025, which entered into force in October 2025 and layers sector-specific rules — for healthcare, employment, justice and the professions — plus new AI copyright provisions on top of the EU AI Act baseline. Implementing decrees are due by October 2026; two received preliminary Council of Ministers approval in June 2026, with final adoption still pending parliamentary committee and Data Protection Authority (Garante) review.\n\nUndersecretary Alessio Butti has framed the law as a 'digital sovereignty' matter, citing a reported €1 billion national AI investment figure that has not been independently corroborated beyond his own public statements. The law's copyright provisions add new AI-specific text-and-data-mining exceptions and require substantial human creative contribution for AI-assisted works to receive copyright protection; legal commentators note that the precise boundary of the TDM exception — in particular whether it extends to commercial model training or is limited to research/non-commercial use — remains contested and not yet fully settled in practice.",
+  "overview": "Italy became the first EU member state to pass its own comprehensive national AI law, Law No. 132/2025, which entered into force in October 2025 and layers sector-specific rules — for healthcare, employment, justice and the professions — plus new AI copyright provisions on top of the EU AI Act baseline. Implementing decrees are due by October 2026; two received preliminary Council of Ministers approval in June 2026, with final adoption still pending parliamentary committee and Data Protection Authority (Garante) review. The law designates the Agency for Digital Italy (AgID) as notifying authority and the National Cybersecurity Agency (ACN) as market-surveillance authority and single EU contact point — the two national competent authorities under both the Italian law and the EU AI Act.\n\nThese national arrangements now sit alongside a further EU milestone: from 2 August 2026 the European Commission's supervision and enforcement powers over general-purpose AI (GPAI) providers took effect, carrying fines of up to €15M or 3% of global turnover under Article 101, while Article 50 transparency duties (chatbot disclosure, AI-content and deepfake labelling) began to apply; most high-risk (Annex III) obligations were meanwhile postponed to 2027–2028. Separately, Undersecretary Alessio Butti has framed the law as a 'digital sovereignty' matter; the reported €1 billion national AI figure appears to correspond to Article 23 of Law 132/2025, which draws on the state Venture Capital Support Fund managed by CDP Venture Capital. The law's copyright provisions add new AI-specific text-and-data-mining exceptions and require substantial human creative contribution for AI-assisted works to receive copyright protection; legal commentators note that the precise boundary of the TDM exception — in particular whether it extends to commercial model training or is limited to research/non-commercial use — remains contested and not yet fully settled in practice.",
   "atAGlance": {
     "policyDirection": {
       "label": "First-mover national law, layered atop EU baseline",
       "sentiment": "amber"
     },
     "regulatoryApproach": "National AI Law (132/2025) plus sector rules, layered atop the EU AI Act",
-    "latestMajorUpdate": "Implementing decrees for Italy's national AI law given preliminary government approval",
+    "latestMajorUpdate": "EU GPAI enforcement powers take effect 2 August 2026 atop Italy's national AI law; the Garante fines Character.AI over child-safety failings and the AI-focused LISA upgrade to the Leonardo supercomputer is inaugurated in Bologna",
     "governmentInvolvement": "High — first EU state with its own comprehensive AI statute, framed as digital sovereignty",
-    "industrialStrategy": "Reported €1B national AI investment (per Undersecretary Butti; not independently verified); AI4I industrial AI institute in Turin",
+    "industrialStrategy": "Article 23 of Law 132/2025 earmarks up to €1B via the CDP Venture Capital-managed Venture Capital Support Fund; AI4I industrial AI institute in Turin; IT4LIA EuroHPC AI Factory in Bologna",
     "internationalPartnerships": "Agreement signed for a new UNU AI and big-data institute in Bologna; parliamentary ratification still pending as of mid-2026",
     "primaryPolicyFocus": "Sector-specific rules (healthcare, employment, justice) plus stricter AI copyright provisions"
   },
   "currentDirection": {
     "trend": "tightening",
-    "summary": "Italy moved first among EU states to legislate its own comprehensive national AI law rather than rely on the EU AI Act alone, and is now working through implementing decrees — due by October 2026 — that will help determine how strictly its national copyright and sector rules end up being enforced. Two decrees have preliminary Council of Ministers approval but still require parliamentary committee and Data Protection Authority review."
+    "summary": "Italy moved first among EU states to legislate its own comprehensive national AI law rather than rely on the EU AI Act alone, and is now working through implementing decrees — due by October 2026 — that will help determine how strictly its national copyright and sector rules end up being enforced. From 2 August 2026 the EU's GPAI supervision and enforcement powers came into application on top of this national framework, and the Garante has continued an unusually active run of AI privacy enforcement, so the near-term direction is towards firmer, more operational oversight even as most high-risk AI Act obligations were pushed to 2027–2028."
   },
   "recentDevelopments": [
     {
-      "text": "Two implementing decrees for Italy's national AI law received preliminary Council of Ministers approval (covering national authorities/education/training, and policing/civil and criminal liability); final adoption remains pending parliamentary committee and Data Protection Authority (Garante) review ahead of the October 2026 deadline.",
-      "date": "2026-06-10",
+      "text": "The EU AI Act's general-purpose AI (GPAI) supervision and enforcement powers take effect (fines up to €15M or 3% of global turnover under Article 101; Article 50 transparency duties on chatbot disclosure and AI-content/deepfake labelling begin to apply). The European Commission's AI Office is the central enforcer, while at national level Italy's ACN acts as market-surveillance authority and single EU contact point and AgID as notifying authority under Law 132/2025.",
+      "date": "2026-08-02",
       "sourceIds": [
-        "it-1"
+        "it-6"
+      ],
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "The Garante (Data Protection Authority) fines Character Technologies, owner of the Character.AI companion-chatbot platform, roughly €158,000 (about $180,000) for failing to adequately inform users, protect minors, run a timely data-protection impact assessment and appoint an EU representative, and orders stronger age-verification and default-private profiles for minors — continuing a run of Italian AI enforcement that in 2025 also targeted Replika, DeepSeek and the 'Clothoff' deepfake-nudification app.",
+      "date": "2026-07-09",
+      "sourceIds": [
+        "it-7",
+        "it-8"
       ]
     },
     {
-      "text": "Undersecretary Alessio Butti cites a reported €1 billion national AI investment, framing it as a matter of digital sovereignty.",
+      "text": "The EuroHPC Joint Undertaking inaugurates LISA (Leonardo Improved Supercomputing Architecture), an AI-dedicated upgrade partition to the CINECA-hosted Leonardo supercomputer in Bologna — reportedly the first EuroHPC partition designed from the ground up for AI workloads, adding up to roughly 65 petaFLOPS — alongside the IT4LIA EuroHPC AI Factory and the new SOL quantum system.",
+      "date": "2026-06-11",
+      "sourceIds": [
+        "it-9"
+      ]
+    },
+    {
+      "text": "Two implementing decrees for Italy's national AI law received preliminary Council of Ministers approval (covering the powers of the national authorities plus education/training, and the use of AI in policing plus civil and criminal liability); final adoption remains pending parliamentary committee and Data Protection Authority (Garante) review ahead of the October 2026 deadline.",
+      "date": "2026-06-10",
+      "sourceIds": [
+        "it-1",
+        "it-10"
+      ]
+    },
+    {
+      "text": "Italy's AI investment push is anchored in Article 23 of Law 132/2025, which earmarks up to €1 billion from the state Venture Capital Support Fund managed by CDP Venture Capital; reporting indicates more than €300M has been allocated to over 150 startups, with further investment planned. Undersecretary Alessio Butti has framed the effort as a matter of digital sovereignty.",
       "date": "2026",
       "sourceIds": [
-        "it-2"
-      ],
-      "needsVerification": true
+        "it-2",
+        "it-11"
+      ]
     },
     {
       "text": "UNU signs agreements with the Italian government to establish a new AI and big-data institute in Bologna; as of mid-2026, parliamentary ratification and full operational status were still pending.",
@@ -67,7 +92,7 @@
       "needsVerification": true
     },
     {
-      "text": "Italy becomes the first EU member state to enact its own comprehensive national AI law (Law No. 132/2025).",
+      "text": "Italy becomes the first EU member state to enact its own comprehensive national AI law (Law No. 132/2025), in force from 10 October 2025.",
       "date": "2025-10-10",
       "sourceIds": [
         "it-4"
@@ -87,9 +112,19 @@
     {
       "title": "Implementing decrees for Law 132/2025",
       "status": "proposed",
-      "summary": "Due by 10 October 2026; two received preliminary Council of Ministers approval in June 2026, with final adoption still pending parliamentary committee and Data Protection Authority (Garante) review.",
+      "summary": "Due by 10 October 2026; two received preliminary Council of Ministers approval in June 2026 (one on the powers of the national authorities and AI in education/training, one on AI in policing and civil/criminal liability), with final adoption still pending parliamentary committee and Data Protection Authority (Garante) review. The delegated decrees are expected to set Italy-specific high-risk lists and thresholds, conformity-assessment and accreditation procedures, sanction scales and sector rules.",
       "sourceIds": [
-        "it-1"
+        "it-1",
+        "it-10"
+      ]
+    },
+    {
+      "title": "EU AI Act (as applied in Italy)",
+      "status": "in_force",
+      "summary": "The EU AI Act is the substantive baseline that Law 132/2025 builds on. From 2 August 2026 the Commission's supervision and enforcement powers over general-purpose AI providers took effect — including the power to request documentation, evaluate models, order mitigations and impose fines of up to €15M or 3% of global turnover (Article 101) — and Article 50 transparency duties began to apply. Most high-risk (Annex III) obligations were postponed to 2027–2028. AgID (notifying authority) and ACN (market surveillance and single EU contact point) are Italy's designated national competent authorities, coordinating with the EU AI Office.",
+      "officialUrl": "https://artificialintelligenceact.eu/enforcement-of-chapter-v-under-the-eu-ai-act/",
+      "sourceIds": [
+        "it-6"
       ]
     }
   ],
@@ -133,6 +168,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Strong public HPC — the CINECA-hosted Leonardo (Bologna), now with the AI-dedicated LISA partition and the IT4LIA EuroHPC AI Factory",
+    "chipAccess": "Import-reliant; no domestic advanced-AI-chip fabrication (Leonardo runs on NVIDIA GPUs)"
+  },
   "universities": [
     {
       "name": "Italian Institute of Technology (IIT)",
@@ -159,18 +199,18 @@
   "governmentInstitutions": [
     {
       "name": "Agency for Digital Italy (AgID)",
-      "description": "Notifying authority for Italy's national AI law.",
+      "description": "Designated notifying authority under Law 132/2025 — accredits and oversees conformity-assessment bodies — and custodian of the Italian Strategy for Artificial Intelligence 2024–2026.",
       "url": "https://www.agid.gov.it/en"
     },
     {
       "name": "National Cybersecurity Agency (ACN)",
-      "description": "Market surveillance authority and EU contact point for AI Act enforcement."
+      "description": "Designated national market-surveillance authority under Law 132/2025 and the AI Act, and Italy's single point of contact with the EU institutions.",
+      "url": "https://www.acn.gov.it/portale/en/home"
     },
     {
       "name": "Italian Data Protection Authority (Garante)",
-      "description": "Named in 2026 coverage as a reviewing body for the pending implementing decrees under Law 132/2025.",
-      "url": "https://www.garanteprivacy.it",
-      "needsVerification": true
+      "description": "Reviews the pending implementing decrees under Law 132/2025 and has been one of Europe's most active AI privacy enforcers — actions against Replika, DeepSeek and 'Clothoff' in 2025 and a fine on Character.AI's owner in July 2026.",
+      "url": "https://www.garanteprivacy.it"
     }
   ],
   "keyPeople": [
@@ -220,6 +260,16 @@
       "expanded": "The European Commission has generally pushed for harmonised AI Act implementation across member states; Italy's decision to legislate additional sector-specific and copyright rules raises the question of whether other states will follow suit (creating a patchwork within the EU itself) or whether Brussels will push back on national divergence.",
       "sourceIds": [
         "it-1"
+      ]
+    },
+    {
+      "topic": "The Garante as Europe's most active AI privacy enforcer",
+      "category": "government",
+      "summary": "Even before the national AI law's enforcement machinery is fully operational, Italy's data-protection authority has arguably done more AI enforcement than any peer regulator — chiefly through GDPR rather than the AI Act itself.",
+      "expanded": "Across 2025–2026 the Garante limited DeepSeek's processing of Italian users' data, reaffirmed a ban and levied a reported €5M fine on Replika's developer, ordered a halt to the 'Clothoff' nudification app, and in July 2026 fined Character.AI's owner roughly €158,000 over child-safety and age-verification failings. Supporters see this as filling a gap while high-risk AI Act obligations are delayed to 2027–2028; critics note the actions rest largely on data-protection law rather than the new AI-specific framework, and question how consistently such enforcement can scale.",
+      "sourceIds": [
+        "it-7",
+        "it-8"
       ]
     }
   ],
@@ -291,6 +341,54 @@
       "url": "https://ai-watch.ec.europa.eu/countries/italy/italy-ai-strategy-report_en",
       "date": "2026",
       "category": "research"
+    },
+    {
+      "id": "it-6",
+      "title": "Enforcement of Chapter V under the EU AI Act (GPAI supervision from 2 August 2026)",
+      "publisher": "EU Artificial Intelligence Act (artificialintelligenceact.eu)",
+      "url": "https://artificialintelligenceact.eu/enforcement-of-chapter-v-under-the-eu-ai-act/",
+      "date": "2026-08",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "it-7",
+      "title": "Character.AI fined in Italy over child privacy failures",
+      "publisher": "MLex",
+      "url": "https://www.mlex.com/mlex/articles/2499749/character-ai-fined-in-italy-over-child-privacy-failures",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "it-8",
+      "title": "Italy Fines Character.AI Owner Over Age-Check and Privacy Failures",
+      "publisher": "Technology.org",
+      "url": "https://www.technology.org/2026/07/10/italy-fines-character-ai-age-verification-privacy/",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "it-9",
+      "title": "Inauguration of SOL, a new quantum computer, together with LISA: the upgrade of the Leonardo supercomputer",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/inauguration-sol-new-quantum-computer-together-lisa-upgrade-leonardo-supercomputer-2026-06-11_en",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "it-10",
+      "title": "AI: Italy's implementing decrees for Law 132/2025 — governance, training, biometrics and liability",
+      "publisher": "noze",
+      "url": "https://www.noze.it/en/insights/decreti-attuativi-legge-ai/",
+      "date": "2026-06",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "it-11",
+      "title": "Italy's CDP to invest €1 billion in AI and cybersecurity",
+      "publisher": "Digital Watch Observatory",
+      "url": "https://dig.watch/updates/italys-cdp-to-invest-e1-billion-in-ai-and-cybersecurity",
+      "date": "2026",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

@@ -19,11 +19,12 @@
     23.7
   ],
   "zoom": 7.0,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 4,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 5,
   "debateTopics": [
     "AI chip export controls on China beyond the existing US blacklist",
-    "Building an AI ecosystem around chips rather than models"
+    "Building an AI ecosystem around chips rather than models",
+    "A sovereign Mandarin model (TAIDE) against Chinese-language AI influence"
   ],
   "overview": "Taiwan's AI Basic Act passed the Legislative Yuan in December 2025 and took effect on 14 January 2026, adopting an EU-AI-Act-aligned definition of AI and seven core principles: sustainable development and wellbeing, human autonomy, privacy, cybersecurity, transparency, fairness, and accountability. The Act also requires the Executive Yuan to form a national AI strategy committee to draft Taiwan's first AI development blueprint, though its current operational status (fully constituted versus still forming) is not yet clearly confirmed.\n\nCompared with most peer economies profiled here, Taiwan's AI story is often framed around chips rather than models — TSMC's role in the global AI hardware supply chain appears to receive far more policy and media attention than any domestic frontier AI software lab, and Taiwan does not currently appear to have a lab operating at a scale comparable to Japan's Sakana AI or France's Mistral. As of mid-2026, Taiwan is reportedly considering export-control rules on AI chips to China that go beyond the existing US blacklist, with potential implications for TSMC and its supply chain if adopted.",
   "atAGlance": {
@@ -44,6 +45,14 @@
   },
   "recentDevelopments": [
     {
+      "text": "A Keelung court detains three Super Micro and Albatron executives (~1 July 2026) in what is reported as Taiwan's first criminal probe into diversion of NVIDIA AI chips to China — a case widely read as exposing a legal gap, since Taiwan does not yet criminalise AI-chip exports to China even as US rules restrict them.",
+      "date": "2026-07-01",
+      "sourceIds": [
+        "tw-7"
+      ],
+      "needsVerification": true
+    },
+    {
       "text": "Taiwan's exports rise 40.3% year-on-year in June, reportedly driven largely by strong global demand for AI chips.",
       "date": "2026-07",
       "sourceIds": [
@@ -51,10 +60,12 @@
       ]
     },
     {
-      "text": "Taiwan reportedly considers tighter AI chip export rules on China beyond existing US blacklist entities, which could raise risks for server makers like Foxconn if adopted.",
+      "text": "Taiwan is reported (Bloomberg, June 2026) to be weighing tighter AI-chip export controls on China to align with the US — potentially a criminal ban on exports above a compute-performance threshold to all Chinese buyers, going beyond the existing US blacklist — which could raise risks for TSMC and server makers like Foxconn if adopted; TSMC shares slipped on the reports.",
       "date": "2026-06",
       "sourceIds": [
-        "tw-1"
+        "tw-1",
+        "tw-5",
+        "tw-6"
       ]
     },
     {
@@ -94,16 +105,19 @@
     {
       "title": "Proposed AI chip export controls on China",
       "status": "proposed",
-      "summary": "Reportedly under consideration as of June 2026 — would go beyond existing US blacklist restrictions and, if adopted, could carry implications for TSMC and server makers like Foxconn.",
+      "summary": "Reportedly under consideration as of mid-2026 — Bloomberg reported Taiwan weighing curbs to align with the US, potentially a criminal ban on exports above a compute-performance threshold to all Chinese buyers, going beyond the existing US blacklist. The July 2026 detention of Super Micro and Albatron executives over alleged NVIDIA-chip diversion highlighted that Taiwan does not yet criminalise such exports. If adopted, controls could carry implications for TSMC and server makers like Foxconn.",
       "sourceIds": [
-        "tw-1"
+        "tw-1",
+        "tw-5",
+        "tw-7"
       ]
     }
   ],
   "researchEcosystem": {
-    "summary": "Taiwan's AI ecosystem is often characterized as chip-centric rather than model-lab-centric: TSMC's role in global AI chip manufacturing receives substantially more attention than domestic AI software development, and Taiwan does not currently appear to have a frontier AI model lab operating at a scale comparable to some regional peers.",
+    "summary": "Taiwan's AI ecosystem is often characterised as chip-centric rather than model-lab-centric: TSMC's role in global AI chip manufacturing receives substantially more attention than domestic AI software development, and Taiwan does not currently appear to have a frontier AI model lab operating at a scale comparable to some regional peers. The clearest domestic model effort is the government-backed TAIDE (Trustworthy AI Dialogue Engine), a Taiwan-focused traditional-Chinese large language model developed with the National Center for High-performance Computing (NCHC) under NARLabs and framed partly as a defence against Chinese-language AI influence; Taiwan is reported to have earmarked up to around NT$17.4B (~US$556M) through 2026 for related AI research. Universities such as National Taiwan University and applied bodies like the Institute for Information Industry (III) anchor much of the research and talent base.",
     "sourceIds": [
-      "tw-2"
+      "tw-2",
+      "tw-8"
     ]
   },
   "companies": [
@@ -160,14 +174,36 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Limited domestic AI clusters (e.g. NCHC's supercomputers); export-oriented hardware economy",
+    "chipAccess": "Home of TSMC, which makes most of the world's advanced AI chips"
+  },
   "universities": [
     {
       "name": "National Taiwan University",
       "description": "One of Taiwan's leading research universities, reportedly building out its AI research activities.",
       "needsVerification": true
+    },
+    {
+      "name": "National Center for High-performance Computing (NCHC)",
+      "description": "NARLabs supercomputing centre that provides Taiwan's national AI compute and co-developed the TAIDE sovereign traditional-Chinese large language model.",
+      "url": "https://www.nchc.org.tw/?langid=2"
     }
   ],
-  "thinkTanks": [],
+  "thinkTanks": [
+    {
+      "name": "Institute for Information Industry (III)",
+      "description": "Long-established public-private research institute now positioning itself as a digital-transformation think tank, with core missions in AI development and cybersecurity governance and a role in policy collaboration and talent cultivation.",
+      "url": "https://www.iii.org.tw/en/"
+    },
+    {
+      "name": "Research Institute for Democracy, Society and Emerging Technology (DSET)",
+      "description": "Taipei-based research institute working on emerging-technology policy, including AI governance and its intersection with democracy and security.",
+      "url": "https://dset.tw/en/home-en/",
+      "needsVerification": true
+    }
+  ],
   "governmentInstitutions": [
     {
       "name": "National Science and Technology Council",
@@ -224,6 +260,15 @@
       "expanded": "Unlike most economies profiled here, Taiwan does not appear to have a domestic frontier AI software lab of comparable scale to build policy around — its AI Basic Act and the planned national AI strategy committee are intended to define what an AI development blueprint looks like for an economy whose comparative advantage lies in manufacturing chips that other countries' AI models run on, rather than in building the models themselves.",
       "sourceIds": [
         "tw-2"
+      ]
+    },
+    {
+      "topic": "A sovereign Mandarin model against Chinese-language AI influence",
+      "category": "research",
+      "summary": "The government-backed TAIDE model is framed less as a bid for the frontier than as a way to ensure a trusted, Taiwan-centric traditional-Chinese AI that reflects local language, values and security concerns rather than mainland Chinese ones.",
+      "expanded": "TAIDE (Trustworthy AI Dialogue Engine), developed with the National Center for High-performance Computing, was trained largely on Taiwanese-sourced data — including Central News Agency articles — and is presented partly as a safeguard against dependence on Chinese-origin Mandarin models that could carry different political framings or censorship. Supporters argue a sovereign Mandarin model matters for information security and cultural autonomy; sceptics note that TAIDE operates well below the scale of leading global models and question whether a state-led effort can keep pace, reinforcing the view that Taiwan's real AI leverage lies in hardware rather than models.",
+      "sourceIds": [
+        "tw-8"
       ]
     }
   ],
@@ -289,13 +334,57 @@
       "url": "https://www.taipeitimes.com/",
       "date": "2026-07",
       "category": "news"
+    },
+    {
+      "id": "tw-5",
+      "title": "Taiwan weighs curbs on AI chip exports to China to align with US",
+      "publisher": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "tw-6",
+      "title": "Taiwan weighs criminal ban on AI chip exports to all of China",
+      "publisher": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/taiwan-weighs-criminal-ban-on-ai-chip-exports-to-all-of-china-as-us-trade-talks-continue",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "tw-7",
+      "title": "Taiwan detains Super Micro execs in first criminal probe into AI-chip diversion to China",
+      "publisher": "Tech Times",
+      "url": "https://www.techtimes.com/articles/319674/20260704/taiwan-detains-super-micro-execs-forgery-charges-fill-25b-export-law-void.htm",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "tw-8",
+      "title": "Trustworthy AI Dialogue Engine (TAIDE)",
+      "publisher": "Executive Yuan, R.O.C. (Taiwan)",
+      "url": "https://english.ey.gov.tw/News3/9E5540D592A5FECD/fd1a37a3-01dc-46b4-b636-7712acddc1aa",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "tw-9",
+      "title": "III launches three core missions including AI development and cybersecurity governance",
+      "publisher": "Institute for Information Industry",
+      "url": "https://www.iii.org.tw/en/news/newsroom/iii-news/25cd305d-bb23-4cf9-8833-cb15d7805279",
+      "date": "2026",
+      "category": "think_tank"
     }
   ],
   "hasMajorUpdate": true,
   "notableGaps": [
     {
-      "area": "AI policy think tanks",
-      "note": "The thinkTanks list is currently empty. Whether Taiwan has a dedicated AI-policy think tank has not yet been independently assessed for this dataset."
+      "area": "Frontier foundation-model developers",
+      "note": "No Taiwan-based lab trains frontier-scale general-purpose models; the main domestic effort, the government-backed TAIDE, is a comparatively small sovereign traditional-Chinese model, consistent with an AI economy centred on chip manufacturing rather than model development."
+    },
+    {
+      "area": "Dedicated AI-safety institute",
+      "note": "Taiwan does not appear to have a standalone national AI safety institute of the kind emerging in Japan, South Korea and Singapore; AI-safety and governance work is spread across the National Science and Technology Council, the Ministry of Digital Affairs and bodies such as the Institute for Information Industry."
     }
   ]
 }

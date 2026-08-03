@@ -1,5 +1,4 @@
 import type { EcosystemPerson } from "@/lib/types";
-import { VerificationBadge } from "@/components/country/VerificationBadge";
 
 const CATEGORY_LABEL: Record<EcosystemPerson["category"], string> = {
   government: "Government",
@@ -17,15 +16,12 @@ export function PeopleGrid({ items }: { items: EcosystemPerson[] }) {
         const content = (
           <>
             <div className="flex items-start justify-between gap-2">
-              <h4 className="text-[13.5px] font-medium text-page-text">{p.name}</h4>
-              <div className="flex shrink-0 items-center gap-1.5">
-                {p.needsVerification && <VerificationBadge />}
-                <span className="rounded-full border border-page-border px-2 py-0.5 font-mono text-[10px] uppercase tracking-wide text-page-text-muted">
-                  {CATEGORY_LABEL[p.category]}
-                </span>
-              </div>
+              <h4 className="min-w-0 break-words text-[13.5px] font-medium text-page-text">{p.name}</h4>
+              <span className="shrink-0 rounded-full border border-page-border px-2 py-0.5 font-mono text-[10px] uppercase tracking-wide text-page-text-muted">
+                {CATEGORY_LABEL[p.category]}
+              </span>
             </div>
-            <p className="mt-1 text-[12.5px] text-page-text-secondary">{p.role}</p>
+            <p className="mt-1 text-[12.5px] break-words text-page-text-secondary">{p.role}</p>
             {p.affiliation && (
               <p className="mt-0.5 font-mono text-[11px] text-page-text-muted">{p.affiliation}</p>
             )}

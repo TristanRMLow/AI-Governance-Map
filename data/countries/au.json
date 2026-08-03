@@ -19,30 +19,40 @@
     -25.3
   ],
   "zoom": 3.5,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
   "debateTopics": [
     "Reversal from mandatory guardrails to technology-neutral regulation",
+    "Legislating Australian Standards for AI and mandatory rules for large data centres",
     "AI Safety Institute's role without binding law behind it"
   ],
-  "overview": "Australia shifted its approach to AI regulation in 2025. A September 2024 proposals paper had floated ten mandatory guardrails for high-risk AI systems, but after industry pushback over productivity and innovation concerns, the government's December 2025 National AI Plan confirmed Australia will not introduce mandatory guardrails or a standalone AI Act — opting instead for existing law, sector regulators, voluntary guidance, and a new AI Safety Institute.\n\nThat Institute became operational in early 2026 with A$29.9 million in funding, joining the International Network of AI Safety Institutes, whose broader membership includes the UK, US, Canada, Japan, South Korea, the EU, France, Kenya and Singapore. The National AI Centre has also reportedly convened a 'Responsible AI at Scale Think Tank' roundtable series — said to include the AIIA, CEDA, CHOICE and The Ethics Centre — as part of efforts toward Australia's first AI standard; this roundtable series has not been independently verified beyond the National AI Centre's own materials.",
+  "overview": "Australia shifted its approach to AI regulation in 2025. A September 2024 proposals paper had floated ten mandatory guardrails for high-risk AI systems, but after industry pushback over productivity and innovation concerns, the government's December 2025 National AI Plan confirmed Australia will not introduce mandatory guardrails or a standalone AI Act — opting instead for existing law, sector regulators, voluntary guidance, and a new AI Safety Institute.\n\nThat Institute became operational in early 2026 with A$29.9 million in funding, joining the International Network of AI Safety Institutes, whose broader membership includes the UK, US, Canada, Japan, South Korea, the EU, France, Kenya and Singapore. The National AI Centre has also reportedly convened a 'Responsible AI at Scale Think Tank' roundtable series — said to include the AIIA, CEDA, CHOICE and The Ethics Centre — as part of efforts toward Australia's first AI standard; this roundtable series has not been independently verified beyond the National AI Centre's own materials.\n\nIn a partial recalibration of that light-touch posture, Prime Minister Anthony Albanese announced on 15 July 2026 that Australia would legislate 'Australian Standards for AI' and stood up a new Office of AI within the Department of the Prime Minister and Cabinet. Rather than reviving the abandoned horizontal high-risk guardrails, the framework appears targeted: it would bring large AI data centres under a single mandatory national regime covering planning, energy and water use, and pairs this with a commitment that Australian writers, musicians, artists and journalists retain ownership and control of their work. National Cabinet was expected to consider the approach in August 2026, with standards reportedly to be legislated in early 2027.",
   "atAGlance": {
     "policyDirection": {
       "label": "Stepped back from mandatory guardrails toward a lighter-touch approach",
       "sentiment": "green"
     },
-    "regulatoryApproach": "Existing law plus sector regulators, voluntary guidance, and a new AI Safety Institute",
-    "latestMajorUpdate": "National AI Plan confirms no standalone AI Act or mandatory guardrails",
-    "governmentInvolvement": "Light-touch — no binding AI-specific law; guidance and a new Safety Institute instead",
-    "industrialStrategy": "No dedicated state industrial-policy push identified; the ecosystem is anchored by AI-first scaleups such as Canva and Atlassian",
+    "regulatoryApproach": "Existing law plus sector regulators and voluntary guidance, now supplemented by a planned, targeted 'Australian Standards for AI' regime (initially focused on large data centres) and a new AI Safety Institute",
+    "latestMajorUpdate": "PM Albanese announces Australia will legislate 'Australian Standards for AI' and stands up an Office of AI within the Department of the Prime Minister and Cabinet (15 July 2026)",
+    "governmentInvolvement": "Light-touch on horizontal rules, but tightening on infrastructure — a new Office of AI in PM&C and a planned mandatory data-centre standards regime",
+    "industrialStrategy": "No broad state industrial-policy push identified beyond the new data-centre standards; the ecosystem is anchored by AI-first scaleups such as Canva and Atlassian",
     "internationalPartnerships": "International Network of AI Safety Institutes (members include the UK, US, Canada, Japan, South Korea, EU, France, Kenya and Singapore)",
-    "primaryPolicyFocus": "Reportedly working toward Australia's first AI standard via the National AI Centre's Responsible AI at Scale Think Tank roundtables"
+    "primaryPolicyFocus": "Legislating Australian Standards for AI (starting with large data centres) and protecting creative works from unconsented AI training appear to be near-term priorities, alongside the National AI Centre's standards work"
   },
   "currentDirection": {
-    "trend": "loosening",
-    "summary": "Australia stepped back from its own 2024 proposal for ten mandatory AI guardrails after industry pushback, settling instead on a technology-neutral approach built around existing law, voluntary guidance, and a newly operational AI Safety Institute rather than binding legislation."
+    "trend": "stable",
+    "summary": "Australia stepped back from its own 2024 proposal for ten mandatory AI guardrails after industry pushback, settling on a technology-neutral approach built around existing law, voluntary guidance and a newly operational AI Safety Institute. That posture appears to be partly recalibrating rather than reversing: on 15 July 2026 the government announced it would legislate 'Australian Standards for AI' and created an Office of AI within the Department of the Prime Minister and Cabinet, signalling targeted mandatory rules for large AI data centres (planning, energy, water) even as it continues to reject a broad horizontal AI Act."
   },
   "recentDevelopments": [
+    {
+      "text": "Prime Minister Anthony Albanese announces that Australia will legislate 'Australian Standards for AI' and establishes a new Office of AI within the Department of the Prime Minister and Cabinet, which began operating on 15 July 2026. The framework would bring large AI data centres under a single mandatory national regime covering planning, energy and water use, and includes a commitment that Australian writers, musicians, artists and journalists retain ownership and control of their work; National Cabinet was expected to consider the approach in August 2026, with standards reportedly to be legislated in early 2027.",
+      "date": "2026-07-15",
+      "sourceIds": [
+        "au-7",
+        "au-8"
+      ],
+      "severity": "major"
+    },
     {
       "text": "University of Sydney hosts the Australian AI Safety Forum 2026 (July 7–8, Holme Building).",
       "date": "2026-07-07",
@@ -83,6 +93,16 @@
     }
   ],
   "policyAndRegulation": [
+    {
+      "title": "Australian Standards for AI (proposed) and Office of AI",
+      "status": "proposed",
+      "summary": "Announced 15 July 2026: the government will legislate 'Australian Standards for AI', beginning with a single mandatory national regime for large AI data centres covering planning, energy and water use, coordinated by a new Office of AI within the Department of the Prime Minister and Cabinet. Paired with a commitment to protect Australian creative works from unconsented AI training. National Cabinet was expected to consider the approach in August 2026, with legislation reportedly targeted for early 2027; the standards themselves were not yet drafted as of this writing.",
+      "sourceIds": [
+        "au-7",
+        "au-8"
+      ],
+      "needsVerification": true
+    },
     {
       "title": "National AI Plan",
       "status": "in_force",
@@ -146,6 +166,11 @@
     ],
     "dominance": []
   },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Fast-growing data-centre sector, now to be brought under a mandatory 'Australian Standards for AI' regime",
+    "chipAccess": "Import-reliant; a close US ally not subject to AI-chip export restrictions"
+  },
   "universities": [
     {
       "name": "University of Sydney",
@@ -160,6 +185,12 @@
     }
   ],
   "governmentInstitutions": [
+    {
+      "name": "Office of AI",
+      "description": "New central coordination unit established within the Department of the Prime Minister and Cabinet, which began operating on 15 July 2026; tasked with coordinating whole-of-government AI policy and overseeing development of the proposed Australian Standards for AI.",
+      "url": "https://www.pmc.gov.au",
+      "needsVerification": true
+    },
     {
       "name": "National AI Centre (NAIC)",
       "description": "Reportedly convenes industry and civil-society roundtables toward Australia's first AI standard; published updated 'Guidance for AI Adoption' (AI6) in October 2025, replacing the 2024 Voluntary AI Safety Standard.",
@@ -224,6 +255,16 @@
     }
   ],
   "debates": [
+    {
+      "topic": "Legislating Australian Standards for AI and mandatory rules for large data centres",
+      "category": "infrastructure",
+      "summary": "The July 2026 decision to legislate 'Australian Standards for AI' and create an Office of AI marks a partial pivot back toward binding rules — but narrowly aimed at large AI data centres rather than a broad horizontal AI Act.",
+      "expanded": "Having ruled out ten horizontal high-risk guardrails in the December 2025 National AI Plan, the government's 15 July 2026 announcement suggests a more targeted form of intervention: a single mandatory national regime for large AI data centres covering planning, energy and water use, coordinated by a new Office of AI inside the Department of the Prime Minister and Cabinet, alongside a stated commitment to protect creative works from unconsented AI training. Supporters frame this as ensuring Australia becomes 'more than a data warehouse' for AI built overseas; sceptics note the standards are yet to be drafted, depend on National Cabinet agreement, and are not expected to be legislated until early 2027, leaving their eventual scope and enforceability uncertain.",
+      "sourceIds": [
+        "au-7",
+        "au-8"
+      ]
+    },
     {
       "topic": "Reversal from mandatory guardrails to technology-neutral regulation",
       "category": "government",
@@ -333,6 +374,22 @@
       "url": "https://www.minister.industry.gov.au",
       "date": "2026",
       "category": "government"
+    },
+    {
+      "id": "au-7",
+      "title": "Albanese creates Office of AI so Australia can be more than a data warehouse",
+      "publisher": "Forbes Australia",
+      "url": "https://www.forbes.com.au/news/innovation/albanese-creates-office-of-ai-so-australia-can-be-more-than-a-data-warehouse/",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "au-8",
+      "title": "Australia wants to 'manage' AI. What will that look like?",
+      "publisher": "The Conversation",
+      "url": "https://theconversation.com/australia-wants-to-manage-ai-what-will-that-look-like-287496",
+      "date": "2026-07",
+      "category": "expert_commentary"
     }
   ],
   "hasMajorUpdate": true,

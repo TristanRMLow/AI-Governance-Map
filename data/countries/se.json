@@ -1,0 +1,455 @@
+{
+  "code": "se",
+  "name": "Sweden",
+  "shortName": "Sweden",
+  "flagEmoji": "🇸🇪",
+  "geometryType": "polygon",
+  "isoA3": [
+    "SWE"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "EU member preparing a national AI Act implementation law (PTS as lead), built on deep industrial AI strength and the Wallenberg-funded WASP research base",
+  "accentColor": {
+    "light": "#3E7E8E",
+    "dark": "#55A0B0"
+  },
+  "center": [
+    15.5,
+    62.5
+  ],
+  "zoom": 3.9,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "National AI-Act implementation and which authority leads",
+    "A copyright-safe sovereign Swedish language model",
+    "Applied and industrial AI strength versus few sovereign frontier models"
+  ],
+  "overview": "Sweden combines an unusually deep industrial and applied-AI base -- Ericsson, Volvo, Spotify, Klarna and a dense startup scene -- with one of Europe's largest privately funded academic AI programmes, the Wallenberg AI, Autonomous Systems and Software Program (WASP), backed by the Knut and Alice Wallenberg Foundation. National coordination of applied AI runs largely through AI Sweden, and national compute through the Berzelius supercomputer at Linköping University and the NAISS infrastructure.\n\nOn governance, Sweden is an EU AI Act member state whose national implementation is still being finalised. A government inquiry (SOU 2025:101) proposed designating the Post and Telecom Authority (PTS) as the coordinating and main market-surveillance authority, alongside a set of sectoral market-surveillance and notifying authorities, with the data-protection authority IMY pressing for a lead role over prohibited-practice supervision. The EU AI Act's general-purpose AI obligations took effect on 2 August 2026, but Sweden's national law and ordinance had not yet been formally adopted as of that date. Sweden's AI Commission, whose roadmap fed into this work, has urged clearer institutional leadership. In February 2026 a WASP/NAISS initiative was announced to build a high-quality, copyright-respecting Swedish large language model trained on Berzelius.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Strong applied AI; national AI-Act implementation still being finalised",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act member state; national law (SOU 2025:101) proposes PTS as lead market-surveillance authority, not yet adopted",
+    "latestMajorUpdate": "EU AI Act general-purpose AI obligations took effect (2 Aug 2026)",
+    "governmentInvolvement": "Moderate: AI Commission roadmap and a proposed implementation law, with agencies (PTS, IMY, DIGG) to share supervision",
+    "industrialStrategy": "Applied and industrial AI (Ericsson, Volvo, Spotify, Klarna); WASP research; national compute (Berzelius)",
+    "internationalPartnerships": "EU AI Act framework; Nordic and EU research collaboration",
+    "primaryPolicyFocus": "Implementing the EU AI Act while sustaining industrial competitiveness and building a sovereign Swedish model"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Sweden's direction is a gradual tightening driven mainly by EU AI Act implementation: a national law naming PTS as lead supervisor is advancing but not yet adopted, and data-protection supervision of AI is a stated 2026 priority. This regulatory layer sits atop a broadly innovation-positive stance emphasising industrial AI and a sovereign Swedish language model."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The EU AI Act's general-purpose AI obligations took effect on 2 August 2026; Sweden's proposed national implementation law and ordinance (SOU 2025:101) -- designating the Post and Telecom Authority (PTS) as coordinating and main market-surveillance authority -- were targeted for this date but had not yet been formally adopted.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "se-3",
+        "se-4"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "A WASP/NAISS initiative to build a high-quality Swedish large language model was presented (20 February 2026), trained on the Berzelius supercomputer and co-funded with authors, publishers and news-media organisations providing copyright-cleared training data via a new WARA AI-TRICS research arena.",
+      "date": "2026-02-20",
+      "sourceIds": [
+        "se-1",
+        "se-2"
+      ]
+    },
+    {
+      "text": "The Swedish data-protection authority (IMY) designated AI in the public sector as a 2026 supervisory priority and, in its consultation response, argued that market surveillance of prohibited AI practices under Article 5 of the EU AI Act should rest with IMY rather than being shared with PTS and the financial supervisor.",
+      "date": "2026-02",
+      "sourceIds": [
+        "se-4"
+      ]
+    },
+    {
+      "text": "The Knut and Alice Wallenberg Foundation extended the WASP programme with a new 'AI for Science' initiative, reinforcing Sweden's position as host of one of Europe's largest privately funded academic AI research efforts.",
+      "date": "2026",
+      "sourceIds": [
+        "se-7"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Sweden's national AI compute continued to centre on the Berzelius supercomputer (NVIDIA-based, reported at several hundred petaflops for AI) at the National Supercomputer Centre in Linköping, funded by the Wallenberg Foundation and used for the Swedish LLM effort.",
+      "date": "2026",
+      "sourceIds": [
+        "se-5"
+      ]
+    },
+    {
+      "text": "Sweden's government-appointed AI Commission roadmap (SOU 2025:12) called for clearer political and institutional leadership on AI, recommending national coordination structures and explicit roles for agencies such as DIGG and IMY -- feeding into the national implementation law.",
+      "date": "2025",
+      "sourceIds": [
+        "se-4"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National EU AI Act implementation law (SOU 2025:101)",
+      "status": "proposed",
+      "summary": "A government inquiry proposed the Swedish framework for implementing the EU AI Act, designating the Post and Telecom Authority (PTS) as the coordinating and main market-surveillance authority, alongside around 11 sectoral market-surveillance authorities and 2 notifying authorities, and covering sanctions and regulatory sandboxes. As of early August 2026 the law and its ordinance had not yet been formally adopted, leaving some enforcement mechanics provisional. IMY has argued for sole responsibility over prohibited-practice supervision.",
+      "officialUrl": "https://digitalcompliance.snellman.com/sweden-proposes-national-ai-legislation-to-supplement-the-eu-ai-act/",
+      "sourceIds": [
+        "se-3",
+        "se-4"
+      ]
+    },
+    {
+      "title": "EU AI Act (general-purpose AI obligations)",
+      "status": "in_force",
+      "summary": "As an EU member state, Sweden is bound by the EU AI Act, whose general-purpose AI provisions and Article 50 transparency duties took effect on 2 August 2026, with the AI Office in Brussels supervising the largest general-purpose models. National enforcement of many obligations awaits adoption of the domestic implementation law.",
+      "officialUrl": "https://www.twobirds.com/en/capabilities/artificial-intelligence/ai-legal-services/ai-regulatory-horizon-tracker/sweden",
+      "sourceIds": [
+        "se-4"
+      ]
+    },
+    {
+      "title": "Swedish AI Commission roadmap (SOU 2025:12)",
+      "status": "in_force",
+      "summary": "The government-appointed AI Commission's roadmap set out priorities for Swedish AI, highlighting the need for clearer political and institutional leadership and recommending national coordination structures and defined roles for agencies including DIGG and IMY. It is an advisory strategy document rather than binding law.",
+      "officialUrl": "https://www.regeringen.se",
+      "sourceIds": [
+        "se-4"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Swedish AI research is anchored by WASP -- launched in 2015 and described as Sweden's largest single research programme -- funded by the Knut and Alice Wallenberg Foundation and spanning Linköping, KTH, Chalmers, Lund, Umeå and Uppsala. Applied AI is coordinated nationally through AI Sweden, and compute through the Berzelius supercomputer at Linköping (NSC) and the NAISS infrastructure. The February 2026 WASP/NAISS Swedish LLM effort, built on copyright-cleared data, is the flagship sovereign-model initiative.",
+    "sourceIds": [
+      "se-1",
+      "se-6"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Ericsson",
+      "description": "Swedish telecoms-equipment multinational applying AI across networks and operations; publicly frames its AI governance as going beyond EU AI Act requirements.",
+      "url": "https://www.ericsson.com"
+    },
+    {
+      "name": "Klarna",
+      "description": "Stockholm-based fintech that has aggressively deployed generative AI in customer service and operations, becoming a prominent (and debated) case study in enterprise AI adoption.",
+      "url": "https://www.klarna.com"
+    },
+    {
+      "name": "Spotify",
+      "description": "Stockholm-founded audio-streaming company using AI extensively for recommendation, discovery and content tooling.",
+      "url": "https://www.spotify.com"
+    },
+    {
+      "name": "Volvo Cars / Volvo Group",
+      "description": "Gothenburg-based automotive and heavy-vehicle groups deploying AI in autonomous driving, safety and manufacturing, anchoring an industrial-AI cluster.",
+      "url": "https://www.volvocars.com"
+    },
+    {
+      "name": "Sana Labs",
+      "description": "Stockholm enterprise-AI company building an AI platform for learning and organisational knowledge using NLP and machine learning.",
+      "url": "https://www.sanalabs.com"
+    },
+    {
+      "name": "Lovable",
+      "description": "Stockholm AI-native software company enabling app development via natural language, one of Sweden's fastest-rising 2025-2026 AI startups.",
+      "url": "https://lovable.dev",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Berzelius (NSC, Linköping University)",
+        "description": "Sweden's fastest AI supercomputer, NVIDIA-based and funded by the Knut and Alice Wallenberg Foundation; the compute backbone for WASP and the Swedish LLM project.",
+        "url": "https://www.nsc.liu.se/systems/berzelius/"
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Operates Swedish cloud regions (Gävle/Sandviken/Staffanstorp area) serving Nordic enterprise and public-sector AI workloads.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "AWS",
+        "description": "Runs an AWS Europe (Stockholm) region used widely across the Nordics.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Serves Swedish customers via European regions; Google also operates data-centre capacity in the Nordics.",
+        "url": "https://cloud.google.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Berzelius (NVIDIA, several hundred AI-petaflops) plus NAISS; strong industrial compute but no hyperscale frontier build-out",
+    "chipAccess": "Import-reliant via EU supply chains; Western-aligned, not export-restricted"
+  },
+  "universities": [
+    {
+      "name": "KTH Royal Institute of Technology",
+      "description": "Stockholm technical university with major AI, robotics and machine-learning research and a WASP partner.",
+      "url": "https://www.kth.se"
+    },
+    {
+      "name": "Linköping University",
+      "description": "Host of the National Supercomputer Centre and the Berzelius system, and a central WASP node.",
+      "url": "https://liu.se"
+    },
+    {
+      "name": "Chalmers University of Technology",
+      "description": "Gothenburg technical university strong in AI, autonomous systems and industrial applications, near the Volvo cluster.",
+      "url": "https://www.chalmers.se"
+    },
+    {
+      "name": "Lund University",
+      "description": "Major research university with significant AI and data-science activity and WASP participation.",
+      "url": "https://www.lu.se"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "AI Sweden",
+      "description": "Sweden's national centre for applied AI, coordinating collaboration between the public sector, industry and academia and running training such as 'AI Act Ready'.",
+      "url": "https://www.ai.se/en"
+    },
+    {
+      "name": "RISE (Research Institutes of Sweden)",
+      "description": "State-owned research institute conducting applied AI research and supporting industry adoption.",
+      "url": "https://www.ri.se/en"
+    },
+    {
+      "name": "Knut and Alice Wallenberg Foundation",
+      "description": "Private foundation funding WASP and much of Sweden's large-scale academic AI research, including Berzelius.",
+      "url": "https://kaw.wallenberg.org/en"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Post and Telecom Authority (PTS)",
+      "description": "Proposed under SOU 2025:101 as Sweden's coordinating and main market-surveillance authority for the EU AI Act.",
+      "url": "https://www.pts.se"
+    },
+    {
+      "name": "Swedish Authority for Privacy Protection (IMY)",
+      "description": "Data-protection authority; has made public-sector AI a 2026 supervisory priority and seeks a lead role over prohibited-practice supervision under the AI Act.",
+      "url": "https://www.imy.se/en/"
+    },
+    {
+      "name": "Agency for Digital Government (DIGG)",
+      "description": "Central agency for digital government, identified in the AI Commission roadmap as key to operationalising AI guidance in the public sector.",
+      "url": "https://www.digg.se"
+    },
+    {
+      "name": "NAISS (National Academic Infrastructure for Supercomputing in Sweden)",
+      "description": "National academic supercomputing infrastructure, partnering with WASP on the Swedish LLM effort.",
+      "url": "https://www.naiss.se"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Sara Mazur",
+      "role": "Executive Director at the Knut and Alice Wallenberg Foundation; presented the Swedish large language model initiative and a leading figure in Sweden's AI research strategy.",
+      "category": "think_tank_leader",
+      "url": "https://kaw.wallenberg.org/en"
+    },
+    {
+      "name": "Fredrik Heintz",
+      "role": "Linköping University professor and prominent Swedish AI researcher active in WASP and European AI-policy debates.",
+      "category": "researcher",
+      "url": "https://liu.se",
+      "needsVerification": true
+    },
+    {
+      "name": "Danica Kragic",
+      "role": "KTH professor in robotics and machine learning; a leading Swedish AI and autonomous-systems researcher.",
+      "category": "researcher",
+      "url": "https://www.kth.se",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "AI Sweden",
+      "type": "organization",
+      "role": "National centre for applied AI, coordinating adoption and EU AI Act readiness across sectors.",
+      "category": "think_tank",
+      "url": "https://www.ai.se/en"
+    },
+    {
+      "name": "WASP (Wallenberg AI, Autonomous Systems and Software Program)",
+      "type": "organization",
+      "role": "Sweden's largest academic AI research programme and driver of the sovereign Swedish LLM effort.",
+      "category": "university",
+      "url": "https://wasp-sweden.org"
+    },
+    {
+      "name": "Sara Mazur",
+      "type": "person",
+      "role": "Executive Director at the Wallenberg Foundation; central to Sweden's AI research funding and strategy.",
+      "category": "think_tank",
+      "url": "https://kaw.wallenberg.org/en"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "PTS (proposed AI supervisor)",
+      "type": "agency"
+    },
+    {
+      "label": "IMY (data protection)",
+      "type": "agency"
+    },
+    {
+      "label": "WASP / Wallenberg Foundation",
+      "type": "research"
+    },
+    {
+      "label": "AI Sweden",
+      "type": "think_tank"
+    },
+    {
+      "label": "Industrial AI (Ericsson, Volvo, Spotify, Klarna)",
+      "type": "company"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Sovereign frontier model",
+      "note": "Sweden has world-class applied and academic AI but no frontier-scale commercial lab. The WASP/NAISS Swedish LLM and earlier AI Sweden models (such as GPT-SW3) are mid-sized, research- or language-focused efforts, so the 'emerging' label reflects sovereign/academic models rather than a global frontier developer."
+    },
+    {
+      "area": "Adopted national AI law",
+      "note": "As of early August 2026 Sweden's national EU AI Act implementation law (SOU 2025:101) had not been formally adopted, leaving the choice of lead authority (PTS versus a stronger IMY role) and enforcement mechanics still unsettled at the AI Act's main milestone."
+    },
+    {
+      "area": "Institutional leadership",
+      "note": "The AI Commission itself flagged a lack of clear political and institutional leadership on AI; responsibilities are spread across PTS, IMY, DIGG and others, and the coordinating structures it recommended were still being put in place."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "National AI-Act implementation and which authority leads",
+      "category": "government",
+      "summary": "Sweden's proposed implementation law names PTS as lead market-surveillance authority, but IMY argues it should lead on prohibited-practice supervision -- an unresolved question at the AI Act's 2026 milestone.",
+      "expanded": "SOU 2025:101 proposes a distributed model with PTS coordinating and around a dozen sectoral authorities supervising within their domains. IMY has publicly argued that supervision of prohibited AI practices under Article 5 should rest with the data-protection authority alone, rather than being shared with PTS and the financial supervisor, on the grounds that these practices most directly threaten fundamental rights. Because the law was not yet adopted as the EU AI Act's general-purpose provisions took effect on 2 August 2026, Swedish enforcement responsibilities remained provisional, drawing criticism about readiness.",
+      "sourceIds": [
+        "se-3",
+        "se-4"
+      ]
+    },
+    {
+      "topic": "A copyright-safe sovereign Swedish language model",
+      "category": "research",
+      "summary": "The WASP/NAISS Swedish LLM is notable for co-funding with authors, publishers and news media in exchange for copyright-cleared training data -- a model of consent-based data that is both praised and questioned for scalability.",
+      "expanded": "Announced in February 2026, the initiative trains a high-quality Swedish model on Berzelius using data contributed under agreements with rights-holders, positioning it as an ethically and legally 'clean' alternative to models trained on scraped data. Supporters see it as a template for European sovereign AI that respects copyright and supports the Swedish language. Sceptics question whether consent-based datasets can reach the scale needed for competitive general models, and whether such a model can keep pace with commercial frontier systems.",
+      "sourceIds": [
+        "se-1",
+        "se-2"
+      ]
+    },
+    {
+      "topic": "Applied and industrial AI strength versus few sovereign frontier models",
+      "category": "industry",
+      "summary": "Sweden is a leader in deploying AI across industry, but debate continues over whether it should also build sovereign frontier capability or focus on application.",
+      "expanded": "Ericsson, Volvo, Spotify and Klarna make Sweden a standout for real-world AI deployment, and Klarna's aggressive generative-AI rollout has become an internationally discussed case study. Some argue this applied strength is where Sweden's comparative advantage lies and that chasing a sovereign frontier model is a costly distraction; others contend that without domestic large-model capability Sweden risks strategic dependence on US and Chinese labs, which is part of the rationale for the WASP/NAISS Swedish LLM.",
+      "sourceIds": [
+        "se-1",
+        "se-6"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "New initiative aims to give Sweden its own large-scale AI language model",
+      "type": "academic",
+      "author": "WASP",
+      "url": "https://wasp-sweden.org/new-initiative-aims-to-give-sweden-its-own-large-scale-ai-language-model/"
+    },
+    {
+      "title": "NAISS and WASP in joint project to train quality Swedish LLM",
+      "type": "academic",
+      "author": "NAISS",
+      "url": "https://www.naiss.se/news/2026/02/naiss-and-wasp-in-joint-project-to-train-quality-swedish-llm/"
+    },
+    {
+      "title": "Sweden Proposes National AI Legislation to Supplement the EU AI Act",
+      "type": "think_tank",
+      "author": "Snellman (EU Digital Compliance Tracker)",
+      "url": "https://digitalcompliance.snellman.com/sweden-proposes-national-ai-legislation-to-supplement-the-eu-ai-act/"
+    },
+    {
+      "title": "AI Act Ready",
+      "type": "government",
+      "author": "AI Sweden",
+      "url": "https://www.ai.se/en/adoption/courses-and-competence-building/ai-act-ready"
+    }
+  ],
+  "sources": [
+    {
+      "id": "se-1",
+      "title": "New initiative aims to give Sweden its own large-scale AI language model",
+      "publisher": "WASP",
+      "url": "https://wasp-sweden.org/new-initiative-aims-to-give-sweden-its-own-large-scale-ai-language-model/",
+      "date": "2026-02",
+      "category": "research"
+    },
+    {
+      "id": "se-2",
+      "title": "NAISS and WASP in joint project to train quality Swedish LLM",
+      "publisher": "NAISS",
+      "url": "https://www.naiss.se/news/2026/02/naiss-and-wasp-in-joint-project-to-train-quality-swedish-llm/",
+      "date": "2026-02",
+      "category": "research"
+    },
+    {
+      "id": "se-3",
+      "title": "Sweden Proposes National AI Legislation to Supplement the EU AI Act",
+      "publisher": "Snellman (EU Digital Compliance Tracker)",
+      "url": "https://digitalcompliance.snellman.com/sweden-proposes-national-ai-legislation-to-supplement-the-eu-ai-act/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "se-4",
+      "title": "AI Regulatory Horizon Tracker - Sweden",
+      "publisher": "Bird & Bird",
+      "url": "https://www.twobirds.com/en/capabilities/artificial-intelligence/ai-legal-services/ai-regulatory-horizon-tracker/sweden",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "se-5",
+      "title": "Sweden's AI Catalyst: 300-Petaflops Supercomputer Fuels Nordic Research",
+      "publisher": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/ai-supercomputer-sweden/",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "se-6",
+      "title": "AI Sweden — national centre for applied AI",
+      "publisher": "AI Sweden",
+      "url": "https://www.ai.se/en",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "se-7",
+      "title": "Wallenberg Foundation extends WASP with an AI for Science initiative",
+      "publisher": "Knut and Alice Wallenberg Foundation",
+      "url": "https://kaw.wallenberg.org/en/press/knut-and-alice-wallenberg-foundation-extends-wasp-research-program-new-initiative-ai-science",
+      "date": "2026",
+      "category": "research"
+    }
+  ]
+}

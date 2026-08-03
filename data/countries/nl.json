@@ -19,20 +19,20 @@
     52.1
   ],
   "zoom": 6.3,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "Diplomatic activity without a domestic AI champion",
     "Dutch AI Implementation Act consultation"
   ],
-  "overview": "Following the formation of the Jetten cabinet (D66, VVD and CDA) on 23 February 2026, the Netherlands has continued to position itself as an active voice in AI diplomacy, notwithstanding the absence of a large commercial frontier AI lab of its own -- a gap only partly offset by government-backed efforts such as TNO's GPT-NL sovereign language model project. In July 2026 it submitted an International AI Strategy to parliament — built on diplomatic effort, new coalitions, and strengthening European AI capacity — led by State Secretary for Digital Economy and Sovereignty Willemijn Aerdts (Ministry of Economic Affairs and Climate) alongside the Ministers of Foreign Affairs and of Foreign Trade and Development Cooperation.\n\nDomestically, Aerdts also put a Dutch AI Implementation Act out for public consultation in April 2026 — legislation intended to transpose EU AI Act supervision and enforcement obligations into Dutch national law via a decentralized model of sectoral regulators, rather than a single dedicated AI authority. A notable AI-adjacent industrial asset is ASML, whose lithography machines are widely considered essential to the global AI chip supply chain, even though ASML itself isn't an AI company. The country also has an earlier domestic AI-strategy lineage predating these 2026 measures, including a 2019 national AI action plan later folded into successive digitalisation strategies.",
+  "overview": "Following the formation of the Jetten cabinet (D66, VVD and CDA) on 23 February 2026, the Netherlands has continued to position itself as an active voice in AI diplomacy, notwithstanding the absence of a large commercial frontier AI lab of its own -- a gap only partly offset by government-backed efforts such as TNO's GPT-NL sovereign language model project. In July 2026 it submitted an International AI Strategy to parliament — built on diplomatic effort, new coalitions, and strengthening European AI capacity — led by State Secretary for Digital Economy and Sovereignty Willemijn Aerdts (Ministry of Economic Affairs and Climate) alongside the Ministers of Foreign Affairs and of Foreign Trade and Development Cooperation.\n\nDomestically, Aerdts also put a Dutch AI Implementation Act out for public consultation in April 2026 — legislation intended to transpose EU AI Act supervision and enforcement obligations into Dutch national law via a decentralized model of sectoral regulators, rather than a single dedicated AI authority. A notable AI-adjacent industrial asset is ASML, whose lithography machines are widely considered essential to the global AI chip supply chain, even though ASML itself isn't an AI company; in September 2025 ASML also became the largest shareholder in France's Mistral AI via a roughly €1.3bn stake, tying the Dutch equipment maker directly to a European frontier lab. From 2 August 2026, the EU AI Act's supervision and enforcement powers over general-purpose AI (GPAI) models take effect — though these are exercised centrally by the European Commission's AI Office rather than nationally — alongside the Act's Article 50 transparency duties; in the Netherlands the Autoriteit Persoonsgegevens coordinates algorithm/AI supervision and the RDI acts as the Single Point of Contact. The country also has an earlier domestic AI-strategy lineage predating these 2026 measures, including a 2019 national AI action plan later folded into successive digitalisation strategies.",
   "atAGlance": {
     "policyDirection": {
       "label": "Active AI diplomacy, limited domestic commercial AI industry",
       "sentiment": "blue"
     },
     "regulatoryApproach": "EU AI Act member state; national Implementation Act in public consultation",
-    "latestMajorUpdate": "International AI Strategy submitted to parliament",
+    "latestMajorUpdate": "EU AI Act GPAI supervision and enforcement powers (and Article 50 transparency duties) take effect from 2 August 2026, with GPAI overseen centrally by the Commission's AI Office and national AI supervision coordinated by the AP and RDI",
     "governmentInvolvement": "Active diplomatic engagement paired with a new domestic transposition law",
     "industrialStrategy": "No large commercial frontier AI lab identified; notable strength in ASML's chip-supply-chain role, alongside emerging state-backed efforts such as GPT-NL",
     "internationalPartnerships": "Recent government statements emphasize coalition-building on European AI capacity, per its International AI Strategy",
@@ -44,6 +44,31 @@
   },
   "recentDevelopments": [
     {
+      "text": "The EU AI Act's supervision and enforcement powers over general-purpose AI (GPAI) models take effect on 2 August 2026, together with the Act's Article 50 transparency duties (chatbot disclosure, AI-content marking, deepfake labelling). GPAI oversight is exercised centrally by the European Commission's AI Office — which can request documentation, run evaluations, demand mitigations and fine providers up to €15M or 3% of global turnover — rather than by Dutch regulators; most high-risk (Annex III) obligations have been delayed to 2027–2028. Nationally, the Autoriteit Persoonsgegevens coordinates algorithm/AI supervision and the RDI serves as the AI Act Single Point of Contact.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "nl-9",
+        "nl-10"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "ASML reports Q2 2026 net sales of €9.3bn and net income of €2.9bn, beating guidance, and again lifts its full-year 2026 outlook to €43–45bn in net sales, citing AI-driven demand for advanced logic and memory chips; it guides Q3 net sales of €11–12bn.",
+      "date": "2026-07-15",
+      "sourceIds": [
+        "nl-3"
+      ]
+    },
+    {
+      "text": "US officials, including Commerce Secretary Howard Lutnick, publicly questioned whether an advanced ASML EUV lithography system may have reached China; ASML denied shipping any EUV machine to China. The episode unfolded alongside a proposed US 'MATCH Act' that would press allied governments to mirror US export restrictions — potentially extending curbs to ASML's less-advanced DUV tools — and ASML's guidance that China would fall to roughly 20% of 2026 sales, from about 33% in 2025.",
+      "date": "2026-07",
+      "sourceIds": [
+        "nl-11"
+      ],
+      "needsVerification": true
+    },
+    {
       "text": "International AI Strategy submitted to parliament, led by State Secretary Willemijn Aerdts alongside the Ministers of Foreign Affairs and of Foreign Trade and Development Cooperation.",
       "date": "2026-07-03",
       "sourceIds": [
@@ -51,7 +76,7 @@
       ]
     },
     {
-      "text": "Dutch AI Implementation Act submitted for public consultation — the national legislation implementing the EU AI Act.",
+      "text": "Dutch AI Implementation Act submitted for public consultation (20 April–1 June 2026) — the national legislation implementing EU AI Act supervision and enforcement, assigning coordinating roles to the Autoriteit Persoonsgegevens (AP) and the Authority for Digital Infrastructure (RDI) alongside sectoral regulators.",
       "date": "2026-04-20",
       "sourceIds": [
         "nl-1",
@@ -59,25 +84,11 @@
       ]
     },
     {
-      "text": "Dutch AI startup ecosystem reaches 840+ startups and 23 scale-ups (four unicorns), with €1.8B in VC funding into Dutch AI startups in 2025 — up 52% versus 2023, per one industry compilation; the startup/scale-up/unicorn counts are broadly consistent with other trackers, though the precise funding figures are not independently corroborated.",
-      "date": "2025",
+      "text": "GPT-NL, a government-backed sovereign Dutch-language model built by TNO, SURF and the Netherlands Forensic Institute (€13.5m Ministry of Economic Affairs investment, administered by RVO), moves from lab to live pilots with municipalities and government agencies; the number of pilots is reported to be growing toward around ten by spring 2026, with a broader commercial roll-out planned for H2 2026.",
+      "date": "2026-02",
       "sourceIds": [
-        "nl-2"
-      ],
-      "needsVerification": true
-    },
-    {
-      "text": "ASML twice raised its 2026 revenue guidance (now €43–45bn) amid surging AI-driven chip demand, and outlined plans to expand manufacturing capacity by roughly 30% in each of the next two years.",
-      "date": "2026-07",
-      "sourceIds": [
-        "nl-3"
-      ]
-    },
-    {
-      "text": "GPT-NL, a government-backed sovereign Dutch-language model built by TNO, SURF and the Netherlands Forensic Institute (€13.5m Ministry of Economic Affairs investment, administered by RVO), moves into live municipal testing, with broader rollout planned for H2 2026.",
-      "date": "2026-01",
-      "sourceIds": [
-        "nl-4"
+        "nl-4",
+        "nl-12"
       ],
       "needsVerification": true
     },
@@ -88,6 +99,14 @@
         "nl-8"
       ],
       "needsVerification": true
+    },
+    {
+      "text": "ASML becomes the largest shareholder in France's Mistral AI, investing roughly €1.3bn (reported by some outlets at up to $1.5bn) for an 11% stake and a seat on Mistral's strategic committee — a landmark cross-border investment tying the Dutch lithography leader to a European frontier lab.",
+      "date": "2025-09",
+      "sourceIds": [
+        "nl-13"
+      ],
+      "severity": "major"
     }
   ],
   "policyAndRegulation": [
@@ -185,6 +204,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Modest domestic clusters; SURF national supercomputing plus the EuroHPC AI Factory Groningen, with the sovereign GPT-NL model as the main homegrown effort",
+    "chipAccess": "Home of ASML — the sole maker of EUV lithography tools — placing the Netherlands at the centre of, and heavily exposed to, advanced-chip export controls"
   },
   "universities": [
     {
@@ -366,10 +390,10 @@
     },
     {
       "id": "nl-3",
-      "title": "ASML company overview",
+      "title": "ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026",
       "publisher": "ASML",
-      "url": "https://www.asml.com",
-      "date": "2026",
+      "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results",
+      "date": "2026-07",
       "category": "industry"
     },
     {
@@ -411,9 +435,49 @@
       "url": "https://aic4nl.nl/en/aic4nl/de-ai-fabriek-officieel-gelanceerd-in-groningen/",
       "date": "2026",
       "category": "government"
+    },
+    {
+      "id": "nl-9",
+      "title": "AI Act supervision in the Netherlands: who enforces what and who can issue fines",
+      "publisher": "aiactblog.nl",
+      "url": "https://www.aiactblog.nl/en/posts/ai-act-supervision-netherlands-who-enforces-what",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "nl-10",
+      "title": "EU AI Act (regulatory framework) — GPAI supervision and enforcement",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "nl-11",
+      "title": "The US says ASML's top chip tool may be in China, but how?",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "nl-12",
+      "title": "Netherlands moves GPT-NL from lab to live: first pilots under way",
+      "publisher": "Computer Weekly",
+      "url": "https://www.computerweekly.com/news/366642524/Netherlands-moves-GPT-NL-from-lab-to-live-first-pilots-under-way",
+      "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "nl-13",
+      "title": "AI firm Mistral valued at $14 billion as chip giant ASML takes major stake",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2025/09/09/ai-firm-mistral-valued-at-14-billion-as-asml-takes-major-stake.html",
+      "date": "2025-09",
+      "category": "news"
     }
   ],
-  "hasMajorUpdate": false,
+  "hasMajorUpdate": true,
   "notableGaps": [
     {
       "area": "Pre-2026 domestic AI strategy lineage",

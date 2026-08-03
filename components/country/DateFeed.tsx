@@ -1,7 +1,6 @@
 import { CircleAlert } from "lucide-react";
 import { EmptyState } from "@/components/country/SectionCard";
 import { SourceRefs } from "@/components/country/SourceRefs";
-import { VerificationBadge } from "@/components/country/VerificationBadge";
 import type { Development, SourceRef } from "@/lib/types";
 
 function MajorBadge() {
@@ -43,7 +42,6 @@ export function DateFeed({
             <div className="flex flex-wrap items-start gap-x-2 gap-y-1">
               <p className="text-[14px] leading-snug text-page-text">{item.text}</p>
               {item.severity === "major" && <MajorBadge />}
-              {item.needsVerification && <VerificationBadge />}
             </div>
             <div className="mt-1 flex flex-wrap items-center gap-2">
               <span className="font-mono text-[11px] text-page-text-muted">{item.date}</span>

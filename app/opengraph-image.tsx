@@ -1,9 +1,11 @@
 import { ImageResponse } from "next/og";
+import { getAllCountries } from "@/lib/getCountryData";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default function OpengraphImage() {
+  const jurisdictionCount = getAllCountries().length;
   return new ImageResponse(
     (
       <div
@@ -44,7 +46,7 @@ export default function OpengraphImage() {
             maxWidth: 900,
           }}
         >
-          Policy, regulation, and governance across 43 jurisdictions
+          {`Policy, regulation, and governance across ${jurisdictionCount} jurisdictions`}
         </div>
       </div>
     ),

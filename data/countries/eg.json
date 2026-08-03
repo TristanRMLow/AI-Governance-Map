@@ -11,21 +11,22 @@
   "accentColor": { "light": "#448377", "dark": "#61AE9E" },
   "center": [30.0, 26.5],
   "zoom": 4.8,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 6,
-  "hasMajorUpdate": false,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 8,
+  "hasMajorUpdate": true,
   "debateTopics": [
     "Whether Egypt's ethics-charter model can hold before binding AI legislation is finally adopted",
-    "Egypt's push to become a regional AI/data-centre hub amid broader governance-transparency concerns"
+    "Egypt's push to become a regional AI/data-centre hub amid broader governance-transparency concerns",
+    "Egypt's sovereign Arabic-language LLMs (Karnak, Horus) and how far domestic models can close the gap with global systems"
   ],
-  "overview": "Egypt has pursued one of the more institutionally developed AI governance tracks in Africa, built around a dedicated advisory council rather than early binding legislation. The National Council for Artificial Intelligence (NCAI), housed under the Ministry of Communications and Information Technology (MCIT), has coordinated Egypt's AI policy since adopting the Egyptian Charter for Responsible AI in 2023 and publishing the second edition of its National AI Strategy (2025-2030) in January 2025, which targets training 30,000 AI specialists and supporting AI pilots in areas such as healthcare imaging, smart irrigation and digital public services. In January 2026, the council's mandate was formally broadened, and it was renamed the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies. At its first meeting under the new mandate, on March 12, 2026, the council approved a 2026 governance work plan that includes guidelines for children's safe use of AI applications, alongside 56 monitoring indicators for the National AI Strategy and a capacity-building program with UNESCO for Arab and African government institutions.\n\nA dedicated AI law has been in draft since around 2024 and, as of mid-2026, had not yet been confirmed adopted by Parliament, with reporting suggesting it is meant to align with the 2023 Charter and OECD AI Principles and to formally establish a Center for Responsible AI with audit and certification powers. Meanwhile, Egypt has moved more concretely on AI-adjacent infrastructure: in mid-2026, under directives from President Abdel Fattah El-Sisi, three ministries (Communications and IT, Electricity and Renewable Energy, and Investment and Foreign Trade) coordinated a national data-centre investment strategy, with Hassan Allam Digital Infrastructure and Data Center Solutions signing an agreement for an approximately $400 million first-phase data-centre and cloud-computing project. Raafat Hindy became Minister of Communications and Information Technology in February 2026, succeeding long-serving minister Amr Talaat, who had overseen much of Egypt's earlier AI institution-building, including the original National AI Council and the Data Protection Law.",
+  "overview": "Egypt has pursued one of the more institutionally developed AI governance tracks in Africa, built around a dedicated advisory council rather than early binding legislation. The National Council for Artificial Intelligence (NCAI), housed under the Ministry of Communications and Information Technology (MCIT), has coordinated Egypt's AI policy since adopting the Egyptian Charter for Responsible AI in 2023 and publishing the second edition of its National AI Strategy (2025-2030) in January 2025, which targets training 30,000 AI specialists and supporting AI pilots in areas such as healthcare imaging, smart irrigation and digital public services. In January 2026, the council's mandate was formally broadened, and it was renamed the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies. At its first meeting under the new mandate, on March 12, 2026, the council approved a 2026 governance work plan that includes guidelines for children's safe use of AI applications, alongside 56 monitoring indicators for the National AI Strategy and a capacity-building program with UNESCO for Arab and African government institutions.\n\nA dedicated AI law has been in draft since around 2024 and, as of mid-2026, had not yet been confirmed adopted by Parliament, with reporting suggesting it is meant to align with the 2023 Charter and OECD AI Principles and to formally establish a Center for Responsible AI with audit and certification powers. Meanwhile, Egypt has moved more concretely on AI-adjacent infrastructure: in mid-2026, under directives from President Abdel Fattah El-Sisi, three ministries (Communications and IT, Electricity and Renewable Energy, and Investment and Foreign Trade) coordinated a national data-centre investment strategy, with Hassan Allam Digital Infrastructure and Data Center Solutions signing an agreement for an approximately $400 million first-phase data-centre and cloud-computing project. Raafat Hindy became Minister of Communications and Information Technology in February 2026, succeeding long-serving minister Amr Talaat, who had overseen much of Egypt's earlier AI institution-building, including the original National AI Council and the Data Protection Law.\n\nIn parallel, Egypt's ecosystem has begun producing domestic Arabic-language models. In February 2026 the Information Technology Industry Development Agency (ITIDA) unveiled 'Karnak' at the inaugural AI Everything MEA summit in Cairo, describing it as the country's first nationally developed large language model (reported at roughly 41 billion parameters and pitched as the highest-ranking Arabic LLM in its parameter class), and in April 2026 an Alexandria-based startup, TokenAI, released 'Horus', reported as Egypt's first fully open-source model built from scratch. Both are positioned as culturally grounded, sovereign or open alternatives to Western systems, though neither appears to have been independently benchmarked against leading international models, and their parameter counts sit well below global-frontier scale.",
   "atAGlance": {
     "policyDirection": {
       "label": "Ethics-charter-led governance; binding AI law still in draft",
       "sentiment": "amber"
     },
     "regulatoryApproach": "Council-coordinated, charter-based ethical guidance (transparency, fairness, accountability) preceding a still-unadopted formal AI law",
-    "latestMajorUpdate": "National Council for Artificial Intelligence's mandate expanded and renamed to cover quantum computing and emerging technologies (January 2026); council approves a 2026 governance work plan at its first meeting under the new mandate (March 12, 2026)",
+    "latestMajorUpdate": "ITIDA unveils 'Karnak', described as Egypt's first national large language model, at the AI Everything MEA summit (February 2026); the National Council for AI's mandate is expanded to cover quantum computing and emerging technologies (January 2026) and it approves a 2026 governance work plan (March 12, 2026)",
     "governmentInvolvement": "High and centralized — NCAI under MCIT coordinates strategy and ethics guidance, alongside a separate national push on AI-related data-centre infrastructure",
     "industrialStrategy": "National AI Strategy (2025-2030) targeting 30,000 trained AI specialists and sector pilots, plus a national data-centre investment strategy (from mid-2026) aimed at attracting hyperscale and cloud AI infrastructure",
     "internationalPartnerships": "Egypt has engaged internationally on AI governance, including presenting its approach as a Global-South model at forums such as the OECD and UN University, and assumed the 2026 WSIS Forum presidency from South Africa in July 2026",
@@ -37,23 +38,8 @@
   },
   "recentDevelopments": [
     {
-      "text": "Egypt launches the second edition of its National Artificial Intelligence Strategy (2025-2030), targeting training of 30,000 AI specialists and sector pilots in healthcare, agriculture and public services.",
-      "date": "2025-01-01",
-      "sourceIds": ["eg-1"]
-    },
-    {
-      "text": "National Council for Artificial Intelligence's mandate is expanded and the body is renamed the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies.",
-      "date": "2026-01",
-      "sourceIds": ["eg-2"]
-    },
-    {
-      "text": "At its first meeting under the new mandate, the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies approves a 2026 governance work plan including child-safety AI-use guidelines, 56 monitoring indicators for the National AI Strategy, and a UNESCO capacity-building program for Arab and African government institutions.",
-      "date": "2026-03-12",
-      "sourceIds": ["eg-8"]
-    },
-    {
-      "text": "Raafat Hindy is appointed Minister of Communications and Information Technology in Prime Minister Mostafa Madbouly's second cabinet, succeeding Amr Talaat.",
-      "date": "2026-02-01",
+      "text": "Egypt assumes the presidency of the 2026 World Summit on the Information Society (WSIS) Forum from South Africa.",
+      "date": "2026-07-08",
       "sourceIds": ["eg-3"]
     },
     {
@@ -62,9 +48,36 @@
       "sourceIds": ["eg-4"]
     },
     {
-      "text": "Egypt assumes the presidency of the 2026 World Summit on the Information Society (WSIS) Forum from South Africa.",
-      "date": "2026-07-08",
+      "text": "TokenAI, an Alexandria-based startup, releases 'Horus 1.0', reported as Egypt's first fully open-source (MIT-licensed) large language model built from scratch — a roughly 4-billion-parameter, Arabic-optimised model whose developers report strong benchmark scores for its size, though these self-reported results await independent verification.",
+      "date": "2026-04",
+      "sourceIds": ["eg-11"],
+      "needsVerification": true
+    },
+    {
+      "text": "At its first meeting under the new mandate, the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies approves a 2026 governance work plan including child-safety AI-use guidelines, 56 monitoring indicators for the National AI Strategy, and a UNESCO capacity-building program for Arab and African government institutions.",
+      "date": "2026-03-12",
+      "sourceIds": ["eg-8"]
+    },
+    {
+      "text": "Egypt's Information Technology Industry Development Agency (ITIDA) unveils 'Karnak', described as Egypt's first nationally developed large language model, at the inaugural AI Everything MEA summit in Cairo. Reported at roughly 41 billion parameters and trained on Arabic-language data, it is presented as the highest-ranking Arabic LLM in its parameter class and as a foundation for locally built applications (including an education tutor, 'SIA', and a legal/regulatory assistant); independent benchmarking against leading international models is not yet available.",
+      "date": "2026-02-11",
+      "sourceIds": ["eg-9", "eg-10"],
+      "severity": "major"
+    },
+    {
+      "text": "Raafat Hindy is appointed Minister of Communications and Information Technology in Prime Minister Mostafa Madbouly's second cabinet, succeeding Amr Talaat.",
+      "date": "2026-02-01",
       "sourceIds": ["eg-3"]
+    },
+    {
+      "text": "National Council for Artificial Intelligence's mandate is expanded and the body is renamed the National Council for Artificial Intelligence, Quantum Computing, and Emerging Technologies.",
+      "date": "2026-01",
+      "sourceIds": ["eg-2"]
+    },
+    {
+      "text": "Egypt launches the second edition of its National Artificial Intelligence Strategy (2025-2030), targeting training of 30,000 AI specialists and sector pilots in healthcare, agriculture and public services.",
+      "date": "2025-01-01",
+      "sourceIds": ["eg-1"]
     }
   ],
   "policyAndRegulation": [
@@ -112,9 +125,13 @@
       "needsVerification": true
     },
     {
+      "name": "TokenAI",
+      "description": "Alexandria-based startup that released 'Horus' in April 2026, reported as Egypt's first fully open-source (MIT-licensed) Arabic-optimised large language model, built from scratch at roughly 4 billion parameters.",
+      "url": "https://www.middleeastainews.com/p/egypt-open-source-llm-horus"
+    },
+    {
       "name": "Hassan Allam Digital Infrastructure and Data Center Solutions",
-      "description": "Egyptian infrastructure company that signed an agreement in 2026 for an approximately $400 million first-phase national data-centre and cloud-computing project supporting AI and cloud services.",
-      "sourceIds": ["eg-4"]
+      "description": "Egyptian infrastructure company that signed an agreement in 2026 for an approximately $400 million first-phase national data-centre and cloud-computing project supporting AI and cloud services."
     }
   ],
   "cloudInfrastructure": {
@@ -124,6 +141,11 @@
       { "name": "Hassan Allam Digital Infrastructure and Data Center Solutions", "description": "Egyptian firm building new domestic data-centre and cloud-computing capacity as part of the 2026 national data-centre strategy." }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Growing: a state-backed national data-centre strategy (~$400M first phase) leveraging Egypt's submarine-cable and energy position, but still modest",
+    "chipAccess": "Import-reliant; no advanced domestic fabrication"
   },
   "universities": [
     {
@@ -203,7 +225,7 @@
   ],
   "notableGaps": [
     { "area": "Binding AI-specific law", "note": "Egypt's draft AI law has been in preparation since roughly 2024 and, as of mid-2026, has not been confirmed as adopted by Parliament; governance currently rests on the non-binding 2023 Charter for Responsible AI plus NCAI work plans." },
-    { "area": "Frontier-model developers and independent AI think tanks", "note": "No frontier foundation-model developer is headquartered in Egypt, and available reporting did not surface an independent (non-governmental) AI-focused think tank comparable to those found in Kenya or South Africa; Egypt's AI policy discourse is comparatively centralized around MCIT and NCAI." }
+    { "area": "Global-frontier developers and independent AI think tanks", "note": "No global-frontier foundation-model developer is headquartered in Egypt, though domestic Arabic-language models have begun to emerge (the state-backed 'Karnak' and the open-source 'Horus'), neither yet independently benchmarked against leading international systems; available reporting did not surface an independent (non-governmental) AI-focused think tank comparable to those found in Kenya or South Africa, and Egypt's AI policy discourse remains comparatively centralized around MCIT and NCAI." }
   ],
   "debates": [
     {
@@ -219,6 +241,13 @@
       "summary": "Egypt's 2026 national data-centre strategy, anchored by a roughly $400 million first-phase project with Hassan Allam Digital Infrastructure, aims to position the country as a regional hub for AI and cloud infrastructure, leveraging renewable energy plans and its submarine-cable position linking Europe, Asia and Africa.",
       "expanded": "The strategy was coordinated across three ministries under a presidential directive, reflecting significant top-down state direction of digital infrastructure investment. Some analysts view this centralized, presidentially-directed model as an efficient way to mobilise large capital projects quickly; broader Egyptian governance-transparency concerns raised in unrelated contexts (for instance, around other state-directed economic entities) mean that observers of Egypt's AI infrastructure build-out should watch for how transparently these data-centre investments and any associated public-private agreements are disclosed over time.",
       "sourceIds": ["eg-4"]
+    },
+    {
+      "topic": "Egypt's sovereign Arabic-language AI models and the limits of 'sovereign LLM' claims",
+      "category": "research",
+      "summary": "The February 2026 launch of the state-backed 'Karnak' model and the April 2026 release of the open-source 'Horus' mark Egypt's entry into domestic large-language-model development, but both remain unbenchmarked against leading international systems.",
+      "expanded": "Karnak, unveiled by ITIDA at the AI Everything MEA summit, is presented as Egypt's first national LLM (reported at roughly 41 billion parameters) and positioned as culturally and linguistically grounded infrastructure for locally built applications; Horus, from Alexandria startup TokenAI, is a smaller (roughly 4-billion-parameter) fully open-source model whose developers report strong benchmark results for its size. Supporters argue sovereign and open Arabic models reduce dependence on Western systems and better capture Egyptian dialect, history and regulatory context; sceptics note that self-reported or in-house benchmark claims from national models are difficult to verify independently, that the parameter counts sit well below global-frontier scale, and that sustained competitiveness will depend on compute access that Egypt's data-centre strategy is only beginning to build. As of mid-2026 neither model appears to have been evaluated by an independent third party against leading international LLMs.",
+      "sourceIds": ["eg-9", "eg-10", "eg-11"]
     }
   ],
   "knowledgeHub": [
@@ -303,6 +332,30 @@
       "publisher": "Egyptian Gazette",
       "url": "https://egyptian-gazette.com/egypt/egypt-advances-ai-strategy-digital-governance/",
       "date": "2026-03-12",
+      "category": "news"
+    },
+    {
+      "id": "eg-9",
+      "title": "Egypt Launches Karnak: National AI Language Model at Ai Everything MEA 2026",
+      "publisher": "ITIDA (Information Technology Industry Development Agency)",
+      "url": "https://itida.gov.eg/English/PressReleases/Pages/egypt-national-ai-karnak-llm-launch-Ai-Everything-MEA-2026.aspx",
+      "date": "2026-02-11",
+      "category": "government"
+    },
+    {
+      "id": "eg-10",
+      "title": "Egypt Unveils Sovereign AI Model 'Karnak' as Cairo Hosts Global AI Summit",
+      "publisher": "Ecofin Agency",
+      "url": "https://www.ecofinagency.com/news-digital/1402-52900-egypt-unveils-sovereign-ai-model-karnak-as-cairo-hosts-global-ai-summit",
+      "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "eg-11",
+      "title": "Egyptian open-source LLM Horus punches above its weight",
+      "publisher": "Middle East AI News",
+      "url": "https://www.middleeastainews.com/p/egypt-open-source-llm-horus",
+      "date": "2026-04",
       "category": "news"
     }
   ]

@@ -11,14 +11,14 @@
   "accentColor": { "light": "#448360", "dark": "#61AE83" },
   "center": [36.2, 31.2],
   "zoom": 6.5,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 6,
   "hasMajorUpdate": false,
   "debateTopics": [
     "Independence concerns over Jordan's planned data protection authority",
     "Whether AI-driven public-sector modernization can outpace Jordan's ICT brain drain"
   ],
-  "overview": "Jordan's AI governance runs primarily through the Jordanian Artificial Intelligence Strategy and Implementation Plan (2023-2027), a five-year roadmap built on five pillars — human-capital development, research, an enabling investment environment, a supportive legislative and regulatory environment, and AI-driven public-sector efficiency — comprising 68 named government projects. The Ministry of Digital Economy and Entrepreneurship (MoDEE), currently led by Minister Sami Smeirat, oversees implementation; as of an April 2025 government update, 15 of the strategy's 68 projects were reported complete (about 22%), with 23 more (34%) underway, including the introduction of AI and data-science degree programs across 27 Jordanian universities.\n\nIn early 2025, King Abdullah II directed Prime Minister Jafar Hassan to form and chair a National Council for Future Technology, operating under the supervision of Crown Prince Hussein bin Abdullah, to coordinate AI and broader digital-transformation efforts across government. The Council has been linked to flagship projects including the Siraj AI-powered educational platform (reported to have reached roughly 1.33 million users by May 2026) and a new National Digital Transformation Strategy (2026-2028) aimed at expanding AI use, strengthening digital infrastructure and reaching 100% digitization of eligible government services by the end of 2026. On the legal side, Jordan's Personal Data Protection Law (Law No. 24 of 2023) took effect in March 2024 and provides the main data-related backstop for AI systems, though as of 2026 the law's dedicated regulatory authority had reportedly not yet been fully established, and civil-society groups including Access Now have criticized the law's independence, since its planned oversight body is chaired by the digital-economy minister and includes security-agency representatives.",
+  "overview": "Jordan's AI governance runs primarily through the Jordanian Artificial Intelligence Strategy and Implementation Plan (2023-2027), a five-year roadmap built on five pillars — human-capital development, research, an enabling investment environment, a supportive legislative and regulatory environment, and AI-driven public-sector efficiency — comprising 68 named government projects. The Ministry of Digital Economy and Entrepreneurship (MoDEE), currently led by Minister Sami Smeirat, oversees implementation; as of an April 2025 government update, 15 of the strategy's 68 projects were reported complete (about 22%), with 23 more (34%) underway, including the introduction of AI and data-science degree programs across 27 Jordanian universities.\n\nIn early 2025, King Abdullah II directed Prime Minister Jafar Hassan to form and chair a National Council for Future Technology, operating under the supervision of Crown Prince Hussein bin Abdullah, to coordinate AI and broader digital-transformation efforts across government. The Council has been linked to flagship projects including the Siraj AI-powered educational platform (reported to have reached roughly 1.33 million users by May 2026) and a new National Digital Transformation Strategy (2026-2028) aimed at expanding AI use, strengthening digital infrastructure and reaching 100% digitization of eligible government services by the end of 2026. On the legal side, Jordan's Personal Data Protection Law (Law No. 24 of 2023) took effect in March 2024 and provides the main data-related backstop for AI systems, though as of 2026 the law's dedicated regulatory authority had reportedly not yet been fully established, and civil-society groups including Access Now have criticized the law's independence, since its planned oversight body is chaired by the digital-economy minister and includes security-agency representatives.\n\nJordan has also begun courting large-scale AI infrastructure investment: in July 2026 Mindstream Energy announced Mindstream Jordan, a proposed campus at the Al-Risha gas field targeting up to 400MW of gas-powered 'sovereign AI' data-centre capacity for regional high-performance-computing and cloud demand — an early-stage proposal that would, if built, mark a significant step up from Jordan's currently minimal domestic AI compute base, though it remains a private announcement rather than an operational facility.",
   "atAGlance": {
     "policyDirection": {
       "label": "Active national AI strategy, no dedicated AI law",
@@ -37,14 +37,10 @@
   },
   "recentDevelopments": [
     {
-      "text": "Ministry of Digital Economy and Entrepreneurship reports 15 of 68 government projects under the 2023-2027 AI Strategy's executive plan complete (about 22%), with 23 more (34%) underway, including new AI/data-science programs launched across 27 Jordanian universities.",
-      "date": "2025-04-20",
-      "sourceIds": ["jo-1"]
-    },
-    {
-      "text": "Jordan launches the 'AI for Government Leaders' program, a six-month executive training initiative for senior civil servants across finance, digital transformation, cybersecurity, statistics, procurement, healthcare and social-development bodies, co-funded by Germany's BMZ and the EU.",
-      "date": "2026",
-      "sourceIds": ["jo-2"]
+      "text": "Mindstream Energy announces Mindstream Jordan, a proposed 245-acre campus at the Al-Risha gas field targeting up to 400MW of gas-powered 'sovereign AI' data-centre capacity for regional high-performance-computing, cloud and AI demand, backed by a long-term gas-supply agreement with Jordan's National Petroleum Company; follow-on announcements (28 July 2026) add cooling and AI-application partners. It remains an early-stage private proposal rather than an operational facility.",
+      "date": "2026-07-09",
+      "sourceIds": ["jo-10", "jo-11"],
+      "needsVerification": true
     },
     {
       "text": "Government reports the AI-powered Siraj educational platform has reached approximately 1.33 million users.",
@@ -55,6 +51,16 @@
       "text": "MoDEE outlines priorities for the 2026-2028 National Digital Transformation Strategy, including expanded AI use, strengthened cybersecurity, and a target of 100% digitization of eligible government services by end-2026.",
       "date": "2026",
       "sourceIds": ["jo-3"]
+    },
+    {
+      "text": "Jordan launches the 'AI for Government Leaders' program, a six-month executive training initiative for senior civil servants across finance, digital transformation, cybersecurity, statistics, procurement, healthcare and social-development bodies, co-funded by Germany's BMZ and the EU.",
+      "date": "2026",
+      "sourceIds": ["jo-2"]
+    },
+    {
+      "text": "Ministry of Digital Economy and Entrepreneurship reports 15 of 68 government projects under the 2023-2027 AI Strategy's executive plan complete (about 22%), with 23 more (34%) underway, including new AI/data-science programs launched across 27 Jordanian universities.",
+      "date": "2025-04-20",
+      "sourceIds": ["jo-1"]
     },
     {
       "text": "King Abdullah II directs Prime Minister Jafar Hassan to form and chair a National Council for Future Technology, under the supervision of Crown Prince Hussein bin Abdullah, to coordinate AI and digital-transformation policy across government.",
@@ -96,8 +102,18 @@
     }
   ],
   "cloudInfrastructure": {
-    "providers": [],
+    "providers": [
+      {
+        "name": "Mindstream Jordan (proposed)",
+        "description": "Early-stage private proposal (announced July 2026) for a gas-powered 'sovereign AI' data-centre campus of up to 400MW at the Al-Risha gas field, aimed at regional AI, high-performance-computing and sovereign-cloud demand; not yet operational."
+      }
+    ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Minimal domestic AI compute today; a proposed 400MW Mindstream 'sovereign AI' campus at Al-Risha would be a step up if built",
+    "chipAccess": "Import-reliant; no domestic fabrication"
   },
   "universities": [
     {
@@ -204,6 +220,8 @@
     { "id": "jo-6", "title": "Jordanian Artificial Intelligence Strategy and Implementation Plan (2023-2027)", "publisher": "Ministry of Digital Economy and Entrepreneurship (MoDEE)", "url": "https://www.modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/40435648.pdf", "date": "2023", "category": "government" },
     { "id": "jo-7", "title": "Jordan passes flawed data protection law", "publisher": "Access Now", "url": "https://www.accessnow.org/press-release/jordan-flawed-data-protection-law/", "date": "2023", "category": "expert_commentary" },
     { "id": "jo-8", "title": "What To Know About Jordan's Personal Data Protection Law of 2023", "publisher": "Securiti", "url": "https://securiti.ai/jordan-personal-data-protection-law-of-2023/", "date": "2024", "category": "expert_commentary" },
-    { "id": "jo-9", "title": "Mideast: Jordan's Uncertain but Promising Future Is Mirrored In Its ICT Sector", "publisher": "Modern Treatise", "url": "https://www.moderntreatise.com/asia-pacific/2026/7/7/mideast-jordans-uncertain-but-promising-future-is-mirrored-in-its-ict-sector", "date": "2026-07-07", "category": "expert_commentary" }
+    { "id": "jo-9", "title": "Mideast: Jordan's Uncertain but Promising Future Is Mirrored In Its ICT Sector", "publisher": "Modern Treatise", "url": "https://www.moderntreatise.com/asia-pacific/2026/7/7/mideast-jordans-uncertain-but-promising-future-is-mirrored-in-its-ict-sector", "date": "2026-07-07", "category": "expert_commentary" },
+    { "id": "jo-10", "title": "Mindstream Energy proposes 400MW gas-powered data center in Jordanian gas field", "publisher": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/mindstream-energy-proposes-400mw-gas-powered-data-center-in-jordanian-gas-field/", "date": "2026-07", "category": "industry" },
+    { "id": "jo-11", "title": "Mindstream Jordan LLC Targets 400 MW Sovereign AI Infrastructure Platform In Jordan", "publisher": "PR Newswire (Mindstream Energy)", "url": "https://www.prnewswire.com/news-releases/mindstream-energy-dba-mindstream-jordan-llc-targets-400-mw-sovereign-ai-infrastructure-platform-in-jordan-to-serve-growing-regional-compute-demand-302821924.html", "date": "2026-07-09", "category": "industry" }
   ]
 }

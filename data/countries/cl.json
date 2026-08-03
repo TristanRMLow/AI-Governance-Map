@@ -11,14 +11,14 @@
   "accentColor": { "light": "#5F4483", "dark": "#8261AE" },
   "center": [-71.0, -35.0],
   "zoom": 3.4,
-  "lastUpdated": "2026-07-22",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-02",
+  "newDevelopmentsCount": 7,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Whether the proposed National Commission on AI overlaps confusingly with a future data-protection agency",
     "Whether Chile's new right-of-center government will maintain or reshape the AI bill inherited from the Boric administration"
   ],
-  "overview": "Chile is among the more advanced Latin American jurisdictions on AI governance process, though it still has no AI-specific law in force. A comprehensive AI bill (Boletín 16.821-19) was introduced by presidential message in May 2024 under then-President Gabriel Boric, merging an executive proposal with an earlier parliamentary initiative. It would classify AI systems into four risk tiers (unacceptable, high, limited, no evident risk), ban practices such as generalized social scoring and real-time remote biometric identification in public spaces, and create a National Commission on Artificial Intelligence responsible for authorizing, monitoring and updating rules — with sanctions reportedly reaching up to 20,000 UTM (a Chilean tax/penalty unit) for serious violations. The Chamber of Deputies approved the bill and sent it to the Senate around October 2025; it remains in its second constitutional stage as of mid-2026, under review by the Senate's Comisión Desafíos del Futuro, Ciencia, Tecnología e Innovación, which held further stakeholder consultations with academia, industry and public-sector representatives in June 2026. Some legal commentary has flagged that the proposed National Commission's functions could overlap in confusing ways with those of Chile's planned National Personal Data Protection Agency, a design question that remains unresolved.\n\nA further layer of political uncertainty followed Chile's December 2025 presidential runoff, in which José Antonio Kast defeated Jeannette Jara and took office on March 11, 2026, ending Boric's term and shifting the government to the right. In his first State of the Union address on June 1, 2026, Kast pledged to advance a separate, bipartisan Technology Transfer and Knowledge law (which passed the Senate on May 13, 2026) and said AI 'should be designed, trained, built and generate employment in Chile,' committing to strengthen computing capacity, energy access, connectivity and data centers, but he did not make specific commitments regarding the pending AI bill itself. Alongside the legislative process, Chile already has a non-binding National AI Policy (first published 2021, updated 2024) built around ethical, sustainable and internationally coordinated AI use, plus applied-ethics tools such as GobLab UAI's Algorithmic Impact Assessment and Bias/Equity Measurement instruments and a MinCiencia/ChileValora AI-ethics-auditor labor certification launched in 2025. On infrastructure, Chile has attracted major hyperscaler investment — AWS (over $4 billion for a new region), Microsoft ('Chile Central') and Google (its first Latin American data center, in Quilicura) — though this has also drawn criticism over water and energy use.",
+  "overview": "Chile is among the more advanced Latin American jurisdictions on AI governance process, though it still has no AI-specific law in force. A comprehensive AI bill (Boletín 16.821-19) was introduced by presidential message in May 2024 under then-President Gabriel Boric, merging an executive proposal with an earlier parliamentary initiative. It would classify AI systems into four risk tiers (unacceptable, high, limited, no evident risk), ban practices such as generalized social scoring and real-time remote biometric identification in public spaces, and create a National Commission on Artificial Intelligence responsible for authorizing, monitoring and updating rules — with sanctions reportedly reaching up to 20,000 UTM (a Chilean tax/penalty unit) for serious violations. The Chamber of Deputies approved the bill and sent it to the Senate around October 2025; it remains in its second constitutional stage as of mid-2026, under review by the Senate's Comisión Desafíos del Futuro, Ciencia, Tecnología e Innovación, which held further stakeholder consultations with academia, industry and public-sector representatives in June 2026. Some legal commentary has flagged that the proposed National Commission's functions could overlap in confusing ways with those of Chile's planned National Personal Data Protection Agency, a design question that remains unresolved.\n\nA further layer of political uncertainty followed Chile's December 2025 presidential runoff, in which José Antonio Kast defeated Jeannette Jara and took office on March 11, 2026, ending Boric's term and shifting the government to the right. In his first State of the Union address on June 1, 2026, Kast pledged to advance a separate, bipartisan Technology Transfer and Knowledge law (which passed the Senate on May 13, 2026) and said AI 'should be designed, trained, built and generate employment in Chile,' committing to strengthen computing capacity, energy access, connectivity and data centers, but he did not make specific commitments regarding the pending AI bill itself. Alongside the legislative process, Chile already has a non-binding National AI Policy (first published 2021, updated 2024) built around ethical, sustainable and internationally coordinated AI use, plus applied-ethics tools such as GobLab UAI's Algorithmic Impact Assessment and Bias/Equity Measurement instruments and a MinCiencia/ChileValora AI-ethics-auditor labor certification launched in 2025. Chile has also become the regional hub for sovereign-model efforts: in February 2026 CENIA led the launch of Latam-GPT, described as the first open-source large language model built specifically for Latin America — trained on regionally sourced Spanish, Portuguese and Indigenous-language data, backed by CAF and more than 50 institutions across the region, and slated to run later versions on a modest supercomputer being installed at the Universidad de Tarapacá in northern Chile. On infrastructure, Chile has attracted major hyperscaler investment — AWS (over $4 billion for a new region), Microsoft ('Chile Central') and Google (its first Latin American data center, in Quilicura) — though this has also drawn criticism over water and energy use.",
   "atAGlance": {
     "policyDirection": {
       "label": "Comprehensive AI bill advancing through the Senate; no binding law yet",
@@ -51,6 +51,12 @@
       "text": "José Antonio Kast is inaugurated as President of Chile.",
       "date": "2026-03-11",
       "sourceIds": ["cl-6"],
+      "severity": "major"
+    },
+    {
+      "text": "CENIA leads the launch of Latam-GPT, described as the first open-source large language model built specifically for Latin America — trained on regionally sourced Spanish, Portuguese and Indigenous-language text, backed by CAF and more than 50 institutions across the region. Initial training used AWS cloud infrastructure, with later versions intended to run on a roughly US$4.5 million supercomputer being installed at the Universidad de Tarapacá in northern Chile.",
+      "date": "2026-02-10",
+      "sourceIds": ["cl-14", "cl-15"],
       "severity": "major"
     },
     {
@@ -92,7 +98,7 @@
     }
   ],
   "researchEcosystem": {
-    "summary": "Chile's most prominent dedicated AI research body is CENIA (National Center for Artificial Intelligence Research), a government- and privately-funded center based in Santiago that partners with Universidad de Chile, Universidad Técnica Federico Santa María, Pontificia Universidad Católica de Chile and Universidad Adolfo Ibáñez. CENIA announced in May 2026 that principal investigator Pablo Barceló would lead the center for its 2026-2031 continuity period, succeeding its earlier leadership. GobLab UAI, the public-innovation lab of Universidad Adolfo Ibáñez's Government School, has separately developed applied algorithmic-ethics tools — an Algorithmic Impact Assessment, a Bias and Equity Measurement instrument, and an Algorithmic Transparency Form — piloted across nine public institutions between 2023 and 2025, plus a Public Algorithms Repository.",
+    "summary": "Chile's most prominent dedicated AI research body is CENIA (National Center for Artificial Intelligence Research), a government- and privately-funded center based in Santiago that partners with Universidad de Chile, Universidad Técnica Federico Santa María, Pontificia Universidad Católica de Chile and Universidad Adolfo Ibáñez. CENIA announced in May 2026 that principal investigator Pablo Barceló would lead the center for its 2026-2031 continuity period, succeeding its earlier leadership. CENIA also coordinates Latam-GPT, the region's flagship open-source large-language-model initiative, launched in February 2026 and developed with partners across more than a dozen Latin American countries. GobLab UAI, the public-innovation lab of Universidad Adolfo Ibáñez's Government School, has separately developed applied algorithmic-ethics tools — an Algorithmic Impact Assessment, a Bias and Equity Measurement instrument, and an Algorithmic Transparency Form — piloted across nine public institutions between 2023 and 2025, plus a Public Algorithms Repository.",
     "sourceIds": ["cl-7", "cl-10", "cl-13"]
   },
   "companies": [
@@ -128,6 +134,11 @@
       }
     ],
     "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Growing hyperscaler regions (AWS, Google, Microsoft); a modest ~US$4.5M supercomputer at U. de Tarapacá supports the CENIA-led Latam-GPT open model",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
   },
   "universities": [
     {
@@ -351,6 +362,22 @@
       "url": "https://blog.google/intl/es-419/noticias-de-la-empresa/10-datos-sobre-el-centro-de-datos-de-google-en-quilicura-chile/",
       "date": "2025",
       "category": "industry"
+    },
+    {
+      "id": "cl-14",
+      "title": "Latam-GPT: la primera IA regional abierta creada con datos latinoamericanos",
+      "publisher": "CENIA",
+      "url": "https://cenia.cl/2026/02/10/latam-gpt-la-primera-ia-regional-abierta-creada-con-datos-latinoamericanos/",
+      "date": "2026-02-10",
+      "category": "research"
+    },
+    {
+      "id": "cl-15",
+      "title": "Chile launches Latam-GPT in push for regional AI sovereignty",
+      "publisher": "bne IntelliNews",
+      "url": "https://www.intellinews.com/chile-launches-latam-gpt-in-push-for-regional-ai-sovereignty-425563/",
+      "date": "2026-02",
+      "category": "news"
     }
   ]
 }

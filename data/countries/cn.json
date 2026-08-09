@@ -19,8 +19,8 @@
     35.9
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 8,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "Regulating agentic AI under the new Intelligent Agents framework",
     "AI companion apps and anthropomorphic interaction rules",
@@ -45,6 +45,15 @@
     "summary": "China keeps extending binding regulation into newly significant categories of AI product — AI companion apps in April 2026, autonomous AI agents in July 2026 — rather than consolidating into one law, continuing its pattern of fast, targeted, enforcement-backed rulemaking."
   },
   "recentDevelopments": [
+    {
+      "text": "China's companion-AI / emotional-support-AI rules — the Interim Measures for AI Anthropomorphic (human-like) Interaction Services, effective 15 July 2026 — move into an early enforcement phase. In the first roughly three weeks, the CAC is reported to have issued around 12 fines totalling some 4.2M RMB against non-compliant companion-app and emotional-chatbot providers (for gaps in filing, security assessment, minor-protection and anti-addiction safeguards); the exact figures are thinly sourced and not yet officially confirmed. This complements the existing generative-AI content-labelling regime and the July Intelligent Agents framework.",
+      "date": "2026-08",
+      "sourceIds": [
+        "cn-2",
+        "cn-26"
+      ],
+      "needsVerification": true
+    },
     {
       "text": "DeepSeek releases DeepSeek-V4-Flash-0731 (31 July), the official public build of its V4-Flash line — described as its April V4-Flash preview retrained on a substantially improved post-training pipeline for coding, agents and tool use. DeepSeek reports it beats its own larger V4-Pro preview across nine agentic and coding benchmarks despite activating only ~13B of 284B parameters (MoE, 1M-token context), at roughly $0.14/$0.28 per million input/output tokens; the upgrade is a silent same-endpoint swap for existing API users. CAISI had earlier assessed DeepSeek's V4 Pro as roughly eight months behind top US frontier models.",
       "date": "2026-07-31",
@@ -692,6 +701,14 @@
       "publisher": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
       "date": "2026-07-31",
+      "category": "news"
+    },
+    {
+      "id": "cn-26",
+      "title": "China's First AI Companion Rules to Curb Addiction, Protect Minors",
+      "publisher": "Caixin Global",
+      "url": "https://www.caixinglobal.com/2026-07-16/chinas-first-ai-companion-rules-to-curb-addiction-protect-minors-102464887.html",
+      "date": "2026-07-16",
       "category": "news"
     }
   ],

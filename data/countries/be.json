@@ -1,0 +1,480 @@
+{
+  "code": "be",
+  "name": "Belgium",
+  "shortName": "Belgium",
+  "flagEmoji": "🇧🇪",
+  "geometryType": "polygon",
+  "isoA3": [
+    "BEL"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "EU AI Act member state hosting the Commission's AI Office in Brussels; fragmented federal-regional supervision atop imec's chip-R&D role",
+  "accentColor": {
+    "light": "#6E5A9C",
+    "dark": "#8A78BE"
+  },
+  "center": [
+    4.5,
+    50.6
+  ],
+  "zoom": 6.5,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "Hosting the EU AI Office without a domestic frontier lab",
+    "imec's chokepoint role in the global chip supply chain",
+    "Fragmented federal-regional AI governance"
+  ],
+  "overview": "Belgium's significance in the AI landscape is less about a domestic model-building industry -- which it largely lacks -- than about two structural roles it plays for the whole of Europe. First, Brussels hosts the European Commission's AI Office (within DG CNECT), the central EU body that from 2 August 2026 supervises and enforces the AI Act's rules on general-purpose AI (GPAI) models; that enforcement era is now live, exercised centrally rather than by national regulators. Second, imec in Leuven is one of the world's leading semiconductor and nanoelectronics R&D institutes, a critical node in the global advanced-chip ecosystem that underpins frontier AI hardware -- in March 2026 it took delivery of an ASML EXE:5200 High-NA EUV lithography system (one of fewer than a dozen worldwide), aimed at sub-2nm logic and high-density memory for AI and high-performance computing.\n\nDomestic AI policy is comparatively fragmented, reflecting Belgium's federal structure. At national level the 'AI 4 Belgium' community and a 2022 National Convergence Plan for the development of AI set direction, while AI-Act implementation is coordinated by the FPS Economy, with the telecoms regulator BIPT/IBPT reported as the intended lead market-surveillance authority and the Data Protection Authority (APD/GBA) supervising AI that processes personal data. Belgium missed the AI Act's 2 August 2025 governance deadline for fully designating its national competent authorities, and reporting suggests the final architecture was still being settled through 2026. At regional level Flanders runs its own Flemish AI Research Programme (via EWI and VLAIO) and Flemish supercomputing (VSC), while academic strength sits at KU Leuven, Ghent University, UCLouvain, VUB and ULB. Belgium has no domestic frontier AI lab, and its distinctive weight comes from hosting the EU's central AI regulator and from imec's chip-R&D chokepoint rather than from home-grown model developers.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Hosts the EU's central AI regulator; strong chip R&D, no domestic frontier lab",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act member state; decentralised national supervision, coordinated by FPS Economy with BIPT and the data protection authority",
+    "latestMajorUpdate": "EU AI Act GPAI supervision and enforcement powers took effect from 2 August 2026, exercised centrally by the Commission's AI Office in Brussels; Belgium's own competent-authority designations were still being finalised",
+    "governmentInvolvement": "Federal 'AI 4 Belgium' strategy plus a separate, well-resourced Flemish AI programme; host state for the EU AI Office",
+    "industrialStrategy": "No domestic frontier lab; strength concentrated in imec's world-leading semiconductor R&D and a mid-sized applied-AI startup scene",
+    "internationalPartnerships": "Deep EU institutional embedding (Brussels as EU capital); imec's global partnerships with ASML, Intel, SK hynix and others",
+    "primaryPolicyFocus": "Implementing the EU AI Act nationally while leveraging imec's role in the EU Chips Act and advanced-chip R&D"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "As an EU member and host of the AI Office, Belgium is inside a tightening European regime: the AI Act's GPAI enforcement powers are now live from 2 August 2026. National implementation is comparatively slow and fragmented across federal and regional levels, so the immediate tightening is driven by EU-level rules rather than distinctively Belgian legislation."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The EU AI Act's supervision and enforcement powers over general-purpose AI (GPAI) models took effect on 2 August 2026, together with the Act's Article 50 transparency duties. These powers are exercised centrally by the European Commission's AI Office -- based in Brussels within DG CNECT -- which can request documentation, run model evaluations, demand mitigations and fine providers up to EUR 15M or 3% of global turnover, rather than by Belgian national regulators. Belgium's position as host state gives it proximity to, but not control over, the EU's central AI enforcer.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "be-1",
+        "be-2"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "imec in Leuven confirmed installation of an ASML EXE:5200 High-NA EUV lithography system -- valued at roughly USD 400M and one of fewer than a dozen worldwide -- expected to be fully qualified by Q4 2026. The tool anchors imec's NanoIC pilot line for sub-2nm logic and high-density memory relevant to AI and high-performance computing, and forms part of a five-year imec-ASML strategic partnership backed by the EU Chips Act, the Chips Joint Undertaking and IPCEI funding.",
+      "date": "2026-03-18",
+      "sourceIds": [
+        "be-3",
+        "be-4"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Belgium continued to work on formally designating its full set of AI Act national competent authorities, having missed the Act's 2 August 2025 governance deadline. Reporting indicates the FPS Economy coordinates implementation, with the telecoms regulator BIPT/IBPT flagged as intended lead market-surveillance authority and the Data Protection Authority (APD/GBA) supervising AI systems that process personal data; a single confirmed public list of competent authorities was still not evident as of mid-2026.",
+      "date": "2026-07",
+      "sourceIds": [
+        "be-5",
+        "be-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "The Belgian AI startup scene continued to expand, with tracker data suggesting well over 100 funded AI startups; Start it @KBC reported that around two-thirds of its 2026 accelerator cohort were building with AI. Notable applied-AI companies include Ghent-area TechWolf (workforce-skills AI), Aikido Security (AI-assisted cybersecurity) and the earlier Segments.ai (acquired by Uber in 2025).",
+      "date": "2026-06",
+      "sourceIds": [
+        "be-7",
+        "be-8"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Flanders continued to run its own regional AI agenda through the Flemish AI Research Programme (overseen by the Department of Economy, Science and Innovation, EWI, with VLAIO), alongside Flemish supercomputing capacity (VSC) -- a reminder that a meaningful share of Belgian AI policy and compute sits at regional rather than federal level.",
+      "date": "2026-05",
+      "sourceIds": [
+        "be-9"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "imec set out its 2026 outlook emphasising the acceleration of chip innovation for AI, positioning its Leuven campus and pilot lines as central to Europe's ambitions under the EU Chips Act and reinforcing its role as a linchpin of the global chip R&D ecosystem.",
+      "date": "2026-01",
+      "sourceIds": [
+        "be-10"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "EU AI Act (national implementation)",
+      "status": "in_force",
+      "summary": "As an EU member state Belgium is directly bound by the AI Act. Its GPAI supervision and enforcement provisions took effect from 2 August 2026 (exercised centrally by the Commission's AI Office in Brussels), with most high-risk (Annex III) obligations phased to 2027. National implementation is coordinated by the FPS Economy; the telecoms regulator BIPT/IBPT is reported as intended lead market-surveillance authority and the APD/GBA supervises AI processing personal data. Belgium missed the Act's 2 August 2025 governance deadline for complete authority designation, and the final national architecture appeared still to be settling through 2026.",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "sourceIds": [
+        "be-2",
+        "be-5",
+        "be-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "National Convergence Plan for the development of AI / AI 4 Belgium",
+      "status": "in_force",
+      "summary": "A federal-level strategic framework (National Convergence Plan adopted around 2022, building on the earlier 'AI 4 Belgium' coalition) structured around several pillars including ethical and responsible AI, cybersecurity, skills and competitiveness. It functions as a strategy/coordination document rather than binding legislation, and sits alongside separate, arguably better-resourced regional programmes, notably in Flanders.",
+      "officialUrl": "https://www.ai4belgium.be/",
+      "sourceIds": [
+        "be-6"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "Flemish AI Research Programme (Vlaams Beleidsplan Artificiele Intelligentie)",
+      "status": "in_force",
+      "summary": "A regional AI policy plan and research programme run by Flanders (via the Department of Economy, Science and Innovation, EWI, and the innovation agency VLAIO), funding AI research, business uptake and -- through the Knowledge Centre Data & Society -- ethical and legal work. Its existence illustrates that Belgian AI policy is split across federal and regional competences.",
+      "officialUrl": "https://www.vlaanderen.be/en/flanders-innovation-entrepreneurship",
+      "sourceIds": [
+        "be-9"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Belgian AI research strength is anchored by imec in Leuven -- a world-leading nanoelectronics and semiconductor R&D institute central to the global chip ecosystem -- and by strong university groups at KU Leuven, Ghent University (whose spin-offs feed the Ghent tech scene), UCLouvain, VUB and ULB. The ecosystem is notably strong in applied AI, computer vision, cybersecurity and the hardware/AI interface, though it lacks a large frontier model developer of its own.",
+    "sourceIds": [
+      "be-7",
+      "be-11"
+    ]
+  },
+  "companies": [
+    {
+      "name": "imec",
+      "description": "Leuven-based world-leading semiconductor and nanoelectronics R&D institute; a critical node in the global advanced-chip ecosystem underpinning AI hardware. Not an AI company itself, but hosts pilot lines (including a High-NA EUV tool) for sub-2nm logic and memory. Works closely with ASML, Intel and SK hynix.",
+      "url": "https://www.imec-int.com"
+    },
+    {
+      "name": "TechWolf",
+      "description": "Ghent-area company building AI to infer and manage workforce skills for large enterprises; among the more heavily funded Belgian AI scaleups (reported to have raised over USD 50M).",
+      "url": "https://techwolf.com"
+    },
+    {
+      "name": "Aikido Security",
+      "description": "Belgian cybersecurity company using AI to help developers find and fix code and dependency vulnerabilities; among the funded AI-security startups in the Belgian scene.",
+      "url": "https://www.aikido.dev"
+    },
+    {
+      "name": "Segments.ai",
+      "description": "Belgian data-labelling / computer-vision tooling startup reported to have been acquired by Uber in 2025 -- an example of Belgian applied-AI talent being absorbed by larger foreign platforms.",
+      "url": "https://segments.ai"
+    },
+    {
+      "name": "ML2Grow",
+      "description": "Ghent-based applied-AI consultancy and a spin-off from Ghent University, illustrating the university-to-industry pipeline in Flemish AI.",
+      "url": "https://ml2grow.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Google Cloud",
+        "description": "Operates a large data-centre campus at Saint-Ghislain (Mons), Wallonia -- one of Google's longest-standing European sites -- widely used for cloud and AI workloads.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Hyperscaler that has announced Belgian data-centre region investments; used for Belgian enterprise and public-sector AI workloads.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "AWS",
+        "description": "Major hyperscaler serving Belgian enterprise AI workloads, primarily via its broader EU (including nearby) regions.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Flemish Supercomputer Centre (VSC)",
+        "description": "Flanders' academic high-performance computing infrastructure, providing regional public-sector and research compute (including for AI workloads) distinct from the hyperscalers.",
+        "url": "https://www.vscentrum.be"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "No domestic frontier training run; academic capacity via the Flemish Supercomputer Centre (VSC) and EuroHPC access, plus hyperscaler data centres (notably Google at Saint-Ghislain)",
+    "chipAccess": "No frontier model lab, but imec in Leuven is a global chokepoint in advanced-chip R&D -- hosting a rare ASML High-NA EUV tool and pilot lines for sub-2nm nodes"
+  },
+  "universities": [
+    {
+      "name": "KU Leuven",
+      "description": "Belgium's largest and highest-ranked university and a major AI research centre, closely tied to imec's Leuven campus.",
+      "url": "https://www.kuleuven.be/english/"
+    },
+    {
+      "name": "Ghent University",
+      "description": "Leading Flemish research university with strong AI, machine learning and health/biotech AI groups; a significant source of spin-offs.",
+      "url": "https://www.ugent.be/en"
+    },
+    {
+      "name": "UCLouvain",
+      "description": "Major French-speaking university with AI and data-science research, anchoring the Walloon academic AI scene.",
+      "url": "https://uclouvain.be/en/"
+    },
+    {
+      "name": "Vrije Universiteit Brussel (VUB)",
+      "description": "Brussels-based university with a long-standing AI research tradition (its AI Lab is among Europe's oldest).",
+      "url": "https://www.vub.be/en"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Knowledge Centre Data & Society",
+      "description": "Flemish knowledge centre (linked to the Flemish AI programme) focused on the legal, societal and ethical aspects of data and AI.",
+      "url": "https://data-en-maatschappij.ai/en",
+      "needsVerification": true
+    },
+    {
+      "name": "Bruegel",
+      "description": "Influential Brussels-based economic think tank publishing widely on AI, digital policy and EU technology regulation.",
+      "url": "https://www.bruegel.org"
+    },
+    {
+      "name": "CEPS (Centre for European Policy Studies)",
+      "description": "Brussels think tank producing substantial work on EU AI and digital regulation, well positioned given Brussels' role as EU capital.",
+      "url": "https://www.ceps.eu"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "European Commission AI Office (hosted in Brussels)",
+      "description": "The EU's central body for GPAI supervision and AI Act enforcement, based in Brussels within DG CNECT. Not a Belgian institution, but its physical seat in Belgium is a defining feature of the country's AI-governance profile.",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+    },
+    {
+      "name": "FPS Economy (Federal Public Service Economy)",
+      "description": "Reported to coordinate Belgium's national implementation of the EU AI Act and to lead explanatory/awareness work, pending full designation of competent authorities.",
+      "url": "https://economie.fgov.be/en",
+      "needsVerification": true
+    },
+    {
+      "name": "BIPT/IBPT (Belgian Institute for Postal Services and Telecommunications)",
+      "description": "The telecoms regulator, reported in 2025-2026 as the intended lead market-surveillance authority for the EU AI Act in Belgium, though the final designation architecture appeared still to be settling.",
+      "url": "https://www.bipt.be",
+      "needsVerification": true
+    },
+    {
+      "name": "Data Protection Authority (APD/GBA)",
+      "description": "Belgium's data protection authority, which supervises AI systems that process personal data and has issued awareness materials on AI; expected to play a role in the AI Act architecture.",
+      "url": "https://www.dataprotectionauthority.be"
+    },
+    {
+      "name": "Flanders Department of Economy, Science and Innovation (EWI)",
+      "description": "Regional department overseeing the Flemish AI Research Programme and, with VLAIO, funding AI research and business uptake in Flanders.",
+      "url": "https://www.ewi-vlaanderen.be/en"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Luc Van den hove",
+      "role": "Long-serving President and CEO of imec, the Leuven nanoelectronics institute central to the global chip ecosystem; a prominent voice on European semiconductor strategy",
+      "affiliation": "imec",
+      "category": "company_leader",
+      "url": "https://www.imec-int.com",
+      "needsVerification": true
+    },
+    {
+      "name": "Nathalie Smuha",
+      "role": "KU Leuven legal scholar and philosopher; influential researcher on AI law, ethics and governance who has advised European institutions",
+      "category": "researcher",
+      "url": "https://www.nathaliesmuha.com",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "imec",
+      "type": "organization",
+      "role": "Leuven nanoelectronics R&D institute; a linchpin of the global advanced-chip ecosystem underpinning AI hardware.",
+      "category": "company",
+      "url": "https://www.imec-int.com"
+    },
+    {
+      "name": "Nathalie Smuha",
+      "type": "person",
+      "role": "KU Leuven scholar on AI law, ethics and EU governance.",
+      "category": "researcher",
+      "url": "https://www.nathaliesmuha.com"
+    },
+    {
+      "name": "Bruegel",
+      "type": "organization",
+      "role": "Brussels economic think tank with heavy output on EU AI and digital policy.",
+      "category": "think_tank",
+      "url": "https://www.bruegel.org"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "European Commission AI Office (Brussels)",
+      "type": "agency"
+    },
+    {
+      "label": "imec",
+      "type": "research"
+    },
+    {
+      "label": "FPS Economy / BIPT",
+      "type": "government"
+    },
+    {
+      "label": "KU Leuven",
+      "type": "research"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "No domestic frontier AI lab",
+      "note": "Belgium has no home-grown frontier or near-frontier model developer. Its distinctive AI weight comes from hosting the EU AI Office and from imec's chip-R&D role, not from model building; the domestic company scene is applied-AI and mid-sized."
+    },
+    {
+      "area": "Slow, fragmented national AI-Act governance",
+      "note": "Belgium missed the AI Act's 2 August 2025 governance deadline for designating competent authorities, and the federal-regional split (with a strong separate Flemish programme) complicates a single national picture. The precise final list of competent authorities was not clearly confirmed as of mid-2026, so several attributions here carry needsVerification."
+    },
+    {
+      "area": "Belgium-specific cloud market share",
+      "note": "No reliable, independently-corroborated cloud market-share breakdown for named hyperscalers in Belgium was verified in this pass, so dominance percentages are left unpopulated."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Hosting the EU AI Office without a domestic frontier lab",
+      "category": "government",
+      "summary": "Brussels is the physical seat of the EU's central AI regulator, yet Belgium has no frontier model developer of its own -- an unusual split between regulatory centrality and industrial capacity.",
+      "expanded": "The European Commission's AI Office, based in Brussels, is now the central enforcer of the AI Act's GPAI rules from 2 August 2026. That gives Belgium unusual proximity to the heart of EU AI governance -- talent, convenings, institutional gravity -- without a domestic Mistral- or DeepMind-style lab to regulate. Analysts debate whether host-state proximity translates into any real national advantage (in talent attraction or policy influence) or whether, absent industrial capacity, Belgium mainly provides the address while decisions are made by an EU-level body answerable to the whole Union.",
+      "sourceIds": [
+        "be-1",
+        "be-2"
+      ]
+    },
+    {
+      "topic": "imec's chokepoint role in the global chip supply chain",
+      "category": "infrastructure",
+      "summary": "imec's rare High-NA EUV tool and sub-2nm pilot lines make Leuven a strategic node in the hardware layer of frontier AI, exposing Belgium to chip geopolitics despite having no fab of its own.",
+      "expanded": "imec is not a chipmaker or an AI lab, but its pilot lines and access to a handful of the world's most advanced lithography tools make it indispensable to the R&D that precedes advanced-chip manufacturing. That places Belgium inside the geopolitics of export controls and the EU Chips Act, and raises questions about how open imec's shared-research model can remain as advanced-node R&D becomes strategically sensitive. The March 2026 High-NA EUV installation intensified this debate.",
+      "sourceIds": [
+        "be-3",
+        "be-4"
+      ]
+    },
+    {
+      "topic": "Fragmented federal-regional AI governance",
+      "category": "government",
+      "summary": "Belgium's federal structure splits AI policy and compute between the national level and the regions (notably Flanders), complicating a single national strategy and slowing AI-Act implementation.",
+      "expanded": "Federal 'AI 4 Belgium' efforts sit alongside a separate, arguably better-resourced Flemish AI Research Programme and Flemish supercomputing (VSC), while AI-Act competent-authority designation is a federal responsibility that Belgium was slow to complete. The result is a governance picture that is harder to read than in more centralised member states, and where regional initiative can outpace national coordination.",
+      "sourceIds": [
+        "be-5",
+        "be-9"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "EU AI Office",
+      "type": "government",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "note": "The Brussels-based central EU body for GPAI supervision and AI Act enforcement."
+    },
+    {
+      "title": "imec -- scaling chip innovation at the speed of AI",
+      "type": "academic",
+      "url": "https://www.imec-int.com/en/articles/scaling-chip-innovation-speed-ai"
+    },
+    {
+      "title": "AI 4 Belgium",
+      "type": "government",
+      "url": "https://www.ai4belgium.be/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "be-1",
+      "title": "European Artificial Intelligence Office",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "be-2",
+      "title": "AI Act (regulatory framework for AI)",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "be-3",
+      "title": "Imec receives the world's most advanced High NA EUV system",
+      "publisher": "imec",
+      "url": "https://www.imec-int.com/en/press/imec-receives-worlds-most-advanced-high-na-euv-system",
+      "date": "2026-03",
+      "category": "industry"
+    },
+    {
+      "id": "be-4",
+      "title": "Belgium's imec secures rare ASML High NA EUV tool to drive next-generation chips",
+      "publisher": "WHBL / wire report",
+      "url": "https://whbl.com/2026/03/18/belgiums-imec-secures-rare-asml-high-na-euv-tool-to-drive-next-generation-chips/",
+      "date": "2026-03",
+      "category": "news"
+    },
+    {
+      "id": "be-5",
+      "title": "State of the Act: EU AI Act implementation in key Member States",
+      "publisher": "Technology's Legal Edge (DLA Piper)",
+      "url": "https://www.technologyslegaledge.com/2025/11/state-of-the-act-eu-ai-act-implementation-in-key-member-states/",
+      "date": "2025-11",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "be-6",
+      "title": "EU AI Act Belgium Implementation Guide 2026",
+      "publisher": "GLACIS",
+      "url": "https://www.glacis.io/guide-eu-ai-act-belgium",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "be-7",
+      "title": "Best AI Startups in Belgium (2026)",
+      "publisher": "Seedtable",
+      "url": "https://seedtable.com/best-ai-startups-in-belgium",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "be-8",
+      "title": "Start it @KBC barometer: 67.6% of Belgian startups now build with AI",
+      "publisher": "Startup Reporter",
+      "url": "https://www.startupreporter.eu/start-it-kbc-barometer-ai-belgium-startups-2026/",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "be-9",
+      "title": "The Leuven-based research centre imec is the linchpin of tomorrow's global chip ecosystem",
+      "publisher": "Focus on Belgium",
+      "url": "https://focusonbelgium.be/en/science/leuven-based-research-centre-imec-linchpin-tomorrows-global-chip-ecosystem",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "be-10",
+      "title": "Imec's vision for 2026: scaling chip innovation at the speed of AI",
+      "publisher": "imec",
+      "url": "https://www.imec-int.com/en/articles/scaling-chip-innovation-speed-ai",
+      "date": "2026-01",
+      "category": "industry"
+    },
+    {
+      "id": "be-11",
+      "title": "Belgium's 10 AI Companies Dominating Europe in 2026",
+      "publisher": "Datagrom",
+      "url": "https://www.datagrom.com/ai-news/belgiums-10-ai-companies-dominating-europe-in-2026-69410d90",
+      "date": "2026",
+      "category": "news"
+    }
+  ],
+  "hasMajorUpdate": true
+}

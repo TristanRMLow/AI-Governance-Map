@@ -1,0 +1,504 @@
+{
+  "code": "gh",
+  "name": "Ghana",
+  "shortName": "Ghana",
+  "flagEmoji": "🇬🇭",
+  "geometryType": "polygon",
+  "isoA3": ["GHA"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Newly launched National AI Strategy and $250m compute plan atop the 2012 Data Protection Act; no binding AI law yet",
+  "accentColor": { "light": "#B5943E", "dark": "#D0A94C" },
+  "center": [-1.1, 7.9],
+  "zoom": 5.9,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 6,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Whether Ghana's $250m AI computing centre and $1bn UAE hub can be delivered given scarce detail, funding and power constraints",
+    "Governing AI without a binding AI-specific law while relying on the 2012 Data Protection Act as the 2025 Bill stalls",
+    "Building AI for Ghanaian languages and digital inclusion"
+  ],
+  "overview": "Ghana has emerged as one of West Africa's more forward-leaning AI-policy actors, though its framework remains young and largely non-binding. On 24 April 2026 President John Dramani Mahama formally launched the National Artificial Intelligence Strategy — a decade-long plan first drafted around 2022-2023 (labelled 2023-2033) with support from Smart Africa, GIZ's FAIR Forward programme and The Future Society — and announced roughly $270m in funding, including $250m for a national AI computing centre and about $20m for implementation. The strategy is led by the Ministry of Communication, Digital Technology and Innovations under Minister Samuel Nartey George (Sam George), and reportedly envisages a central 'Responsible AI (RAI) Office' to coordinate an ethics-forward ecosystem spanning agriculture, health, education and financial services.\n\nGhana's most distinctive AI assets appear to lie in research and local-language technology rather than commercial model development. Google opened its first Africa AI research centre in Accra around 2018-2019 — reportedly the company's first on the continent — and in July 2025 added an AI Community Centre in the city, backed by a reported $37m Africa commitment. KNUST's Responsible AI Lab (RAIL), an AI4D Africa lab funded by the IDRC, SIDA and GIZ and led by Prof Jerry John Kponyo, has driven Ghana's UNESCO Readiness Assessment Methodology (RAM) work, while the open-source Ghana NLP initiative and its Khaya app — associated with the MIT-trained researcher Paul Azunre and his Algorine lab — build translation and speech tools for Twi, Ewe, Ga, Dagbani and other Ghanaian languages.\n\nGovernance still rests largely on the Data Protection Act, 2012 (Act 843), enforced by the Data Protection Commission; as of mid-2026 a proposed Data Protection Bill, 2025 — which would add rights over automated decision-making and AI systems — had reportedly not yet been introduced in Parliament, and no binding AI-specific statute exists. Ambitions are nonetheless large: alongside the $250m state computing centre, Ghana signed a roughly $1bn memorandum with the UAE's Ports, Customs and Free Zone Corporation in May 2025 to build an innovation-and-AI hub at Ningo-Prampram, reportedly including a G42-linked AI compute facility, though commentators have cautioned that concrete details, power supply and delivery remain uncertain.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "National AI Strategy launched with large compute ambitions, but no binding AI-specific law",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "Ethics-forward and largely non-binding: a launched National AI Strategy and a UNESCO RAM readiness process, with AI governed for now under the 2012 Data Protection Act rather than a dedicated AI statute",
+    "latestMajorUpdate": "President Mahama launched the National AI Strategy on 24 April 2026, announcing roughly $270m in funding including $250m for a national AI computing centre",
+    "governmentInvolvement": "High and rising — a lead ministry (Communication, Digital Technology and Innovations), a launched national strategy, a proposed Responsible AI Office and skills drives such as the One Million Coders Programme",
+    "industrialStrategy": "Positioning Ghana as a West African AI hub via a $250m national computing centre, a reported $1bn UAE-backed Ningo-Prampram innovation hub, and sector focus on agriculture, health, education and finance",
+    "internationalPartnerships": "Strategy support from Smart Africa, GIZ FAIR Forward and The Future Society; UNESCO/EU-funded RAM readiness work; a reported $1bn UAE (PCFC/G42) hub deal; and Google's Accra AI research and community centres",
+    "primaryPolicyFocus": "Implementing the newly launched National AI Strategy and building compute, skills and data-governance foundations while a binding AI law remains absent"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Ghana's trajectory in 2026 appears to be one of institution-building rather than binding regulation: it launched a decade-long National AI Strategy and pledged $250m for a national computing centre, but AI itself is still governed under the 2012 Data Protection Act, and the proposed Data Protection Bill, 2025 — the nearest thing to new AI-relevant rules — appears to have stalled short of Parliament. The direction is expansionary and ethics-forward, with delivery, funding and detail the main open questions."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Ghanaian legal and business commentary notes that the proposed Data Protection Bill, 2025 — a comprehensive replacement for Act 843 that would add rights over automated decision-making and AI systems, mandatory data protection officers, breach notification and a renamed Data Protection Authority — had reportedly not yet been formally introduced in Parliament, even as the Data Protection Commission signalled that 2026 would be a year of more active enforcement.",
+      "date": "2026-05-20",
+      "sourceIds": ["gh-11", "gh-12"]
+    },
+    {
+      "text": "President John Dramani Mahama formally launches Ghana's National Artificial Intelligence Strategy, announcing roughly $270m in funding — including $250m for a world-class national AI computing centre and about $20m for short- and medium-term implementation — and framing Ghana as an aspiring West African AI hub.",
+      "date": "2026-04-24",
+      "sourceIds": ["gh-1", "gh-2"],
+      "severity": "major"
+    },
+    {
+      "text": "At a national stakeholder engagement in Accra, the Ministry of Communication, Digital Technology and Innovations presents findings from Ghana's UNESCO Readiness Assessment Methodology (RAM) report — led by KNUST's Prof Jerry John Kponyo as national RAM consultant and supported by UNESCO and EU funding — concluding that Ghana lacks binding, AI-specific regulation and comprehensive data-governance frameworks; Minister Sam George uses the event to disclose the planned $250m AI computing centre.",
+      "date": "2026-03-31",
+      "sourceIds": ["gh-19", "gh-9"]
+    },
+    {
+      "text": "Google opens an AI Community Centre in Accra, building on its Accra AI research centre (reportedly its first in Africa, opened around 2018-2019); the new hub is tied to a reported $37m commitment to advancing AI across Africa and focuses on AI literacy, community technology, social impact and support for local startups and researchers.",
+      "date": "2025-07-24",
+      "sourceIds": ["gh-5", "gh-4"]
+    },
+    {
+      "text": "Ghana signs a roughly $1bn memorandum of understanding with the UAE's Ports, Customs and Free Zone Corporation to build what is billed as Africa's largest integrated innovation and AI hub at Ningo-Prampram in Greater Accra, with the UAE reportedly funding the hub and Ghana providing land; reporting indicates a large share earmarked for AI infrastructure, including a G42-linked AI compute facility.",
+      "date": "2025-05-29",
+      "sourceIds": ["gh-15", "gh-16"],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "The government launches the One Million Coders Programme, a national skills drive aiming to equip one million Ghanaians with coding, AI and digital skills through free online courses (onemillioncoders.gov.gh), which Minister Sam George frames as part of moving citizens from 'digitally native' to 'AI native' and positioning Ghana as an African AI hub.",
+      "date": "2025-04-16",
+      "sourceIds": ["gh-14"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Artificial Intelligence Strategy (2023-2033)",
+      "status": "in_force",
+      "summary": "Ghana's decade-long national AI strategy, developed around 2022-2023 with support from Smart Africa, GIZ FAIR Forward and The Future Society and formally launched by President Mahama on 24 April 2026. It is organised around pillars covering skills and education, digital infrastructure, data governance, sectoral AI adoption, applied research and public-sector use, with an ethics-forward emphasis and a proposed central Responsible AI (RAI) Office. As a strategy document rather than binding legislation, the 'in force' label should be read loosely.",
+      "officialUrl": "https://oecd.ai/en/dashboards/policy-initiatives/national-strategy-republic-of-ghana-national-artificial-intelligence-strategy-2023-2033",
+      "sourceIds": ["gh-1", "gh-3"]
+    },
+    {
+      "title": "Data Protection Act, 2012 (Act 843)",
+      "status": "in_force",
+      "summary": "Ghana's general data-protection law, in force since 2012 and enforced by the Data Protection Commission, an independent body with registration, monitoring and enforcement powers. In the absence of a dedicated AI statute, it is the principal legal instrument governing AI-adjacent processing of personal data, and legal commentators frame responsible-AI compliance in Ghana largely through this Act alongside cybersecurity law.",
+      "officialUrl": "https://dataprotection.org.gh/",
+      "sourceIds": ["gh-13", "gh-17"]
+    },
+    {
+      "title": "Data Protection Bill, 2025",
+      "status": "proposed",
+      "summary": "A proposed comprehensive replacement for Act 843 that would introduce mandatory data protection officers, 72-hour breach notification, data portability, a right to erasure, explicit rights regarding automated decision-making and AI systems, a renamed Data Protection Authority and higher penalties. As of mid-2026 it had reportedly not yet been formally introduced in Parliament, so it remains a draft rather than settled law.",
+      "sourceIds": ["gh-11", "gh-12"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Ghana's AI research base is anchored by KNUST's Responsible AI Lab (RAIL), an AI4D Africa multidisciplinary lab funded by the IDRC, SIDA and GIZ and led by Prof Jerry John Kponyo, which conducts responsible-AI research, drove Ghana's UNESCO Readiness Assessment Methodology (RAM) process and has showcased work internationally (including at a World AI Summit). Google's Accra AI research centre — reportedly its first in Africa — and the associated 2025 AI Community Centre add applied-research and training capacity, while the open-source Ghana NLP initiative (linked to the MIT-trained researcher Paul Azunre and his Algorine lab) builds translation, speech-recognition and speech-synthesis tools for Ghanaian languages such as Twi, Ewe, Ga and Dagbani via its Khaya app and API. The University of Ghana, Ashesi University and others contribute computer-science and applied-AI capacity.",
+    "sourceIds": ["gh-8", "gh-9", "gh-10", "gh-18", "gh-4", "gh-6"]
+  },
+  "companies": [
+    {
+      "name": "Ghana NLP",
+      "description": "Open-source initiative building natural-language-processing tools for Ghanaian and other African languages; its Khaya app and API provide translation, transcription and speech synthesis for Twi, Ewe, Ga, Dagbani and others, developed jointly with the Algorine research lab.",
+      "url": "https://ghananlp.org/"
+    },
+    {
+      "name": "Algorine",
+      "description": "Research lab founded by the Ghanaian-American, MIT-trained AI researcher Paul Azunre, focused on advanced AI and optimisation; a technical partner behind Ghana NLP's Khaya language models.",
+      "url": "https://www.algorine.com/",
+      "needsVerification": true
+    },
+    {
+      "name": "Farmerline",
+      "description": "Ghanaian agritech company reported to apply AI/data tools (including a 'Darli AI' assistant) to smallholder-farmer advisory, supply-chain and financing services; among the more prominent applied-AI ventures based in Ghana.",
+      "url": "https://farmerline.co/",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Global hyperscaler serving Ghanaian enterprise and startup workloads via cloud regions elsewhere; no confirmed in-country data-centre region.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider used across the Ghanaian market; Microsoft is among the global firms cited as prospective tenants of the planned UAE-backed Ningo-Prampram hub.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider active in Ghana, complemented by Google's Accra AI research and community centres.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "G42",
+        "description": "UAE-based technology group reported to be developing an AI compute facility as part of the $1bn Ningo-Prampram innovation-and-AI hub; a planned rather than operational presence.",
+        "url": "https://www.g42.ai/",
+        "needsVerification": true
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Modest and largely import-reliant, but expanding: a planned $250m national AI computing centre and a G42-linked AI compute facility within the proposed $1bn Ningo-Prampram hub, both early-stage as of mid-2026",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
+  },
+  "universities": [
+    {
+      "name": "Kwame Nkrumah University of Science and Technology (KNUST)",
+      "description": "Host of the Responsible AI Lab (RAIL), an AI4D Africa lab led by Prof Jerry John Kponyo and central to Ghana's responsible-AI research and UNESCO RAM readiness work.",
+      "url": "https://www.knust.edu.gh/"
+    },
+    {
+      "name": "University of Ghana",
+      "description": "Ghana's largest and oldest public university, active in computer science and AI-adjacent research.",
+      "url": "https://www.ug.edu.gh/",
+      "needsVerification": true
+    },
+    {
+      "name": "Ashesi University",
+      "description": "Private Ghanaian university with a strong computer-science and engineering focus, contributing to the country's AI and software-talent pipeline.",
+      "url": "https://www.ashesi.edu.gh/",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Responsible AI Lab (RAIL), KNUST",
+      "description": "AI4D Africa lab funded by the IDRC, SIDA and GIZ, producing responsible-AI research and policy engagement and serving as national implementer of Ghana's UNESCO Readiness Assessment Methodology (RAM).",
+      "url": "https://rail.knust.edu.gh/"
+    },
+    {
+      "name": "The Future Society",
+      "description": "International AI-governance non-profit that supported the drafting of Ghana's National AI Strategy alongside Smart Africa and GIZ FAIR Forward.",
+      "url": "https://thefuturesociety.org/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Communication, Digital Technology and Innovations",
+      "description": "Lead ministry for Ghana's National AI Strategy, the One Million Coders Programme and AI-policy coordination, headed by Minister Samuel Nartey George (Sam George).",
+      "url": "https://moc.gov.gh/",
+      "aliases": ["Ministry of Communications and Digitalisation"]
+    },
+    {
+      "name": "Data Protection Commission (DPC)",
+      "description": "Independent body enforcing the Data Protection Act, 2012 (Act 843) with registration, monitoring and enforcement powers; the principal regulator for AI-adjacent personal-data processing pending any dedicated AI law.",
+      "url": "https://dataprotection.org.gh/"
+    },
+    {
+      "name": "Responsible AI (RAI) Office (proposed)",
+      "description": "Central coordinating body for responsible AI proposed under the National AI Strategy, envisaged to sit within or work closely with the Ministry of Communication, Digital Technology and Innovations; not yet established as of mid-2026.",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-strategy-republic-of-ghana-national-artificial-intelligence-strategy-2023-2033",
+      "needsVerification": true
+    },
+    {
+      "name": "Cyber Security Authority (CSA)",
+      "description": "Statutory body regulating cybersecurity under the Cybersecurity Act, 2020; relevant to AI governance where security, online safety and critical-information-infrastructure obligations intersect with AI deployment.",
+      "url": "https://csa.gov.gh/",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Samuel Nartey George",
+      "role": "Minister for Communication, Digital Technology and Innovations; political lead for the National AI Strategy and One Million Coders Programme",
+      "affiliation": "Ministry of Communication, Digital Technology and Innovations",
+      "category": "government",
+      "url": "https://moc.gov.gh/"
+    },
+    {
+      "name": "Jerry John Kponyo",
+      "role": "Professor at KNUST; Scientific Director of the Responsible AI Lab (RAIL) and national UNESCO RAM consultant",
+      "affiliation": "Responsible AI Lab (RAIL), KNUST",
+      "category": "researcher",
+      "url": "https://rail.knust.edu.gh/"
+    },
+    {
+      "name": "Paul Azunre",
+      "role": "MIT-trained AI researcher; founder of Algorine and co-founder of Ghana NLP, behind the Khaya Ghanaian-language models",
+      "affiliation": "Ghana NLP / Algorine",
+      "category": "company_leader",
+      "url": "https://ghananlp.org/"
+    },
+    {
+      "name": "Arnold Kavaarpuo",
+      "role": "Acting Executive Director of the Data Protection Commission (appointed 2025); former President of the Ghana Association of Privacy Professionals",
+      "affiliation": "Data Protection Commission",
+      "category": "government",
+      "url": "https://dataprotection.org.gh/",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Samuel Nartey George",
+      "type": "person",
+      "role": "Minister driving Ghana's AI strategy, digital-skills and data-governance agenda",
+      "category": "government",
+      "url": "https://moc.gov.gh/"
+    },
+    {
+      "name": "Jerry John Kponyo",
+      "type": "person",
+      "role": "KNUST professor and RAIL Scientific Director; leading voice on responsible AI and Ghana's UNESCO RAM process",
+      "category": "researcher",
+      "url": "https://rail.knust.edu.gh/"
+    },
+    {
+      "name": "Paul Azunre",
+      "type": "person",
+      "role": "Founder of Algorine and Ghana NLP; prominent voice on African-language AI",
+      "category": "researcher",
+      "url": "https://ghananlp.org/"
+    },
+    {
+      "name": "Responsible AI Lab (RAIL), KNUST",
+      "type": "organization",
+      "role": "Publishes responsible-AI research and RAM readiness analysis relevant to Ghana's AI governance",
+      "category": "university",
+      "url": "https://rail.knust.edu.gh/"
+    },
+    {
+      "name": "Ghana NLP",
+      "type": "organization",
+      "role": "Open-source initiative advancing AI for Ghanaian and African languages via the Khaya app and API",
+      "category": "company",
+      "url": "https://ghananlp.org/"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Ministry of Communication, Digital Technology and Innovations", "type": "government" },
+    { "label": "Data Protection Commission", "type": "agency" },
+    { "label": "Responsible AI Lab (RAIL), KNUST", "type": "research" },
+    { "label": "Google (Accra AI centre)", "type": "company" },
+    { "label": "The Future Society", "type": "think_tank" }
+  ],
+  "notableGaps": [
+    { "area": "Frontier-model developers", "note": "No frontier or near-frontier foundation-model developer is based in Ghana; the country's AI footprint is concentrated in applied research, local-language NLP (Ghana NLP/Khaya) and policy/skills initiatives rather than large-scale model development." },
+    { "area": "Binding AI-specific law", "note": "As of mid-2026 Ghana has no dedicated, binding AI statute. AI is governed indirectly under the Data Protection Act, 2012 and cybersecurity law, and the proposed Data Protection Bill, 2025 — which would add explicit automated-decision-making/AI provisions — had reportedly not yet reached Parliament." },
+    { "area": "Domestic compute and chips", "note": "Compute capacity is modest and import-reliant. The flagship $250m national AI computing centre and the G42-linked facility in the proposed Ningo-Prampram hub were both early-stage and light on public detail as of mid-2026, with no domestic advanced-chip fabrication." },
+    { "area": "Verified private AI sector", "note": "Beyond a handful of ventures (e.g. Ghana NLP/Algorine and agritech such as Farmerline), reliable, independently-verified information on Ghana's commercial AI companies is thin, so this file lists only a small, cautiously-sourced set." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether Ghana's $250m AI computing centre and $1bn UAE hub can be delivered given scarce detail, funding and power constraints",
+      "category": "investment",
+      "summary": "Ghana has announced headline AI-infrastructure commitments — a $250m national AI computing centre and a reported $1bn UAE-backed innovation-and-AI hub at Ningo-Prampram — but commentators have questioned how much concrete detail, financing and power supply actually underpin them.",
+      "expanded": "The National AI Strategy launch paired a $250m computing-centre pledge with roughly $20m for implementation, while the separate UAE memorandum with the Ports, Customs and Free Zone Corporation envisages Ghana providing land and the UAE funding a large hub, reportedly including a G42-linked AI compute facility. Ghanaian technology media have noted that public details on the government centre are scarce, and analysts more broadly caution that delivery, reliable power, governance and realistic timelines — not announcements — will determine whether Ghana's compute ambitions materialise. The gap between ambition and verifiable specifics is a recurring theme in local coverage.",
+      "sourceIds": ["gh-1", "gh-2", "gh-15", "gh-20"]
+    },
+    {
+      "topic": "Governing AI without a binding AI-specific law while relying on the 2012 Data Protection Act as the 2025 Bill stalls",
+      "category": "government",
+      "summary": "Ghana is pursuing an ethics-forward AI agenda through a national strategy and UNESCO RAM process, but has no dedicated binding AI law; responsible-AI compliance rests on the 2012 Data Protection Act and cybersecurity law while the Data Protection Bill, 2025 has reportedly not yet reached Parliament.",
+      "expanded": "Ghana's UNESCO RAM assessment itself concluded that the country lacks binding, AI-specific regulation and comprehensive data-governance frameworks. Legal commentators frame responsible AI in Ghana at the crossroads of the Data Protection Act, 2012 (Act 843) and the Cybersecurity Act, 2020, and the proposed Data Protection Bill, 2025 — which would add explicit rights over automated decision-making and AI — is seen as the nearest new instrument, yet as of mid-2026 it appeared stalled short of Parliament. The debate is whether a strategy-and-guidance approach is sufficient, or whether Ghana needs enforceable AI-specific rules to match its stated ambitions.",
+      "sourceIds": ["gh-11", "gh-17", "gh-9"]
+    },
+    {
+      "topic": "Building AI for Ghanaian languages and digital inclusion",
+      "category": "research",
+      "summary": "A distinctive strand of Ghana's AI ecosystem is local-language technology: Ghana NLP's open-source Khaya tools aim to make AI usable for tens of millions of speakers of Twi, Ewe, Ga, Dagbani and other languages under-served by mainstream models.",
+      "expanded": "Ghana NLP, linked to researcher Paul Azunre and the Algorine lab, has released translation, speech-recognition and speech-synthesis tools for Ghanaian and other African languages, reporting iterative accuracy gains driven by user feedback and an expansion into northern-Ghana languages. Advocates argue such work is essential for digital inclusion and for ensuring AI benefits reach non-English-speaking populations; the underlying question is whether community and grant-funded open-source efforts can be sustained and scaled without the data, compute and commercial backing available to global model developers.",
+      "sourceIds": ["gh-6", "gh-7"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Republic of Ghana National Artificial Intelligence Strategy 2023-2033",
+      "type": "government",
+      "author": "OECD.AI Policy Observatory",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-strategy-republic-of-ghana-national-artificial-intelligence-strategy-2023-2033"
+    },
+    {
+      "title": "About RAIL — Responsible AI Lab, KNUST",
+      "type": "academic",
+      "author": "Responsible AI Lab, KNUST",
+      "url": "https://rail.knust.edu.gh/about-us/"
+    },
+    {
+      "title": "AI Readiness Assessment Methodology: Ghana",
+      "type": "government",
+      "author": "UNESCO",
+      "url": "https://www.unesco.org/en/articles/ai-readiness-assessment-methodology-ghana"
+    },
+    {
+      "title": "The Ghanaian NLP Landscape: A First Look",
+      "type": "academic",
+      "author": "Ghana NLP researchers (arXiv)",
+      "url": "https://arxiv.org/pdf/2405.06818"
+    },
+    {
+      "title": "Khaya: African Language Translation and Speech Recognition AI",
+      "type": "github",
+      "author": "Ghana NLP",
+      "url": "https://ghananlp.org/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "gh-1",
+      "title": "President launches Ghana's National AI Strategy, announces $250m AI Computing Centre",
+      "publisher": "Ghana Business News",
+      "url": "https://www.ghanabusinessnews.com/2026/04/25/president-launches-ghanas-national-ai-strategy-announces-250m-ai-computing-centre/",
+      "date": "2026-04-25",
+      "category": "news"
+    },
+    {
+      "id": "gh-2",
+      "title": "Ghana to invest $250m in AI Centre, launch national strategy",
+      "publisher": "Ghana News Agency",
+      "url": "https://gna.org.gh/2026/04/ghana-to-invest-250m-in-ai-centre-launch-national-strategy/",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "gh-3",
+      "title": "Republic of Ghana National Artificial Intelligence Strategy 2023-2033",
+      "publisher": "OECD.AI Policy Observatory",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-strategy-republic-of-ghana-national-artificial-intelligence-strategy-2023-2033",
+      "date": "2023",
+      "category": "research"
+    },
+    {
+      "id": "gh-4",
+      "title": "Google AI in Ghana",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-africa/google-ai-ghana/",
+      "date": "2019",
+      "category": "industry"
+    },
+    {
+      "id": "gh-5",
+      "title": "Google opens first AI Community Centre in Accra",
+      "publisher": "Ghanaian Times",
+      "url": "https://ghanaiantimes.com.gh/google-opens-first-ai-community-centre-in-accra/",
+      "date": "2025-07",
+      "category": "news"
+    },
+    {
+      "id": "gh-6",
+      "title": "Ghana Natural Language Processing (NLP) — Khaya",
+      "publisher": "Ghana NLP",
+      "url": "https://ghananlp.org/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "gh-7",
+      "title": "Khaya African Language Translation and Speech Recognition AI Demonstrates Major Improvements",
+      "publisher": "NLP Ghana (Medium)",
+      "url": "https://nlpghana.medium.com/khaya-african-language-translation-and-speech-recognition-ai-demonstrates-major-improvements-931711300497",
+      "date": "2025",
+      "category": "research"
+    },
+    {
+      "id": "gh-8",
+      "title": "About RAIL — Responsible AI Lab",
+      "publisher": "Responsible AI Lab, KNUST",
+      "url": "https://rail.knust.edu.gh/about-us/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "gh-9",
+      "title": "Ghana Maps Path to Ethical AI as Prof. Kponyo Presents Key Findings from UNESCO Readiness Assessment",
+      "publisher": "Responsible AI Lab, KNUST",
+      "url": "https://rail.knust.edu.gh/ghana-maps-path-to-ethical-ai-as-prof-kponyo-presents-key-findings-from-unesco-readiness-assessment/",
+      "date": "2026-03",
+      "category": "research"
+    },
+    {
+      "id": "gh-10",
+      "title": "AI Readiness Assessment Methodology: Ghana",
+      "publisher": "UNESCO",
+      "url": "https://www.unesco.org/en/articles/ai-readiness-assessment-methodology-ghana",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "gh-11",
+      "title": "The Data Protection Bill 2025: A stronger shield — what is it meant to enable?",
+      "publisher": "The Business & Financial Times",
+      "url": "https://thebftonline.com/2026/05/20/the-data-protection-bill-2025-a-stronger-shield-what-is-it-meant-to-enable/",
+      "date": "2026-05-20",
+      "category": "news"
+    },
+    {
+      "id": "gh-12",
+      "title": "Comparative Analysis of Ghana's Data Protection Bill, 2025 and the Data Protection Act, 2012 (Act 843)",
+      "publisher": "Sustineri Attorneys",
+      "url": "https://sustineriattorneys.com/2026/04/01/comparative-analysis-of-ghanas-data-protection-bill-2025-and-the-data-protection-act-2012-act-843-changes-and-additions/",
+      "date": "2026-04",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "gh-13",
+      "title": "Data Protection Commission (official site)",
+      "publisher": "Data Protection Commission, Ghana",
+      "url": "https://dataprotection.org.gh/",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "gh-14",
+      "title": "One Million Coders Programme a bold step towards Ghana's digital future — Minister",
+      "publisher": "Ghana News Agency",
+      "url": "https://gna.org.gh/2025/04/one-million-coders-programme-a-bold-step-towards-ghanas-digital-future-minster/",
+      "date": "2025-04",
+      "category": "news"
+    },
+    {
+      "id": "gh-15",
+      "title": "Ghana and UAE sign $1bn deal to build Africa's largest innovation and AI hub",
+      "publisher": "African Business",
+      "url": "https://african.business/2025/12/innov-africa-deals/ghana-and-uae-sign-1bn-deal-to-build-africas-largest-innovation-and-ai-hub",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "gh-16",
+      "title": "Ghana, UAE sign $1bn deal to build tech hub — Targets over 11,000 foreign companies",
+      "publisher": "Graphic Online",
+      "url": "https://www.graphic.com.gh/news/general-news/ghana-news-ghana-uae-sign-1bn-deal-to-build-tech-hub-targets-over-11-000-foreign-companies.html",
+      "date": "2025-05",
+      "category": "news"
+    },
+    {
+      "id": "gh-17",
+      "title": "Responsible AI Use In Ghana: Legal Compliance At The Crossroads Of Data Protection And Cybersecurity",
+      "publisher": "Mondaq",
+      "url": "https://www.mondaq.com/new-technology/1634132/responsible-ai-use-in-ghana-legal-compliance-at-the-crossroads-of-data-protection-and-cybersecurity",
+      "date": "2025",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "gh-18",
+      "title": "Responsible AI Lab (RAIL) Showcases Innovation at World AI Summit",
+      "publisher": "Responsible AI Lab, KNUST",
+      "url": "https://rail.knust.edu.gh/2025/02/10/responsible-ai-lab-rail-showcases-innovation-at-world-ai-summit/",
+      "date": "2025-02",
+      "category": "research"
+    },
+    {
+      "id": "gh-19",
+      "title": "Ghana Paves Way for Responsible AI Adoption",
+      "publisher": "Ministry of Communication, Digital Technology and Innovations",
+      "url": "https://moc.gov.gh/2026/03/06/ghana-paves-way-for-responsible-ai-adoption/",
+      "date": "2026-03",
+      "category": "government"
+    },
+    {
+      "id": "gh-20",
+      "title": "Ghana Announced a $250 Million AI Compute Center. The Details Are Scarce",
+      "publisher": "TechLabari",
+      "url": "https://techlabari.com/ghana-announced-a-250-million-ai-compute-center-the-details-on-the-centre-are-scarce/",
+      "date": "2026-04",
+      "category": "news"
+    }
+  ]
+}

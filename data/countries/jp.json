@@ -19,8 +19,8 @@
     36.5
   ],
   "zoom": 4.3,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 9,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 10,
   "debateTopics": [
     "AI Basic Plan implementation and the AI investment gap",
     "AI copyright compensation and voice-imitation rules",
@@ -45,6 +45,14 @@
     "summary": "Japan's government policy has generally centered on promotion over restriction, but under PM Takaichi that promotion has become far more concrete — a ¥1 trillion domestic foundation-model push and a government AI platform pilot scaling toward roughly 180,000 civil servants — even as the underlying AI Promotion Act still carries no penalties for non-compliance."
   },
   "recentDevelopments": [
+    {
+      "text": "Japan's Ministry of Justice is reported to have issued final guidance (8 August 2026) establishing that using AI to generate audio mimicking a person's voice without consent can constitute a civil infringement of that person's publicity and personal rights, giving those depicted a clearer route to seek compensation or platform takedown and extending potential civil liability to developers and users — consistent with Japan's soft-law, existing-frameworks approach rather than a binding AI statute.",
+      "date": "2026-08-08",
+      "sourceIds": [
+        "jp-16"
+      ],
+      "needsVerification": true
+    },
     {
       "text": "SoftBank's large-scale AI data centre in Sakai, Osaka — built on the site of a former Sharp LCD plant and widely described as the anchor of 'Stargate Japan', the domestic arm of the OpenAI-SoftBank-Oracle Stargate initiative — progresses toward opening, with SoftBank planning to launch an 'AI Data Center GPU Cloud' service in Japan from October 2026 and reported plans to scale capacity toward 250MW.",
       "date": "2026-07",
@@ -536,6 +544,14 @@
       "publisher": "TechnoSports",
       "url": "https://technosports.co.in/japan-south-korea-ai-safety/",
       "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "jp-16",
+      "title": "Japan Rules AI Voice Cloning Requires Consent: Developers Face Civil Liability",
+      "publisher": "Tech Times",
+      "url": "https://www.techtimes.com/articles/323616/20260808/japan-rules-ai-voice-cloning-requires-consent-developers-face-civil-liability.htm",
+      "date": "2026-08-08",
       "category": "news"
     }
   ],

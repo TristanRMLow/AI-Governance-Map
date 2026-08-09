@@ -1,0 +1,466 @@
+{
+  "code": "ee",
+  "name": "Estonia",
+  "shortName": "Estonia",
+  "flagEmoji": "🇪🇪",
+  "geometryType": "polygon",
+  "isoA3": [
+    "EST"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "e-state deploying AI across government and schools; EU AI Act applied via existing regulators, with no standalone national AI law",
+  "accentColor": {
+    "light": "#4A90B5",
+    "dark": "#63A8CC"
+  },
+  "center": [
+    25.6,
+    58.7
+  ],
+  "zoom": 6.6,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "AI Leap 2025 -- OpenAI and Anthropic in every school",
+    "Digital identities for AI agents",
+    "AI across the e-state via bürokratt"
+  ],
+  "overview": "Estonia's AI significance is disproportionate to its size and rests on a single, powerful idea: applying AI aggressively inside a mature digital state. Building on two decades of e-Estonia (digital ID, X-Road data exchange, near-fully digital public services), the country has become a globally-watched testbed for AI in government and education rather than a builder of frontier models. Its flagship 2026 initiatives are AI Leap (TI Hüpe), a national programme giving secondary-school students and teachers free access to leading AI tools -- launched in September 2025 with around 20,000 students aged 16-17 and 3,000 teachers, in partnership with OpenAI and Anthropic, and expanding to roughly 38,000 students in September 2026 -- and the bürokratt network of interoperable government AI assistants.\n\nStrategy runs through the 'Kratt' lineage: Estonia's 2019 national AI strategy, updated as the AI and Data Action Plan (Kratt) 2024-2026, and in January 2026 a new umbrella initiative, Eesti.AI, launched by Prime Minister Kristen Michal with the goal of doubling the value of Estonian work by 2035. Its advisory board -- chaired by Bolt CEO Markus Villig, with members including Skype co-founder Jaan Tallinn -- in mid-2026 backed a plan to make Estonia the first country to issue official digital identities to AI agents ('AI ID codes'), extending Estonia's digital-identity infrastructure to autonomous software. On regulation, Estonia has no standalone national AI law; it applies the EU AI Act through existing bodies, with the Data Protection Inspectorate (AKI) supervising data-related aspects and the Consumer Protection and Technical Regulatory Authority (TTJA) among the designated competent authorities. From 2 August 2026 the AI Act's GPAI supervision and enforcement powers are live, exercised centrally by the Commission's AI Office. Estonia has no domestic frontier lab and its tech champions (Bolt, Wise, Veriff, Pipedrive) are digital-services firms rather than model developers -- but as a govtech-and-AI-in-education model it is one of the most-watched small states in the world.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "e-state deploying AI in government and schools; no domestic frontier lab",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act applied via existing regulators (Data Protection Inspectorate, TTJA); no standalone national AI law",
+    "latestMajorUpdate": "EU AI Act GPAI supervision and enforcement powers took effect from 2 August 2026 (exercised centrally by the Commission's AI Office); Estonia advanced plans for digital IDs for AI agents and expanded AI Leap in schools",
+    "governmentInvolvement": "Very high: AI embedded in public services (bürokratt), a national schools programme (AI Leap) and the Eesti.AI umbrella initiative",
+    "industrialStrategy": "Digital-state and govtech leadership plus a strong startup scene (Bolt, Wise, Veriff); no frontier model builder",
+    "internationalPartnerships": "Direct partnerships with OpenAI and Anthropic for AI Leap; deep EU digital-policy engagement",
+    "primaryPolicyFocus": "Deploying trustworthy AI across the e-state and education; pioneering identity infrastructure for AI agents"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Estonia's regulatory posture tightens in step with the EU (GPAI enforcement live from 2 August 2026), but its distinctive momentum is deployment-led and loosening in spirit -- pushing AI into schools and government and pioneering new frameworks (digital IDs for AI agents) rather than adding heavy domestic constraints."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The EU AI Act's supervision and enforcement powers over general-purpose AI (GPAI) models took effect on 2 August 2026, together with the Act's Article 50 transparency duties. GPAI oversight is exercised centrally by the European Commission's AI Office -- which can request documentation, run evaluations, demand mitigations and fine providers up to EUR 15M or 3% of global turnover -- rather than by Estonian regulators. Estonia applies the Act through existing authorities (the Data Protection Inspectorate and TTJA) rather than a standalone national AI law.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "ee-1",
+        "ee-2"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "Estonia's AI Leap programme was set to expand in September 2026 -- extending free access to leading AI tools (via partnerships with OpenAI and Anthropic) to vocational schools and new upper-secondary cohorts, reportedly reaching around 38,000 students and 2,000 teachers, up from the initial ~20,000 students and 3,000 teachers who joined at the September 2025 launch.",
+      "date": "2026-07",
+      "sourceIds": [
+        "ee-3",
+        "ee-4"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "The Eesti.AI advisory board -- chaired by Bolt CEO Markus Villig, with members including Skype co-founder Jaan Tallinn -- agreed on 17 June 2026 that Estonia would move forward with creating digital identities for AI agents ('AI ID codes'), aiming to let AI act on behalf of people or organisations within defined, auditable limits. Prime Minister Kristen Michal backed the proposal, positioning Estonia as the first country to extend official digital identity to autonomous software.",
+      "date": "2026-06-17",
+      "sourceIds": [
+        "ee-5",
+        "ee-6"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "The Eesti.AI initiative -- launched by Prime Minister Kristen Michal in January 2026 with the goal of doubling the value of Estonian work by 2035 -- advanced its programmes, including a 'Most AI-Savvy Nation' skills pilot that ran roughly April-June 2026 with around 35 workshops across six Estonian cities.",
+      "date": "2026-06",
+      "sourceIds": [
+        "ee-7"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Estonia continued to expand its bürokratt network of interoperable government AI assistants and to pursue the AI and Data Action Plan (Kratt) 2024-2026, with reported ambitions to equip thousands of public servants with AI tools to automate routine work and support evidence-based decision-making.",
+      "date": "2026-04",
+      "sourceIds": [
+        "ee-8"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "AI Leap 2025 (TI Hüpe) launched at the start of the 2025/26 school year, giving Estonian upper-secondary students and teachers free access to leading AI applications alongside training -- an unusually direct national partnership with OpenAI and Anthropic that drew international attention as a model for AI in education.",
+      "date": "2025-09-01",
+      "sourceIds": [
+        "ee-3",
+        "ee-9"
+      ],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "EU AI Act (applied via existing national authorities)",
+      "status": "in_force",
+      "summary": "Estonia has no standalone national AI law; it applies the EU AI Act through existing regulators. The Consumer Protection and Technical Regulatory Authority (TTJA) is among the designated competent authorities and the Data Protection Inspectorate (AKI) supervises data-related aspects. The Act's GPAI supervision and enforcement powers took effect from 2 August 2026, exercised centrally by the Commission's AI Office; most high-risk obligations are phased to 2027.",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "sourceIds": [
+        "ee-1",
+        "ee-2"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "AI and Data Action Plan (Kratt) 2024-2026",
+      "status": "in_force",
+      "summary": "Estonia's national AI strategy (building on the 2019 'Kratt' strategy), a three-year plan led by the Ministry of Economic Affairs and Communications focused on capacity building, public-sector transformation, data governance, language technology, funding and alignment with EU AI policy.",
+      "officialUrl": "https://www.kratid.ee/en",
+      "sourceIds": [
+        "ee-8"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "Eesti.AI initiative and digital identities for AI agents",
+      "status": "proposed",
+      "summary": "A national umbrella initiative launched by PM Kristen Michal in January 2026 to embed AI across the economy and government (goal: double the value of Estonian work by 2035). In June 2026 its advisory board backed making Estonia the first country to issue official digital identities to AI agents ('AI ID codes'); as of mid-2026 this remained a policy direction under development rather than enacted law.",
+      "officialUrl": "https://www.valitsus.ee/en/news/prime-minister-michal-estonia-become-first-country-create-digital-identities-ai-agents",
+      "sourceIds": [
+        "ee-5",
+        "ee-7"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Estonian AI research and talent centre on Tallinn University of Technology (TalTech) and the University of Tartu, which together produce a large share of the country's computer-science and engineering graduates. The applied strength lies in govtech, language technology (for Estonian) and the digital-state infrastructure (digital ID, X-Road) that underpins nationwide AI deployment, rather than in frontier model research.",
+    "sourceIds": [
+      "ee-10",
+      "ee-8"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Bolt",
+      "description": "Tallinn-founded mobility and delivery super-app operating across Europe and Africa; applies AI in pricing, routing and operations. Its CEO Markus Villig chairs Estonia's Eesti.AI advisory board.",
+      "url": "https://bolt.eu"
+    },
+    {
+      "name": "Veriff",
+      "description": "Estonian AI-powered identity-verification (KYC) platform and one of the country's most prominent applied-AI companies globally.",
+      "url": "https://www.veriff.com"
+    },
+    {
+      "name": "Wise",
+      "description": "Estonian-founded cross-border payments company (now UK-listed) using AI/ML in fraud detection and operations; a landmark Estonian tech success.",
+      "url": "https://wise.com"
+    },
+    {
+      "name": "Pipedrive",
+      "description": "Estonian-founded sales CRM increasingly embedding AI features; part of the country's SaaS/startup depth.",
+      "url": "https://www.pipedrive.com"
+    },
+    {
+      "name": "Skeleton Technologies",
+      "description": "Estonian deep-tech company (ultracapacitors / energy storage) -- not an AI firm, but emblematic of Estonia's deep-tech scaleup base adjacent to the AI ecosystem.",
+      "url": "https://www.skeletontech.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Hyperscaler widely used for Estonian enterprise and public-sector workloads (including AI), served largely via nearby EU regions.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "description": "Major hyperscaler used by Estonian startups and enterprises; Estonia has also pioneered the concept of a 'data embassy' for state data resilience.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Hyperscaler serving Estonian cloud and AI workloads via its European regions.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "OpenAI / Anthropic (AI Leap)",
+        "description": "Frontier AI model providers supplying tools directly into Estonia's national AI-in-schools programme (AI Leap), an unusual direct-to-state deployment relationship rather than conventional cloud infrastructure.",
+        "url": "https://e-estonia.com/ai-leap-2025-estonia-sets-ai-standard-in-education/"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "No significant domestic AI supercomputer; relies on hyperscaler cloud and EU/EuroHPC access. Strength is deployment and digital-state infrastructure, not training compute",
+    "chipAccess": "No domestic fabrication; fully import-reliant for advanced AI accelerators"
+  },
+  "universities": [
+    {
+      "name": "Tallinn University of Technology (TalTech)",
+      "description": "Estonia's leading technical university and the top alumni network for its startup founders; central to IT and AI talent.",
+      "url": "https://taltech.ee/en"
+    },
+    {
+      "name": "University of Tartu",
+      "description": "Estonia's oldest and largest research university, with computer-science, data-science and language-technology strengths relevant to AI.",
+      "url": "https://ut.ee/en"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "e-Estonia Briefing Centre",
+      "description": "Government-linked showcase and knowledge hub for Estonia's digital state, including its AI-in-government initiatives -- a key channel for Estonia's international govtech influence.",
+      "url": "https://e-estonia.com"
+    },
+    {
+      "name": "Foresight Centre (Arenguseire Keskus)",
+      "description": "Think tank at the Estonian parliament producing foresight analysis, including on AI, automation and the future of work.",
+      "url": "https://www.arenguseire.ee/en/",
+      "needsVerification": true
+    },
+    {
+      "name": "Lennart Meri Conference / ICDS",
+      "description": "The International Centre for Defence and Security (ICDS) and the annual Lennart Meri Conference host debate on technology, security and (increasingly) AI, reflecting Estonia's cyber and digital-security focus.",
+      "url": "https://icds.ee",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Justice and Digital Affairs / Ministry of Economic Affairs and Communications",
+      "description": "Lead ministries for Estonia's digital state and AI strategy (the 'Kratt' action plan and digital-government agenda). Machinery-of-government naming has shifted, so exact responsibilities should be verified.",
+      "url": "https://www.mkm.ee/en",
+      "needsVerification": true
+    },
+    {
+      "name": "Data Protection Inspectorate (Andmekaitse Inspektsioon, AKI)",
+      "description": "Estonia's data protection authority, supervising data-related aspects of AI use including under the EU AI Act.",
+      "url": "https://www.aki.ee/en"
+    },
+    {
+      "name": "Consumer Protection and Technical Regulatory Authority (TTJA)",
+      "description": "Reported as among Estonia's designated competent authorities for AI systems under the EU AI Act, providing guidance on AI obligations.",
+      "url": "https://ttja.ee/en",
+      "needsVerification": true
+    },
+    {
+      "name": "Information System Authority (RIA)",
+      "description": "Operator of core e-state infrastructure (including X-Road and cyber-security functions) underpinning Estonia's nationwide AI deployment, such as the bürokratt assistant network.",
+      "url": "https://www.ria.ee/en"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Kristen Michal",
+      "role": "Prime Minister of Estonia; launched the Eesti.AI initiative and backed digital identities for AI agents",
+      "affiliation": "Government of Estonia",
+      "category": "government",
+      "url": "https://www.valitsus.ee/en",
+      "needsVerification": true
+    },
+    {
+      "name": "Markus Villig",
+      "role": "Co-founder and CEO of Bolt; chairs the Eesti.AI advisory board steering Estonia's national AI agenda",
+      "affiliation": "Bolt / Eesti.AI",
+      "category": "company_leader",
+      "url": "https://bolt.eu"
+    },
+    {
+      "name": "Jaan Tallinn",
+      "role": "Skype co-founder and prominent AI-safety funder (CSER, FLI); member of Estonia's Eesti.AI advisory board",
+      "affiliation": "Eesti.AI advisory board",
+      "category": "advisor",
+      "url": "https://jaan.online",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Markus Villig",
+      "type": "person",
+      "role": "Bolt CEO; chairs the Eesti.AI advisory board.",
+      "category": "company",
+      "url": "https://bolt.eu"
+    },
+    {
+      "name": "Jaan Tallinn",
+      "type": "person",
+      "role": "Skype co-founder and AI-safety funder; Eesti.AI advisory board member.",
+      "category": "researcher",
+      "url": "https://jaan.online"
+    },
+    {
+      "name": "e-Estonia",
+      "type": "organization",
+      "role": "Official showcase and knowledge hub for Estonia's digital state and AI-in-government initiatives.",
+      "category": "government",
+      "url": "https://e-estonia.com"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Prime Minister / Eesti.AI",
+      "type": "government"
+    },
+    {
+      "label": "Bolt (Markus Villig)",
+      "type": "company"
+    },
+    {
+      "label": "Information System Authority (RIA)",
+      "type": "agency"
+    },
+    {
+      "label": "TalTech / University of Tartu",
+      "type": "research"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "No domestic frontier AI lab or training compute",
+      "note": "Estonia builds no frontier models and has no significant national AI supercomputer. Its distinctiveness is deployment -- AI in government and schools -- and digital-identity infrastructure, not model development or compute; hence frontierDeveloper 'none'."
+    },
+    {
+      "area": "Dependence on foreign frontier providers in schools",
+      "note": "AI Leap relies directly on OpenAI and Anthropic to supply tools to students and teachers, raising questions about data governance, vendor dependence and equity that Estonia's programme is being watched to answer."
+    },
+    {
+      "area": "Fluid regulatory and machinery-of-government detail",
+      "note": "Estonia applies the AI Act through existing bodies without a standalone AI law, and ministry names/responsibilities have shifted; several attributions here carry needsVerification, and the digital-IDs-for-AI-agents plan was still a proposal rather than enacted law as of mid-2026."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "AI Leap 2025 -- OpenAI and Anthropic in every school",
+      "category": "government",
+      "summary": "Estonia's national programme putting frontier AI tools in the hands of all upper-secondary students and teachers is a globally-watched bet on AI-native education -- and on partnering directly with US frontier labs.",
+      "expanded": "AI Leap (TI Hüpe) gives students and teachers free, structured access to leading AI applications, positioning Estonia as a first mover in AI-in-education. Advocates see a generation gaining fluency and a template for other states; critics raise concerns about outsourcing core educational infrastructure to OpenAI and Anthropic, about student-data governance, and about whether measured learning gains will justify the approach. Its September 2026 expansion to vocational schools raises the stakes.",
+      "sourceIds": [
+        "ee-3",
+        "ee-4",
+        "ee-9"
+      ]
+    },
+    {
+      "topic": "Digital identities for AI agents",
+      "category": "government",
+      "summary": "Estonia aims to be the first country to give AI agents official digital IDs, extending its e-state identity model to autonomous software -- a novel governance experiment.",
+      "expanded": "Backed by the Eesti.AI board and PM Michal in mid-2026, the 'AI ID code' idea would let AI agents act on behalf of people or organisations within defined, auditable limits, applying least-privilege principles from digital identity to autonomous software. Supporters see accountability and traceability for agentic AI; sceptics ask whether granting agents formal identity blurs legal responsibility, and how such IDs would interoperate with EU rules. It epitomises Estonia's habit of governing new technology by extending its digital-state infrastructure.",
+      "sourceIds": [
+        "ee-5",
+        "ee-6"
+      ]
+    },
+    {
+      "topic": "AI across the e-state via bürokratt",
+      "category": "government",
+      "summary": "Estonia is weaving AI assistants into public services through the bürokratt network -- a test of whether a mature digital state can deploy AI at scale responsibly.",
+      "expanded": "The bürokratt vision is an interoperable network of government AI assistants that let citizens access services conversationally, built on Estonia's digital-ID and X-Road foundations. Combined with plans to equip thousands of civil servants with AI tools, it makes Estonia a live experiment in public-sector AI. The debate is over quality, oversight and accountability -- whether efficiency gains come without eroding transparency, and whether a small state's trusted digital institutions can keep pace with the technology they are adopting.",
+      "sourceIds": [
+        "ee-8"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "AI Leap 2025: Estonia sets the standard for AI in education",
+      "type": "government",
+      "url": "https://e-estonia.com/ai-leap-2025-estonia-sets-ai-standard-in-education/"
+    },
+    {
+      "title": "Prime Minister Michal: Estonia to become first country to create digital identities for AI agents",
+      "type": "government",
+      "url": "https://www.valitsus.ee/en/news/prime-minister-michal-estonia-become-first-country-create-digital-identities-ai-agents"
+    },
+    {
+      "title": "e-Estonia -- digital state and AI",
+      "type": "government",
+      "url": "https://e-estonia.com"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ee-1",
+      "title": "AI Act (regulatory framework for AI)",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "ee-2",
+      "title": "AI and Data Action Plan (Kratt) 2024-2026 / Estonia AI regulation overview",
+      "publisher": "Regulations.ai",
+      "url": "https://regulations.ai/regulations/RAI-EE-NA-ADAPKXX-2024",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "ee-3",
+      "title": "AI Leap 2025: Estonia sets the standard for AI in education",
+      "publisher": "e-Estonia",
+      "url": "https://e-estonia.com/ai-leap-2025-estonia-sets-ai-standard-in-education/",
+      "date": "2025",
+      "category": "government"
+    },
+    {
+      "id": "ee-4",
+      "title": "Estonia announces groundbreaking national initiative: AI Leap programme to bring AI tools to all schools",
+      "publisher": "Estonian Ministry of Education and Research",
+      "url": "https://www.hm.ee/en/news/estonia-announces-groundbreaking-national-initiative-ai-leap-programme-bring-ai-tools-all",
+      "date": "2025",
+      "category": "government"
+    },
+    {
+      "id": "ee-5",
+      "title": "Prime Minister Michal: Estonia to become first country to create digital identities for AI agents",
+      "publisher": "Government of Estonia (valitsus.ee)",
+      "url": "https://www.valitsus.ee/en/news/prime-minister-michal-estonia-become-first-country-create-digital-identities-ai-agents",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "ee-6",
+      "title": "PM Michal: Estonia to become first country to create digital identities for AI agents",
+      "publisher": "Government of Estonia (valitsus.ee)",
+      "url": "https://www.valitsus.ee/en/news/prime-minister-michal-estonia-become-first-country-create-digital-identities-ai-agents",
+      "date": "2026-06",
+      "category": "government"
+    },
+    {
+      "id": "ee-7",
+      "title": "State IDs for AI Agents: Will Estonia Set a Precedent? (Eesti.AI)",
+      "publisher": "Dark Reading",
+      "url": "https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "ee-8",
+      "title": "National AI Policy Initiatives -- Estonia",
+      "publisher": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/national/estonia",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "ee-9",
+      "title": "Estonia's groundbreaking AI Leap 2025 programme brings innovative AI tools to all schools",
+      "publisher": "estonia.ee",
+      "url": "https://estonia.ee/stories/estonias-ambitious-initiative-the-ai-leap-programme-brings-ai-tools-to-all-schools",
+      "date": "2025",
+      "category": "government"
+    },
+    {
+      "id": "ee-10",
+      "title": "Top 100 Estonia Startups to Watch in 2026",
+      "publisher": "Failory",
+      "url": "https://www.failory.com/startups/estonia",
+      "date": "2026",
+      "category": "industry"
+    }
+  ],
+  "hasMajorUpdate": true
+}

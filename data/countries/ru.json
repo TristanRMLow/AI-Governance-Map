@@ -19,8 +19,8 @@
     62
   ],
   "zoom": 2.2,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "Building frontier AI under Western chip sanctions",
     "State control, 'traditional values' and AI content",
@@ -33,7 +33,7 @@
       "sentiment": "amber"
     },
     "regulatoryApproach": "Light, enabling framework law plus regulatory sandboxes; a separate 'traditional values' alignment strand",
-    "latestMajorUpdate": "State Duma passes a framework law supporting AI development (third reading, July 2026), due to take effect 1 September 2026",
+    "latestMajorUpdate": "President Putin signs the framework law supporting AI development (27 July 2026), due to take effect 1 September 2026",
     "governmentInvolvement": "High — presidential strategy, a centralised AI coordination headquarters, and state-linked developers",
     "industrialStrategy": "Import-substitution and 'technological sovereignty'; domestic models (Sber GigaChat, Yandex YandexGPT) on a largely home-grown stack",
     "internationalPartnerships": "Oriented toward non-Western partners (China, BRICS, India and others) via the AI Journey conference and related fora",
@@ -45,7 +45,17 @@
   },
   "recentDevelopments": [
     {
-      "text": "The State Duma passed, at third reading (reported 8 July 2026), a framework federal law 'On Supporting the Development of Artificial Intelligence Technologies in the Russian Federation' — a short, enabling statute (reported at around 13 articles) intended to underpin large domestic foundation models and 'technological sovereignty'. If signed, it is reported to take effect on 1 September 2026.",
+      "text": "President Putin signed the federal law 'On Supporting the Development of Artificial Intelligence Technologies in the Russian Federation' on 27 July 2026, after the Federation Council approved it on 17 July. The enabling statute introduces legal categories of 'sovereign' and 'national' large foundation models — reporting suggests Sber's GigaChat is treated as 'sovereign' (developed wholly on Russian components) and Yandex's YandexGPT as 'national' — letting their developers qualify for state support and access to state information systems, with most provisions taking effect on 1 September 2026 (and some from 1 March 2027).",
+      "date": "2026-07-27",
+      "sourceIds": [
+        "ru-11",
+        "ru-12"
+      ],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "The State Duma passed, at third reading (reported 8 July 2026), a framework federal law 'On Supporting the Development of Artificial Intelligence Technologies in the Russian Federation' — a short, enabling statute (reported at around 13 articles) intended to underpin large domestic foundation models and 'technological sovereignty'; it was subsequently signed by the President on 27 July 2026 and is reported to take effect on 1 September 2026.",
       "date": "2026-07-08",
       "sourceIds": [
         "ru-3",
@@ -100,7 +110,7 @@
     {
       "title": "Framework Law on Supporting the Development of AI Technologies",
       "status": "passed",
-      "summary": "A short, framework-style federal law (reported at around 13 articles) passed by the State Duma at third reading in July 2026 to support the development and deployment of large domestic foundation models, ensure 'technological sovereignty', and protect state and societal security in their use. As an enabling rather than prescriptive statute, it stops well short of comprehensive risk regulation. Reported to take effect 1 September 2026 if signed by the President.",
+      "summary": "A short, framework-style federal law (reported at around 13 articles) passed by the State Duma at third reading on 8 July 2026, approved by the Federation Council on 17 July and signed by President Putin on 27 July 2026, to support the development and deployment of large domestic foundation models, ensure 'technological sovereignty', and protect state and societal security in their use. It introduces legal categories of 'sovereign' and 'national' foundation models tied to state support. As an enabling rather than prescriptive statute, it stops well short of comprehensive risk regulation. Most provisions are reported to take effect on 1 September 2026 (some from 1 March 2027).",
       "sourceIds": [
         "ru-3",
         "ru-4"
@@ -451,6 +461,22 @@
       "publisher": "Nuclear Engineering International",
       "url": "https://www.neimagazine.com/news/putin-links-nuclear-buildout-to-russias-ai-ambitions/",
       "date": "2025-11",
+      "category": "news"
+    },
+    {
+      "id": "ru-11",
+      "title": "Law supporting the development of AI technologies in Russia",
+      "publisher": "President of Russia (Kremlin)",
+      "url": "http://en.kremlin.ru/acts/news/80377",
+      "date": "2026-07",
+      "category": "government"
+    },
+    {
+      "id": "ru-12",
+      "title": "Russian president signs law on developing AI technologies",
+      "publisher": "Interfax",
+      "url": "https://interfax.com/newsroom/top-stories/118520/",
+      "date": "2026-07",
       "category": "news"
     }
   ],

@@ -19,8 +19,8 @@
     24.0
   ],
   "zoom": 6.5,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 8,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "Consolidating AI governance under a single new Authority",
     "Chip access diplomacy and the shift toward unrestricted export status"
@@ -43,6 +43,15 @@
     "summary": "The UAE is consolidating institutional control over AI policy under a single new Authority chaired by Omar Sultan Al Olama, AI minister since 2017 \u2014 a centralising move even though no binding AI-specific law has followed \u2014 alongside continued state investment in sovereign compute and Arabic-language frontier models, and a July 2026 US export-control reclassification that eased the UAE's access to advanced AI chips."
   },
   "recentDevelopments": [
+    {
+      "text": "The GCC (Gulf Cooperation Council) steering committee is reported to have announced a common regional AI policy — shared principles on AI ethics, data privacy, security and cross-border cooperation among member states — as a step toward a unified Gulf AI strategy. Details on scope, timeline and enforcement remain thin in early reporting, and the UAE's role in implementation is not yet clear.",
+      "date": "2026-08",
+      "sourceIds": [
+        "ae-12"
+      ],
+      "needsVerification": true,
+      "eventGroup": "gcc-common-ai-policy-aug2026"
+    },
     {
       "text": "Construction of Stargate UAE — a 1GW AI compute cluster built by G42's Khazna Data Centers within a planned 5GW Abu Dhabi 'UAE–US AI Campus' and operated with OpenAI and Oracle (partners also include NVIDIA, Cisco and SoftBank) — continues, with the 200MW first phase, reported to use around 100,000 NVIDIA Grace Blackwell GB300 systems, said to be on course for completion in the third quarter of 2026. It is widely described as the largest AI data-centre build outside the US.",
       "date": "2026",
@@ -348,6 +357,14 @@
       "url": "https://www.prnewswire.com/news-releases/mbzuai-launches-k2-think-v2-uaes-fully-sovereign-next-generation-reasoning-system-302671460.html",
       "date": "2026-01",
       "category": "research"
+    },
+    {
+      "id": "ae-12",
+      "title": "GCC steering committee announces AI policy",
+      "publisher": "ID Times",
+      "url": "https://id-times.com/news/gcc-steering-committee-announces-ai-policy/",
+      "date": "2026-08",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

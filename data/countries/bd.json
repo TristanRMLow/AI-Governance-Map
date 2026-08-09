@@ -1,0 +1,570 @@
+{
+  "code": "bd",
+  "name": "Bangladesh",
+  "shortName": "Bangladesh",
+  "flagEmoji": "🇧🇩",
+  "geometryType": "polygon",
+  "isoA3": ["BGD"],
+  "region": "Asia-Pacific",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Draft risk-based national AI policy atop a newly enacted data-protection law, carried across a 2026 change of government",
+  "accentColor": { "light": "#2E8A5B", "dark": "#40AE76" },
+  "center": [90.3, 23.7],
+  "zoom": 6.2,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 8,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Whether an ambitious draft AI policy can survive Bangladesh's institutional-capacity and political-transition gap",
+    "Data-protection and cyber laws that critics argue protect the state more than citizens",
+    "A vast freelancer and BPO workforce exposed to AI automation, with thin domestic Bengali-model capacity",
+    "Reliance on a single national data centre and new data-localisation rules for 'sovereign' AI"
+  ],
+  "overview": "Bangladesh's AI-governance story is inseparable from an unusually turbulent political period. The long-serving Awami League government of Sheikh Hasina fell in early August 2024 amid a student-led uprising, and an interim government headed by Nobel laureate Muhammad Yunus took charge on 8 August 2024. That interim administration governed by ordinance until a general election on 12 February 2026, which the Bangladesh Nationalist Party (BNP) won; Tarique Rahman was sworn in as Prime Minister on 17 February 2026. Much of the country's most consequential digital and AI-related lawmaking therefore straddles a change of government, and it is important to be careful about which administration produced which instrument — the interim government drafted and gazetted several measures that the elected BNP government has since inherited, amended or is still finalising.\n\nOn AI specifically, Bangladesh has a lineage of ambition that has repeatedly outrun implementation. A draft National Strategy for Artificial Intelligence circulated under the previous government around 2019-2020, and the ICT Division published a draft National Artificial Intelligence Policy in 2024; commentators note that little of the earlier roadmap materialised. The interim government advanced a more detailed National AI Policy 2026-2030, whose Draft v2.0 was released for public consultation that closed on 8 February 2026 — a risk-based, four-tier framework that would prohibit real-time public biometric surveillance, social scoring and AI-enabled weapons, mandate algorithmic impact assessments for high-risk systems, create a coordinating National Data Governance and Innovation Agency (NDGIA), and signal an intention to join the Council of Europe's Framework Convention on AI. As of mid-2026 the policy remains a draft, and the incoming BNP government has said it is finalising a broadly similar 'human-centric' national AI policy, so continuity across the transition appears likely but is not yet settled. The proposed NDGIA does not yet exist operationally.\n\nUnderpinning this is a digital-government apparatus centred on the ICT Division (within the Ministry of Posts, Telecommunications and Information Technology) and its flagship a2i (Aspire to Innovate) programme, historically UNDP-supported and now reportedly being restructured into a more autonomous statutory agency. Bangladesh's economic AI narrative leans heavily on a very large online-freelancer and business-process-outsourcing (BPO) workforce — frequently described as among the world's largest sources of online freelancers — and on 'Digital Bangladesh' and 'Smart Bangladesh 2041' branding, though the latter was a Hasina-era slogan whose status under successive governments should be read cautiously. Compute remains nascent and import-reliant, anchored by a single state-owned Tier-IV national data centre at Kaliakoir; there is no frontier-model developer and only a handful of firms building Bengali-language models. On adjacent law, the interim government gazetted a Personal Data Protection Ordinance in November 2025 (later amended and then passed into a Personal Data Protection Act, 2026) and replaced the controversial Cyber Security Act 2023 with a Cyber Security Ordinance 2025 — reforms welcomed in part but criticised for continuing to shield the state.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Draft national AI policy inherited across a change of government; first data-protection law now in force",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "A risk-based National AI Policy 2026-2030 still in draft, sitting atop a newly enacted Personal Data Protection Act 2026 and a 2025 Cyber Security Ordinance",
+    "latestMajorUpdate": "The Personal Data Protection Act, 2026 came into force in April 2026, replacing the 2025 Ordinance — Bangladesh's first comprehensive data-protection law, criticised for broad state exemptions",
+    "governmentInvolvement": "Moderate — the ICT Division and a2i drive digital-government and AI policy, but a dedicated AI regulator (the proposed NDGIA) does not yet exist and the national AI policy remains a draft",
+    "industrialStrategy": "Leans on a very large IT-freelancer/BPO workforce and 'Digital/Smart Bangladesh' branding, with nascent Bengali-language-model and data-centre ambitions",
+    "internationalPartnerships": "UNESCO AI-readiness assessment and long-running UNDP support for a2i; the draft policy signals an intention to accede to the Council of Europe Framework Convention on AI",
+    "primaryPolicyFocus": "Finalising and implementing the National AI Policy 2026-2030 while operationalising the Personal Data Protection Act 2026"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Bangladesh appears to be moving from having essentially no dedicated AI or data-governance framework toward one: a first comprehensive data-protection law is now in force, a reformed cyber ordinance has replaced the 2023 Act, and a risk-based national AI policy sits in advanced draft. The direction is therefore toward more formal regulation, but implementation is genuinely uncertain — the coordinating AI agency the policy envisages does not yet exist, the AI policy is unadopted, and the whole agenda has just passed from an interim government to a newly elected one whose priorities are still being set out."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The incoming BNP government's Ministry of Posts, Telecommunications and Information Technology, under minister Fakir Mahbub Anam Swapan, says Bangladesh is finalising a 'human-centric' National AI Policy focused on ethical, safe and inclusive AI use — broadly continuing the risk-based draft inherited from the interim government.",
+      "date": "2026-07",
+      "sourceIds": ["bd-14"]
+    },
+    {
+      "text": "Bangladesh reportedly puts forward four priorities for global AI governance (inclusion, capacity-building, affordable connectivity and digital public goods) at international fora, positioning itself as a Global South voice rather than a model-building power.",
+      "date": "2026-06",
+      "sourceIds": ["bd-16"],
+      "needsVerification": true
+    },
+    {
+      "text": "The Personal Data Protection Act, 2026 comes into force (reported around 15 April 2026), replacing the 2025 Ordinance to become Bangladesh's first comprehensive data-protection law; commentators welcome the framework but criticise broad state and law-enforcement exemptions and executive-appointed oversight.",
+      "date": "2026-04-15",
+      "sourceIds": ["bd-5", "bd-6", "bd-17"],
+      "severity": "major"
+    },
+    {
+      "text": "Following the 12 February 2026 general election won by the BNP, the interim government of Muhammad Yunus hands over to an elected government; Tarique Rahman is sworn in as Prime Minister on 17 February 2026, and Fakir Mahbub Anam Swapan takes over the Posts, Telecommunications and IT portfolio — reshaping the political ownership of Bangladesh's AI and digital agenda.",
+      "date": "2026-02-17",
+      "sourceIds": ["bd-15"]
+    },
+    {
+      "text": "The interim government's ICT Division — whose posts/telecoms/ICT brief was led by Special Assistant Faiz Ahmad Taiyeb — releases the National AI Policy 2026-2030 Draft v2.0 for public review (consultation closing 8 February 2026): a four-tier risk-based framework prohibiting real-time public biometric surveillance, social scoring and AI-enabled weapons, requiring algorithmic impact assessments, and proposing a coordinating National Data Governance and Innovation Agency.",
+      "date": "2026-02-09",
+      "sourceIds": ["bd-1", "bd-2", "bd-13"]
+    },
+    {
+      "text": "The President promulgates the Personal Data Protection (Amendment) Ordinance, 2026 (Ordinance No. 23 of 2026), amending the 2025 Ordinance to tighten data-localisation/residency requirements — including keeping a synchronised in-country copy of restricted data and data held by critical information infrastructure.",
+      "date": "2026-02-05",
+      "sourceIds": ["bd-17", "bd-5"]
+    },
+    {
+      "text": "The interim government gazettes the Personal Data Protection Ordinance, 2025, Bangladesh's first comprehensive personal-data instrument, establishing consent-based data rights while drawing early criticism over exemptions favouring the state.",
+      "date": "2025-11-06",
+      "sourceIds": ["bd-5", "bd-6"]
+    },
+    {
+      "text": "Bangladesh's IT/BPO outsourcing exports are reported to be approaching US$1bn, buoyed by an AI-services push and one of the world's largest online-freelancer workforces — a central plank of the country's economic AI narrative even as domestic model-building stays thin.",
+      "date": "2025-07",
+      "sourceIds": ["bd-7"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National AI Policy 2026-2030 (Draft)",
+      "status": "proposed",
+      "summary": "A risk-based framework advanced by the ICT Division under the interim government (Draft v2.0 released February 2026, public consultation closed 8 February 2026) and reportedly being finalised in similar 'human-centric' form by the elected BNP government. It proposes four risk tiers (prohibited, high-risk, and lower categories), bans on real-time public biometric surveillance, social scoring and AI-enabled weapons, mandatory algorithmic impact assessments for high-risk systems, a coordinating National Data Governance and Innovation Agency (NDGIA), and possible accession to the Council of Europe Framework Convention on AI. As of mid-2026 it remains a draft and the NDGIA does not yet exist operationally.",
+      "officialUrl": "https://aipolicy.gov.bd/",
+      "sourceIds": ["bd-1", "bd-2", "bd-14"]
+    },
+    {
+      "title": "Personal Data Protection Act, 2026",
+      "status": "in_force",
+      "summary": "Bangladesh's first comprehensive data-protection law. It began as the Personal Data Protection Ordinance 2025 (gazetted 6 November 2025 by the interim government), was amended by Ordinance No. 23 of 2026 (5 February 2026) to strengthen data-localisation requirements, and was reported to come into force as an Act around April 2026 under the new Parliament. It sets consent-based data rights and data-residency rules but has been widely criticised for broad exemptions for the state and law-enforcement and for executive control over oversight.",
+      "officialUrl": "https://securiti.ai/bangladesh-personal-data-protection-act-overview/",
+      "sourceIds": ["bd-5", "bd-6", "bd-17"]
+    },
+    {
+      "title": "Cyber Security Ordinance, 2025",
+      "status": "in_force",
+      "summary": "Promulgated by the interim government in May 2025 (Ordinance No. 25 of 2025), repealing the controversial Cyber Security Act 2023 and striking down around nine speech-related provisions that had been used to prosecute critics. Reform groups welcomed the softer penalties and more bailable offences but warned that surveillance and content-control powers relevant to AI-generated content and platform governance persist.",
+      "sourceIds": ["bd-21", "bd-10"],
+      "needsVerification": true
+    },
+    {
+      "title": "National Strategy for Artificial Intelligence / National AI Policy 2024 (Draft, superseded)",
+      "status": "proposed",
+      "summary": "An earlier lineage of AI policymaking: a draft National Strategy for Artificial Intelligence circulated under the previous government around 2019-2020, followed by a draft National Artificial Intelligence Policy published by the ICT Division in 2024. Neither was formally adopted, and commentary notes that little of the earlier roadmap was implemented; both have effectively been overtaken by the 2026-2030 draft.",
+      "sourceIds": ["bd-3", "bd-4", "bd-20"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Bangladesh's AI research is predominantly academic and NLP-focused. The BUET CSE NLP Group has produced widely used Bengali/multilingual resources (e.g. work on Bangla language models and the XL-Sum multilingual summarisation dataset), while the University of Dhaka and BRAC University run Bangla NLP and data-science research and American International University-Bangladesh (AIUB) hosts an AI & Machine Learning group. Commercial capacity is comparatively thin: analysts note that very few firms are training Bengali-specific large language models despite 170m-plus Bengali speakers, with early efforts including Hishab Technologies' 'titulm' models and Intelsense AI's 'Ekush'. The picture is one of strong low-resource-language research talent but limited domestic compute and commercialisation.",
+    "sourceIds": ["bd-18", "bd-19"]
+  },
+  "companies": [
+    {
+      "name": "Hishab Technologies",
+      "description": "Dhaka-based voice-AI and Bangla NLP company experimenting with homegrown bilingual large language models (its 'titulm' family) and Bangla writing tools ('Shuddhi', pitched as a 'Grammarly for Bangla'); among the few local firms building Bengali-specific models."
+    },
+    {
+      "name": "Intelsense AI",
+      "description": "Bangladeshi startup that launched 'Ekush', promoted as a model trained specifically on Bangla, with proprietary voice-AI applied across telemedicine, agriculture and other sectors."
+    },
+    {
+      "name": "Brain Station 23",
+      "description": "One of Bangladesh's largest software and IT-services firms (publicly listed), delivering outsourced engineering and increasingly AI/ML-enabled solutions to domestic and international clients.",
+      "url": "https://brainstation-23.com"
+    },
+    {
+      "name": "Pathao",
+      "description": "Dhaka-headquartered ride-hailing and 'super-app' platform (also operating in Nepal) that applies machine learning to logistics, pricing and fintech across a large Bangladeshi user base.",
+      "url": "https://pathao.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "BDCCL National Data Centre (G-Cloud)",
+        "description": "State-owned Tier-IV national data centre at Bangabandhu/Kaliakoir Hi-Tech Park operated by Bangladesh Data Center Company Ltd, hosting government 'G-Cloud' services, storage and colocation — the backbone of public-sector digital infrastructure.",
+        "url": "https://bdccl.gov.bd/"
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "description": "Global hyperscaler widely used by Bangladeshi startups and enterprises, served from nearby regions (e.g. Singapore/Mumbai) rather than an in-country region."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider used across Bangladeshi enterprise and public-sector workloads, without a dedicated in-country region."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used by Bangladeshi developers and enterprises, served from regional data centres outside the country."
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Nascent and import-reliant; centred on the state-owned Tier-IV national data centre at Kaliakoir (BDCCL), with little dedicated AI/GPU capacity",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
+  },
+  "universities": [
+    {
+      "name": "Bangladesh University of Engineering and Technology (BUET)",
+      "description": "The country's leading engineering university; its CSE department hosts a prominent NLP group producing Bangla and multilingual language-model and dataset research.",
+      "url": "https://cse.buet.ac.bd/",
+      "aliases": ["BUET"]
+    },
+    {
+      "name": "University of Dhaka",
+      "description": "Bangladesh's oldest university, active in Bangla NLP and AI-adjacent computer-science research.",
+      "url": "https://www.du.ac.bd/"
+    },
+    {
+      "name": "BRAC University",
+      "description": "Private Dhaka university with dedicated data-science and machine-learning tracks and Bengali NLP research collaborations; also home to the policy-research institute BIGD.",
+      "url": "https://www.bracu.ac.bd/"
+    },
+    {
+      "name": "American International University-Bangladesh (AIUB)",
+      "description": "Private university hosting an AI & Machine Learning research group within its computer-science department and engaged in AI-governance capacity work.",
+      "url": "https://www.aiub.edu/"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Tech Global Institute",
+      "description": "Diaspora-founded nonprofit policy lab focused on technology governance in the Global South, which has published research on reforming AI laws and regulation in Bangladesh and engaged in UN-level AI-governance discussions.",
+      "url": "https://techglobalinstitute.com/"
+    },
+    {
+      "name": "BRAC Institute of Governance and Development (BIGD)",
+      "description": "BRAC University-based social-science and governance research institute engaged in digital-governance and AI-policy analysis, and convenor of a policy-research consortium.",
+      "url": "https://bigd.bracu.ac.bd/"
+    },
+    {
+      "name": "Centre for Policy Dialogue (CPD)",
+      "description": "Long-established independent Dhaka think tank (founded 1993) contributing economic and digital-economy policy analysis relevant to Bangladesh's AI and outsourcing agenda.",
+      "url": "https://cpd.org.bd/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Posts, Telecommunications and Information Technology",
+      "description": "Lead ministry for Bangladesh's digital, telecom and AI policy; under the BNP government its minister (Fakir Mahbub Anam Swapan, from February 2026) oversees finalisation of the national AI policy.",
+      "url": "https://mopt.gov.bd/",
+      "needsVerification": true
+    },
+    {
+      "name": "ICT Division",
+      "description": "The Information and Communication Technology Division within the ministry; principal drafter of the National AI Policy and the earlier AI strategy, and parent of a2i and the Bangladesh Computer Council.",
+      "url": "https://ictd.gov.bd/",
+      "aliases": ["Information and Communication Technology Division"]
+    },
+    {
+      "name": "a2i (Aspire to Innovate)",
+      "description": "Flagship digital-government and public-service-innovation programme of the ICT Division, historically UNDP-supported; reportedly being restructured into a more autonomous statutory 'Agency to Innovate' after the 2024 change of government.",
+      "url": "https://a2i.gov.bd/",
+      "aliases": ["Access to Information", "Agency to Innovate"]
+    },
+    {
+      "name": "Bangladesh Data Center Company Limited (BDCCL)",
+      "description": "State-owned company operating the Tier-IV national data centre at Kaliakoir Hi-Tech Park, providing G-Cloud, storage and colocation for government and enterprise.",
+      "url": "https://bdccl.gov.bd/",
+      "aliases": ["BDCCL"]
+    },
+    {
+      "name": "Bangladesh Computer Council (BCC)",
+      "description": "Statutory ICT-development body under the ICT Division supporting national digital infrastructure, hi-tech parks and capacity-building.",
+      "url": "https://bcc.gov.bd/",
+      "needsVerification": true
+    },
+    {
+      "name": "National Data Governance and Innovation Agency (NDGIA)",
+      "description": "Coordinating AI/data-governance body proposed by the draft National AI Policy 2026-2030; as of mid-2026 it is not yet established or operational.",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Fakir Mahbub Anam Swapan",
+      "role": "Minister for Posts, Telecommunications and Information Technology (from February 2026)",
+      "affiliation": "Government of Bangladesh (BNP)",
+      "category": "government",
+      "needsVerification": true
+    },
+    {
+      "name": "Muhammad Yunus",
+      "role": "Chief Adviser of the interim government (August 2024 - February 2026), under whom much of the AI and data-protection drafting occurred",
+      "affiliation": "Interim Government of Bangladesh",
+      "category": "government"
+    },
+    {
+      "name": "Faiz Ahmad Taiyeb",
+      "role": "Special Assistant to the Chief Adviser for Posts, Telecommunications and IT in the interim government (2024-Feb 2026); drove AI-in-government and telecom-reform policy",
+      "affiliation": "Interim Government of Bangladesh (former)",
+      "category": "government"
+    },
+    {
+      "name": "Shahzeb Mahmood",
+      "role": "Senior researcher working on AI, platform governance and Global South tech policy",
+      "affiliation": "Tech Global Institute",
+      "category": "think_tank_leader",
+      "needsVerification": true
+    },
+    {
+      "name": "Sagor Sarker",
+      "role": "Founder building Bangla voice AI and homegrown Bengali language models",
+      "affiliation": "Hishab Technologies",
+      "category": "company_leader",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Tech Global Institute",
+      "type": "organization",
+      "role": "Publishes research and commentary on AI law and platform governance in Bangladesh and the Global South",
+      "category": "think_tank",
+      "url": "https://techglobalinstitute.com/"
+    },
+    {
+      "name": "BRAC Institute of Governance and Development (BIGD)",
+      "type": "organization",
+      "role": "Digital-governance and AI-policy research from BRAC University",
+      "category": "think_tank",
+      "url": "https://bigd.bracu.ac.bd/"
+    },
+    {
+      "name": "BUET CSE NLP Group",
+      "type": "organization",
+      "role": "Leading Bangla and multilingual NLP/language-model research group",
+      "category": "university",
+      "url": "https://csebuetnlp.github.io/"
+    },
+    {
+      "name": "Faiz Ahmad Taiyeb",
+      "type": "person",
+      "role": "Former interim-government tech adviser and frequent commentator on Bangladesh's AI, telecom and digital-public-infrastructure policy",
+      "category": "government"
+    },
+    {
+      "name": "The Business Standard (tech desk)",
+      "type": "organization",
+      "role": "Bangladeshi business daily with sustained coverage of AI, BPO exports and digital policy",
+      "category": "journalist",
+      "url": "https://www.tbsnews.net/tech"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Ministry of Posts, Telecommunications and IT", "type": "government" },
+    { "label": "ICT Division", "type": "agency" },
+    { "label": "a2i (Aspire to Innovate)", "type": "agency" },
+    { "label": "Bangladesh Data Center Company Ltd (BDCCL)", "type": "agency" },
+    { "label": "BUET CSE NLP Group", "type": "research" },
+    { "label": "Tech Global Institute", "type": "think_tank" }
+  ],
+  "notableGaps": [
+    {
+      "area": "Frontier-model developers",
+      "note": "No frontier or near-frontier foundation-model developer is based in Bangladesh; domestic effort is limited to a handful of firms (e.g. Hishab, Intelsense AI) and academic groups building Bengali-language models, and analysts note only a very small number of companies produce Bangla LLMs despite 170m-plus speakers."
+    },
+    {
+      "area": "Dedicated AI regulator/institute",
+      "note": "The National Data Governance and Innovation Agency proposed by the draft AI policy does not yet exist operationally, and there is no dedicated AI safety institute; oversight would rest on bodies that are not yet stood up."
+    },
+    {
+      "area": "Adopted AI-specific law",
+      "note": "As of mid-2026 the National AI Policy 2026-2030 remains a draft carried across the change of government, so no binding AI statute or policy is formally in force — governance leans on the new data-protection and cyber-security laws instead."
+    },
+    {
+      "area": "Compute and hardware",
+      "note": "AI compute is nascent and concentrated in a single state-owned national data centre, with dedicated AI/GPU capacity thin and advanced chips fully import-reliant."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Whether an ambitious draft AI policy can survive Bangladesh's institutional-capacity and political-transition gap",
+      "category": "government",
+      "summary": "The National AI Policy 2026-2030 is comparatively sophisticated on paper — risk tiers, prohibited uses, algorithmic impact assessments — but it was drafted under an interim government, remains unadopted, and depends on institutions (notably the NDGIA) that do not yet exist.",
+      "expanded": "Analysts point to an 'implementation gap': Bangladesh's earlier 2019-2020 AI strategy included detailed roadmaps that largely did not materialise, and the new policy's coordinating agency lacks a legal mandate or operational existence. The August 2024 change of government also disrupted the digital-government machinery — the ICT Division suspended a number of a2i officials and consultants, and a2i itself is being reorganised into a more autonomous statutory agency, raising questions about continuity of expertise. With the elected BNP government now saying it will finalise its own 'human-centric' AI policy, the open question is whether political ownership across the transition strengthens or dilutes the draft's more binding provisions.",
+      "sourceIds": ["bd-2", "bd-1", "bd-11", "bd-12"]
+    },
+    {
+      "topic": "Data-protection and cyber laws that critics argue protect the state more than citizens",
+      "category": "security",
+      "summary": "Bangladesh has, in quick succession, enacted its first data-protection law and replaced the controversial 2023 Cyber Security Act — but civil-society and industry groups warn that broad state exemptions and surveillance powers persist.",
+      "expanded": "The Personal Data Protection Ordinance 2025 (later the 2026 Act) was praised for finally codifying data rights, yet critics — including domestic commentators and international bodies — highlight expansive carve-outs for the state and law enforcement, executive control over the oversight authority, and data-localisation rules tightened by a February 2026 amendment that could raise compliance costs and cross-border-data friction. The Cyber Security Ordinance 2025 struck out several speech-criminalising provisions of the 2023 Act, but rights groups argue residual powers still bear on AI-generated content, platform governance and freedom of expression. Together the reforms mark real progress while leaving contested questions about state power unresolved.",
+      "sourceIds": ["bd-5", "bd-10", "bd-21", "bd-17"]
+    },
+    {
+      "topic": "A vast freelancer and BPO workforce exposed to AI automation, with thin domestic Bengali-model capacity",
+      "category": "industry",
+      "summary": "Bangladesh's economic AI story rests on one of the world's largest online-freelancer and BPO workforces, whose IT-services exports are approaching US$1bn — but much of that work is exactly the kind AI could automate, while the country builds few Bengali-language models of its own.",
+      "expanded": "The freelancer/BPO base is a genuine national asset and a growing export earner, and an 'AI push' is being credited with lifting outsourcing revenues. Yet the same data-entry, transcription, moderation and back-office tasks are increasingly automatable, creating a strategic tension between riding AI demand and being displaced by it. Compounding this, domestic capacity to build sovereign Bengali AI is limited: only a small number of firms train Bangla-specific large language models despite the language's enormous speaker base, and the draft policy's call to prioritise domestically hosted Bangla models sits against thin compute and funding.",
+      "sourceIds": ["bd-7", "bd-18"]
+    },
+    {
+      "topic": "Reliance on a single national data centre and new data-localisation rules for 'sovereign' AI",
+      "category": "infrastructure",
+      "summary": "Bangladesh's public-sector cloud and 'sovereign AI' ambitions lean heavily on one state-owned Tier-IV national data centre, even as new data-localisation rules push more data to be kept in-country.",
+      "expanded": "The BDCCL national data centre at Kaliakoir Hi-Tech Park — promoted domestically as among the world's larger Tier-IV facilities — anchors government G-Cloud services and is central to narratives about hosting Bangla-specific AI at home. But concentrating national data and compute in a single facility raises resilience and capacity questions, and the country still lacks meaningful dedicated AI/GPU infrastructure. The 2026 data-localisation amendments requiring in-country copies of restricted and critical-infrastructure data add both a sovereignty rationale and practical strain on this limited footprint, at a time when hyperscale cloud is served from outside Bangladesh.",
+      "sourceIds": ["bd-8", "bd-9"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "National AI Policy 2026-2030 (Draft v2.0)",
+      "type": "government",
+      "author": "ICT Division, Government of Bangladesh",
+      "url": "https://aipolicy.gov.bd/docs/national-ai-policy-bangladesh-2026-2030-draft-v2.0.pdf"
+    },
+    {
+      "title": "Bangladesh's AI Moment: Testing the Implementation Gap",
+      "type": "newsletter",
+      "author": "Policy Magazine",
+      "url": "https://www.policymagazine.ca/bangladeshs-ai-moment-testing-the-implementation-gap/"
+    },
+    {
+      "title": "Reforming AI Laws and Regulation in Bangladesh: Current Harms and Possible Future(s)",
+      "type": "think_tank",
+      "author": "Tech Global Institute",
+      "url": "https://techglobalinstitute.com/research/reforming-ai-laws-and-regulation-in-bangladesh-current-harms-and-possible-futures/"
+    },
+    {
+      "title": "BUET CSE NLP Group",
+      "type": "github",
+      "author": "BUET CSE NLP Group",
+      "url": "https://csebuetnlp.github.io/"
+    },
+    {
+      "title": "Bangladesh Data Center Company Limited (BDCCL) — at a glance",
+      "type": "government",
+      "author": "BDCCL",
+      "url": "https://bdccl.gov.bd/site/page/67840a7f-f0b4-49e3-be1c-5c9c6e7e5e4e/BDCCL-at-a-glance"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bd-1",
+      "title": "National AI Policy Bangladesh 2026-2030 (Draft v2.0)",
+      "publisher": "ICT Division, Government of Bangladesh",
+      "url": "https://aipolicy.gov.bd/docs/national-ai-policy-bangladesh-2026-2030-draft-v2.0.pdf",
+      "date": "2026-02-09",
+      "category": "government"
+    },
+    {
+      "id": "bd-2",
+      "title": "Bangladesh's AI Moment: Testing the Implementation Gap",
+      "publisher": "Policy Magazine",
+      "url": "https://www.policymagazine.ca/bangladeshs-ai-moment-testing-the-implementation-gap/",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "bd-3",
+      "title": "National Artificial Intelligence Policy 2024 (Draft)",
+      "publisher": "ICT Division, Government of Bangladesh",
+      "url": "https://ictd.portal.gov.bd/sites/default/files/files/ictd.portal.gov.bd/page/6c9773a2_7556_4395_bbec_f132b9d819f0/Draft%20National_AI_Policy_2024.pdf",
+      "date": "2024-04",
+      "category": "government"
+    },
+    {
+      "id": "bd-4",
+      "title": "An Overview of Bangladesh National Artificial Intelligence Policy 2024",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/law-our-rights/law-vision/news/overview-bangladesh-national-artificial-intelligence-policy-2024-3590351",
+      "date": "2024",
+      "category": "news"
+    },
+    {
+      "id": "bd-5",
+      "title": "Bangladesh's Personal Data Protection Ordinance 2025: key takeaways",
+      "publisher": "The Daily Star",
+      "url": "https://www.thedailystar.net/tech-startup/news/bangladeshs-personal-data-protection-ordinance-2025-key-takeaways-4015401",
+      "date": "2025-11",
+      "category": "news"
+    },
+    {
+      "id": "bd-6",
+      "title": "An Overview of Bangladesh's Personal Data Protection Act, 2026",
+      "publisher": "Securiti",
+      "url": "https://securiti.ai/bangladesh-personal-data-protection-act-overview/",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "bd-7",
+      "title": "AI push lifts outsourcing exports near $1b already in first half",
+      "publisher": "The Business Standard",
+      "url": "https://www.tbsnews.net/tech/how-ai-propels-bangladeshs-bpo-export-over-1b-year-1217741",
+      "date": "2025-07",
+      "category": "news"
+    },
+    {
+      "id": "bd-8",
+      "title": "Bangladesh Data Center Company Limited (BDCCL) — at a glance",
+      "publisher": "Bangladesh Data Center Company Limited",
+      "url": "https://bdccl.gov.bd/site/page/67840a7f-f0b4-49e3-be1c-5c9c6e7e5e4e/BDCCL-at-a-glance",
+      "date": "2025",
+      "category": "government"
+    },
+    {
+      "id": "bd-9",
+      "title": "Bangladesh's first cloud data center starts operations",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/bangladeshs-first-cloud-data-center-starts-operations/",
+      "date": "2021",
+      "category": "news"
+    },
+    {
+      "id": "bd-10",
+      "title": "Reforming AI Laws and Regulation in Bangladesh: Current Harms and Possible Future(s)",
+      "publisher": "Tech Global Institute",
+      "url": "https://techglobalinstitute.com/research/reforming-ai-laws-and-regulation-in-bangladesh-current-harms-and-possible-futures/",
+      "date": "2025",
+      "category": "think_tank"
+    },
+    {
+      "id": "bd-11",
+      "title": "From aspiration to agency: Bangladesh's a2i programme is here to stay",
+      "publisher": "GovInsider",
+      "url": "https://govinsider.asia/intl-en/article/from-aspiration-to-agency-bangladeshs-a2i-programme-is-here-to-stay",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "bd-12",
+      "title": "a2i project: 3 companies got majority of work with dominance of 1 person",
+      "publisher": "Prothom Alo",
+      "url": "https://en.prothomalo.com/bangladesh/a7927pllza",
+      "date": "2024",
+      "category": "news"
+    },
+    {
+      "id": "bd-13",
+      "title": "ICT division working on policy for use of AI in govt offices: Faiz Ahmad Taiyeb",
+      "publisher": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/government-affairs/397422/faiz-ahmad-taiyeb-ict-division-working-on-policy",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "bd-14",
+      "title": "Bangladesh drafting human-centric AI policy: ICT minister",
+      "publisher": "The Financial Express",
+      "url": "https://thefinancialexpress.com.bd/national/bangladesh-drafting-human-centric-ai-policy-ict-minister",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "bd-15",
+      "title": "Tarique Rahman: From 17-year exile to landslide win in Bangladesh election",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/2/14/tarique-rahman-from-17-year-exile-to-landslide-win-in-bangladesh-election",
+      "date": "2026-02-14",
+      "category": "news"
+    },
+    {
+      "id": "bd-16",
+      "title": "Bangladesh proposes four priorities for global AI governance",
+      "publisher": "The Business Standard",
+      "url": "https://www.tbsnews.net/economy/corporates/bangladesh-proposes-four-priorities-global-ai-governance-1491581",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "bd-17",
+      "title": "Personal Data Protection (Amendment) Ordinance, 2026 (Ordinance No. 23 of 2026)",
+      "publisher": "Digital Policy Alert",
+      "url": "https://digitalpolicyalert.org/change/18757-personal-data-protection-amendment-ordinance-2026-ordinance-no-23-of-2026",
+      "date": "2026-02-05",
+      "category": "think_tank"
+    },
+    {
+      "id": "bd-18",
+      "title": "Bangladesh faces hurdles in creating its own ChatGPT-level language model",
+      "publisher": "Epium",
+      "url": "https://epium.com/bangladesh-hurdles-creating-own-chatgpt-level-language-model/",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "bd-19",
+      "title": "BUET CSE NLP Group",
+      "publisher": "Bangladesh University of Engineering and Technology",
+      "url": "https://csebuetnlp.github.io/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "bd-20",
+      "title": "Artificial Intelligence 2024 - Bangladesh: Trends and Developments",
+      "publisher": "Chambers and Partners",
+      "url": "https://practiceguides.chambers.com/practice-guides/artificial-intelligence-2024/bangladesh/trends-and-developments",
+      "date": "2024",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "bd-21",
+      "title": "Cyber Security Ordinance approved with softer penalties, more bailable offences",
+      "publisher": "The Business Standard",
+      "url": "https://www.tbsnews.net/bangladesh/govt-approves-cyber-security-ordinance-2025-repeals-9-sections-previous-law-1135181",
+      "date": "2025-05",
+      "category": "news"
+    }
+  ]
+}

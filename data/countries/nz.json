@@ -1,0 +1,605 @@
+{
+  "code": "nz",
+  "name": "New Zealand",
+  "shortName": "New Zealand",
+  "flagEmoji": "🇳🇿",
+  "geometryType": "polygon",
+  "isoA3": [
+    "NZL"
+  ],
+  "region": "Asia-Pacific",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Principles-based, adoption-first approach relying on existing law and voluntary guidance, not a standalone AI Act",
+  "accentColor": {
+    "light": "#3E6E9E",
+    "dark": "#5C8FC2"
+  },
+  "center": [
+    172.5,
+    -41.0
+  ],
+  "zoom": 4.7,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 7,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Light-touch, adoption-first strategy versus calls for enforceable AI rules",
+    "Māori data sovereignty and Te Tiriti o Waitangi in AI governance",
+    "Governing algorithms without legislation: the Algorithm Charter's soft-law model"
+  ],
+  "overview": "New Zealand appears to have settled, at least for now, on a deliberately light-touch, adoption-first posture towards artificial intelligence. Rather than legislating a dedicated AI statute or standing up a new regulator, successive governments have chosen to lean on existing law — principally the technology-neutral Privacy Act 2020 and its thirteen Information Privacy Principles — supplemented by voluntary guidance and soft-law instruments. That stance was formalised on 8 July 2025 when Minister of Science, Innovation and Technology Dr Shane Reti released 'Investing with Confidence: New Zealand's Strategy for Artificial Intelligence', published by the Ministry of Business, Innovation and Employment (MBIE). Widely reported as making New Zealand the last OECD member to publish a national AI strategy, the document is framed around private-sector adoption of proven AI, alignment with the OECD AI Principles, and an economic upside its authors put at a potential $76–108bn annual contribution by 2038 — figures drawn from Microsoft and Accenture modelling that should be treated as indicative rather than settled.\n\nThe country's distinctive contribution to global practice predates the strategy. In July 2020 the then Minister of Statistics launched the Algorithm Charter for Aotearoa New Zealand — described at the time as a world-first — a voluntary transparency-and-accountability commitment administered by Stats NZ that reportedly drew 27 signatory agencies, more than half of government. An independent review by Taylor Fry in late 2021 found broad support but limited individual recourse and uneven implementation. Alongside this, the Office of the Privacy Commissioner has issued generative-AI guidance (2023), and the Government Chief Digital Officer (within the Department of Internal Affairs) maintains Responsible AI Guidance for the Public Service and a Public Service AI Framework that now sits within the national strategy.\n\nThe approach has not gone uncontested. Commentators, the Privacy Commissioner and — in an August 2026 report — the Human Rights Commission have argued the strategy is long on economic opportunity but comparatively thin on managing ethical, social and Te Tiriti o Waitangi obligations, with Māori data sovereignty advocates such as Te Mana Raraunga pressing for indigenous authority over data used in algorithmic systems. As of mid-2026 New Zealand has no standalone binding AI law, no dedicated AI safety institute and no domestic frontier-model developer; its compute base is modest and reliant on hyperscaler regions such as Microsoft's Azure New Zealand North, which opened in Auckland in December 2024.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Adoption-first and light-touch; no standalone AI law or regulator",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Principles-based; relies on existing law (Privacy Act 2020) plus voluntary guidance rather than a dedicated AI statute or regulator",
+    "latestMajorUpdate": "National AI Strategy 'Investing with Confidence' released 8 July 2025 — an adoption-focused, light-touch approach with no new AI-specific regulator, reportedly making New Zealand the last OECD member to publish such a strategy",
+    "governmentInvolvement": "Moderate — coordinating guidance (MBIE strategy, GCDO public-service framework, OPC privacy guidance, Stats NZ Algorithm Charter) rather than binding regulation",
+    "industrialStrategy": "Adoption over development: encouraging private-sector uptake of proven AI, with no domestic frontier lab; the strategy cites a potential $76–108bn annual economic contribution by 2038 (Microsoft/Accenture modelling)",
+    "internationalPartnerships": "Alignment with the OECD AI Principles; positions itself as a 'trusted AI partner'; hyperscaler ties including Microsoft's Azure New Zealand North region",
+    "primaryPolicyFocus": "Accelerating safe AI adoption across business and the public service while leaning on existing law rather than new AI-specific rules"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "New Zealand's direction as of mid-2026 appears deliberately steady rather than tightening: the government has reaffirmed a light-touch, adoption-first stance and shown little appetite for a dedicated AI Act or regulator, relying instead on existing law and voluntary guidance. Pressure to move in a more precautionary direction is building, however — from the Privacy Commissioner, from academic commentators, and from the Human Rights Commission's August 2026 call for a human-rights- and Te Tiriti-centred approach — so the current equilibrium may not hold."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The Human Rights Commission released a report, 'AI and Digital Technologies: A Human Rights and Te Tiriti o Waitangi Approach', calling for Māori data sovereignty and Te Tiriti o Waitangi to sit at the heart of how AI is governed. Indigenous Rights governance partner Dayle Takitimu argued Māori rights, interests and authority must be respected as AI systems increasingly draw on language, knowledge and data — an implicit critique of the strategy's comparatively light treatment of these obligations.",
+      "date": "2026-08-07",
+      "sourceIds": [
+        "nz-8"
+      ]
+    },
+    {
+      "text": "A government digital wallet reportedly went live in the NZ Government app around the end of March 2026, letting people store and present accredited digital credentials — part of the broader Digitising Government programme (then led by Minister Judith Collins) within which the Public Service AI work programme also sits. This is a digital-identity rather than an AI-specific measure, but is relevant context for the government's data-and-technology direction.",
+      "date": "2026-03-23",
+      "sourceIds": [
+        "nz-17"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "The Government Chief Digital Officer's Public Service AI work programme — reportedly around 15 initiatives across four focus areas, including an AI Marketplace procurement category, an AI-enabled government search assistant and a centralised Public Service AI Hub — was being advanced to drive safe AI uptake across agencies, building on the Responsible AI Guidance for the Public Service updated in February 2025.",
+      "date": "2026-02",
+      "sourceIds": [
+        "nz-6",
+        "nz-7"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Privacy Commissioner Michael Webster reportedly flagged risks in the new AI strategy, raising concerns about the government's 'light touch' approach and asking that his concerns about unforeseen risks — particularly around personal data used to train AI models — be recorded in the relevant Cabinet paper. He cited overseas cautionary cases such as Australia's Robodebt and the UK Post Office Horizon scandal.",
+      "date": "2025-08-11",
+      "sourceIds": [
+        "nz-11"
+      ]
+    },
+    {
+      "text": "Academic and media commentators criticised the strategy as 'long on economic opportunity but short on managing ethical and social risk', with some describing it as 'all hype and no vision' and noting its silence on issues such as deepfakes, algorithmic bias and — per several commentators — Te Tiriti o Waitangi.",
+      "date": "2025-07-29",
+      "sourceIds": [
+        "nz-9",
+        "nz-10"
+      ]
+    },
+    {
+      "text": "Minister of Science, Innovation and Technology Dr Shane Reti released 'Investing with Confidence: New Zealand's Strategy for Artificial Intelligence', published by MBIE alongside voluntary Responsible AI Guidance for businesses. Framed around private-sector adoption and OECD AI Principles alignment, and reported as making New Zealand the last OECD member to publish a national AI strategy, it deliberately avoids creating a new AI-specific law or regulator.",
+      "date": "2025-07-08",
+      "sourceIds": [
+        "nz-1",
+        "nz-2",
+        "nz-18"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "Microsoft opened its Azure New Zealand North cloud region in Auckland, comprising three availability zones and reported to run on 100% renewable electricity via a long-term geothermal supply agreement with Contact Energy — materially expanding in-country cloud capacity and data residency for New Zealand AI workloads.",
+      "date": "2024-12",
+      "sourceIds": [
+        "nz-12"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Investing with Confidence: New Zealand's Strategy for Artificial Intelligence",
+      "status": "in_force",
+      "summary": "New Zealand's first national AI strategy, released 8 July 2025 by MBIE. An adoption-first, principles-based roadmap aligned with the OECD AI Principles that deliberately avoids a dedicated AI statute or regulator, emphasising private-sector uptake, guidance and cross-government coordination. As a strategy document rather than binding legislation, the 'in force' label should be read loosely; a companion Responsible AI Guidance for businesses is explicitly voluntary.",
+      "officialUrl": "https://www.mbie.govt.nz/business-and-employment/economic-growth/digital-policy/new-zealands-ai-strategy-investing-with-confidence",
+      "sourceIds": [
+        "nz-1",
+        "nz-2",
+        "nz-16"
+      ]
+    },
+    {
+      "title": "Algorithm Charter for Aotearoa New Zealand",
+      "status": "in_force",
+      "summary": "A voluntary transparency-and-accountability commitment for government use of algorithms, launched in July 2020 and administered by Stats NZ (data.govt.nz). Reported as a world-first, it drew 27 signatory agencies — said to be more than half of government. An independent review by Taylor Fry, completed in late 2021, found near-universal support but limited individual recourse and uneven implementation, prompting follow-up work by Stats NZ. It is a soft-law instrument, not binding legislation.",
+      "officialUrl": "https://data.govt.nz/toolkit/data-ethics/government-algorithm-transparency-and-accountability/algorithm-charter",
+      "sourceIds": [
+        "nz-3",
+        "nz-4"
+      ]
+    },
+    {
+      "title": "Privacy Act 2020 and Office of the Privacy Commissioner AI guidance",
+      "status": "in_force",
+      "summary": "The Privacy Act 2020 is technology-neutral and applies its thirteen Information Privacy Principles across the AI lifecycle, including generative AI. The Office of the Privacy Commissioner issued initial expectations on AI use in May 2023, expanded in September 2023, recommending privacy impact assessments, human review of outputs, transparency, data minimisation and engagement with Māori. This existing-law reliance is central to New Zealand's decision not to legislate a standalone AI Act.",
+      "officialUrl": "https://www.privacy.org.nz/resources-and-learning/a-z-topics/ai/",
+      "sourceIds": [
+        "nz-5"
+      ]
+    },
+    {
+      "title": "Responsible AI Guidance for the Public Service (GenAI) and Public Service AI Framework",
+      "status": "in_force",
+      "summary": "Guidance led by the Government Chief Digital Officer (within the Department of Internal Affairs) for safe public-service adoption of generative AI. Interim guidance was published in July 2023 and updated in February 2025; the accompanying Public Service AI Framework — built on five OECD-aligned principles and six pillars (governance, guardrails, capability, innovation, social licence, global voice) — now sits within the national AI strategy. It guides rather than binds agencies.",
+      "officialUrl": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/responsible-ai-guidance-for-the-public-service-genai",
+      "sourceIds": [
+        "nz-6",
+        "nz-7"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "New Zealand's AI research is spread across its main universities — the University of Auckland, University of Otago, Victoria University of Wellington and the University of Waikato — with Waikato's Te Ipu o te Mahara (The Artificial Intelligence Institute), launched in April 2021 under director Professor Albert Bifet, reported as the first dedicated AI research institute of its kind in the country. Industry coordination runs largely through the AI Forum New Zealand (founded 2017), while a distinctive strand of governance research and advocacy comes from Māori data-sovereignty bodies such as Te Mana Raraunga, whose work on indigenous data sovereignty, AI and algorithms feeds directly into national debates. The ecosystem is comparatively small and applied, with no domestic frontier-model developer.",
+    "sourceIds": [
+      "nz-14",
+      "nz-15",
+      "nz-13"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Soul Machines",
+      "description": "Auckland-founded company known for AI-driven 'digital people' / autonomous animated avatars combining computer graphics with conversational AI; among New Zealand's most internationally visible AI firms, though its corporate footprint now spans multiple markets.",
+      "url": "https://www.soulmachines.com",
+      "needsVerification": true
+    },
+    {
+      "name": "Halter",
+      "description": "New Zealand agritech company using AI-enabled solar-powered cattle collars for virtual fencing and herd management; frequently cited as a homegrown applied-AI success story rather than a model developer.",
+      "url": "https://halterhq.com",
+      "needsVerification": true
+    },
+    {
+      "name": "Straker",
+      "description": "Auckland-headquartered, NZX-listed language-services company that has increasingly built its translation offering around AI and machine translation.",
+      "url": "https://www.strakertranslations.com",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Opened its Azure New Zealand North region in Auckland in December 2024 (three availability zones), reported to run on 100% renewable electricity via a geothermal supply agreement; a primary platform for in-country New Zealand AI and enterprise workloads.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "AWS",
+        "description": "Announced an Asia Pacific (Auckland) infrastructure region with a large multi-year New Zealand investment commitment; widely used for New Zealand enterprise and startup AI workloads. Exact launch/operational status was not independently re-verified in this pass.",
+        "url": "https://aws.amazon.com",
+        "needsVerification": true
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Hyperscaler serving New Zealand research and enterprise AI workloads, generally via Australian regions and edge presence rather than a confirmed in-country compute region.",
+        "url": "https://cloud.google.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Modest; largely reliant on hyperscaler regions, notably Microsoft's Azure New Zealand North (Auckland), which opened in December 2024",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
+  },
+  "universities": [
+    {
+      "name": "University of Auckland",
+      "description": "New Zealand's largest university, with substantial computer-science and AI research activity and a range of applied-AI and data-science programmes.",
+      "url": "https://www.auckland.ac.nz",
+      "needsVerification": true
+    },
+    {
+      "name": "University of Waikato",
+      "description": "Home of Te Ipu o te Mahara, The Artificial Intelligence Institute (launched April 2021, director Professor Albert Bifet), reported as the first dedicated AI research institute of its kind in New Zealand; long associated with the WEKA machine-learning toolkit.",
+      "url": "https://www.waikato.ac.nz/research/institutes-centres-entities/institutes/artificial-intelligence-institute/"
+    },
+    {
+      "name": "Victoria University of Wellington",
+      "description": "Wellington university with AI and data-science research groups and engagement on technology policy.",
+      "url": "https://www.wgtn.ac.nz",
+      "needsVerification": true
+    },
+    {
+      "name": "University of Otago",
+      "description": "Dunedin-based university active in AI, health-informatics and data-science research.",
+      "url": "https://www.otago.ac.nz",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "AI Forum New Zealand",
+      "description": "Industry association founded in 2017 that convenes businesses, government and researchers on AI, and functions as a de facto policy interlocutor on adoption and governance.",
+      "url": "https://aiforum.org.nz/"
+    },
+    {
+      "name": "Te Mana Raraunga (Māori Data Sovereignty Network)",
+      "description": "Advocacy and research network arguing that Māori should retain authority over the collection, use and governance of Māori data, including where it is used in algorithmic and AI systems; a distinctive voice in New Zealand's AI-governance debate.",
+      "url": "https://www.temanararaunga.maori.nz/indigenous-data-sovereignty-ai-algorithms"
+    },
+    {
+      "name": "Brainbox Institute",
+      "description": "New Zealand research organisation focused on the intersection of digital technologies, law and policy, producing analysis relevant to AI governance and regulation.",
+      "url": "https://www.brainbox.institute",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Business, Innovation and Employment (MBIE)",
+      "description": "Lead agency for the national AI strategy 'Investing with Confidence' and associated business guidance; houses the digital-economy policy function.",
+      "url": "https://www.mbie.govt.nz"
+    },
+    {
+      "name": "Stats NZ",
+      "description": "Administers the Algorithm Charter for Aotearoa New Zealand and hosts data-ethics resources via data.govt.nz; home of the Government Chief Data Steward function.",
+      "url": "https://data.govt.nz/toolkit/data-ethics/government-algorithm-transparency-and-accountability/algorithm-charter"
+    },
+    {
+      "name": "Government Chief Digital Officer (GCDO), Department of Internal Affairs",
+      "description": "Leads safe and trustworthy AI adoption across the public service, maintaining the Responsible AI Guidance for the Public Service (GenAI) and the Public Service AI Framework and work programme.",
+      "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence"
+    },
+    {
+      "name": "Office of the Privacy Commissioner (OPC)",
+      "description": "Independent regulator enforcing the Privacy Act 2020; issued generative-AI guidance in 2023 and has publicly flagged risks in the government's light-touch AI approach. Led by Privacy Commissioner Michael Webster.",
+      "url": "https://www.privacy.org.nz"
+    },
+    {
+      "name": "Human Rights Commission",
+      "description": "Statutory body that in August 2026 published a report urging a human-rights- and Te Tiriti o Waitangi-centred approach to AI and digital technologies, including Māori data sovereignty.",
+      "url": "https://www.hrc.co.nz",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Shane Reti",
+      "role": "Minister of Science, Innovation and Technology; released the national AI strategy in July 2025",
+      "affiliation": "New Zealand Government",
+      "category": "government",
+      "url": "https://www.beehive.govt.nz/release/government-ai-strategy-boost-productivity"
+    },
+    {
+      "name": "Michael Webster",
+      "role": "Privacy Commissioner; issued AI/privacy guidance and flagged risks in the government's light-touch approach",
+      "affiliation": "Office of the Privacy Commissioner",
+      "category": "government",
+      "url": "https://www.privacy.org.nz"
+    },
+    {
+      "name": "Judith Collins",
+      "role": "Minister for Digitising Government until April 2026; oversaw public-service digital and AI-adjacent programmes",
+      "affiliation": "New Zealand Government",
+      "category": "government",
+      "url": "https://www.beehive.govt.nz/portfolio/nationalactnew-zealand-first-coalition-government-2023-2026/digitising-government",
+      "needsVerification": true
+    },
+    {
+      "name": "Albert Bifet",
+      "role": "Director of Te Ipu o te Mahara, The Artificial Intelligence Institute",
+      "affiliation": "University of Waikato",
+      "category": "researcher",
+      "url": "https://www.waikato.ac.nz/research/institutes-centres-entities/institutes/artificial-intelligence-institute/"
+    },
+    {
+      "name": "Dayle Takitimu",
+      "role": "Indigenous Rights governance partner; led the August 2026 report urging a Te Tiriti-based approach to AI",
+      "affiliation": "Human Rights Commission",
+      "category": "advisor",
+      "url": "https://www.rnz.co.nz/news/te-ao-maori/916383/human-rights-commission-calls-for-human-rights-centred-te-tiriti-based-approach-to-ai",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Office of the Privacy Commissioner",
+      "type": "organization",
+      "role": "New Zealand's privacy regulator; publishes AI guidance and commentary and is a leading cautionary voice on AI risk",
+      "category": "government",
+      "url": "https://www.privacy.org.nz"
+    },
+    {
+      "name": "AI Forum New Zealand",
+      "type": "organization",
+      "role": "Industry body convening businesses, researchers and government on AI adoption and policy",
+      "category": "think_tank",
+      "url": "https://aiforum.org.nz/"
+    },
+    {
+      "name": "Te Mana Raraunga",
+      "type": "organization",
+      "role": "Māori Data Sovereignty Network shaping debate on indigenous authority over data used in AI systems",
+      "category": "think_tank",
+      "url": "https://www.temanararaunga.maori.nz/"
+    },
+    {
+      "name": "Marc Daalder",
+      "type": "person",
+      "role": "Journalist covering New Zealand technology, AI and misinformation policy",
+      "category": "journalist",
+      "url": "https://newsroom.co.nz",
+      "needsVerification": true
+    },
+    {
+      "name": "Albert Bifet",
+      "type": "person",
+      "role": "Director of the University of Waikato's AI Institute; machine-learning researcher",
+      "category": "university",
+      "url": "https://www.waikato.ac.nz/research/institutes-centres-entities/institutes/artificial-intelligence-institute/"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "MBIE",
+      "type": "government"
+    },
+    {
+      "label": "Government Chief Digital Officer (DIA)",
+      "type": "agency"
+    },
+    {
+      "label": "Office of the Privacy Commissioner",
+      "type": "agency"
+    },
+    {
+      "label": "AI Forum New Zealand",
+      "type": "think_tank"
+    },
+    {
+      "label": "University of Waikato AI Institute",
+      "type": "research"
+    },
+    {
+      "label": "Microsoft (Azure New Zealand North)",
+      "type": "company"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "Standalone AI law and regulator",
+      "note": "As of mid-2026 New Zealand has no dedicated, binding AI statute and no AI-specific regulator. Governance is distributed across the MBIE strategy, GCDO public-service guidance, the OPC's application of the Privacy Act 2020 and the voluntary Algorithm Charter — a deliberate choice, but one critics argue leaves gaps around deepfakes, algorithmic bias and independent assurance."
+    },
+    {
+      "area": "Frontier-model developers",
+      "note": "No frontier or near-frontier foundation-model developer is headquartered in New Zealand; the domestic industry is concentrated in applied AI (agritech, digital humans, translation, public-sector adoption) rather than model development."
+    },
+    {
+      "area": "Dedicated AI safety institute",
+      "note": "New Zealand has no government AI safety institute comparable to the UK's AI Security Institute; safety and assurance work is handled within existing agencies and the public-service AI framework, and an AI assurance regime is described as still under development."
+    },
+    {
+      "area": "Domestic compute and cloud market share",
+      "note": "Domestic AI compute is modest and reliant on hyperscaler regions (notably Azure New Zealand North). No reliable, independently-corroborated cloud market-share breakdown for New Zealand could be verified in this pass, so dominance figures are left unpopulated."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Light-touch, adoption-first strategy versus calls for enforceable AI rules",
+      "category": "government",
+      "summary": "The government's 'Investing with Confidence' strategy deliberately avoids a dedicated AI law or regulator, prioritising adoption and existing law — a stance praised by some in industry as pragmatic and criticised by others as under-protective.",
+      "expanded": "Law firms and business commentators have generally welcomed the 'light touch' approach as reducing compliance friction and encouraging investment. Against this, academic commentators described the strategy as 'long on economic opportunity but short on managing ethical and social risk' — even 'all hype and no vision' — noting its silence on deepfakes, algorithmic bias and, per several critics, Te Tiriti o Waitangi. Privacy Commissioner Michael Webster reportedly asked that his concerns about unforeseen risks be recorded in the relevant Cabinet paper, citing overseas cautionary cases. Whether existing law plus voluntary guidance is sufficient, or whether New Zealand will eventually need enforceable cross-sector rules and an assurance regime, remains the central open question.",
+      "sourceIds": [
+        "nz-9",
+        "nz-10",
+        "nz-11",
+        "nz-16"
+      ]
+    },
+    {
+      "topic": "Māori data sovereignty and Te Tiriti o Waitangi in AI governance",
+      "category": "government",
+      "summary": "Māori data-sovereignty advocates and the Human Rights Commission argue that AI governance must honour Te Tiriti o Waitangi and recognise Māori authority over data used in algorithmic systems — a dimension critics say the national strategy underweights.",
+      "expanded": "Te Mana Raraunga, the Māori Data Sovereignty Network, has long argued that Māori should retain authority over the collection, use and governance of Māori data, including where it is drawn into AI and algorithmic systems; related bodies have produced Māori data-governance and AI-governance frameworks. In August 2026 the Human Rights Commission published a report calling for a human-rights- and Te Tiriti-centred approach, with Indigenous Rights governance partner Dayle Takitimu warning that Māori rights, interests and authority must be respected as AI increasingly draws on language, knowledge and data. Commentators have noted that the 2025 national strategy makes comparatively little reference to Te Tiriti, sharpening this debate.",
+      "sourceIds": [
+        "nz-8",
+        "nz-13"
+      ]
+    },
+    {
+      "topic": "Governing algorithms without legislation: the Algorithm Charter's soft-law model",
+      "category": "government",
+      "summary": "New Zealand's Algorithm Charter is an early, internationally-noted attempt to govern government algorithm use through a voluntary commitment rather than legislation, prompting ongoing debate about whether soft law delivers real accountability.",
+      "expanded": "Launched in 2020 and administered by Stats NZ, the charter commits signatory agencies to transparency and accountability principles but carries no binding enforcement. An independent Taylor Fry review in 2021 found broad support yet limited individual recourse for people affected by algorithmic decisions and uneven implementation across agencies. Supporters view it as a pragmatic, iterable model that shaped later public-service AI guidance; sceptics question whether a voluntary charter can substitute for enforceable rights and independent oversight — a tension that now runs through the wider debate over the country's light-touch AI posture.",
+      "sourceIds": [
+        "nz-3",
+        "nz-4"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Investing with Confidence: New Zealand's Strategy for Artificial Intelligence",
+      "type": "government",
+      "author": "MBIE",
+      "url": "https://www.mbie.govt.nz/business-and-employment/economic-growth/digital-policy/new-zealands-ai-strategy-investing-with-confidence"
+    },
+    {
+      "title": "Algorithm Charter for Aotearoa New Zealand",
+      "type": "government",
+      "author": "Stats NZ / data.govt.nz",
+      "url": "https://data.govt.nz/toolkit/data-ethics/government-algorithm-transparency-and-accountability/algorithm-charter"
+    },
+    {
+      "title": "Artificial Intelligence and the Information Privacy Principles",
+      "type": "government",
+      "author": "Office of the Privacy Commissioner",
+      "url": "https://www.privacy.org.nz/resources-and-learning/a-z-topics/ai/"
+    },
+    {
+      "title": "NZ's new AI strategy is long on 'economic opportunity' but short on managing ethical and social risk",
+      "type": "academic",
+      "author": "The Conversation / RNZ",
+      "url": "https://www.rnz.co.nz/news/national/566754/nz-s-new-ai-strategy-is-long-on-economic-opportunity-but-short-on-managing-ethical-and-social-risk"
+    },
+    {
+      "title": "Indigenous Data Sovereignty, AI & Algorithms",
+      "type": "think_tank",
+      "author": "Te Mana Raraunga",
+      "url": "https://www.temanararaunga.maori.nz/indigenous-data-sovereignty-ai-algorithms"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nz-1",
+      "title": "New Zealand's AI Strategy: Investing with confidence",
+      "publisher": "Ministry of Business, Innovation & Employment",
+      "url": "https://www.mbie.govt.nz/business-and-employment/economic-growth/digital-policy/new-zealands-ai-strategy-investing-with-confidence",
+      "date": "2025-07",
+      "category": "government"
+    },
+    {
+      "id": "nz-2",
+      "title": "Government AI Strategy to boost productivity",
+      "publisher": "Beehive.govt.nz (New Zealand Government)",
+      "url": "https://www.beehive.govt.nz/release/government-ai-strategy-boost-productivity",
+      "date": "2025-07",
+      "category": "government"
+    },
+    {
+      "id": "nz-3",
+      "title": "Algorithm charter for Aotearoa New Zealand",
+      "publisher": "data.govt.nz (Stats NZ)",
+      "url": "https://data.govt.nz/toolkit/data-ethics/government-algorithm-transparency-and-accountability/algorithm-charter",
+      "date": "2020-07",
+      "category": "government"
+    },
+    {
+      "id": "nz-4",
+      "title": "Government's algorithm charter 'okay, could do better' - review",
+      "publisher": "RNZ",
+      "url": "https://www.rnz.co.nz/news/national/475011/government-s-algorithm-charter-okay-could-do-better-review",
+      "date": "2022-02",
+      "category": "news"
+    },
+    {
+      "id": "nz-5",
+      "title": "Artificial Intelligence and the Information Privacy Principles",
+      "publisher": "Office of the Privacy Commissioner",
+      "url": "https://www.privacy.org.nz/resources-and-learning/a-z-topics/ai/",
+      "date": "2023-09",
+      "category": "government"
+    },
+    {
+      "id": "nz-6",
+      "title": "Responsible AI Guidance for the Public Service: GenAI",
+      "publisher": "NZ Digital government (GCDO / Department of Internal Affairs)",
+      "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/responsible-ai-guidance-for-the-public-service-genai",
+      "date": "2025-02",
+      "category": "government"
+    },
+    {
+      "id": "nz-7",
+      "title": "Public Service AI Work Programme",
+      "publisher": "NZ Digital government",
+      "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-work-programme",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "nz-8",
+      "title": "Human Rights Commission calls for human rights-centred, Te Tiriti-based approach to AI",
+      "publisher": "RNZ",
+      "url": "https://www.rnz.co.nz/news/te-ao-maori/916383/human-rights-commission-calls-for-human-rights-centred-te-tiriti-based-approach-to-ai",
+      "date": "2026-08-07",
+      "category": "news"
+    },
+    {
+      "id": "nz-9",
+      "title": "Govt's AI strategy is all hype and no vision",
+      "publisher": "Newsroom",
+      "url": "https://newsroom.co.nz/2025/07/29/govts-ai-strategy-is-all-hype-and-no-vision/",
+      "date": "2025-07-29",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "nz-10",
+      "title": "NZ's new AI strategy is long on 'economic opportunity' but short on managing ethical and social risk",
+      "publisher": "The Conversation / RNZ",
+      "url": "https://www.rnz.co.nz/news/national/566754/nz-s-new-ai-strategy-is-long-on-economic-opportunity-but-short-on-managing-ethical-and-social-risk",
+      "date": "2025-07",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "nz-11",
+      "title": "Privacy commissioner flags risks in new AI strategy",
+      "publisher": "Newsroom",
+      "url": "https://newsroom.co.nz/2025/08/11/privacy-commissioner-flagged-risks-in-new-ai-strategy/",
+      "date": "2025-08-11",
+      "category": "news"
+    },
+    {
+      "id": "nz-12",
+      "title": "Microsoft NZ Datacenter Region",
+      "publisher": "Microsoft",
+      "url": "https://news.microsoft.com/aotearoa-datacenter/",
+      "date": "2024-12",
+      "category": "industry"
+    },
+    {
+      "id": "nz-13",
+      "title": "Indigenous Data Sovereignty, AI & Algorithms",
+      "publisher": "Te Mana Raraunga",
+      "url": "https://www.temanararaunga.maori.nz/indigenous-data-sovereignty-ai-algorithms",
+      "date": "2026",
+      "category": "think_tank"
+    },
+    {
+      "id": "nz-14",
+      "title": "Te Ipu o Te Mahara — Artificial Intelligence Institute",
+      "publisher": "University of Waikato",
+      "url": "https://www.waikato.ac.nz/research/institutes-centres-entities/institutes/artificial-intelligence-institute/",
+      "date": "2021-04",
+      "category": "research"
+    },
+    {
+      "id": "nz-15",
+      "title": "AI Forum New Zealand",
+      "publisher": "AI Forum New Zealand",
+      "url": "https://aiforum.org.nz/",
+      "date": "2026",
+      "category": "industry"
+    },
+    {
+      "id": "nz-16",
+      "title": "NZ's AI strategy: 'light touch' regulation and opportunities for businesses",
+      "publisher": "Bell Gully",
+      "url": "https://www.bellgully.com/insights/nz-s-ai-strategy-light-touch-regulation-and-opportunities-for-businesses/",
+      "date": "2025-07",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "nz-17",
+      "title": "New digital ID features soon coming to Govt app",
+      "publisher": "1News",
+      "url": "https://www.1news.co.nz/2026/03/23/new-digital-id-features-soon-coming-to-govt-app/",
+      "date": "2026-03-23",
+      "category": "news"
+    },
+    {
+      "id": "nz-18",
+      "title": "New Zealand launches its first national AI strategy",
+      "publisher": "Global Government Forum",
+      "url": "https://www.globalgovernmentforum.com/new-zealand-launches-its-first-national-ai-strategy/",
+      "date": "2025-07",
+      "category": "news"
+    }
+  ]
+}

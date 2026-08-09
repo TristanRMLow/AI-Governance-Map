@@ -11,8 +11,8 @@
   "accentColor": { "light": "#504483", "dark": "#7061AE" },
   "center": [108.0, 14.5],
   "zoom": 4.5,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 8,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 9,
   "hasMajorUpdate": true,
   "debateTopics": [
     "AI-driven job displacement in Vietnam's IT workforce vs. talent shortages",
@@ -26,7 +26,7 @@
       "sentiment": "amber"
     },
     "regulatoryApproach": "Law No. 134/2025/QH15 on Artificial Intelligence — a binding, three-tier risk-based framework in force since March 1, 2026",
-    "latestMajorUpdate": "Law on Artificial Intelligence (134/2025/QH15) takes effect March 1, 2026",
+    "latestMajorUpdate": "Decree No. 142/2026/ND-CP — the first master implementing decree for the Law on Artificial Intelligence — takes effect May 1, 2026, following the Law itself in force since March 1, 2026",
     "governmentInvolvement": "High and centrally directed — Politburo-level Resolution 57 frames AI as a top national strategic priority, translated into a binding national AI law and coordinated ministry/province implementation plans",
     "industrialStrategy": "Building a 'Make in Vietnam' domestic AI ecosystem (VinAI, FPT, Viettel) alongside large partnerships with Nvidia on R&D centres and AI 'factories', with a stated target of three major data centres and three AI centres by 2030",
     "internationalPartnerships": "December 2024 cooperation agreement with Nvidia on AI R&D and data centres; broader semiconductor-industry ambitions targeting over $100 billion in annual revenue by 2050",
@@ -41,6 +41,12 @@
       "text": "Vietnam features prominently in Nvidia's 'sovereign AI' push: on June 3, 2026 FPT and Viettel are named among a limited group of national partners, with FPT and Nvidia releasing an open, population-scale Vietnamese dataset ('Nemotron-Personas-Vietnam') and Viettel AI building a national legal-sector AI application by fine-tuning Nvidia's Nemotron open models.",
       "date": "2026-06",
       "sourceIds": ["vn-12", "vn-13"]
+    },
+    {
+      "text": "The Government issues Decree No. 142/2026/ND-CP (effective May 1, 2026), the first master implementing decree for the Law on Artificial Intelligence — operationalising the three-tier risk regime with a national AI portal and systems database run by the Ministry of Science and Technology, mandatory labelling of AI-generated media, serious-incident reporting within 72 hours, and transition notices for pre-existing systems within 60 days.",
+      "date": "2026-04-30",
+      "sourceIds": ["vn-16", "vn-17"],
+      "severity": "major"
     },
     {
       "text": "Viettel puts into operation Vietnam's first Nvidia DGX B200 supercomputer (eight Blackwell GPUs) at its technical centre in Hoa Lac, Hanoi, describing it as a step toward sovereign, trusted AI capability and the training of Vietnamese-language models.",
@@ -94,6 +100,13 @@
       "summary": "Vietnam's first standalone AI law, adopted December 10, 2025 and in force since March 1, 2026. Establishes a three-tier risk classification (high/medium/low), pre-market approval and registration for high-risk AI in sectors like finance, healthcare, education, infrastructure and justice, mandatory data-source disclosure and watermarking for generative AI outputs, prohibited uses (e.g. manipulation causing serious harm, exploitation of vulnerable groups), and penalties of up to VND 2 billion for non-compliance.",
       "officialUrl": "https://english.luatvietnam.vn/law-no-134-2025-qh15-dated-december-10-2025-of-the-national-assembly-on-artificial-intelligence-422299-doc1.html",
       "sourceIds": ["vn-5", "vn-6"]
+    },
+    {
+      "title": "Decree No. 142/2026/ND-CP (implementing the Law on Artificial Intelligence)",
+      "status": "in_force",
+      "summary": "Issued April 30, 2026 and in force since May 1, 2026; the first master decree detailing implementation of Law No. 134/2025/QH15. Operationalises the three-tier risk classification, establishes a one-stop national AI portal and a national database of AI systems managed by the Ministry of Science and Technology, mandates labelling of AI-generated media and serious-incident reporting within 72 hours, and required systems already operating before March 1, 2026 to file a transition notice within 60 days.",
+      "officialUrl": "https://thuvienphapluat.vn/van-ban/EN/Cong-nghe-thong-tin/Decree-142-2026-ND-CP-elaboration-on-Law-on-Artificial-Intelligence/707219/tieng-anh.aspx",
+      "sourceIds": ["vn-16", "vn-17"]
     },
     {
       "title": "Law on Digital Technology Industry (No. 71/2025/QH15)",
@@ -383,6 +396,22 @@
       "url": "https://www.vietnam-briefing.com/news/vietnam-passes-first-ever-law-on-digital-technology-industry.html/",
       "date": "2025",
       "category": "news"
+    },
+    {
+      "id": "vn-16",
+      "title": "Decree 142/2026/ND-CP elaboration on Law on Artificial Intelligence",
+      "publisher": "Thu Vien Phap Luat",
+      "url": "https://thuvienphapluat.vn/van-ban/EN/Cong-nghe-thong-tin/Decree-142-2026-ND-CP-elaboration-on-Law-on-Artificial-Intelligence/707219/tieng-anh.aspx",
+      "date": "2026-04-30",
+      "category": "government"
+    },
+    {
+      "id": "vn-17",
+      "title": "Vietnam Takes Major Step in AI Governance with New Guiding Decree",
+      "publisher": "Tilleke & Gibbins",
+      "url": "https://www.tilleke.com/insights/vietnam-takes-major-step-in-ai-governance-with-new-guiding-decree/",
+      "date": "2026-05",
+      "category": "expert_commentary"
     }
   ]
 }

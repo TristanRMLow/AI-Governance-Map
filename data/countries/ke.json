@@ -11,8 +11,8 @@
   "accentColor": { "light": "#83447B", "dark": "#AE61A3" },
   "center": [37.9, 0.2],
   "zoom": 5.5,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 8,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Kenyan content moderators' and data annotators' court battles with Meta and Sama over AI-related labour conditions",
@@ -36,6 +36,11 @@
     "summary": "Kenya's direction in 2026 has been toward more formal, centralized AI oversight: the Artificial Intelligence Bill, 2026 proposes a new Office of the AI Commissioner with inspection, investigation and registry powers, and the ministry's parallel AI and Emerging Technologies Policy consultation (running into August 2026) signals continued momentum. At the same time, unresolved litigation over Meta- and Sama-linked content moderation and data-labelling work continues to shape international scrutiny of Kenya's AI-adjacent labour practices, a dimension largely separate from the formal legislative track."
   },
   "recentDevelopments": [
+    {
+      "text": "Reporting notes that the draft Kenya AI and Other Emerging Technologies Policy — whose public-participation window closed on 4 August 2026 — includes proposed occupational-protection standards for AI data workers, covering minimum pay, access to mental-healthcare support and safeguards against exposure to harmful content, a nod to Kenya's prominence as a data-labelling and content-moderation hub.",
+      "date": "2026-07-28",
+      "sourceIds": ["ke-6", "ke-12"]
+    },
     {
       "text": "Ministry of Information, Communications and the Digital Economy opens public participation on the draft Kenya Artificial Intelligence and Other Emerging Technologies Policy, with written submissions due by August 4, 2026.",
       "date": "2026-07-21",
@@ -352,6 +357,14 @@
       "publisher": "Data Center Dynamics",
       "url": "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-to-build-geothermal-powered-data-center-in-kenya/",
       "date": "2025-05",
+      "category": "news"
+    },
+    {
+      "id": "ke-12",
+      "title": "Kenya drafts new rules to protect AI data workers",
+      "publisher": "Outsource Accelerator",
+      "url": "https://news.outsourceaccelerator.com/kenya-ai-data-workers/",
+      "date": "2026-07",
       "category": "news"
     }
   ]

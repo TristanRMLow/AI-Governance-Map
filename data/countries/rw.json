@@ -11,8 +11,8 @@
   "accentColor": { "light": "#834465", "dark": "#AE6188" },
   "center": [29.9, -1.9],
   "zoom": 7.5,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 7,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Whether a heavily state-directed AI push is compatible with Rwanda's weak checks on digital surveillance",
@@ -36,6 +36,16 @@
     "summary": "Rwanda has moved from a non-binding 2023 policy toward institution-building, with the June 2026 Cabinet approval of a National AI Agency representing a step toward a more formal governance structure, though it remains focused on coordinating adoption and industrial strategy rather than imposing binding rules on AI systems themselves. How the new Agency's mandate will interact with existing bodies such as RURA and MINICT's AI Office has not been fully clarified in public reporting."
   },
   "recentDevelopments": [
+    {
+      "text": "At COMESA regional consultations in Kigali, Rwanda's Ministry of ICT and Innovation showcases progress implementing its National AI Policy as the bloc gathers member states to shape a regional AI strategy, model policy guidelines and regulatory frameworks covering data governance, cybersecurity, ethics and digital skills.",
+      "date": "2026-08-03",
+      "sourceIds": ["rw-15"]
+    },
+    {
+      "text": "Rwanda's Cabinet approves establishment of the Rwanda Institute of Computing (RIC) under the University of Rwanda, offering advanced degrees in artificial intelligence and cybersecurity and building on the Rwanda Coding Academy, with operations expected to begin in September 2026.",
+      "date": "2026-07-24",
+      "sourceIds": ["rw-16"]
+    },
     {
       "text": "Rwanda's Cabinet, chaired by President Paul Kagame, approves creation of a National Artificial Intelligence Agency — described as the country's first dedicated AI institution, with a mandate covering AI deployment, governance, research, skills, ethics and industry growth.",
       "date": "2026-06-08",
@@ -330,6 +340,22 @@
       "publisher": "allAfrica",
       "url": "https://allafrica.com/stories/202606020228.html",
       "date": "2026-06-02",
+      "category": "news"
+    },
+    {
+      "id": "rw-15",
+      "title": "Rwanda highlights AI policy progress as COMESA seeks regional framework",
+      "publisher": "Rwanda Inspirer",
+      "url": "https://rwandainspirer.com/rwanda-highlights-ai-policy-progress-as-comesa-seeks-regional-framework/",
+      "date": "2026-08-04",
+      "category": "news"
+    },
+    {
+      "id": "rw-16",
+      "title": "University of Rwanda Launches AI Degree Program",
+      "publisher": "KT Press",
+      "url": "https://www.ktpress.rw/2026/07/university-of-rwanda-launches-ai-degree-program/",
+      "date": "2026-07-24",
       "category": "news"
     }
   ]

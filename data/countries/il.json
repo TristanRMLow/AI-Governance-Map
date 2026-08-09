@@ -19,8 +19,8 @@
     31.0
   ],
   "zoom": 6.8,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "AI21 Labs' decline and what it signals about the Israeli AI startup boom",
     "Israel's principle-based approach without a binding AI law as models scale",
@@ -44,6 +44,14 @@
     "summary": "Israel continues layering non-binding, sectoral AI guidance through MIST with a newly approved national compute strategy: in June 2026 the government approved a National AI Program for 2027–2032, led by a new National AI Directorate in the Prime Minister's Office and reportedly targeting roughly 100,000 processing units and $20–30B in compute investment. How this expanded, infrastructure-focused strategy will interact with MIST's existing 'Responsible Innovation' framework, and whether Israel eventually moves toward binding AI-specific rules, remains to be seen."
   },
   "recentDevelopments": [
+    {
+      "text": "Israel's National AI Directorate — the new Prime Minister's Office body, reported to be headed by Brig.-Gen. (res.) Erez Askal — announces 'Project Nexus', a tender to establish a locally produced national quantum-computing platform, alongside a Request for Information on a national 'Physical AI' testing ground, framed as early implementation of the sovereign-AI strategy under the June 2026 National AI Program (2027-2032).",
+      "date": "2026-08-05",
+      "sourceIds": [
+        "il-11",
+        "il-12"
+      ]
+    },
     {
       "text": "NVIDIA deepens its Israeli chip-design and AI-infrastructure R&D footprint: it moved into an expanded Be'er Sheva R&D centre (reported to roughly triple its footprint, with hundreds of planned hires) and unveiled plans for a multibillion-shekel campus in the northern town of Kiryat Tivon — part of a reported ~$1.5B expansion — reinforcing Israel's role in advanced networking and data-centre silicon design even without a domestic frontier lab.",
       "date": "2026",
@@ -339,6 +347,22 @@
       "publisher": "The Tech Capital",
       "url": "https://thetechcapital.com/nvidia-plans-1-5-billion-israel-expansion-with-new-rd-campus-and-advanced-data-centre/",
       "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "il-11",
+      "title": "Israel Launches National Quantum Computer Tender as Part of Broader AI Sovereignty Strategy",
+      "publisher": "The Quantum Insider",
+      "url": "https://thequantuminsider.com/2026/08/05/israel-launches-national-quantum-computer-tender-as-part-of-broader-ai-sovereignty-strategy/",
+      "date": "2026-08-05",
+      "category": "news"
+    },
+    {
+      "id": "il-12",
+      "title": "National AI Directorate announces 'Project Nexus' to develop, build quantum computer in Israel",
+      "publisher": "The Jerusalem Post",
+      "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-904774",
+      "date": "2026-08",
       "category": "news"
     },
     {

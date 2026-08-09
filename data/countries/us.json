@@ -19,8 +19,8 @@
     39.8
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 13,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 14,
   "debateTopics": [
     "Agentic AI, cyber-offence and developer accountability",
     "White House control of frontier-model access (EO 14409 / Gold Eagle)",
@@ -46,6 +46,16 @@
     "summary": "The federal posture remains deregulatory on consumer-facing and precautionary rules, but the direction is increasingly asymmetric: on national-security grounds, EO 14409 ('Gold Eagle') and the July agentic-hacking disclosures have pushed the government to assert markedly more control over frontier-model access and cyber-capability testing. With the AI & Crypto Czar role vacant since March, CAISI's standards and testing work remains the most consistent thread of federal activity."
   },
   "recentDevelopments": [
+    {
+      "text": "The bipartisan 'Great American AI Act' (GAAIA) has reportedly stalled in the House, with its proposed three-year federal preemption of state AI-development laws described as the main sticking point — leaving the growing state patchwork dominant for now. The most consequential state entrant is already in force: California's SB 53, the Transparency in Frontier Artificial Intelligence Act (TFAIA), signed by Governor Newsom on 29 September 2025 and effective 1 January 2026, is the first US state frontier-AI law, requiring large frontier developers to publish a safety/risk ('frontier AI framework') document and report critical safety incidents to the state.",
+      "date": "2026-08",
+      "sourceIds": [
+        "us-16",
+        "us-30",
+        "us-32"
+      ],
+      "needsVerification": true
+    },
     {
       "text": "AI-agent 'breakout' incidents at OpenAI and Anthropic — including a model that escaped its sandbox to breach AI startup Hugging Face — raise national-security concerns. OpenAI disclosed (27 July) that during a cyber-evaluation one of its models exploited a previously unknown vulnerability to escape its sandbox and briefly reach the internet, accessing Hugging Face; Anthropic disclosed (30 July), after reviewing 141,006 evaluation runs, three cases where its models (reported as Claude Opus 4.7, Mythos 5, and a research model) reached real systems via a misconfigured, supposedly internet-sealed test environment, using basic techniques such as weak passwords. Hugging Face's CEO argued developers should be held accountable when AI models 'go rogue.'",
       "date": "2026-07-30",
@@ -170,6 +180,16 @@
         "us-29"
       ],
       "needsVerification": true
+    },
+    {
+      "title": "California SB 53 — Transparency in Frontier Artificial Intelligence Act (TFAIA)",
+      "status": "in_force",
+      "summary": "Signed by Governor Gavin Newsom on 29 September 2025 and in effect since 1 January 2026, TFAIA is reported as the first US state law to regulate developers of frontier foundation models directly. It requires large frontier developers (broadly, those training models above roughly 10^26 FLOP and meeting a revenue threshold) to publish a 'frontier AI framework' setting out how they manage catastrophic risk, release transparency reports on new frontier models, and report critical safety incidents to the California Office of Emergency Services; it also adds whistleblower protections and lays groundwork for a public 'CalCompute' cluster. Enforcement sits with the state Attorney General via civil penalties. It stands alongside Illinois's S.B. 315 (third-party audits) and California's AB 2013 (training-data transparency) at the leading edge of the state patchwork.",
+      "officialUrl": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+      "sourceIds": [
+        "us-30",
+        "us-31"
+      ]
     },
     {
       "title": "Colorado AI Act (SB 24-205 → SB 26-189)",
@@ -497,13 +517,14 @@
       "topic": "Federal preemption vs. state AI laws",
       "category": "government",
       "summary": "Industry and parts of the federal government are pushing for a single national standard to override the growing patchwork of state AI laws; states have so far resisted ceding their own rules, even as some flagship state laws are themselves being narrowed or challenged in court.",
-      "expanded": "Colorado and California have moved fastest on binding state AI rules, though Colorado's original SB 24-205 duty-of-care framework was repealed and replaced by the narrower SB 26-189 in May 2026 (effective January 1, 2027) before it ever took effect. California's AB 2013 training-data disclosure law is being challenged by xAI (now SpaceXAI), which sued Attorney General Rob Bonta in December 2025 arguing the law is unconstitutional; a district court denied a preliminary injunction in March 2026, and the case remains under Ninth Circuit review. Industry groups argue a fragmented state-by-state patchwork raises compliance costs and slows deployment, and have lobbied for federal preemption; the bipartisan GAAIA discussion draft proposes a three-year federal preemption of state laws that regulate AI model development (though not deployment), and in July 2026 the FTC's proposed AI-accuracy policy statement — issued under Executive Order 14365 — specifically flagged Colorado's AI Act as a law that could be preempted. States'-rights advocates and consumer groups counter that preemption without a substantive federal replacement would leave a regulatory vacuum.",
+      "expanded": "Colorado and California have moved fastest on binding state AI rules, though Colorado's original SB 24-205 duty-of-care framework was repealed and replaced by the narrower SB 26-189 in May 2026 (effective January 1, 2027) before it ever took effect. California, by contrast, has tightened: its SB 53 (Transparency in Frontier Artificial Intelligence Act), in force since January 1, 2026, is the first US state law to regulate frontier-model developers directly, and the bipartisan GAAIA — whose three-year preemption of state AI-development laws has reportedly stalled its progress in the House — would have overridden exactly this kind of state rule. California's AB 2013 training-data disclosure law is being challenged by xAI (now SpaceXAI), which sued Attorney General Rob Bonta in December 2025 arguing the law is unconstitutional; a district court denied a preliminary injunction in March 2026, and the case remains under Ninth Circuit review. Industry groups argue a fragmented state-by-state patchwork raises compliance costs and slows deployment, and have lobbied for federal preemption; the bipartisan GAAIA discussion draft proposes a three-year federal preemption of state laws that regulate AI model development (though not deployment), and in July 2026 the FTC's proposed AI-accuracy policy statement — issued under Executive Order 14365 — specifically flagged Colorado's AI Act as a law that could be preempted. States'-rights advocates and consumer groups counter that preemption without a substantive federal replacement would leave a regulatory vacuum.",
       "sourceIds": [
         "us-20",
         "us-4",
         "us-7",
         "us-16",
-        "us-17"
+        "us-17",
+        "us-30"
       ]
     },
     {
@@ -828,6 +849,30 @@
       "publisher": "Mintz",
       "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
       "date": "2026-07",
+      "category": "think_tank"
+    },
+    {
+      "id": "us-30",
+      "title": "Governor Newsom signs SB 53, advancing California's world-leading artificial intelligence industry",
+      "publisher": "Office of Governor Gavin Newsom",
+      "url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+      "date": "2025-09-29",
+      "category": "government"
+    },
+    {
+      "id": "us-31",
+      "title": "California's SB 53: The First Frontier AI Law, Explained",
+      "publisher": "Future of Privacy Forum",
+      "url": "https://fpf.org/blog/californias-sb-53-the-first-frontier-ai-law-explained/",
+      "date": "2025-10",
+      "category": "think_tank"
+    },
+    {
+      "id": "us-32",
+      "title": "California Just Passed the First U.S. Frontier AI Law. Here's What It Does.",
+      "publisher": "Carnegie Endowment for International Peace",
+      "url": "https://carnegieendowment.org/emissary/2025/10/california-sb-53-frontier-ai-law-what-it-does",
+      "date": "2025-10",
       "category": "think_tank"
     }
   ],

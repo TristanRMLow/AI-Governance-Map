@@ -11,8 +11,8 @@
   "accentColor": { "light": "#837F44", "dark": "#AEA861" },
   "center": [39.5, 8.6],
   "zoom": 4.9,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 4,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 5,
   "hasMajorUpdate": false,
   "debateTopics": [
     "Whether Ethiopia's AI ambitions can be reconciled with severe capacity gaps in data infrastructure and skilled personnel",
@@ -36,6 +36,11 @@
     "summary": "Ethiopia continues to build out AI institutions and applied projects under EAII following the 2024 National AI Policy, with the March 2026 Council of Ministers approval of a dedicated Medemer Artificial Intelligence University representing a further institutional step. Ethiopia's approach remains oriented toward capacity-building and government-directed applied use-cases rather than binding regulation of AI systems, and the policy's own stated gaps in infrastructure, skills and data governance appear only partly addressed as of mid-2026."
   },
   "recentDevelopments": [
+    {
+      "text": "Former UK prime minister Tony Blair visits the Ethiopian Artificial Intelligence Institute; his Tony Blair Institute for Global Change and EAII agree to collaborate on AI-driven public-service reform, capacity building and deploying AI across Ethiopian government services.",
+      "date": "2026-07-23",
+      "sourceIds": ["et-13"]
+    },
     {
       "text": "EAII frames a digital-sovereignty drive under Digital Ethiopia 2030, describing plans for a sovereign cloud data centre, a national data lakehouse and an indigenous large language model trained in Amharic, Afan Oromo, Tigrinya and Somali; reporting also references an enlarged EAII budget (around 1.13 billion birr). These remain stated ambitions rather than delivered systems as of mid-2026.",
       "date": "2026-06",
@@ -291,6 +296,14 @@
       "publisher": "Ethiopian News Agency (ENA)",
       "url": "https://www.ena.et/web/eng/w/eng_7719425",
       "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "et-13",
+      "title": "Ethiopia: Tony Blair Backs AI-Driven Public Service Reform During Visit to Ethiopia's AI Institute",
+      "publisher": "allAfrica",
+      "url": "https://allafrica.com/stories/202607240116.html",
+      "date": "2026-07-23",
       "category": "news"
     }
   ]

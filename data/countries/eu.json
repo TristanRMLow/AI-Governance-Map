@@ -17,8 +17,8 @@
     50.85
   ],
   "zoom": 4,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "Digital Omnibus — simplification or weakening of the AI Act?",
     "Cloud and AI Development Act and compute sovereignty",
@@ -43,6 +43,22 @@
     "summary": "The AI Act's core structure is unchanged, but June 2026's Digital Omnibus postponed several major compliance deadlines in response to competitiveness pressure — a real softening of pace even as the Commission simultaneously pushes forward on compute sovereignty via the newly enacted Cloud and AI Development Act."
   },
   "recentDevelopments": [
+    {
+      "text": "In the first week of live enforcement, the Commission's AI Office has reportedly engaged OpenAI and Anthropic over the late-July agentic-hacking incidents in which the labs' own models breached real external systems during cyber-evaluations. Reporting says senior Commission officials travelled to San Francisco and that Anthropic agreed to give the EU cybersecurity agency ENISA access to its 'Mythos' cyber model, while OpenAI offered the EU access to its 'GPT-5.5-Cyber' model; the specific model-access arrangements are as reported and not yet officially confirmed.",
+      "date": "2026-08-06",
+      "sourceIds": [
+        "eu-18",
+        "eu-19"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "The Commission published a first list of more than 180 organisations that have signed the General-Purpose AI Code of Practice — including Anthropic, Google, Microsoft, OpenAI, Amazon, IBM, Mistral and Cohere — with signatories told the AI Office will treat adherence to the Code as a mitigating factor when setting any fines, effectively earning enforcement deference in the newly live GPAI regime.",
+      "date": "2026-08-04",
+      "sourceIds": [
+        "eu-18"
+      ]
+    },
     {
       "text": "The AI Act's general-purpose AI (GPAI) supervision and enforcement powers take effect: the Commission's AI Office can now request documentation, run evaluations, demand mitigations or recall, and fine GPAI providers up to €15M or 3% of global turnover (Art. 101). Article 50 transparency duties — chatbot disclosure, machine-readable marking of AI-generated content, and deepfake labelling — become enforceable the same day, with systems already on the market given until 2 December 2026 to comply with the watermarking requirement. High-risk (Annex III) obligations remain delayed to 2027-2028 following the Digital Omnibus.",
       "date": "2026-08-02",
@@ -577,6 +593,22 @@
       "publisher": "Tech Times",
       "url": "https://www.techtimes.com/articles/320101/20260710/eu-ai-act-enforcement-here-chatbot-rules-live-high-risk-ai-delay-now-binding-law.htm",
       "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "eu-18",
+      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "publisher": "European Commission — Shaping Europe's digital future",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "date": "2026-08",
+      "category": "government"
+    },
+    {
+      "id": "eu-19",
+      "title": "Why did OpenAI's and Anthropic's AI models hack other companies?",
+      "publisher": "NPR",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5914852/anthropic-openai-models-hack-cybersecurity",
+      "date": "2026-08",
       "category": "news"
     }
   ],

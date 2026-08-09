@@ -11,7 +11,7 @@
   "accentColor": { "light": "#7D4483", "dark": "#A661AE" },
   "center": [101.0, 15.0],
   "zoom": 5.0,
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-09",
   "newDevelopmentsCount": 5,
   "hasMajorUpdate": true,
   "debateTopics": [
@@ -59,9 +59,9 @@
       "sourceIds": ["th-4"]
     },
     {
-      "text": "ETDA hosts AI Governance Week 2026 (June 29–July 3) and releases a revised draft AI Act for public consultation on July 2, 2026, positioning Thailand as an aspiring regional AI-governance hub. The public-hearing period was reported to run roughly 30 days (into early August 2026), keeping the Act in consultation rather than settled law.",
+      "text": "ETDA hosts AI Governance Week 2026 (June 29–July 3) and releases a revised draft AI Act for public consultation on July 2, 2026, positioning Thailand as an aspiring regional AI-governance hub. The public-consultation window was subsequently reported to run until August 14, 2026, keeping the Act in consultation rather than settled law as of early August.",
       "date": "2026-07-02",
-      "sourceIds": ["th-5", "th-6"],
+      "sourceIds": ["th-5", "th-6", "th-12"],
       "severity": "major"
     }
   ],
@@ -340,6 +340,14 @@
       "url": "https://news.mongabay.com/short-article/2026/04/ai-infrastructure-growth-threatens-water-stressed-thai-regions/",
       "date": "2026-04",
       "category": "news"
+    },
+    {
+      "id": "th-12",
+      "title": "Thailand's Proposed AI Law: Moving Towards a Risk-Based Regulatory Framework",
+      "publisher": "Rajah & Tann Asia",
+      "url": "https://aitoolkit.rajahtannasia.com/2026/07/28/thailands-proposed-ai-law-moving-towards-a-risk-based-regulatory-framework/",
+      "date": "2026-07-28",
+      "category": "expert_commentary"
     }
   ]
 }

@@ -1,0 +1,466 @@
+{
+  "code": "dk",
+  "name": "Denmark",
+  "shortName": "Denmark",
+  "flagEmoji": "🇩🇰",
+  "geometryType": "polygon",
+  "isoA3": [
+    "DNK"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Early-moving EU AI Act member state; foundation-backed Gefion supercomputer and a health/pharma AI specialism",
+  "accentColor": {
+    "light": "#A8504A",
+    "dark": "#C4685E"
+  },
+  "center": [
+    10.4,
+    56.0
+  ],
+  "zoom": 5.8,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "Foundation-funded sovereign compute (Gefion)",
+    "Health and pharma AI as national specialism",
+    "Moving early on national AI-Act implementation"
+  ],
+  "overview": "Denmark punches above its size in AI by combining early, decisive regulation with a distinctive, foundation-funded compute base and a deep specialism in health and life-sciences AI. Its landmark asset is Gefion, Denmark's first AI supercomputer -- an NVIDIA DGX SuperPOD with 1,528 H100 GPUs, inaugurated in October 2024 by NVIDIA's Jensen Huang. Gefion is run by the Danish Centre for AI Innovation (DCAI), a company owned 85% by the Novo Nordisk Foundation and 15% by the Export and Investment Fund of Denmark (EIFO) -- an unusually philanthropic-and-state model for sovereign compute, aimed at drug discovery, healthcare, quantum and the green transition, with strong data-sovereignty safeguards.\n\nOn regulation, Denmark moved early: in May 2025 its parliament adopted one of the EU's first national AI-Act implementing laws, designating the Agency for Digital Government (Digitaliseringsstyrelsen), the Danish Data Protection Agency (Datatilsynet) and the Danish Court Administration (Domstolsstyrelsen) as competent authorities, and it has run an AI regulatory sandbox. A national AI sandbox and further high-risk enforcement provisions were being finalised around the 2 August 2026 milestone, when the EU AI Act's GPAI supervision and enforcement powers went live -- exercised centrally by the Commission's AI Office rather than by Danish regulators. Denmark's newest national digital/AI strategy (covering 2026 onward) emphasises a responsible ethical foundation, opening high-quality public data, building competencies and investment. Industrially, Denmark's edge is applied AI in regulated sectors: Novo Nordisk and LEO Pharma in drug discovery, and companies such as medical-AI firm Corti and sports-video AI maker Veo. Research is anchored by the Danish Pioneer Centre for AI (University of Copenhagen, DTU, ITU, Aalborg and Aarhus). Denmark has no independent frontier model lab, but its Gefion-plus-health-AI combination makes it a credible 'emerging' player rather than a bystander.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Early regulator; foundation-funded sovereign compute; health/pharma AI strength",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act member state; among the first with a national implementing law (May 2025); supervision led by Agency for Digital Government and Datatilsynet",
+    "latestMajorUpdate": "EU AI Act GPAI supervision and enforcement powers took effect from 2 August 2026 (exercised centrally by the Commission's AI Office); Denmark finalised national sandbox/high-risk enforcement provisions around the same milestone",
+    "governmentInvolvement": "Active: early national AI-Act law, an AI regulatory sandbox, and a 2026 national digital/AI strategy",
+    "industrialStrategy": "Applied AI in regulated sectors -- drug discovery (Novo Nordisk, LEO Pharma), medical AI (Corti) -- underpinned by the Gefion supercomputer",
+    "internationalPartnerships": "NVIDIA partnership via DCAI/Gefion; deep EU/EuroHPC embedding; philanthropic capital via the Novo Nordisk Foundation",
+    "primaryPolicyFocus": "Trustworthy AI in high-stakes sectors (health) plus early, complete national AI-Act implementation"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Denmark is tightening in step with the EU while moving faster than most on national implementation -- it was among the first member states to pass an AI-Act implementing law and to stand up a sandbox. The GPAI enforcement era went live on 2 August 2026, and Denmark was finalising the national machinery for high-risk supervision around the same date."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The EU AI Act's supervision and enforcement powers over general-purpose AI (GPAI) models took effect on 2 August 2026, together with the Act's Article 50 transparency duties. GPAI oversight is exercised centrally by the European Commission's AI Office -- which can request documentation, run evaluations, demand mitigations and fine providers up to EUR 15M or 3% of global turnover -- rather than by Danish regulators. Denmark's national competent authorities (Agency for Digital Government, Datatilsynet, Court Administration) handle the domestically-supervised obligations.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "dk-1",
+        "dk-2"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "Denmark moved to operationalise its national AI regulatory sandbox and to finalise enforcement provisions for high-risk AI systems around the 2 August 2026 milestone, when those AI-Act obligations became applicable. Reporting indicated a further bill to replace or update the May 2025 implementing act so that high-risk rules could be enforced from that date.",
+      "date": "2026-07",
+      "sourceIds": [
+        "dk-3",
+        "dk-4"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Denmark advanced a new national digital and AI strategy (covering 2026 onward) built around a responsible ethical foundation, opening high-quality public data, building specialised competencies and investment -- with the Gefion supercomputer positioned as the flagship of the investment pillar.",
+      "date": "2026-04",
+      "sourceIds": [
+        "dk-5"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "The Novo Nordisk Foundation, EIFO and NVIDIA continued to scale use of Gefion -- Denmark's NVIDIA DGX SuperPOD AI supercomputer (1,528 H100 GPUs) inaugurated in October 2024 -- across drug discovery, healthcare, quantum and green-transition projects, with Novo Nordisk among the anchor users building custom AI models for research and clinical development.",
+      "date": "2026-03",
+      "sourceIds": [
+        "dk-6",
+        "dk-7"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Danish health-AI companies remained a national showcase: Corti (clinical/medical AI, reported to detect cardiac arrest with ~92% accuracy in under a minute and to have raised around USD 110M) and Veo (edge-AI sports video), illustrating Denmark's applied-AI depth in regulated and specialised domains.",
+      "date": "2026-02",
+      "sourceIds": [
+        "dk-8"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Denmark's May 2025 national AI-Act implementing law -- among the first in the EU -- remained the foundation of its supervision regime, designating the Agency for Digital Government (Digitaliseringsstyrelsen), the Danish Data Protection Agency (Datatilsynet) and the Danish Court Administration (Domstolsstyrelsen) as competent authorities.",
+      "date": "2025-05-08",
+      "sourceIds": [
+        "dk-4"
+      ],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Danish national AI-Act implementing law (adopted May 2025)",
+      "status": "in_force",
+      "summary": "One of the EU's earliest national laws operationalising the AI Act. It designates national competent authorities -- the Agency for Digital Government (Digitaliseringsstyrelsen), the Danish Data Protection Agency (Datatilsynet) and the Danish Court Administration (Domstolsstyrelsen) -- and confers market-surveillance and enforcement powers. Reporting indicated a follow-on bill to ensure high-risk-AI rules could be enforced from 2 August 2026.",
+      "officialUrl": "https://en.digst.dk/digital-governance/new-technologies/danish-strategies-for-artificial-intelligence/",
+      "sourceIds": [
+        "dk-3",
+        "dk-4"
+      ]
+    },
+    {
+      "title": "EU AI Act (GPAI supervision and enforcement)",
+      "status": "in_force",
+      "summary": "As an EU member state Denmark is bound by the AI Act. Its GPAI supervision and enforcement powers took effect from 2 August 2026, exercised centrally by the Commission's AI Office; most high-risk (Annex III) obligations are phased to 2027. Denmark's national authorities handle domestically-supervised obligations.",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "sourceIds": [
+        "dk-1",
+        "dk-2"
+      ]
+    },
+    {
+      "title": "Danish AI regulatory sandbox",
+      "status": "in_force",
+      "summary": "A regulatory sandbox offering organisations hands-on guidance on GDPR compliance and AI-Act risk classification, first announced in 2024 and developed toward the AI Act's requirement for national sandboxes by 2 August 2026. Part of Denmark's comparatively proactive, trust-oriented posture.",
+      "officialUrl": "https://en.digst.dk/digital-governance/new-technologies/",
+      "sourceIds": [
+        "dk-3"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "National digital and AI strategy (2026 onward)",
+      "status": "in_force",
+      "summary": "Denmark's latest national strategy, framed around a responsible ethical foundation, opening high-quality public data, building competencies and investment (symbolised by Gefion). A strategy framework rather than binding law.",
+      "officialUrl": "https://en.digst.dk/digital-governance/new-technologies/danish-strategies-for-artificial-intelligence/",
+      "sourceIds": [
+        "dk-5"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Danish AI research is anchored by the Danish Pioneer Centre for Artificial Intelligence -- based at the University of Copenhagen's computer-science department and spanning DTU, the IT University of Copenhagen, Aalborg University and Aarhus University -- backed by the Novo Nordisk and Villum foundations. The ecosystem is unusually strong in health, biotech and life-sciences AI, reflecting Denmark's pharma base (Novo Nordisk, LEO Pharma) and its foundation-funded compute (Gefion).",
+    "sourceIds": [
+      "dk-9",
+      "dk-6"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Novo Nordisk",
+      "description": "Danish pharmaceutical giant applying AI at scale in drug discovery and clinical development; an anchor user of the Gefion supercomputer, building custom AI models with DCAI and NVIDIA. Its foundation majority-owns DCAI/Gefion.",
+      "url": "https://www.novonordisk.com"
+    },
+    {
+      "name": "Corti",
+      "description": "Copenhagen-based medical-AI company building clinical decision-support / real-time AI for healthcare (e.g. detecting cardiac arrest in emergency calls); a flagship of Danish health AI.",
+      "url": "https://www.corti.ai"
+    },
+    {
+      "name": "Veo Technologies",
+      "description": "Danish company using edge AI and computer vision to automate sports-video capture and analysis for grassroots and semi-professional teams worldwide.",
+      "url": "https://www.veo.co"
+    },
+    {
+      "name": "LEO Pharma",
+      "description": "Danish pharmaceutical company applying AI in dermatology and drug development, part of Denmark's life-sciences AI cluster.",
+      "url": "https://www.leo-pharma.com"
+    },
+    {
+      "name": "Danish Centre for AI Innovation (DCAI)",
+      "description": "Operator of the Gefion supercomputer; owned 85% by the Novo Nordisk Foundation and 15% by EIFO. Provides sovereign AI compute to Danish public and private researchers.",
+      "url": "https://novonordiskfonden.dk/en/projects/danish-centre-for-ai-innovation/"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Gefion / DCAI (NVIDIA DGX SuperPOD)",
+        "description": "Denmark's first AI supercomputer, an NVIDIA DGX SuperPOD with 1,528 H100 GPUs and Quantum-2 InfiniBand, operated by DCAI. Emphasises data sovereignty (no permanent data storage; users retain control). The country's flagship sovereign AI compute.",
+        "url": "https://novonordiskfonden.dk/en/projects/danish-centre-for-ai-innovation/"
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Hyperscaler with Danish data-centre investment, serving enterprise and public-sector AI workloads.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Operates data-centre capacity in Denmark (Fredericia) and serves Danish cloud/AI workloads.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "AWS",
+        "description": "Major hyperscaler serving Danish enterprise AI workloads via its broader EU (Nordic) regions and announced Danish infrastructure.",
+        "url": "https://aws.amazon.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Hosts Gefion, an NVIDIA DGX SuperPOD (1,528 H100 GPUs) run by foundation-backed DCAI -- substantial sovereign AI compute focused on health, quantum and green tech",
+    "chipAccess": "No domestic fabrication; relies on imported NVIDIA accelerators (Gefion) obtained via the NVIDIA/DCAI partnership"
+  },
+  "universities": [
+    {
+      "name": "University of Copenhagen",
+      "description": "Host of the Danish Pioneer Centre for AI (in its computer-science department) and a leading Danish AI research university.",
+      "url": "https://www.ku.dk/english/"
+    },
+    {
+      "name": "Technical University of Denmark (DTU)",
+      "description": "Major technical university with strong AI, data-science and engineering research; a Pioneer Centre partner.",
+      "url": "https://www.dtu.dk/english"
+    },
+    {
+      "name": "Aarhus University",
+      "description": "Leading Danish research university and a partner in the Danish Pioneer Centre for AI.",
+      "url": "https://international.au.dk"
+    },
+    {
+      "name": "IT University of Copenhagen (ITU)",
+      "description": "Specialised IT university contributing to Danish AI/computer-science research and a Pioneer Centre partner.",
+      "url": "https://en.itu.dk"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Danish Pioneer Centre for Artificial Intelligence",
+      "description": "National AI research flagship led from the University of Copenhagen with DTU, ITU, Aalborg and Aarhus, backed by the Novo Nordisk and Villum foundations.",
+      "url": "https://novonordiskfonden.dk/en/projects/danish-pioneer-centre-for-artificial-intelligence/"
+    },
+    {
+      "name": "DataEthics.eu",
+      "description": "Copenhagen-based independent think-do tank promoting data ethics and responsible AI, influential in Danish and European debates.",
+      "url": "https://dataethics.eu",
+      "needsVerification": true
+    },
+    {
+      "name": "Novo Nordisk Foundation",
+      "description": "Major philanthropic foundation shaping Danish AI through funding for DCAI/Gefion, the Pioneer Centre and life-sciences AI -- an unusually large private actor in national AI capacity.",
+      "url": "https://novonordiskfonden.dk/en/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Agency for Digital Government (Digitaliseringsstyrelsen)",
+      "description": "Lead Danish authority for digital government and a designated competent authority under the national AI-Act implementing law.",
+      "url": "https://en.digst.dk"
+    },
+    {
+      "name": "Danish Data Protection Agency (Datatilsynet)",
+      "description": "Danish data protection authority and a designated AI-Act competent authority (including for certain prohibited-practice provisions).",
+      "url": "https://www.datatilsynet.dk/english"
+    },
+    {
+      "name": "Danish Court Administration (Domstolsstyrelsen)",
+      "description": "Designated as a competent authority under Denmark's national AI-Act implementation, reflecting oversight of AI use in the justice system.",
+      "url": "https://domstol.dk",
+      "needsVerification": true
+    },
+    {
+      "name": "Export and Investment Fund of Denmark (EIFO)",
+      "description": "State investment and export fund; minority (15%) owner of DCAI, the operator of the Gefion supercomputer.",
+      "url": "https://www.eifo.dk/en"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Serge Belongie",
+      "role": "Director of the Danish Pioneer Centre for AI and University of Copenhagen professor; a leading figure in Danish AI research",
+      "affiliation": "University of Copenhagen / Pioneer Centre for AI",
+      "category": "researcher",
+      "url": "https://novonordiskfonden.dk/en/projects/danish-pioneer-centre-for-artificial-intelligence/",
+      "needsVerification": true
+    },
+    {
+      "name": "Andreas Cleve",
+      "role": "Co-founder and CEO of Corti, one of Denmark's most prominent medical-AI companies",
+      "affiliation": "Corti",
+      "category": "company_leader",
+      "url": "https://www.corti.ai",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Danish Centre for AI Innovation (DCAI) / Gefion",
+      "type": "organization",
+      "role": "Operator of Denmark's foundation-backed NVIDIA AI supercomputer.",
+      "category": "company",
+      "url": "https://novonordiskfonden.dk/en/projects/danish-centre-for-ai-innovation/"
+    },
+    {
+      "name": "Corti",
+      "type": "organization",
+      "role": "Danish medical-AI company, flagship of the country's health-AI specialism.",
+      "category": "company",
+      "url": "https://www.corti.ai"
+    },
+    {
+      "name": "Danish Pioneer Centre for AI",
+      "type": "organization",
+      "role": "National AI research flagship across five Danish universities.",
+      "category": "university",
+      "url": "https://novonordiskfonden.dk/en/projects/danish-pioneer-centre-for-artificial-intelligence/"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Agency for Digital Government",
+      "type": "government"
+    },
+    {
+      "label": "Novo Nordisk Foundation / DCAI",
+      "type": "think_tank"
+    },
+    {
+      "label": "Gefion (NVIDIA DGX SuperPOD)",
+      "type": "research"
+    },
+    {
+      "label": "University of Copenhagen / Pioneer Centre",
+      "type": "research"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "No independent frontier AI lab",
+      "note": "Denmark has substantial sovereign compute (Gefion) and world-class applied AI in health, but no independent frontier or near-frontier model developer -- hence 'emerging' rather than 'domestic'. Its edge is applied AI in regulated sectors, not model building."
+    },
+    {
+      "area": "Concentration of AI capacity in one foundation",
+      "note": "The Novo Nordisk Foundation's outsized role -- majority-owning DCAI/Gefion and funding the Pioneer Centre -- gives Denmark unusual private-philanthropic leverage over national AI capacity, raising governance questions about dependence on a single actor tied to the pharma sector."
+    },
+    {
+      "area": "Denmark-specific cloud market share",
+      "note": "No reliable, independently-corroborated hyperscaler cloud market-share breakdown for Denmark was verified in this pass, so dominance percentages are left unpopulated."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Foundation-funded sovereign compute (Gefion)",
+      "category": "infrastructure",
+      "summary": "Gefion gives Denmark rare sovereign AI compute, but its ownership (85% Novo Nordisk Foundation, 15% EIFO) concentrates national AI capacity in a pharma-linked philanthropic actor.",
+      "expanded": "Gefion is a genuine strategic asset -- an NVIDIA DGX SuperPOD with strong data-sovereignty safeguards, aimed at drug discovery, health, quantum and green tech. Its unusual funding model (a philanthropic foundation as majority owner, the state as minority) lets Denmark move fast without waiting for public budgets, but invites debate about accountability, access priorities and whether so much national AI capacity should sit with one foundation whose commercial interests lie in pharma.",
+      "sourceIds": [
+        "dk-6",
+        "dk-7"
+      ]
+    },
+    {
+      "topic": "Health and pharma AI as national specialism",
+      "category": "industry",
+      "summary": "Denmark bets on applied AI in regulated, high-trust sectors -- especially health and pharma -- rather than on building frontier models.",
+      "expanded": "With Novo Nordisk, LEO Pharma, Corti and Gefion, Denmark has chosen a niche: trustworthy, regulated-sector AI where its public data quality, high institutional trust and life-sciences base are advantages. Supporters argue this is a realistic strategy for a small country; sceptics ask whether specialising in application, while frontier capability sits abroad, leaves Denmark dependent on others for the underlying models and chips.",
+      "sourceIds": [
+        "dk-8",
+        "dk-9"
+      ]
+    },
+    {
+      "topic": "Moving early on national AI-Act implementation",
+      "category": "government",
+      "summary": "Denmark was among the first EU states to pass a national AI-Act implementing law and to run an AI sandbox -- a first-mover posture with both upside and risk.",
+      "expanded": "By legislating early (May 2025) and standing up a sandbox, Denmark positioned itself as a compliance-and-trust leader, potentially attracting regulated-sector AI investment. The flip side is the cost of moving before the EU-level detail fully settled -- hence the need for follow-on legislation to enforce high-risk rules from 2 August 2026 -- and the question of whether early clarity or wait-and-see best serves a small open economy.",
+      "sourceIds": [
+        "dk-3",
+        "dk-4"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Danish Centre for AI Innovation (Gefion)",
+      "type": "government",
+      "url": "https://novonordiskfonden.dk/en/projects/danish-centre-for-ai-innovation/"
+    },
+    {
+      "title": "Danish strategies for artificial intelligence",
+      "type": "government",
+      "url": "https://en.digst.dk/digital-governance/new-technologies/danish-strategies-for-artificial-intelligence/"
+    },
+    {
+      "title": "Danish Pioneer Centre for Artificial Intelligence",
+      "type": "academic",
+      "url": "https://novonordiskfonden.dk/en/projects/danish-pioneer-centre-for-artificial-intelligence/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "dk-1",
+      "title": "AI Act (regulatory framework for AI)",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "dk-2",
+      "title": "Artificial Intelligence 2026 -- Denmark",
+      "publisher": "Chambers and Partners",
+      "url": "https://practiceguides.chambers.com/practice-guides/artificial-intelligence-2026/denmark",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "dk-3",
+      "title": "AI Regulatory Horizon Tracker -- Denmark",
+      "publisher": "Bird & Bird",
+      "url": "https://www.twobirds.com/en/capabilities/artificial-intelligence/ai-legal-services/ai-regulatory-horizon-tracker/denmark",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "dk-4",
+      "title": "AI Regulatory Horizon Tracker — Denmark (national AI Act implementation, Law No. 467 / Bill L 154, adopted 8 May 2025)",
+      "publisher": "Bird & Bird",
+      "url": "https://www.twobirds.com/en/capabilities/artificial-intelligence/ai-legal-services/ai-regulatory-horizon-tracker/denmark",
+      "date": "2025-05",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "dk-5",
+      "title": "Danish strategies for artificial intelligence",
+      "publisher": "Agency for Digital Government (digst.dk)",
+      "url": "https://en.digst.dk/digital-governance/new-technologies/danish-strategies-for-artificial-intelligence/",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "dk-6",
+      "title": "Denmark's first AI supercomputer is now operational (Gefion)",
+      "publisher": "Novo Nordisk Foundation",
+      "url": "https://novonordiskfonden.dk/en/news/denmarks-first-ai-supercomputer-is-now-operational/",
+      "date": "2024-10",
+      "category": "research"
+    },
+    {
+      "id": "dk-7",
+      "title": "NVIDIA Partners With Novo Nordisk and DCAI to Advance Drug Discovery",
+      "publisher": "NVIDIA",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Partners-With-Novo-Nordisk-and-DCAI-to-Advance-Drug-Discovery/default.aspx",
+      "date": "2025",
+      "category": "industry"
+    },
+    {
+      "id": "dk-8",
+      "title": "Top AI Startups to Watch in Denmark in 2026",
+      "publisher": "Nucamp",
+      "url": "https://www.nucamp.co/blog/coding-bootcamp-denmark-dnk-denmarks-top-10-startups-that-tech-professionals-should-watch-out-for-in-2025",
+      "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "dk-9",
+      "title": "Danish Pioneer Centre for Artificial Intelligence",
+      "publisher": "Novo Nordisk Foundation",
+      "url": "https://novonordiskfonden.dk/en/projects/danish-pioneer-centre-for-artificial-intelligence/",
+      "date": "2026",
+      "category": "research"
+    }
+  ],
+  "hasMajorUpdate": true
+}

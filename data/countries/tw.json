@@ -19,8 +19,8 @@
     23.7
   ],
   "zoom": 7.0,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 5,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 6,
   "debateTopics": [
     "AI chip export controls on China beyond the existing US blacklist",
     "Building an AI ecosystem around chips rather than models",
@@ -44,6 +44,14 @@
     "summary": "Taiwan moved relatively quickly to pass a comprehensive AI Basic Act, and is reportedly considering going further than existing US chip-export rules on sales to China — a move that, if adopted, would represent a distinctly supply-chain-driven form of AI policy tightening given TSMC's role in global AI hardware."
   },
   "recentDevelopments": [
+    {
+      "text": "Taiwan's semiconductor exports reached a reported US$75.3bn in July 2026 — a third-best month on record, driven largely by AI-chip demand — even as roughly 78% of outbound sales are reported to fall within categories targeted by a US Section 301 'overcapacity' probe into the sector, sharpening the trade-policy backdrop to Taipei's AI-chip strategy.",
+      "date": "2026-08-07",
+      "sourceIds": [
+        "tw-10"
+      ],
+      "needsVerification": true
+    },
     {
       "text": "A Keelung court detains three Super Micro and Albatron executives (~1 July 2026) in what is reported as Taiwan's first criminal probe into diversion of NVIDIA AI chips to China — a case widely read as exposing a legal gap, since Taiwan does not yet criminalise AI-chip exports to China even as US rules restrict them.",
       "date": "2026-07-01",
@@ -374,6 +382,14 @@
       "url": "https://www.iii.org.tw/en/news/newsroom/iii-news/25cd305d-bb23-4cf9-8833-cb15d7805279",
       "date": "2026",
       "category": "think_tank"
+    },
+    {
+      "id": "tw-10",
+      "title": "Taiwan Sets Third-Best Export Month; Semiconductor Probe Targets Its Core Categories",
+      "publisher": "Tech Times",
+      "url": "https://www.techtimes.com/articles/323530/20260807/taiwan-sets-third-best-export-month-semiconductor-probe-targets-its-core-categories.htm",
+      "date": "2026-08-07",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

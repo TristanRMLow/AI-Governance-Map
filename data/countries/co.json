@@ -11,14 +11,14 @@
   "accentColor": { "light": "#6E4483", "dark": "#9461AE" },
   "center": [-73.0, 4.0],
   "zoom": 4.9,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 7,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Whether the incoming De la Espriella administration will maintain the AI bill and CONPES 4144 roadmap",
     "Rights-based safeguards versus an innovation-first, sandbox-driven approach to AI regulation"
   ],
-  "overview": "Colombia does not yet have a binding AI-specific law. Its current framework rests on CONPES 4144, the Política Nacional de Inteligencia Artificial approved by the National Council for Economic and Social Policy on February 14, 2025, which lays out more than 100 non-binding actions through 2030 across research, adoption, and ethical governance. Since May 2025, the Ministry of Science, Technology and Innovation (MinCiencias), working with the Ministry of Information and Communication Technologies (MinTIC), has pushed a companion bill — Proyecto de Ley 043 of 2025 (Senate) / 324 of 2025 (Chamber) — that would create a risk-based regime (prohibited, high, limited, low risk) and a new National AI Supervision Authority. The bill was refiled with a presidential urgency message in July 2025 but, as of a February 2026 report, remained stalled in joint committee awaiting a first-debate vote.\n\nThat legislative process now unfolds against a significant change in government: in the June 21, 2026 runoff, Abelardo De la Espriella defeated Iván Cepeda by a margin of roughly one percentage point to succeed Gustavo Petro, with the new administration taking office on August 7, 2026. De la Espriella has named Alexandra Falla Zerrate as incoming MinTIC minister, but it is not yet clear from available reporting whether the new government will maintain the Petro-era AI bill and CONPES roadmap, revise them, or deprioritize them. Separately, Colombia's data-center and cloud footprint continues to expand — Google is building its first Colombian data center, a 100MW facility in Yumbo, Valle del Cauca — even as reporting suggests the country still lacks clear policy recognizing data centers as critical infrastructure, with permitting and grid-connection processes described as slow.",
+  "overview": "Colombia does not yet have a binding AI-specific law. Its current framework rests on CONPES 4144, the Política Nacional de Inteligencia Artificial approved by the National Council for Economic and Social Policy on February 14, 2025, which lays out more than 100 non-binding actions through 2030 across research, adoption, and ethical governance. Since May 2025, the Ministry of Science, Technology and Innovation (MinCiencias), working with the Ministry of Information and Communication Technologies (MinTIC), has pushed a companion bill — Proyecto de Ley 043 of 2025 (Senate) / 324 of 2025 (Chamber) — that would create a risk-based regime (prohibited, high, limited, low risk) and a new National AI Supervision Authority. The bill was refiled with a presidential urgency message in July 2025 but, as of a February 2026 report, remained stalled in joint committee awaiting a first-debate vote.\n\nThat legislative process now unfolds against a significant change in government: in the June 21, 2026 runoff, Abelardo De la Espriella defeated Iván Cepeda by a margin of roughly one percentage point to succeed Gustavo Petro, with the new administration having taken office on August 7, 2026 in a ceremony held in Cali. De la Espriella has named Alexandra Falla Zerrate as incoming MinTIC minister, but it is not yet clear from available reporting whether the new government will maintain the Petro-era AI bill and CONPES roadmap, revise them, or deprioritize them. Separately, Colombia's data-center and cloud footprint continues to expand — Google is building its first Colombian data center, a 100MW facility in Yumbo, Valle del Cauca — even as reporting suggests the country still lacks clear policy recognizing data centers as critical infrastructure, with permitting and grid-connection processes described as slow.",
   "atAGlance": {
     "policyDirection": {
       "label": "Risk-based AI bill pending in Congress; no binding law yet",
@@ -36,6 +36,11 @@
     "summary": "Colombia has been moving, in principle, toward its first binding AI law — a risk-based bill that would create a National AI Supervision Authority — but progress has been slow, with the bill reportedly still stalled in joint committee as of February 2026 despite a presidential urgency message. The bigger near-term question is political: the incoming De la Espriella government, taking office August 7, 2026, has not yet indicated whether it will carry forward the outgoing Petro government's AI bill and CONPES 4144 roadmap, adjust them, or pursue a different approach."
   },
   "recentDevelopments": [
+    {
+      "text": "Abelardo De la Espriella is inaugurated as President of Colombia in a ceremony in Cali, formally ending the Petro government; his administration has not yet signalled whether it will maintain, revise or deprioritise the Petro-era risk-based AI bill and the CONPES 4144 roadmap, leaving Colombia's AI-policy continuity an open question.",
+      "date": "2026-08-07",
+      "sourceIds": ["co-15"]
+    },
     {
       "text": "MinCiencias refiles the AI regulation bill (Proyecto de Ley 043 de 2025 Senado / 324 de 2025 Cámara) in Congress, with a presidential message of legislative urgency requiring joint Senate-Chamber committee debate.",
       "date": "2025-07-28",
@@ -268,6 +273,7 @@
     { "id": "co-11", "title": "Participamos en audiencia pública sobre el proyecto de ley de IA en Colombia", "publisher": "Fundación Karisma", "url": "https://blog.karisma.org.co/participamos-en-audiencia-publica-sobre-el-proyecto-de-ley-de-ia-en-colombia/", "date": "2025", "category": "think_tank" },
     { "id": "co-12", "title": "Lanzamiento del Centro de Investigación y Formación en Inteligencia Artificial (Cinfonia)", "publisher": "Universidad de los Andes", "url": "https://www.uniandes.edu.co/es/noticias/ingenieria/lanzamiento-del-centro-de-investigacion-y-formacion-en-inteligencia-artificial", "date": "2023", "category": "research" },
     { "id": "co-13", "title": "Este es el top 10 de las startups más valiosas de Colombia: Rappi, Habi y Addi lideran el ranking", "publisher": "El Colombiano", "url": "https://www.elcolombiano.com/negocios/top-10-startups-mas-valiosas-colombia-rappi-habi-y-addi-ranking-BD30336241", "date": "2025", "category": "news" },
-    { "id": "co-14", "title": "MinTIC estructurará 10 'sandbox' regulatorios para acelerar los ecosistemas de innovación en Colombia", "publisher": "MinTIC", "url": "https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/281130:MinTIC-estructurara-10-sandbox-regulatorios-para-acelerar-los-ecosistemas-de-innovacion-en-Colombia", "date": "2024", "category": "government" }
+    { "id": "co-14", "title": "MinTIC estructurará 10 'sandbox' regulatorios para acelerar los ecosistemas de innovación en Colombia", "publisher": "MinTIC", "url": "https://mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/281130:MinTIC-estructurara-10-sandbox-regulatorios-para-acelerar-los-ecosistemas-de-innovacion-en-Colombia", "date": "2024", "category": "government" },
+    { "id": "co-15", "title": "Así fue la posesión de Abelardo De La Espriella como presidente de Colombia 2026 al 2030; reviva el minuto a minuto", "publisher": "Semana", "url": "https://www.semana.com/politica/articulo/asi-fue-la-posesion-de-abelardo-de-la-espriella-como-presidente-de-colombia-2026-al-2030-reviva-el-minuto-a-minuto/202630/", "date": "2026-08-07", "category": "news" }
   ]
 }

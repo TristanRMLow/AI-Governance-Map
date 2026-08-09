@@ -1,0 +1,448 @@
+{
+  "code": "tn",
+  "name": "Tunisia",
+  "shortName": "Tunisia",
+  "flagEmoji": "🇹🇳",
+  "geometryType": "polygon",
+  "isoA3": ["TUN"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "AI strategy long-announced but reportedly unpromulgated; 2004 data-protection law (INPDP); InstaDeep applied-AI heritage",
+  "accentColor": { "light": "#9C4A4A", "dark": "#BD6262" },
+  "center": [9.5, 34.0],
+  "zoom": 5.6,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 7,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Whether Tunisia can retain AI talent or keeps exporting it — the InstaDeep 'success that left' and diaspora brain drain",
+    "A national AI strategy announced since 2018 but reportedly still not formally promulgated as of 2026"
+  ],
+  "overview": "Tunisia occupies an unusual position in African AI: it is the birthplace of what is widely described as the continent's most successful applied-AI company, yet as of mid-2026 it appears to lack a formally promulgated national AI strategy of its own. InstaDeep, founded in Tunis in 2014 by Karim Beguir and Zohra Slim reportedly with two computers and around $2,000, grew into a world-class decision-making and biology-AI company before being acquired by Germany's BioNTech in 2023 in a cash-and-shares deal reported at up to roughly £500m (around $680m including milestone payments, with an upfront consideration widely cited near $549m). InstaDeep retains a Tunis engineering hub among offices in London, Paris, Berlin, Kigali, Cape Town and the United States, and its work on protein design (DeepChain), genomics (the Nucleotide Transformer, developed with partners including the Technical University of Munich), reinforcement learning and logistics/rail optimisation — alongside a long-running collaboration with NVIDIA — is genuinely at the international frontier of applied AI, even though it is not a frontier large-language-model laboratory.\n\nBeneath this standout sits a deep engineering-talent pipeline. Institutions such as SUP'COM, INSAT, the École Polytechnique de Tunisie and ENIT feed a developer base that one 2026 assessment put at around 4,120 developers per million inhabitants, and Tunis hosted the pan-African Deep Learning Indaba in 2022. The 2018 Startup Act created a supportive legal wrapper that officials say has helped seed hundreds of startups. The same talent strength, however, underpins Tunisia's defining AI tension: much of that talent — InstaDeep's centre of gravity included — has migrated abroad, and brain drain is repeatedly cited as the country's central AI-policy challenge.\n\nOn governance, Tunisia's picture is one of aspiration outpacing formalisation. A national AI strategy has been announced in various forms since 2018 and again folded into the 2026-2030 Development Plan, and the Minister of Communication Technologies, Sofiene Hemissi, has promoted an 'ethical and sovereign' AI vision internationally (Shanghai, July 2026). Yet Tunisian technology outlets reported in 2026 that no strategy has been formally adopted or published in the official journal, and that promised bodies remain, at best, only partially operational — claims that sit awkwardly against some regulatory trackers describing a 2026-2030 strategy and a National AI Council as already established. What Tunisia does have in force is one of the Maghreb's oldest data-protection regimes: Organic Law 2004-63 and its supervisory authority, the Instance Nationale de Protection des Données Personnelles (INPDP).",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Strong applied-AI heritage; national AI strategy long-announced but reportedly not yet formally promulgated",
+      "sentiment": "amber"
+    },
+    "regulatoryApproach": "No dedicated binding AI law identified; governance rests on the 2004 data-protection regime (INPDP) while a national AI strategy remains, on most Tunisian accounts, in development rather than in force",
+    "latestMajorUpdate": "ATUGE, a diaspora grandes-écoles association, unveils an open-source AI White Paper for Tunisia at the Tunisia Global Forum (August 2026), proposing a 2030 vision amid an apparent policy vacuum",
+    "governmentInvolvement": "Rhetorically high — AI used to help shape the 2026-2030 Development Plan and promoted internationally by the Communication Technologies minister — but with limited formally-adopted, funded governance machinery visible as of mid-2026",
+    "industrialStrategy": "No published, funded AI industrial strategy confirmed; de facto strategy has been talent-and-startup-led (Startup Act 2018), with InstaDeep the standout though now foreign-owned",
+    "internationalPartnerships": "Tunisian diaspora networks (ATUGE, WATT), InstaDeep's global/BioNTech and NVIDIA links, a reported AFD-financed civil-protection AI programme, and ministerial engagement at global AI summits",
+    "primaryPolicyFocus": "Retaining and mobilising engineering talent, formalising a long-promised national AI strategy, and applying AI to public administration and services"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Tunisia's trajectory in 2026 appears more rhetorical than regulatory. Ministerial advocacy for 'ethical and sovereign' AI and the use of AI to inform the 2026-2030 Development Plan signal intent, but Tunisian outlets report that the national AI strategy announced since 2018 has still not been formally promulgated and that key governance bodies remain only partially operational. With no dedicated binding AI statute identified and oversight resting on the pre-existing 2004 data-protection law, the direction is best read as continuity with an unresolved implementation gap, not a decisive tightening or loosening."
+  },
+  "recentDevelopments": [
+    {
+      "text": "ATUGE (Association des Tunisiens des Grandes Écoles), a diaspora professional network, unveils an open-source AI White Paper for Tunisia at the Tunisia Global Forum, proposing a 2030 vision of an economy able to create, adopt and deploy trustworthy AI. It highlights Tunisia's talent density (reported at ~4,120 developers per million inhabitants) against constraints including an estimated 12.7% AI-adoption rate, the absence of major data centres, brain drain, and under-equipped SMEs.",
+      "date": "2026-08-05",
+      "sourceIds": ["tn-5"]
+    },
+    {
+      "text": "At the World Artificial Intelligence Conference in Shanghai, Minister of Communication Technologies Sofiene Hemissi calls for a global AI governance framework grounded in transparency, equity, human rights and data protection, and reaffirms Tunisia's aim to build an integrated national AI ecosystem under the 2026-2030 Development Plan, stressing 'human primacy' and data sovereignty.",
+      "date": "2026-07-20",
+      "sourceIds": ["tn-6"]
+    },
+    {
+      "text": "Tunisia reportedly secures a loan of about 150 million dinars (~$51m) from the French Development Agency (AFD) to modernise civil protection using AI and drones, including digitising the 198 emergency line and equipping around 24 operations rooms with AI tools to locate incidents and optimise response routing.",
+      "date": "2026-07",
+      "sourceIds": ["tn-7"],
+      "needsVerification": true
+    },
+    {
+      "text": "Minister Hemissi tells an employment forum that Tunisia already possesses 'all the prerequisites' for AI adoption — citing human skills, an 'advanced legal framework being updated' and adequate infrastructure — prompting a sceptical rebuttal from Tunisian business media questioning whether those prerequisites withstand scrutiny.",
+      "date": "2026-04-01",
+      "sourceIds": ["tn-8", "tn-9"]
+    },
+    {
+      "text": "Tunisia's cabinet reviews progress on some 192 digital-transformation projects as part of its broader 2026-2030 digitalisation and administrative-modernisation push, into which AI ambitions are folded.",
+      "date": "2026-02-16",
+      "sourceIds": ["tn-10"],
+      "needsVerification": true
+    },
+    {
+      "text": "Reporting indicates AI tools were used to help structure and prioritise Tunisia's 2026-2030 national Development Plan, framing AI as both a planning instrument and a stated policy priority.",
+      "date": "2025-07-09",
+      "sourceIds": ["tn-11"],
+      "needsVerification": true
+    },
+    {
+      "text": "BioNTech completes its acquisition of InstaDeep — the Tunis-founded applied-AI company — in a landmark cash-and-shares deal reported at up to roughly £500m (around $680m including milestones; upfront consideration widely cited near $549m), the largest exit ever for an African-founded AI startup and Tunisia's defining AI event.",
+      "date": "2023-07",
+      "sourceIds": ["tn-1", "tn-2"],
+      "severity": "major"
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Organic Law No. 2004-63 on the Protection of Personal Data",
+      "status": "in_force",
+      "summary": "Tunisia's foundational data-protection statute, enacted in July 2004 and described as the first of its kind in the Maghreb. It establishes the right to protection of personal data, sets principles for lawful processing, and created the supervisory authority (INPDP). Widely regarded as dated relative to the GDPR era, with reform long discussed; it remains the principal legal instrument touching AI-relevant data use as of mid-2026.",
+      "officialUrl": "https://www.rapdp.org/en/node/47",
+      "sourceIds": ["tn-12", "tn-13"]
+    },
+    {
+      "title": "Startup Act (Law No. 2018-20)",
+      "status": "in_force",
+      "summary": "Landmark 2018 legislation creating a 'Startup' label with tax exemptions, salary support for founders, and financing mechanisms, administered via the Startup Tunisia / Smart Capital framework. Officials credit it with helping seed hundreds of labelled startups across sectors including AI, though its direct effect on AI specifically is diffuse.",
+      "officialUrl": "https://startup.gov.tn/en/startup_act/discover",
+      "sourceIds": ["tn-14"]
+    },
+    {
+      "title": "National AI Strategy (announced; status disputed)",
+      "status": "proposed",
+      "summary": "A national AI strategy has been announced in various forms since 2018 and reiterated within the 2026-2030 Development Plan, with a minister promoting 'ethical and sovereign' AI principles internationally in 2026. However, Tunisian technology outlets reported in mid-2026 that no strategy has been formally promulgated or published in the official journal and that promised governance bodies remain, at best, only partially operational. Some external regulatory trackers describe a 2026-2030 strategy and a National AI Council as established — a claim that could not be firmly reconciled with Tunisian reporting and is treated here as unverified.",
+      "sourceIds": ["tn-4", "tn-15"],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Tunisia's AI research strength is rooted in its engineering schools — SUP'COM, INSAT, the École Polytechnique de Tunisie and ENIT — which produce a well-regarded talent pool (one 2026 estimate cites ~4,120 developers per million inhabitants) and feed both local startups and a large diaspora. The most internationally visible research lineage runs through InstaDeep, whose Tunis-linked teams have contributed to work on protein design (DeepChain), genomics (the Nucleotide Transformer, with partners including TU Munich), reinforcement learning and logistics optimisation. Tunis hosted the pan-African Deep Learning Indaba in 2022. A recurring caveat is that much of this research capacity operates abroad or under foreign ownership, and Tunisia lacks a large, independent domestic AI research institute of comparable profile.",
+    "sourceIds": ["tn-5", "tn-15"]
+  },
+  "companies": [
+    {
+      "name": "InstaDeep",
+      "description": "Tunis-founded (2014) decision-making and biology-AI company, acquired by BioNTech in 2023; work spans protein design (DeepChain), genomics (Nucleotide Transformer), reinforcement learning and logistics/rail optimisation, with a long-running NVIDIA collaboration. Retains a Tunis engineering hub but is now headquartered in London and foreign-owned.",
+      "url": "https://www.instadeep.com/about-us/"
+    },
+    {
+      "name": "Enova Robotics",
+      "description": "Tunisian robotics company known for autonomous security/patrol robots (e.g. PGuard), among the more prominent hardware-plus-AI ventures to emerge from the local ecosystem.",
+      "url": "https://www.enovarobotics.eu",
+      "needsVerification": true
+    },
+    {
+      "name": "Expensya",
+      "description": "Tunisian-French expense-management company using OCR and machine learning to automate receipt processing; acquired by Sweden's Medius in 2023, illustrating the pattern of Tunisian AI-adjacent successes exiting to foreign owners.",
+      "url": "https://www.expensya.com",
+      "needsVerification": true
+    },
+    {
+      "name": "GoMyCode",
+      "description": "Tunis-founded tech-education startup training developers (including in data/AI skills) across Africa and the Middle East; part of the talent-pipeline layer of Tunisia's ecosystem.",
+      "url": "https://gomycode.com",
+      "needsVerification": true
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "AWS",
+        "description": "Global hyperscaler used by Tunisian startups and enterprises via overseas regions; no in-country hyperscaler region identified."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider used in the Tunisian market via overseas regions; no domestic Azure region identified."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider used across Tunisian research and enterprise workloads via overseas regions."
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Very limited; a 2026 assessment flags the absence of major domestic data centres as a key gap, with hyperscale capacity accessed via overseas regions",
+    "chipAccess": "Import-reliant; no domestic advanced-chip fabrication"
+  },
+  "universities": [
+    {
+      "name": "SUP'COM (Higher School of Communication of Tunis)",
+      "description": "Leading Tunisian ICT/telecommunications engineering school, a core source of AI and software talent.",
+      "url": "https://www.supcom.tn",
+      "needsVerification": true
+    },
+    {
+      "name": "INSAT (National Institute of Applied Sciences and Technology)",
+      "description": "Tunis applied-sciences and engineering institute active in computer science and AI-adjacent training.",
+      "url": "https://www.insat.rnu.tn",
+      "needsVerification": true
+    },
+    {
+      "name": "École Polytechnique de Tunisie (EPT)",
+      "description": "Elite Tunisian engineering school feeding both domestic industry and the technical diaspora.",
+      "url": "https://www.ept.rnu.tn",
+      "needsVerification": true
+    },
+    {
+      "name": "ENIT (National Engineering School of Tunis)",
+      "description": "Major public engineering school within the University of Tunis El Manar, contributing to Tunisia's engineering-talent base.",
+      "url": "https://www.enit.rnu.tn",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "ATUGE (Association des Tunisiens des Grandes Écoles)",
+      "description": "Influential Tunisian diaspora professional network that in August 2026 published an open-source AI White Paper proposing a national strategy and 2030 vision, positioning civil society and diaspora as strategy authors amid a perceived government vacuum.",
+      "url": "https://www.atuge.org",
+      "needsVerification": true
+    },
+    {
+      "name": "Tunisie Haut Débit (THD)",
+      "description": "Tunisian technology-policy outlet whose 2026 analysis argued the long-announced national AI strategy remained officially non-existent; functions as a de facto watchdog on digital and AI policy.",
+      "url": "https://www.thd.tn",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Communication Technologies",
+      "description": "Lead ministry for digital and AI policy, headed in 2026 by Sofiene Hemissi; promotes an 'ethical and sovereign' AI agenda and coordinates the digital-transformation programme.",
+      "url": "https://www.mtc.gov.tn",
+      "needsVerification": true
+    },
+    {
+      "name": "Instance Nationale de Protection des Données Personnelles (INPDP)",
+      "description": "Data-protection supervisory authority established under Organic Law 2004-63; the principal existing regulator whose remit touches AI-relevant personal-data processing.",
+      "url": "https://www.rapdp.org/en/node/47",
+      "aliases": ["National Authority for the Protection of Personal Data"]
+    },
+    {
+      "name": "Startup Tunisia / Smart Capital",
+      "description": "Public-private structure implementing the 2018 Startup Act — awarding the Startup label and channelling financing/support to labelled ventures, including AI startups.",
+      "url": "https://startup.gov.tn/en",
+      "needsVerification": true
+    },
+    {
+      "name": "National AI Council (announced / status uncertain)",
+      "description": "A National AI Council chaired by the Head of Government is described by some regulatory trackers as established under a 2026-2030 strategy, but Tunisian reporting suggests promised AI-governance bodies remain only partially operational; treated here as announced rather than confirmed operational.",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Sofiene Hemissi",
+      "role": "Minister of Communication Technologies; lead government voice on national AI strategy and 'sovereign' AI",
+      "affiliation": "Ministry of Communication Technologies",
+      "category": "government",
+      "needsVerification": true
+    },
+    {
+      "name": "Karim Beguir",
+      "role": "Co-founder and CEO of InstaDeep (now part of BioNTech); Tunisia's most internationally prominent AI entrepreneur",
+      "affiliation": "InstaDeep / BioNTech",
+      "category": "company_leader",
+      "url": "https://www.instadeep.com/about-us/"
+    },
+    {
+      "name": "Zohra Slim",
+      "role": "Co-founder of InstaDeep; part of the founding team behind Tunisia's flagship AI company",
+      "affiliation": "InstaDeep",
+      "category": "company_leader",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Karim Beguir",
+      "type": "person",
+      "role": "InstaDeep co-founder/CEO; a leading figure in applied AI from an African-founded company",
+      "category": "company",
+      "url": "https://www.instadeep.com/about-us/"
+    },
+    {
+      "name": "Sofiene Hemissi",
+      "type": "person",
+      "role": "Minister of Communication Technologies; principal government spokesperson on Tunisia's AI direction",
+      "category": "government",
+      "needsVerification": true
+    },
+    {
+      "name": "ATUGE",
+      "type": "organization",
+      "role": "Diaspora grandes-écoles network authoring national AI-strategy proposals (2026 White Paper)",
+      "category": "think_tank",
+      "url": "https://www.atuge.org"
+    },
+    {
+      "name": "Tunisie Haut Débit (THD)",
+      "type": "organization",
+      "role": "Tunisian tech-policy outlet tracking and critiquing the country's AI and digital strategy",
+      "category": "journalist",
+      "url": "https://www.thd.tn"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Ministry of Communication Technologies", "type": "government" },
+    { "label": "INPDP", "type": "agency" },
+    { "label": "InstaDeep / BioNTech", "type": "company" },
+    { "label": "ATUGE", "type": "think_tank" },
+    { "label": "SUP'COM / INSAT / EPT / ENIT", "type": "research" }
+  ],
+  "notableGaps": [
+    { "area": "Formally-adopted national AI strategy", "note": "Despite announcements dating to 2018 and inclusion in the 2026-2030 Development Plan, Tunisian outlets reported in mid-2026 that no AI strategy has been formally promulgated or published in the official journal; external trackers describing an adopted 2026-2030 strategy and National AI Council could not be firmly reconciled with this reporting." },
+    { "area": "Dedicated binding AI law", "note": "No AI-specific statute is identified as in force; governance rests on the 2004 data-protection law (Organic Law 2004-63), itself widely seen as dated relative to GDPR-era frameworks." },
+    { "area": "Domestic frontier developer and compute", "note": "InstaDeep does world-class applied AI but is BioNTech-owned, London-headquartered and not a frontier LLM lab; Tunisia has no domestic frontier-model developer and, per a 2026 assessment, no major domestic data centres." },
+    { "area": "Talent retention", "note": "Tunisia's strong engineering pipeline is undercut by persistent brain drain, with much of its AI talent — InstaDeep's centre of gravity included — operating abroad." }
+  ],
+  "debates": [
+    {
+      "topic": "Whether Tunisia can retain AI talent or keeps exporting it — the InstaDeep 'success that left' and diaspora brain drain",
+      "category": "industry",
+      "summary": "Tunisia produces AI talent well out of proportion to its size, but its flagship success — InstaDeep — moved its centre of gravity to London and was acquired by a German firm, crystallising a wider debate about whether the country can capture value from the talent it trains.",
+      "expanded": "InstaDeep is routinely celebrated as proof of Tunisian technical excellence, yet its trajectory — Tunis-founded, London-headquartered, BioNTech-owned — is also read as a cautionary tale: the value creation, ownership and much of the senior talent ended up abroad. The same pattern recurs with ventures like Expensya (exited to a Swedish acquirer). Diaspora networks such as ATUGE and diaspora-mobilisation programmes (e.g. WATT) explicitly try to convert this outflow into a strategic asset, but whether Tunisia can build enough domestic demand, compute and capital to keep its next InstaDeep at home remains genuinely contested as of mid-2026.",
+      "sourceIds": ["tn-2", "tn-3", "tn-5"]
+    },
+    {
+      "topic": "A national AI strategy announced since 2018 but reportedly still not formally promulgated as of 2026",
+      "category": "government",
+      "summary": "Tunisian technology outlets argue that a national AI strategy has been repeatedly announced since 2018 without ever being formally adopted, even as ministers promote 'ethical and sovereign' AI abroad and some external trackers describe a strategy as already in place.",
+      "expanded": "The gap between rhetoric and formalisation is the crux of Tunisia's governance debate. On one side, the Communication Technologies minister has advocated Tunisian AI principles at international summits and AI was used to help draft the 2026-2030 Development Plan; on the other, Tunisian reporting maintains that no strategy has been published in the official journal and that promised bodies (councils, agencies, funds) remain inactive or only partially stood up. Meanwhile civil-society actors such as ATUGE have stepped into the vacuum with their own open-source strategy proposals. Reconciling upbeat external regulatory summaries with sceptical domestic accounts is itself part of the difficulty in assessing where Tunisia actually stands.",
+      "sourceIds": ["tn-4", "tn-8", "tn-6"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "How InstaDeep became Africa's biggest AI startup success",
+      "type": "interview",
+      "author": "Rest of World",
+      "url": "https://restofworld.org/2024/instadeep-africa-ai-startup-acquisition/"
+    },
+    {
+      "title": "InstaDeep CEO takes AI from Tunis to London",
+      "type": "interview",
+      "author": "Tech Xplore / Al-Monitor",
+      "url": "https://techxplore.com/news/2024-04-instadeep-ceo-ai-tunis-london.html"
+    },
+    {
+      "title": "Stratégie nationale de l'IA en Tunisie : annoncée depuis 2018, toujours introuvable en 2026",
+      "type": "newsletter",
+      "author": "Tunisie Haut Débit (THD)",
+      "url": "https://www.thd.tn/strategie-nationale-de-lia-en-tunisie-annoncee-depuis-2018-toujours-introuvable-en-2026/"
+    },
+    {
+      "title": "Intelligence Artificielle : l'ATUGE dévoile son Livre Blanc pour la Tunisie",
+      "type": "think_tank",
+      "author": "La Presse de Tunisie",
+      "url": "https://www.lapresse.tn/2026/08/05/intelligence-artificielle-latuge-devoile-son-livre-blanc-pour-la-tunisie/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "tn-1",
+      "title": "BioNTech Completes Acquisition of InstaDeep",
+      "publisher": "BioNTech",
+      "url": "https://investors.biontech.de/news-releases/news-release-details/biontech-completes-acquisition-instadeep/",
+      "date": "2023-07",
+      "category": "industry"
+    },
+    {
+      "id": "tn-2",
+      "title": "How InstaDeep became Africa's biggest AI startup success ($682m acquisition)",
+      "publisher": "Rest of World",
+      "url": "https://restofworld.org/2024/instadeep-africa-ai-startup-acquisition/",
+      "date": "2024-04",
+      "category": "news"
+    },
+    {
+      "id": "tn-3",
+      "title": "InstaDeep CEO takes AI from Tunis to London",
+      "publisher": "Tech Xplore",
+      "url": "https://techxplore.com/news/2024-04-instadeep-ceo-ai-tunis-london.html",
+      "date": "2024-04",
+      "category": "news"
+    },
+    {
+      "id": "tn-4",
+      "title": "Stratégie nationale de l'IA en Tunisie : annoncée depuis 2018, toujours introuvable en 2026",
+      "publisher": "Tunisie Haut Débit (THD)",
+      "url": "https://www.thd.tn/strategie-nationale-de-lia-en-tunisie-annoncee-depuis-2018-toujours-introuvable-en-2026/",
+      "date": "2026-07",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "tn-5",
+      "title": "Intelligence Artificielle : l'ATUGE dévoile son Livre Blanc pour la Tunisie",
+      "publisher": "La Presse de Tunisie",
+      "url": "https://www.lapresse.tn/2026/08/05/intelligence-artificielle-latuge-devoile-son-livre-blanc-pour-la-tunisie/",
+      "date": "2026-08-05",
+      "category": "news"
+    },
+    {
+      "id": "tn-6",
+      "title": "À Shanghai, la Tunisie défend une IA éthique et souveraine",
+      "publisher": "L'Économiste Maghrébin",
+      "url": "https://www.leconomistemaghrebin.com/2026/07/20/shanghai-la-tunisie-defend-une-ia-ethique-et-souveraine/",
+      "date": "2026-07-20",
+      "category": "news"
+    },
+    {
+      "id": "tn-7",
+      "title": "Tunisia Plans $51 Million AI and Drones Program to Modernize Civil Protection Services",
+      "publisher": "Ecofin Agency",
+      "url": "https://www.ecofinagency.com/news-digital/2708-48183-tunisia-plans-51-million-ai-and-drones-program-to-modernize-civil-protection-services",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "tn-8",
+      "title": "Le ministre des Technologies : « la Tunisie est en phase avec les développements de l'IA »",
+      "publisher": "La Presse de Tunisie",
+      "url": "https://www.lapresse.tn/2026/04/01/le-ministre-des-technologies-la-tunisie-est-en-phase-avec-les-developpements-de-lia/",
+      "date": "2026-04-01",
+      "category": "news"
+    },
+    {
+      "id": "tn-9",
+      "title": "IA en Tunisie : les prérequis du ministre résistent-ils à l'examen ?",
+      "publisher": "Business News Tunisie",
+      "url": "https://businessnews.com.tn/2026/04/04/ia-en-tunisie-les-prerequis-du-ministre-resistent-ils-a-lexamen/1394964/",
+      "date": "2026-04-04",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "tn-10",
+      "title": "Tunisia's Cabinet Monitors Advancement of 192 Digital Transformation Projects",
+      "publisher": "TechAfrica News",
+      "url": "https://techafricanews.com/2026/02/16/tunisias-cabinet-monitors-advancement-of-192-digital-transformation-projects/",
+      "date": "2026-02-16",
+      "category": "news"
+    },
+    {
+      "id": "tn-11",
+      "title": "Plan de développement 2026–2030 : l'intelligence artificielle utilisée pour définir les priorités stratégiques",
+      "publisher": "La Presse de Tunisie",
+      "url": "https://www.lapresse.tn/2025/07/09/plan-de-developpement-2026-2030-lintelligence-artificielle-utilisee-pour-definir-les-priorites-strategiques/",
+      "date": "2025-07-09",
+      "category": "news"
+    },
+    {
+      "id": "tn-12",
+      "title": "Data protection laws in Tunisia",
+      "publisher": "DLA Piper — Data Protection Laws of the World",
+      "url": "https://www.dlapiperdataprotection.com/?t=law&c=TN",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "tn-13",
+      "title": "Tunisia — National Authority for the Protection of Personal Data (INPDP)",
+      "publisher": "NADPA-RAPDP",
+      "url": "https://www.rapdp.org/en/node/47",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "tn-14",
+      "title": "About the Startup Act",
+      "publisher": "Startup Tunisia",
+      "url": "https://startup.gov.tn/en/startup_act/discover",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "tn-15",
+      "title": "About Us",
+      "publisher": "InstaDeep",
+      "url": "https://www.instadeep.com/about-us/",
+      "date": "2026",
+      "category": "industry"
+    }
+  ]
+}

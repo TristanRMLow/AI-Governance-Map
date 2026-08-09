@@ -11,8 +11,8 @@
   "accentColor": { "light": "#458344", "dark": "#62AE61" },
   "center": [51.2, 25.3],
   "zoom": 7.8,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 7,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Qatar's compute-diplomacy bet: sovereignty ambitions versus dependence on foreign capital and hyperscalers",
@@ -36,6 +36,13 @@
     "summary": "Qatar's recent trajectory has been dominated by rapid capital deployment into AI infrastructure — most visibly the $20B Qai-Brookfield joint venture announced in December 2025 — rather than new binding rules. On the regulatory side, movement has been narrow and procedural (the QICDRC's January 2026 directive on AI in litigation) rather than comprehensive; officials have signaled that fuller sectoral and GCC-aligned AI regulation is not expected until 2026-2027, so the near-term emphasis remains on strategy, infrastructure and ethics guidance rather than enforceable AI-specific law."
   },
   "recentDevelopments": [
+    {
+      "text": "The GCC (Gulf Cooperation Council) steering committee is reported to have announced a common regional AI policy — shared principles on AI ethics, data privacy, security and cross-border cooperation among member states — as a step toward a unified Gulf AI strategy. This aligns with Qatar's own phased plan, which explicitly anticipates GCC-wide alignment by 2026-2027, though details on scope, timeline and enforcement remain thin in early reporting.",
+      "date": "2026-08",
+      "sourceIds": ["qa-16"],
+      "needsVerification": true,
+      "eventGroup": "gcc-common-ai-policy-aug2026"
+    },
     {
       "text": "Qai (Qatar's state AI company, a subsidiary of the Qatar Investment Authority) and Brookfield Asset Management announce a $20B strategic partnership to build AI data-center and compute infrastructure in Qatar and international markets.",
       "date": "2025-12-09",
@@ -273,6 +280,7 @@
     { "id": "qa-12", "title": "Desert Bytes: Why Gulf AI Ambitions Must Align with Energy and Water Realities", "publisher": "Middle East Council on Global Affairs", "url": "https://mecouncil.org/publication/gulf-ai-data-centers-water-energy/", "date": "2026", "category": "think_tank" },
     { "id": "qa-13", "title": "The Gulf's trillion-dollar AI dream faces a water crisis", "publisher": "Rest of World", "url": "https://restofworld.org/2025/gulf-ai-water-crisis/", "date": "2025", "category": "news" },
     { "id": "qa-14", "title": "Accelerated investment in AI data centres in the GCC region will reach USD5–7 billion in 2026", "publisher": "Analysys Mason", "url": "https://www.analysysmason.com/about-us/news/predictions-2026/prediction-ai-investment-gcc/", "date": "2026", "category": "research" },
-    { "id": "qa-15", "title": "On a mission to lead in AI, Qatar partners with Microsoft to expand Cloud Data Centres", "publisher": "Doha News", "url": "https://dohanews.co/on-a-mission-to-lead-in-ai-qatar-partners-with-microsoft-to-expand-cloud-data-centres/", "date": "2026", "category": "news" }
+    { "id": "qa-15", "title": "On a mission to lead in AI, Qatar partners with Microsoft to expand Cloud Data Centres", "publisher": "Doha News", "url": "https://dohanews.co/on-a-mission-to-lead-in-ai-qatar-partners-with-microsoft-to-expand-cloud-data-centres/", "date": "2026", "category": "news" },
+    { "id": "qa-16", "title": "GCC steering committee announces AI policy", "publisher": "ID Times", "url": "https://id-times.com/news/gcc-steering-committee-announces-ai-policy/", "date": "2026-08", "category": "news" }
   ]
 }

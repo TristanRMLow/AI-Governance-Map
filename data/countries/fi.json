@@ -1,0 +1,449 @@
+{
+  "code": "fi",
+  "name": "Finland",
+  "shortName": "Finland",
+  "flagEmoji": "🇫🇮",
+  "geometryType": "polygon",
+  "isoA3": [
+    "FIN"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "EU AI Act member state, decentralised multi-regulator supervision; LUMI supercomputer and AMD's Silo AI as an emerging open-model base",
+  "accentColor": {
+    "light": "#5A6EA0",
+    "dark": "#7B8FC2"
+  },
+  "center": [
+    25.5,
+    64.5
+  ],
+  "zoom": 3.9,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 6,
+  "debateTopics": [
+    "Sovereign open LLMs on LUMI as Europe's third path",
+    "Silo AI's absorption into AMD",
+    "AI literacy at scale via Elements of AI"
+  ],
+  "overview": "Finland is one of Europe's more distinctive AI players, combining serious compute, an open-model tradition and a long record of AI-in-society policy. Its anchor asset is LUMI, the EuroHPC supercomputer in Kajaani hosted by CSC -- among Europe's most powerful and greenest systems, built on AMD EPYC CPUs and MI250X GPUs -- which has been used to train sovereign, multilingual open language models. That model tradition runs through Silo AI, described as Europe's largest private AI lab, which AMD acquired in 2024 (reported at roughly USD 665M) and which produced the open Poro and Viking Nordic-language LLMs on LUMI. Silo AI's Peter Sarlin now co-leads the EU-funded OpenEuroLLM consortium, whose first open models were expected around mid-2026.\n\nFinland was an early mover in AI policy -- among the first countries with a national AI strategy (2017) -- and pioneered mass AI literacy with the University of Helsinki's 'Elements of AI' MOOC. On regulation, Finland has taken a decentralised approach to the EU AI Act: its national implementing law, the Act on the Supervision of Certain Artificial Intelligence Systems (1377/2025), gave enforcement powers effect from 1 January 2026, distributing market-surveillance duties across a set of existing sectoral regulators with the Finnish Transport and Communications Agency (Traficom) as the central contact point. From 2 August 2026 the EU AI Act's GPAI supervision and enforcement powers are live -- exercised centrally by the Commission's AI Office rather than by Finnish regulators. Research strength sits at Aalto University and the University of Helsinki (jointly home to the Finnish Center for Artificial Intelligence, FCAI), and the company base includes AMD Silo AI, the supply-chain AI leader RELEX, data-platform firm Aiven and quantum-computing maker IQM. Finland is best read as an 'emerging' frontier player: it hosts frontier-scale compute and a credible open-model programme, but its flagship lab now sits inside AMD rather than as an independent national champion.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "Compute-rich, open-model tradition; emerging frontier via AMD Silo AI and LUMI",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act member state; decentralised national supervision law in force from 1 January 2026, Traficom as central contact point",
+    "latestMajorUpdate": "EU AI Act GPAI supervision and enforcement powers took effect from 2 August 2026 (exercised centrally by the Commission's AI Office); OpenEuroLLM's first open models, co-led from Finland, were expected around mid-2026",
+    "governmentInvolvement": "Long-standing national AI programmes (2017 strategy, AI 4.0, AuroraAI) plus heavy EuroHPC compute investment via LUMI",
+    "industrialStrategy": "Open sovereign LLMs on LUMI; Silo AI now within AMD; strengths in supply-chain AI (RELEX), data platforms (Aiven) and quantum (IQM)",
+    "internationalPartnerships": "Deep EuroHPC/EU embedding; co-leadership of the pan-European OpenEuroLLM consortium; AMD ownership of Silo AI",
+    "primaryPolicyFocus": "Implementing the EU AI Act via a decentralised model while sustaining sovereign open-model and compute capacity"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Finland's regulatory posture is tightening in step with the EU: its national AI supervision law took effect on 1 January 2026 and the AI Act's GPAI enforcement era is live from 2 August 2026. On the industrial side the direction is one of consolidation into pan-European and AMD-owned structures rather than a distinct new national push."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The EU AI Act's supervision and enforcement powers over general-purpose AI (GPAI) models took effect on 2 August 2026, together with the Act's Article 50 transparency duties. GPAI oversight is exercised centrally by the European Commission's AI Office -- which can request documentation, run evaluations, demand mitigations and fine providers up to EUR 15M or 3% of global turnover -- rather than by Finnish regulators. Nationally, Finland's decentralised supervision model (Traficom as central contact point) covers other AI-Act obligations.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "fi-1",
+        "fi-2"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "The pan-European OpenEuroLLM consortium -- coordinated by Charles University's Jan Hajic and co-led by Silo AI's (AMD) Peter Sarlin, and using EuroHPC compute including LUMI in Kajaani -- was reported to be preparing the release of its first open multilingual models around mid-2026, continuing the Poro/Viking lineage. The EUR 37.4M Digital Europe-funded project targets open, transparent European foundation models across 30+ languages, though first-year reporting flagged persistent compute constraints.",
+      "date": "2026-07",
+      "sourceIds": [
+        "fi-3",
+        "fi-4"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Finland's national AI-Act implementing law, the Act on the Supervision of Certain Artificial Intelligence Systems (1377/2025), took effect at the start of 2026, granting national authorities their supervision and enforcement powers. Finland adopted a decentralised model, distributing market-surveillance duties across existing regulators -- including Tukes (Safety and Chemicals Agency), the Data Protection Ombudsman, Fimea (Medicines Agency) and the Energy Authority -- with the Finnish Transport and Communications Agency (Traficom) as the central contact point.",
+      "date": "2026-01-01",
+      "sourceIds": [
+        "fi-5",
+        "fi-6"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "AMD continued to integrate Silo AI -- acquired in 2024 for a reported ~USD 665M and described as Europe's largest private AI lab -- as a European hub for open-model work and AI solutions, keeping the Poro/Viking open-LLM programme (trained on LUMI) within the AMD orbit rather than as an independent Finnish champion.",
+      "date": "2026-05",
+      "sourceIds": [
+        "fi-7"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Planning advanced for a successor to LUMI and for one of the EU's first AI Factories to be sited in Finland, extending Kajaani's role as a European hub for AI-scale compute powered largely by carbon-free electricity.",
+      "date": "2026-03",
+      "sourceIds": [
+        "fi-8"
+      ],
+      "needsVerification": true
+    },
+    {
+      "text": "Finland's AI ecosystem continued to draw on its long AI-literacy tradition -- the University of Helsinki's 'Elements of AI' MOOC, taken by well over a million learners globally -- and on research strength at Aalto University and the University of Helsinki through the Finnish Center for Artificial Intelligence (FCAI).",
+      "date": "2026-02",
+      "sourceIds": [
+        "fi-9"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Act on the Supervision of Certain Artificial Intelligence Systems (1377/2025)",
+      "status": "in_force",
+      "summary": "Finland's national law operationalising the EU AI Act, with enforcement powers taking effect from 1 January 2026. It adopts a decentralised model, assigning market-surveillance duties to a set of existing sectoral regulators (including Tukes, the Data Protection Ombudsman, Fimea, the Energy Authority and others) and designating the Finnish Transport and Communications Agency (Traficom) as the central contact point.",
+      "officialUrl": "https://valtioneuvosto.fi/en/-/1410877/national-supervision-of-eu-artificial-intelligence-act-to-begin-laws-on-powers-of-authorities-to-take-effect-at-start-of-the-year",
+      "sourceIds": [
+        "fi-5",
+        "fi-6"
+      ]
+    },
+    {
+      "title": "EU AI Act (GPAI supervision and enforcement)",
+      "status": "in_force",
+      "summary": "As an EU member state Finland is bound by the AI Act. Its GPAI supervision and enforcement powers took effect from 2 August 2026, exercised centrally by the Commission's AI Office; most high-risk (Annex III) obligations are phased to 2027. Finnish national authorities handle the domestically-supervised obligations under the decentralised model.",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "sourceIds": [
+        "fi-1",
+        "fi-2"
+      ]
+    },
+    {
+      "title": "National AI strategy lineage (2017 onward)",
+      "status": "in_force",
+      "summary": "Finland was among the first countries to publish a national AI strategy (2017), followed by the Artificial Intelligence 4.0 Programme (focused on AI and digital uptake in industry and SMEs) and the AuroraAI human-centric public-services programme. These are strategy/programme frameworks rather than binding law, and predate the EU AI Act regime.",
+      "officialUrl": "https://tem.fi/en/artificial-intelligence-4.0",
+      "sourceIds": [
+        "fi-6"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Finnish AI research is concentrated at Aalto University and the University of Helsinki, which jointly host the Finnish Center for Artificial Intelligence (FCAI, a national flagship). This academic base underpins the open-model work (with TurkuNLP at the University of Turku contributing to Poro/Viking) and connects to LUMI-scale compute in Kajaani. Finland also pioneered mass AI literacy through the University of Helsinki's 'Elements of AI' MOOC.",
+    "sourceIds": [
+      "fi-9",
+      "fi-3"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Silo AI (AMD)",
+      "description": "Described as Europe's largest private AI lab; acquired by AMD in 2024 (reported ~USD 665M). Built the open Poro and Viking Nordic-language LLMs on LUMI and co-leads the OpenEuroLLM consortium. Now an AMD European AI hub rather than an independent national champion.",
+      "url": "https://www.silo.ai"
+    },
+    {
+      "name": "RELEX Solutions",
+      "description": "Finnish supply-chain and retail-planning software company using AI/optimisation at scale; one of Finland's most valuable tech firms (reported multi-billion valuation).",
+      "url": "https://www.relexsolutions.com"
+    },
+    {
+      "name": "Aiven",
+      "description": "Helsinki-founded open-source data-platform company (managed databases and streaming) increasingly positioned for AI/data workloads; among Finland's better-funded scaleups.",
+      "url": "https://aiven.io"
+    },
+    {
+      "name": "IQM Quantum Computers",
+      "description": "Espoo-based builder of superconducting quantum computers for research institutions and supercomputing centres -- part of Finland's compute-and-frontier-hardware story, adjacent to AI.",
+      "url": "https://www.meetiqm.com"
+    },
+    {
+      "name": "Aiforia",
+      "description": "Finnish medical-AI company focused on AI-assisted image analysis in pathology, illustrating Finland's applied-AI depth in health and life sciences.",
+      "url": "https://www.aiforia.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "CSC / LUMI (EuroHPC)",
+        "description": "CSC -- IT Center for Science hosts LUMI in Kajaani, a EuroHPC supercomputer among Europe's most powerful and greenest (AMD EPYC CPUs, MI250X GPUs), used for AI training including sovereign open LLMs. The primary sovereign compute asset for Finland and much of Europe.",
+        "url": "https://www.lumi-supercomputer.eu"
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Hyperscaler that has announced a large Finnish data-centre region (Espoo/Kirkkonummi area), serving enterprise and public-sector AI workloads.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Operates a major data-centre site at Hamina, one of Google's long-standing European facilities, used for cloud and AI workloads.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "AWS",
+        "description": "Major hyperscaler serving Finnish enterprise AI workloads via its broader EU (largely Nordic) regions.",
+        "url": "https://aws.amazon.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Hosts LUMI (EuroHPC) in Kajaani -- among Europe's most powerful systems -- used to train sovereign open LLMs, with a LUMI successor / EU AI Factory planned",
+    "chipAccess": "No domestic fabrication; relies on imported AMD (LUMI) and NVIDIA accelerators. AMD's ownership of Silo AI ties Finland's open-model work to AMD's chip stack"
+  },
+  "universities": [
+    {
+      "name": "Aalto University",
+      "description": "Espoo-based technical university and a leading Finnish AI research centre; co-host of the Finnish Center for Artificial Intelligence (FCAI).",
+      "url": "https://www.aalto.fi/en"
+    },
+    {
+      "name": "University of Helsinki",
+      "description": "Co-host of FCAI, originator (with MinnaLearn) of the 'Elements of AI' MOOC, and a major AI research university.",
+      "url": "https://www.helsinki.fi/en"
+    },
+    {
+      "name": "University of Turku (TurkuNLP)",
+      "description": "Home of the TurkuNLP group, a key contributor to the open Poro/Viking Finnish and Nordic language models trained on LUMI.",
+      "url": "https://www.utu.fi/en"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Finnish Center for Artificial Intelligence (FCAI)",
+      "description": "National AI flagship jointly run by Aalto University, the University of Helsinki and VTT, coordinating much of Finland's AI research agenda.",
+      "url": "https://fcai.fi"
+    },
+    {
+      "name": "VTT Technical Research Centre of Finland",
+      "description": "State research organisation conducting applied AI and technology research and contributing to national AI capacity, including within FCAI.",
+      "url": "https://www.vttresearch.com/en"
+    },
+    {
+      "name": "Sitra (Finnish Innovation Fund)",
+      "description": "Public future fund publishing on data, AI and digital-society policy, and long active in Finland's AI-and-society debates.",
+      "url": "https://www.sitra.fi/en/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Finnish Transport and Communications Agency (Traficom)",
+      "description": "Designated central contact point for the EU AI Act in Finland's decentralised supervision model under Act 1377/2025.",
+      "url": "https://www.traficom.fi/en",
+      "needsVerification": true
+    },
+    {
+      "name": "Ministry of Economic Affairs and Employment (TEM)",
+      "description": "Lead ministry for Finnish AI and industrial policy, including the AI 4.0 Programme and national AI strategy work.",
+      "url": "https://tem.fi/en/frontpage"
+    },
+    {
+      "name": "Office of the Data Protection Ombudsman",
+      "description": "Finnish data protection authority, one of the market-surveillance authorities in the decentralised AI-Act supervision model, covering AI that processes personal data.",
+      "url": "https://tietosuoja.fi/en/home"
+    },
+    {
+      "name": "CSC -- IT Center for Science",
+      "description": "State-owned company operating national and EuroHPC computing (including LUMI in Kajaani), central to Finland's sovereign AI compute.",
+      "url": "https://www.csc.fi/en/"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Peter Sarlin",
+      "role": "Co-founder of Silo AI (now AMD); co-leads the pan-European OpenEuroLLM consortium and a leading figure in European open-model development",
+      "affiliation": "AMD Silo AI",
+      "category": "company_leader",
+      "url": "https://www.silo.ai"
+    },
+    {
+      "name": "Teemu Roos",
+      "role": "University of Helsinki professor closely associated with the 'Elements of AI' MOOC and Finland's mass AI-literacy effort",
+      "affiliation": "University of Helsinki",
+      "category": "researcher",
+      "url": "https://www.helsinki.fi/en",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Peter Sarlin",
+      "type": "person",
+      "role": "AMD Silo AI co-founder; co-leads OpenEuroLLM, Europe's open-model consortium.",
+      "category": "company",
+      "url": "https://www.silo.ai"
+    },
+    {
+      "name": "LUMI supercomputer (CSC)",
+      "type": "organization",
+      "role": "EuroHPC system in Kajaani used to train sovereign open LLMs; among Europe's most powerful.",
+      "category": "university",
+      "url": "https://www.lumi-supercomputer.eu"
+    },
+    {
+      "name": "Finnish Center for Artificial Intelligence (FCAI)",
+      "type": "organization",
+      "role": "National AI flagship (Aalto, University of Helsinki, VTT).",
+      "category": "university",
+      "url": "https://fcai.fi"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Ministry of Economic Affairs and Employment",
+      "type": "government"
+    },
+    {
+      "label": "Silo AI (AMD)",
+      "type": "company"
+    },
+    {
+      "label": "LUMI / CSC",
+      "type": "research"
+    },
+    {
+      "label": "Aalto University / FCAI",
+      "type": "research"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "No fully independent frontier champion",
+      "note": "Finland's flagship AI lab, Silo AI, now sits inside AMD, and its open-model work runs through pan-European consortia (OpenEuroLLM). Finland has frontier-scale compute and credible open models, but not an independent national frontier lab -- hence 'emerging' rather than 'domestic'."
+    },
+    {
+      "area": "Compute constraints on open-model ambitions",
+      "note": "Reporting on OpenEuroLLM flagged persistent difficulties securing sufficient compute for training, tempering the sovereignty narrative even for a country that hosts LUMI."
+    },
+    {
+      "area": "Finland-specific cloud market share",
+      "note": "No reliable, independently-corroborated hyperscaler cloud market-share breakdown for Finland was verified in this pass, so dominance percentages are left unpopulated."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Sovereign open LLMs on LUMI as Europe's third path",
+      "category": "research",
+      "summary": "Finland's LUMI-trained open models (Poro, Viking, now OpenEuroLLM) are held up as a European 'third path' between US and Chinese models -- but face compute and funding limits.",
+      "expanded": "The Poro/Viking programme and the EU-funded OpenEuroLLM consortium (co-led from Finland) aim to produce open, transparent, multilingual European foundation models trained on public EuroHPC compute like LUMI. Proponents frame this as digital sovereignty and linguistic diversity; sceptics point to the gap in scale versus frontier US labs and to reported compute shortfalls, questioning whether open European models can stay near the frontier. The debate is central to how Finland positions its AI industrial strategy.",
+      "sourceIds": [
+        "fi-3",
+        "fi-4",
+        "fi-8"
+      ]
+    },
+    {
+      "topic": "Silo AI's absorption into AMD",
+      "category": "industry",
+      "summary": "The 2024 AMD acquisition of Silo AI gave Finland's flagship lab a chipmaker's backing but folded a would-be national champion into a US semiconductor company.",
+      "expanded": "Silo AI's acquisition by AMD (reported ~USD 665M) tied Finland's leading AI lab to AMD's compute stack and global scale. Optimists see access to chips, capital and markets; others ask whether a European 'largest private AI lab' being owned by a US chipmaker undercuts the sovereignty story, and what it means for where the value and IP of LUMI-trained models ultimately sit.",
+      "sourceIds": [
+        "fi-7"
+      ]
+    },
+    {
+      "topic": "AI literacy at scale via Elements of AI",
+      "category": "government",
+      "summary": "Finland's 'Elements of AI' MOOC is a widely cited model for mass public AI literacy -- but debate continues over whether literacy translates into competitiveness.",
+      "expanded": "The University of Helsinki's 'Elements of AI' course, taken by well over a million learners and translated into many languages, made Finland a reference point for democratising AI understanding. The open question is whether broad literacy, combined with strong research and compute, converts into durable industrial advantage, or whether Finland's economic upside is captured elsewhere (e.g. via AMD's ownership of Silo AI).",
+      "sourceIds": [
+        "fi-9"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Elements of AI",
+      "type": "academic",
+      "author": "University of Helsinki & MinnaLearn",
+      "url": "https://www.elementsofai.com",
+      "note": "Finland's mass AI-literacy MOOC, taken by over a million learners."
+    },
+    {
+      "title": "LUMI supercomputer",
+      "type": "government",
+      "url": "https://www.lumi-supercomputer.eu"
+    },
+    {
+      "title": "OpenEuroLLM -- open LLMs for transparent AI in Europe",
+      "type": "academic",
+      "url": "https://openeurollm.eu/launch-press-release"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fi-1",
+      "title": "AI Act (regulatory framework for AI)",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "fi-2",
+      "title": "Finland: Artificial Intelligence -- Country Comparative Guide",
+      "publisher": "Legal 500",
+      "url": "https://www.legal500.com/guides/chapter/finland-artificial-intelligence/",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "fi-3",
+      "title": "Open LLMs for Transparent AI in Europe (OpenEuroLLM)",
+      "publisher": "CSC",
+      "url": "https://csc.fi/en/media-release/open-llms-for-transparent-ai-in-europe/",
+      "date": "2025",
+      "category": "research"
+    },
+    {
+      "id": "fi-4",
+      "title": "OpenEuroLLM -- launch press release",
+      "publisher": "OpenEuroLLM",
+      "url": "https://openeurollm.eu/launch-press-release",
+      "date": "2025",
+      "category": "research"
+    },
+    {
+      "id": "fi-5",
+      "title": "National supervision of EU Artificial Intelligence Act to begin -- laws on powers of authorities to take effect at start of the year",
+      "publisher": "Finnish Government (valtioneuvosto.fi)",
+      "url": "https://valtioneuvosto.fi/en/-/1410877/national-supervision-of-eu-artificial-intelligence-act-to-begin-laws-on-powers-of-authorities-to-take-effect-at-start-of-the-year",
+      "date": "2025-12",
+      "category": "government"
+    },
+    {
+      "id": "fi-6",
+      "title": "AI Regulatory Horizon Tracker -- Finland",
+      "publisher": "Bird & Bird",
+      "url": "https://www.twobirds.com/en/capabilities/artificial-intelligence/ai-legal-services/ai-regulatory-horizon-tracker/finland",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "fi-7",
+      "title": "AMD Acquires Finnish Silo AI",
+      "publisher": "Datacenter Forum",
+      "url": "https://www.datacenter-forum.com/datacenter-forum/amd-acquires-finnish-silo-ai",
+      "date": "2024",
+      "category": "news"
+    },
+    {
+      "id": "fi-8",
+      "title": "The successor for LUMI announced -- a new pan-European supercomputer and one of the first EU AI Factories in Finland",
+      "publisher": "LUMI",
+      "url": "https://lumi-supercomputer.eu/successor-for-lumi-announced/",
+      "date": "2025",
+      "category": "government"
+    },
+    {
+      "id": "fi-9",
+      "title": "Elements of AI",
+      "publisher": "University of Helsinki & MinnaLearn",
+      "url": "https://www.elementsofai.com",
+      "date": "2026",
+      "category": "research"
+    }
+  ],
+  "hasMajorUpdate": true
+}

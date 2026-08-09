@@ -20,8 +20,8 @@
       39.8
     ],
     "zoom": 3.2,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 13,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 14,
     "debateTopics": [
       "Agentic AI, cyber-offence and developer accountability",
       "White House control of frontier-model access (EO 14409 / Gold Eagle)",
@@ -52,8 +52,8 @@
       54.5
     ],
     "zoom": 4.6,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 10,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 11,
     "debateTopics": [
       "Blueprint vs. binding law — has the UK shelved the Frontier AI Bill?",
       "AI Growth Lab: advisory pilot vs. rule-relaxing sandbox",
@@ -81,8 +81,8 @@
       50.85
     ],
     "zoom": 4,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 7,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 9,
     "debateTopics": [
       "Digital Omnibus — simplification or weakening of the AI Act?",
       "Cloud and AI Development Act and compute sovereignty",
@@ -112,7 +112,7 @@
       1.35
     ],
     "zoom": 9,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 9,
     "debateTopics": [
       "Voluntary governance for agentic AI",
@@ -143,8 +143,8 @@
       36.5
     ],
     "zoom": 4.3,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 9,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 10,
     "debateTopics": [
       "AI Basic Plan implementation and the AI investment gap",
       "AI copyright compensation and voice-imitation rules",
@@ -174,8 +174,8 @@
       35.9
     ],
     "zoom": 3.2,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 8,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 9,
     "debateTopics": [
       "Regulating agentic AI under the new Intelligent Agents framework",
       "AI companion apps and anthropomorphic interaction rules",
@@ -205,8 +205,8 @@
       62
     ],
     "zoom": 2.2,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 6,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 7,
     "debateTopics": [
       "Building frontier AI under Western chip sanctions",
       "State control, 'traditional values' and AI content",
@@ -235,7 +235,7 @@
       56.1
     ],
     "zoom": 3,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 8,
     "debateTopics": [
       "Legislative vacuum after AIDA's death",
@@ -265,7 +265,7 @@
       51.16
     ],
     "zoom": 5.2,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 11,
     "debateTopics": [
       "Executive liability risk under Germany's AI Act enforcement framework",
@@ -296,7 +296,7 @@
       46.6
     ],
     "zoom": 5,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 10,
     "debateTopics": [
       "Mistral's defense-AI partnership and dual military/commercial strategy",
@@ -326,11 +326,41 @@
       52.1
     ],
     "zoom": 6.3,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 8,
     "debateTopics": [
       "Diplomatic activity without a domestic AI champion",
       "Dutch AI Implementation Act consultation"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "be",
+    "name": "Belgium",
+    "shortName": "Belgium",
+    "flagEmoji": "🇧🇪",
+    "geometryType": "polygon",
+    "isoA3": [
+      "BEL"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "EU AI Act member state hosting the Commission's AI Office in Brussels; fragmented federal-regional supervision atop imec's chip-R&D role",
+    "accentColor": {
+      "light": "#6E5A9C",
+      "dark": "#8A78BE"
+    },
+    "center": [
+      4.5,
+      50.6
+    ],
+    "zoom": 6.5,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Hosting the EU AI Office without a domestic frontier lab",
+      "imec's chokepoint role in the global chip supply chain",
+      "Fragmented federal-regional AI governance"
     ],
     "hasMajorUpdate": true
   },
@@ -355,7 +385,7 @@
       46.8
     ],
     "zoom": 6.6,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Sovereign open models versus reliance on foreign frontier labs",
@@ -385,7 +415,7 @@
       42.5
     ],
     "zoom": 5,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 7,
     "debateTopics": [
       "TDM copyright restriction scope contested by industry vs. rightsholders",
@@ -415,7 +445,7 @@
       40.3
     ],
     "zoom": 5.2,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 9,
     "debateTopics": [
       "AESIA's sandbox and enforcement posture",
@@ -445,12 +475,72 @@
       62.5
     ],
     "zoom": 3.9,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "National AI-Act implementation and which authority leads",
       "A copyright-safe sovereign Swedish language model",
       "Applied and industrial AI strength versus few sovereign frontier models"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "fi",
+    "name": "Finland",
+    "shortName": "Finland",
+    "flagEmoji": "🇫🇮",
+    "geometryType": "polygon",
+    "isoA3": [
+      "FIN"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "EU AI Act member state, decentralised multi-regulator supervision; LUMI supercomputer and AMD's Silo AI as an emerging open-model base",
+    "accentColor": {
+      "light": "#5A6EA0",
+      "dark": "#7B8FC2"
+    },
+    "center": [
+      25.5,
+      64.5
+    ],
+    "zoom": 3.9,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Sovereign open LLMs on LUMI as Europe's third path",
+      "Silo AI's absorption into AMD",
+      "AI literacy at scale via Elements of AI"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "dk",
+    "name": "Denmark",
+    "shortName": "Denmark",
+    "flagEmoji": "🇩🇰",
+    "geometryType": "polygon",
+    "isoA3": [
+      "DNK"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Early-moving EU AI Act member state; foundation-backed Gefion supercomputer and a health/pharma AI specialism",
+    "accentColor": {
+      "light": "#A8504A",
+      "dark": "#C4685E"
+    },
+    "center": [
+      10.4,
+      56
+    ],
+    "zoom": 5.8,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Foundation-funded sovereign compute (Gefion)",
+      "Health and pharma AI as national specialism",
+      "Moving early on national AI-Act implementation"
     ],
     "hasMajorUpdate": true
   },
@@ -475,12 +565,42 @@
       52
     ],
     "zoom": 5.2,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 6,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 7,
     "debateTopics": [
       "Distributed EU AI Act enforcement and the new KRiBSI commission",
       "Sovereign PLLuM model and public-sector AI adoption",
       "Data-centre boom versus grid and energy constraints"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "ee",
+    "name": "Estonia",
+    "shortName": "Estonia",
+    "flagEmoji": "🇪🇪",
+    "geometryType": "polygon",
+    "isoA3": [
+      "EST"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "e-state deploying AI across government and schools; EU AI Act applied via existing regulators, with no standalone national AI law",
+    "accentColor": {
+      "light": "#4A90B5",
+      "dark": "#63A8CC"
+    },
+    "center": [
+      25.6,
+      58.7
+    ],
+    "zoom": 6.6,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "AI Leap 2025 -- OpenAI and Anthropic in every school",
+      "Digital identities for AI agents",
+      "AI across the e-state via bürokratt"
     ],
     "hasMajorUpdate": true
   },
@@ -505,7 +625,7 @@
       53.2
     ],
     "zoom": 6,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Ireland as the EU's de facto AI-enforcement hub",
@@ -535,7 +655,7 @@
       48.4
     ],
     "zoom": 5,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Wartime defence AI and autonomous weapons",
@@ -565,7 +685,7 @@
       36.5
     ],
     "zoom": 6.2,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 8,
     "debateTopics": [
       "AI Basic Act enforcement decree's narrow high-risk definition",
@@ -594,7 +714,7 @@
       22
     ],
     "zoom": 4,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 7,
     "debateTopics": [
       "India signals a possible shift toward binding AI legislation",
@@ -624,12 +744,43 @@
       30.4
     ],
     "zoom": 4.3,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Ambitious AI targets vs. limited compute and funding",
       "Regulating AI without a data-protection law",
       "An IT-export and freelancer economy meeting AI"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "bd",
+    "name": "Bangladesh",
+    "shortName": "Bangladesh",
+    "flagEmoji": "🇧🇩",
+    "geometryType": "polygon",
+    "isoA3": [
+      "BGD"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Draft risk-based national AI policy atop a newly enacted data-protection law, carried across a 2026 change of government",
+    "accentColor": {
+      "light": "#2E8A5B",
+      "dark": "#40AE76"
+    },
+    "center": [
+      90.3,
+      23.7
+    ],
+    "zoom": 6.2,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 8,
+    "debateTopics": [
+      "Whether an ambitious draft AI policy can survive Bangladesh's institutional-capacity and political-transition gap",
+      "Data-protection and cyber laws that critics argue protect the state more than citizens",
+      "A vast freelancer and BPO workforce exposed to AI automation, with thin domestic Bengali-model capacity",
+      "Reliance on a single national data centre and new data-localisation rules for 'sovereign' AI"
     ],
     "hasMajorUpdate": true
   },
@@ -654,8 +805,8 @@
       23.7
     ],
     "zoom": 7,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 5,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 6,
     "debateTopics": [
       "AI chip export controls on China beyond the existing US blacklist",
       "Building an AI ecosystem around chips rather than models",
@@ -684,12 +835,42 @@
       -25.3
     ],
     "zoom": 3.5,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Reversal from mandatory guardrails to technology-neutral regulation",
       "Legislating Australian Standards for AI and mandatory rules for large data centres",
       "AI Safety Institute's role without binding law behind it"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "nz",
+    "name": "New Zealand",
+    "shortName": "New Zealand",
+    "flagEmoji": "🇳🇿",
+    "geometryType": "polygon",
+    "isoA3": [
+      "NZL"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Principles-based, adoption-first approach relying on existing law and voluntary guidance, not a standalone AI Act",
+    "accentColor": {
+      "light": "#3E6E9E",
+      "dark": "#5C8FC2"
+    },
+    "center": [
+      172.5,
+      -41
+    ],
+    "zoom": 4.7,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 7,
+    "debateTopics": [
+      "Light-touch, adoption-first strategy versus calls for enforceable AI rules",
+      "Māori data sovereignty and Te Tiriti o Waitangi in AI governance",
+      "Governing algorithms without legislation: the Algorithm Charter's soft-law model"
     ],
     "hasMajorUpdate": true
   },
@@ -714,8 +895,8 @@
       48
     ],
     "zoom": 3.3,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 7,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 8,
     "debateTopics": [
       "Central Asia's AI hub ambitions",
       "Sovereign models and compute vs. foreign dependence",
@@ -744,8 +925,8 @@
       24
     ],
     "zoom": 6.5,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 8,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 9,
     "debateTopics": [
       "Consolidating AI governance under a single new Authority",
       "Chip access diplomacy and the shift toward unrestricted export status"
@@ -773,8 +954,8 @@
       24
     ],
     "zoom": 4.8,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 7,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 8,
     "debateTopics": [
       "Shift from AI strategy to execution — can HUMAIN build in one year what took 20?",
       "Chip access as part of Gulf compute diplomacy",
@@ -803,7 +984,7 @@
       -10.8
     ],
     "zoom": 3.5,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 4,
     "debateTopics": [
       "Biometric surveillance carve-outs and other sticking points in PL 2338",
@@ -832,8 +1013,8 @@
       31
     ],
     "zoom": 6.8,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 6,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 7,
     "debateTopics": [
       "AI21 Labs' decline and what it signals about the Israeli AI startup boom",
       "Israel's principle-based approach without a binding AI law as models scale",
@@ -862,7 +1043,7 @@
       -0.5
     ],
     "zoom": 3.6,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Data localization and digital sovereignty vs. hyperscaler investment",
@@ -892,7 +1073,7 @@
       3.5
     ],
     "zoom": 3.8,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 5,
     "debateTopics": [
       "Malaysia's role as a chip trans-shipment hub amid US-China export controls",
@@ -922,7 +1103,7 @@
       15
     ],
     "zoom": 5,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 5,
     "debateTopics": [
       "Draft AI Act's risk-based rules vs. concerns over investment deterrence",
@@ -952,8 +1133,8 @@
       14.5
     ],
     "zoom": 4.5,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 8,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 9,
     "debateTopics": [
       "AI-driven job displacement in Vietnam's IT workforce vs. talent shortages",
       "Building a self-reliant 'Make in Vietnam' AI ecosystem vs. dependence on Nvidia and foreign partners",
@@ -982,7 +1163,7 @@
       12.5
     ],
     "zoom": 4.3,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "BPO jobs versus AI-driven automation",
@@ -1012,12 +1193,42 @@
       9.5
     ],
     "zoom": 5.2,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Nigeria's antitrust and content-scraping probe of Meta, Alphabet and X as a digital-sovereignty flashpoint",
       "A crowded, overlapping field of AI bills with no single one yet enacted",
       "A fast-growing AI startup scene constrained by a persistent capital gap"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "gh",
+    "name": "Ghana",
+    "shortName": "Ghana",
+    "flagEmoji": "🇬🇭",
+    "geometryType": "polygon",
+    "isoA3": [
+      "GHA"
+    ],
+    "region": "Africa",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Newly launched National AI Strategy and $250m compute plan atop the 2012 Data Protection Act; no binding AI law yet",
+    "accentColor": {
+      "light": "#B5943E",
+      "dark": "#D0A94C"
+    },
+    "center": [
+      -1.1,
+      7.9
+    ],
+    "zoom": 5.9,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 6,
+    "debateTopics": [
+      "Whether Ghana's $250m AI computing centre and $1bn UAE hub can be delivered given scarce detail, funding and power constraints",
+      "Governing AI without a binding AI-specific law while relying on the 2012 Data Protection Act as the 2025 Bill stalls",
+      "Building AI for Ghanaian languages and digital inclusion"
     ],
     "hasMajorUpdate": true
   },
@@ -1042,7 +1253,7 @@
       -29
     ],
     "zoom": 4.6,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 5,
     "debateTopics": [
       "Withdrawal of the draft National AI Policy over AI-fabricated citations and what it means for government AI use",
@@ -1071,8 +1282,8 @@
       0.2
     ],
     "zoom": 5.5,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 7,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 8,
     "debateTopics": [
       "Kenyan content moderators' and data annotators' court battles with Meta and Sama over AI-related labour conditions",
       "Whether Kenya's proposed AI Commissioner would duplicate the Data Protection Commissioner and Communications Authority"
@@ -1100,7 +1311,7 @@
       26.5
     ],
     "zoom": 4.8,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 8,
     "debateTopics": [
       "Whether Egypt's ethics-charter model can hold before binding AI legislation is finally adopted",
@@ -1130,8 +1341,8 @@
       -1.9
     ],
     "zoom": 7.5,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 5,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 7,
     "debateTopics": [
       "Whether a heavily state-directed AI push is compatible with Rwanda's weak checks on digital surveillance",
       "Whether Rwanda's AI ambitions are constrained by limited domestic compute and energy capacity"
@@ -1159,8 +1370,8 @@
       8.6
     ],
     "zoom": 4.9,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 4,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 5,
     "debateTopics": [
       "Whether Ethiopia's AI ambitions can be reconciled with severe capacity gaps in data infrastructure and skilled personnel",
       "The role of AI-amplified misinformation on social platforms during Ethiopia's ethnic and political conflicts"
@@ -1188,11 +1399,40 @@
       31.8
     ],
     "zoom": 5.2,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Whether 'Maroc IA 2030' can deliver genuine digital and linguistic sovereignty while relying heavily on foreign AI labs like Mistral AI",
       "Automation risk to Morocco's large offshoring/BPO sector versus the government's AI-led growth targets"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "tn",
+    "name": "Tunisia",
+    "shortName": "Tunisia",
+    "flagEmoji": "🇹🇳",
+    "geometryType": "polygon",
+    "isoA3": [
+      "TUN"
+    ],
+    "region": "Africa",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "AI strategy long-announced but reportedly unpromulgated; 2004 data-protection law (INPDP); InstaDeep applied-AI heritage",
+    "accentColor": {
+      "light": "#9C4A4A",
+      "dark": "#BD6262"
+    },
+    "center": [
+      9.5,
+      34
+    ],
+    "zoom": 5.6,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 7,
+    "debateTopics": [
+      "Whether Tunisia can retain AI talent or keeps exporting it — the InstaDeep 'success that left' and diaspora brain drain",
+      "A national AI strategy announced since 2018 but reportedly still not formally promulgated as of 2026"
     ],
     "hasMajorUpdate": true
   },
@@ -1217,7 +1457,7 @@
       39
     ],
     "zoom": 4.7,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "AI-powered surveillance expansion outpacing Turkey's stalled comprehensive AI law",
@@ -1246,8 +1486,8 @@
       25.3
     ],
     "zoom": 7.8,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 6,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 7,
     "debateTopics": [
       "Qatar's compute-diplomacy bet: sovereignty ambitions versus dependence on foreign capital and hyperscalers",
       "Water and energy strain from Gulf AI data-center buildout in a highly water-stressed country"
@@ -1275,7 +1515,7 @@
       32.4
     ],
     "zoom": 4.5,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 7,
     "debateTopics": [
       "Repeated restructuring of Iran's national AI governance body reflects deeper power struggles within the state",
@@ -1306,7 +1546,7 @@
       31.2
     ],
     "zoom": 6.5,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Independence concerns over Jordan's planned data protection authority",
@@ -1335,7 +1575,7 @@
       23.6
     ],
     "zoom": 4.2,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 8,
     "debateTopics": [
       "Whether Mexico's new AI-adjacent content rules risk conflicting with USMCA obligations",
@@ -1364,8 +1604,8 @@
       -34
     ],
     "zoom": 3.6,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 9,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 10,
     "debateTopics": [
       "Whether AI-run 'non-human corporations' can be safely accountable without a human owner",
       "AI-driven disruption of Argentina's large IT-services workforce and who bears responsibility for retraining"
@@ -1393,7 +1633,7 @@
       -35
     ],
     "zoom": 3.4,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 7,
     "debateTopics": [
       "Whether the proposed National Commission on AI overlaps confusingly with a future data-protection agency",
@@ -1422,8 +1662,8 @@
       4
     ],
     "zoom": 4.9,
-    "lastUpdated": "2026-08-02",
-    "newDevelopmentsCount": 6,
+    "lastUpdated": "2026-08-09",
+    "newDevelopmentsCount": 7,
     "debateTopics": [
       "Whether the incoming De la Espriella administration will maintain the AI bill and CONPES 4144 roadmap",
       "Rights-based safeguards versus an innovation-first, sandbox-driven approach to AI regulation"
@@ -1451,7 +1691,7 @@
       -9.2
     ],
     "zoom": 4.6,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 5,
     "debateTopics": [
       "Whether the AI Law's regulation imposes unlawful bureaucratic barriers on private-sector AI developers",
@@ -1480,7 +1720,7 @@
       -32.8
     ],
     "zoom": 6.3,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 8,
     "debateTopics": [
       "Governance credibility questions at AGESIC amid a leadership crisis, just as Uruguay positions itself as a regional AI-ethics leader",
@@ -1509,7 +1749,7 @@
       9.9
     ],
     "zoom": 6.9,
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-08-09",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Whether Costa Rica should legislate now or wait, given MICITT's own caution that binding AI law could become obsolete before publication",

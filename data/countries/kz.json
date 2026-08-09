@@ -19,8 +19,8 @@
     48
   ],
   "zoom": 3.3,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "Central Asia's AI hub ambitions",
     "Sovereign models and compute vs. foreign dependence",
@@ -44,6 +44,14 @@
     "summary": "Kazakhstan is simultaneously building governance and capacity: a first-of-its-kind AI law adds binding obligations (transparency, safety, data privacy), while a dedicated ministry, sovereign models and a rapid data-centre build-out expand the state's role. The net direction is a tightening, more structured regime layered on an aggressive investment-led expansion — with the main uncertainty being execution rather than intent."
   },
   "recentDevelopments": [
+    {
+      "text": "Amendments to Kazakhstan's personal-data-protection framework are reported to take effect from 25 August 2026, adding statutory definitions (including automated processing, anonymisation, masking and personal-data-security breaches) and requiring the competent authority to maintain a register of data-security breaches — tightening the data-governance backdrop to the country's fast-moving AI and data-centre build-out.",
+      "date": "2026-08",
+      "sourceIds": [
+        "kz-13"
+      ],
+      "needsVerification": true
+    },
     {
       "text": "Kazakhstan's first comprehensive Law 'On Artificial Intelligence' — adopted 29 October 2025 — took effect on 18 January 2026, introducing rules for AI systems on transparency, safety, accountability and data privacy, and reported as the first such law in Central Asia.",
       "date": "2026-01-18",
@@ -469,6 +477,14 @@
       "url": "https://finance.yahoo.com/technology/ai/articles/data-centre-valley-kazakhstan-firebird-111706161.html",
       "date": "2026-05",
       "category": "news"
+    },
+    {
+      "id": "kz-13",
+      "title": "Republic of Kazakhstan Data Protection Law: Amendments in 2026",
+      "publisher": "Morgan Lewis",
+      "url": "https://www.morganlewis.com/pubs/2026/07/republic-of-kazakhstan-data-protection-law-amendments-in-2026",
+      "date": "2026-07",
+      "category": "expert_commentary"
     }
   ],
   "hasMajorUpdate": true

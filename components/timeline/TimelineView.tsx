@@ -11,6 +11,7 @@ import { useWatchlist } from "@/lib/useWatchlist";
  * Falls back to the representative development's own text if a key isn't listed. */
 const GROUP_TITLES: Record<string, string> = {
   "eu-ai-act-gpai-aug2026": "EU AI Act — GPAI enforcement powers and transparency duties take effect (2 August 2026)",
+  "gcc-common-ai-policy-aug2026": "GCC steering committee announces a common regional AI policy (August 2026)",
 };
 
 function MajorBadge() {

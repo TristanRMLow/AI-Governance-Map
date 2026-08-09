@@ -19,8 +19,8 @@
     52.0
   ],
   "zoom": 5.2,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 7,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Distributed EU AI Act enforcement and the new KRiBSI commission",
@@ -34,7 +34,7 @@
       "sentiment": "blue"
     },
     "regulatoryApproach": "EU AI Act member state; national Act on AI Systems adopted by government, creating the KRiBSI supervisory commission",
-    "latestMajorUpdate": "Council of Ministers adopted the Act on Artificial Intelligence Systems",
+    "latestMajorUpdate": "President signs the Act on Artificial Intelligence Systems into law (24 July 2026), entering into force 11 August 2026 and standing up the KRiBSI supervisor",
     "governmentInvolvement": "High and rising: Ministry of Digital Affairs leads strategy, PLLuM, sandboxes and data-centre policy",
     "industrialStrategy": "Hyperscale data centres, EuroHPC AI factories (Poznan, Krakow), sovereign PLLuM model, startup support via AI Lab Poland",
     "internationalPartnerships": "EU AI Act framework; strategic AI partnership with Google; bidding to host an EU AI gigafactory",
@@ -45,6 +45,15 @@
     "summary": "Poland is moving from strategy to enforcement architecture: it has adopted a national Act on AI Systems creating the KRiBSI supervisor and aligned with the EU AI Act's 2 August 2026 general-purpose AI milestone, while simultaneously loosening barriers to investment through sandboxes and heavy data-centre expansion. The net direction is a more formal regulatory regime layered onto an aggressive growth push."
   },
   "recentDevelopments": [
+    {
+      "text": "President Karol Nawrocki signed Poland's Act on Artificial Intelligence Systems into law on 24 July 2026, following parliamentary passage; published in the Journal of Laws on 27 July, it enters into force (as a rule) on 11 August 2026, formally establishing the Commission for the Development and Security of Artificial Intelligence (KRiBSI) as the sole national market-surveillance authority and single EU contact point under the AI Act — though KRiBSI still has to be formally constituted before it begins operating.",
+      "date": "2026-07-24",
+      "sourceIds": [
+        "pl-8",
+        "pl-9"
+      ],
+      "severity": "major"
+    },
     {
       "text": "Poland entered the race to host one of the EU-backed AI 'gigafactories', reflecting its ambition to anchor large-scale AI compute in Central Europe on top of its existing EuroHPC AI factories.",
       "date": "2026-07-28",
@@ -96,8 +105,8 @@
   "policyAndRegulation": [
     {
       "title": "Act on Artificial Intelligence Systems",
-      "status": "proposed",
-      "summary": "Draft legislation adopted by the Council of Ministers on 31 March 2026 to transpose the EU AI Act into Polish law. It would impose risk-assessment, transparency and safeguard obligations on AI providers and deployers, and establish the Commission for the Development and Security of Artificial Intelligence (KRiBSI) as the national supervisory authority -- an independent body administratively serviced by the Ministry of Digital Affairs, with powers to inspect and impose penalties. The bill also envisages an EU AI regulatory sandbox. As of early August 2026 it was proceeding through Parliament rather than yet in force.",
+      "status": "passed",
+      "summary": "Legislation transposing the EU AI Act into Polish law, adopted by the Council of Ministers on 31 March 2026, passed by Parliament and signed by President Karol Nawrocki on 24 July 2026. Published in the Journal of Laws on 27 July, it enters into force (as a rule) on 11 August 2026. It imposes risk-assessment, transparency and safeguard obligations on AI providers and deployers, and establishes the Commission for the Development and Security of Artificial Intelligence (KRiBSI) as the national supervisory authority -- an independent body administratively serviced by the Ministry of Digital Affairs, with powers to inspect and impose penalties -- and envisages an EU AI regulatory sandbox. KRiBSI must still be formally constituted before it begins operating.",
       "officialUrl": "https://digitalpolicyalert.org/change/11449-draft-act-on-artificial-intelligence-systems-in-poland",
       "sourceIds": [
         "pl-2",
@@ -321,7 +330,7 @@
     },
     {
       "area": "Operational AI supervisor",
-      "note": "As of early August 2026 the KRiBSI commission is not yet operational: the Act on AI Systems had been adopted by the Council of Ministers but was still moving through Parliament, leaving national AI-Act enforcement mechanics not fully in place."
+      "note": "As of early August 2026 the KRiBSI commission is not yet operational: the Act on AI Systems was signed by the President on 24 July 2026 and enters into force on 11 August 2026, but KRiBSI still has to be formally constituted and staffed before it can act, leaving national AI-Act enforcement mechanics not fully in place at the Act's main milestone."
     },
     {
       "area": "Grid and energy constraints",
@@ -441,6 +450,22 @@
       "publisher": "Crowe Poland",
       "url": "https://www.crowe.com/pl/en-us/insights/a-new-draft-law-on-ai-systems-in-poland",
       "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "pl-8",
+      "title": "Act on Artificial Intelligence Systems Signed by the President",
+      "publisher": "Kancelaria Żuraw & Partners",
+      "url": "https://zglegal.pl/act-on-artificial-intelligence-systems-signed-by-the-president/",
+      "date": "2026-07",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "pl-9",
+      "title": "Polish President signs AI systems act into law",
+      "publisher": "Biznes PAP",
+      "url": "https://biznes.pap.pl/wiadomosci/gry-i-technologie/polish-president-signs-ai-systems-act-law",
+      "date": "2026-07",
       "category": "news"
     }
   ]

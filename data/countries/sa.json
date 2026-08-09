@@ -19,8 +19,8 @@
     24.0
   ],
   "zoom": 4.8,
-  "lastUpdated": "2026-08-02",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-09",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "Shift from AI strategy to execution — can HUMAIN build in one year what took 20?",
     "Chip access as part of Gulf compute diplomacy",
@@ -44,6 +44,15 @@
     "summary": "Saudi Arabia does not appear to be introducing new binding AI rules; instead, government statements have emphasized rapid execution of its existing strategy, with HUMAIN CEO Tareq Amin stating a goal of building in one year what previously took two decades."
   },
   "recentDevelopments": [
+    {
+      "text": "The GCC (Gulf Cooperation Council) steering committee is reported to have announced a common regional AI policy — shared principles on AI ethics, data privacy, security and cross-border cooperation among member states — as a step toward a unified Gulf AI strategy. Saudi Arabia, whose own approach already anticipates GCC-wide alignment, would be a central participant, though details on scope, timeline and enforcement remain thin in early reporting.",
+      "date": "2026-08",
+      "sourceIds": [
+        "sa-11"
+      ],
+      "needsVerification": true,
+      "eventGroup": "gcc-common-ai-policy-aug2026"
+    },
     {
       "text": "Cabinet designates 2026 the 'Year of Artificial Intelligence', marking a shift from strategy to execution of the National Strategy for Data and AI; SDAIA issues national guidelines to unify the year's initiatives across government.",
       "date": "2026",
@@ -368,6 +377,14 @@
       "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-sdaia-and-their-latest-arabic-llm-on-azure-ai-model-catalog/4240241",
       "date": "2025",
       "category": "industry"
+    },
+    {
+      "id": "sa-11",
+      "title": "GCC steering committee announces AI policy",
+      "publisher": "ID Times",
+      "url": "https://id-times.com/news/gcc-steering-committee-announces-ai-policy/",
+      "date": "2026-08",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

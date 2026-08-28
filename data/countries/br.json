@@ -19,8 +19,8 @@
     -10.8
   ],
   "zoom": 3.5,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 4,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 5,
   "debateTopics": [
     "Biometric surveillance carve-outs and other sticking points in PL 2338",
     "Whether PL 2338 can still pass in 2026 after repeated postponements"
@@ -43,6 +43,14 @@
     "summary": "Brazil could become one of the few major economies outside the EU with a comprehensive, binding, risk-based AI law if PL 2338 passes — the bill has cleared the Senate, but a Chamber of Deputies vote planned for May 2026 was postponed, and as of early August 2026 a floor vote is reported as unlikely before around December 2026."
   },
   "recentDevelopments": [
+    {
+      "text": "The federal government launched a roughly R$2.3 billion package of new measures under the Brazilian AI Plan (PBIA) centred on technological sovereignty (20 August 2026): a R$1.06 billion FNDCT-funded tender for a 7,200-petaflop (FP16) AI supercomputer at UFRN's science park in Macaíba, operated by LNCC; a planned R$1.2 billion supercomputer in Rio de Janeiro run with China's Huawei and iFlytek from July 2027; and the structuring of a sovereign Brazilian cloud for government data.",
+      "date": "2026-08-20",
+      "sourceIds": [
+        "br-8",
+        "br-9"
+      ]
+    },
     {
       "text": "With PL 2338's postponed May vote unresolved, parliamentary-advisory body DIAP reports that a Chamber of Deputies floor vote on the AI bill is now expected only toward the end of the 2026 legislative year (around December), pushing binding AI legislation further down the calendar and its enforcement provisions likely into 2027.",
       "date": "2026-07",
@@ -306,6 +314,22 @@
       "publisher": "Euronews",
       "url": "https://www.euronews.com/next/2026/02/12/what-is-latam-gpt-latin-americas-spanish-and-portuguese-ai-model",
       "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "br-8",
+      "title": "Governo anuncia edital de R$ 1 bi para supercomputador",
+      "publisher": "Mobile Time",
+      "url": "https://www.mobiletime.com.br/noticias/20/08/2026/governo-supercomputador2/",
+      "date": "2026-08-20",
+      "category": "news"
+    },
+    {
+      "id": "br-9",
+      "title": "Brasil anuncia pacote de R$ 2,5 bilhões para IA e supercomputador no RN",
+      "publisher": "Olhar Digital",
+      "url": "https://olhardigital.com.br/2026/08/20/inteligencia-artificial/brasil-anuncia-pacote-de-r-2-5-bilhoes-para-ia-e-supercomputador-no-rn/",
+      "date": "2026-08-20",
       "category": "news"
     }
   ],

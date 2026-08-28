@@ -4,12 +4,20 @@
   "shortName": "Peru",
   "flagEmoji": "🇵🇪",
   "geometryType": "polygon",
-  "isoA3": ["PER"],
+  "isoA3": [
+    "PER"
+  ],
   "region": "Americas",
   "jurisdictionType": "nation_state",
   "governanceModel": "Binding framework law (Ley 31814) implemented through regulation, with a sector-by-sector compliance rollout through 2028 and a parallel national AI strategy",
-  "accentColor": { "light": "#754483", "dark": "#9D61AE" },
-  "center": [-75.0, -9.2],
+  "accentColor": {
+    "light": "#754483",
+    "dark": "#9D61AE"
+  },
+  "center": [
+    -75.0,
+    -9.2
+  ],
   "zoom": 4.6,
   "lastUpdated": "2026-08-09",
   "newDevelopmentsCount": 5,
@@ -39,27 +47,39 @@
     {
       "text": "Supreme Decree N.° 115-2025-PCM, the implementing regulation for Ley 31814, is approved, naming the SGTD as national AI authority and setting a phased sectoral compliance timeline.",
       "date": "2025-09-09",
-      "sourceIds": ["pe-2"]
+      "sourceIds": [
+        "pe-2"
+      ]
     },
     {
       "text": "The AI Law's regulation enters into force.",
       "date": "2026-01-22",
-      "sourceIds": ["pe-2", "pe-3"]
+      "sourceIds": [
+        "pe-2",
+        "pe-3"
+      ]
     },
     {
       "text": "Government approves the National Artificial Intelligence Strategy 2026–2030 (ENIA) via Ministerial Resolution N.° 152-2026-PCM, mandatory for public entities.",
       "date": "2026-05-01",
-      "sourceIds": ["pe-5"]
+      "sourceIds": [
+        "pe-5"
+      ]
     },
     {
       "text": "INDECOPI's Sala Especializada en Eliminación de Barreras Burocráticas issues Resolution N.° 0219-2026/SEL, clarifying which obligations under the AI Law's regulation do and do not constitute unlawful bureaucratic barriers on businesses.",
       "date": "2026-05-20",
-      "sourceIds": ["pe-4"]
+      "sourceIds": [
+        "pe-4"
+      ]
     },
     {
       "text": "Ahead of Peru's April 12, 2026 general elections, the JNE announces AI-assisted monitoring tools to detect manipulated content and disinformation about electoral bodies across social platforms, while a congressional bill proposes fines for AI-generated deepfakes in campaigns.",
       "date": "2025-12-11",
-      "sourceIds": ["pe-6", "pe-7"]
+      "sourceIds": [
+        "pe-6",
+        "pe-7"
+      ]
     }
   ],
   "policyAndRegulation": [
@@ -68,25 +88,35 @@
       "status": "in_force",
       "summary": "Enacted July 5, 2023, declares AI promotion of national interest and sets general principles: safety, ethics, transparency, sustainability, non-discrimination, and human-rights protection.",
       "officialUrl": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf",
-      "sourceIds": ["pe-1"]
+      "sourceIds": [
+        "pe-1"
+      ]
     },
     {
       "title": "Reglamento de la Ley N.° 31814 (Decreto Supremo N.° 115-2025-PCM)",
       "status": "in_force",
       "summary": "Approved September 9, 2025, in force since January 22, 2026; designates the SGTD as national AI authority and phases in sectoral compliance obligations in tranches running from September 2026 through September 2029.",
       "officialUrl": "https://www.gob.pe/110224-conoce-el-reglamento-de-la-ley-de-inteligencia-artificial-en-el-peru",
-      "sourceIds": ["pe-2", "pe-3", "pe-9"]
+      "sourceIds": [
+        "pe-2",
+        "pe-3",
+        "pe-9"
+      ]
     },
     {
       "title": "Estrategia Nacional de Inteligencia Artificial 2026–2030 (ENIA)",
       "status": "in_force",
       "summary": "Approved May 1, 2026 via Resolución Ministerial N.° 152-2026-PCM; mandatory guidance for public administration entities and state-owned companies, referential for the private sector.",
-      "sourceIds": ["pe-5"]
+      "sourceIds": [
+        "pe-5"
+      ]
     }
   ],
   "researchEcosystem": {
     "summary": "The Grupo de Inteligencia Artificial de la Pontificia Universidad Católica del Perú (IA-PUCP) is described by the university as the country's leading AI research center, working on computer vision, pattern recognition and applications in health, security, environment and law. PUCP also runs a dedicated Grupo de Derecho e Inteligencia Artificial studying the legal and regulatory dimensions of AI. A fuller national picture of Peruvian AI research output beyond PUCP has not been independently verified here.",
-    "sourceIds": ["pe-8"]
+    "sourceIds": [
+      "pe-8"
+    ]
   },
   "companies": [
     {
@@ -97,9 +127,18 @@
   ],
   "cloudInfrastructure": {
     "providers": [
-      { "name": "AWS", "description": "Major cloud provider for Peruvian enterprise and public-sector workloads." },
-      { "name": "Microsoft Azure", "description": "Cloud provider used across Peruvian enterprise AI adoption." },
-      { "name": "Google Cloud", "description": "Cloud provider present in the Peruvian market, though with a smaller local infrastructure footprint than in some neighboring countries." }
+      {
+        "name": "AWS",
+        "description": "Major cloud provider for Peruvian enterprise and public-sector workloads."
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "Cloud provider used across Peruvian enterprise AI adoption."
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Cloud provider present in the Peruvian market, though with a smaller local infrastructure footprint than in some neighboring countries."
+      }
     ],
     "dominance": []
   },
@@ -151,16 +190,40 @@
     }
   ],
   "influenceMap": [
-    { "label": "SGTD (PCM)", "type": "government" },
-    { "label": "INDECOPI", "type": "agency" },
-    { "label": "JNE", "type": "agency" },
-    { "label": "PUCP / IA-PUCP", "type": "research" }
+    {
+      "label": "SGTD (PCM)",
+      "type": "government"
+    },
+    {
+      "label": "INDECOPI",
+      "type": "agency"
+    },
+    {
+      "label": "JNE",
+      "type": "agency"
+    },
+    {
+      "label": "PUCP / IA-PUCP",
+      "type": "research"
+    }
   ],
   "notableGaps": [
-    { "area": "Named political/technical leadership", "note": "Available reporting did not confirm a current, up-to-date named head of the SGTD as of mid-2026; Peru's frequent cabinet turnover makes this difficult to verify without more recent sourcing." },
-    { "area": "Frontier AI developers", "note": "No frontier foundation-model developer is headquartered in Peru; domestic activity centers on applied research (e.g., IA-PUCP) and compliance with the new regulatory regime." },
-    { "area": "Independent AI-specific think tanks", "note": "No dedicated AI-policy think tank was identified in available sources; legal and policy commentary comes mainly from law firms and university-affiliated researchers." },
-    { "area": "Cloud/data-center infrastructure detail", "note": "Public data on hyperscaler data-center presence specific to Peru (as opposed to the wider Andean region) was limited in available sources." }
+    {
+      "area": "Named political/technical leadership",
+      "note": "Available reporting did not confirm a current, up-to-date named head of the SGTD as of mid-2026; Peru's frequent cabinet turnover makes this difficult to verify without more recent sourcing."
+    },
+    {
+      "area": "Frontier AI developers",
+      "note": "No frontier foundation-model developer is headquartered in Peru; domestic activity centers on applied research (e.g., IA-PUCP) and compliance with the new regulatory regime."
+    },
+    {
+      "area": "Independent AI-specific think tanks",
+      "note": "No dedicated AI-policy think tank was identified in available sources; legal and policy commentary comes mainly from law firms and university-affiliated researchers."
+    },
+    {
+      "area": "Cloud/data-center infrastructure detail",
+      "note": "Public data on hyperscaler data-center presence specific to Peru (as opposed to the wider Andean region) was limited in available sources."
+    }
   ],
   "debates": [
     {
@@ -168,14 +231,19 @@
       "category": "government",
       "summary": "INDECOPI's May 2026 ruling on the AI Law's implementing regulation reflects a live tension between compliance obligations and business costs.",
       "expanded": "Resolution N.° 0219-2026/SEL from INDECOPI's barrier-elimination tribunal clarified that some obligations under Supreme Decree 115-2025-PCM are lawful regulatory requirements while others may restrict economic activity in ways that qualify as unlawful bureaucratic barriers. This suggests that, even with a relatively mature legal framework compared to regional peers, Peru is still working out in practice how far AI compliance obligations can extend before they are challenged as excessive by industry.",
-      "sourceIds": ["pe-4"]
+      "sourceIds": [
+        "pe-4"
+      ]
     },
     {
       "topic": "Electoral deepfakes and AI-driven disinformation ahead of and after Peru's 2026 general elections",
       "category": "government",
       "summary": "Concerns about AI-generated deepfakes and disinformation shaped part of the debate around Peru's April–June 2026 general elections.",
       "expanded": "A congressional bill sponsored by Carlos Anderson proposed fines (20 URP, over S/10,000) for producing or disseminating deceptive AI-generated electoral content, alongside a mechanism for the JNE to request immediate takedown of manipulated audiovisual material; it does not appear to include criminal penalties. Separately, the JNE deployed its own AI-assisted monitoring tools to track manipulated content on TikTok, X, Facebook and streaming platforms. Whether these measures meaningfully reduced disinformation during the election, and what happens to the deepfake bill going forward, was not confirmed in available post-election reporting.",
-      "sourceIds": ["pe-6", "pe-7"]
+      "sourceIds": [
+        "pe-6",
+        "pe-7"
+      ]
     }
   ],
   "knowledgeHub": [
@@ -193,14 +261,86 @@
     }
   ],
   "sources": [
-    { "id": "pe-1", "title": "Ley N.° 31814 — texto consolidado", "publisher": "Congreso de la República del Perú", "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf", "date": "2023-07-05", "category": "government" },
-    { "id": "pe-2", "title": "Perú | Reglamento de la Ley de Inteligencia Artificial, DS 115-2025-PCM", "publisher": "Compliance Latam", "url": "https://compliancelatam.legal/peru-reglamento-de-la-ley-de-inteligencia-artificial-ds-115-2025-pcm-aprueban-el-reglamento-de-la-ley-de-inteligencia-artificial-ley-no-31814/", "date": "2025-09", "category": "news" },
-    { "id": "pe-3", "title": "Conoce el Reglamento de la Ley de inteligencia artificial en el Perú", "publisher": "Presidencia del Consejo de Ministros (PCM), Plataforma del Estado Peruano", "url": "https://www.gob.pe/110224-conoce-el-reglamento-de-la-ley-de-inteligencia-artificial-en-el-peru", "date": "2026-01", "category": "government" },
-    { "id": "pe-4", "title": "Legal Alert — Resolution No. 0219-2026/SEL-INDECOPI on AI Law obligations", "publisher": "Kaiteki Regulación", "url": "https://www.kaitekiregulacion.pe/en/alerta-legal-insight-21/", "date": "2026-05-20", "category": "expert_commentary" },
-    { "id": "pe-5", "title": "Perú fija reglas para la inteligencia artificial en el sector público hasta 2030", "publisher": "El Peruano", "url": "https://www.elperuano.pe/noticia/294752-peru-fija-reglas-para-la-inteligencia-artificial-en-el-sector-publico-hasta-2030", "date": "2026-05-01", "category": "government" },
-    { "id": "pe-6", "title": "Elecciones 2026: Congresista Carlos Anderson presenta proyecto para 'prevenir la desinformación electoral' y sancionar 'deepfake'", "publisher": "El Comercio", "url": "https://elcomercio.pe/politica/actualidad/elecciones-2026-congresista-carlos-anderson-presenta-proyecto-para-prevenir-la-desinformacion-electoral-y-sancionar-deepfake-noticia/", "date": "2025-11", "category": "news" },
-    { "id": "pe-7", "title": "Elecciones 2026 en Perú: JNE detecta ola de noticias falsas en redes sociales y anuncia monitoreo con IA", "publisher": "Infobae", "url": "https://www.infobae.com/peru/2025/12/11/elecciones-2026-en-peru-jne-detecta-ola-de-noticias-falsas-en-redes-sociales-y-anuncia-monitoreo-con-ia/", "date": "2025-12-11", "category": "news" },
-    { "id": "pe-8", "title": "Grupo de Inteligencia Artificial PUCP (IA-PUCP)", "publisher": "Pontificia Universidad Católica del Perú", "url": "https://ia.inf.pucp.edu.pe", "date": "2026", "category": "research" },
-    { "id": "pe-9", "title": "Reglamento de la Ley que promueve el uso de la inteligencia artificial", "publisher": "EY Perú", "url": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-promueve-uso-inteligencia-artificial", "date": "2025-09", "category": "expert_commentary" }
+    {
+      "id": "pe-1",
+      "title": "Ley N.° 31814 — texto consolidado",
+      "publisher": "Congreso de la República del Perú",
+      "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf",
+      "date": "2023-07-05",
+      "category": "government"
+    },
+    {
+      "id": "pe-2",
+      "title": "Perú | Reglamento de la Ley de Inteligencia Artificial, DS 115-2025-PCM",
+      "publisher": "Compliance Latam",
+      "url": "https://compliancelatam.legal/peru-reglamento-de-la-ley-de-inteligencia-artificial-ds-115-2025-pcm-aprueban-el-reglamento-de-la-ley-de-inteligencia-artificial-ley-no-31814/",
+      "date": "2025-09",
+      "category": "news"
+    },
+    {
+      "id": "pe-3",
+      "title": "Conoce el Reglamento de la Ley de inteligencia artificial en el Perú",
+      "publisher": "Presidencia del Consejo de Ministros (PCM), Plataforma del Estado Peruano",
+      "url": "https://www.gob.pe/110224-conoce-el-reglamento-de-la-ley-de-inteligencia-artificial-en-el-peru",
+      "date": "2026-01",
+      "category": "government"
+    },
+    {
+      "id": "pe-4",
+      "title": "Legal Alert — Resolution No. 0219-2026/SEL-INDECOPI on AI Law obligations",
+      "publisher": "Kaiteki Regulación",
+      "url": "https://www.kaitekiregulacion.pe/en/alerta-legal-insight-21/",
+      "date": "2026-05-20",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "pe-5",
+      "title": "Perú fija reglas para la inteligencia artificial en el sector público hasta 2030",
+      "publisher": "El Peruano",
+      "url": "https://www.elperuano.pe/noticia/294752-peru-fija-reglas-para-la-inteligencia-artificial-en-el-sector-publico-hasta-2030",
+      "date": "2026-05-01",
+      "category": "government"
+    },
+    {
+      "id": "pe-6",
+      "title": "Elecciones 2026: Congresista Carlos Anderson presenta proyecto para 'prevenir la desinformación electoral' y sancionar 'deepfake'",
+      "publisher": "El Comercio",
+      "url": "https://elcomercio.pe/politica/actualidad/elecciones-2026-congresista-carlos-anderson-presenta-proyecto-para-prevenir-la-desinformacion-electoral-y-sancionar-deepfake-noticia/",
+      "date": "2025-11",
+      "category": "news"
+    },
+    {
+      "id": "pe-7",
+      "title": "Elecciones 2026 en Perú: JNE detecta ola de noticias falsas en redes sociales y anuncia monitoreo con IA",
+      "publisher": "Infobae",
+      "url": "https://www.infobae.com/peru/2025/12/11/elecciones-2026-en-peru-jne-detecta-ola-de-noticias-falsas-en-redes-sociales-y-anuncia-monitoreo-con-ia/",
+      "date": "2025-12-11",
+      "category": "news"
+    },
+    {
+      "id": "pe-8",
+      "title": "Grupo de Inteligencia Artificial PUCP (IA-PUCP)",
+      "publisher": "Pontificia Universidad Católica del Perú",
+      "url": "https://ia.inf.pucp.edu.pe",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "pe-9",
+      "title": "Reglamento de la Ley que promueve el uso de la inteligencia artificial",
+      "publisher": "EY Perú",
+      "url": "https://www.ey.com/es_pe/technical/tax-alert/reglamento-ley-promueve-uso-inteligencia-artificial",
+      "date": "2025-09",
+      "category": "expert_commentary"
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "First compliance deadline under the Reglamento of Ley 31814 (DS 115-2025-PCM) for high-risk AI in health, education, justice, security and economy/finance sectors.",
+      "date": "2026-09-10",
+      "sourceIds": [
+        "pe-2"
+      ]
+    }
   ]
 }

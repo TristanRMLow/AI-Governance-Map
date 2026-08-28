@@ -19,8 +19,8 @@
     48.4
   ],
   "zoom": 5,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "Wartime defence AI and autonomous weapons",
     "Bottom-up self-regulation before an EU-aligned law",
@@ -44,6 +44,21 @@
     "summary": "Ukraine's civilian AI-governance stance remains deliberately light and innovation-first — voluntary self-regulation as a bridge to an EU-aligned law rather than early binding rules — a posture largely unchanged through 2026. The most dynamic movement is in defence AI, where institutions such as Brave1 and its Dataroom are scaling fast; the medium-term tightening will come from EU accession, which will eventually require transposition of the EU AI Act."
   },
   "recentDevelopments": [
+    {
+      "text": "The Ministry of Economy, Environment and Agriculture agreed with Kyivstar and VEON (30 June 2026) to pursue a sovereign AI data centre in Ukraine, so that data for AI solutions is processed and stored domestically rather than on foreign servers. The government framed the project as a step toward technological sovereignty under the national AI strategy's goal of placing Ukraine among the world's top three countries for public-sector AI by 2030.",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "ua-12"
+      ]
+    },
+    {
+      "text": "The Ministry of Defence launched the Defense AI Center A1 (17 March 2026), its first centre of excellence dedicated to integrating artificial intelligence across the Defence Forces, established with UK government backing. Led by CEO Danylo Tsvok, the centre is tasked with analyzing combat data, forecasting Russian actions, developing autonomous systems, and building AI-enabled command-and-control tools -- the first in a planned network of military-technology centres of excellence.",
+      "date": "2026-03-17",
+      "sourceIds": [
+        "ua-10",
+        "ua-11"
+      ]
+    },
     {
       "text": "Ukraine opened the Brave1 Dataroom (January 2026), a shared platform — built with the Ministry of Defence, Ministry of Digital Transformation, the Armed Forces and US firm Palantir — to let defence companies train AI models on battlefield data; reporting indicates 100+ companies were using it within months.",
       "date": "2026-01-26",
@@ -431,6 +446,30 @@
       "url": "https://itukraine.org.ua/en/ukraine-ai-industry-map-a-comprehensive-study-of-the-ai-sector-in-ukraine/",
       "date": "2026",
       "category": "industry"
+    },
+    {
+      "id": "ua-10",
+      "title": "Ministry of Defence launches first AI center of excellence to advance AI integration in defense",
+      "publisher": "Ministry of Defence of Ukraine",
+      "url": "https://mod.gov.ua/en/news/ministry-of-defence-launches-first-ai-center-of-excellence-to-advance-ai-integration-in-defense-1",
+      "date": "2026-03-17",
+      "category": "government"
+    },
+    {
+      "id": "ua-11",
+      "title": "Defence Ministry launches A1 Defense AI Center to accelerate AI use in warfare",
+      "publisher": "Ukrainska Pravda",
+      "url": "https://www.pravda.com.ua/eng/news/2026/03/17/8025891/",
+      "date": "2026-03-17",
+      "category": "news"
+    },
+    {
+      "id": "ua-12",
+      "title": "Ukraine takes a step towards creating a sovereign AI infrastructure",
+      "publisher": "Cabinet of Ministers of Ukraine",
+      "url": "https://www.kmu.gov.ua/en/news/ukraina-robyt-krok-do-stvorennia-suverennoi-ai-infrastruktury",
+      "date": "2026-06-30",
+      "category": "government"
     }
   ],
   "hasMajorUpdate": true

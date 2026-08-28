@@ -19,8 +19,8 @@
     30.4
   ],
   "zoom": 4.3,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 6,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 7,
   "debateTopics": [
     "Ambitious AI targets vs. limited compute and funding",
     "Regulating AI without a data-protection law",
@@ -44,6 +44,14 @@
     "summary": "Pakistan's direction is one of gradual institution-building on an adoption-first policy: the National AI Policy 2025 and the emerging AI Council set intent and targets, and the government has floated larger investment, but binding regulation is limited and a data-protection law remains pending. The trajectory is expansion of ambition rather than a tightening or loosening of rules."
   },
   "recentDevelopments": [
+    {
+      "text": "The Punjab government drafted the Punjab Performers' Digital Identity and Artificial Intelligence Protection Act 2026, the first Pakistani bill to recognize performers' voices, faces and likenesses as legally protected property against AI misuse. The draft requires explicit written consent before any AI voice clone or digital replica can be created, mandates disclosure of AI use in content production, proposes a Digital Rights Registry, and sets penalties of up to three years' imprisonment plus multimillion-rupee fines for deepfakes and unauthorized digital impersonation.",
+      "date": "2026-06",
+      "sourceIds": [
+        "pk-11",
+        "pk-12"
+      ]
+    },
     {
       "text": "At the Indus AI Summit in Islamabad (9–10 February 2026), Prime Minister Shehbaz Sharif announced plans to invest around US$1bn in AI by 2030, alongside 1,000 AI PhD scholarships and a national programme to train one million AI specialists.",
       "date": "2026-02",
@@ -425,6 +433,22 @@
       "url": "https://eng.sectsco.org/20260211/2164856.html",
       "date": "2026-02",
       "category": "government"
+    },
+    {
+      "id": "pk-11",
+      "title": "Punjab govt drafts landmark AI protection law for artists",
+      "publisher": "The Express Tribune",
+      "url": "https://tribune.com.pk/story/2612891/punjab-govt-drafts-landmark-ai-protection-law-for-artists",
+      "date": "2026-06",
+      "category": "news"
+    },
+    {
+      "id": "pk-12",
+      "title": "Punjab Proposes Jail Time and Heavy Fines for AI Deepfakes of Artists",
+      "publisher": "ProPakistani",
+      "url": "https://propakistani.pk/2026/06/13/punjab-proposes-jail-time-and-heavy-fines-for-ai-deepfakes-of-artists/",
+      "date": "2026-06-13",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true

@@ -4,15 +4,23 @@
   "shortName": "Mexico",
   "flagEmoji": "🇲🇽",
   "geometryType": "polygon",
-  "isoA3": ["MEX"],
+  "isoA3": [
+    "MEX"
+  ],
   "region": "Americas",
   "jurisdictionType": "nation_state",
   "governanceModel": "No binding AI-specific law yet; voluntary ethics declaration alongside multiple competing AI bills in Congress",
-  "accentColor": { "light": "#494483", "dark": "#6761AE" },
-  "center": [-102.5, 23.6],
+  "accentColor": {
+    "light": "#494483",
+    "dark": "#6761AE"
+  },
+  "center": [
+    -102.5,
+    23.6
+  ],
   "zoom": 4.2,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 8,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 9,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Whether Mexico's new AI-adjacent content rules risk conflicting with USMCA obligations",
@@ -37,48 +45,74 @@
   },
   "recentDevelopments": [
     {
+      "text": "President Claudia Sheinbaum announced a series of national forums (20 July 2026) to build a consensus proposal for regulating the use of digital platforms, social media and artificial intelligence by minors, with conclusions to be sent to Congress as the basis for a legislative initiative. Regional forums were scheduled for August and September; Sheinbaum stressed the goal was guidance built with specialists, families and civil society -- not prohibition or censorship -- while a general AI law remained stalled in the Senate.",
+      "date": "2026-07-20",
+      "sourceIds": [
+        "mx-19",
+        "mx-20"
+      ]
+    },
+    {
       "text": "Mexico's data-centre build-out accelerates, concentrated in Querétaro (reportedly ~65% of national capacity): the Mexican Data Center Association (MEXDC) projects roughly US$82.5 billion of investment in construction and equipment over 2026–31, and CloudHQ announced a ~US$4.8 billion hyperscale campus in the state — extending AWS's ~US$5 billion cloud region and reinforcing Mexico's nearshoring-driven role as a regional AI-compute hub.",
       "date": "2026",
-      "sourceIds": ["mx-16", "mx-17"],
+      "sourceIds": [
+        "mx-16",
+        "mx-17"
+      ],
       "needsVerification": true
     },
     {
       "text": "Federal Labor Law and Copyright Law reforms addressing AI's use of performers' voice and image enter into force (published in the Official Gazette of the Federation on May 14), becoming Mexico's first enacted AI-adjacent legislative change.",
       "date": "2026-05-15",
-      "sourceIds": ["mx-4"],
+      "sourceIds": [
+        "mx-4"
+      ],
       "severity": "major"
     },
     {
       "text": "Mexico News Daily reports that a Senate committee on AI, chaired by Senator Rolando Zapata and drawing on 16 months of work with 72 specialists, is nearing presentation of a broader 'Federal Law Regulating Artificial Intelligence' with a national AI strategy, development fund and federal certification system; its relationship to Senator Ruiz's February bill is not fully clarified in available reporting.",
       "date": "2026-04-24",
-      "sourceIds": ["mx-1"],
+      "sourceIds": [
+        "mx-1"
+      ],
       "needsVerification": true
     },
     {
       "text": "Chamber of Deputies passes the labor/copyright AI reform by a wide margin; vote tallies vary slightly across reports (roughly 335 or 368 in favor), possibly reflecting separate general/particular votes in the same session rather than a genuine discrepancy.",
       "date": "2026-04-07",
-      "sourceIds": ["mx-3", "mx-4"],
+      "sourceIds": [
+        "mx-3",
+        "mx-4"
+      ],
       "needsVerification": true
     },
     {
       "text": "President Claudia Sheinbaum submits a presidential initiative to amend the Federal Labor Law and Federal Copyright Law to address AI's use of performers' voice, image and likeness; referred to the Chamber of Deputies' Committee on Culture and Cinematography.",
       "date": "2026-02-23",
-      "sourceIds": ["mx-3"]
+      "sourceIds": [
+        "mx-3"
+      ]
     },
     {
       "text": "Senator Karina Isabel Ruiz Ruiz (MORENA) introduces a bill for a 'National Law to Regulate the Use of Artificial Intelligence' in the Senate; referred to the Joint Committees on Legislative Studies and on the Analysis, Monitoring and Evaluation of AI in Mexico.",
       "date": "2026-02-11",
-      "sourceIds": ["mx-13"]
+      "sourceIds": [
+        "mx-13"
+      ]
     },
     {
       "text": "Mexican institutions contribute to Latam-GPT, an open large language model for Latin America coordinated by Chile's national AI centre CENIA and launched in February 2026 — situating Mexico as a participant in a regional 'sovereign AI' effort rather than a domestic frontier developer.",
       "date": "2026-02",
-      "sourceIds": ["mx-18"]
+      "sourceIds": [
+        "mx-18"
+      ]
     },
     {
       "text": "Secihti and the Agency for Digital Transformation and Telecommunications (ATDT) publish a voluntary 'Declaration of Ethics and Best Practices for the Use and Development of Artificial Intelligence,' grounded in the 'Chapultepec Principles.'",
       "date": "2026-01-29",
-      "sourceIds": ["mx-2"]
+      "sourceIds": [
+        "mx-2"
+      ]
     }
   ],
   "policyAndRegulation": [
@@ -86,37 +120,51 @@
       "title": "Federal Labor Law and Federal Copyright Law reforms (AI use of performers' voice and image)",
       "status": "in_force",
       "summary": "In force since May 15, 2026. Requires prior, written and compensated authorization before an AI system may replicate, clone or adjust a performer's voice or image, with an exception for parody, satire or creative imitation that does not mislead the public or replace the performer's services.",
-      "sourceIds": ["mx-3", "mx-4"]
+      "sourceIds": [
+        "mx-3",
+        "mx-4"
+      ]
     },
     {
       "title": "National Law to Regulate the Use of Artificial Intelligence (Sen. Karina Ruiz bill)",
       "status": "proposed",
       "summary": "Introduced in the Senate on February 11, 2026; referred to joint committees. Would establish a comprehensive legal framework for AI development and use across public and private sectors, if approved.",
-      "sourceIds": ["mx-13"]
+      "sourceIds": [
+        "mx-13"
+      ]
     },
     {
       "title": "Federal Law Regulating Artificial Intelligence (Senate AI committee draft)",
       "status": "proposed",
       "summary": "Reported as the product of 16 months of work by a Senate committee chaired by Senator Rolando Zapata, addressing deepfakes, AI-enabled harassment and manipulation, and autonomous lethal systems, plus a national AI strategy, development fund and federal certification system, with reported prison sentences for misuse. Whether this is the same initiative as Sen. Ruiz's bill or a distinct one has not been clearly established in available reporting.",
-      "sourceIds": ["mx-1"],
+      "sourceIds": [
+        "mx-1"
+      ],
       "needsVerification": true
     },
     {
       "title": "Declaration of Ethics and Best Practices for the Use and Development of Artificial Intelligence",
       "status": "in_force",
       "summary": "Published January 29, 2026 by Secihti and ATDT as a voluntary framework for government institutions, autonomous bodies, private companies and civil society, built on 10 commitments including human accountability and treating data as a public good.",
-      "sourceIds": ["mx-2"]
+      "sourceIds": [
+        "mx-2"
+      ]
     },
     {
       "title": "National AI Strategy 2.0",
       "status": "in_force",
       "summary": "Non-binding strategy document led by the Secretariat of Economy, launched in 2025, emphasizing trustworthy AI, open data infrastructure and sustainable innovation as a complement to any future binding law.",
-      "sourceIds": ["mx-15"]
+      "sourceIds": [
+        "mx-15"
+      ]
     }
   ],
   "researchEcosystem": {
     "summary": "Mexican AI research and talent development runs substantially through Tecnológico de Monterrey, UNAM, the Instituto Politécnico Nacional (IPN), ITAM and the Universidad de Guadalajara. Tec de Monterrey and the Mexican tech firm Wizeline co-run G.A.I.L. (Generative AI Lab), described as the first dedicated generative-AI lab in Latin America, on the Guadalajara campus, alongside the PASIA program, which reportedly has supported around 24 AI-focused startups in healthcare, finance and social-impact areas. Some industry commentary describes this combination as producing one of the strongest AI talent pipelines in Latin America, though such regional rankings should be treated with some caution given limited independent verification.",
-    "sourceIds": ["mx-12", "mx-9"]
+    "sourceIds": [
+      "mx-12",
+      "mx-9"
+    ]
   },
   "companies": [
     {
@@ -240,16 +288,40 @@
     }
   ],
   "influenceMap": [
-    { "label": "Secihti", "type": "government" },
-    { "label": "ATDT", "type": "agency" },
-    { "label": "Senate AI Committee", "type": "government" },
-    { "label": "C Minds", "type": "think_tank" },
-    { "label": "Tecnológico de Monterrey / Wizeline (G.A.I.L.)", "type": "research" }
+    {
+      "label": "Secihti",
+      "type": "government"
+    },
+    {
+      "label": "ATDT",
+      "type": "agency"
+    },
+    {
+      "label": "Senate AI Committee",
+      "type": "government"
+    },
+    {
+      "label": "C Minds",
+      "type": "think_tank"
+    },
+    {
+      "label": "Tecnológico de Monterrey / Wizeline (G.A.I.L.)",
+      "type": "research"
+    }
   ],
   "notableGaps": [
-    { "area": "Regulator", "note": "No dedicated AI regulator or enforcement body exists yet; competing Senate bills propose different institutional structures (e.g. a federal certification system) but none has been enacted." },
-    { "area": "Frontier AI development", "note": "No frontier foundation-model developer is headquartered in Mexico; the domestic ecosystem is concentrated in applied AI, outsourcing/nearshoring services and startups rather than base-model research." },
-    { "area": "Legislative clarity", "note": "Public reporting does not clearly establish how the Ruiz Senate bill (Feb. 2026) and the Zapata committee's draft law relate to each other — whether they are the same initiative described differently or genuinely separate efforts." }
+    {
+      "area": "Regulator",
+      "note": "No dedicated AI regulator or enforcement body exists yet; competing Senate bills propose different institutional structures (e.g. a federal certification system) but none has been enacted."
+    },
+    {
+      "area": "Frontier AI development",
+      "note": "No frontier foundation-model developer is headquartered in Mexico; the domestic ecosystem is concentrated in applied AI, outsourcing/nearshoring services and startups rather than base-model research."
+    },
+    {
+      "area": "Legislative clarity",
+      "note": "Public reporting does not clearly establish how the Ruiz Senate bill (Feb. 2026) and the Zapata committee's draft law relate to each other — whether they are the same initiative described differently or genuinely separate efforts."
+    }
   ],
   "debates": [
     {
@@ -257,14 +329,21 @@
       "category": "government",
       "summary": "The tech industry association AMITI has warned that the enacted labor/copyright reform, and potential future AI-specific legislation, could complicate the 2026 USMCA review.",
       "expanded": "AMITI's Director General Sofía Pérez has argued that requiring express authorization for every piece of content an AI system processes is technically unworkable given how generative AI models operate, and that the reform's shortened authorization periods increase compliance costs for smaller firms. AMITI also contends the rules sit in tension with USMCA Article 19.17, which protects digital platforms from liability for third-party content. Proponents of the reform counter that protecting performers against unauthorized AI cloning of their voice and image is a narrowly targeted, rights-based measure rather than a broad AI-liability regime; how Mexican and US officials will reconcile these views during the USMCA review process remains an open question.",
-      "sourceIds": ["mx-5", "mx-4"]
+      "sourceIds": [
+        "mx-5",
+        "mx-4"
+      ]
     },
     {
       "topic": "Multiple, seemingly overlapping AI bills moving through Congress create uncertainty over which framework will govern AI",
       "category": "government",
       "summary": "At least two distinct Senate initiatives — Senator Ruiz's National Law to Regulate the Use of Artificial Intelligence and a separate committee draft associated with Senator Zapata — appear to be advancing in parallel without clearly documented coordination.",
       "expanded": "Some legal commentary treats these as the same underlying legislative effort described inconsistently across sources, while other reporting treats them as separate bills referred to different committees. Combined with the voluntary Secihti/ATDT ethics declaration and the Secretariat of Economy's non-binding National AI Strategy 2.0, businesses and civil-society groups face a genuinely unsettled landscape as of mid-2026, with no clear signal about which framework, if any, will reach a floor vote first.",
-      "sourceIds": ["mx-1", "mx-13", "mx-2"]
+      "sourceIds": [
+        "mx-1",
+        "mx-13",
+        "mx-2"
+      ]
     }
   ],
   "knowledgeHub": [
@@ -430,6 +509,22 @@
       "publisher": "Euronews",
       "url": "https://www.euronews.com/next/2026/02/12/what-is-latam-gpt-latin-americas-spanish-and-portuguese-ai-model",
       "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "mx-19",
+      "title": "Presidenta anuncia foros para crear propuesta de regulación del uso de plataformas digitales y redes sociales en niñas, niños y adolescentes",
+      "publisher": "Presidencia de la República",
+      "url": "https://www.gob.mx/presidencia/prensa/presidenta-anuncia-foros-para-crear-propuesta-de-regulacion-del-uso-de-plataformas-digitales-y-redes-sociales-en-ninas-ninos-y-adolescentes",
+      "date": "2026-07-20",
+      "category": "government"
+    },
+    {
+      "id": "mx-20",
+      "title": "Inician formalmente debates sobre uso de redes sociales en infancias y adolescencias",
+      "publisher": "El Universal",
+      "url": "https://www.eluniversal.com.mx/nacion/inician-formalmente-debates-sobre-uso-de-redes-sociales-en-infancias-y-adolescencias-sheinbaum-advierte-posible-adiccion/",
+      "date": "2026-07-20",
       "category": "news"
     }
   ]

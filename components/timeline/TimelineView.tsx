@@ -40,6 +40,7 @@ export function TimelineView({
   regions: string[];
   upcoming?: UpcomingMilestoneWithCountry[];
 }) {
+  const [tab, setTab] = useState<"developments" | "upcoming">("developments");
   const [region, setRegion] = useState<string>("all");
   const [majorOnly, setMajorOnly] = useState(false);
   const [starredOnly, setStarredOnly] = useState(false);
@@ -78,24 +79,41 @@ export function TimelineView({
     return result;
   }, [filtered]);
 
-  const visibleUpcoming = useMemo(
-    () => (region === "all" ? upcoming : upcoming.filter((m) => m.region === region)),
-    [upcoming, region]
-  );
-
   return (
     <div className="mt-6">
-      {visibleUpcoming.length > 0 && (
-        <div className="mb-6 rounded-xl border border-page-border bg-page-card">
-          <p className="flex items-center gap-1.5 border-b border-page-border px-4 py-2.5 font-mono text-[10.5px] uppercase tracking-[0.1em] text-page-text-muted">
-            <CalendarClock size={12} strokeWidth={2.25} />
-            Coming up
-          </p>
+      {upcoming.length > 0 && (
+        <div className="mb-5 flex items-center gap-2">
+          {(
+            [
+              ["developments", "Developments"],
+              ["upcoming", `Coming up (${upcoming.length})`],
+            ] as const
+          ).map(([key, label]) => (
+            <button
+              key={key}
+              type="button"
+              onClick={() => setTab(key)}
+              className="flex items-center gap-1.5 rounded-full px-3 py-1.5 font-mono text-[11px] uppercase tracking-[0.05em] transition-colors"
+              style={
+                tab === key
+                  ? { background: "var(--color-page-text)", color: "var(--color-page-bg)" }
+                  : { background: "var(--color-page-border)", color: "var(--color-page-text-muted)" }
+              }
+            >
+              {key === "upcoming" && <CalendarClock size={12} strokeWidth={2.25} />}
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {tab === "upcoming" ? (
+        <div className="rounded-xl border border-page-border bg-page-card">
           <ul>
-            {visibleUpcoming.map((m, i) => (
+            {upcoming.map((m, i) => (
               <li
                 key={`${m.countryCode}-${m.date}-${i}`}
-                className="flex items-baseline gap-3 border-b border-page-border px-4 py-2.5 last:border-b-0"
+                className="flex items-baseline gap-3 border-b border-page-border px-4 py-3 last:border-b-0"
               >
                 <span className="w-[105px] shrink-0 font-mono text-[11px] text-page-text-muted">
                   {formatEventDate(m.date)}
@@ -115,8 +133,8 @@ export function TimelineView({
             ))}
           </ul>
         </div>
-      )}
-
+      ) : (
+        <>
       <div className="flex flex-wrap items-center gap-2">
         <select
           value={region}
@@ -246,6 +264,8 @@ export function TimelineView({
         <p className="mt-8 rounded-lg border border-dashed border-page-border-strong px-4 py-6 text-center text-[13.5px] text-page-text-muted">
           Nothing matches these filters.
         </p>
+      )}
+        </>
       )}
     </div>
   );

@@ -20,8 +20,8 @@
       39.8
     ],
     "zoom": 3.2,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 14,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 18,
     "debateTopics": [
       "Agentic AI, cyber-offence and developer accountability",
       "White House control of frontier-model access (EO 14409 / Gold Eagle)",
@@ -52,8 +52,8 @@
       54.5
     ],
     "zoom": 4.6,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 11,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 12,
     "debateTopics": [
       "Blueprint vs. binding law — has the UK shelved the Frontier AI Bill?",
       "AI Growth Lab: advisory pilot vs. rule-relaxing sandbox",
@@ -81,7 +81,7 @@
       50.85
     ],
     "zoom": 4,
-    "lastUpdated": "2026-08-09",
+    "lastUpdated": "2026-08-28",
     "newDevelopmentsCount": 9,
     "debateTopics": [
       "Digital Omnibus — simplification or weakening of the AI Act?",
@@ -143,8 +143,8 @@
       36.5
     ],
     "zoom": 4.3,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 10,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 11,
     "debateTopics": [
       "AI Basic Plan implementation and the AI investment gap",
       "AI copyright compensation and voice-imitation rules",
@@ -415,8 +415,8 @@
       42.5
     ],
     "zoom": 5,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 7,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 8,
     "debateTopics": [
       "TDM copyright restriction scope contested by industry vs. rightsholders",
       "First-mover national AI law vs. EU harmonisation",
@@ -625,7 +625,7 @@
       53.2
     ],
     "zoom": 6,
-    "lastUpdated": "2026-08-09",
+    "lastUpdated": "2026-08-28",
     "newDevelopmentsCount": 6,
     "debateTopics": [
       "Ireland as the EU's de facto AI-enforcement hub",
@@ -685,8 +685,8 @@
       36.5
     ],
     "zoom": 6.2,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 8,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 9,
     "debateTopics": [
       "AI Basic Act enforcement decree's narrow high-risk definition",
       "Sovereign foundation-model push vs. matching frontier performance"
@@ -714,8 +714,8 @@
       22
     ],
     "zoom": 4,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 7,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 8,
     "debateTopics": [
       "India signals a possible shift toward binding AI legislation",
       "IT Rules 2026 takedown triggers criticised as overbroad by digital-rights groups",
@@ -835,8 +835,8 @@
       -25.3
     ],
     "zoom": 3.5,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 6,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 7,
     "debateTopics": [
       "Reversal from mandatory guardrails to technology-neutral regulation",
       "Legislating Australian Standards for AI and mandatory rules for large data centres",
@@ -954,8 +954,8 @@
       24
     ],
     "zoom": 4.8,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 8,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 9,
     "debateTopics": [
       "Shift from AI strategy to execution — can HUMAIN build in one year what took 20?",
       "Chip access as part of Gulf compute diplomacy",
@@ -1633,8 +1633,8 @@
       -35
     ],
     "zoom": 3.4,
-    "lastUpdated": "2026-08-09",
-    "newDevelopmentsCount": 7,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 8,
     "debateTopics": [
       "Whether the proposed National Commission on AI overlaps confusingly with a future data-protection agency",
       "Whether Chile's new right-of-center government will maintain or reshape the AI bill inherited from the Boric administration"
@@ -1756,5 +1756,158 @@
       "Costa Rica's AI strategy addresses ethics and adoption but has been criticized for not squarely addressing job displacement in its BPO-heavy service sector"
     ],
     "hasMajorUpdate": false
+  },
+  {
+    "code": "no",
+    "name": "Norway",
+    "shortName": "Norway",
+    "flagEmoji": "🇳🇴",
+    "geometryType": "polygon",
+    "isoA3": [
+      "NOR"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "energy-rich EEA state hosting frontier-scale compute for others and deploying AI through a highly digitalised public sector, while its EU AI Act implementation runs behind the EU in the EEA lane",
+    "accentColor": {
+      "light": "#3B6FA0",
+      "dark": "#5F97C9"
+    },
+    "center": [
+      10.7,
+      64.5
+    ],
+    "zoom": 4.2,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 8,
+    "debateTopics": [
+      "Data centres, hydropower and value capture",
+      "The EEA slow lane on the AI Act",
+      "Sovereign compute vs hyperscaler dependence",
+      "The oil fund as a global AI actor"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "pt",
+    "name": "Portugal",
+    "shortName": "Portugal",
+    "flagEmoji": "🇵🇹",
+    "geometryType": "polygon",
+    "isoA3": [
+      "PRT"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "EU-aligned adopter running the AI Act through telecoms regulator ANACOM while investing in Portuguese-language models (Amália/EuroLLM), EuroHPC compute and AI-led state reform",
+    "accentColor": {
+      "light": "#2F7D5B",
+      "dark": "#52A87F"
+    },
+    "center": [
+      -8.2,
+      39.6
+    ],
+    "zoom": 5.5,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 7,
+    "debateTopics": [
+      "ANACOM as Portugal's single AI regulator",
+      "Amália and Portuguese-language AI sovereignty",
+      "Sines data centres, subsea cables and compute",
+      "AI-led state reform and education"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "gr",
+    "name": "Greece",
+    "shortName": "Greece",
+    "flagEmoji": "🇬🇷",
+    "geometryType": "polygon",
+    "isoA3": [
+      "GRC"
+    ],
+    "region": "Europe",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "EU AI Act implementer (Law 5321/2026) pairing a diaspora-led national strategy with EuroHPC-funded public compute (Daedalus / Pharos AI Factory)",
+    "accentColor": {
+      "light": "#3E6DB5",
+      "dark": "#6693D6"
+    },
+    "center": [
+      23.8,
+      39.0
+    ],
+    "zoom": 5.5,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 7,
+    "debateTopics": [
+      "Law 5321/2026 -- implementing the AI Act",
+      "Daedalus, Pharos and the sovereign-compute bet",
+      "OpenAI in Greek schools",
+      "Brain drain and the diaspora loop"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "uz",
+    "name": "Uzbekistan",
+    "shortName": "Uzbekistan",
+    "flagEmoji": "🇺🇿",
+    "geometryType": "polygon",
+    "isoA3": [
+      "UZB"
+    ],
+    "region": "Asia-Pacific",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Decree-led AI catch-up — a 2030 AI strategy, first AI rules via amendments to existing laws, and tax-free zones courting foreign data-centre capital",
+    "accentColor": {
+      "light": "#2E8B8B",
+      "dark": "#55B3B0"
+    },
+    "center": [
+      64.5,
+      41.3
+    ],
+    "zoom": 5.0,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 8,
+    "debateTopics": [
+      "First AI law via amendments — light-touch or too thin?",
+      "Karakalpakstan's tax-free data-centre bet",
+      "AI skills at scale vs brain drain"
+    ],
+    "hasMajorUpdate": true
+  },
+  {
+    "code": "sn",
+    "name": "Senegal",
+    "shortName": "Senegal",
+    "flagEmoji": "🇸🇳",
+    "geometryType": "polygon",
+    "isoA3": [
+      "SEN"
+    ],
+    "region": "Africa",
+    "jurisdictionType": "nation_state",
+    "governanceModel": "Sovereignty-first digital strategy (New Deal Technologique) layered on a 2023 national AI strategy; no binding AI law, with a 2008 data-protection law still anchoring regulation",
+    "accentColor": {
+      "light": "#4C8A3F",
+      "dark": "#74B267"
+    },
+    "center": [
+      -14.4,
+      14.5
+    ],
+    "zoom": 5.8,
+    "lastUpdated": "2026-08-28",
+    "newDevelopmentsCount": 7,
+    "debateTopics": [
+      "Digital sovereignty built on Huawei-run infrastructure",
+      "AI ambitions under a 2008 data-protection law",
+      "Avoiding 'digital colonization' — who builds Senegal's AI?"
+    ],
+    "hasMajorUpdate": true
   }
 ]

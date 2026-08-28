@@ -27,27 +27,73 @@ export function sortableDate(date: string): string {
   return date;
 }
 
-export function daysAgo(iso: string): string {
-  const days = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 86400000));
+/** Relative time at editorial granularity: exact days only while they're
+ * meaningful, then weeks, then months — "83 days ago" reads like a log line,
+ * "3 months ago" like a briefing. Accepts any precision sortableDate does;
+ * future dates clamp to "today". */
+export function daysAgo(date: string): string {
+  const days = Math.max(0, Math.round((Date.now() - new Date(sortableDate(date)).getTime()) / 86400000));
   if (days === 0) return "today";
-  if (days === 1) return "1 day ago";
-  return `${days} days ago`;
+  if (days === 1) return "yesterday";
+  if (days < 14) return `${days} days ago`;
+  if (days < 60) return `${Math.round(days / 7)} weeks ago`;
+  if (days < 365) return `${Math.round(days / 30.4)} months ago`;
+  return "over a year ago";
 }
 
-function isWithinDays(iso: string, days: number): boolean {
-  const elapsed = Date.now() - new Date(iso).getTime();
+function isWithinDays(date: string, days: number): boolean {
+  const elapsed = Date.now() - new Date(sortableDate(date)).getTime();
   return elapsed >= 0 && elapsed <= days * 86400000;
 }
+
+/** Newest development date overall and newest severity:"major" date, compared
+ * via sortableDate but returned at their original precision. Derived at read
+ * time in getCountryData.ts — never stored in the JSON, so it can't drift the
+ * way the hand-maintained lastUpdated copies did. */
+export function deriveLatestDates(developments: { date: string; severity?: "major" }[]): {
+  latestDevelopmentDate: string | null;
+  latestMajorDate: string | null;
+} {
+  let latest: string | null = null;
+  let latestMajor: string | null = null;
+  for (const d of developments) {
+    if (!latest || sortableDate(d.date) > sortableDate(latest)) latest = d.date;
+    if (d.severity === "major" && (!latestMajor || sortableDate(d.date) > sortableDate(latestMajor))) {
+      latestMajor = d.date;
+    }
+  }
+  return { latestDevelopmentDate: latest, latestMajorDate: latestMajor };
+}
+
+export const RECENT_WINDOW_DAYS = 30;
+export const MAJOR_WINDOW_DAYS = 45;
 
 export type FreshnessState = "major" | "recent" | "stale";
 
 /** Tri-state "has anything changed" signal, cheap enough to run on the
- * lightweight CountryMeta index (map/homepage) as well as full CountryData. */
+ * lightweight CountryMeta index (map/homepage) as well as full CountryData.
+ * Based on when developments actually HAPPENED (event dates), not when the
+ * site was edited — a landmark law from January is history, not news, so
+ * "major" only holds within its window before decaying to stale. */
 export function getFreshnessState(meta: {
-  lastUpdated: string;
-  hasMajorUpdate: boolean;
+  latestDevelopmentDate: string | null;
+  latestMajorDate: string | null;
 }): FreshnessState {
-  if (meta.hasMajorUpdate) return "major";
-  if (isWithinDays(meta.lastUpdated, 30)) return "recent";
+  if (meta.latestMajorDate && isWithinDays(meta.latestMajorDate, MAJOR_WINDOW_DAYS)) return "major";
+  if (meta.latestDevelopmentDate && isWithinDays(meta.latestDevelopmentDate, RECENT_WINDOW_DAYS)) {
+    return "recent";
+  }
   return "stale";
+}
+
+/** Display formatting that honours the date's precision instead of
+ * fabricating a day: "2026" → "2026", "2026-08" → "August 2026",
+ * "2026-08-15" → "August 15, 2026". */
+export function formatEventDate(date: string | null): string | null {
+  if (!date) return null;
+  if (/^\d{4}$/.test(date)) return date;
+  const opts: Intl.DateTimeFormatOptions = /^\d{4}-\d{2}$/.test(date)
+    ? { year: "numeric", month: "long" }
+    : { year: "numeric", month: "long", day: "numeric" };
+  return new Date(sortableDate(date)).toLocaleDateString("en-US", { ...opts, timeZone: "UTC" });
 }

@@ -1,0 +1,676 @@
+{
+  "code": "gr",
+  "name": "Greece",
+  "shortName": "Greece",
+  "flagEmoji": "🇬🇷",
+  "geometryType": "polygon",
+  "isoA3": [
+    "GRC"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "EU AI Act implementer (Law 5321/2026) pairing a diaspora-led national strategy with EuroHPC-funded public compute (Daedalus / Pharos AI Factory)",
+  "accentColor": {
+    "light": "#3E6DB5",
+    "dark": "#6693D6"
+  },
+  "center": [
+    23.8,
+    39.0
+  ],
+  "zoom": 5.5,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 7,
+  "debateTopics": [
+    "Law 5321/2026 -- implementing the AI Act",
+    "Daedalus, Pharos and the sovereign-compute bet",
+    "OpenAI in Greek schools",
+    "Brain drain and the diaspora loop"
+  ],
+  "overview": "Greece is a late but deliberate mover in AI governance, and its strategy is distinctively diaspora-led. In October 2023 Prime Minister Kyriakos Mitsotakis convened a High-Level Advisory Committee on AI chaired by MIT's Constantinos Daskalakis and drawing heavily on Greek scientists abroad (Oxford ethicist John Tasioulas, USC's Kimon Drakopoulos, among others), coordinated by the Special Secretariat of Foresight. Its November 2024 report, 'A Blueprint for Greece's AI Transformation', set out six flagship programmes spanning public administration, education, research and innovation, cultural heritage and ethics, and now functions as the de facto national strategy. The government has leaned in institutionally -- the digital ministry now styles itself the Ministry of Digital Governance and Artificial Intelligence -- and was an early public-sector deployer, launching the mAIgov generative-AI assistant on gov.gr in December 2023.\n\nThe hard-infrastructure bet is what sets Greece apart from most small EU states. GRNET is installing Daedalus, an 89-petaflop EuroHPC supercomputer built around more than 2,000 NVIDIA GH200 superchips, at a converted data centre in the Lavrion Technological and Cultural Park -- co-funded by the EuroHPC JU and Greece's Recovery and Resilience Plan ('Greece 2.0') -- with installation over summer 2026. Daedalus is the compute core of Pharos, selected in December 2024 as one of the EU's first seven AI Factories (a roughly EUR 30M project run by GRNET with NCSR Demokritos, NTUA, the Athena Research Center and the Growthfund), which is being extended into a regional hub for South-Eastern Europe via 'antenna' facilities in Cyprus, Malta, North Macedonia and Serbia. On the model side Greece builds sovereign Greek-language open models rather than frontier systems: the Athena Research Center's ILSP released Meltemi, the first open Greek LLM, in March 2024 and its Llama-3.1-based successor Llama-Krikri in February 2025, while the RRF-funded Archimedes unit works to repatriate AI research talent.\n\nRegulation has moved from early gestures to binding law. Law 4961/2022 on emerging technologies gave Greece AI transparency provisions before the AI Act existed; in November 2024 the government designated its Article 77 fundamental-rights authorities; and after a June 2026 public consultation, Law 5321/2026 (published 30 July 2026) implemented the AI Act nationally -- making the Hellenic Data Protection Authority the principal market surveillance authority, EETT the notifying authority, creating an AI Coordination and Expertise Centre and a regulatory sandbox, and adding a criminal offence for non-consensual deepfakes. The 'OpenAI for Greece' MoU signed at the Thessaloniki International Fair in September 2025 (a ChatGPT Edu schools pilot run with the Onassis Foundation, plus a startup accelerator) shows the other side of the strategy: partnering with US frontier labs while building public compute at home. The honest gaps are the absence of any frontier-scale developer, a thin domestic private-capital base, and heavy dependence on EU recovery funds that expire.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "EU-aligned implementer building public AI compute; diaspora-led strategy",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act implemented via Law 5321/2026: Hellenic DPA as principal market surveillance authority, EETT as notifying authority, national sandbox and a deepfake criminal offence",
+    "latestMajorUpdate": "Law 5321/2026 (published 30 July 2026) implemented the EU AI Act nationally, days before the Act's high-risk and GPAI enforcement provisions took effect on 2 August 2026",
+    "governmentInvolvement": "High: PM-level advisory committee, a renamed AI ministry, state-run compute (GRNET), the mAIgov assistant in public services and a direct MoU with OpenAI",
+    "industrialStrategy": "EU/RRF-funded public infrastructure (Daedalus supercomputer, Pharos AI Factory) plus Greek-language open models; no frontier lab, applied-AI startups mostly serve global niches (maritime, biotech, music rights)",
+    "internationalPartnerships": "EuroHPC JU (Daedalus, Pharos and its SE-Europe antennas), EU digital policy, and the 'OpenAI for Greece' MoU with the Onassis Foundation implementing",
+    "primaryPolicyFocus": "Operationalising the AI Act; standing up sovereign compute and Greek-language models; AI in public administration and education"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Regulation is tightening on the EU cadence -- Law 5321/2026 gave the AI Act national teeth (penalties, a deepfake offence, HDPA-led market surveillance) just before the 2 August 2026 enforcement milestone -- while the deployment agenda accelerates in parallel: Daedalus installation, Pharos's operational rollout, and frontier-lab partnerships in schools."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The EU AI Act's supervision and enforcement powers over general-purpose AI models took effect on 2 August 2026, together with the Act's Article 50 transparency duties -- GPAI oversight exercised centrally by the European Commission's AI Office. In Greece the milestone landed with the national framework freshly in place: Law 5321/2026 had designated the Hellenic Data Protection Authority as principal market surveillance authority and EETT as notifying authority days earlier.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "gr-1",
+        "gr-2"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "Law 5321/2026, implementing the EU AI Act (Regulation 2024/1689) in Greece, was published on 30 July 2026 following a public consultation on the draft bill (21 June - 6 July 2026). It designates the Hellenic Data Protection Authority as the principal market surveillance authority and EETT as the notifying authority, establishes an AI Coordination and Expertise Centre and an AI Observatory, creates a national regulatory sandbox and real-world testing framework, sets administrative penalties, introduces a criminal offence for transparency violations involving deepfakes, and amends Law 4961/2022.",
+      "date": "2026-07-30",
+      "sourceIds": [
+        "gr-2",
+        "gr-3",
+        "gr-4"
+      ],
+      "severity": "major",
+      "needsVerification": true
+    },
+    {
+      "text": "GRNET reported that the Daedalus supercomputer -- 89 petaflops, built by HPE around more than 2,000 NVIDIA GH200 Grace Hopper superchips -- had entered final assembly and technical testing in the Czech Republic, with installation at the Lavrion Technological and Cultural Park data centre scheduled for summer 2026 and full services through the Pharos AI Factory expected by autumn 2026.",
+      "date": "2026-03-02",
+      "sourceIds": [
+        "gr-10",
+        "gr-9"
+      ]
+    },
+    {
+      "text": "The EuroHPC JU approved four 'AI Factory Antennas' in Cyprus, Malta, North Macedonia and Serbia to be connected to Greece's Pharos AI Factory, positioning Pharos as a regional AI hub for South-Eastern Europe, with the antenna projects expected to launch in early 2026 alongside Pharos's first operational phase.",
+      "date": "2025-10-16",
+      "sourceIds": [
+        "gr-12"
+      ]
+    },
+    {
+      "text": "The 'OpenAI for Greece' Memorandum of Understanding was signed at the Thessaloniki International Fair by Prime Minister Mitsotakis, government ministers, the Onassis Foundation and OpenAI's Chris Lehane. It launches a ChatGPT Edu pilot for upper-secondary teachers (selected for regional and socio-economic diversity, implemented by the Onassis Foundation with The Tipping Point) and a Greek AI Accelerator programme giving early-stage founders OpenAI credits and mentorship.",
+      "date": "2025-09",
+      "sourceIds": [
+        "gr-13",
+        "gr-14"
+      ]
+    },
+    {
+      "text": "The EuroHPC JU signed the procurement contract for Daedalus with GRNET and Hewlett Packard Enterprise (acquisition cost around EUR 36M, 35% EuroHPC and 65% Greece's 'Greece 2.0' recovery plan), and works began converting a former power-station building at the Lavrion Technological and Cultural Park into the data centre that will host it.",
+      "date": "2025-03",
+      "sourceIds": [
+        "gr-8",
+        "gr-9"
+      ]
+    },
+    {
+      "text": "The High-Level Advisory Committee on AI, chaired by MIT professor Constantinos Daskalakis and coordinated by the Special Secretariat of Foresight, delivered 'A Blueprint for Greece's AI Transformation' -- a national strategy document setting out guiding principles and six flagship programmes across public administration, education, research and innovation, cultural heritage and ethics.",
+      "date": "2024-11",
+      "sourceIds": [
+        "gr-5",
+        "gr-6",
+        "gr-7"
+      ]
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "Daedalus installation at Lavrion completes and the Pharos AI Factory's full service portfolio (compute access, AI tools and expert support for startups, SMEs, researchers and public bodies) opens, expected by autumn 2026.",
+      "date": "2026",
+      "sourceIds": [
+        "gr-10",
+        "gr-12"
+      ]
+    },
+    {
+      "text": "The EU AI Act's remaining obligations -- for high-risk AI systems embedded in products covered by Annex I sectoral legislation -- become applicable on 2 August 2027, completing the Act's phase-in for Greek providers and deployers.",
+      "date": "2027-08",
+      "sourceIds": [
+        "gr-1"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Law 5321/2026 -- national implementation of the EU AI Act",
+      "status": "in_force",
+      "summary": "Published 30 July 2026 after a June 2026 public consultation, the law operationalises Regulation 2024/1689 in Greece: the Hellenic Data Protection Authority becomes the principal market surveillance authority (prohibited practices, most high-risk systems, transparency obligations), EETT the notifying authority. It establishes an AI Coordination and Expertise Centre and an AI Observatory, a regulatory sandbox and real-world testing framework, a complaints mechanism, a public-sector AI registry, administrative penalties, and a new criminal offence covering deepfake-related transparency violations. It also amends Law 4961/2022.",
+      "sourceIds": [
+        "gr-2",
+        "gr-3",
+        "gr-4"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "EU AI Act (Regulation 2024/1689)",
+      "status": "in_force",
+      "summary": "Directly applicable in Greece on the EU-wide schedule: prohibitions and AI-literacy duties from February 2025, GPAI rules from August 2025, and the bulk of the framework -- high-risk obligations, Article 50 transparency, and the Commission AI Office's GPAI enforcement powers -- from 2 August 2026, with Annex I product-embedded systems following in August 2027. Greece published its Article 77 fundamental-rights authority list in November 2024.",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "sourceIds": [
+        "gr-1",
+        "gr-4"
+      ]
+    },
+    {
+      "title": "Law 4961/2022 on emerging information and communication technologies",
+      "status": "in_force",
+      "summary": "Greece's pre-AI Act framework (July 2022), which imposed early transparency and governance obligations for algorithmic and AI systems in the public sector and workplaces -- one of the first national AI-adjacent laws in the EU. Law 5321/2026 amends it to align the national framework with the AI Act.",
+      "sourceIds": [
+        "gr-20",
+        "gr-3"
+      ]
+    },
+    {
+      "title": "A Blueprint for Greece's AI Transformation (national AI strategy)",
+      "status": "in_force",
+      "summary": "The November 2024 report of the High-Level Advisory Committee on AI, adopted as the basis of national AI policy. Non-binding but operative: it defines six flagship programmes (public administration, education, research/technology/innovation, cultural heritage, ethics) and frames the infrastructure investments (Daedalus, Pharos) and skills programmes now underway.",
+      "officialUrl": "https://foresight.gov.gr/en/studies/A-Blueprint-for-Greece-s-AI-Transformation/",
+      "sourceIds": [
+        "gr-5",
+        "gr-6"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Greek AI research concentrates in public research centres and the diaspora loop between them. The Athena Research Center is the pivotal institution: its Institute for Language and Speech Processing built Meltemi (March 2024), the first open Greek LLM, and the stronger Llama-3.1-based Llama-Krikri (February 2025), while its RRF-funded Archimedes unit -- associated with Daskalakis, Christos Papadimitriou and director Timos Sellis -- funds visiting researchers and PhD students in AI, data science and algorithms explicitly to reverse brain drain. NCSR Demokritos, NTUA, FORTH in Crete and the Athens and Thessaloniki universities supply the rest of the base, and all of them are consortium partners or users of the Pharos AI Factory. The pattern is sovereign language models and applied research on EU money rather than frontier-scale work.",
+    "sourceIds": [
+      "gr-15",
+      "gr-16",
+      "gr-17"
+    ]
+  },
+  "companies": [
+    {
+      "name": "DeepSea Technologies",
+      "description": "Athens-based maritime AI company (vessel performance and routing optimisation), acquired by Japan's Nabtesco -- a flagship of applied AI in Greece's dominant shipping sector.",
+      "url": "https://www.deepsea.ai"
+    },
+    {
+      "name": "Causaly",
+      "description": "AI platform for biomedical research discovery founded by Greek entrepreneurs, with a significant Athens engineering presence alongside its London HQ.",
+      "url": "https://www.causaly.com"
+    },
+    {
+      "name": "Intelligencia AI",
+      "description": "AI for drug-development risk prediction, founded by Greeks and running much of its R&D from Athens -- emblematic of the dual US/Greece structure of the country's AI startups.",
+      "url": "https://www.intelligencia.ai"
+    },
+    {
+      "name": "Orfium",
+      "description": "Music rights-management technology company with a large Athens engineering base, applying ML to copyright detection and royalty processing at scale.",
+      "url": "https://www.orfium.com"
+    },
+    {
+      "name": "Workable",
+      "description": "Athens-founded recruiting software company embedding AI across hiring workflows; one of the anchors of the Greek startup ecosystem.",
+      "url": "https://www.workable.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Strong public-sector and enterprise position; Microsoft announced a Greek datacenter region ('GR for Growth', Attica) in 2020, though Greek workloads are still served largely from nearby EU regions.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "description": "Widely used by Greek startups and enterprises via EU regions; AWS has expanded local presence and edge infrastructure in Greece.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Serves Greek cloud and AI workloads from European regions; smaller enterprise footprint than Azure/AWS locally.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "GRNET",
+        "description": "The state's National Infrastructures for Research and Technology: operates national HPC and cloud services for research and the public sector, the Lavrion data centre, Daedalus and the Pharos AI Factory -- the public counterweight to hyperscaler dependence.",
+        "url": "https://grnet.gr/en/"
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "Microsoft Azure",
+        "share": 35
+      },
+      {
+        "provider": "AWS",
+        "share": 30
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 15
+      }
+    ]
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "Daedalus (EuroHPC, 89 petaflops, 2,000+ NVIDIA GH200) installing at Lavrion in 2026 as the core of the Pharos AI Factory -- a step-change from GRNET's modest legacy HPC",
+    "chipAccess": "No domestic fabrication; NVIDIA accelerators acquired via EU/EuroHPC procurement, otherwise import-reliant"
+  },
+  "universities": [
+    {
+      "name": "Athena Research Center",
+      "description": "Greece's key AI research institution: home of ILSP (Meltemi and Llama-Krikri Greek LLMs) and the Archimedes AI unit, and a Pharos consortium partner.",
+      "url": "https://www.athenarc.gr/en"
+    },
+    {
+      "name": "National Technical University of Athens (NTUA)",
+      "description": "Greece's leading engineering school and a Pharos consortium partner; source of much of the country's AI and computer-engineering talent (and of diaspora researchers abroad).",
+      "url": "https://www.ntua.gr/en/"
+    },
+    {
+      "name": "NCSR Demokritos",
+      "description": "The national centre for scientific research, with long-standing AI and machine-learning institutes; Pharos consortium partner.",
+      "url": "https://www.demokritos.gr/"
+    },
+    {
+      "name": "National and Kapodistrian University of Athens (NKUA)",
+      "description": "Greece's largest university, with informatics and AI-relevant research groups across language technology and data science.",
+      "url": "https://en.uoa.gr/"
+    },
+    {
+      "name": "Aristotle University of Thessaloniki (AUTH)",
+      "description": "The largest university in northern Greece, with significant computer vision, ML and informatics research output.",
+      "url": "https://www.auth.gr/en/"
+    },
+    {
+      "name": "FORTH (Foundation for Research and Technology -- Hellas)",
+      "description": "Crete-based research foundation whose Institute of Computer Science is among Greece's strongest in AI-adjacent fields.",
+      "url": "https://www.forth.gr/en/home/"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "diaNEOsis",
+      "description": "Athens research and policy institute that has published substantive studies on AI's economic impact and digital transformation in Greece.",
+      "url": "https://www.dianeosis.org/en/"
+    },
+    {
+      "name": "ELIAMEP (Hellenic Foundation for European and Foreign Policy)",
+      "description": "Greece's leading foreign-policy think tank, increasingly covering technology, digital sovereignty and EU AI policy.",
+      "url": "https://www.eliamep.gr/en/"
+    },
+    {
+      "name": "Special Secretariat of Foresight",
+      "description": "Government foresight unit that coordinated the High-Level AI Advisory Committee and published the Blueprint -- functionally the strategy think tank inside the state.",
+      "url": "https://foresight.gov.gr/en/"
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digital Governance and Artificial Intelligence",
+      "description": "Lead ministry for AI policy, the AI Act implementation bill, mAIgov and the Pharos/Daedalus programme; renamed to include Artificial Intelligence, signalling the portfolio's elevation.",
+      "url": "https://mindigital.gr/",
+      "needsVerification": true
+    },
+    {
+      "name": "Hellenic Data Protection Authority (HDPA)",
+      "description": "Designated by Law 5321/2026 as Greece's principal market surveillance authority under the AI Act, covering prohibited practices, most high-risk systems and transparency obligations.",
+      "url": "https://www.dpa.gr/en"
+    },
+    {
+      "name": "Hellenic Telecommunications and Post Commission (EETT)",
+      "description": "The national notifying authority under the AI Act framework, responsible for the assessment and notification of conformity-assessment bodies.",
+      "url": "https://www.eett.gr/en/"
+    },
+    {
+      "name": "GRNET (National Infrastructures for Research and Technology)",
+      "description": "State-owned operator of national research computing: builds and will run Daedalus, the Lavrion data centre and the Pharos AI Factory.",
+      "url": "https://grnet.gr/en/"
+    },
+    {
+      "name": "AI Coordination and Expertise Centre",
+      "description": "New body created by Law 5321/2026 to support the competent authorities and ensure consistent AI Act implementation, alongside an AI Observatory tracking the national strategy.",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Kyriakos Mitsotakis",
+      "role": "Prime Minister; convened the High-Level AI Advisory Committee and signed the OpenAI for Greece MoU",
+      "affiliation": "Government of Greece",
+      "category": "government",
+      "url": "https://www.primeminister.gr/en"
+    },
+    {
+      "name": "Dimitris Papastergiou",
+      "role": "Minister of Digital Governance and Artificial Intelligence; leads AI Act implementation, mAIgov and the Pharos/Daedalus programme",
+      "affiliation": "Ministry of Digital Governance and Artificial Intelligence",
+      "category": "government",
+      "url": "https://mindigital.gr/"
+    },
+    {
+      "name": "Constantinos Daskalakis",
+      "role": "MIT professor of computer science; chaired the High-Level Advisory Committee on AI that produced the national Blueprint",
+      "affiliation": "MIT / High-Level Advisory Committee on AI",
+      "category": "advisor",
+      "url": "https://people.csail.mit.edu/costis/"
+    },
+    {
+      "name": "Timos Sellis",
+      "role": "Director of the Archimedes research unit for AI, data science and algorithms; member of the national AI advisory committee",
+      "affiliation": "Archimedes / Athena Research Center",
+      "category": "researcher",
+      "url": "https://archimedesai.gr/en/"
+    },
+    {
+      "name": "John Tasioulas",
+      "role": "Oxford professor of ethics and legal philosophy (Director, Institute for Ethics in AI); member of Greece's AI advisory committee",
+      "affiliation": "University of Oxford / High-Level Advisory Committee on AI",
+      "category": "advisor",
+      "url": "https://www.oxford-aiethics.ox.ac.uk/",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Constantinos Daskalakis",
+      "type": "person",
+      "role": "MIT theorist and chair of Greece's national AI advisory committee -- the intellectual anchor of the diaspora-led strategy.",
+      "category": "researcher",
+      "url": "https://people.csail.mit.edu/costis/"
+    },
+    {
+      "name": "Dimitris Papastergiou",
+      "type": "person",
+      "role": "Digital governance and AI minister; the government's operational voice on Pharos, Daedalus and AI Act enforcement.",
+      "category": "government",
+      "url": "https://mindigital.gr/"
+    },
+    {
+      "name": "Pharos AI Factory",
+      "type": "organization",
+      "role": "Greece's EuroHPC AI Factory and regional SE-Europe hub -- the place to watch the compute strategy land.",
+      "category": "government",
+      "url": "https://www.pharos-aifactory.eu/"
+    },
+    {
+      "name": "Athena Research Center",
+      "type": "organization",
+      "role": "Builder of the Greek LLMs (Meltemi, Llama-Krikri) and host of the Archimedes AI unit.",
+      "category": "university",
+      "url": "https://www.athenarc.gr/en"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "PM / High-Level AI Advisory Committee",
+      "type": "government"
+    },
+    {
+      "label": "Ministry of Digital Governance and AI",
+      "type": "government"
+    },
+    {
+      "label": "Hellenic DPA (market surveillance)",
+      "type": "agency"
+    },
+    {
+      "label": "GRNET / Pharos AI Factory",
+      "type": "agency"
+    },
+    {
+      "label": "Athena RC / Archimedes",
+      "type": "research"
+    },
+    {
+      "label": "OpenAI / Onassis Foundation (schools MoU)",
+      "type": "company"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "No frontier-scale developer",
+      "note": "Greece's sovereign models (Meltemi, Llama-Krikri) are 7-8B-parameter open adaptations of foreign base models for the Greek language -- valuable, but far from frontier scale; hence frontierDeveloper 'emerging' rather than 'domestic'."
+    },
+    {
+      "area": "EU-money dependence",
+      "note": "Daedalus, Pharos and Archimedes are all substantially funded by the Recovery and Resilience Facility and EuroHPC. Domestic private AI investment is thin, and the sustainability of the ecosystem after RRF funding winds down is an open question."
+    },
+    {
+      "area": "No dedicated AI safety institute",
+      "note": "Greece has no AI safety institute or evaluation body; oversight runs through the data protection authority and the new Coordination and Expertise Centre, whose enforcement capacity for the AI Act is untested."
+    },
+    {
+      "area": "Fresh, partially verified legal detail",
+      "note": "Law 5321/2026's exact gazette date, penalty structure and the new institutions it creates are reported mainly through law-firm commentary so far; several entries here carry needsVerification pending official-source confirmation."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Law 5321/2026 -- implementing the AI Act",
+      "category": "government",
+      "summary": "Greece enacted its national AI Act framework days before the August 2026 enforcement milestone -- the debate is whether the HDPA and the new coordination bodies can actually enforce it.",
+      "expanded": "The law concentrates market surveillance in the Hellenic Data Protection Authority, an independent body with a record of large GDPR fines but limited AI-specific capacity, and layers on a new AI Coordination and Expertise Centre, an observatory, a sandbox and a deepfake criminal offence. Supporters see a coherent single-supervisor model with startup-friendly testing routes; sceptics note the compressed timeline (consultation in June, law in July, enforcement in August), unresolved resourcing, and the risk that criminalising deepfake transparency violations outpaces the guidance practitioners need.",
+      "sourceIds": [
+        "gr-2",
+        "gr-3",
+        "gr-4"
+      ]
+    },
+    {
+      "topic": "Daedalus, Pharos and the sovereign-compute bet",
+      "category": "infrastructure",
+      "summary": "Greece is spending EU recovery money on an 89-petaflop supercomputer and one of the EU's first AI Factories -- a bet that public compute can seed an ecosystem the private sector hasn't.",
+      "expanded": "Daedalus and Pharos give Greece infrastructure out of proportion to its private AI sector, and the antenna model extends its reach to Cyprus, Malta, North Macedonia and Serbia -- a genuine regional-hub play. The optimistic case is Finland's LUMI: public compute attracting research and startups. The sceptical case is utilisation risk -- whether Greek demand (and the promised health, culture/language and sustainability applications) will fill the machine, and what sustains operations once RRF and EuroHPC funding cycles end. Delivery slippage from 'accessible in early 2026' to installation in summer 2026 sharpened the question.",
+      "sourceIds": [
+        "gr-8",
+        "gr-11",
+        "gr-12",
+        "gr-10"
+      ]
+    },
+    {
+      "topic": "OpenAI in Greek schools",
+      "category": "industry",
+      "summary": "The 'OpenAI for Greece' MoU puts ChatGPT Edu into a national teacher pilot with the Onassis Foundation implementing -- a partnership that mirrors Estonia's but raises the same dependence questions.",
+      "expanded": "Signed at the Thessaloniki International Fair in September 2025, the deal pairs an education pilot (upper-secondary teachers first, chosen for regional and socio-economic diversity) with a startup accelerator offering OpenAI credits and mentorship. Advocates point to seven-fold growth in Greek ChatGPT use and a chance to leapfrog on AI literacy; critics ask why a national education programme should run on one US vendor's stack, how student and teacher data will be governed, and whether a private foundation implementing public education policy blurs accountability -- especially alongside the state's parallel investment in sovereign Greek-language models.",
+      "sourceIds": [
+        "gr-13",
+        "gr-14"
+      ]
+    },
+    {
+      "topic": "Brain drain and the diaspora loop",
+      "category": "research",
+      "summary": "Greece's AI strategy is written and championed largely by its diaspora -- Archimedes and the advisory committee are explicit attempts to turn emigration into a repatriation channel.",
+      "expanded": "A decade of crisis-era emigration hollowed out Greek research, and the AI strategy leans unusually hard on expatriates: Daskalakis chairing the committee from MIT, Tasioulas from Oxford, Drakopoulos from USC, with the Archimedes unit funding visiting posts and PhDs to pull researchers back. The open question is whether prestige projects and RRF-funded fellowships can compete with US and UK salaries and compute access at scale, or whether the loop remains advisory -- strategy written from abroad, execution constrained at home.",
+      "sourceIds": [
+        "gr-17",
+        "gr-7"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "A Blueprint for Greece's AI Transformation (full report)",
+      "type": "government",
+      "author": "High-Level Advisory Committee on AI / Special Secretariat of Foresight",
+      "url": "https://foresight.gov.gr/en/studies/A-Blueprint-for-Greece-s-AI-Transformation/"
+    },
+    {
+      "title": "Pharos AI Factory",
+      "type": "government",
+      "url": "https://www.pharos-aifactory.eu/",
+      "note": "Official portal for Greece's EuroHPC AI Factory -- services, sectors and access routes."
+    },
+    {
+      "title": "Meltemi and Llama-Krikri Greek LLMs (ILSP model releases)",
+      "type": "dataset",
+      "author": "Institute for Language and Speech Processing, Athena RC",
+      "url": "https://huggingface.co/ilsp",
+      "note": "Open-weight Greek language models -- the sovereign-model side of the strategy."
+    },
+    {
+      "title": "OECD.AI national dashboard -- Greece",
+      "type": "government",
+      "url": "https://oecd.ai/en/dashboards/national/greece"
+    },
+    {
+      "title": "Greece: Artificial Intelligence -- Legal 500 country comparative guide",
+      "type": "academic",
+      "url": "https://www.legal500.com/guides/chapter/greece-artificial-intelligence/",
+      "note": "Practitioner overview of the Greek AI legal framework, including Law 4961/2022."
+    }
+  ],
+  "sources": [
+    {
+      "id": "gr-1",
+      "title": "AI Act (regulatory framework for AI)",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "gr-2",
+      "title": "The Law 5321/2026 about the implementation in Greece of the Regulation 2024/1689 (AI Act)",
+      "publisher": "Metaxopoulos & Associates Law Firm",
+      "url": "https://www.metaxopouloslaw.gr/en/article-the-law-5321-2026-about-the-implementation-in-greece-of-the-regulation-2024-1689-ai-act/",
+      "date": "2026-08",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "gr-3",
+      "title": "Greece Launches Public Consultation on National AI Act Implementation Framework",
+      "publisher": "Kyriakides Georgopoulos Law Firm",
+      "url": "https://kglawfirm.gr/greece-launches-public-consultation-on-national-ai-act-implementation-framework/",
+      "date": "2026-06",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "gr-4",
+      "title": "Greece Publishes Draft Law For EU AI Act Implementation",
+      "publisher": "Mondaq",
+      "url": "https://www.mondaq.com/new-technology/1812150/greece-publishes-draft-law-for-eu-ai-act-implementation",
+      "date": "2026-06",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "gr-5",
+      "title": "A Blueprint for Greece's AI Transformation",
+      "publisher": "Special Secretariat of Foresight, Hellenic Republic",
+      "url": "https://foresight.gov.gr/en/studies/A-Blueprint-for-Greece-s-AI-Transformation/",
+      "date": "2024-11",
+      "category": "government"
+    },
+    {
+      "id": "gr-6",
+      "title": "Greece National AI Strategy (market intelligence)",
+      "publisher": "U.S. International Trade Administration (trade.gov)",
+      "url": "https://www.trade.gov/market-intelligence/greece-national-ai-strategy",
+      "date": "2025",
+      "category": "government"
+    },
+    {
+      "id": "gr-7",
+      "title": "MIT Prof. Daskalakis Will Head Greece's Artificial Intelligence Panel",
+      "publisher": "The National Herald",
+      "url": "https://www.thenationalherald.com/mit-prof-daskalakis-will-head-greeces-artificial-intelligence-panel/",
+      "date": "2023-10",
+      "category": "news"
+    },
+    {
+      "id": "gr-8",
+      "title": "The implementation of the new European Supercomputer DAEDALUS and the Data Centre at the Lavrion Technological and Cultural Park begins",
+      "publisher": "GRNET",
+      "url": "https://grnet.gr/en/2025/03/26/daedalus-dc-ylopoihsh-lavrio/",
+      "date": "2025-03-26",
+      "category": "research"
+    },
+    {
+      "id": "gr-9",
+      "title": "EuroHPC JU signs procurement contract for Daedalus supercomputer",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://eurohpc-ju.europa.eu/eurohpc-ju-signs-procurement-contract-daedalus-supercomputer-2025-03-28_en",
+      "date": "2025-03-28",
+      "category": "government"
+    },
+    {
+      "id": "gr-10",
+      "title": "Greek supercomputer Daedalus: from assembly to installation in summer 2026",
+      "publisher": "ProtoThema English",
+      "url": "https://en.protothema.gr/2026/03/02/greek-supercomputer-daedalus-from-assembly-to-installation-in-summer-2026/",
+      "date": "2026-03-02",
+      "category": "news"
+    },
+    {
+      "id": "gr-11",
+      "title": "Greece will host one of the seven AI Factories in the EU -- Pharos positions Greece on the map of AI innovation",
+      "publisher": "GRNET",
+      "url": "https://grnet.gr/en/2024/12/12/pr-ai-factories/",
+      "date": "2024-12-12",
+      "category": "research"
+    },
+    {
+      "id": "gr-12",
+      "title": "PHAROS AI Factory becomes a regional AI hub for South-Eastern Europe -- four AI Factory Antennas approved",
+      "publisher": "GRNET",
+      "url": "https://grnet.gr/en/2025/10/16/pr_mindigitalgr_pharosaifactory_antennas/",
+      "date": "2025-10-16",
+      "category": "research"
+    },
+    {
+      "id": "gr-13",
+      "title": "OpenAI and Greek Government launch 'OpenAI for Greece'",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/global-affairs/openai-for-greece/",
+      "date": "2025-09",
+      "category": "industry"
+    },
+    {
+      "id": "gr-14",
+      "title": "'OpenAI for Greece': a tool for education & innovation",
+      "publisher": "Greek News Agenda (Secretariat General for Public Diplomacy)",
+      "url": "https://www.greeknewsagenda.gr/openai-for-greece/",
+      "date": "2025-09",
+      "category": "government"
+    },
+    {
+      "id": "gr-15",
+      "title": "Meltemi, the first open-source Large Language Model for Greek",
+      "publisher": "Institute for Language and Speech Processing / Athena RC",
+      "url": "https://www.ilsp.gr/en/news/meltemi-en/",
+      "date": "2024-03",
+      "category": "research"
+    },
+    {
+      "id": "gr-16",
+      "title": "ILSP unveils Llama-Krikri, a next generation Greek Large Language Model",
+      "publisher": "Institute for Language and Speech Processing / Athena RC",
+      "url": "https://www.ilsp.gr/en/news/krikri/",
+      "date": "2025-02",
+      "category": "research"
+    },
+    {
+      "id": "gr-17",
+      "title": "ARCHIMEDES -- research on artificial intelligence, data science and algorithms",
+      "publisher": "Athena Research Center",
+      "url": "https://www.athenarc.gr/en/news/archimedes-research-artificial-intelligence-data-science-and-algorithms",
+      "date": "2022",
+      "category": "research"
+    },
+    {
+      "id": "gr-18",
+      "title": "New AI widget mAigov presented by e-gov minister",
+      "publisher": "Tornos News",
+      "url": "https://www.tornosnews.gr/en/tourism-businesses/travel-tech/49703-new-ai-widget-maigov-presented-by-e-gov-minister-launched-on-tuesday.html",
+      "date": "2023-12",
+      "category": "news"
+    },
+    {
+      "id": "gr-19",
+      "title": "National AI Policy Initiatives -- Greece",
+      "publisher": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/national/greece",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "gr-20",
+      "title": "Greece: Artificial Intelligence -- country comparative guide",
+      "publisher": "The Legal 500",
+      "url": "https://www.legal500.com/guides/chapter/greece-artificial-intelligence/",
+      "date": "2025",
+      "category": "expert_commentary"
+    }
+  ],
+  "hasMajorUpdate": true
+}

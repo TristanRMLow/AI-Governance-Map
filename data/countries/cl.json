@@ -4,15 +4,23 @@
   "shortName": "Chile",
   "flagEmoji": "🇨🇱",
   "geometryType": "polygon",
-  "isoA3": ["CHL"],
+  "isoA3": [
+    "CHL"
+  ],
   "region": "Americas",
   "jurisdictionType": "nation_state",
   "governanceModel": "Comprehensive, EU-influenced AI bill in active Senate debate, layered on an existing non-binding National AI Policy",
-  "accentColor": { "light": "#5F4483", "dark": "#8261AE" },
-  "center": [-71.0, -35.0],
+  "accentColor": {
+    "light": "#5F4483",
+    "dark": "#8261AE"
+  },
+  "center": [
+    -71,
+    -35
+  ],
   "zoom": 3.4,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 7,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 8,
   "hasMajorUpdate": true,
   "debateTopics": [
     "Whether the proposed National Commission on AI overlaps confusingly with a future data-protection agency",
@@ -37,42 +45,64 @@
   },
   "recentDevelopments": [
     {
+      "text": "Science Minister Ximena Lincolao announced (13 August 2026) that the Executive would present a new AI bill in the coming weeks, replacing the risk-based bill (Boletin 16.821-19) in second constitutional reading in the Senate. The new text aims to provide certainty, promote innovation and set clear safeguards without hindering AI development, under a 2026-2030 ministry roadmap that treats AI as critical infrastructure.",
+      "date": "2026-08-13",
+      "sourceIds": [
+        "cl-16"
+      ]
+    },
+    {
       "text": "Comprehensive AI bill (Boletín 16.821-19) is approved by the Chamber of Deputies and sent to the Senate for its second constitutional stage, though deputies reportedly rejected some governance and regulatory-implementation articles.",
       "date": "2025-10",
-      "sourceIds": ["cl-9"],
+      "sourceIds": [
+        "cl-9"
+      ],
       "severity": "major"
     },
     {
       "text": "José Antonio Kast defeats Jeannette Jara in Chile's presidential runoff with more than 58% of the vote, ending the Boric administration that had authored the pending AI bill.",
       "date": "2025-12-14",
-      "sourceIds": ["cl-6"]
+      "sourceIds": [
+        "cl-6"
+      ]
     },
     {
       "text": "José Antonio Kast is inaugurated as President of Chile.",
       "date": "2026-03-11",
-      "sourceIds": ["cl-6"],
+      "sourceIds": [
+        "cl-6"
+      ],
       "severity": "major"
     },
     {
       "text": "CENIA leads the launch of Latam-GPT, described as the first open-source large language model built specifically for Latin America — trained on regionally sourced Spanish, Portuguese and Indigenous-language text, backed by CAF and more than 50 institutions across the region. Initial training used AWS cloud infrastructure, with later versions intended to run on a roughly US$4.5 million supercomputer being installed at the Universidad de Tarapacá in northern Chile.",
       "date": "2026-02-10",
-      "sourceIds": ["cl-14", "cl-15"],
+      "sourceIds": [
+        "cl-14",
+        "cl-15"
+      ],
       "severity": "major"
     },
     {
       "text": "Executive amendments to the AI bill address comprehensibility of AI outputs for affected persons, expand prohibited uses (subliminal manipulation, remote biometric identification, mass facial-image extraction), and add 72-hour incident-notification requirements for high-risk systems.",
       "date": "2026-02",
-      "sourceIds": ["cl-2"]
+      "sourceIds": [
+        "cl-2"
+      ]
     },
     {
       "text": "Senate passes the separate Technology Transfer and Knowledge law, which Kast highlights alongside AI in his first State of the Union.",
       "date": "2026-05-13",
-      "sourceIds": ["cl-8"]
+      "sourceIds": [
+        "cl-8"
+      ]
     },
     {
       "text": "President Kast's first State of the Union address commits to strengthening computing capacity, energy access and data centers, and says AI 'should be designed, trained, built and generate employment' in Chile, without detailing a position on the pending AI bill.",
       "date": "2026-06-01",
-      "sourceIds": ["cl-8"]
+      "sourceIds": [
+        "cl-8"
+      ]
     }
   ],
   "policyAndRegulation": [
@@ -81,25 +111,37 @@
       "status": "proposed",
       "summary": "Introduced by presidential message in May 2024, merging executive and parliamentary proposals; classifies AI systems into four risk tiers, bans practices like generalized social scoring and real-time public remote biometric identification, and would create a National Commission on Artificial Intelligence with authorizing and enforcement powers. Approved by the Chamber of Deputies and sent to the Senate around October 2025; remains in the Senate's Comisión Desafíos del Futuro as of mid-2026.",
       "officialUrl": "https://www.minciencia.gob.cl/noticias/proyecto-que-regula-usos-de-la-inteligencia-artificial-avanza-al-senado/",
-      "sourceIds": ["cl-1", "cl-2", "cl-9"]
+      "sourceIds": [
+        "cl-1",
+        "cl-2",
+        "cl-9"
+      ]
     },
     {
       "title": "National AI Policy (Política Nacional de Inteligencia Artificial)",
       "status": "in_force",
       "summary": "First published 2021 with a 10-year horizon; updated in 2024 around three cross-cutting principles — ethical and people-centered AI, AI in service of sustainable development, and international/multi-actor coordination. Non-binding.",
       "officialUrl": "https://www.minciencia.gob.cl/areas/inteligencia-artificial/Inteligencia-Artificial/",
-      "sourceIds": ["cl-4"]
+      "sourceIds": [
+        "cl-4"
+      ]
     },
     {
       "title": "Technology Transfer and Knowledge law",
       "status": "passed",
       "summary": "Originated under the Boric administration (April 2024); passed the Senate May 13, 2026 with bipartisan support; aims to facilitate commercialization of academic research, an enabling condition President Kast has linked to Chile's AI ambitions.",
-      "sourceIds": ["cl-8"]
+      "sourceIds": [
+        "cl-8"
+      ]
     }
   ],
   "researchEcosystem": {
     "summary": "Chile's most prominent dedicated AI research body is CENIA (National Center for Artificial Intelligence Research), a government- and privately-funded center based in Santiago that partners with Universidad de Chile, Universidad Técnica Federico Santa María, Pontificia Universidad Católica de Chile and Universidad Adolfo Ibáñez. CENIA announced in May 2026 that principal investigator Pablo Barceló would lead the center for its 2026-2031 continuity period, succeeding its earlier leadership. CENIA also coordinates Latam-GPT, the region's flagship open-source large-language-model initiative, launched in February 2026 and developed with partners across more than a dozen Latin American countries. GobLab UAI, the public-innovation lab of Universidad Adolfo Ibáñez's Government School, has separately developed applied algorithmic-ethics tools — an Algorithmic Impact Assessment, a Bias and Equity Measurement instrument, and an Algorithmic Transparency Form — piloted across nine public institutions between 2023 and 2025, plus a Public Algorithms Repository.",
-    "sourceIds": ["cl-7", "cl-10", "cl-13"]
+    "sourceIds": [
+      "cl-7",
+      "cl-10",
+      "cl-13"
+    ]
   },
   "companies": [
     {
@@ -227,16 +269,40 @@
     }
   ],
   "influenceMap": [
-    { "label": "MinCiencia", "type": "government" },
-    { "label": "Senate Comisión Desafíos del Futuro", "type": "government" },
-    { "label": "CENIA", "type": "research" },
-    { "label": "GobLab UAI", "type": "think_tank" },
-    { "label": "AWS / Google / Microsoft (data centers)", "type": "company" }
+    {
+      "label": "MinCiencia",
+      "type": "government"
+    },
+    {
+      "label": "Senate Comisión Desafíos del Futuro",
+      "type": "government"
+    },
+    {
+      "label": "CENIA",
+      "type": "research"
+    },
+    {
+      "label": "GobLab UAI",
+      "type": "think_tank"
+    },
+    {
+      "label": "AWS / Google / Microsoft (data centers)",
+      "type": "company"
+    }
   ],
   "notableGaps": [
-    { "area": "AI regulator", "note": "No AI regulator yet exists; the bill's proposed National Commission on Artificial Intelligence has not been created and some legal commentary flags unresolved overlap with a planned National Personal Data Protection Agency." },
-    { "area": "New government's position", "note": "President Kast's administration has not stated a clear public position specifically on the pending comprehensive AI bill, beyond broader compute-infrastructure and technology-transfer commitments." },
-    { "area": "Frontier AI development", "note": "No frontier foundation-model developer is headquartered in Chile; the strongest domestic AI activity is in applied research (CENIA), public-sector algorithmic ethics tools, and AI-enabled startups (NotCo, Betterfly, Fintual) rather than base-model research." }
+    {
+      "area": "AI regulator",
+      "note": "No AI regulator yet exists; the bill's proposed National Commission on Artificial Intelligence has not been created and some legal commentary flags unresolved overlap with a planned National Personal Data Protection Agency."
+    },
+    {
+      "area": "New government's position",
+      "note": "President Kast's administration has not stated a clear public position specifically on the pending comprehensive AI bill, beyond broader compute-infrastructure and technology-transfer commitments."
+    },
+    {
+      "area": "Frontier AI development",
+      "note": "No frontier foundation-model developer is headquartered in Chile; the strongest domestic AI activity is in applied research (CENIA), public-sector algorithmic ethics tools, and AI-enabled startups (NotCo, Betterfly, Fintual) rather than base-model research."
+    }
   ],
   "debates": [
     {
@@ -244,14 +310,20 @@
       "category": "government",
       "summary": "Some legal commentators argue the AI bill's proposed National Commission on Artificial Intelligence has poorly delineated authority relative to Chile's planned National Personal Data Protection Agency.",
       "expanded": "Analysis published in Diario Constitucional has characterized the current institutional design as 'mal diseñada' (poorly designed), questioning whether both bodies would end up with overlapping competencies over AI systems that process personal data — likely the majority of high-risk systems in practice. This design question remains unresolved as the bill sits in the Senate's Comisión Desafíos del Futuro, and how it is resolved could materially affect how enforceable the eventual law is.",
-      "sourceIds": ["cl-2", "cl-9"]
+      "sourceIds": [
+        "cl-2",
+        "cl-9"
+      ]
     },
     {
       "topic": "Whether Chile's new right-of-center government will maintain or reshape the AI bill inherited from the Boric administration",
       "category": "government",
       "summary": "President Kast's June 2026 State of the Union emphasized compute infrastructure and employment rather than explicitly endorsing the pending risk-based AI bill drafted under his predecessor.",
       "expanded": "Kast pledged to push forward the bipartisan Technology Transfer and Knowledge law and to strengthen Chile's computing capacity, energy access and data-center footprint, framing AI primarily as an economic and industrial opportunity ('designed, trained, built... in Chile'). He did not make specific public commitments regarding the risk-tiered AI systems bill introduced by the Boric government in 2024, leaving open whether his administration will continue championing it, seek to amend it, or deprioritize it relative to infrastructure-focused initiatives.",
-      "sourceIds": ["cl-8", "cl-6"]
+      "sourceIds": [
+        "cl-8",
+        "cl-6"
+      ]
     }
   ],
   "knowledgeHub": [
@@ -377,6 +449,14 @@
       "publisher": "bne IntelliNews",
       "url": "https://www.intellinews.com/chile-launches-latam-gpt-in-push-for-regional-ai-sovereignty-425563/",
       "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "cl-16",
+      "title": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+      "publisher": "La Tercera",
+      "url": "https://www.latercera.com/nacional/noticia/ministerio-de-ciencia-fija-seis-ejes-para-2026-2030-y-prepara-nuevo-proyecto-de-ley-de-inteligencia-artificial/",
+      "date": "2026-08-13",
       "category": "news"
     }
   ]

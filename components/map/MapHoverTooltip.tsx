@@ -44,11 +44,13 @@ export function MapHoverTooltip({
       </p>
       {meta ? (
         <>
-          <p className="mt-1.5 text-[12px] text-text-muted">
-            Latest update: <span className="text-text">{daysAgo(meta.lastUpdated)}</span>
-          </p>
+          {meta.latestDevelopmentDate && (
+            <p className="mt-1.5 text-[12px] text-text-muted">
+              Latest development: <span className="text-text">{daysAgo(meta.latestDevelopmentDate)}</span>
+            </p>
+          )}
           <p className="mt-0.5 text-[12px] text-text-muted">
-            <span className="text-text">{meta.newDevelopmentsCount}</span> new developments
+            <span className="text-text">{meta.newDevelopmentsCount}</span> developments tracked
           </p>
           <p className="mt-2 text-[12px] font-medium" style={{ color: meta.accentColor.dark }}>
             Click to explore →

@@ -1,0 +1,559 @@
+{
+  "code": "sn",
+  "name": "Senegal",
+  "shortName": "Senegal",
+  "flagEmoji": "🇸🇳",
+  "geometryType": "polygon",
+  "isoA3": ["SEN"],
+  "region": "Africa",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Sovereignty-first digital strategy (New Deal Technologique) layered on a 2023 national AI strategy; no binding AI law, with a 2008 data-protection law still anchoring regulation",
+  "accentColor": { "light": "#4C8A3F", "dark": "#74B267" },
+  "center": [-14.4, 14.5],
+  "zoom": 5.8,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 7,
+  "hasMajorUpdate": true,
+  "debateTopics": [
+    "Digital sovereignty built on Huawei-run infrastructure",
+    "AI ambitions under a 2008 data-protection law",
+    "Avoiding 'digital colonization' — who builds Senegal's AI?"
+  ],
+  "overview": "Senegal is francophone West Africa's digital hub and one of the region's most internationally engaged AI policy actors. Its National Strategy for the Development of Artificial Intelligence (SNDIA) was launched in September 2023 by the then Ministry of Communication, Telecommunications and the Digital Economy — among the first dedicated AI strategies in francophone Africa — setting a vision to 2028 built around four objectives ('AI as catalyst' for the national development plan, 'IA for Good', regional 'Ubuntu' leadership, and trustworthy AI), a target of training some 90,000 Senegalese in data science and AI by 2028, and plans for a national AI research institute, an AI cluster and a public-sector data lake. The strategy was developed alongside UNESCO's Readiness Assessment Methodology, and Senegal was the first African member of the Global Partnership on AI (GPAI).\n\nUnder President Bassirou Diomaye Faye, elected in 2024, AI has been folded into a larger flagship: the New Deal Technologique, launched on 24 February 2025 in Diamniadio — a roughly $1.8 billion digital-transformation strategy to 2034, under the 'Senegal 2050' agenda, resting on digital sovereignty, digitalisation of 90-95% of public services, a home-grown digital economy (targets of 150,000 tech jobs and 500 startups) and regional technology leadership. A September 2025 Gates Foundation partnership ($10M, signed by Bill Gates and President Faye at UNGA) funds a universal digital identity, an AI hub for health and agriculture, and a delivery unit. In 2026 Senegal has been strikingly active internationally — presenting at the AI Impact Summit in New Delhi, unveiling 'Senegal Digital Factory' and 'Senegal AI Factory' initiatives at a Hiroshima AI Process meeting in Tokyo, and, on 16 July 2026, becoming a founding member of the China-headquartered World AI Cooperation Organization (WAICO) — a balancing act between Western and Chinese AI governance blocs that mirrors its infrastructure choices: the national data centre at Diamniadio, opened in 2021, was Chinese-financed and Huawei-built.\n\nRegulation lags strategy. Senegal was an African data-protection pioneer (Law 2008-12 created the Commission de protection des données personnelles, CDP), but that pre-AI law remains in force — a 2019 modernization bill covering biometrics, big data and AI was never adopted — and there is no binding AI-specific legislation. The ecosystem is young but genuinely notable: Kera Health (founded by Moustapha Cissé, ex-head of Google AI Accra) raised $10M from the IFC in 2025 for AI-powered health platforms; Dakar-headquartered Wave became francophone Africa's first fintech unicorn; Baamtu builds Wolof NLP and speech systems; the GalsenAI community runs IndabaX Sénégal; and AIMS Senegal in Mbour hosts the pan-African African Master's in Machine Intelligence (AMMI). Compute, energy, a stalled data-protection reform and dependence on foreign infrastructure and funding remain the binding constraints.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "State-led digital sovereignty push; AI strategy without a binding AI law",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "Non-binding 2023 AI strategy (SNDIA) plus the New Deal Technologique; the 2008 data-protection law (CDP) is the only binding instrument touching AI, and its modernization has stalled",
+    "latestMajorUpdate": "New Deal Technologique launched February 2025 ($1.8B to 2034); in 2026 Senegal unveiled 'Senegal AI Factory' plans in Tokyo and became a founding member of the China-led World AI Cooperation Organization",
+    "governmentInvolvement": "High — the presidency drives the New Deal Technologique, the state runs the national data centre via Senegal Numérique SA, and government data is centralised at Diamniadio",
+    "industrialStrategy": "Digital sovereignty plus startup development: targets of 150,000 tech jobs and 500 startups by 2034, a Startup Act (2020), DER/FJ public funding, and planned Digital/AI 'Factories'",
+    "internationalPartnerships": "First African GPAI member; UNESCO RAM champion; Gates Foundation partnership on digital ID and an AI hub; Huawei-built national data centre; founding member of China-headquartered WAICO (July 2026); active in the Hiroshima AI Process",
+    "primaryPolicyFocus": "Standing up sovereign digital infrastructure and AI capacity (AI Factory, AI hub for health and agriculture) while training a large AI workforce"
+  },
+  "currentDirection": {
+    "trend": "stable",
+    "summary": "Senegal's direction is deployment- and sovereignty-led rather than regulatory: the Faye administration is pouring energy into the New Deal Technologique, international AI diplomacy on both Western and Chinese tracks, and new institutions (AI Factory, AI hub), while the binding rulebook — a 2008 data-protection law — has not moved. A June 2026 government reorganization created a standalone Ministry of Telecommunications and Digital under Samba Diouf, signalling continuity of the strategy with faster execution rather than a shift toward binding AI rules."
+  },
+  "recentDevelopments": [
+    {
+      "text": "At a Hiroshima AI Process meeting in Tokyo, Senegal's Ministry of Telecommunications and Digital Affairs presented its digital modernization agenda under the New Deal Technologique and unveiled two new initiatives — 'Senegal Digital Factory' and 'Senegal AI Factory' — intended to build an AI ecosystem supporting startups, researchers, businesses and public administrations, alongside an emerging updated national AI strategy focused on responsible AI.",
+      "date": "2026-08",
+      "sourceIds": ["sn-7", "sn-8"]
+    },
+    {
+      "text": "Senegal became a founding member of the World AI Cooperation Organization (WAICO), the China-proposed, Shanghai-headquartered body established on 16 July 2026 when 29 countries — including around ten African states — signed its founding agreement on the eve of the World AI Conference.",
+      "date": "2026-07-16",
+      "sourceIds": ["sn-9", "sn-10"]
+    },
+    {
+      "text": "A government reorganization under new Prime Minister Ahmadou Al Aminou Lô created a standalone Ministry of Telecommunications and Digital, separated from the communication portfolio, with digital-transformation specialist Samba Diouf (previously the president's digital adviser) appointed minister, succeeding Alioune Sall.",
+      "date": "2026-06-01",
+      "sourceIds": ["sn-20"]
+    },
+    {
+      "text": "Senegal took part in the AI Impact Summit 2026 in New Delhi (16-20 February), represented by Minister of Communication, Telecommunications and Digital Economy Alioune Sall, presenting its ambitions to help shape global AI governance and to position Senegal as an African voice on inclusive AI.",
+      "date": "2026-02",
+      "sourceIds": ["sn-11"]
+    },
+    {
+      "text": "President Bassirou Diomaye Faye and Bill Gates signed a $10 million Gates Foundation partnership at the 80th UN General Assembly to support the New Deal Technologique — funding a universal digital identity, an artificial-intelligence hub to drive innovation in health and agriculture, and a delivery unit for implementation.",
+      "date": "2025-09-29",
+      "sourceIds": ["sn-6"]
+    },
+    {
+      "text": "Kera Health Platforms, the Dakar-founded AI health-tech startup created by Moustapha Cissé (founder of AMMI and former head of Google AI Accra), secured a $10 million investment from the IFC to scale its AI-powered platform connecting providers, patients, pharmacies, labs and insurers across the WAEMU region — Senegal's most prominent AI startup financing to date.",
+      "date": "2025-06",
+      "sourceIds": ["sn-16", "sn-22"]
+    },
+    {
+      "text": "President Bassirou Diomaye Faye launched the New Deal Technologique at Diamniadio — a roughly $1.8 billion national digital strategy to 2034 under the 'Senegal 2050' agenda, built on digital sovereignty (sovereign cloud, data localisation, cybersecurity), digitalisation of 90-95% of public services, and targets of 150,000 tech jobs and 500 startups, with AI adoption named among its priorities.",
+      "date": "2025-02-24",
+      "sourceIds": ["sn-3", "sn-4", "sn-5"],
+      "severity": "major"
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "SNDIA horizon: the 2023 national AI strategy targets some 90,000 Senegalese trained in data science and AI, plus a national AI research institute and AI cluster, by 2028.",
+      "date": "2028",
+      "sourceIds": ["sn-1"]
+    },
+    {
+      "text": "New Deal Technologique horizon: 90-95% of public services digitised, 150,000 tech jobs and 500 startups targeted by 2034.",
+      "date": "2034",
+      "sourceIds": ["sn-4"]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "National Strategy for the Development of Artificial Intelligence (SNDIA)",
+      "status": "in_force",
+      "summary": "Launched September 2023 by the then Ministry of Communication, Telecommunications and the Digital Economy, with a vision for ethical, trustworthy AI to 2028. Four objectives (AI as catalyst for the national development plan, 'IA for Good', West African 'Ubuntu' leadership, trustworthy AI), a 90,000-person AI/data-science training target, and planned instruments including a national AI research and training institute, a 'Cluster Sénégal IA', public AI funding and a sectoral data lake. Developed alongside UNESCO's Readiness Assessment Methodology; non-binding.",
+      "officialUrl": "https://oecd.ai/en/dashboards/policy-initiatives/senegal-national-artificial-intelligence-strategy-and-road-map",
+      "sourceIds": ["sn-1", "sn-2"]
+    },
+    {
+      "title": "New Deal Technologique (2025-2034)",
+      "status": "in_force",
+      "summary": "Senegal's flagship digital strategy, launched by President Faye on 24 February 2025: roughly $1.8 billion to 2034 across four pillars — digital sovereignty (sovereign cloud and data localisation), digitalisation of public services, a home-grown digital economy, and regional technology leadership — with AI adoption, an AI hub (Gates Foundation-backed) and the 2026 'Senegal AI Factory' initiative nested under it. A strategy and investment programme, not binding AI regulation.",
+      "officialUrl": "https://www.presidence.sn/en/actualites/launch-of-senegals-new-digital-strategy-newdeal-technologique-1/",
+      "sourceIds": ["sn-3", "sn-4", "sn-5"]
+    },
+    {
+      "title": "Law No. 2008-12 on the Protection of Personal Data (and the CDP)",
+      "status": "in_force",
+      "summary": "Senegal's principal binding law touching AI: one of Africa's earliest data-protection statutes (25 January 2008), creating the Commission de protection des données personnelles (CDP), operational since 2013. It predates modern AI: a 2019 modernization bill addressing biometrics, big data, AI, geolocation and cloud — and replacing the CDP with a stronger authority — was drafted but has not been adopted, so the 2008 framework remains in force.",
+      "sourceIds": ["sn-12", "sn-13"]
+    },
+    {
+      "title": "Startup Act (Law No. 2020-01)",
+      "status": "in_force",
+      "summary": "Law of 6 January 2020 on the creation and promotion of startups, providing registration/labelling, tax incentives and support mechanisms for young companies — an enabling framework for the AI/tech ecosystem alongside DER/FJ public financing rather than an AI rule.",
+      "sourceIds": ["sn-19"]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Senegal's AI research footprint is small but distinctive. AIMS Senegal in Mbour hosts the African Master's in Machine Intelligence (AMMI) — the pan-African graduate ML programme founded in 2018 by Moustapha Cissé with Google and Facebook/Meta backing — making Senegal a training ground for ML talent from across the continent. Université Cheikh Anta Diop (UCAD) and its École Supérieure Polytechnique (ESP) anchor domestic computer-science training, and the Cheikh Hamidou Kane Digital University (UN-CHK, formerly UVS) hosts the ALIVE lab of Seydina Moussa Ndiaye, a member of the UN Secretary-General's High-Level Advisory Body on AI. The grassroots GalsenAI community (organiser of IndabaX Sénégal since 2019) and companies like Baamtu drive notable work on NLP, speech recognition and datasets for Wolof and other low-resource Senegalese languages. There is no frontier-model research; the SNDIA's planned national AI research institute had not visibly materialised as of mid-2026.",
+    "sourceIds": ["sn-18", "sn-17", "sn-21"]
+  },
+  "companies": [
+    {
+      "name": "Kera Health Platforms",
+      "description": "Dakar-founded (2023) AI health-tech startup building a platform connecting providers, patients, pharmacies, labs and insurers across West Africa; founded by Moustapha Cissé (ex-Google AI Accra), backed by a $10M IFC investment in 2025 — Senegal's flagship AI company.",
+      "url": "https://kera.health"
+    },
+    {
+      "name": "Wave Mobile Money",
+      "description": "Dakar-headquartered mobile-money company and francophone Africa's first fintech unicorn; uses machine learning in fraud detection and operations at scale rather than being an AI-first firm.",
+      "url": "https://www.wave.com"
+    },
+    {
+      "name": "Baamtu",
+      "description": "Senegalese software, data and AI services group notable for NLP and speech systems in Wolof — French-Wolof translation, Wolof speech recognition and chatbots — and for local-language dataset work with the African NLP community.",
+      "url": "https://baamtu.com"
+    },
+    {
+      "name": "Sonatel (Orange)",
+      "description": "Senegal's telecom incumbent (Orange group), the country's dominant connectivity and data-centre operator and a key channel for digital-skills and startup programmes (Orange Digital Center).",
+      "url": "https://www.sonatel.sn"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "National Data Centre, Diamniadio (Senegal Numérique SA)",
+        "description": "State-run Tier III-class facility opened June 2021, financed by a ~€70M Chinese loan and built with Huawei equipment and support; government data and platforms have been migrated here in the name of digital sovereignty."
+      },
+      {
+        "name": "Sonatel / Orange data centres",
+        "description": "The telecom incumbent operates Senegal's main commercial data centres and connectivity, hosting most private-sector in-country workloads."
+      },
+      {
+        "name": "Global hyperscalers (AWS, Microsoft Azure, Google Cloud)",
+        "description": "No hyperscaler region exists in Senegal; startups and enterprises consume cloud AI services from European and South African regions, keeping most advanced AI workloads offshore."
+      }
+    ],
+    "dominance": [
+      { "provider": "Sonatel/Orange and local commercial data centres", "share": 40 },
+      { "provider": "Foreign hyperscaler regions (AWS, Azure, Google Cloud)", "share": 35 },
+      { "provider": "National Data Centre Diamniadio (government workloads)", "share": 25 }
+    ]
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "No significant GPU/AI compute in country; the Huawei-built Diamniadio national data centre anchors government hosting, and the 'Senegal AI Factory' announced in 2026 is still a plan rather than deployed capacity",
+    "chipAccess": "Fully import-reliant; no domestic fabrication and no disclosed large accelerator procurement"
+  },
+  "universities": [
+    {
+      "name": "Université Cheikh Anta Diop de Dakar (UCAD)",
+      "description": "Senegal's largest and most storied university; anchors domestic computer-science, mathematics and engineering training relevant to AI.",
+      "url": "https://www.ucad.sn"
+    },
+    {
+      "name": "École Supérieure Polytechnique de Dakar (ESP)",
+      "description": "UCAD's engineering school and a principal source of Senegalese software and data-science engineers feeding the local tech ecosystem.",
+      "url": "https://www.esp.sn"
+    },
+    {
+      "name": "AIMS Senegal (Mbour)",
+      "description": "Campus of the African Institute for Mathematical Sciences; hosts the African Master's in Machine Intelligence (AMMI), the pan-African ML graduate programme founded by Moustapha Cissé with Google and Meta support.",
+      "url": "https://aims-senegal.org"
+    },
+    {
+      "name": "Cheikh Hamidou Kane Digital University (UN-CHK, formerly UVS)",
+      "description": "Senegal's national digital/distance university; home to the ALIVE AI research group led by Seydina Moussa Ndiaye and a driver of at-scale digital skills training.",
+      "url": "https://www.unchk.sn",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "WATHI",
+      "description": "Dakar-based West African citizen think tank whose governance and public-policy work increasingly touches digital and technology questions across the region.",
+      "url": "https://www.wathi.org"
+    },
+    {
+      "name": "AfricTivistes",
+      "description": "Dakar-headquartered pan-African network for democracy and digital rights; a key civil-society voice on data protection, disinformation and civic tech questions surrounding AI in francophone Africa.",
+      "url": "https://africtivistes.org",
+      "needsVerification": true
+    },
+    {
+      "name": "Timbuktu Institute (African Center for Peace Studies)",
+      "description": "Dakar-based research centre on peace, radicalisation and Sahel geopolitics whose work on online disinformation intersects with AI-governance debates.",
+      "url": "https://timbuktu-institute.org",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Telecommunications and Digital (Ministère des Télécommunications et du Numérique)",
+      "description": "Lead ministry for the New Deal Technologique and AI policy; made a standalone portfolio in the June 2026 government under Minister Samba Diouf, after the SNDIA era of the communication-and-digital-economy ministry.",
+      "url": "https://www.numerique.gouv.sn",
+      "aliases": ["MCTN", "Ministère de la Communication, des Télécommunications et du Numérique"]
+    },
+    {
+      "name": "Senegal Numérique SA (SENUM SA, formerly ADIE)",
+      "description": "State digital-infrastructure company operating the national data centre at Diamniadio and government platforms — the operational arm of Senegal's digital-sovereignty policy.",
+      "needsVerification": true
+    },
+    {
+      "name": "Commission de protection des données personnelles (CDP)",
+      "description": "Independent data-protection authority created by Law 2008-12 and operational since 2013; the closest thing Senegal has to an AI regulator, though its statute predates modern AI and its planned reform has stalled.",
+      "url": "https://www.cdp.sn"
+    },
+    {
+      "name": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+      "description": "Telecoms and postal regulator overseeing the connectivity layer on which Senegal's digital and AI ambitions depend.",
+      "url": "https://www.artp.sn"
+    },
+    {
+      "name": "DER/FJ (Délégation générale à l'Entrepreneuriat Rapide des Femmes et des Jeunes)",
+      "description": "Public financing vehicle for youth and women's entrepreneurship that has become a significant funder of Senegalese startups, including digital and AI-adjacent ventures.",
+      "url": "https://der.sn"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Bassirou Diomaye Faye",
+      "role": "President of Senegal; launched the New Deal Technologique (2025) and signed the Gates Foundation digital/AI partnership",
+      "affiliation": "Presidency of Senegal",
+      "category": "government",
+      "url": "https://www.presidence.sn"
+    },
+    {
+      "name": "Samba Diouf",
+      "role": "Minister of Telecommunications and Digital (from June 2026); former digital adviser to the president, charged with accelerating the New Deal Technologique",
+      "affiliation": "Government of Senegal",
+      "category": "government",
+      "url": "https://www.numerique.gouv.sn"
+    },
+    {
+      "name": "Moustapha Cissé",
+      "role": "Co-founder and CEO of Kera Health; founder of the African Master's in Machine Intelligence (AMMI) and former head of Google AI Accra — Senegal's most internationally prominent AI figure",
+      "affiliation": "Kera Health / AIMS-AMMI",
+      "category": "company_leader",
+      "url": "https://kera.health"
+    },
+    {
+      "name": "Seydina Moussa Ndiaye",
+      "role": "Member of the UN Secretary-General's High-Level Advisory Body on AI; lecturer at UN-CHK and head of its ALIVE AI lab; contributor to the AU's Continental AI Strategy and GPAI",
+      "affiliation": "Cheikh Hamidou Kane Digital University (UN-CHK)",
+      "category": "researcher",
+      "url": "https://www.un.org/sg/en/content/sg/personnel-appointments/2023-10-26/secretary-generals-advisory-body-members-artificial-intelligence"
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Moustapha Cissé",
+      "type": "person",
+      "role": "Kera Health CEO, AMMI founder, ex-Google AI Accra — bridges Senegal's startup, research and global AI worlds.",
+      "category": "company",
+      "url": "https://kera.health"
+    },
+    {
+      "name": "Seydina Moussa Ndiaye",
+      "type": "person",
+      "role": "UN AI Advisory Body member and prominent voice warning against the 'digital colonization' of African AI.",
+      "category": "researcher",
+      "url": "https://news.un.org/en/story/2024/01/1144342"
+    },
+    {
+      "name": "GalsenAI",
+      "type": "organization",
+      "role": "Senegal's AI/data-science community; organises IndabaX Sénégal and anchors the grassroots ecosystem.",
+      "category": "researcher",
+      "url": "https://galsen.ai"
+    },
+    {
+      "name": "Ministry of Telecommunications and Digital",
+      "type": "organization",
+      "role": "Lead ministry for the New Deal Technologique, the AI Factory initiative and Senegal's AI diplomacy.",
+      "category": "government",
+      "url": "https://www.numerique.gouv.sn"
+    }
+  ],
+  "influenceMap": [
+    { "label": "Presidency / New Deal Technologique", "type": "government" },
+    { "label": "Ministry of Telecommunications and Digital", "type": "government" },
+    { "label": "Senegal Numérique SA (national data centre)", "type": "agency" },
+    { "label": "CDP (data protection)", "type": "agency" },
+    { "label": "AIMS Senegal / AMMI", "type": "research" },
+    { "label": "GalsenAI community", "type": "research" },
+    { "label": "Sonatel (Orange)", "type": "company" },
+    { "label": "Kera Health", "type": "company" }
+  ],
+  "notableGaps": [
+    {
+      "area": "No binding AI-specific law, and an outdated data-protection framework",
+      "note": "Senegal's only binding instrument touching AI is the 2008 data-protection law; the 2019 modernization bill covering AI, biometrics and big data was never adopted, leaving the CDP to police 2020s AI systems with a pre-smartphone-era statute."
+    },
+    {
+      "area": "No frontier developer or meaningful AI compute",
+      "note": "No Senegalese organisation trains large models, and there is no significant GPU capacity in country; the 'Senegal AI Factory' and the SNDIA's national AI institute remain announcements rather than operating capacity."
+    },
+    {
+      "area": "Strategy layering and institutional churn",
+      "note": "The 2023 SNDIA (drafted under the previous administration), the 2025 New Deal Technologique and the 2026 AI Factory initiative overlap without a clearly published consolidation, and the digital ministry has been reorganised and re-titled repeatedly (Alioune Sall to Samba Diouf, June 2026), making accountability for AI delivery hard to track."
+    },
+    {
+      "area": "Modest funding relative to ambition",
+      "note": "Flagship disclosed numbers are small against the $1.8B New Deal envelope — $10M from the Gates Foundation, $10M IFC into Kera Health — and much of the strategy's financing has not been publicly secured."
+    },
+    {
+      "area": "Dependence on foreign infrastructure and partners",
+      "note": "The sovereignty agenda runs on a Chinese-financed, Huawei-built data centre, foreign hyperscaler cloud, and donor funding — the core tension in Senegal's digital-sovereignty narrative."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Digital sovereignty built on Huawei-run infrastructure",
+      "category": "infrastructure",
+      "summary": "Senegal repatriated state data to a national data centre in the name of sovereignty — but the facility was Chinese-financed and Huawei-built, and in 2026 Senegal joined the China-led WAICO, sharpening questions about what sovereignty means in practice.",
+      "expanded": "The Diamniadio data centre (opened June 2021, ~€70M Chinese loan, Huawei equipment) let Senegal order all government data and platforms migrated home — analysts called it one of the clearest replications of the Chinese data-governance model in Africa. The Faye administration has doubled down on sovereignty language in the New Deal Technologique while simultaneously becoming a founding member of the Shanghai-headquartered World AI Cooperation Organization and staying active in GPAI, UNESCO and the Hiroshima AI Process. Supporters see pragmatic non-alignment that extracts value from both blocs; critics see a sovereignty narrative that in practice deepens dependence on a single foreign vendor for the state's most sensitive infrastructure.",
+      "sourceIds": ["sn-14", "sn-15", "sn-9"]
+    },
+    {
+      "topic": "AI ambitions under a 2008 data-protection law",
+      "category": "government",
+      "summary": "Senegal is rolling out biometric digital ID, centralised government data and AI programmes under a data-protection law written in 2008 — and the reform meant to modernise it has been stalled for years.",
+      "expanded": "Senegal was a data-protection pioneer, but Law 2008-12 predates smartphones, biometrics at scale and machine learning; a 2019 draft law that would have addressed AI, big data, biometrics and cloud — and replaced the CDP with a stronger authority — was never adopted. Meanwhile the state is deploying a Gates Foundation-backed universal digital identity, migrating citizen data into the national data centre and encouraging AI adoption across health and agriculture. Civil-society groups argue the mismatch leaves Senegalese with 2008-era safeguards against 2020s-scale processing; the government points to the CDP's ongoing enforcement and to trust-and-ethics language in the SNDIA, but the legislative gap is unresolved.",
+      "sourceIds": ["sn-12", "sn-13", "sn-6"]
+    },
+    {
+      "topic": "Avoiding 'digital colonization' — who builds Senegal's AI?",
+      "category": "research",
+      "summary": "Senegalese AI leaders warn that foreign firms feeding on African data without local involvement risk a new colonization — and see local-language AI and homegrown talent as the answer.",
+      "expanded": "Seydina Moussa Ndiaye, the Senegalese member of the UN's High-Level Advisory Body on AI, has warned publicly of a 'digital colonization' scenario in which African data trains foreign models while the continent consumes imported systems. Senegal's counter-story is unusually concrete: AMMI at AIMS Senegal trains top pan-African ML talent, GalsenAI's IndabaX gatherings build community, and Baamtu and others build Wolof speech and translation systems so Senegal's languages are not left out of the AI era. The open question is retention and scale — whether AMMI graduates and local engineers stay and find capital at home, or whether the ecosystem's best output continues to flow to foreign labs and the diaspora.",
+      "sourceIds": ["sn-21", "sn-17", "sn-18"]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Stratégie Nationale IA du Sénégal (SNDIA)",
+      "type": "government",
+      "url": "https://parispeaceforum.org/projects/strategie-nationale-ia-du-senegal/",
+      "note": "The 2023 national AI strategy, showcased via the Paris Peace Forum."
+    },
+    {
+      "title": "Sénégal : intelligence artificielle — rapport d'évaluation de l'état de préparation (UNESCO RAM)",
+      "type": "government",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000395170",
+      "note": "UNESCO's readiness-assessment report on Senegal's AI landscape."
+    },
+    {
+      "title": "INTERVIEW: AI expert warns of 'digital colonization' in Africa",
+      "type": "interview",
+      "author": "UN News (Seydina Moussa Ndiaye)",
+      "url": "https://news.un.org/en/story/2024/01/1144342"
+    },
+    {
+      "title": "The Powerful Symbolism of the Huawei-Built Data Center Deal in Senegal",
+      "type": "think_tank",
+      "author": "The China-Global South Project",
+      "url": "https://chinaglobalsouth.com/analysis/the-powerful-symbolism-of-the-huawei-data-center-deal-in-senegal/"
+    },
+    {
+      "title": "IndabaX Sénégal (GalsenAI)",
+      "type": "conference_talk",
+      "url": "https://www.indabax.sn/",
+      "note": "Senegal's annual community ML gathering, run by GalsenAI since 2019."
+    }
+  ],
+  "sources": [
+    {
+      "id": "sn-1",
+      "title": "Senegal National Artificial Intelligence Strategy and Road Map",
+      "publisher": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/senegal-national-artificial-intelligence-strategy-and-road-map",
+      "date": "2023",
+      "category": "government"
+    },
+    {
+      "id": "sn-2",
+      "title": "Senegal — Global AI Ethics and Governance Observatory",
+      "publisher": "UNESCO",
+      "url": "https://www.unesco.org/ethics-ai/en/senegal",
+      "category": "government"
+    },
+    {
+      "id": "sn-3",
+      "title": "Launch of Senegal's New Digital Strategy 'New Deal Technologique'",
+      "publisher": "Presidency of the Republic of Senegal",
+      "url": "https://www.presidence.sn/en/actualites/launch-of-senegals-new-digital-strategy-newdeal-technologique-1/",
+      "date": "2025-02",
+      "category": "government"
+    },
+    {
+      "id": "sn-4",
+      "title": "Senegal's New Deal Technologique Horizon 2034: Building digital sovereignty and economic transformation",
+      "publisher": "African Business",
+      "url": "https://african.business/2025/10/innov-africa-deals/senegals-new-deal-technologique-horizon-2034-building-digital-sovereignty-and-economic-transformation",
+      "date": "2025-10",
+      "category": "news"
+    },
+    {
+      "id": "sn-5",
+      "title": "Senegal's Digital Revolution: President Bassirou Diomaye Faye Unveils 'New Deal Technologique'",
+      "publisher": "TechAfrica News",
+      "url": "https://techafricanews.com/2025/02/27/senegals-digital-revolution-president-bassirou-diomaye-faye-unveils-new-deal-technologique/",
+      "date": "2025-02-27",
+      "category": "news"
+    },
+    {
+      "id": "sn-6",
+      "title": "Gates Foundation fuels Senegal's digital transformation with $10M",
+      "publisher": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202509/gates-foundation-fuels-senegals-digital-transformation-with-10m",
+      "date": "2025-09",
+      "category": "news"
+    },
+    {
+      "id": "sn-7",
+      "title": "Senegal showcases AI strategy and digital innovation agenda at Hiroshima AI Process Meeting in Tokyo",
+      "publisher": "TechReview Africa",
+      "url": "https://techreviewafrica.com/news/6574/senegal-showcases-ai-strategy-and-digital-innovation-agenda-at-hiroshima-ai-process-meeting-in-tokyo",
+      "date": "2026-08",
+      "category": "news"
+    },
+    {
+      "id": "sn-8",
+      "title": "Sénégal : le pays mise sur l'intelligence artificielle avec le lancement de la 'Senegal AI Factory'",
+      "publisher": "OSIRIS",
+      "url": "https://www.osiris.sn/senegal-le-pays-mise-sur-l-intelligence-artificielle-avec-le-lancement-de-la.html",
+      "date": "2026-08",
+      "category": "news"
+    },
+    {
+      "id": "sn-9",
+      "title": "Senegal becomes founding member of new global artificial intelligence cooperation organization",
+      "publisher": "TechReview Africa",
+      "url": "https://techreviewafrica.com/news/6365/senegal-becomes-founding-member-of-new-global-artificial-intelligence-cooperation-organization",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "sn-10",
+      "title": "Twenty-Nine Countries Sign Agreement to Establish Global AI Cooperation Body",
+      "publisher": "U.S. News / Reuters",
+      "url": "https://www.usnews.com/news/world/articles/2026-07-16/twenty-nine-countries-sign-agreement-to-establish-global-ai-cooperation-body",
+      "date": "2026-07-16",
+      "category": "news"
+    },
+    {
+      "id": "sn-11",
+      "title": "AI Impact Summit 2026 : le Sénégal affirme ses ambitions dans la gouvernance mondiale de l'intelligence artificielle",
+      "publisher": "RTS (Radiodiffusion Télévision Sénégalaise)",
+      "url": "https://www.rts.sn/actualite/detail/a-la-une/ai-impact-summit-2026-le-senegal-affirme-ses-ambitions-dans-la-gouvernance-mondiale-de-lintelligence-artificielle",
+      "date": "2026-02",
+      "category": "news"
+    },
+    {
+      "id": "sn-12",
+      "title": "Senegal — Law No. 2008-12 on Personal Data Protection (2008)",
+      "publisher": "Anove AI Regulations",
+      "url": "https://www.anove.ai/en/regulations/senegal-law-2008-12",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "sn-13",
+      "title": "Le Sénégal va réviser la loi sur la protection des données personnelles",
+      "publisher": "CIPESA",
+      "url": "https://cipesa.org/2020/01/le-senegal-va-reviser-la-loi-sur-la-protection-des-donnees-personnelles/",
+      "date": "2020-01",
+      "category": "research"
+    },
+    {
+      "id": "sn-14",
+      "title": "The Powerful Symbolism of The Huawei-Built Data Center Deal in Senegal",
+      "publisher": "The China-Global South Project",
+      "url": "https://chinaglobalsouth.com/analysis/the-powerful-symbolism-of-the-huawei-data-center-deal-in-senegal/",
+      "date": "2021",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "sn-15",
+      "title": "Senegal to migrate all government data and applications to new government data center",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/senegal-to-migrate-all-government-data-and-applications-to-new-government-data-center/",
+      "date": "2021-06",
+      "category": "news"
+    },
+    {
+      "id": "sn-16",
+      "title": "IFC partners with KERA to improve access to healthcare services in West Africa, using AI and digital solutions",
+      "publisher": "International Finance Corporation (IFC)",
+      "url": "https://www.ifc.org/en/pressroom/2023/ifc-partners-with-kera-to-improve-access-to-healthcare-services-in-west-africa-using-ai-and-digital-solutions",
+      "date": "2023",
+      "category": "industry"
+    },
+    {
+      "id": "sn-17",
+      "title": "GalsenAI — communauté sénégalaise d'intelligence artificielle",
+      "publisher": "GalsenAI",
+      "url": "https://galsen.ai/",
+      "category": "research"
+    },
+    {
+      "id": "sn-18",
+      "title": "African Master's in Machine Intelligence (AMMI) — AIMS Senegal",
+      "publisher": "AIMS Senegal",
+      "url": "https://aims-senegal.org/african-masters-in-machine-learning/",
+      "category": "research"
+    },
+    {
+      "id": "sn-19",
+      "title": "Senegal — Digital Economy (Country Commercial Guide)",
+      "publisher": "U.S. International Trade Administration",
+      "url": "https://www.trade.gov/country-commercial-guides/senegal-digital-economy",
+      "category": "government"
+    },
+    {
+      "id": "sn-20",
+      "title": "Nouveau gouvernement — Samba Diouf prend les commandes du ministère des Télécommunications et du Numérique",
+      "publisher": "Social Net Link",
+      "url": "https://www.socialnetlink.org/2026/06/01/nouveau-gouvernement-samba-diouf-prend-les-commandes-du-ministere-des-telecommunications-et-du-numerique/",
+      "date": "2026-06-01",
+      "category": "news"
+    },
+    {
+      "id": "sn-21",
+      "title": "INTERVIEW: AI expert warns of 'digital colonization' in Africa (Seydina Moussa Ndiaye)",
+      "publisher": "UN News",
+      "url": "https://news.un.org/en/story/2024/01/1144342",
+      "date": "2024-01",
+      "category": "news"
+    },
+    {
+      "id": "sn-22",
+      "title": "Senegal: Kera Health raises $10 million to revolutionize access to healthcare",
+      "publisher": "Financial Afrik",
+      "url": "https://www.financialafrik.com/en/2025/06/17/senegal-kera-health-raises-10-million-to-revolutionize-access-to-healthcare/",
+      "date": "2025-06-17",
+      "category": "news"
+    }
+  ]
+}

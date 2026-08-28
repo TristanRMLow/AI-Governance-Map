@@ -1,0 +1,702 @@
+{
+  "code": "no",
+  "name": "Norway",
+  "shortName": "Norway",
+  "flagEmoji": "🇳🇴",
+  "geometryType": "polygon",
+  "isoA3": [
+    "NOR"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "energy-rich EEA state hosting frontier-scale compute for others and deploying AI through a highly digitalised public sector, while its EU AI Act implementation runs behind the EU in the EEA lane",
+  "accentColor": {
+    "light": "#3B6FA0",
+    "dark": "#5F97C9"
+  },
+  "center": [
+    10.7,
+    64.5
+  ],
+  "zoom": 4.2,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 8,
+  "debateTopics": [
+    "Data centres, hydropower and value capture",
+    "The EEA slow lane on the AI Act",
+    "Sovereign compute vs hyperscaler dependence",
+    "The oil fund as a global AI actor"
+  ],
+  "overview": "Norway's AI position rests on three unusual assets: abundant hydropower that is turning the country into a host for frontier-scale compute, one of the world's most digitalised public sectors, and the roughly $2 trillion sovereign wealth fund (Norges Bank Investment Management), which has become one of the most aggressive institutional adopters of AI anywhere. The compute story escalated in July 2025 with Stargate Norway -- a 50/50 joint venture between Aker and Nscale at Kvandal outside Narvik, announced with OpenAI as anchor customer, targeting an initial 230 MW facility with 100,000 NVIDIA GPUs by end-2026 on local hydropower. In April 2026 the plot twisted: OpenAI stepped back from the project and Microsoft took over the capacity, contracting a further 30,000 NVIDIA Vera Rubin GPUs for delivery in 2027. Alongside sit the national supercomputer Olivia (inaugurated June 2025 in the Lefdal Mine Datacenter and expanded to 448 GH200 superchips in 2026), Telenor's sovereign 'AI factory' (launched November 2024), Green Mountain's hydropowered campuses (hosting TikTok's European data), and Google's first Norwegian data centre in Skien.\n\nOn governance, Norway was an early mover -- its National Strategy for Artificial Intelligence dates from January 2020 and the Datatilsynet (data protection authority) opened one of the world's first regulatory sandboxes for responsible AI in late 2020 -- but it is now structurally a fast-follower. As an EEA member outside the EU, Norway must wait for the AI Act to be incorporated into the EEA Agreement before its implementing law, the KI-loven, can take effect. A draft went to public consultation on 30 June 2025 (deadline 30 September 2025, drawing close to 150 responses) with the Norwegian Communications Authority (Nkom) designated as coordinating supervisory authority, but the government's target of entry into force by late summer 2026 was missed; the ministry's stated ambition is now a bill before the Storting in spring 2027, with EEA adaptations still under negotiation and the EU's July 2026 omnibus having changed the text mid-stream. Meanwhile the 2024-2030 digitalisation strategy ('The Digital Norway of the Future') aims to make Norway the world's most digitalised country by 2030, the government's 'AI billion' (NOK 1bn+) funded six new national AI research centres from 2025, and Digdir's KI-Norge arena coordinates responsible adoption.\n\nNorway builds no frontier models. Its strengths are industrial AI (Cognite's industrial DataOps, Kongsberg's maritime and defence autonomy), Norwegian-language models (NorwAI at NTNU, the National Library's AI Lab), robotics heritage (humanoid maker 1X Technologies was founded in Norway), and an unusually strong research coordination layer via NORA, a consortium spanning most Norwegian universities and institutes. The live debates are distinctively Norwegian: whether exporting hydropower as compute for foreign hyperscalers captures enough value; how fast the EEA lane can track EU law; and, since August 2026, how to regulate AI-equipped smart glasses -- where Norway is weighing a ban on facial recognition in public spaces.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "EEA fast-follower on EU rules; compute- and deployment-led momentum",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act to be implemented via a national KI-loven once incorporated into the EEA Agreement (bill expected spring 2027); Nkom designated coordinating supervisory authority; GDPR plus Datatilsynet's AI sandbox govern in the interim",
+    "latestMajorUpdate": "Stargate Norway (July 2025) made Narvik the site of Europe's largest announced AI gigafactory; in April 2026 OpenAI stepped back and Microsoft took over the capacity, adding 30,000 Vera Rubin GPUs for 2027",
+    "governmentInvolvement": "High: 2024-2030 digitalisation strategy targeting the world's most digitalised country, the NOK 1bn+ 'AI billion' research push, six national AI centres, the Olivia supercomputer and the KI-Norge coordination arena",
+    "industrialStrategy": "Hydropower-fuelled data centres (Narvik, Lefdal Mine, Green Mountain), industrial AI (Cognite, Kongsberg), Telenor's sovereign AI factory; no frontier model developer",
+    "internationalPartnerships": "EEA/EU alignment; Aker-Nscale joint venture with OpenAI then Microsoft; NVIDIA-powered Telenor AI factory; Nordic and EuroHPC research links",
+    "primaryPolicyFocus": "Implementing the EU AI Act through the EEA, trustworthy AI in the public sector, and converting renewable energy into AI infrastructure"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Norway is moving toward binding AI regulation -- a national KI-loven implementing the EU AI Act (bill expected spring 2027), Nkom stood up as supervisor, and new fronts opening such as the August 2026 expert group on AI-equipped smart glasses with a possible public facial-recognition ban -- but the EEA process keeps it structurally behind the EU's own timetable, while industrial momentum (Narvik gigafactory, Olivia, Telenor's AI factory) runs ahead of the rulebook."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Digitalisation minister Karianne Tung announced that Norway will regulate AI-equipped smart glasses and similar camera-and-microphone wearables, appointing a fast-track expert group to propose rules and weighing a ban on features enabling facial recognition in public spaces. The move targets specific functions and use around bystanders rather than ownership of the devices, and the Norwegian Consumer Council urged retailers to pause sales pending legal clarity.",
+      "date": "2026-08-25",
+      "sourceIds": [
+        "no-14"
+      ]
+    },
+    {
+      "text": "The EU's AI Act omnibus (Regulation (EU) 2026/1744, in force 27 July 2026) shifted high-risk compliance deadlines to December 2027 and August 2028 while leaving the 2 August 2026 transparency duties in place -- and further complicated Norway's implementation, since the text under EEA negotiation changed mid-stream. Norway's KI-loven has slipped past the government's original 'late summer 2026' target, with the ministry's stated ambition now a bill before the Storting in spring 2027.",
+      "date": "2026-07-27",
+      "sourceIds": [
+        "no-20",
+        "no-3"
+      ],
+      "eventGroup": "eu-ai-act-omnibus-jul2026"
+    },
+    {
+      "text": "OpenAI pulled back from the Stargate Norway project and Microsoft took over the Narvik site's capacity, contracting an additional 30,000 NVIDIA Vera Rubin GPUs from Nscale for delivery in 2027 -- on top of capacity Microsoft had already booked at the hydropowered facility. The shift left Europe's largest announced AI gigafactory serving Microsoft rather than the OpenAI-branded Stargate programme.",
+      "date": "2026-04-15",
+      "sourceIds": [
+        "no-6",
+        "no-7"
+      ]
+    },
+    {
+      "text": "Norges Bank Investment Management, the ~$2 trillion sovereign wealth fund, was reported to be using Anthropic's Claude -- its main AI tool, integrated across the organisation -- to screen investments for ethical and reputational risks, extending CEO Nicolai Tangen's mandate that using AI at the fund 'is not an option, but a must', backed by internal AI ambassadors and claimed productivity gains across trading and research.",
+      "date": "2026-02-26",
+      "sourceIds": [
+        "no-8",
+        "no-9"
+      ]
+    },
+    {
+      "text": "Nscale, Aker and OpenAI announced Stargate Norway: a 50/50 Aker-Nscale joint venture to build an AI gigafactory at Kvandal outside Narvik, with an initial 230 MW (expandable by 290 MW), around $1bn committed to the first phase, 100,000 NVIDIA GPUs targeted by end-2026 on local hydropower with direct-to-chip liquid cooling, and OpenAI as anchor customer -- OpenAI's first data-centre initiative in Europe under the Stargate banner.",
+      "date": "2025-07-31",
+      "sourceIds": [
+        "no-4",
+        "no-5"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "The Ministry of Digitalisation and Public Governance sent the draft Norwegian AI Act (KI-loven), implementing the EU AI Act into Norwegian law, out for public consultation with a deadline of 30 September 2025 -- drawing close to 150 responses. The government designated the Norwegian Communications Authority (Nkom) as coordinating national supervisory authority, with Datatilsynet and sector regulators alongside, and at the time aimed for entry into force in late summer 2026, contingent on EEA incorporation.",
+      "date": "2025-06-30",
+      "sourceIds": [
+        "no-1",
+        "no-2"
+      ]
+    },
+    {
+      "text": "Olivia, Norway's most powerful national supercomputer, was inaugurated at the Lefdal Mine Datacenter in Nordfjordeid -- an HPE Cray EX system run by Sigma2/NRIS with 64,512 AMD CPU cores and 304 NVIDIA GH200 superchips at launch, expanded to 448 GH200s in 2026, serving research in AI, climate, health and ocean science with a share of capacity reserved for industry and public administration.",
+      "date": "2025-06-17",
+      "sourceIds": [
+        "no-10",
+        "no-11"
+      ]
+    },
+    {
+      "text": "Six national AI research centres were selected under the Research Council of Norway's NOK 850m call -- part of the government's 'AI billion' (at least NOK 1bn over five years) -- spanning trustworthy AI (TRUST, led from UiO), embodied AI/robotics (NTNU), AI and human learning (UiB), AI and creativity (UiO/UiA), sustainable and ethical AI (Simula and partners), and AI-powered decisions (SINTEF/NTNU), starting up from 2025 for five years.",
+      "date": "2025-06",
+      "sourceIds": [
+        "no-12",
+        "no-13"
+      ]
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "Norwegian AI Act (KI-loven) bill expected before the Storting in spring 2027, once EEA incorporation of the EU AI Act and its adaptations are settled; entry into force to follow.",
+      "date": "2027",
+      "sourceIds": [
+        "no-20",
+        "no-2"
+      ]
+    },
+    {
+      "text": "Microsoft's additional 30,000 NVIDIA Vera Rubin GPUs contracted from Nscale at the Narvik site are slated for delivery in 2027.",
+      "date": "2027",
+      "sourceIds": [
+        "no-6"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Norwegian AI Act (KI-loven) implementing the EU AI Act",
+      "status": "proposed",
+      "summary": "Norway's implementing law for the EU AI Act, taken through the EEA Agreement. The draft went to public consultation on 30 June 2025 (deadline 30 September 2025, ~150 responses), with Nkom designated coordinating supervisory authority. The original target of entry into force by late summer 2026 was missed -- EEA adaptations remain under negotiation and the EU's July 2026 omnibus changed the underlying text -- and the ministry's stated ambition is now a bill before the Storting in spring 2027.",
+      "officialUrl": "https://www.regjeringen.no/en/whats-new/gjor-norge-klar-for-trygg-og-innovativ-ki-bruk/id3093081/",
+      "sourceIds": [
+        "no-1",
+        "no-2",
+        "no-20"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "National Strategy for Artificial Intelligence (2020)",
+      "status": "in_force",
+      "summary": "One of Europe's earlier national AI strategies (January 2020), setting principles for responsible, trustworthy AI, committing to a regulatory sandbox (delivered via Datatilsynet in December 2020), and framing AI around Norway's strengths in public-sector data, language resources and industry.",
+      "officialUrl": "https://www.regjeringen.no/en/dokumenter/nasjonal-strategi-for-kunstig-intelligens/id2685594/",
+      "sourceIds": [
+        "no-16"
+      ]
+    },
+    {
+      "title": "The Digital Norway of the Future -- national digitalisation strategy 2024-2030",
+      "status": "in_force",
+      "summary": "Launched September 2024 by PM Jonas Gahr Støre and digitalisation minister Karianne Tung, aiming to make Norway the world's most digitalised country by 2030, with trustworthy AI as a pillar alongside infrastructure (1 Gbit/s nationwide), public-service digitalisation and data governance. The government committed to increase AI and digital research funding by at least NOK 1bn over five years (the 'AI billion').",
+      "sourceIds": [
+        "no-17",
+        "no-12"
+      ]
+    },
+    {
+      "title": "Personal Data Act (GDPR) and Datatilsynet's sandbox for responsible AI",
+      "status": "in_force",
+      "summary": "Pending the KI-loven, AI in Norway is governed chiefly by the Personal Data Act (implementing the GDPR via the EEA), sector law and the Public Administration Act. Datatilsynet's regulatory sandbox for responsible AI -- opened December 2020 as one of the world's first -- gives selected projects dialogue-based guidance on lawful, privacy-preserving AI and publishes its case reports.",
+      "officialUrl": "https://www.datatilsynet.no/en/regulations-and-tools/sandbox-for-artificial-intelligence/",
+      "sourceIds": [
+        "no-15",
+        "no-3"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Norwegian AI research is unusually well coordinated for its size. NORA (Norwegian Artificial Intelligence Research Consortium) links eight universities, five university colleges and five research institutes across AI, machine learning and robotics. NTNU hosts NorwAI, the centre for research-based AI innovation that has built Norwegian large language models with industry partners, while the National Library's AI Lab pioneered Norwegian-language models from its digitised corpus. From 2025 six new national AI research centres -- funded with NOK 850m from the Research Council under the government's 'AI billion' -- cover trustworthy AI (TRUST at UiO), embodied AI, learning, creativity, sustainability and AI-powered decisions, drawing in SINTEF, Simula, Norsk Regnesentral and the major universities. The Sigma2/NRIS-run Olivia supercomputer (448 GH200 superchips) anchors national research compute, supplemented by EuroHPC access.",
+    "sourceIds": [
+      "no-19",
+      "no-13",
+      "no-12"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Cognite",
+      "description": "Aker-backed industrial software company whose Cognite Data Fusion platform (and Atlas AI agents) contextualises industrial data for AI across energy, manufacturing and utilities -- Norway's most prominent AI software export.",
+      "url": "https://www.cognite.com"
+    },
+    {
+      "name": "Kongsberg Gruppen",
+      "description": "Listed maritime, defence and digital technology group applying AI to autonomous shipping (Kongsberg Maritime), remote operations and defence systems.",
+      "url": "https://www.kongsberg.com"
+    },
+    {
+      "name": "Telenor",
+      "description": "State-controlled telecom operator running Norway's first sovereign 'AI factory' (NVIDIA-powered, launched November 2024) offering secure in-country AI processing, and partnering with Red Hat on the platform stack.",
+      "url": "https://www.telenor.com"
+    },
+    {
+      "name": "1X Technologies",
+      "description": "Humanoid robotics company founded in Norway (formerly Halodi Robotics, with engineering roots in Moss), backed by the OpenAI Startup Fund; its NEO home humanoid opened for pre-orders in 2025. Now headquartered in the US but a flagship of Norway's robotics heritage.",
+      "url": "https://www.1x.tech"
+    },
+    {
+      "name": "Aker ASA",
+      "description": "Industrial investment company that has pivoted toward AI infrastructure and software -- co-owner (with Nscale) of the Narvik AI gigafactory joint venture and a major shareholder in Cognite.",
+      "url": "https://www.akerasa.com"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Operates Norwegian cloud regions (Oslo and Stavanger since 2019) and, from 2026, contracts frontier-scale GPU capacity from Nscale's Narvik gigafactory -- 30,000 additional Vera Rubin GPUs due in 2027.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Nscale / Aker (Narvik gigafactory)",
+        "description": "50/50 joint venture behind the Kvandal site outside Narvik -- announced as Stargate Norway with OpenAI in July 2025, initial 230 MW and 100,000 GPUs, now serving Microsoft after OpenAI stepped back in April 2026.",
+        "url": "https://www.nscale.com"
+      },
+      {
+        "name": "Telenor AI Factory",
+        "description": "Norwegian-owned sovereign AI infrastructure launched November 2024 on NVIDIA GPUs, hosting Norwegian language models and public- and private-sector workloads requiring in-country processing.",
+        "url": "https://www.telenoraifactory.no"
+      },
+      {
+        "name": "Green Mountain",
+        "description": "Hydropowered colocation operator (Rjukan, Rennesøy, Hamar campuses) hosting TikTok's European data among other hyperscale clients -- a pillar of Norway's data-centre industry.",
+        "url": "https://greenmountain.no"
+      },
+      {
+        "name": "Lefdal Mine Datacenter",
+        "description": "Underground former olivine mine converted to a fjord-cooled data centre in Nordfjordeid; hosts Norway's national supercomputer Olivia.",
+        "url": "https://www.lefdalmine.com"
+      },
+      {
+        "name": "Google Cloud / AWS",
+        "description": "Google is building its first Norwegian data centre in Skien (announced 2024); AWS serves Norwegian workloads largely from nearby Nordic and EU regions. Both are widely used by Norwegian enterprises alongside Azure.",
+        "url": "https://cloud.google.com"
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "Microsoft Azure",
+        "share": 35
+      },
+      {
+        "provider": "AWS",
+        "share": 25
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 15
+      },
+      {
+        "provider": "Norwegian/Nordic providers (Telenor, Green Mountain, others)",
+        "share": 25
+      }
+    ]
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Hosts frontier-scale compute for others: the Nscale-Aker Narvik gigafactory (100,000+ GPUs contracted, now for Microsoft), Olivia national supercomputer (448 GH200s), Telenor's AI factory and hydropowered colocation (Green Mountain, Lefdal Mine)",
+    "chipAccess": "No domestic fabrication; imports NVIDIA accelerators at scale (GH200, Vera Rubin) -- cheap renewable power and cool climate, not silicon, are the strategic assets"
+  },
+  "universities": [
+    {
+      "name": "Norwegian University of Science and Technology (NTNU)",
+      "description": "Norway's largest technical university (Trondheim); hosts NorwAI, the research centre for AI innovation behind Norwegian large language models, and leads the national embodied-AI centre.",
+      "url": "https://www.ntnu.edu"
+    },
+    {
+      "name": "University of Oslo (UiO)",
+      "description": "Norway's leading research university; hosts the dScience centre, leads TRUST (the Norwegian Centre for Trustworthy AI) and the AI & Creativity centre, and anchors NORA.",
+      "url": "https://www.uio.no/english/"
+    },
+    {
+      "name": "University of Bergen (UiB)",
+      "description": "Leads the national AI centre on empowerment of human learning and contributes to media, language and ML research.",
+      "url": "https://www.uib.no/en"
+    },
+    {
+      "name": "UiT The Arctic University of Norway",
+      "description": "Tromsø-based university with machine-learning strengths (health and earth observation) and a partner in several of the national AI centres.",
+      "url": "https://en.uit.no"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Teknologirådet (Norwegian Board of Technology)",
+      "description": "Independent technology-assessment body advising the Storting and government on AI, biometrics and digital policy -- influential in Norway's debates on facial recognition and public-sector AI.",
+      "url": "https://teknologiradet.no"
+    },
+    {
+      "name": "SINTEF",
+      "description": "One of Europe's largest independent applied research institutes (Trondheim/Oslo); leads the national centre on AI-powered decisions and drives industrial AI adoption.",
+      "url": "https://www.sintef.no/en/"
+    },
+    {
+      "name": "Simula Research Laboratory",
+      "description": "State-owned ICT research institute (Oslo) with machine-learning and networks strengths; leads the national centre on sustainable, risk-averse and ethical AI.",
+      "url": "https://www.simula.no"
+    },
+    {
+      "name": "Langsikt",
+      "description": "Oslo-based think tank focused on long-term policy, including AI safety and governance -- one of the few Norwegian voices on frontier-AI risk.",
+      "url": "https://www.langsikt.no",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digitalisation and Public Governance (DFD)",
+      "description": "Lead ministry for AI and digital policy since January 2024, headed by minister Karianne Tung -- owner of the digitalisation strategy, the KI-loven process and the smart-glasses expert group.",
+      "url": "https://www.regjeringen.no/en/dep/dfd/id810/"
+    },
+    {
+      "name": "Norwegian Communications Authority (Nkom)",
+      "description": "Designated as Norway's coordinating national supervisory authority for the AI Act under the draft KI-loven, responsible for enforcement coordination and guidance.",
+      "url": "https://www.nkom.no",
+      "needsVerification": true
+    },
+    {
+      "name": "Datatilsynet (Norwegian Data Protection Authority)",
+      "description": "Data protection authority running the pioneering regulatory sandbox for responsible AI (since December 2020) and enforcing GDPR-based limits on AI; central to the smart-glasses and facial-recognition debate.",
+      "url": "https://www.datatilsynet.no/en/"
+    },
+    {
+      "name": "Norwegian Digitalisation Agency (Digdir) / KI-Norge",
+      "description": "Digdir runs common public-sector digital infrastructure and hosts KI-Norge, the national arena for responsible AI adoption across public and private sectors, cooperating with Nkom and Datatilsynet on guidance and a regulatory sandbox.",
+      "url": "https://www.digdir.no",
+      "needsVerification": true
+    },
+    {
+      "name": "Sigma2 / NRIS",
+      "description": "National e-infrastructure provider operating Norway's research computing, including the Olivia supercomputer at Lefdal Mine and Norwegian participation in EuroHPC (LUMI).",
+      "url": "https://www.sigma2.no"
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Karianne Tung",
+      "role": "Minister of Digitalisation and Public Governance; leads the KI-loven, the 2030 digitalisation strategy and the 2026 smart-glasses regulation push",
+      "affiliation": "Government of Norway",
+      "category": "government",
+      "url": "https://www.regjeringen.no/en/dep/dfd/id810/"
+    },
+    {
+      "name": "Nicolai Tangen",
+      "role": "CEO of Norges Bank Investment Management; has made the ~$2tn sovereign wealth fund a flagship institutional AI adopter ('using AI is not an option, but a must')",
+      "affiliation": "Norges Bank Investment Management",
+      "category": "company_leader",
+      "url": "https://www.nbim.no"
+    },
+    {
+      "name": "Inga Strümke",
+      "role": "AI researcher and Norway's most prominent public voice on AI; author of the bestseller 'Maskiner som tenker'",
+      "affiliation": "NTNU",
+      "category": "researcher",
+      "url": "https://www.ntnu.edu",
+      "needsVerification": true
+    },
+    {
+      "name": "Klas Pettersen",
+      "role": "CEO of NORA, the Norwegian AI research consortium coordinating universities and institutes",
+      "affiliation": "NORA",
+      "category": "researcher",
+      "url": "https://www.nora.ai",
+      "needsVerification": true
+    },
+    {
+      "name": "Line Coll",
+      "role": "Director of Datatilsynet, steering the AI sandbox and Norway's line on biometrics and AI-equipped devices",
+      "affiliation": "Datatilsynet",
+      "category": "government",
+      "url": "https://www.datatilsynet.no/en/",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Inga Strümke",
+      "type": "person",
+      "role": "NTNU researcher and Norway's best-known AI explainer and commentator.",
+      "category": "researcher",
+      "url": "https://www.ntnu.edu"
+    },
+    {
+      "name": "In Good Company (Nicolai Tangen)",
+      "type": "podcast",
+      "role": "The NBIM CEO's podcast -- regular long interviews with frontier-AI and tech leaders, a window on how the oil fund thinks about AI.",
+      "category": "podcast",
+      "url": "https://www.nbim.no"
+    },
+    {
+      "name": "NORA",
+      "type": "organization",
+      "role": "Norwegian AI research consortium; its newsletters and events track the national research ecosystem.",
+      "category": "university",
+      "url": "https://www.nora.ai"
+    },
+    {
+      "name": "Teknologirådet",
+      "type": "organization",
+      "role": "Technology-assessment board shaping parliamentary debate on AI, biometrics and digital policy.",
+      "category": "think_tank",
+      "url": "https://teknologiradet.no"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Ministry of Digitalisation (Tung) / KI-Norge",
+      "type": "government"
+    },
+    {
+      "label": "Nkom (AI Act supervisor-designate)",
+      "type": "agency"
+    },
+    {
+      "label": "Datatilsynet (AI sandbox)",
+      "type": "agency"
+    },
+    {
+      "label": "NBIM -- the oil fund",
+      "type": "company"
+    },
+    {
+      "label": "Aker / Nscale (Narvik gigafactory)",
+      "type": "company"
+    },
+    {
+      "label": "Telenor (sovereign AI factory)",
+      "type": "company"
+    },
+    {
+      "label": "NTNU / NorwAI",
+      "type": "research"
+    },
+    {
+      "label": "NORA consortium",
+      "type": "research"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "No domestic frontier developer despite frontier-scale compute",
+      "note": "Norway hosts one of Europe's largest announced GPU clusters, but the capacity is owned by an Aker-Nscale JV and contracted to Microsoft; no Norwegian lab trains frontier or near-frontier models. Domestic model work (NorwAI, National Library AI Lab) is small-scale and Norwegian-language focused."
+    },
+    {
+      "area": "Structural regulatory lag via the EEA",
+      "note": "Norway cannot apply the EU AI Act until it is incorporated into the EEA Agreement, so the KI-loven has slipped (bill now expected spring 2027) even as Norwegian exporters must comply with EU-market rules anyway -- a gap Norway can manage but not close."
+    },
+    {
+      "area": "No AI safety institute or frontier-risk capacity",
+      "note": "Unlike the UK, US, EU and several Nordic-adjacent states, Norway has no dedicated AI safety institute; frontier-risk expertise is thin, largely limited to individual researchers and the small think-tank scene."
+    },
+    {
+      "area": "Value capture from the data-centre boom uncertain",
+      "note": "The gigafactory model exports hydropower as compute for foreign firms; jobs, tax and ecosystem spillovers from sites like Narvik remain unproven, and grid and nature trade-offs are contested locally."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Data centres, hydropower and value capture",
+      "category": "infrastructure",
+      "summary": "Stargate Norway made Narvik the site of Europe's largest announced AI gigafactory -- and sharpened the question of whether exporting hydropower as compute for foreign firms serves Norway.",
+      "expanded": "The Aker-Nscale site at Kvandal (initial 230 MW, expandable by 290 MW, 100,000+ GPUs) runs on cheap northern hydropower left stranded by limited grid export capacity. Proponents cast it as industrial policy: anchoring AI infrastructure, district-heating reuse and northern jobs. Critics note the compute now serves Microsoft after OpenAI's April 2026 exit, that data centres create few permanent jobs relative to power consumed, and that gigawatt-scale demand competes with electrification of Norwegian industry. TikTok's Green Mountain hosting and Google's Skien build feed the same debate about what Norway gets beyond the power bill.",
+      "sourceIds": [
+        "no-4",
+        "no-6",
+        "no-7"
+      ]
+    },
+    {
+      "topic": "The EEA slow lane on the AI Act",
+      "category": "government",
+      "summary": "Norway's KI-loven has slipped to a spring 2027 bill because the AI Act must first be incorporated into the EEA Agreement -- leaving Norwegian firms in a compliance limbo the EU's own members do not face.",
+      "expanded": "The draft KI-loven drew close to 150 consultation responses in 2025, Nkom is stood up as coordinating supervisor, and the government insists Norway will start 'on the same line as the EU' -- yet EEA adaptations remain under negotiation and the EU's July 2026 omnibus changed the text mid-process. Norwegian exporters must meet EU-market AI Act duties regardless, so the debate is about legal certainty at home: whether the two-speed EEA machinery leaves Norwegian regulators guidance-only for years, and whether Norway should gold-plate, mirror or minimally transpose when the bill finally lands.",
+      "sourceIds": [
+        "no-1",
+        "no-2",
+        "no-20"
+      ]
+    },
+    {
+      "topic": "Sovereign compute vs hyperscaler dependence",
+      "category": "industry",
+      "summary": "Telenor's AI factory, the Olivia supercomputer and Norwegian-language models are bets on in-country AI capability -- against the pull of ever-deeper dependence on US hyperscalers and model providers.",
+      "expanded": "Telenor markets its NVIDIA-powered AI factory as sovereign infrastructure for sensitive Norwegian workloads and hosts national language models; Sigma2's Olivia gives researchers domestic GPU capacity; the National Library and NorwAI keep Norwegian-language AI alive. But the public sector runs substantially on Azure and M365 Copilot, NBIM standardises on Anthropic's Claude, and the country's flagship compute site is contracted to Microsoft. The debate -- echoed across the Nordics -- is how much sovereignty a five-million-person market can realistically buy, and whether it should be pursued at national or European (EuroHPC/EU AI gigafactory) level.",
+      "sourceIds": [
+        "no-18",
+        "no-11",
+        "no-8"
+      ]
+    },
+    {
+      "topic": "The oil fund as a global AI actor",
+      "category": "investment",
+      "summary": "NBIM is both one of the world's largest owners of AI companies and one of the most aggressive institutional AI adopters -- giving Norway outsized, ambivalent influence over the global AI economy.",
+      "expanded": "The ~$2tn fund's biggest holdings are the AI hyperscalers and NVIDIA, so Norwegian pension wealth is heavily levered to the AI boom. Under Nicolai Tangen the fund has made internal AI use mandatory-in-spirit, standardised on Claude, claimed six-figure hour savings, and begun using AI to screen investments for ethical risks -- while also publishing expectations on responsible AI to its ~9,000 portfolio companies and voting on AI-governance questions. Critics ask whether the fund's concentration in a handful of US AI giants is prudent, and whether an oil-funded state should be more activist on AI risk given its ownership stake in the technology's build-out.",
+      "sourceIds": [
+        "no-8",
+        "no-9"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "National Strategy for Artificial Intelligence",
+      "type": "government",
+      "author": "Norwegian Ministry of Local Government and Modernisation",
+      "url": "https://www.regjeringen.no/en/dokumenter/nasjonal-strategi-for-kunstig-intelligens/id2685594/",
+      "note": "Norway's 2020 strategy -- still the baseline document for its trustworthy-AI approach."
+    },
+    {
+      "title": "Datatilsynet's sandbox for responsible AI -- project reports",
+      "type": "government",
+      "url": "https://www.datatilsynet.no/en/regulations-and-tools/sandbox-for-artificial-intelligence/",
+      "note": "Published case reports from one of the world's first AI regulatory sandboxes."
+    },
+    {
+      "title": "NORA -- Norwegian AI Research Consortium",
+      "type": "academic",
+      "url": "https://www.nora.ai",
+      "note": "Hub for the national research ecosystem: centres, PhD network, startups and events."
+    },
+    {
+      "title": "In Good Company",
+      "type": "podcast",
+      "author": "Nicolai Tangen (NBIM)",
+      "note": "The oil-fund CEO's interviews with global tech and AI leaders."
+    },
+    {
+      "title": "Maskiner som tenker",
+      "type": "book",
+      "author": "Inga Strümke",
+      "note": "Bestselling Norwegian introduction to AI and its societal stakes (2023); shaped the national public debate."
+    }
+  ],
+  "sources": [
+    {
+      "id": "no-1",
+      "title": "Paving the way for safe and innovative use of AI in Norway",
+      "publisher": "Government of Norway (regjeringen.no)",
+      "url": "https://www.regjeringen.no/en/whats-new/gjor-norge-klar-for-trygg-og-innovativ-ki-bruk/id3093081/",
+      "date": "2025-06",
+      "category": "government"
+    },
+    {
+      "id": "no-2",
+      "title": "Norway's new AI Act -- what it will mean for your business",
+      "publisher": "Simonsen Vogt Wiig",
+      "url": "https://svw.no/en/norways-new-ai-act-what-it-will-mean-for-your-business/",
+      "date": "2025",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "no-3",
+      "title": "AI laws and regulations in Norway (AI Regulation Scanner)",
+      "publisher": "CMS",
+      "url": "https://cms.law/en/int/expert-guides/ai-regulation-scanner/norway",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "no-4",
+      "title": "Introducing Stargate Norway",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/introducing-stargate-norway/",
+      "date": "2025-07",
+      "category": "industry"
+    },
+    {
+      "id": "no-5",
+      "title": "Nscale, Aker and OpenAI to establish Stargate Norway",
+      "publisher": "Nscale",
+      "url": "https://www.nscale.com/press-releases/stargate-norway-nscale-aker-openai",
+      "date": "2025-07",
+      "category": "industry"
+    },
+    {
+      "id": "no-6",
+      "title": "Microsoft contracts 30,000 GPUs from Nscale at Norway data center as OpenAI drops out of latest Stargate",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-contracts-30000-nvidia-rubin-gpus-from-nscale-at-data-center-in-narvik-norway/",
+      "date": "2026-04",
+      "category": "news"
+    },
+    {
+      "id": "no-7",
+      "title": "OpenAI pulls back from Stargate Norway data center deal as Microsoft takes over",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/15/openai-stargate-norway-project-microsoft.html",
+      "date": "2026-04-15",
+      "category": "news"
+    },
+    {
+      "id": "no-8",
+      "title": "The world's biggest sovereign wealth fund is using Anthropic's Claude AI model to screen investments for ethical issues",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/02/26/norway-sovereign-wealth-fund-nbim-investment-ai-esg-claude.html",
+      "date": "2026-02-26",
+      "category": "news"
+    },
+    {
+      "id": "no-9",
+      "title": "NBIM prioritises trading efficiency, AI and culture in three-year plan",
+      "publisher": "Top1000funds.com",
+      "url": "https://www.top1000funds.com/featured-story/nbim-prioritises-trading-efficiency-ai-and-culture-in-three-year-plan/",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "no-10",
+      "title": "Meet Olivia: Norway's next supercomputer",
+      "publisher": "Sigma2",
+      "url": "https://www.sigma2.no/meet-olivia-norways-next-supercomputer",
+      "date": "2025",
+      "category": "research"
+    },
+    {
+      "id": "no-11",
+      "title": "Olivia expands: massive GPU capacity upgrade",
+      "publisher": "Sigma2",
+      "url": "https://www.sigma2.no/news/2026/olivia-expands-massive-gpu-capacity-upgrade",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "no-12",
+      "title": "The Artificial Intelligence Initiative (research centres for AI)",
+      "publisher": "Research Council of Norway",
+      "url": "https://www.forskningsradet.no/en/research-policy-strategy/ltp/artificial-intelligence/",
+      "date": "2025",
+      "category": "government"
+    },
+    {
+      "id": "no-13",
+      "title": "TRUST is one of six new research centres for artificial intelligence",
+      "publisher": "University of Oslo",
+      "url": "https://www.mn.uio.no/geo/english/about/news-and-events/news/2025/trust-is-one-of-six-norwegian-ki-research-centres.html",
+      "date": "2025",
+      "category": "research"
+    },
+    {
+      "id": "no-14",
+      "title": "Norway moves to tighten rules on use of smart glasses",
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/next/2026/08/25/norway-moves-to-tighten-rules-on-use-of-smart-glasses",
+      "date": "2026-08-25",
+      "category": "news"
+    },
+    {
+      "id": "no-15",
+      "title": "Sandbox for responsible artificial intelligence",
+      "publisher": "Datatilsynet",
+      "url": "https://www.datatilsynet.no/en/regulations-and-tools/sandbox-for-artificial-intelligence/",
+      "date": "2020-12",
+      "category": "government"
+    },
+    {
+      "id": "no-16",
+      "title": "National Strategy for Artificial Intelligence",
+      "publisher": "Government of Norway (regjeringen.no)",
+      "url": "https://www.regjeringen.no/en/dokumenter/nasjonal-strategi-for-kunstig-intelligens/id2685594/",
+      "date": "2020-01",
+      "category": "government"
+    },
+    {
+      "id": "no-17",
+      "title": "The Digital Norway of the Future -- national digitalisation strategy 2024-2030",
+      "publisher": "Regulations.ai",
+      "url": "https://regulations.ai/regulations/norway-2024-09-digital-norway-future",
+      "date": "2024-09",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "no-18",
+      "title": "Telenor launches Norway's first 'AI factory', announces plans for data center",
+      "publisher": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/telenor-launches-norways-first-ai-factory-announces-plans-for-data-center/",
+      "date": "2024-11",
+      "category": "news"
+    },
+    {
+      "id": "no-19",
+      "title": "About NORA -- Norwegian Artificial Intelligence Research Consortium",
+      "publisher": "NORA",
+      "url": "https://www.nora.ai/about/",
+      "date": "2026",
+      "category": "research"
+    },
+    {
+      "id": "no-20",
+      "title": "EU AI Act in Norway: what changed on 27 July 2026",
+      "publisher": "Anglero",
+      "url": "https://anglero.com/2026/07/29/eu-ai-act-norway-what-changed/",
+      "date": "2026-07-29",
+      "category": "expert_commentary"
+    }
+  ],
+  "hasMajorUpdate": true
+}

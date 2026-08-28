@@ -1,7 +1,10 @@
 # AI Governance Map
 
 An interactive world map of AI governance: policy, regulation, key institutions, companies, and
-research ecosystems for 51 jurisdictions, plus a Compare tool for side-by-side analysis.
+research ecosystems for every tracked jurisdiction (one JSON file each under `data/countries/` —
+the site derives all counts from the data, so this README doesn't hardcode one), plus a global
+Timeline with upcoming milestones, a Topics browser, a cross-country Policy matrix, and a Compare
+tool for side-by-side analysis.
 
 Each jurisdiction's data lives in `data/countries/{code}.json`, structured per `lib/types.ts`'s
 `CountryData` interface — overview, current policy direction, recent developments, companies,
@@ -29,9 +32,18 @@ malformed URLs, out-of-range `cloudInfrastructure.dominance` shares, missing req
 This doesn't check factual accuracy, only structural integrity; `npm run build`'s TypeScript pass
 catches shape mismatches on top of this.
 
+To add a development the way the data layer expects it (newest-first insertion, sequential
+source ids, `lastUpdated` bump, index sync, validation):
+
+```bash
+node scripts/add-development.mjs <code> --text "…" --date 2026-08-14 [--severity major]
+# or pipe a JSON payload: node scripts/add-development.mjs --json < entry.json
+```
+
 ## Structure
 
-- `app/` — Next.js App Router pages (`/`, `/country/[code]`, `/compare`, `/compare/[slug]`)
+- `app/` — Next.js App Router pages (`/`, `/country/[code]`, `/timeline`, `/topics`, `/matrix`,
+  `/compare`, `/compare/[slug]`)
 - `data/countries/` — one JSON file per jurisdiction
 - `data/comparisons/` — hand-curated Compare pairs; any other 2-3 country combination falls back
   to `lib/buildDynamicComparison.ts`, which assembles a comparison from each country's own data

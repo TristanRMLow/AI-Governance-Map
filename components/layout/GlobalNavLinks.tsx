@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Clock, Compass } from "lucide-react";
+import { Clock, Compass, Table2 } from "lucide-react";
 
 const LINKS = [
   { href: "/timeline", label: "Timeline", icon: Clock },
   { href: "/topics", label: "Topics", icon: Compass },
+  { href: "/matrix", label: "Matrix", icon: Table2 },
 ] as const;
 
 export function GlobalNavLinks({ variant }: { variant: "overlay" | "light" }) {

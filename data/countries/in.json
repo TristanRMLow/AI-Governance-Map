@@ -15,12 +15,12 @@
     "dark": "#C2946B"
   },
   "center": [
-    79.0,
-    22.0
+    79,
+    22
   ],
-  "zoom": 4.0,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 7,
+  "zoom": 4,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "India signals a possible shift toward binding AI legislation",
     "IT Rules 2026 takedown triggers criticised as overbroad by digital-rights groups",
@@ -44,6 +44,14 @@
     "summary": "Officials' public rhetoric has moved from 'no separate AI law needed' toward openness to drafting one within eight months, with a senior MeitY official using hedged language about timing and no draft bill yet published. Reporting indicates the government is also weighing emergency shutdown powers for high-risk AI systems, a notably assertive tool most peer jurisdictions haven't proposed — though the specific scope and design of any such power remain unconfirmed."
   },
   "recentDevelopments": [
+    {
+      "text": "The government gave the Lok Sabha a consolidated implementation update (5 August 2026) on the February 2026 IT Intermediary Guidelines amendments covering synthetically generated information: prominent labelling and traceable metadata obligations for AI-generated content, takedown of unlawful content within three hours of government notice (two hours for impersonation or nudity grievances), and a clarification that generative AI services' safe-harbour status depends on their function.",
+      "date": "2026-08-05",
+      "sourceIds": [
+        "in-11",
+        "in-12"
+      ]
+    },
     {
       "text": "India's private-sector AI-infrastructure build-out accelerates: Reliance announced (February 2026 AGM) a reported ₹10 lakh crore (~$110B) seven-year AI push anchored by a multi-gigawatt, renewable-powered data centre in Jamnagar (first phase targeting 3GW, with an initial ~120MW slated to come online in late 2026), signed its first AI data-centre deal with Meta in June 2026, and is working with NVIDIA on an India-focused foundation model; Adani has announced comparably large plans, together positioning India as a major AI-infrastructure hub.",
       "date": "2026-06",
@@ -381,6 +389,22 @@
       "url": "https://ddnews.gov.in/en/indiaai-missions-safe-trusted-ai-pillar-advances-responsible-ai-13-projects-approved-to-tackle-deepfakes-and-bias/",
       "date": "2026",
       "category": "government"
+    },
+    {
+      "id": "in-11",
+      "title": "Generative AI Safe Harbour Status Dependent On Function: Government",
+      "publisher": "Outlook India",
+      "url": "https://www.outlookindia.com/national/generative-ai-safe-harbour-status-dependent-on-function-government",
+      "date": "2026-08-06",
+      "category": "news"
+    },
+    {
+      "id": "in-12",
+      "title": "Govt strengthens framework to curb AI-generated deepfakes; mandates faster takedown",
+      "publisher": "IANS",
+      "url": "https://ianslive.in/govt-strengthens-framework-to-curb-aigenerated-deepfakes-mandates-faster-takedown--20260806192111",
+      "date": "2026-08-06",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

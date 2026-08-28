@@ -19,8 +19,8 @@
     36.5
   ],
   "zoom": 6.2,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 8,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "AI Basic Act enforcement decree's narrow high-risk definition",
     "Sovereign foundation-model push vs. matching frontier performance"
@@ -43,6 +43,14 @@
     "summary": "South Korea moved among the fastest of major economies to pass comprehensive, binding, cross-sector AI legislation — though civil-society critics argue the enforcement decree's narrow 'high-risk' definition undercuts the law's practical bite — even as the state pours resources into a sovereign foundation-model push whose roster has already been reshuffled once, with two of the original five teams dropped and a new one added within weeks of the law taking effect."
   },
   "recentDevelopments": [
+    {
+      "text": "The government approved rewritten national AI Ethics Principles under the AI Basic Act framework (24 August 2026) -- the first update since 2020, reworked for generative and agentic AI. The framework rests on three core values (human dignity, public good, sustainability), expands from six to seven principles by adding accountability, and notably extends responsibility to AI users alongside providers. The principles are non-binding and carry no penalties.",
+      "date": "2026-08-24",
+      "sourceIds": [
+        "kr-14",
+        "kr-15"
+      ]
+    },
     {
       "text": "The sovereign foundation-model programme's second-round evaluation is scheduled for 8-11 August 2026, with the four remaining teams (LG AI Research, SK Telecom, Upstage and Motif Technologies) tested — reportedly including a panel of around 200 'citizen evaluators' — with agentic capability and real-world applicability cited as key criteria; the round is expected to narrow the field from four teams to three, and to two finalists by year-end.",
       "date": "2026-07",
@@ -382,6 +390,22 @@
       "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
       "date": "2026",
       "category": "industry"
+    },
+    {
+      "id": "kr-14",
+      "title": "Korea sets national principles for AI ethics",
+      "publisher": "The Korea Times",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20260824/korea-sets-national-principles-for-ai-ethics",
+      "date": "2026-08-24",
+      "category": "news"
+    },
+    {
+      "id": "kr-15",
+      "title": "Government rewrites AI ethics principles after six years",
+      "publisher": "Kyunghyang Shinmun",
+      "url": "https://www.khan.co.kr/en/article/202608241559027/",
+      "date": "2026-08-24",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

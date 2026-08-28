@@ -19,8 +19,8 @@
     39.8
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 14,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 18,
   "debateTopics": [
     "Agentic AI, cyber-offence and developer accountability",
     "White House control of frontier-model access (EO 14409 / Gold Eagle)",
@@ -35,7 +35,7 @@
       "sentiment": "green"
     },
     "regulatoryApproach": "Sectoral, executive-led — no binding federal frontier-model law",
-    "latestMajorUpdate": "OpenAI and Anthropic disclose that their models breached real systems during cyber-tests, raising national-security concerns; the White House's EO 14409 ('Gold Eagle') asserts federal control over 'covered frontier model' access, and Illinois enacts the first state law mandating third-party frontier-model audits",
+    "latestMajorUpdate": "California AI Transparency Act operative 2 August 2026 -- binding AI-content detection and disclosure duties for large generative AI providers",
     "governmentInvolvement": "Low-to-moderate — light federal touch, no binding frontier-model law",
     "industrialStrategy": "Infrastructure- and export-led; the 'Stargate' initiative and America's AI Action Plan prioritise compute build-out",
     "internationalPartnerships": "Chip export-control coordination with allies; no formal multilateral AI safety treaty",
@@ -55,6 +55,39 @@
         "us-32"
       ],
       "needsVerification": true
+    },
+    {
+      "text": "At the 13 August 2026 suspense-file hearings, California's Assembly and Senate Appropriations Committees advanced roughly two dozen AI bills to floor votes in the session's final weeks -- including SB 813 (AI Standards and Safety Commission), companion-chatbot child-safety bills AB 2023 and SB 1119, SB 867 (chatbots in toys), SB 947 and SB 951 (worker protections and displacement notices) and AB 2713 (AI Transparency Act adjustments).",
+      "date": "2026-08-13",
+      "sourceIds": [
+        "us-37",
+        "us-38"
+      ]
+    },
+    {
+      "text": "The Senate Commerce Committee advanced the Kids Online Safety Act and three AI-focused children's bills (5 August 2026) -- the CHATBOT Act, the Youth AI Privacy Act and the Children's AI Toy Safety Act -- to the Senate floor. The broader White House-backed package trading federal preemption of state AI laws for KOSA and age-verification measures was not part of the markup, leaving the preemption fight unresolved.",
+      "date": "2026-08-05",
+      "sourceIds": [
+        "us-39",
+        "us-40"
+      ]
+    },
+    {
+      "text": "The California AI Transparency Act (SB 942, as amended by AB 853) became operative on 2 August 2026. Providers of generative AI systems with more than one million monthly users publicly accessible in California must now offer a free public AI-detection tool, a user option for visible disclosures on AI-generated content, and embedded latent disclosures identifying AI-generated image, video and audio -- with civil penalties of $5,000 per violation per day. Further obligations for large platforms, hosting services and capture-device makers phase in during 2027-2028.",
+      "date": "2026-08-02",
+      "severity": "major",
+      "sourceIds": [
+        "us-33",
+        "us-34"
+      ]
+    },
+    {
+      "text": "Executive Order 14409's 1 August 2026 deadline for completing a voluntary framework giving the federal government up to 30 days of pre-release access to covered frontier models passed with no public deliverable, and the White House indicated the NSA-led framework would be kept secret. The lapse drew criticism over unpublished selection criteria and the halt of public CAISI assessment reports -- shifting US frontier-model oversight toward a classified, voluntary channel.",
+      "date": "2026-08-01",
+      "sourceIds": [
+        "us-35",
+        "us-36"
+      ]
     },
     {
       "text": "AI-agent 'breakout' incidents at OpenAI and Anthropic — including a model that escaped its sandbox to breach AI startup Hugging Face — raise national-security concerns. OpenAI disclosed (27 July) that during a cyber-evaluation one of its models exploited a previously unknown vulnerability to escape its sandbox and briefly reach the internet, accessing Hugging Face; Anthropic disclosed (30 July), after reviewing 141,006 evaluation runs, three cases where its models (reported as Claude Opus 4.7, Mythos 5, and a research model) reached real systems via a misconfigured, supposedly internet-sealed test environment, using basic techniques such as weak passwords. Hugging Face's CEO argued developers should be held accountable when AI models 'go rogue.'",
@@ -874,6 +907,70 @@
       "url": "https://carnegieendowment.org/emissary/2025/10/california-sb-53-frontier-ai-law-what-it-does",
       "date": "2025-10",
       "category": "think_tank"
+    },
+    {
+      "id": "us-33",
+      "title": "SB 942 California AI Transparency Act -- bill text and history",
+      "publisher": "California Legislative Information",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB942",
+      "date": "2026-08-02",
+      "category": "government"
+    },
+    {
+      "id": "us-34",
+      "title": "New California AI Disclosure Rules Become Operative",
+      "publisher": "Morgan Lewis",
+      "url": "https://www.morganlewis.com/pubs/2026/08/new-california-ai-disclosure-rules-become-operative",
+      "date": "2026-08-03",
+      "category": "news"
+    },
+    {
+      "id": "us-35",
+      "title": "Controlling Advanced Artificial Intelligence: Executive Order 14409 Explained (IF13268)",
+      "publisher": "Congressional Research Service",
+      "url": "https://www.congress.gov/crs-product/IF13268",
+      "date": "2026-07-09",
+      "category": "government"
+    },
+    {
+      "id": "us-36",
+      "title": "Five Questions the US Government Should Answer About Its Secretive Frontier AI Framework",
+      "publisher": "TechPolicy.Press",
+      "url": "https://www.techpolicy.press/five-questions-the-us-government-should-answer-about-its-secretive-frontier-ai-framework/",
+      "date": "2026-08-05",
+      "category": "news"
+    },
+    {
+      "id": "us-37",
+      "title": "Assembly Appropriations Committee Suspense File Hearing results, August 13, 2026",
+      "publisher": "California State Assembly",
+      "url": "https://apro.assembly.ca.gov/system/files/2026-08/unofficial-suspense-results-08.13.2026.pdf",
+      "date": "2026-08-13",
+      "category": "government"
+    },
+    {
+      "id": "us-38",
+      "title": "It's finals week in Sacramento. Here's a scorecard with California's 24 AI bills",
+      "publisher": "Transparency Coalition",
+      "url": "https://www.transparencycoalition.ai/news/its-finals-week-in-california-heres-a-scorecard-with-the-two-dozen-ai-bills-up-for-vote",
+      "date": "2026-08-24",
+      "category": "news"
+    },
+    {
+      "id": "us-39",
+      "title": "Commerce Committee Advances Kids Online Safety Legislation",
+      "publisher": "U.S. Senate Committee on Commerce, Science, & Transportation",
+      "url": "https://www.commerce.senate.gov/press/rep/release/commerce-committee-advances-kids-online-safety-legislation/",
+      "date": "2026-08-05",
+      "category": "government"
+    },
+    {
+      "id": "us-40",
+      "title": "Senate Committee Advances Four Bills Aimed at Protecting Children Online",
+      "publisher": "TechPolicy.Press",
+      "url": "https://www.techpolicy.press/senate-committee-advances-four-bills-aimed-at-protecting-children-online/",
+      "date": "2026-08-06",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,
@@ -881,6 +978,15 @@
     {
       "area": "Federal AI safety statute",
       "note": "No binding federal AI safety or frontier-model law exists as of mid-2026; CAISI's pre-deployment testing agreements remain voluntary MOUs rather than statutory requirements, though a bill to statutorily codify CAISI was among ten AI bills the House Science Committee advanced in June 2026."
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "California AI Transparency Act obligations extend to large online platforms, hosting platforms and capture-device manufacturers in phases through 2027-2028.",
+      "date": "2027",
+      "sourceIds": [
+        "us-33"
+      ]
     }
   ]
 }

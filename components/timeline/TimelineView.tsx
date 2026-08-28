@@ -2,9 +2,10 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { CircleAlert, Star, Layers } from "lucide-react";
-import type { DevelopmentWithCountry } from "@/lib/aggregateData";
+import { CalendarClock, CircleAlert, Star, Layers } from "lucide-react";
+import type { DevelopmentWithCountry, UpcomingMilestoneWithCountry } from "@/lib/aggregateData";
 import { SourceRefs } from "@/components/country/SourceRefs";
+import { formatEventDate } from "@/lib/dates";
 import { useWatchlist } from "@/lib/useWatchlist";
 
 /** Human titles for shared cross-jurisdiction events, keyed by Development.eventGroup.
@@ -33,9 +34,11 @@ type TimelineEntry =
 export function TimelineView({
   developments,
   regions,
+  upcoming = [],
 }: {
   developments: DevelopmentWithCountry[];
   regions: string[];
+  upcoming?: UpcomingMilestoneWithCountry[];
 }) {
   const [region, setRegion] = useState<string>("all");
   const [majorOnly, setMajorOnly] = useState(false);
@@ -75,8 +78,45 @@ export function TimelineView({
     return result;
   }, [filtered]);
 
+  const visibleUpcoming = useMemo(
+    () => (region === "all" ? upcoming : upcoming.filter((m) => m.region === region)),
+    [upcoming, region]
+  );
+
   return (
     <div className="mt-6">
+      {visibleUpcoming.length > 0 && (
+        <div className="mb-6 rounded-xl border border-page-border bg-page-card">
+          <p className="flex items-center gap-1.5 border-b border-page-border px-4 py-2.5 font-mono text-[10.5px] uppercase tracking-[0.1em] text-page-text-muted">
+            <CalendarClock size={12} strokeWidth={2.25} />
+            Coming up
+          </p>
+          <ul>
+            {visibleUpcoming.map((m, i) => (
+              <li
+                key={`${m.countryCode}-${m.date}-${i}`}
+                className="flex items-baseline gap-3 border-b border-page-border px-4 py-2.5 last:border-b-0"
+              >
+                <span className="w-[105px] shrink-0 font-mono text-[11px] text-page-text-muted">
+                  {formatEventDate(m.date)}
+                </span>
+                <span className="min-w-0 text-[13px] leading-snug text-page-text-secondary">
+                  <Link
+                    href={`/country/${m.countryCode}`}
+                    className="mr-1.5 inline-flex items-center gap-1 text-[12px] font-semibold"
+                    style={{ color: m.accentColor.light }}
+                  >
+                    <span aria-hidden>{m.flagEmoji}</span>
+                    {m.countryName}
+                  </Link>
+                  {m.text}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="flex flex-wrap items-center gap-2">
         <select
           value={region}

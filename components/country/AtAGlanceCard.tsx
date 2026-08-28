@@ -1,6 +1,7 @@
 import { LayoutGrid } from "lucide-react";
 import { SectionCard } from "@/components/country/SectionCard";
 import type { CountryData } from "@/lib/types";
+import { formatEventDate } from "@/lib/dates";
 
 const SENTIMENT_DOT: Record<string, string> = {
   green: "var(--status-good)",
@@ -8,10 +9,6 @@ const SENTIMENT_DOT: Record<string, string> = {
   red: "var(--status-critical)",
   blue: "var(--status-blue)",
 };
-
-function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
-}
 
 function namesList(names: string[], max = 3) {
   if (names.length === 0) return "—";
@@ -68,7 +65,7 @@ export function AtAGlanceCard({ country }: { country: CountryData }) {
       </div>
 
       <dl className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-        <Tile label="Last updated" value={formatDate(country.lastUpdated)} />
+        <Tile label="Latest development" value={formatEventDate(country.latestDevelopmentDate) ?? "—"} />
         <Tile label="Regulatory approach" value={atAGlance.regulatoryApproach} />
         <Tile label="Major AI companies" value={namesList(country.companies.map((c) => c.name))} />
         <Tile

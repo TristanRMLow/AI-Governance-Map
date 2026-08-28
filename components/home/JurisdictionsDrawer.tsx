@@ -31,7 +31,7 @@ function CountryRow({
             aria-hidden
             className="h-1.5 w-1.5 shrink-0 rounded-full"
             style={{ background: freshness === "major" ? "var(--status-warning)" : "var(--status-good)" }}
-            title={freshness === "major" ? "Major development this cycle" : "Recent development this cycle"}
+            title={freshness === "major" ? "Major development in the last 45 days" : "Development in the last 30 days"}
           />
         )}
       </button>

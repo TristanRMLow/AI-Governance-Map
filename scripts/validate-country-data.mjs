@@ -24,9 +24,16 @@ function fail(file, msg) {
   console.error(`  ✗ ${file}: ${msg}`);
 }
 
+let warnCount = 0;
+function warn(file, msg) {
+  warnCount++;
+  console.warn(`  ⚠ ${file}: ${msg}`);
+}
+
 function collectSourceIdRefs(data) {
   const refs = [];
   for (const d of data.recentDevelopments ?? []) refs.push(...(d.sourceIds ?? []));
+  for (const m of data.upcomingMilestones ?? []) refs.push(...(m.sourceIds ?? []));
   for (const p of data.policyAndRegulation ?? []) refs.push(...(p.sourceIds ?? []));
   for (const d of data.debates ?? []) refs.push(...(d.sourceIds ?? []));
   refs.push(...(data.researchEcosystem?.sourceIds ?? []));
@@ -98,6 +105,36 @@ for (const file of files) {
     }
   }
 
+  // upcomingMilestones is optional; when present, entries need valid dates,
+  // non-empty text, and resolvable sources (checked via collectSourceIdRefs).
+  if (data.upcomingMilestones !== undefined && !Array.isArray(data.upcomingMilestones)) {
+    fail(file, `upcomingMilestones must be an array when present`);
+  }
+  for (const m of data.upcomingMilestones ?? []) {
+    if (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(m.date ?? "")) {
+      fail(file, `upcomingMilestones date "${m.date}" is not YYYY, YYYY-MM, or YYYY-MM-DD`);
+    }
+    if (!m.text) fail(file, `upcomingMilestones entry (${m.date}) has empty text`);
+    if (!Array.isArray(m.sourceIds) || m.sourceIds.length === 0) {
+      fail(file, `upcomingMilestones entry (${m.date}) needs at least one sourceId`);
+    }
+  }
+
+  // lastUpdated is the editorial "reviewed on" date (freshness derives from
+  // development dates instead) — it must be a real, full-precision date.
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(data.lastUpdated ?? "")) {
+    fail(file, `lastUpdated "${data.lastUpdated}" must be a full YYYY-MM-DD date`);
+  } else {
+    // A development dated after the review date means the file was edited
+    // without bumping lastUpdated. Non-fatal: only full-precision dev dates
+    // are compared, to avoid false positives from month/year normalization.
+    for (const dev of data.recentDevelopments ?? []) {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(dev.date ?? "") && dev.date > data.lastUpdated) {
+        warn(file, `development dated ${dev.date} is newer than lastUpdated ${data.lastUpdated} — bump the review date`);
+      }
+    }
+  }
+
   const actualCount = (data.recentDevelopments ?? []).length;
   if (data.newDevelopmentsCount !== actualCount) {
     fail(file, `newDevelopmentsCount is ${data.newDevelopmentsCount} but recentDevelopments has ${actualCount} entries`);
@@ -133,6 +170,9 @@ for (const entry of index) {
   }
 }
 
+if (warnCount > 0) {
+  console.warn(`\n${warnCount} warning(s) — non-fatal.`);
+}
 if (errorCount > 0) {
   console.error(`\n${errorCount} issue(s) found.`);
   process.exit(1);

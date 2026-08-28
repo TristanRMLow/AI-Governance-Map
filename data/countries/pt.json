@@ -1,0 +1,631 @@
+{
+  "code": "pt",
+  "name": "Portugal",
+  "shortName": "Portugal",
+  "flagEmoji": "🇵🇹",
+  "geometryType": "polygon",
+  "isoA3": [
+    "PRT"
+  ],
+  "region": "Europe",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "EU-aligned adopter running the AI Act through telecoms regulator ANACOM while investing in Portuguese-language models (Amália/EuroLLM), EuroHPC compute and AI-led state reform",
+  "accentColor": {
+    "light": "#2F7D5B",
+    "dark": "#52A87F"
+  },
+  "center": [
+    -8.2,
+    39.6
+  ],
+  "zoom": 5.5,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 7,
+  "debateTopics": [
+    "ANACOM as Portugal's single AI regulator",
+    "Amália and Portuguese-language AI sovereignty",
+    "Sines data centres, subsea cables and compute",
+    "AI-led state reform and education"
+  ],
+  "overview": "Portugal's AI posture combines faithful EU alignment with an unusually concrete bet on language sovereignty and infrastructure. Rather than creating a new AI authority, the government designated ANACOM -- the telecoms regulator -- as the national market surveillance authority and single point of contact for the EU AI Act in September 2025, coordinating with sectoral bodies (the data protection authority CNPD, Banco de Portugal, securities regulator CMVM) where AI touches their domains. ANACOM has since begun operationalising the Act, consulting in June 2026 on recommendations for applying the Article 5 prohibitions, and is tasked with building Portugal's AI regulatory sandbox. Strategy is set by the National AI Agenda (Agenda Nacional de Inteligência Artificial, ANIA), approved by the Council of Ministers in December 2025 and published as Resolution 2/2026: more than EUR 400 million to 2030 across 32 initiatives under pillars covering infrastructure and data, talent, adoption, and responsibility and ethics -- part of Minister for State Reform Gonçalo Saraiva Matias's broader push to rebuild public administration around AI.\n\nThe distinctive artefact is Amália, Portugal's first national large language model: an open-source model in European Portuguese built on the IST/Unbabel-led EuroLLM-9B base by a consortium including the Instituto de Telecomunicações, Instituto Superior Técnico, Unbabel, NOVA University Lisbon and INESC TEC, funded with EUR 5.5 million from the Recovery and Resilience Plan. Declared 'ready' at Web Summit in November 2025 and publicly launched on 1 July 2026, it is being wired into the gov.pt citizen-services portal and public administration -- a small-model sovereignty play rather than a frontier ambition. On compute, Portugal hosts the EuroHPC petascale system Deucalion at the University of Minho, joined Spain and Türkiye at the end of 2025 as a partner in the BSC AI Factory upgrading MareNostrum 5 for AI workloads, and is courting hyperscale AI data-centre investment at Sines (Start Campus), where Atlantic subsea cables and renewable power are pitched as a comparative advantage.\n\nThe wider ecosystem punches above its weight in applied AI: Lisbon and Porto produce internationally significant companies (Unbabel in translation, Feedzai in financial crime, Sword Health in digital physical therapy, Talkdesk in contact-centre AI, Defined.ai in training data), IST's ELLIS unit and INESC institutes anchor research, and hosting Web Summit gives Lisbon an outsized convening role in European tech-policy debate. The gaps are equally clear: no frontier lab, modest domestic capital, a thin dedicated AI-policy think-tank scene, and a sandbox and national enforcement architecture still being stood up as the AI Act's obligations phase in.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "EU-aligned adopter betting on language sovereignty, compute partnerships and AI-led state reform",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "EU AI Act applied via existing regulators with ANACOM as single point of contact and market surveillance authority; no standalone national AI law",
+    "latestMajorUpdate": "EU AI Act GPAI enforcement powers took effect 2 August 2026 (exercised by the Commission's AI Office); Portugal launched its national open LLM Amália in July 2026 after approving the EUR 400M+ National AI Agenda (ANIA) in Resolution 2/2026",
+    "governmentInvolvement": "High: ANIA steers EUR 400M+ to 2030, the state co-funded and is deploying the Amália LLM in public services, and the State Reform ministry is explicitly rebuilding administration around AI",
+    "industrialStrategy": "Applied-AI scaleups (Unbabel, Feedzai, Sword Health, Talkdesk) plus infrastructure plays -- EuroHPC's Deucalion, the BSC AI Factory partnership and hyperscale data-centre ambitions at Sines",
+    "internationalPartnerships": "Deep EU integration (EuroHPC, BSC AI Factory with Spain and Türkiye, EuroLLM); Lisbon hosts Web Summit; Atlantic cable landings position Portugal as a connectivity hub",
+    "primaryPolicyFocus": "Implementing the AI Act through ANACOM while driving AI adoption in public administration, SMEs and education, and securing Portuguese-language AI capability"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Portugal tightens in step with the EU AI Act's phase-in (ANACOM designated as supervisor, Article 5 guidance consulted on, GPAI enforcement live from 2 August 2026), but the national energy is promotional: an EUR 400M+ AI agenda, a state-backed open LLM entering public services, and compute and data-centre investment aimed at making Portugal an attractive AI location within EU rules."
+  },
+  "recentDevelopments": [
+    {
+      "text": "The EU AI Act's supervision and enforcement powers over general-purpose AI (GPAI) models took effect on 2 August 2026, together with the Act's Article 50 transparency duties -- exercised centrally by the European Commission's AI Office rather than by Portuguese regulators. The same date was the deadline for each member state to have an AI regulatory sandbox; ANACOM is tasked with creating and managing Portugal's sandbox, which was still being stood up around the deadline with its timeline aligned to the high-risk obligations phasing in to 2027.",
+      "date": "2026-08-02",
+      "sourceIds": [
+        "pt-1",
+        "pt-3"
+      ],
+      "severity": "major",
+      "eventGroup": "eu-ai-act-gpai-aug2026"
+    },
+    {
+      "text": "Amália, Portugal's first national large language model, was officially launched into public deployment on 1 July 2026 -- an open-source model for European Portuguese built on the EuroLLM-9B base by a consortium including the Instituto de Telecomunicações, Instituto Superior Técnico, Unbabel, NOVA University Lisbon and INESC TEC, with EUR 5.5 million from the Recovery and Resilience Plan (PRR). Early deployments include a virtual assistant on the gov.pt public-services portal, with education, culture, media, science and health applications planned.",
+      "date": "2026-07-01",
+      "sourceIds": [
+        "pt-8",
+        "pt-9",
+        "pt-14"
+      ]
+    },
+    {
+      "text": "ANACOM launched a public consultation (16 June - 16 July 2026) on draft recommendations for implementing Article 5 of the AI Act -- the prohibited AI practices, applicable since 2 February 2025 and carrying fines up to EUR 35M or 7% of global turnover -- one of the first substantive acts of national AI Act operationalisation by Portugal's designated supervisor.",
+      "date": "2026-06-16",
+      "sourceIds": [
+        "pt-4"
+      ]
+    },
+    {
+      "text": "The National AI Agenda (Agenda Nacional de Inteligência Artificial, ANIA) was formally published as Council of Ministers Resolution 2/2026 after approval on 4 December 2025, alongside a National Digital Strategy and Digital Skills Pact. ANIA commits more than EUR 400 million to 2030 across 32 initiatives under four pillars -- infrastructure and data, talent, adoption, and responsibility and ethics -- spanning universities, research centres, companies and public administration.",
+      "date": "2026-01",
+      "sourceIds": [
+        "pt-5",
+        "pt-6",
+        "pt-7",
+        "pt-13"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "At the end of 2025 the EuroHPC Joint Undertaking signed the contract to expand MareNostrum 5 for AI workloads under the BSC AI Factory -- a EUR 129 million investment in which Portugal is a partner alongside Spain and Türkiye, with participation managed by the Foundation for Science and Technology (FCT), supported by the National Center for Advanced Computing and PRR funding. Installation is scheduled during 2026.",
+      "date": "2025-12",
+      "sourceIds": [
+        "pt-10"
+      ]
+    },
+    {
+      "text": "At Web Summit in Lisbon, Minister for State Reform Gonçalo Saraiva Matias announced that the Amália LLM was ready, floated an 'AI tutor per student' ambition for schools, and argued Portugal's Atlantic submarine-cable landings give it a structural advantage in AI -- capping a year in which the government framed AI as the engine of its state-reform programme.",
+      "date": "2025-11-11",
+      "sourceIds": [
+        "pt-12"
+      ]
+    },
+    {
+      "text": "The government designated ANACOM, the national communications regulator, as Portugal's market surveillance authority and single point of contact for the EU AI Act -- choosing to lead AI supervision through an existing regulator that coordinates with sectoral authorities (CNPD for data protection, Banco de Portugal, CMVM) rather than creating a standalone AI agency.",
+      "date": "2025-09-19",
+      "sourceIds": [
+        "pt-2",
+        "pt-3"
+      ],
+      "severity": "major"
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "The EU AI Act's obligations for high-risk AI systems (Annex III) become applicable, the phase most demanding for Portuguese deployers and for ANACOM's market-surveillance and sandbox machinery.",
+      "date": "2027-08",
+      "sourceIds": [
+        "pt-1",
+        "pt-3"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "EU AI Act (applied via ANACOM as single point of contact)",
+      "status": "in_force",
+      "summary": "Portugal has no standalone national AI law; the EU AI Act applies directly, with ANACOM designated in September 2025 as market surveillance authority and single point of contact, coordinating with sectoral regulators (CNPD, Banco de Portugal, CMVM). Prohibited practices have applied since February 2025, GPAI enforcement (via the Commission's AI Office) since 2 August 2026, and most high-risk obligations phase in to August 2027. ANACOM consulted on Article 5 implementation guidance in mid-2026.",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "sourceIds": [
+        "pt-1",
+        "pt-2",
+        "pt-3",
+        "pt-4"
+      ]
+    },
+    {
+      "title": "National AI Agenda (ANIA) -- Council of Ministers Resolution 2/2026",
+      "status": "in_force",
+      "summary": "Portugal's main AI policy instrument, approved December 2025 and published January 2026: more than EUR 400 million to 2030 across 32 initiatives under four pillars (infrastructure and data, talent, adoption, responsibility and ethics), aiming to lift productivity, modernise public services and reduce external dependency in compute and data. Sits alongside the National Digital Strategy and Digital Skills Pact within the State Reform agenda.",
+      "officialUrl": "https://digital.gov.pt/en/estrategia-digital/agenda-nacional-de-ia",
+      "sourceIds": [
+        "pt-5",
+        "pt-6",
+        "pt-13"
+      ]
+    },
+    {
+      "title": "Portuguese Charter of Human Rights in the Digital Age (Law 27/2021)",
+      "status": "in_force",
+      "summary": "An early, rights-based digital law that predates the AI Act and includes a provision on the use of AI and robots (requiring respect for fundamental rights and non-discrimination in algorithmic decisions). Largely principles-level, it gives Portuguese courts and regulators a domestic hook for AI-related rights questions.",
+      "sourceIds": [
+        "pt-3",
+        "pt-15"
+      ],
+      "needsVerification": true
+    },
+    {
+      "title": "AI regulatory sandbox (ANACOM)",
+      "status": "proposed",
+      "summary": "Under the AI Act every member state was to have at least one AI regulatory sandbox operational by 2 August 2026, with priority fee-free access for SMEs and startups. ANACOM is tasked with creating and managing Portugal's sandbox; as of mid-2026 it was not yet operational, with its timeline aligned to the 2027 high-risk phase-in.",
+      "sourceIds": [
+        "pt-3",
+        "pt-4"
+      ],
+      "needsVerification": true
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Portuguese AI research clusters around Lisbon and Porto. Instituto Superior Técnico (IST) and the Instituto de Telecomunicações anchor NLP and machine learning -- including the IST/Unbabel-led EuroLLM open European model family that Amália builds on -- with INESC-ID and the ELLIS Lisbon unit (LUMLIS) alongside; Porto contributes INESC TEC and the University of Porto, and NOVA University Lisbon adds NOVA LINCS. The Champalimaud Foundation is internationally notable in neuroscience-adjacent AI. Compute comes from the EuroHPC petascale system Deucalion at the University of Minho (Guimarães), managed by FCT, plus Portugal's partnership in the BSC AI Factory. The profile is strong applied research and language technology rather than frontier-scale model training.",
+    "sourceIds": [
+      "pt-8",
+      "pt-11",
+      "pt-14"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Unbabel",
+      "description": "Lisbon-founded AI translation company; co-leads the EuroLLM open European language model family with IST and was a core partner in building Portugal's national Amália model.",
+      "url": "https://unbabel.com"
+    },
+    {
+      "name": "Feedzai",
+      "description": "Coimbra-founded unicorn using machine learning for financial-crime and fraud prevention at global banking scale; one of Portugal's most prominent AI exports.",
+      "url": "https://www.feedzai.com"
+    },
+    {
+      "name": "Sword Health",
+      "description": "Porto-founded digital musculoskeletal-care unicorn using AI-guided physical therapy; now US-headquartered but with deep Portuguese R&D roots.",
+      "url": "https://swordhealth.com"
+    },
+    {
+      "name": "Talkdesk",
+      "description": "Portuguese-founded cloud contact-centre unicorn embedding AI agents and analytics into customer service; a flagship of the Lisbon-to-Silicon-Valley pipeline.",
+      "url": "https://www.talkdesk.com"
+    },
+    {
+      "name": "Defined.ai",
+      "description": "AI training-data marketplace founded by Portuguese entrepreneur Daniela Braga, with a significant Porto presence; active in responsible-AI and data-quality debates.",
+      "url": "https://www.defined.ai"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "description": "Hyperscaler widely used by Portuguese enterprise and public-sector workloads, served largely from Spanish and other EU regions.",
+        "url": "https://azure.microsoft.com"
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "description": "Major hyperscaler for Portuguese startups and enterprises via its Spanish and wider EU regions.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Hyperscaler serving Portuguese cloud and AI workloads from its European regions.",
+        "url": "https://cloud.google.com"
+      },
+      {
+        "name": "Start Campus (Sines)",
+        "description": "Hyperscale, renewables-oriented data-centre campus in Sines targeting AI-scale capacity, leveraging Atlantic subsea-cable landings -- the centrepiece of Portugal's bid to host AI infrastructure.",
+        "url": "https://www.startcampus.pt"
+      }
+    ],
+    "dominance": [
+      {
+        "provider": "Microsoft Azure",
+        "share": 35
+      },
+      {
+        "provider": "AWS",
+        "share": 30
+      },
+      {
+        "provider": "Google Cloud",
+        "share": 15
+      },
+      {
+        "provider": "Other / local providers",
+        "share": 20
+      }
+    ]
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "emerging",
+    "compute": "EuroHPC petascale system Deucalion (University of Minho); partner in the BSC AI Factory upgrading MareNostrum 5; hyperscale AI data-centre buildout at Sines (Start Campus)",
+    "chipAccess": "No domestic fabrication; fully import-reliant for advanced AI accelerators, accessed mainly via EuroHPC allocations and hyperscaler cloud"
+  },
+  "universities": [
+    {
+      "name": "Instituto Superior Técnico (University of Lisbon)",
+      "description": "Portugal's leading engineering school and its NLP/ML centre of gravity -- home to the ELLIS Lisbon unit (LUMLIS), INESC-ID ties and the academic side of EuroLLM and Amália.",
+      "url": "https://tecnico.ulisboa.pt/en/"
+    },
+    {
+      "name": "University of Porto / INESC TEC",
+      "description": "Northern research anchor; INESC TEC contributed to the Amália national LLM and drives applied AI in industry, robotics and energy.",
+      "url": "https://www.up.pt/portal/en/"
+    },
+    {
+      "name": "NOVA University Lisbon",
+      "description": "Lisbon research university with the NOVA LINCS informatics lab; consortium partner in the Amália national model.",
+      "url": "https://www.unl.pt/en"
+    },
+    {
+      "name": "University of Minho",
+      "description": "Hosts the EuroHPC Deucalion supercomputer at its Azurém campus in Guimarães, placing it at the centre of Portugal's research-compute infrastructure.",
+      "url": "https://www.uminho.pt/EN"
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "APPIA (Portuguese Association for Artificial Intelligence)",
+      "description": "The long-standing scientific association for AI in Portugal, organising the EPIA conference series and serving as the research community's collective voice.",
+      "url": "https://appia.pt",
+      "needsVerification": true
+    },
+    {
+      "name": "Fundação Francisco Manuel dos Santos",
+      "description": "Influential Portuguese foundation publishing accessible studies on society and the economy, including work on digitalisation, automation and AI's labour-market effects.",
+      "url": "https://ffms.pt",
+      "needsVerification": true
+    },
+    {
+      "name": "Calouste Gulbenkian Foundation",
+      "description": "Major foundation funding science and civic programmes, with initiatives touching AI in education, health research and public-interest technology.",
+      "url": "https://gulbenkian.pt/en/",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "ANACOM (Autoridade Nacional de Comunicações)",
+      "description": "Telecoms regulator designated in September 2025 as Portugal's market surveillance authority and single point of contact for the EU AI Act; consulting on Article 5 guidance and tasked with the national AI regulatory sandbox.",
+      "url": "https://www.anacom.pt"
+    },
+    {
+      "name": "Ministry for State Reform (Ministro Adjunto e da Reforma do Estado)",
+      "description": "Lead ministry for the AI and digital agenda under Gonçalo Saraiva Matias, owner of ANIA, the National Digital Strategy and the AI-in-public-administration drive.",
+      "url": "https://www.portugal.gov.pt/en/gc25",
+      "needsVerification": true
+    },
+    {
+      "name": "FCT (Fundação para a Ciência e a Tecnologia)",
+      "description": "National science funding agency; manages Portugal's advanced-computing resources including Deucalion and coordinates participation in the BSC AI Factory and EuroHPC.",
+      "url": "https://www.fct.pt/en/"
+    },
+    {
+      "name": "CNPD (Comissão Nacional de Proteção de Dados)",
+      "description": "Portugal's data protection authority, supervising data-related aspects of AI systems and coordinating with ANACOM under the AI Act architecture.",
+      "url": "https://www.cnpd.pt"
+    },
+    {
+      "name": "AMA (Agência para a Modernização Administrativa)",
+      "description": "Digital-government agency behind the gov.pt portal -- the first deployment surface for the Amália national LLM as a citizen-services assistant.",
+      "url": "https://www.ama.gov.pt",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Gonçalo Saraiva Matias",
+      "role": "Minister Adjunct and of State Reform; leads Portugal's AI agenda (ANIA), announced ANACOM's designation and champions AI-driven modernisation of the state",
+      "affiliation": "Government of Portugal (XXV Government)",
+      "category": "government",
+      "url": "https://www.portugal.gov.pt/en/gc25"
+    },
+    {
+      "name": "Sandra Maximiano",
+      "role": "Chair of ANACOM, the regulator now serving as Portugal's single point of contact and market surveillance authority for the AI Act",
+      "affiliation": "ANACOM",
+      "category": "government",
+      "url": "https://www.anacom.pt",
+      "needsVerification": true
+    },
+    {
+      "name": "André Martins",
+      "role": "IST professor and Unbabel VP of AI Research; a lead figure behind EuroLLM and the Amália national model, and one of Europe's most visible NLP researchers",
+      "affiliation": "Instituto Superior Técnico / Unbabel",
+      "category": "researcher",
+      "url": "https://andre-martins.github.io",
+      "needsVerification": true
+    },
+    {
+      "name": "Daniela Braga",
+      "role": "Founder and CEO of Defined.ai; prominent Portuguese voice in international responsible-AI and training-data policy debates",
+      "affiliation": "Defined.ai",
+      "category": "company_leader",
+      "url": "https://www.defined.ai"
+    },
+    {
+      "name": "Nuno Sebastião",
+      "role": "Co-founder and CEO of Feedzai, Portugal's flagship AI unicorn in financial-crime prevention",
+      "affiliation": "Feedzai",
+      "category": "company_leader",
+      "url": "https://www.feedzai.com"
+    },
+    {
+      "name": "Arlindo Oliveira",
+      "role": "IST professor, former IST president and INESC-ID researcher; Portugal's most prominent public intellectual on AI",
+      "affiliation": "Instituto Superior Técnico / INESC-ID",
+      "category": "researcher",
+      "url": "https://arlindooliveira.tecnico.ulisboa.pt",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "André Martins",
+      "type": "person",
+      "role": "IST/Unbabel researcher behind EuroLLM and Amália -- the technical core of Portugal's language-sovereignty bet.",
+      "category": "researcher",
+      "url": "https://andre-martins.github.io"
+    },
+    {
+      "name": "Arlindo Oliveira",
+      "type": "person",
+      "role": "Leading Portuguese AI academic and commentator on AI's scientific and societal stakes.",
+      "category": "researcher",
+      "url": "https://arlindooliveira.tecnico.ulisboa.pt"
+    },
+    {
+      "name": "Web Summit",
+      "type": "organization",
+      "role": "Lisbon-hosted global tech conference where Portuguese AI policy announcements (including Amália) are routinely staged.",
+      "category": "company",
+      "url": "https://websummit.com"
+    },
+    {
+      "name": "ANACOM",
+      "type": "organization",
+      "role": "Portugal's AI Act supervisor -- its consultations and decisions define national enforcement practice.",
+      "category": "government",
+      "url": "https://www.anacom.pt"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "Ministry for State Reform (Gonçalo Matias)",
+      "type": "government"
+    },
+    {
+      "label": "ANACOM (AI Act supervisor)",
+      "type": "agency"
+    },
+    {
+      "label": "FCT / Deucalion / BSC AI Factory",
+      "type": "agency"
+    },
+    {
+      "label": "IST / Instituto de Telecomunicações / INESC",
+      "type": "research"
+    },
+    {
+      "label": "Unbabel (EuroLLM / Amália)",
+      "type": "company"
+    },
+    {
+      "label": "Web Summit (Lisbon)",
+      "type": "company"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "No frontier lab or frontier-scale compute",
+      "note": "Portugal's model ambitions top out at the 9B-parameter, open-source Amália/EuroLLM scale; there is no domestic frontier developer, and training compute depends on EuroHPC allocations (Deucalion, MareNostrum 5) rather than sovereign GPU capacity -- hence frontierDeveloper 'emerging'."
+    },
+    {
+      "area": "Enforcement architecture still being stood up",
+      "note": "ANACOM's designation is recent, its Article 5 guidance was only consulted on in mid-2026, the regulatory sandbox missed the notional August 2026 deadline, and no national implementing law with penalties had been enacted -- practical AI Act enforcement capacity remains largely untested."
+    },
+    {
+      "area": "Thin dedicated AI-policy analysis scene",
+      "note": "Portugal lacks specialised AI-governance think tanks; policy debate runs through general foundations, law firms, universities and Web Summit stages rather than dedicated institutes, so several think-tank attributions here carry needsVerification."
+    },
+    {
+      "area": "Capital and talent retention",
+      "note": "Flagship AI companies (Sword Health, Talkdesk) have shifted headquarters or capital bases to the US, and domestic venture funding is modest relative to the ANIA's ambitions -- the recurring worry is that Portugal trains talent and seeds companies whose value accrues elsewhere."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "ANACOM as Portugal's single AI regulator",
+      "category": "government",
+      "summary": "Portugal chose its telecoms regulator as AI Act supervisor and single point of contact -- a pragmatic reuse of an existing institution that raises questions about capacity, independence and coordination with the data protection authority.",
+      "expanded": "The September 2025 designation made ANACOM market surveillance authority and single point of contact, coordinating with CNPD, Banco de Portugal and CMVM in their domains. Supporters point to ANACOM's regulatory experience and the speed of avoiding a new agency; sceptics ask whether a spectrum-and-telecoms body can build AI supervision expertise fast enough, how fundamental-rights oversight will mesh with CNPD's remit, and why the regulatory sandbox slipped past the AI Act's August 2026 expectation. The mid-2026 Article 5 consultation was ANACOM's first real test of the role.",
+      "sourceIds": [
+        "pt-2",
+        "pt-3",
+        "pt-4"
+      ]
+    },
+    {
+      "topic": "Amália and Portuguese-language AI sovereignty",
+      "category": "research",
+      "summary": "Portugal built and open-sourced a national LLM for European Portuguese and is deploying it in public services -- a distinctive small-model sovereignty strategy whose payoff is contested.",
+      "expanded": "Amália -- built on EuroLLM-9B by IT, IST, Unbabel, NOVA and INESC TEC with EUR 5.5M of PRR money -- bets that a modest, open, culturally grounded model wired into gov.pt and public administration is worth more to Portugal than renting frontier capability. Advocates see linguistic dignity (European vs Brazilian Portuguese), public-sector control and a European open-model contribution; critics note 9B parameters is far from the frontier, question uptake against free access to far stronger commercial models, and warn the symbolism could outrun the utility. Its integration into citizen services through 2026-27 is the empirical test.",
+      "sourceIds": [
+        "pt-8",
+        "pt-9",
+        "pt-14"
+      ]
+    },
+    {
+      "topic": "Sines data centres, subsea cables and compute",
+      "category": "infrastructure",
+      "summary": "Portugal is pitching Atlantic cable landings, renewable power and the Sines campus as its route into the AI infrastructure economy, alongside EuroHPC partnerships.",
+      "expanded": "The infrastructure pillar of ANIA leans on three assets: the EuroHPC Deucalion machine in Guimarães, partnership in the BSC AI Factory upgrading MareNostrum 5 (contract signed end-2025, installation during 2026), and private hyperscale buildout at Start Campus in Sines, marketed on subsea connectivity and green energy. Boosters -- including Minister Matias at Web Summit -- argue geography gives Portugal a durable niche; sceptics raise grid and water constraints, the gap between hosting data centres and capturing AI value, and dependence on foreign hyperscaler demand for the Sines bet to pay off.",
+      "sourceIds": [
+        "pt-10",
+        "pt-11",
+        "pt-12"
+      ]
+    },
+    {
+      "topic": "AI-led state reform and education",
+      "category": "government",
+      "summary": "The government has made AI the engine of its state-reform programme -- from licensing processes to an 'AI tutor per student' ambition -- raising both productivity hopes and oversight concerns.",
+      "expanded": "Minister Gonçalo Saraiva Matias frames AI as the way to rebuild Portuguese public administration: automating licensing, deploying Amália as a citizen-services assistant on gov.pt, a Digital Skills Pact, and floated AI tutors in schools. The promise is a leaner, faster state in a country long frustrated by bureaucracy; the debate concerns realism of the EUR 400M+ envelope against the ambition, safeguards when algorithmic systems touch citizens' rights (where the Charter of Human Rights in the Digital Age and CNPD apply), and whether adoption targets will survive Portugal's political and budget cycles.",
+      "sourceIds": [
+        "pt-5",
+        "pt-7",
+        "pt-12"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "National Artificial Intelligence Agenda (ANIA) — official portal",
+      "type": "government",
+      "url": "https://digital.gov.pt/en/estrategia-digital/agenda-nacional-de-ia"
+    },
+    {
+      "title": "AMALIA Officially Launched: Portugal's First Large Language Model Enters Public Deployment",
+      "type": "academic",
+      "author": "Instituto de Telecomunicações",
+      "url": "https://www.it.pt/News/NewsPost/5258"
+    },
+    {
+      "title": "ANACOM — public consultation on implementing Article 5 of the AI Act",
+      "type": "government",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1850928"
+    },
+    {
+      "title": "Artificial Intelligence 2026 — Portugal (practice guide)",
+      "type": "think_tank",
+      "author": "Chambers and Partners",
+      "url": "https://practiceguides.chambers.com/practice-guides/artificial-intelligence-2026/portugal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "pt-1",
+      "title": "AI Act (regulatory framework for AI)",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "pt-2",
+      "title": "Government chooses telecoms regulator to oversee AI in Portugal",
+      "publisher": "ECO News",
+      "url": "https://econews.pt/2025/09/19/government-chooses-telecoms-regulator-to-oversee-ai-in-portugal/",
+      "date": "2025-09-19",
+      "category": "news"
+    },
+    {
+      "id": "pt-3",
+      "title": "Artificial Intelligence 2026 — Portugal",
+      "publisher": "Chambers and Partners",
+      "url": "https://practiceguides.chambers.com/practice-guides/artificial-intelligence-2026/portugal",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "pt-4",
+      "title": "ANACOM launches a public consultation on draft recommendations for implementing article 5 of the Artificial Intelligence Act",
+      "publisher": "ANACOM",
+      "url": "https://www.anacom.pt/render.jsp?contentId=1850928",
+      "date": "2026-06-16",
+      "category": "government"
+    },
+    {
+      "id": "pt-5",
+      "title": "Artificial intelligence: Government sets National Agenda with more than 400 million euros",
+      "publisher": "Government of Portugal (XXV Constitutional Government)",
+      "url": "https://www.portugal.gov.pt/en/gc25/communication/news-item?i=artificial-intelligence-government-sets-national-agenda-with-more-than-400-million-euros",
+      "date": "2025-12",
+      "category": "government"
+    },
+    {
+      "id": "pt-6",
+      "title": "National Artificial Intelligence Agenda (ANIA)",
+      "publisher": "digital.gov.pt",
+      "url": "https://digital.gov.pt/en/estrategia-digital/agenda-nacional-de-ia",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "pt-7",
+      "title": "Governo aprova agenda para inteligência artificial e quer reforçar literacia digital",
+      "publisher": "Público",
+      "url": "https://www.publico.pt/2025/12/04/politica/noticia/governo-aprova-agenda-inteligencia-artificial-quer-reforcar-literacia-digital-2157088",
+      "date": "2025-12-04",
+      "category": "news"
+    },
+    {
+      "id": "pt-8",
+      "title": "AMALIA Officially Launched: Portugal's First Large Language Model Enters Public Deployment",
+      "publisher": "Instituto de Telecomunicações",
+      "url": "https://www.it.pt/News/NewsPost/5258",
+      "date": "2026-07",
+      "category": "research"
+    },
+    {
+      "id": "pt-9",
+      "title": "Portugal open-sources Amália, its first national AI model, in a bet on European Portuguese",
+      "publisher": "The Next Web",
+      "url": "https://thenextweb.com/news/portugal-open-source-ai-model-amalia",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "pt-10",
+      "title": "Portugal contributes to EUR 129 million European Union investment in strengthening AI supercomputing with MareNostrum 5",
+      "publisher": "FCT — Fundação para a Ciência e a Tecnologia",
+      "url": "https://www.fct.pt/en/portugal-contribui-para-investimento-da-uniao-europeia-de-129me-no-reforco-da-supercomputacao-em-ia-com-marenostrum-5/",
+      "date": "2026",
+      "category": "government"
+    },
+    {
+      "id": "pt-11",
+      "title": "Deucalion: a new EuroHPC supercomputer has been inaugurated",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/deucalion-new-eurohpc-supercomputer-has-been-inaugurated-2023-09-06_en",
+      "date": "2023-09-06",
+      "category": "government"
+    },
+    {
+      "id": "pt-12",
+      "title": "\"O Amália está pronto\", \"um tutor de IA por aluno\": os anúncios do ministro da Reforma do Estado no Web Summit",
+      "publisher": "CNN Portugal",
+      "url": "https://cnnportugal.iol.pt/goncalo-matias/ministro-da-reforma-do-estado/o-amalia-esta-pronto-um-tutor-de-ia-por-aluno-amarracao-de-cabos-submarinos-que-favorece-portugal-na-ia-os-anuncios-do-ministro-da-reforma-do-estado/20251111/6913bcadd34e3caad84b2eae",
+      "date": "2025-11-11",
+      "category": "news"
+    },
+    {
+      "id": "pt-13",
+      "title": "Portugal's national artificial intelligence agenda",
+      "publisher": "Macedo Vitorino (law firm insight)",
+      "url": "https://www.macedovitorino.com/en/knowledge/insights/Portugals-national-artificial-intelligence-agenda/6870/",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "pt-14",
+      "title": "Portugal's new large language model unveiled: AMALIA bears the INESC TEC signature",
+      "publisher": "INESC TEC",
+      "url": "https://www.inesctec.pt/en/news/portugals-new-large-language-model-unveiled-amalia-bears-the-inesc-tec-signature",
+      "date": "2026-07",
+      "category": "research"
+    },
+    {
+      "id": "pt-15",
+      "title": "Portugal — Artificial Intelligence: Country Comparative Guide",
+      "publisher": "The Legal 500",
+      "url": "https://www.legal500.com/guides/legal-landscapes/portugal-artificial-intelligence/",
+      "date": "2026",
+      "category": "expert_commentary"
+    }
+  ],
+  "hasMajorUpdate": true
+}

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { CountryData, CountryMeta } from "./types";
+import { deriveLatestDates } from "./dates";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -10,7 +11,10 @@ function readCountryFile(code: string): CountryData | null {
   const filePath = path.join(DATA_DIR, "countries", `${code}.json`);
   if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as CountryData;
+  const parsed = JSON.parse(raw) as CountryData;
+  // latestDevelopmentDate/latestMajorDate exist only in memory — derived from
+  // the event dates here at the single read point, never persisted.
+  return { ...parsed, ...deriveLatestDates(parsed.recentDevelopments) };
 }
 
 /**
@@ -31,10 +35,12 @@ export function getAllCountries(): CountryMeta[] {
   const index = JSON.parse(raw) as CountryMeta[];
   cachedIndex = index.map((meta) => {
     const full = readCountryFile(meta.code);
-    if (!full) return meta;
+    if (!full) return { ...meta, latestDevelopmentDate: null, latestMajorDate: null };
     return {
       ...meta,
       lastUpdated: full.lastUpdated,
+      latestDevelopmentDate: full.latestDevelopmentDate,
+      latestMajorDate: full.latestMajorDate,
       newDevelopmentsCount: full.newDevelopmentsCount,
       hasMajorUpdate: full.hasMajorUpdate,
       debateTopics: full.debateTopics,

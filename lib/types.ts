@@ -21,7 +21,15 @@ export interface CountryMeta {
   accentColor: { light: string; dark: string };
   center: [number, number];
   zoom: number;
+  /** Editorial review date ("Reviewed …" in the country header) — when we
+   * last checked the entry, NOT when anything happened in the jurisdiction.
+   * Freshness signals derive from recentDevelopments event dates instead. */
   lastUpdated: string;
+  /** Newest recentDevelopments date / newest severity:"major" date, at their
+   * original precision. Derived at read time in getCountryData.ts — never
+   * stored in the JSON files. Null when there are no (major) developments. */
+  latestDevelopmentDate: string | null;
+  latestMajorDate: string | null;
   newDevelopmentsCount: number;
   /** True when recentDevelopments contains a severity:"major" entry — mirrors
    * lastUpdated/newDevelopmentsCount as a cheap index-level cache so the
@@ -88,6 +96,17 @@ export interface Development extends Verifiable {
    * into one grouped card instead of a near-duplicate cluster. Country pages
    * still render each entry normally — this only affects the Timeline. */
   eventGroup?: string;
+}
+
+/** A known FUTURE compliance date, enforcement milestone, or expected
+ * decision — the forward-looking counterpart to recentDevelopments. Kept in a
+ * separate array so future dates can never leak into freshness/timeline
+ * ordering, which are strictly retrospective. */
+export interface UpcomingMilestone {
+  text: string;
+  /** May be coarse ("2027", "2027-08") when only the period is known. */
+  date: string;
+  sourceIds: string[];
 }
 
 export type LegislationStatus = "proposed" | "passed" | "in_force" | "repealed";
@@ -206,6 +225,7 @@ export interface CountryData extends CountryMeta {
   atAGlance: AtAGlance;
   currentDirection: CurrentDirection;
   recentDevelopments: Development[];
+  upcomingMilestones?: UpcomingMilestone[];
   policyAndRegulation: PolicyItem[];
   researchEcosystem: { summary: string; sourceIds: string[] };
   companies: EcosystemCompany[];

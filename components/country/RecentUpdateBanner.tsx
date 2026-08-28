@@ -52,8 +52,8 @@ export function RecentUpdateBanner({ country }: { country: CountryData }) {
       }}
     >
       <CircleCheck size={16} strokeWidth={2.25} className="shrink-0" />
-      <span className="font-semibold">Recent update</span>
-      <span className="opacity-80">({daysAgo(country.lastUpdated)})</span>
+      <span className="font-semibold">Recent development</span>
+      <span className="opacity-80">({daysAgo(country.latestDevelopmentDate ?? country.lastUpdated)})</span>
     </a>
   );
 }

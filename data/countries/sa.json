@@ -16,11 +16,11 @@
   },
   "center": [
     45.1,
-    24.0
+    24
   ],
   "zoom": 4.8,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 8,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 9,
   "debateTopics": [
     "Shift from AI strategy to execution — can HUMAIN build in one year what took 20?",
     "Chip access as part of Gulf compute diplomacy",
@@ -33,7 +33,7 @@
       "sentiment": "green"
     },
     "regulatoryApproach": "SDAIA-led National Strategy for Data and AI; no binding AI-specific statute, though the binding Personal Data Protection Law (PDPL) — supervised by SDAIA and enforceable since September 2024 — governs data processing relevant to AI systems",
-    "latestMajorUpdate": "Cabinet designates 2026 the 'Year of Artificial Intelligence'",
+    "latestMajorUpdate": "New Copyright Law in force 12 August 2026, with a statutory exception permitting copyrighted works to be used for AI training",
     "governmentInvolvement": "Very high — state-directed strategy executed via SDAIA and PIF-backed HUMAIN",
     "industrialStrategy": "HUMAIN sovereign AI infrastructure vehicle; Shaheen III supercomputer; 480MW Hexagon data centre",
     "internationalPartnerships": "Gulf compute diplomacy with the US; HUMAIN compute deals with NVIDIA, AMD, AWS and Qualcomm; ALLaM distributed via Microsoft Azure and IBM watsonx",
@@ -52,6 +52,15 @@
       ],
       "needsVerification": true,
       "eventGroup": "gcc-common-ai-policy-aug2026"
+    },
+    {
+      "text": "Saudi Arabia's new Copyright Law (Royal Decree No. M/169) entered into force on 12 August 2026, replacing the 2003 law and introducing a statutory exception permitting reproduction of copyrighted works -- without authorization or compensation -- for developing AI products and algorithms, subject to a proportionality limit. The provision effectively legalizes text-and-data-mining for model training, among the most permissive AI training exceptions enacted anywhere to date.",
+      "date": "2026-08-12",
+      "severity": "major",
+      "sourceIds": [
+        "sa-12",
+        "sa-13"
+      ]
     },
     {
       "text": "Cabinet designates 2026 the 'Year of Artificial Intelligence', marking a shift from strategy to execution of the National Strategy for Data and AI; SDAIA issues national guidelines to unify the year's initiatives across government.",
@@ -384,6 +393,22 @@
       "publisher": "ID Times",
       "url": "https://id-times.com/news/gcc-steering-committee-announces-ai-policy/",
       "date": "2026-08",
+      "category": "news"
+    },
+    {
+      "id": "sa-12",
+      "title": "Saudi Arabia: New Copyright Law Modernises KSA IP Framework",
+      "publisher": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/07/saudi-arabia-new-copyright-law-modernises-ksa-ip-framework",
+      "date": "2026-07",
+      "category": "news"
+    },
+    {
+      "id": "sa-13",
+      "title": "Saudi Arabia's New Copyright Law: Key Changes Explained",
+      "publisher": "A&O Shearman",
+      "url": "https://www.aoshearman.com/en/insights/saudi-arabias-new-copyright-law-key-changes-and-implications",
+      "date": "2026-07",
       "category": "news"
     }
   ],

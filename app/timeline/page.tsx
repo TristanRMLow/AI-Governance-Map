@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { NavBar } from "@/components/layout/NavBar";
 import { GlobalNavLinks } from "@/components/layout/GlobalNavLinks";
-import { getAllDevelopments } from "@/lib/aggregateData";
+import { getAllDevelopments, getAllUpcomingMilestones } from "@/lib/aggregateData";
 import { getAllCountries } from "@/lib/getCountryData";
 import { TimelineView } from "@/components/timeline/TimelineView";
 
@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 
 export default function TimelinePage() {
   const developments = getAllDevelopments();
+  const upcoming = getAllUpcomingMilestones();
   const countryCount = getAllCountries().length;
   const regions = Array.from(new Set(developments.map((d) => d.region))).sort();
 
@@ -27,7 +28,7 @@ export default function TimelinePage() {
           &ldquo;what changed&rdquo; instead of re-browsing {countryCount} country pages.
         </p>
 
-        <TimelineView developments={developments} regions={regions} />
+        <TimelineView developments={developments} regions={regions} upcoming={upcoming} />
       </div>
     </div>
   );

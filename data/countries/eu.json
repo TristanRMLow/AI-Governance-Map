@@ -17,7 +17,7 @@
     50.85
   ],
   "zoom": 4,
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-28",
   "newDevelopmentsCount": 9,
   "debateTopics": [
     "Digital Omnibus — simplification or weakening of the AI Act?",
@@ -621,6 +621,29 @@
     {
       "area": "Semiconductor and chip sovereignty",
       "note": "AI accelerator chips used in the EU remain dominated by non-European suppliers (notably NVIDIA). The EU's most significant countervailing asset — ASML's position in EUV lithography — is not a chip designer/fabricator itself and does not offset the bloc's dependence on foreign AI accelerators."
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "Digital Omnibus prohibition on AI-generated non-consensual intimate imagery and CSAM takes effect; the reported grace period for Article 50 synthetic-content labelling on pre-existing systems also ends.",
+      "date": "2026-12-02",
+      "sourceIds": [
+        "eu-1"
+      ]
+    },
+    {
+      "text": "Deferred compliance deadline for standalone high-risk (Annex III) AI systems -- postponed from August 2026 by the Digital Omnibus.",
+      "date": "2027-12-02",
+      "sourceIds": [
+        "eu-1"
+      ]
+    },
+    {
+      "text": "Compliance deadline for high-risk AI embedded in regulated products (Annex I).",
+      "date": "2028-08-02",
+      "sourceIds": [
+        "eu-1"
+      ]
     }
   ]
 }

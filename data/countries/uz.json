@@ -1,0 +1,620 @@
+{
+  "code": "uz",
+  "name": "Uzbekistan",
+  "shortName": "Uzbekistan",
+  "flagEmoji": "🇺🇿",
+  "geometryType": "polygon",
+  "isoA3": [
+    "UZB"
+  ],
+  "region": "Asia-Pacific",
+  "jurisdictionType": "nation_state",
+  "governanceModel": "Decree-led AI catch-up — a 2030 AI strategy, first AI rules via amendments to existing laws, and tax-free zones courting foreign data-centre capital",
+  "accentColor": {
+    "light": "#2E8B8B",
+    "dark": "#55B3B0"
+  },
+  "center": [
+    64.5,
+    41.3
+  ],
+  "zoom": 5.0,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 8,
+  "debateTopics": [
+    "First AI law via amendments — light-touch or too thin?",
+    "Karakalpakstan's tax-free data-centre bet",
+    "AI skills at scale vs brain drain"
+  ],
+  "overview": "Uzbekistan is running a decree-driven AI catch-up strategy that mirrors — and increasingly competes with — neighbouring Kazakhstan's. The foundations were laid under President Shavkat Mirziyoyev's broader digital opening: the Digital Uzbekistan 2030 strategy (decree of 5 October 2020), a 2021 presidential resolution (PP-4996) on accelerated adoption of AI that revived the Soviet-era Institute of Cybernetics as the Research Institute for the Development of Digital Technologies and Artificial Intelligence (AIRI), and the IT Park export machine that grew IT-service exports from under US$1 million in 2017 to roughly US$1 billion a year, with a stated target of at least US$5 billion in IT and AI exports by 2030. The keystone is presidential resolution RP-358 of 14 October 2024, approving the Strategy for the Development of Artificial Intelligence Technologies until 2030 — targeting US$1.5 billion in AI-based software and services, 100+ AI projects, more than 15 university AI laboratories by end-2026 and large inflows of foreign investment.\n\nOn regulation, Uzbekistan became one of the first countries in the region with binding AI rules — but chose amendments over a standalone code. Law LRU-1115, adopted by parliament in 2025 and signed on 21 January 2026, amends the Law on Informatization and the Code of Administrative Responsibility: it defines AI, mandates labeling of AI-generated content, bars state bodies from making decisions affecting human rights solely on AI-generated conclusions, and introduces administrative penalties for unlawful AI-based processing of personal data — a response to registered AI-related violations nearly tripling from 1,129 in 2023 to 3,553 in 2024. The data-governance backdrop is the 2019 Law on Personal Data (ZRU-547), whose once-strict localization requirement (enforced against foreign platforms from 2021) has since been made more flexible, with Uzkomnazorat as the enforcement authority.\n\nThe infrastructure push is the newest layer. In November 2025 Uzbekistan announced a partnership with NVIDIA (AI Centre of Excellence, university supercomputing systems, roughly 1 MW of education/research and government/industry compute clusters targeted for 2026) and launched a tax-free zone in the far-western Karakalpakstan region offering full tax and duty exemptions to 2040 for large AI and data-centre projects. Saudi Arabia's DataVolt is building an initial 12 MW, US$150 million data centre with ambitions toward 500 MW, and in April 2026 officials discussed a 125 MW (expandable to 250 MW) AI data centre with NVIDIA and Firebird. Skills programmes (AI Leaders 2026 with Stanford HAI and OpenAI Academy; mass AI-literacy training) leverage a young population of 9.6 million people aged 14-30. The open questions are familiar for the region: no frontier lab or at-scale sovereign model exists, headline infrastructure is announced rather than delivered, and enforcement capacity for the new AI and data rules is untested.",
+  "atAGlance": {
+    "policyDirection": {
+      "label": "State-led AI catch-up: strategy decrees, first AI rules, inward compute investment",
+      "sentiment": "blue"
+    },
+    "regulatoryApproach": "First AI rules via amendments to existing laws (signed January 2026): mandatory AI-content labeling, no solely-AI decisions affecting rights, penalties for AI-based data misuse",
+    "latestMajorUpdate": "President Mirziyoyev signed Law LRU-1115 (21 January 2026), Uzbekistan's first AI-focused legislation, amending the informatization and administrative-liability laws",
+    "governmentInvolvement": "High — presidency and Ministry of Digital Technologies drive the agenda by decree, with IT Park and the AIRI research institute as delivery arms",
+    "industrialStrategy": "IT-service export model (US$5bn by 2030 target) plus a tax-free Karakalpakstan data-centre zone and an NVIDIA infrastructure partnership",
+    "internationalPartnerships": "NVIDIA and Firebird on compute; Saudi DataVolt on data centres; Stanford HAI and OpenAI Academy on skills; research MoU with Kazakhstan's ISSAI",
+    "primaryPolicyFocus": "Building an AI ecosystem by 2030 — compute, university labs and mass skills — while policing AI-enabled data misuse and deepfakes"
+  },
+  "currentDirection": {
+    "trend": "tightening",
+    "summary": "Uzbekistan is layering its first binding AI obligations (content labeling, human oversight of rights-affecting decisions, penalties for AI-based data misuse) on top of an aggressively expansionary industrial policy of tax-free data-centre zones, NVIDIA-backed compute and mass skills programmes. The net direction is a structured tightening in governance terms, in service of a loosening, investment-hungry economic strategy — with enforcement capacity the main unknown."
+  },
+  "recentDevelopments": [
+    {
+      "text": "Kazakhstan's Institute of Smart Systems and Artificial Intelligence (ISSAI, Nazarbayev University) and Uzbekistan's AIRI research institute signed a memorandum of understanding to advance AI research and innovation — a notable instance of intra-Central-Asian AI cooperation between the region's two leading state-backed institutes.",
+      "date": "2026-07-17",
+      "sourceIds": [
+        "uz-11"
+      ]
+    },
+    {
+      "text": "Uzbekistan's US$5 billion IT-and-AI export plan gathered momentum: IT Park service exports reached US$191.8 million in Q1 2026 (against roughly US$1 billion annually, up from under US$1 million in 2017), internet penetration hit 89%, and mass AI-literacy programmes reported over 1 million people trained — with Minister Sherzod Shermatov framing the constraint bluntly: 'With AI, you need compute. For compute, you need energy.'",
+      "date": "2026-06-30",
+      "sourceIds": [
+        "uz-9"
+      ]
+    },
+    {
+      "text": "Minister of Digital Technologies Sherzod Shermatov discussed building a high-power AI data centre with an initial capacity of 125 MW, expandable to 250 MW, with NVIDIA's VP for Global AI Infrastructure Development Nicolo Caprese and Firebird's leadership — including incentives for siting AI data centres in Karakalpakstan.",
+      "date": "2026-04-29",
+      "sourceIds": [
+        "uz-8"
+      ]
+    },
+    {
+      "text": "The AI Leaders 2026 executive education programme launched with more than 100 executives from over 25 leading Uzbek organisations, delivered with the Stanford Institute for Human-Centered AI, OpenAI Academy and Silkroad Innovation Hub — billed as the largest AI leadership programme in the Central Eurasian region.",
+      "date": "2026-04-08",
+      "sourceIds": [
+        "uz-10"
+      ]
+    },
+    {
+      "text": "President Mirziyoyev signed Law LRU-1115, Uzbekistan's first AI-focused legislation. Rather than a standalone AI code, it amends the Law on Informatization and the Code of Administrative Responsibility: defining AI, mandating labeling of AI-generated content, prohibiting state bodies from relying solely on AI-generated conclusions in decisions affecting human rights and freedoms, and introducing administrative penalties for unlawful AI-based processing of personal data — after registered AI-related violations rose from 1,129 in 2023 to 3,553 in 2024.",
+      "date": "2026-01-21",
+      "sourceIds": [
+        "uz-4",
+        "uz-5",
+        "uz-6"
+      ],
+      "severity": "major"
+    },
+    {
+      "text": "A presidential decree launched a tax-free zone in the Republic of Karakalpakstan for large AI and data-centre projects, offering foreign investors full tax and duty exemptions through 2040 alongside low-cost electricity — conditioned on investors deploying their own capital and adopting energy-efficient solutions including renewables and battery storage.",
+      "date": "2025-11",
+      "sourceIds": [
+        "uz-3"
+      ]
+    },
+    {
+      "text": "Uzbekistan announced a major AI infrastructure partnership with NVIDIA in Washington, D.C.: an AI Centre of Excellence with faculty training, NVIDIA supercomputing systems for top universities, roughly 1 MW of compute across two clusters (education/research and digital government, healthcare and industrial AI) targeted for 2026, and a US$3 million Industrial AI Centre of Excellence.",
+      "date": "2025-11-07",
+      "sourceIds": [
+        "uz-7"
+      ]
+    },
+    {
+      "text": "Presidential resolution RP-358 approved the Strategy for the Development of Artificial Intelligence Technologies until 2030, together with a 2024-2026 action plan and a register of state 'big data'. Targets include growing AI-based software and services to US$1.5 billion by 2030, launching over 100 AI projects, creating 15+ university AI laboratories by end-2026 and attracting large foreign investment into an AI ecosystem.",
+      "date": "2024-10-14",
+      "sourceIds": [
+        "uz-1",
+        "uz-2"
+      ],
+      "severity": "major"
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "NVIDIA-partnered build-out due: ~1 MW of education/research and government/industry compute clusters plus an Industrial AI Centre of Excellence targeted for completion during 2026",
+      "date": "2026",
+      "sourceIds": [
+        "uz-7"
+      ]
+    },
+    {
+      "text": "AI Strategy interim target: 15+ artificial-intelligence laboratories operating in higher-education institutions by the end of 2026",
+      "date": "2026",
+      "sourceIds": [
+        "uz-1"
+      ]
+    },
+    {
+      "text": "2030 strategy targets fall due: US$1.5 billion in AI-based software and services and at least US$5 billion in overall IT/AI service exports",
+      "date": "2030",
+      "sourceIds": [
+        "uz-1",
+        "uz-9"
+      ]
+    }
+  ],
+  "policyAndRegulation": [
+    {
+      "title": "Law LRU-1115 — first AI-focused amendments (informatization and administrative-liability laws)",
+      "status": "in_force",
+      "summary": "Signed 21 January 2026, Uzbekistan's first AI legislation amends existing laws rather than creating a standalone AI code. It defines AI, sets general principles and the powers of the authorized state regulator, mandates labeling of AI-generated content, prohibits decisions affecting human rights and freedoms from being based solely on AI-generated conclusions, and adds administrative penalties for unlawful AI-based personal-data processing.",
+      "officialUrl": "https://lex.uz/en/docs/8011930",
+      "sourceIds": [
+        "uz-4",
+        "uz-5",
+        "uz-6"
+      ]
+    },
+    {
+      "title": "Strategy for the Development of Artificial Intelligence Technologies until 2030 (RP-358)",
+      "status": "in_force",
+      "summary": "Presidential resolution of 14 October 2024 approving the national AI strategy, a 2024-2026 implementation action plan and a list of state-generated 'big data'. It aims to build legal, technological and economic foundations for AI across the economy and social sphere, with targets including US$1.5bn in AI software/services by 2030, 100+ AI projects and 15+ university AI labs by end-2026.",
+      "officialUrl": "https://lex.uz/en/docs/7159258",
+      "sourceIds": [
+        "uz-1",
+        "uz-2"
+      ]
+    },
+    {
+      "title": "Law on Personal Data (ZRU-547) and data-localization rules",
+      "status": "in_force",
+      "summary": "Adopted July 2019 (effective October 2019), Uzbekistan's data-protection law. A 2021 amendment required Uzbek citizens' personal data to be processed on servers physically located in Uzbekistan — enforced against foreign platforms — though the regime has since been made more flexible, permitting cross-border processing under security and oversight conditions. Uzkomnazorat enforces the law and maintains a register of infringers; the January 2026 AI amendments add AI-specific penalties on top.",
+      "officialUrl": "https://www.dlapiperdataprotection.com/index.html?t=law&c=UZ",
+      "sourceIds": [
+        "uz-12",
+        "uz-13"
+      ]
+    },
+    {
+      "title": "Karakalpakstan tax-free zone for AI and data-centre projects",
+      "status": "in_force",
+      "summary": "A November 2025 presidential decree created a special regime in the Republic of Karakalpakstan offering full tax and duty exemptions through 2040, low-cost electricity and state-supported infrastructure for large AI and data-centre investments — in exchange for investor capital commitments and energy-efficient design including renewables and battery storage.",
+      "sourceIds": [
+        "uz-3"
+      ]
+    },
+    {
+      "title": "Digital Uzbekistan 2030 strategy and 2021 AI acceleration resolution (PP-4996)",
+      "status": "in_force",
+      "summary": "The October 2020 Digital Uzbekistan 2030 decree set the umbrella digital-transformation agenda (digital government, infrastructure, IT education and exports). Presidential resolution PP-4996 of 17 February 2021 created conditions for accelerated AI adoption, approved an initial AI development programme and pilot projects, and established the Research Institute for the Development of Digital Technologies and Artificial Intelligence (AIRI) under the digital ministry.",
+      "officialUrl": "https://oecd.ai/en/dashboards/policy-initiatives/digital-uzbekistan-2030-3968",
+      "sourceIds": [
+        "uz-14",
+        "uz-15"
+      ]
+    }
+  ],
+  "researchEcosystem": {
+    "summary": "Uzbekistan's AI research base is small but deliberately state-built. AIRI — the Research Institute for the Development of Digital Technologies and Artificial Intelligence, heir to the Soviet-era Institute of Cybernetics and revived by a 2021 presidential resolution — anchors applied work in computer vision, speech processing and machine learning, and in July 2026 signed a research MoU with Kazakhstan's ISSAI. Tashkent University of Information Technologies (TUIT) hosts an AI department and a new GPU-equipped AI cluster, and develops Uzbek-language models and speech corpora (UzLM, UzRoberta and related NLP resources). The 2030 strategy mandates 15+ university AI laboratories by end-2026 and NVIDIA-supplied university supercomputing, but output remains research-grade — there is no at-scale sovereign LLM comparable to Kazakhstan's KazLLM yet.",
+    "sourceIds": [
+      "uz-11",
+      "uz-15",
+      "uz-18",
+      "uz-19"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Uzum",
+      "description": "Uzbekistan's first tech unicorn — an e-commerce, fintech and banking ecosystem (Uzum Market, Uzum Bank, Uzum Nasiya, Uzum Tezkor) valued at US$1.5bn after a 2025 Tencent-led round, applying AI/ML across payments, lending and logistics and eyeing an IPO.",
+      "url": "https://uzum.com"
+    },
+    {
+      "name": "DataVolt",
+      "description": "Saudi data-centre developer building Uzbekistan's flagship AI-ready data-centre projects — an initial 12 MW, US$150 million facility with staged ambitions toward 500 MW — and partnering with Beeline Uzbekistan on digital infrastructure.",
+      "url": "https://www.datavolt.com"
+    },
+    {
+      "name": "UZINFOCOM",
+      "description": "State 'single integrator' for e-government IT, operating core digital-government infrastructure and data-centre capacity that underpins public-sector digitalisation and the national AI compute build-out.",
+      "url": "https://uzinfocom.uz"
+    }
+  ],
+  "cloudInfrastructure": {
+    "providers": [
+      {
+        "name": "Digital-government data centre / national compute (UZINFOCOM)",
+        "description": "State-operated e-government data-centre infrastructure, now hosting NVIDIA-powered AI compute under the November 2025 partnership (roughly 1 MW across education/research and government/industry clusters targeted for 2026).",
+        "url": "https://uzinfocom.uz"
+      },
+      {
+        "name": "DataVolt (Saudi Arabia)",
+        "description": "Foreign anchor investor in AI-ready data centres — an initial 12 MW, US$150m build with ambitions toward 500 MW, incentivised by the tax-free Karakalpakstan zone.",
+        "url": "https://www.datavolt.com"
+      },
+      {
+        "name": "Global hyperscalers (no local regions)",
+        "description": "AWS, Microsoft Azure and Google Cloud serve Uzbek workloads from foreign regions; none operates an in-country region, and residual data-localization rules and the new AI amendments shape how regulated data can use them.",
+        "url": "https://aws.amazon.com"
+      }
+    ],
+    "dominance": []
+  },
+  "computeFrontier": {
+    "frontierDeveloper": "none",
+    "compute": "Early national build-out: NVIDIA-partnered clusters (~1 MW) at the digital-government data centre and universities; 125-250 MW and up-to-500 MW data-centre projects are announced or under construction, not yet delivered",
+    "chipAccess": "Fully import-reliant with no domestic fabrication; access runs through the NVIDIA partnership and foreign investors, exposed to shifts in US export-control policy"
+  },
+  "universities": [
+    {
+      "name": "Tashkent University of Information Technologies (TUIT)",
+      "description": "Uzbekistan's flagship IT university (named after Muhammad al-Khwarizmi), with a dedicated AI department, a new GPU-equipped AI cluster and research on Uzbek language models and speech recognition.",
+      "url": "https://tuit.uz/en"
+    },
+    {
+      "name": "New Uzbekistan University",
+      "description": "Tashkent research university founded in 2021 as a flagship of the reform era, focused on engineering, computer science and AI-relevant disciplines with international faculty partnerships.",
+      "url": "https://newuu.uz"
+    },
+    {
+      "name": "Inha University in Tashkent",
+      "description": "Korean-partnered IT and computer-science university in Tashkent, a significant producer of software-engineering and AI talent for the IT Park ecosystem.",
+      "url": "https://inha.uz",
+      "needsVerification": true
+    }
+  ],
+  "thinkTanks": [
+    {
+      "name": "Center for Economic Research and Reforms (CERR)",
+      "description": "Research centre under the presidential administration analysing economic reform, including the digital economy and IT-sector growth that frames Uzbekistan's AI push.",
+      "url": "https://cerr.uz/en",
+      "needsVerification": true
+    },
+    {
+      "name": "Central Asian Association for Artificial Intelligence",
+      "description": "Regional AI association chaired by veteran Uzbek diplomat Vladimir Norov (former SCO Secretary-General), promoting AI literacy and practical adoption across Central Asia.",
+      "needsVerification": true
+    },
+    {
+      "name": "Silkroad Innovation Hub",
+      "description": "Silicon Valley-based innovation hub for Central Eurasian founders and a delivery partner (with Stanford HAI and OpenAI Academy) of Uzbekistan's AI Leaders 2026 executive programme.",
+      "url": "https://silkroadinnovationhub.com",
+      "needsVerification": true
+    }
+  ],
+  "governmentInstitutions": [
+    {
+      "name": "Ministry of Digital Technologies",
+      "description": "Lead ministry for digitalisation and AI under Minister Sherzod Shermatov — drives the AI Strategy 2030, the NVIDIA partnership, data-centre investment and IT-export policy.",
+      "url": "https://gov.uz/en/digital"
+    },
+    {
+      "name": "Research Institute for the Development of Digital Technologies and Artificial Intelligence (AIRI)",
+      "description": "State AI research institute under the digital ministry, established by presidential resolution PP-4996 (2021) on the foundations of the 1960s Institute of Cybernetics; works on computer vision, speech and machine learning and partners internationally (including with Kazakhstan's ISSAI).",
+      "url": "https://airi.uz"
+    },
+    {
+      "name": "IT Park Uzbekistan",
+      "description": "State technology park and residency regime powering Uzbekistan's IT-service export model (near US$1bn annually) and increasingly its AI agenda — international partnerships, startup support and the US$5bn-by-2030 export target.",
+      "url": "https://www.it-park.uz/en"
+    },
+    {
+      "name": "Uzkomnazorat (State Inspectorate for Informatization and Telecommunications)",
+      "description": "Enforcement authority for the personal-data regime — inspections, binding orders and the register of infringers of data-subject rights — whose remit now abuts the 2026 AI amendments on unlawful AI-based data processing.",
+      "needsVerification": true
+    }
+  ],
+  "keyPeople": [
+    {
+      "name": "Shavkat Mirziyoyev",
+      "role": "President; signed the AI Strategy to 2030 (RP-358), the first AI law (LRU-1115) and the Karakalpakstan tax-free data-centre decree",
+      "affiliation": "Republic of Uzbekistan",
+      "category": "government",
+      "url": "https://president.uz/en"
+    },
+    {
+      "name": "Sherzod Shermatov",
+      "role": "Minister of Digital Technologies; chief architect of the AI and IT-export agenda and lead negotiator with NVIDIA, Firebird and data-centre investors",
+      "affiliation": "Ministry of Digital Technologies",
+      "category": "government",
+      "url": "https://gov.uz/en/digital"
+    },
+    {
+      "name": "Farkhod Ibragimov",
+      "role": "CEO of IT Park Uzbekistan, the state tech park driving IT/AI service exports and startup growth",
+      "affiliation": "IT Park Uzbekistan",
+      "category": "company_leader",
+      "url": "https://www.it-park.uz/en",
+      "needsVerification": true
+    },
+    {
+      "name": "Vladimir Norov",
+      "role": "Chairman of the Central Asian Association for Artificial Intelligence; former SCO Secretary-General and Uzbek foreign minister, advocating practical AI literacy",
+      "affiliation": "Central Asian Association for Artificial Intelligence",
+      "category": "think_tank_leader",
+      "needsVerification": true
+    }
+  ],
+  "peopleToFollow": [
+    {
+      "name": "Sherzod Shermatov",
+      "type": "person",
+      "role": "Digital Technologies Minister; the central public voice of Uzbekistan's AI strategy.",
+      "category": "government",
+      "url": "https://gov.uz/en/digital"
+    },
+    {
+      "name": "IT Park Uzbekistan",
+      "type": "organization",
+      "role": "State tech park publishing the steady drumbeat of AI partnership, export and startup news.",
+      "category": "company",
+      "url": "https://www.it-park.uz/en"
+    },
+    {
+      "name": "Kun.uz (English)",
+      "type": "organization",
+      "role": "Uzbek news outlet with consistent English-language coverage of AI legislation and digital policy.",
+      "category": "journalist",
+      "url": "https://kun.uz/en"
+    },
+    {
+      "name": "The Times of Central Asia",
+      "type": "organization",
+      "role": "Regional outlet tracking Uzbekistan's data-centre, AI and digital-economy developments in context.",
+      "category": "journalist",
+      "url": "https://timesca.com"
+    }
+  ],
+  "influenceMap": [
+    {
+      "label": "President Mirziyoyev (decrees)",
+      "type": "government"
+    },
+    {
+      "label": "Ministry of Digital Technologies",
+      "type": "agency"
+    },
+    {
+      "label": "IT Park Uzbekistan",
+      "type": "agency"
+    },
+    {
+      "label": "AIRI research institute",
+      "type": "research"
+    },
+    {
+      "label": "NVIDIA / DataVolt (foreign partners)",
+      "type": "company"
+    },
+    {
+      "label": "Uzum",
+      "type": "company"
+    }
+  ],
+  "notableGaps": [
+    {
+      "area": "No frontier lab or at-scale sovereign model",
+      "note": "Uzbekistan has no frontier or near-frontier developer, and unlike Kazakhstan's KazLLM there is no deployed sovereign LLM — Uzbek-language work (UzLM, UzRoberta, speech corpora) remains research-grade; hence frontierDeveloper 'none'."
+    },
+    {
+      "area": "Announced vs delivered infrastructure",
+      "note": "The headline compute story — 125-250 MW NVIDIA-discussed capacity, DataVolt's staged path to 500 MW, university supercomputers — is largely announced or early-stage. Delivered capacity as of mid-2026 is modest (~1 MW-scale clusters), and several claims here rest on state or investor sources."
+    },
+    {
+      "area": "Untested enforcement and thin regulatory detail",
+      "note": "The January 2026 AI amendments are brief compared with comprehensive AI laws; implementing rules, the designated regulator's practice and Uzkomnazorat's enforcement capacity are all unproven, so the gap between rules on paper and practice may be wide."
+    },
+    {
+      "area": "Limited independent scrutiny",
+      "note": "Uzbekistan has almost no independent AI-policy think-tank or civil-society layer; analysis comes mainly from state bodies, law firms and foreign observers, and constraints on media freedom limit domestic debate about AI surveillance and rights."
+    }
+  ],
+  "debates": [
+    {
+      "topic": "First AI law via amendments — light-touch or too thin?",
+      "category": "government",
+      "summary": "Uzbekistan chose to regulate AI by amending existing laws rather than passing a standalone AI code like Kazakhstan's — a deliberate light-touch bet that draws both praise for pragmatism and criticism for thinness.",
+      "expanded": "Law LRU-1115 (signed 21 January 2026) delivers targeted obligations: AI-content labeling, a bar on state decisions affecting rights resting solely on AI conclusions, and administrative penalties for unlawful AI-based data processing — a direct response to AI-enabled violations nearly tripling between 2023 and 2024. Supporters argue embedding AI rules into existing law avoids over-regulating a young ecosystem the state is trying to grow. Critics note it leaves large gaps — no risk classification, no algorithmic transparency regime, no independent oversight — and that its effect depends entirely on implementing rules and enforcement practice that do not yet exist. The comparison with Kazakhstan's comprehensive AI law will shape whether Uzbekistan holds this line or legislates further.",
+      "sourceIds": [
+        "uz-5",
+        "uz-6",
+        "uz-19"
+      ]
+    },
+    {
+      "topic": "Karakalpakstan's tax-free data-centre bet",
+      "category": "infrastructure",
+      "summary": "Uzbekistan is offering full tax exemptions to 2040 and cheap power to turn its far-western Karakalpakstan region into a data-centre hub — an audacious bet in an arid, ecologically stressed region near the Aral Sea.",
+      "expanded": "The November 2025 tax-free zone, DataVolt's staged 500 MW ambitions and the 125-250 MW facility discussed with NVIDIA and Firebird would transform Karakalpakstan into Central Asia's second data-centre cluster after Kazakhstan. Advocates point to cheap energy, land and a government willing to underwrite infrastructure; the decree's conditions on renewables and battery storage acknowledge grid constraints. Sceptics ask whether an energy-importing, water-stressed region bordering the Aral Sea disaster zone can sustainably host gigawatt-era compute, whether the exemptions will produce durable local benefit or an enclave economy, and how much of the announced pipeline will actually be built.",
+      "sourceIds": [
+        "uz-3",
+        "uz-8",
+        "uz-17"
+      ]
+    },
+    {
+      "topic": "AI skills at scale vs brain drain",
+      "category": "industry",
+      "summary": "With 9.6 million people aged 14-30, Uzbekistan is betting on mass AI-literacy and elite programmes (Stanford HAI, OpenAI Academy) to power a US$5bn export sector — while trying to keep the talent it trains.",
+      "expanded": "The skills push runs from mass AI-literacy training (over 1 million people reported trained) to the AI Leaders 2026 executive programme with Stanford HAI, OpenAI Academy and Silkroad Innovation Hub, layered on the One Million Uzbek Coders lineage and IT Park's residency incentives. The strategic question is whether Uzbekistan can convert trained people into domestic value — IT Park exports near US$1bn a year suggest the model works for services — or whether global demand for AI talent pulls its best graduates abroad. Uzum's unicorn trajectory offers an anchor for ambitious talent at home, but the ecosystem still leans heavily on outsourcing rather than product or model development.",
+      "sourceIds": [
+        "uz-9",
+        "uz-10",
+        "uz-16"
+      ]
+    }
+  ],
+  "knowledgeHub": [
+    {
+      "title": "Strategy for the Development of Artificial Intelligence Technologies until 2030 (RP-358) — official text",
+      "type": "government",
+      "author": "Lex.uz (National Legislation Database)",
+      "url": "https://lex.uz/en/docs/7159258"
+    },
+    {
+      "title": "Uzbekistan adopts first AI-focused amendments to information and administrative laws",
+      "type": "think_tank",
+      "author": "Dentons",
+      "url": "https://www.dentons.com/en/insights/articles/2026/january/29/uzbekistan-adopts-first-ai-focused-amendments-to-information-and-administrative-laws"
+    },
+    {
+      "title": "Digital Uzbekistan 2030 — policy initiative profile",
+      "type": "government",
+      "author": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/digital-uzbekistan-2030-3968"
+    },
+    {
+      "title": "AIRI.UZ — open-source Uzbek NLP and AI work",
+      "type": "github",
+      "author": "AIRI (Digital Technologies and AI Research Institute)",
+      "url": "https://github.com/airiuz"
+    },
+    {
+      "title": "Interview: Sherzod Shermatov, Minister of Digital Technologies",
+      "type": "interview",
+      "author": "The Investor Uzbekistan",
+      "url": "https://www.beyondinvestmentsgroup.com/the-investor/uzbekistan2026/sherzodshermatov"
+    }
+  ],
+  "sources": [
+    {
+      "id": "uz-1",
+      "title": "RP-358 of 14.10.2024 — On the approval of the Strategy for the Development of Artificial Intelligence Technologies until 2030",
+      "publisher": "Lex.uz (National Legislation Database of Uzbekistan)",
+      "url": "https://lex.uz/en/docs/7159258",
+      "date": "2024-10-14",
+      "category": "government"
+    },
+    {
+      "id": "uz-2",
+      "title": "Presidential Decree 'Approval of the Strategy for Artificial Intelligence Development until 2030' announced",
+      "publisher": "Ministry of Digital Technologies (digital.uz)",
+      "url": "https://digital.uz/en/news/view/24510",
+      "date": "2024-10",
+      "category": "government"
+    },
+    {
+      "id": "uz-3",
+      "title": "Uzbekistan launches tax-free zone for major AI and data centre projects to attract investors",
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/next/2025/11/18/uzbekistan-launches-tax-free-zone-for-major-ai-and-data-centre-projects-to-attract-investo",
+      "date": "2025-11-18",
+      "category": "news"
+    },
+    {
+      "id": "uz-4",
+      "title": "LRU-1115 of 21.01.2026 — On making additions and changes to certain legislative acts in connection with the regulation of relations arising from the use of artificial intelligence",
+      "publisher": "Lex.uz (National Legislation Database of Uzbekistan)",
+      "url": "https://lex.uz/en/docs/8011930",
+      "date": "2026-01-21",
+      "category": "government"
+    },
+    {
+      "id": "uz-5",
+      "title": "Uzbekistan adopts first AI-focused amendments to information and administrative laws",
+      "publisher": "Dentons",
+      "url": "https://www.dentons.com/en/insights/articles/2026/january/29/uzbekistan-adopts-first-ai-focused-amendments-to-information-and-administrative-laws",
+      "date": "2026-01-29",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "uz-6",
+      "title": "Uzbekistan tightens oversight of AI with penalties for data misuse",
+      "publisher": "Kun.uz",
+      "url": "https://kun.uz/en/news/2026/01/21/uzbekistan-tightens-oversight-of-ai-with-penalties-for-data-misuse",
+      "date": "2026-01-21",
+      "category": "news"
+    },
+    {
+      "id": "uz-7",
+      "title": "The Republic of Uzbekistan Launches Major AI Initiative with NVIDIA",
+      "publisher": "IT Park Uzbekistan",
+      "url": "https://www.it-park.uz/en/itpark/news/the-republic-of-uzbekistan-launches-major-ai-initiative-with-nvidia",
+      "date": "2025-11-07",
+      "category": "government"
+    },
+    {
+      "id": "uz-8",
+      "title": "Uzbekistan discussed building an AI data center with up to 250 MW capacity with NVIDIA",
+      "publisher": "Yangi O'zbekiston (yuz.uz)",
+      "url": "https://yuz.uz/en/news/142968",
+      "date": "2026-04-29",
+      "category": "news"
+    },
+    {
+      "id": "uz-9",
+      "title": "The $5 billion AI export plan gathering momentum in Central Asia",
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/business/2026/06/30/the-5-billion-ai-export-plan-gathering-momentum-in-central-asia",
+      "date": "2026-06-30",
+      "category": "news"
+    },
+    {
+      "id": "uz-10",
+      "title": "Uzbekistan Launches AI Leaders 2026 Program with Stanford and OpenAI",
+      "publisher": "Outsource.gov.uz (Ministry of Digital Technologies)",
+      "url": "https://www.outsource.gov.uz/en/media/uzbekistan-launches-ai-leaders-2026-program-with-stanford-and-openai",
+      "date": "2026-04",
+      "category": "government"
+    },
+    {
+      "id": "uz-11",
+      "title": "ISSAI and Uzbekistan's AIRI Sign Memorandum of Understanding to Advance AI Research and Innovation",
+      "publisher": "ISSAI, Nazarbayev University",
+      "url": "https://issai.nu.edu.kz/2026/07/17/issai-and-uzbekistans-airi-sign-memorandum-of-understanding-to-advance-ai-research-and-innovation/",
+      "date": "2026-07-17",
+      "category": "research"
+    },
+    {
+      "id": "uz-12",
+      "title": "Data protection laws in Uzbekistan — Data Protection Laws of the World",
+      "publisher": "DLA Piper",
+      "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=UZ",
+      "date": "2026",
+      "category": "expert_commentary"
+    },
+    {
+      "id": "uz-13",
+      "title": "Uzbekistan: New Requirements for Uzbek Citizens' Personal Data Localization Enter into Force",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/item/global-legal-monitor/2021-05-07/uzbekistan-new-requirements-for-uzbek-citizens-personal-data-localization-enter-into-force/",
+      "date": "2021-05",
+      "category": "government"
+    },
+    {
+      "id": "uz-14",
+      "title": "Digital Uzbekistan 2030 — policy initiative",
+      "publisher": "OECD.AI",
+      "url": "https://oecd.ai/en/dashboards/policy-initiatives/digital-uzbekistan-2030-3968",
+      "date": "2020",
+      "category": "government"
+    },
+    {
+      "id": "uz-15",
+      "title": "Resolution PP-4996 'About measures for creation of conditions for the accelerated implementation of technologies of artificial intelligence'",
+      "publisher": "CIS Legislation",
+      "url": "https://cis-legislation.com/document.fwx?rgn=130973",
+      "date": "2021-02-17",
+      "category": "government"
+    },
+    {
+      "id": "uz-16",
+      "title": "Uzbekistan's first unicorn, Uzum, leaps to a $1.5B valuation",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/05/uzbekistans-first-unicorn-uzum-leaps-to-a-1-5b-valuation/",
+      "date": "2025-08-05",
+      "category": "news"
+    },
+    {
+      "id": "uz-17",
+      "title": "Karakalpakstan to Become Data Center Hub Under Uzbekistan's Digital Strategy",
+      "publisher": "The Times of Central Asia",
+      "url": "https://timesca.com/karakalpakstan-to-become-data-center-hub-under-uzbekistans-digital-strategy/",
+      "date": "2025",
+      "category": "news"
+    },
+    {
+      "id": "uz-18",
+      "title": "Uzbekistan Launches AI Cluster at Tashkent University to Boost AI Research and Innovation",
+      "publisher": "Telecom Review Asia",
+      "url": "https://www.telecomreviewasia.com/news/policy-news/29683-uzbekistan-launches-ai-cluster-at-tashkent-university-to-boost-ai-research-and-innovation/",
+      "category": "news"
+    },
+    {
+      "id": "uz-19",
+      "title": "Uzbekistan Adopts New Law to Regulate Artificial Intelligence Use Across Sectors",
+      "publisher": "BABL AI",
+      "url": "https://babl.ai/uzbekistan-adopts-new-law-to-regulate-artificial-intelligence-use-across-sectors/",
+      "date": "2026",
+      "category": "expert_commentary"
+    }
+  ],
+  "hasMajorUpdate": true
+}

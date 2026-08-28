@@ -19,8 +19,8 @@
     36.5
   ],
   "zoom": 4.3,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 10,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 11,
   "debateTopics": [
     "AI Basic Plan implementation and the AI investment gap",
     "AI copyright compensation and voice-imitation rules",
@@ -52,6 +52,14 @@
         "jp-16"
       ],
       "needsVerification": true
+    },
+    {
+      "text": "Seven Japanese agencies -- including the National Police Agency, Financial Services Agency and Digital Agency -- jointly issued written administrative guidance (7 August 2026) to Google, Meta, LY Corporation, TikTok and X over investment-scam ads using deepfaked celebrity likenesses and voices. Platforms were asked to verify advertiser identities, disclose whether ads use generative AI, and remove impersonation ads swiftly, with concrete plans due to the Digital Agency by 16 October 2026.",
+      "date": "2026-08-07",
+      "sourceIds": [
+        "jp-17",
+        "jp-18"
+      ]
     },
     {
       "text": "SoftBank's large-scale AI data centre in Sakai, Osaka — built on the site of a former Sharp LCD plant and widely described as the anchor of 'Stargate Japan', the domestic arm of the OpenAI-SoftBank-Oracle Stargate initiative — progresses toward opening, with SoftBank planning to launch an 'AI Data Center GPU Cloud' service in Japan from October 2026 and reported plans to scale capacity toward 250MW.",
@@ -553,6 +561,22 @@
       "url": "https://www.techtimes.com/articles/323616/20260808/japan-rules-ai-voice-cloning-requires-consent-developers-face-civil-liability.htm",
       "date": "2026-08-08",
       "category": "news"
+    },
+    {
+      "id": "jp-17",
+      "title": "警察庁ら、デジタル広告プラットフォーム5社に「なりすまし詐欺広告」対策強化を要請",
+      "publisher": "Impress Internet Watch",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2131567.html",
+      "date": "2026-08-07",
+      "category": "news"
+    },
+    {
+      "id": "jp-18",
+      "title": "日本の7府省庁、SNS型投資詐欺の被害拡大でGoogle・Metaなど5社に広告主確認を要請",
+      "publisher": "Zaikei Shimbun",
+      "url": "https://www.zaikei.co.jp/article/20260808/864988.html",
+      "date": "2026-08-08",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,
@@ -564,6 +588,15 @@
     {
       "area": "Semiconductor and compute infrastructure",
       "note": "Japan's state-backed chip manufacturing buildout — including Rapidus's 2nm logic-chip programme (pilot line running in Hokkaido since April 2025, with cumulative government support reported around ¥2.35 trillion) and TSMC's JASM fabs in Kumamoto — is a major compute and industrial-policy factor for Japan's AI capacity that isn't otherwise covered here."
+    }
+  ],
+  "upcomingMilestones": [
+    {
+      "text": "Concrete anti-impersonation-ad plans from Google, Meta, LY Corporation, TikTok and X due to the Digital Agency under the seven-agency administrative guidance.",
+      "date": "2026-10-16",
+      "sourceIds": [
+        "jp-17"
+      ]
     }
   ]
 }

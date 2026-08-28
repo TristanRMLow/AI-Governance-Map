@@ -19,7 +19,7 @@
     53.2
   ],
   "zoom": 6.0,
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-28",
   "newDevelopmentsCount": 6,
   "hasMajorUpdate": true,
   "debateTopics": [
@@ -60,11 +60,13 @@
       ]
     },
     {
-      "text": "Around the EU AI Act's 2 August 2026 general-purpose AI milestone, Ireland moved to establish a National AI Office as central coordinating body, complementing the distributed sectoral competent authorities and the AI Office in Brussels that supervises the largest general-purpose models (including OpenAI, Google DeepMind, Anthropic and Meta, all with major Irish operations).",
+      "text": "The AI Office of Ireland, established as an independent statutory body under the Regulation of Artificial Intelligence Act 2026 (signed 21 July), became operational on 2 August 2026 with Paul Byrne as inaugural CEO. The office coordinates Ireland's 15 designated national competent authorities -- including the Data Protection Commission, the Central Bank and Coimisiun na Mean -- provides centralized technical expertise, and will host Ireland's AI regulatory sandbox, complementing the Brussels AI Office that supervises the largest general-purpose models (OpenAI, Google DeepMind, Anthropic and Meta all have major Irish operations).",
       "date": "2026-08-02",
       "sourceIds": [
         "ie-4",
-        "ie-8"
+        "ie-8",
+        "ie-9",
+        "ie-10"
       ],
       "severity": "major",
       "eventGroup": "eu-ai-act-gpai-aug2026"
@@ -452,6 +454,22 @@
       "url": "https://www.wangdoo.com/ireland-is-setting-up-its-own-ai-regulator-explained/",
       "date": "2026",
       "category": "news"
+    },
+    {
+      "id": "ie-9",
+      "title": "AI Office of Ireland established under the AI Regulation Bill 2026, Paul Byrne appointed as CEO",
+      "publisher": "Department of Enterprise, Tourism and Employment",
+      "url": "https://enterprise.gov.ie/en/news-and-events/department-news/2026/july/20260730.html",
+      "date": "2026-07-30",
+      "category": "government"
+    },
+    {
+      "id": "ie-10",
+      "title": "Leading AI governance in Ireland",
+      "publisher": "AI Office of Ireland",
+      "url": "https://aioffice.gov.ie/",
+      "date": "2026-08-02",
+      "category": "government"
     }
   ]
 }

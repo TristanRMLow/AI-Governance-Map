@@ -18,9 +18,9 @@
     12.5,
     42.5
   ],
-  "zoom": 5.0,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 7,
+  "zoom": 5,
+  "lastUpdated": "2026-08-28",
+  "newDevelopmentsCount": 8,
   "debateTopics": [
     "TDM copyright restriction scope contested by industry vs. rightsholders",
     "First-mover national AI law vs. EU harmonisation",
@@ -33,7 +33,7 @@
       "sentiment": "amber"
     },
     "regulatoryApproach": "National AI Law (132/2025) plus sector rules, layered atop the EU AI Act",
-    "latestMajorUpdate": "EU GPAI enforcement powers take effect 2 August 2026 atop Italy's national AI law; the Garante fines Character.AI over child-safety failings and the AI-focused LISA upgrade to the Leonardo supercomputer is inaugurated in Bologna",
+    "latestMajorUpdate": "AI Act implementing decrees definitively approved 4 August 2026, adding criminal penalties for high-risk AI safety failures",
     "governmentInvolvement": "High — first EU state with its own comprehensive AI statute, framed as digital sovereignty",
     "industrialStrategy": "Article 23 of Law 132/2025 earmarks up to €1B via the CDP Venture Capital-managed Venture Capital Support Fund; AI4I industrial AI institute in Turin; IT4LIA EuroHPC AI Factory in Bologna",
     "internationalPartnerships": "Agreement signed for a new UNU AI and big-data institute in Bologna; parliamentary ratification still pending as of mid-2026",
@@ -44,6 +44,15 @@
     "summary": "Italy moved first among EU states to legislate its own comprehensive national AI law rather than rely on the EU AI Act alone, and is now working through implementing decrees — due by October 2026 — that will help determine how strictly its national copyright and sector rules end up being enforced. From 2 August 2026 the EU's GPAI supervision and enforcement powers came into application on top of this national framework, and the Garante has continued an unusually active run of AI privacy enforcement, so the near-term direction is towards firmer, more operational oversight even as most high-risk AI Act obligations were pushed to 2027–2028."
   },
   "recentDevelopments": [
+    {
+      "text": "The Council of Ministers definitively approved two legislative decrees implementing the EU AI Act under Law 132/2025 (4 August 2026), following their June preliminary approval. The decrees regulate police use of AI (real-time biometric identification only in exceptional cases with prior judicial authorization, and a ban on mass scraping for biometric databases), AI in education, national authority powers and civil liability -- and introduce new criminal offences, including failure to adopt adequate safety measures or human oversight for high-risk AI systems where this endangers life or public safety, making Italy among the first EU states to attach criminal penalties to AI Act compliance failures.",
+      "date": "2026-08-04",
+      "severity": "major",
+      "sourceIds": [
+        "it-12",
+        "it-13"
+      ]
+    },
     {
       "text": "The EU AI Act's general-purpose AI (GPAI) supervision and enforcement powers take effect (fines up to €15M or 3% of global turnover under Article 101; Article 50 transparency duties on chatbot disclosure and AI-content/deepfake labelling begin to apply). The European Commission's AI Office is the central enforcer, while at national level Italy's ACN acts as market-surveillance authority and single EU contact point and AgID as notifying authority under Law 132/2025.",
       "date": "2026-08-02",
@@ -388,6 +397,22 @@
       "publisher": "Digital Watch Observatory",
       "url": "https://dig.watch/updates/italys-cdp-to-invest-e1-billion-in-ai-and-cybersecurity",
       "date": "2026",
+      "category": "news"
+    },
+    {
+      "id": "it-12",
+      "title": "Consiglio dei Ministri del 4 agosto 2026",
+      "publisher": "Dipartimento per gli Affari Europei",
+      "url": "https://www.affarieuropei.gov.it/it/comunicazione/notizie/cdm-4-ago-26/",
+      "date": "2026-08-04",
+      "category": "government"
+    },
+    {
+      "id": "it-13",
+      "title": "AI, Italy goes criminal",
+      "publisher": "Decode39",
+      "url": "https://decode39.com/16012/ai-italy-goes-criminal/",
+      "date": "2026-08-05",
       "category": "news"
     }
   ],

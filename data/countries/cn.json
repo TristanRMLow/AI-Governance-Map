@@ -19,8 +19,8 @@
     35.9
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-08-09",
-  "newDevelopmentsCount": 9,
+  "lastUpdated": "2026-09-24",
+  "newDevelopmentsCount": 11,
   "debateTopics": [
     "Regulating agentic AI under the new Intelligent Agents framework",
     "AI companion apps and anthropomorphic interaction rules",
@@ -46,6 +46,13 @@
   },
   "recentDevelopments": [
     {
+      "text": "DeepSeek released V4.1-Flash (10 September), a slimmed-down, very low-cost model priced at a fraction of a cent per million tokens, using a new 'causal encoder-decoder' design with lower memory use. Bloomberg framed it as intensifying price pressure on rivals from OpenAI to Anthropic and domestic challenger Z.ai — reinforcing China's cost-led, open-weight competitive strategy.",
+      "date": "2026-09-10",
+      "sourceIds": [
+        "cn-28"
+      ]
+    },
+    {
       "text": "China's companion-AI / emotional-support-AI rules — the Interim Measures for AI Anthropomorphic (human-like) Interaction Services, effective 15 July 2026 — move into an early enforcement phase. In the first roughly three weeks, the CAC is reported to have issued around 12 fines totalling some 4.2M RMB against non-compliant companion-app and emotional-chatbot providers (for gaps in filing, security assessment, minor-protection and anti-addiction safeguards); the exact figures are thinly sourced and not yet officially confirmed. This complements the existing generative-AI content-labelling regime and the July Intelligent Agents framework.",
       "date": "2026-08",
       "sourceIds": [
@@ -60,6 +67,14 @@
       "sourceIds": [
         "cn-24",
         "cn-25"
+      ]
+    },
+    {
+      "text": "The Cyberspace Administration of China reported first-phase results of its 'Qinglang' campaign to rectify improper AI applications, launched in April 2026: more than 14,000 non-compliant AI products (websites, apps and agents) removed, over 6 million pieces of illegal content cleared, some 26,000 accounts suspended, 1,300+ product listings taken down and nine illegal open-source datasets removed — targeting unregistered models, weak safety review and content filtering, data poisoning and inadequate AI-content labelling. A second phase, running through the second half of 2026, focuses on AI-generated disinformation, impersonation, harms to minors and online astroturfing, with heavier penalties signalled.",
+      "date": "2026-07-06",
+      "severity": "major",
+      "sourceIds": [
+        "cn-27"
       ]
     },
     {
@@ -709,6 +724,22 @@
       "publisher": "Caixin Global",
       "url": "https://www.caixinglobal.com/2026-07-16/chinas-first-ai-companion-rules-to-curb-addiction-protect-minors-102464887.html",
       "date": "2026-07-16",
+      "category": "news"
+    },
+    {
+      "id": "cn-27",
+      "title": "Chinese internet regulator announces progress in AI rectification campaign, with over 14,000 irregular AI products removed from cyberspace",
+      "publisher": "Global Times",
+      "url": "https://www.globaltimes.cn/page/202607/1365258.shtml",
+      "date": "2026-07-06",
+      "category": "news"
+    },
+    {
+      "id": "cn-28",
+      "title": "DeepSeek's New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
+      "publisher": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/deepseek-s-new-low-cost-model-deals-a-fresh-blow-to-openai-z-ai",
+      "date": "2026-09-10",
       "category": "news"
     }
   ],

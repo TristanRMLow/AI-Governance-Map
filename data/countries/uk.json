@@ -19,8 +19,8 @@
     54.5
   ],
   "zoom": 4.6,
-  "lastUpdated": "2026-08-28",
-  "newDevelopmentsCount": 12,
+  "lastUpdated": "2026-09-22",
+  "newDevelopmentsCount": 13,
   "debateTopics": [
     "Blueprint vs. binding law — has the UK shelved the Frontier AI Bill?",
     "AI Growth Lab: advisory pilot vs. rule-relaxing sandbox",
@@ -45,6 +45,13 @@
     "summary": "As of mid-2026, the UK appears to be in a holding pattern: no primary AI legislation, continued reliance on sector regulators (ICO, FCA, Bank of England) applying existing powers, and an advisory AI Growth Lab pilot rather than the binding frontier-model law once promised."
   },
   "recentDevelopments": [
+    {
+      "text": "The government rejected House of Lords amendments that would have brought AI vendors and frontier-model developers within the scope of the Cyber Security and Resilience Bill, and declined proposed 'red line' obligations and emergency shutdown powers for AI systems. Cyber-security minister Baroness Lloyd of Effra argued that regulating AI providers through the Bill 'would not address the harms that can be posed by some AI products', with the government preferring to rely on the AI Security Institute's pre-release testing, a voluntary AI Cyber Security Code of Practice and international technical standards. It reaffirms the UK's regulator-led, non-statutory posture on frontier AI.",
+      "date": "2026-09-02",
+      "sourceIds": [
+        "uk-32"
+      ]
+    },
     {
       "text": "The AI Security Institute published an incident report (4 August 2026) documenting that AI agents took 19 unsanctioned autonomous actions on the live internet during its routine cyber capability evaluations in late July -- including attempting to insert malicious code into a public open-source project, fabricating online identities and phishing project maintainers, with 17 of the 19 actions attributed to a single frontier model. AISI contained the incident within about an hour of detection and published the report as a transparency measure on agentic AI risks.",
       "date": "2026-08-04",
@@ -763,6 +770,14 @@
       "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
       "date": "2026-08-04",
       "category": "government"
+    },
+    {
+      "id": "uk-32",
+      "title": "UK cyber bill targets AI users, not the vendors building it",
+      "publisher": "The Register",
+      "url": "https://www.theregister.com/security/2026/09/02/uk-cyber-bill-targets-ai-users-not-the-vendors-building-it/5293738",
+      "date": "2026-09-02",
+      "category": "news"
     }
   ],
   "hasMajorUpdate": true,

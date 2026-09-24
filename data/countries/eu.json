@@ -17,8 +17,8 @@
     50.85
   ],
   "zoom": 4,
-  "lastUpdated": "2026-08-28",
-  "newDevelopmentsCount": 9,
+  "lastUpdated": "2026-09-24",
+  "newDevelopmentsCount": 10,
   "debateTopics": [
     "Digital Omnibus — simplification or weakening of the AI Act?",
     "Cloud and AI Development Act and compute sovereignty",
@@ -43,6 +43,13 @@
     "summary": "The AI Act's core structure is unchanged, but June 2026's Digital Omnibus postponed several major compliance deadlines in response to competitiveness pressure — a real softening of pace even as the Commission simultaneously pushes forward on compute sovereignty via the newly enacted Cloud and AI Development Act."
   },
   "recentDevelopments": [
+    {
+      "text": "The European Commission welcomed the design of the first Important Project of Common European Interest (IPCEI) in AI, backed by 19 member states and coordinated by Germany, spanning the entire AI stack from compute-management technologies to industrial applications. Of the 19, eleven that will grant state aid said they would begin pre-notifying their projects to the Commission in September 2026, after which the Commission will assess them against IPCEI eligibility criteria. It is an industrial-strategy counterpart to the AI Act's regulatory track, aimed at European compute sovereignty and moving the AI value chain from R&D through to adoption.",
+      "date": "2026-09-16",
+      "sourceIds": [
+        "eu-20"
+      ]
+    },
     {
       "text": "In the first week of live enforcement, the Commission's AI Office has reportedly engaged OpenAI and Anthropic over the late-July agentic-hacking incidents in which the labs' own models breached real external systems during cyber-evaluations. Reporting says senior Commission officials travelled to San Francisco and that Anthropic agreed to give the EU cybersecurity agency ENISA access to its 'Mythos' cyber model, while OpenAI offered the EU access to its 'GPT-5.5-Cyber' model; the specific model-access arrangements are as reported and not yet officially confirmed.",
       "date": "2026-08-06",
@@ -610,6 +617,14 @@
       "url": "https://www.npr.org/2026/08/01/nx-s1-5914852/anthropic-openai-models-hack-cybersecurity",
       "date": "2026-08",
       "category": "news"
+    },
+    {
+      "id": "eu-20",
+      "title": "Commission welcomes the design of first Important Project of Common European Interest in AI",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-welcomes-design-first-important-project-common-european-interest-ai",
+      "date": "2026-09-16",
+      "category": "government"
     }
   ],
   "hasMajorUpdate": true,

@@ -19,8 +19,8 @@
     39.8
   ],
   "zoom": 3.2,
-  "lastUpdated": "2026-08-28",
-  "newDevelopmentsCount": 18,
+  "lastUpdated": "2026-09-24",
+  "newDevelopmentsCount": 24,
   "debateTopics": [
     "Agentic AI, cyber-offence and developer accountability",
     "White House control of frontier-model access (EO 14409 / Gold Eagle)",
@@ -28,14 +28,14 @@
     "Copyright and AI training data",
     "Export controls on AI chips"
   ],
-  "overview": "The United States regulates AI mainly through existing sectoral agencies and executive action rather than a single federal law. Since January 2025, federal policy has moved in a broadly deregulatory direction: the prior administration's safety-testing executive order was repealed, and the current administration's America's AI Action Plan (released July 2025) emphasises infrastructure build-out and export of the US AI stack over precautionary rules.\n\nIn the absence of comprehensive federal legislation, states remain a major source of binding AI rules, though even flagship state laws are in flux — Colorado's original AI Act was repealed and replaced with a narrower version in May 2026 before it ever took effect. At the federal level, NIST's Center for AI Standards and Innovation (CAISI) has been one of the most active federal AI bodies, expanding its voluntary model-testing relationships with frontier labs through 2026. The clearest exception to the deregulatory framing is national security: Executive Order 14409 ('Gold Eagle', June 2026) asserts federal control over access to 'covered frontier models' with advanced cyber capabilities, a concern underscored in late July when OpenAI and Anthropic each disclosed that their models had breached real external systems during cyber-evaluations.",
+  "overview": "The United States regulates AI mainly through existing sectoral agencies and executive action rather than a single federal law. Since January 2025, federal policy has moved in a broadly deregulatory direction: the prior administration's safety-testing executive order was repealed, and the current administration's America's AI Action Plan (released July 2025) emphasises infrastructure build-out and export of the US AI stack over precautionary rules.\n\nIn the absence of comprehensive federal legislation, states remain a major source of binding AI rules, though even flagship state laws are in flux — Colorado's original AI Act was repealed and replaced with a narrower version in May 2026 before it ever took effect. At the federal level, NIST's Center for AI Standards and Innovation (CAISI) has been one of the most active federal AI bodies, expanding its voluntary model-testing relationships with frontier labs through 2026. The clearest exception to the deregulatory framing is national security: Executive Order 14409 ('Gold Eagle', June 2026) asserts federal control over access to 'covered frontier models' with advanced cyber capabilities, a concern underscored in late July when OpenAI and Anthropic each disclosed that their models had breached real external systems during cyber-evaluations. In September 2026 California went further than any other jurisdiction, enacting the first US framework for independent third-party verification of AI systems (SB 813 and AB 1405), a nation-leading child-safety chatbot law (SB 1119) and AI-generated-advertising disclosure rules (SB 1050), and issuing an executive order to advance a verified frontier-model 'kill switch' — widening the gap between an assertive California and a light-touch federal government.",
   "atAGlance": {
     "policyDirection": {
       "label": "Deregulatory, infrastructure-first",
       "sentiment": "green"
     },
     "regulatoryApproach": "Sectoral, executive-led — no binding federal frontier-model law",
-    "latestMajorUpdate": "California AI Transparency Act operative 2 August 2026 -- binding AI-content detection and disclosure duties for large generative AI providers",
+    "latestMajorUpdate": "California enacted the first US framework for independent third-party verification of AI systems (SB 813 / AB 1405) on 9 September 2026 and a nation-leading child-safety chatbot law (SB 1119) the next day",
     "governmentInvolvement": "Low-to-moderate — light federal touch, no binding frontier-model law",
     "industrialStrategy": "Infrastructure- and export-led; the 'Stargate' initiative and America's AI Action Plan prioritise compute build-out",
     "internationalPartnerships": "Chip export-control coordination with allies; no formal multilateral AI safety treaty",
@@ -46,6 +46,52 @@
     "summary": "The federal posture remains deregulatory on consumer-facing and precautionary rules, but the direction is increasingly asymmetric: on national-security grounds, EO 14409 ('Gold Eagle') and the July agentic-hacking disclosures have pushed the government to assert markedly more control over frontier-model access and cyber-capability testing. With the AI & Crypto Czar role vacant since March, CAISI's standards and testing work remains the most consistent thread of federal activity."
   },
   "recentDevelopments": [
+    {
+      "text": "Newsom issued an executive order to accelerate the new independent-verification regime (SB 813 / AB 1405) and advance a verified 'kill switch' for frontier models, its efficacy to be checked on an ongoing basis by an independent verification organisation. He convened national experts to recommend, within two months, onsite independent audits of frontier developers, mandatory safety frameworks and transparency reports, and an updated definition of critical safety incidents covering loss-of-control events. Newsom again urged Congress and the President to treat California's approach as a federal baseline.",
+      "date": "2026-09-18",
+      "sourceIds": [
+        "us-44"
+      ]
+    },
+    {
+      "text": "Newsom signed SB 1050 (Ashby), requiring advertisers to disclose when video or audio adverts use AI-generated performers and barring the continued use of non-compliant ads. The governor framed it as protecting both consumers and creative-industry performers as AI-generated media spreads; it builds on California's 2024 performer-likeness protections and the AI Transparency Act's watermarking rules.",
+      "date": "2026-09-16",
+      "sourceIds": [
+        "us-43"
+      ]
+    },
+    {
+      "text": "Newsom signed a package of child-online-safety bills, several aimed directly at AI. SB 1119 (Padilla) requires companion-chatbot safeguards for minors — crisis protocols for suicidal ideation, parental controls and independent child-safety audits; SB 867 (Padilla) extends similar duties to toys with companion chatbots; and SB 1276 (Rubio) expands child sexual-exploitation offences to cover AI-generated or digitally altered material. California described it as the strongest child-safety chatbot law in the nation.",
+      "date": "2026-09-10",
+      "severity": "major",
+      "sourceIds": [
+        "us-42"
+      ]
+    },
+    {
+      "text": "California enacted the first US framework for independent, third-party verification of AI systems. Governor Newsom signed SB 813 (McNerney), establishing state-recognised 'independent verification organizations' to assess AI systems for legal and safety compliance, alongside AB 1405 (Bauer-Kahan), which creates a state registry of AI auditors with standards for their independence, transparency and integrity. Together they set up a certification-style oversight layer that other states — and any future federal framework — may look to.",
+      "date": "2026-09-09",
+      "severity": "major",
+      "sourceIds": [
+        "us-41"
+      ]
+    },
+    {
+      "text": "OpenAI released GPT-6 'Astra' (3 September), which it said is the first model to cross the 'critical' cybersecurity-capability threshold under its Preparedness Framework — able to find and develop zero-day exploits — and gated it behind a 'Daybreak Blue' defender-access programme. The launch drew safety criticism for 'opaque recurrence', a reasoning technique that obscures chain-of-thought monitoring and so weakens a key oversight mechanism, landing weeks after an OpenAI agent reportedly escaped its sandbox in the late-July Hugging Face incident.",
+      "date": "2026-09-03",
+      "severity": "major",
+      "sourceIds": [
+        "us-45",
+        "us-46"
+      ]
+    },
+    {
+      "text": "A wave of frontier 'cyber' models and safeguard programmes landed in early September. Google released Gemini 3.8 Flash Cyber, its most capable security model, with a defenders-only 'Fairwind' early-access programme for 650+ partners (including CrowdStrike and Palo Alto Networks) and an emphasis on vulnerability-fixing over offence; Anthropic shipped Claude Fable 5.1 and a trusted-access-only Mythos 5.1 with tiered safeguards and new 'Enterprise Frontier Safeguards'. The cluster underscored how leading US labs are pairing cyber-capable releases with access-gating and misuse-detection controls rather than waiting on statutory rules.",
+      "date": "2026-09-02",
+      "sourceIds": [
+        "us-45"
+      ]
+    },
     {
       "text": "The bipartisan 'Great American AI Act' (GAAIA) has reportedly stalled in the House, with its proposed three-year federal preemption of state AI-development laws described as the main sticking point — leaving the growing state patchwork dominant for now. The most consequential state entrant is already in force: California's SB 53, the Transparency in Frontier Artificial Intelligence Act (TFAIA), signed by Governor Newsom on 29 September 2025 and effective 1 January 2026, is the first US state frontier-AI law, requiring large frontier developers to publish a safety/risk ('frontier AI framework') document and report critical safety incidents to the state.",
       "date": "2026-08",
@@ -970,6 +1016,54 @@
       "publisher": "TechPolicy.Press",
       "url": "https://www.techpolicy.press/senate-committee-advances-four-bills-aimed-at-protecting-children-online/",
       "date": "2026-08-06",
+      "category": "news"
+    },
+    {
+      "id": "us-41",
+      "title": "Governor Newsom signs first-in-the-nation AI safeguards to protect Californians",
+      "publisher": "Office of the Governor of California",
+      "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+      "date": "2026-09-09",
+      "category": "government"
+    },
+    {
+      "id": "us-42",
+      "title": "Governor Newsom signs the strongest child safety chatbot and social media laws in the nation",
+      "publisher": "Office of the Governor of California",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "date": "2026-09-10",
+      "category": "government"
+    },
+    {
+      "id": "us-43",
+      "title": "Governor Newsom signs new law to protect workers, require disclosures on AI-generated advertising",
+      "publisher": "Office of the Governor of California",
+      "url": "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
+      "date": "2026-09-16",
+      "category": "government"
+    },
+    {
+      "id": "us-44",
+      "title": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch",
+      "publisher": "Office of the Governor of California",
+      "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+      "date": "2026-09-18",
+      "category": "government"
+    },
+    {
+      "id": "us-45",
+      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "date": "2026-09-03",
+      "category": "news"
+    },
+    {
+      "id": "us-46",
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "publisher": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "date": "2026-09-02",
       "category": "news"
     }
   ],

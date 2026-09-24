@@ -20,7 +20,7 @@
   ],
   "zoom": 3.2,
   "lastUpdated": "2026-09-24",
-  "newDevelopmentsCount": 24,
+  "newDevelopmentsCount": 26,
   "debateTopics": [
     "Agentic AI, cyber-offence and developer accountability",
     "White House control of frontier-model access (EO 14409 / Gold Eagle)",
@@ -46,6 +46,15 @@
     "summary": "The federal posture remains deregulatory on consumer-facing and precautionary rules, but the direction is increasingly asymmetric: on national-security grounds, EO 14409 ('Gold Eagle') and the July agentic-hacking disclosures have pushed the government to assert markedly more control over frontier-model access and cyber-capability testing. With the AI & Crypto Czar role vacant since March, CAISI's standards and testing work remains the most consistent thread of federal activity."
   },
   "recentDevelopments": [
+    {
+      "text": "Frontier US labs shipped a cluster of cheaper, faster flagships within 24 hours. OpenAI released GPT-6 Sol and Luna (22 September), lower-cost tiers built on Astra's methods that roughly halve API prices (Sol at $2/$10, Luna at $0.10/$0.50 per million tokens) and, OpenAI says, make about half as many mistakes as GPT-5.6. Anthropic released Claude Opus 5.5 (22 September), matching Fable 5.1-level performance at roughly 40% lower cost and 30% faster. xAI released Grok 4.7 (21 September), a 2.1-trillion-parameter model with what it calls its strongest safety guardrails yet and supplemental training data drawn from SpaceX. The burst underscores an intensifying capability-and-price race among US labs.",
+      "date": "2026-09-22",
+      "sourceIds": [
+        "us-47",
+        "us-48",
+        "us-49"
+      ]
+    },
     {
       "text": "Newsom issued an executive order to accelerate the new independent-verification regime (SB 813 / AB 1405) and advance a verified 'kill switch' for frontier models, its efficacy to be checked on an ongoing basis by an independent verification organisation. He convened national experts to recommend, within two months, onsite independent audits of frontier developers, mandatory safety frameworks and transparency reports, and an updated definition of critical safety incidents covering loss-of-control events. Newsom again urged Congress and the President to treat California's approach as a federal baseline.",
       "date": "2026-09-18",
@@ -83,6 +92,14 @@
       "sourceIds": [
         "us-45",
         "us-46"
+      ]
+    },
+    {
+      "text": "Meta released Muse Spark 1.3 (2 September), its most advanced model, to developers and across Instagram, Facebook and Meta AI. Zuckerberg called it Meta's 'biggest jump' yet in coding and agentic work; the proprietary 1M-context model completes comparable coding tasks with roughly 20% fewer tool calls and is tuned for longer-horizon agent runs — asking users when requirements are unclear and seeking confirmation before consequential actions. Pricing was held flat from version 1.2.",
+      "date": "2026-09-02",
+      "sourceIds": [
+        "us-50",
+        "us-51"
       ]
     },
     {
@@ -1065,6 +1082,46 @@
       "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
       "date": "2026-09-02",
       "category": "news"
+    },
+    {
+      "id": "us-47",
+      "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "date": "2026-09-22",
+      "category": "news"
+    },
+    {
+      "id": "us-48",
+      "title": "Anthropic releases Claude Opus 5.5 and OpenAI counters with two cheaper GPT-6 models",
+      "publisher": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models/",
+      "date": "2026-09-22",
+      "category": "news"
+    },
+    {
+      "id": "us-49",
+      "title": "xAI Launches Grok 4.7. It's Bigger, But Late to the AI Frontier Party",
+      "publisher": "Yahoo Tech",
+      "url": "https://tech.yahoo.com/ai/gemini/articles/xai-launches-grok-4-7-171603280.html",
+      "date": "2026-09-21",
+      "category": "news"
+    },
+    {
+      "id": "us-50",
+      "title": "Meta Releases AI Model Muse Spark 1.3, Edges Closer to OpenAI, Anthropic",
+      "publisher": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/meta-releases-more-powerful-ai-model-edging-closer-to-rivals",
+      "date": "2026-09-02",
+      "category": "news"
+    },
+    {
+      "id": "us-51",
+      "title": "Introducing Muse Spark 1.3",
+      "publisher": "Meta AI Research",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "date": "2026-09-02",
+      "category": "industry"
     }
   ],
   "hasMajorUpdate": true,
